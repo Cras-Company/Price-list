@@ -272,17 +272,25 @@ img {
   }
 }
 
+.main__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: -10px;
+}
 @media screen and (min-width: 768px) {
   .main__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
 .main__item {
+  margin: 10px;
   padding-bottom: 20px;
 }
 
@@ -315,6 +323,11 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--primary-text-color);
+}
+@media screen and (min-width: 480px) {
+  .main__title {
+    font-size: 22px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .main__title {

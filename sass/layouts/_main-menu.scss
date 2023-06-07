@@ -1,11 +1,17 @@
 .main__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: -10px;
+
     @media screen and (min-width: 768px) {
-        display: flex;
-        justify-content: space-around;
+        flex-wrap: nowrap;
     }
 }
 
 .main__item {
+    margin: 10px;
     padding-bottom: 20px;
 }
 
@@ -37,6 +43,10 @@
 
     text-align: center;
     color: var(--primary-text-color);
+
+    @media screen and (min-width: 480px) {
+        font-size: 22px;
+    }
 
     @media screen and (min-width: 1024px) {
         font-size: 27px;
