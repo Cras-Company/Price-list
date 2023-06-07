@@ -1,0 +1,65 @@
+.logo {
+  font-family: Cinzel, serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+
+  color: #057198;
+
+  &--mobile {
+    margin-left: 5px;
+
+    @media screen and (min-width: 480px) {
+      margin-left: 10px;
+    }
+  }
+
+  &--head {
+    color: #071d66;
+  }
+
+  &--footer {
+    color: var(--pure-white);
+  }
+
+  &--margin {
+    margin-left: 10px;
+  }
+
+  @media screen and (min-width: 480px) {
+    font-size: 35px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 25px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 35px;
+  }
+}
+
+.point {
+  font-family: Cinzel, serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+
+  color: #eea91e;
+
+  @media screen and (min-width: 480px) {
+    font-size: 35px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 25px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 35px;
+  }
+}
+
+.logo--reset {
+  margin-left: 0;
+}

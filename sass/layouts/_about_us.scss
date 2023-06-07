@@ -1,0 +1,83 @@
+.about-us {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+.about-us--flex {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.about-us__title {
+  margin: 25px 0;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.14;
+
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+
+    text-align: left;
+  }
+}
+
+.about-us p {
+  margin-bottom: 10px;
+
+  text-align: justify;
+}
+
+.about-us__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 480px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 768px) {
+   width: 350px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 400px;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+    @media screen and (min-width: 1280px) {
+    width: 500px;
+  }
+}
+
+.about-us__slogan {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-us__item {
+  list-style: disc;
+
+  margin-bottom: 10px;
+  margin-left: 34px;
+}
+
+.about-us__edge li {
+  list-style: disc;
+
+  margin-bottom: 10px;
+  margin-left: 34px;
+}

@@ -1,0 +1,276 @@
+// Основное меню хедера
+.mobile-button {
+  padding: 0;
+  border: none;
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--pure-white);
+
+  cursor: pointer;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+// Кнопка регистрации
+.reg-login__button {
+  position: relative;
+  display: block;
+
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-width: 181px;
+  min-height: 42px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--pure-white);
+
+  border: none;
+  border-radius: var(--border-radius);
+
+  z-index: 10;
+
+  overflow: hidden;
+  cursor: pointer;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #00c5eb -2%, #057198 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &::after {
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: var(--border-radius);
+    background-color: var(--pure-white);
+    opacity: 0;
+    transition: 250ms;
+  }
+
+  &__text {
+    position: relative;
+    z-index: 10;
+  }
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    opacity: 1;
+  }
+
+  &--display {
+    display: block;
+  }
+}
+
+.reg-login__button:hover,
+.reg-login__button:focus {
+  color: var(--link-color);
+}
+
+.reg-login__footer {
+  @media screen and (min-width: 480px) and (max-width: 1023px) {
+    display: flex;
+  }
+}
+
+.reg-login__button-footer,
+.reg-login--mobile-menu {
+  display: block;
+}
+
+.reg-login--mobile-menu {
+  margin-top: 30px;
+}
+
+.reg-login__button--margin {
+  margin-top: 10px;
+  @media screen and (min-width: 1280px) {
+    margin-top: 0;
+    margin-left: 22px;
+  }
+}
+
+// Кнопка поиска
+.filter__button {
+  border: 2px solid var(--pure-white);
+
+  padding: 3px 3px 0 3px;
+
+  background-color: var(--pure-white);
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border: 2px solid var(--link-color);
+    border-radius: var(--border-radius);
+  }
+}
+
+.filter__button--mobile {
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.filter__button--margin {
+  margin-left: 10px;
+}
+
+.filter__button .icon-search-cross {
+  display: none;
+}
+
+.filter__button.is-open .icon-search-cross {
+  display: block;
+}
+
+.filter__button.is-open .icon-search-loupe {
+  display: none;
+}
+
+// Кнопка магазина
+.work-list__button--position {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.modal__button-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  padding: 0;
+
+  background-color: var(--pure-white);
+  border: none;
+  border-radius: 50px;
+
+  transition: fill 250ms var(--timing-function);
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    fill: var(--link-color);
+  }
+}
+
+.form__button {
+  position: relative;
+  display: block;
+
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-width: 181px;
+  min-height: 42px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--pure-white);
+
+  border: none;
+  border-radius: var(--border-radius);
+
+  z-index: 10;
+
+  overflow: hidden;
+  cursor: pointer;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+
+  &::after {
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: var(--border-radius);
+    background-color: var(--pure-white);
+    opacity: 0;
+    transition: 250ms;
+  }
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #00c5eb -2%, #057198 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__text {
+    position: relative;
+    z-index: 10;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    opacity: 1;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--link-color);
+  }
+
+  &--margin {
+    margin-top: 30px;
+  }
+}
+
+.form__button:disabled {
+  color: var(--primary-text-color);
+
+  &::after {
+      background-color: lightgrey;
+      opacity: 1;
+    }
+  
+  cursor: auto;
+}

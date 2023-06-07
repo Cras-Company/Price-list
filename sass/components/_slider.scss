@@ -1,0 +1,103 @@
+.section--position {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.swiper {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+
+    width: 100%;
+    max-width: 1280px;
+
+    @media screen and (min-width: 480px) {
+        margin: 0 15px;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        margin: 0 25px;
+    }
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition-property: transform;
+    transform: translate3d(0px, 0, 0);
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    transition-property: transform;
+}
+
+.swiper-3d,
+.swiper-3d.swiper-css-mode .swiper-wrapper {
+    perspective: 1200px;
+}
+
+.swiper-3d .swiper-cube-shadow,
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-bottom,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-wrapper {
+    transform-style: preserve-3d;
+}
+
+.tranding-slide {
+    width: 300px;
+    height: 200px;
+}
+
+.tranding-slide .tranding-slide-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background: transparent;
+    border: none;
+
+    cursor: pointer;
+
+    @media screen and (max-width: 479px) {
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.swiper-button-prev--position {
+    left: 0;
+}
+
+.swiper-button-next--position {
+    right: 0;
+}
+
+.swiper__icon {
+    fill: #2e2e2e;;
+    transition: fill 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        fill: var(--link-color);
+    }
+}
+
+
+.about-us__slogan--position {
+    margin: 20px 0 40px 0;
+}

@@ -1,0 +1,41 @@
+.img-modal-mobile {
+    position: absolute;
+    
+    top: -17%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    @media screen and (min-width: 480px) {
+        width: 150px;
+
+        top: -17%;
+    }
+}
+
+.modal__nav-item {
+    margin-top: 20px;
+}
+
+.modal__nav-link {
+    padding: 10px 0;
+    color: #071d66;
+
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.18;
+    letter-spacing: .02em;
+
+    &:hover,
+    &:focus {
+        color: var(--link-color);
+    }
+
+    @media screen and (min-width: 480px) {
+        font-size: 35px;
+    }
+}
+
+.modal__nav-link--active {
+    color: var(--link-color);
+}

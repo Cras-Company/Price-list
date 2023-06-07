@@ -1,0 +1,62 @@
+.licence {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+.licence > p,
+.licence > h2 {
+  margin-bottom: 10px;
+
+  text-align: justify;
+}
+
+.licence > h2 {
+  margin: 25px 0;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.14;
+
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+.licence a {
+  color: var(--link-color);
+
+  text-decoration: underline;
+
+  font-family: Cinzel, serif;
+}
+
+.licence li {
+  list-style: disc;
+
+  margin-bottom: 10px;
+  margin-left: 34px;
+}
+
+.licence-margin {
+  margin-top: 30px;
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+.cras-company {
+  font-family: Cinzel, serif;
+}
