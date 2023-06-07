@@ -1,15 +1,8 @@
 .filter-shop--flex {
-  display: flex;
-
   position: relative;
 }
 
 .filter {
-  width: 100vw;
-
-  margin-right: 30px;
-  padding-bottom: 20px;
-
   position: absolute;
   z-index: 100;
 
@@ -27,7 +20,6 @@
   }
 
   @media screen and (min-width: 1024px) {
-    max-width: 275px;
     position:static;
     transform: translate(0);
   }
@@ -66,6 +58,13 @@
 // // ----------------------------------------
 // // Меню поиска
 // // ----------------------------------------
+
+.filter__main-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content:space-around;
+  }
+}
 
 .filter__menu {
   cursor: pointer;

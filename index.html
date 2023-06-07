@@ -66,16 +66,6 @@
                 </ul>
             </nav>
 
-            <div class="reg-login">
-
-                <button class="reg-login__button" type="button" data-btn-register-open>
-                    <span class="reg-login__button__text">Приєднатися</span>
-                </button>
-
-                <button class="reg-login__button reg-login__button--margin" type="button" data-btn-enter-open>
-                    <span class="reg-login__button__text">Вхід</span>
-                </button>
-            </div>
         </div>
 
     </header>
@@ -113,236 +103,6 @@
                 </li>
             </ul>
 
-            <div class="reg-login__mobile">
-            
-                <button class="reg-login__button reg-login--mobile-menu" type="button" data-btn-register-open>
-                    <span class="reg-login__button__text">Приєднатися</span>
-                </button>
-            
-                <button class="reg-login__button reg-login--mobile-menu" type="button"
-                    data-btn-enter-open>
-                    <span class="reg-login__button__text">Вхід</span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-<!-- Модальное окно регистрации -->
-    <div class="backdrop is-hidden" data-modal-register>
-        <div class="modal">
-
-            <img class="img-modal-register" src="./images/logo-bg.png" alt="Логотип" width="125px">
-
-            <button class="modal__button-close" type="button" data-modal-close>
-                <svg width="50" height="50">
-                    <use href="./images/icon/sprite.svg#logoblack"></use>
-                </svg>
-            </button>
-
-            <h2 class="modal__title">Реєстрація у компанії <span class="cinzel" lang="en">&#171;CRAS&#187;</span></h2>
-
-            <form class="modal__form" name="registration-form" autocomplete="on">
-
-                <label class="modal__label-title" for="user-name">Ім'я</label>
-                <div class="modal__case">
-                    <input
-                    id="user-name" 
-                    class="modal__input js-first-name-input" 
-                    type="text" 
-                    name="user-name"                      
-                    minlength="2"
-                    maxlength="20"
-                    placeholder="Тарас" 
-                    pattern="^[а-яА-ЯёЁіІїЇ]+$" 
-                    title="Будь ласка, вводіть тільки літери кирилиці"
-                    required>
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#form-person"></use>
-                    </svg>
-                </div>
-
-                <label class="modal__label-title" for="surname">Прізвице</label>
-                <div class="modal__case">
-                    <input 
-                    id="user-name"
-                    class="modal__input js-last-name-input" 
-                    type="text" 
-                    name="surname"                      
-                    minlength="2"
-                    maxlength="20"
-                    placeholder="Бульба" 
-                    pattern="^[а-яА-ЯёЁіІїЇ]+$" 
-                    title="Будь ласка, вводіть тільки літери кирилиці"
-                    required>
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#form-person"></use>
-                    </svg>
-                </div>
-
-                <label class="modal__label-title" for="phone">Телефон</label>
-                <div class="modal__case">
-                    <input 
-                    id="phone" 
-                    class="modal__input" 
-                    type="tel" 
-                    name="phone" 
-                    value="+380 (__) ___-__-__"
-                    pattern="^\+380(\s+)?\(?(39|50|63|66|67|68|91|92|93|94|95|96|97|98|99)\)?(\s+)?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"
-                    title="такого номера в Україні не існує">
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#form-phone"></use>
-                    </svg>
-                </div>
-
-                <label class="modal__label-title" for="email">Пошта</label>
-                <div class="modal__case">
-                    <input 
-                    id="email"
-                    class="modal__input" 
-                    type="email" 
-                    name="email"                      
-                    minlength="6"
-                    placeholder="crascompany@gmail.com"
-                    pattern="^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$"            
-                    required>
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#form-email"></use>
-                    </svg>
-                </div>
-
-                <label class="modal__label-title" for="password">Пароль</label>
-                <div class="modal__case">
-                    <input 
-                    id="password-register"
-                    class="modal__input" 
-                    type="password" 
-                    name="password"                      
-                    minlength="6" 
-                    maxlength="16"
-                    placeholder="madeInFuture2023" 
-                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
-                    title="Пароль повинен містити латинськими симвомами мінімум одну велику літеру, одну малу літеру і цифру"
-                    required>
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#password"></use>
-                    </svg>
-                    <svg id="register-eye-close" class="modal__icon modal__icon--rigth" width="30" height="30">
-                        <use href="./images/icon/sprite.svg#icon-eye-close"></use>
-                    </svg>
-                    <svg id="register-eye-open" class="modal__icon modal__icon--rigth js-icon-close" width="30" height="30">
-                        <use href="./images/icon/sprite.svg#icon-eye-open"></use>
-                    </svg>         
-                </div>
-
-                <!-- <label class="modal__label-title" for="password">Підтвердіть пароль</label>
-                <div class="modal__case">
-                    <input 
-                    id="password"
-                    class="modal__input" 
-                    type="password" 
-                    name="password"                      
-                    minlength="6" 
-                    maxlength="16"
-                    placeholder="madeInFuture2023" 
-                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
-                    title="Пароль повинен містити латинськими симвомами мінімум одну велику літеру, одну малу літеру і цифру"
-                    required>
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#password-confirm"></use>
-                    </svg>
-                </div> -->
-
-                <div class="modal__license">
-                    <Label class="modal__license-label" for="license">
-                        <input 
-                        id="license"
-                        class="modal__checkbox js-modal__checkbox" 
-                        type="checkbox" 
-                        name="agree" 
-                        value="license">
-                        <svg class="modal__checkbox-icon" width="20" height="20">
-                            <use class="modal__icon-unchecked" href="./images/icon/sprite.svg#cube"></use>
-                            <use class="modal__icon-checked" href="./images/icon/sprite.svg#icon_check"></use>
-                        </svg>
-
-                        <div> Я, <b><span id="first-name-output"> Тарас</span></b>
-                            <b><span id="last-name-output"> Бульба</span></b>, <br>
-                            підтверджую та приймаю <br class="br-license">
-                            <a class="modal__license-link" href="./licence.html" target="_blank">Угоду
-                                користувача
-                            </a>
-                        </div>
-                    </Label>
-
-                </div>
-
-                <button class="form__button js-form__button" type="submit" disabled>
-
-                    <span class="form__button__text">Приєднатися</span>
-                </button>
-            </form>
-        </div>
-    </div>
-
-<!-- Модальное окно входа -->
-    <div class="backdrop is-hidden" data-modal-enter>
-        
-        <div class="modal modal--corrective">
-
-            <img class="img-modal-enter" src="./images/logo-bg.png" alt="Логотип" width="125px">
-    
-            <button class="modal__button-close" type="button" data-modal-close>
-                <svg width="50" height="50">
-                    <use href="./images/icon/sprite.svg#logoblack"></use>
-                </svg>
-            </button>
-    
-            <h2 class="modal__title">Вітаємо у компанії <span class="cinzel" lang="en">&#171;CRAS&#187;</span></h2>
-    
-            <form class="modal__form" name="enter-form" autocomplete="on">
-    
-                <label class="modal__label-title" for="email">Пошта</label>
-
-                <div class="modal__case">
-
-                    <input id="email" class="modal__input" type="email" name="email" minlength="6"
-                        placeholder="crascompany@gmail.com" pattern="^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$"
-                        required>
-
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#form-email"></use>
-                    </svg>
-                </div>
-    
-                <label class="modal__label-title" for="password">Пароль</label>
-
-                <div class="modal__case">
-
-                    <input id="password-enter" class="modal__input" type="password" name="password" minlength="6" maxlength="16"
-                        placeholder="madeInFuture2023" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
-                        title="Пароль повинен містити латинськими симвомами мінімум одну велику літеру, одну малу літеру і цифру"
-                        required>
-
-                    <svg class="modal__icon" width="18" height="18">
-                        <use href="./images/icon/sprite.svg#password"></use>
-                    </svg>
-
-                    <svg id="enter-eye-close" class="modal__icon modal__icon--rigth" width="30" height="30">
-                        <use href="./images/icon/sprite.svg#icon-eye-close"></use>
-                    </svg>
-
-                    <svg id="enter-eye-open" class="modal__icon modal__icon--rigth js-icon-close" width="30" height="30">
-                        <use href="./images/icon/sprite.svg#icon-eye-open"></use>
-                    </svg>
-                </div>
-
-                <a class="link-recovery" href="#">Забули свій пароль?</a>
-    
-                <button class="form__button form__button--margin" type="submit">
-    
-                    <span class="form__button__text">Вхід</span>
-                </button>
-            </form>
         </div>
     </div>
 
@@ -353,250 +113,28 @@
 
             <h1 class="title">Вітаємо у магазині компанії <span class="cinzel" lang="en">&#171;CRAS&#187;</span></h1>
 
-            <div class="filter-shop--flex">
+            <ul class="main__list">
 
-                <div class="filter" id="filter" data-filter-menu>
+                <li class="main__item">
+                    <a href="">
+                    
+                        <img class="main__img" src="./images/main/household_chemicals.jpg" alt="household_chemicals" width="600">
+                    
+                        <h2 class="main__title">Побутова хімія</h2>
+                    </a>
 
-                    <form class="filter__form">
+                </li>
 
-                        <label class="filter__title" for="search">Пошук</label>
+                <li class="main__item">
 
-                        <div class="filter__search">
-                            <input type="text" name="search" id="search" placeholder="товар, бренд, виробник" autofocus>
+                    <a href="">
 
-                            <button class="filter__button filter__button--margin" type="submit">
-                            
-                                <svg class="filter__icon-search" width="32" height="32">
-                            
-                                    <use class="icon-search-loupe" href="./images/icon/sprite.svg#search"></use>
-                                </svg>
-                            </button>
-                        </div>
-                    </form>
+                        <img class="main__img" src="./images/main/hygiene_products.jpg" alt="hygiene_products" width="600">
 
-                    <ul class="filter__main-list">
-                    
-                        <li class="filter__menu">
-                    
-                            <div class="filter__icon-title-box js-filter__menu-food">
-                    
-                                <svg class="filter__icon js-filter__icon-food-close" width="32" height="60">
-                    
-                                    <use href="./images/icon/sprite.svg#food"></use>
-                                </svg>
-                    
-                                <svg class="filter__icon-open js-filter__icon-food-open" width="32" height="60">
-                    
-                                    <use href="./images/icon/sprite.svg#food_open"></use>
-                                </svg>
-                    
-                                <h2 class="filter-icon-title__title">Продукти харчування</h2>
-                            </div>
-                    
-                            <ul class="filter__list js-filter__food-list">
-                    
-                                <li class="filter-list__item">Сухі сніданки</li>
-                    
-                                <li class="filter-list__item">М’ясні продукти</li>
-                    
-                                <li class="filter-list__item">Сирні продукти</li>
-                    
-                                <li class="filter-list__item">Макарони</li>
-                    
-                                <li class="filter-list__item">Консервована продукція та паштети</li>
-                    
-                                <li class="filter-list__item">Оливки і оливкове масло</li>
-                    
-                                <li class="filter-list__item">Модифікатори смаку</li>
-                    
-                                <li class="filter-list__item">Солодощі</li>
-                    
-                                <li class="filter__secondary-menu">
-                    
-                                    <div class="filter__secondary-icon-title-box filter__secondary-icon-title-box--margin js-filter__secondary-menu-food">
-                    
-                                        <svg class="filter__icon-secondary js-filter__secondary-icon-food-close" width="30" height="32">
-                    
-                                            <use href="./images/icon/sprite.svg#tea-cofee"></use>
-                                        </svg>
-                    
-                                        <svg class="filter__icon-secondary-open icon--position-cofee js-filter__secondary-icon-food-open"
-                                            width="39" height="32">
-                    
-                                            <use href="./images/icon/sprite.svg#tea-cofee_open"></use>
-                                        </svg>
-                    
-                                        <h3 class="filter-icon-title__secondary-title">Чай, кава, капучіно, сік</h3>
-                                    </div>
-                    
-                                    <ul class="filter__secondary-list js-filter__food-secondary-list">
-                    
-                                        <li class="filter__tea-coffee">Чай</li>
-                    
-                                        <li class="filter__tea-coffee">Кава в зернах</li>
-                    
-                                        <li class="filter__tea-coffee">Мелена кава</li>
-                    
-                                        <li class="filter__tea-coffee">Розчинна кава та капучіно</li>
-                    
-                                        <li class="filter__tea-coffee">Сік</li>
-                                    </ul>
-                    
-                                </li>
-                    
-                                <li class="filter-list__item filter-list__item--padding">Інші продукти харчування</li>
-                            </ul>
-                        </li>
-                    
-                        <li class="filter__menu">
-                    
-                            <div class="filter__icon-title-box js-filter__menu-chemical">
-                    
-                                <svg class="filter__icon js-filter__icon-chemical-close" width="32" height="40">
-                    
-                                    <use href="./images/icon/sprite.svg#chemical"></use>
-                                </svg>
-                    
-                                <svg class="filter__icon-open js-filter__icon-chemical-open" width="32" height="40">
-                    
-                                    <use href="./images/icon/sprite.svg#chemical_open"></use>
-                                </svg>
-                    
-                                <h2 class="filter-icon-title__title">Побудтова хімія</h2>
-                            </div>
-                    
-                            <ul class="filter__list js-filter__chemical-list">
-                    
-                                <li class="filter__secondary-menu">
-                    
-                                    <div class="filter__secondary-icon-title-box js-filter__secondary-menu-chemical">
-                    
-                                        <svg class="filter__icon-secondary js-filter__secondary-icon-chemical-close" width="32" height="32">
-                    
-                                            <use href="./images/icon/sprite.svg#wash"></use>
-                                        </svg>
-                    
-                                        <svg class="filter__icon-secondary-open icon--position-wash js-filter__secondary-icon-chemical-open"
-                                            width="32" height="32">
-                    
-                                            <use href="./images/icon/sprite.svg#wash_open"></use>
-                                        </svg>
-                    
-                                        <h3 class="filter-icon-title__secondary-title">Засоби для миття</h3>
-                                    </div>
-                    
-                                    <ul class="filter__secondary-list js-filter__chemical-secondary-list">
-                    
-                                        <li>Порошки</li>
-                    
-                                        <li>Гелі для прання</li>
-                    
-                                        <li>Капсули та таблетки</li>
-                    
-                                        <li>Ополіскувачі</li>
-                    
-                                        <li>Засоби для миття посуду</li>
-                    
-                                        <li>Інші засоби для миття</li>
-                                    </ul>
-                    
-                                </li>
-                    
-                                <li class="filter-list__item">Засоби для чищення</li>
-                    
-                                <li class="filter-list__item">Засоби для дезінфекції</li>
-                    
-                                <li class="filter-list__item">Освіжувачі та ароматизатори повітря</li>
-                    
-                                <li class="filter-list__item filter-list__item--padding">Засоби для виведення плям</li>
-                            </ul>
-                        </li>
-                    
-                        <li class="filter__menu">
-                    
-                            <div class="filter__icon-title-box js-filter__menu-gigiena">
-                    
-                                <svg class="filter__icon js-filter__icon-gigiena-close" width="32" height="50">
-                    
-                                    <use href="./images/icon/sprite.svg#gigiena"></use>
-                                </svg>
-                    
-                                <svg class="filter__icon-open icon--position-gigiena js-filter__icon-gigiena-open" width="32" height="50">
-                    
-                                    <use href="./images/icon/sprite.svg#gigiena_open"></use>
-                                </svg>
-                    
-                                <h2 class="filter-icon-title__title">Засоби гігієни</h2>
-                            </div>
-                    
-                            <ul class="filter__list js-filter__gigiena-list">
-                                <li class="filter-list__item">Для волосся</li>
-                                <li class="filter-list__item">Для гоління</li>
-                                <li class="filter-list__item">Зубна паста</li>
-                                <li class="filter-list__item">Гелі</li>
-                                <li class="filter-list__item">Мило</li>
-                                <li class="filter-list__item filter-list__item--padding">Інші засоби гігієни</li>
-                            </ul>
-                        </li>
-                    
-                        <li class="filter__menu">
-                    
-                            <div class="filter__icon-title-box js-filter__menu-medicine">
-                    
-                                <svg class="filter__icon js-filter__icon-medicine-close" width="32" height="32">
-                    
-                                    <use href="./images/icon/sprite.svg#tablet"></use>
-                                </svg>
-                    
-                                <svg class="filter__icon-open js-filter__icon-medicine-open" width="32" height="32">
-                    
-                                    <use href="./images/icon/sprite.svg#tablet-open"></use>
-                                </svg>
-                    
-                                <h2 class="filter-icon-title__title">Медицина</h2>
-                            </div>
-                    
-                            <ul class="filter__list js-filter__medicine-list">
-                                <li class="filter-list__item">Вітаміни</li>
-                                <li class="filter-list__item filter-list__item--padding">Лікувальні засоби</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    
-                    <h2 class="filter__title">Бренди</h2>
-                    
-                    <h2 class="filter__title">Всі бренди</h2>
-                    
-                    <h2 class="filter__title">Виробник</h2>
-                    
-                    <button class="reg-login__button reg-login__button--display" type="submit">
-                        <span class="reg-login__button__text">Фільтрувати</span>
-                    </button>
-                </div>
-
-                <div class="shop">
-
-                    <div class="shop_filter">
-
-                        <button class="filter__button filter__button--mobile" type="button" aria-expanded="false" aria-controls="filter"
-                            data-mobile-search-button>
-                        
-                            <svg class="filter__icon-search" width="32" height="32" aria-label="Перемикач мобільного пошуку">
-                        
-                                <use class="icon-search-loupe" href="./images/icon/sprite.svg#search"></use>
-
-                                <use class="icon-search-cross" href="./images/icon/sprite.svg#icon-cross"></use>
-                            </svg>
-                        </button>
-                        
-                        <h2 class="shop__title">Сортувати</h2>
-                    </div>
-
-                    <ul class="shop__list js-shop__list"></ul>
-
-                    <p class="output-error js-output-error"></p>
-                </div>
-            </div>
+                        <h2 class="main__title">Засоби гігієни</h2>
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
 
@@ -686,13 +224,13 @@
             
                     <li class="contacts__item">
             
-                        <a class="contacts__link" href="mailto:cras.company@gmail.com">
+                        <a class="contacts__link" href="mailto:orders.cras@gmail.com">
             
                             <svg class="contacts__icon" width="16" height="12">
             
                                 <use href="./images/icon/sprite.svg#head-envelope"></use>
                             </svg>
-                            cras.company@gmail.com
+                            orders.cras@gmail.com
                         </a>
                     </li>
             
@@ -768,16 +306,6 @@
 
             </div>
 
-            <div class="reg-login__footer">
-
-                <button class="reg-login__button reg-login__button-footer" type="button" data-btn-register-open>
-                    <span class="reg-login__button__text">Приєднатися</span>
-                </button>
-
-                <button class="reg-login__button reg-login__button-footer reg-login__button--margin-footer" type="button" data-btn-enter-open>
-                    <span class="reg-login__button__text">Вхід</span>
-                </button>
-            </div>
         </div>
     </section>
 
@@ -793,7 +321,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script type="module" src="./js/modal.js"></script>
-    <script type="module" src="./js/register-form.js"></script>
     <script type="module" src="./js/filters&shop.js"></script>
 </body>
 
