@@ -1195,7 +1195,7 @@ body.modal-open {
   }
 }
 .modal--mobile-menu {
-  min-height: 300px;
+  min-height: 230px;
 }
 .modal--corrective {
   padding-top: 70px;
