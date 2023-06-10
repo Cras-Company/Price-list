@@ -1865,6 +1865,14 @@ body.modal-open {
   transition-property: transform, -webkit-transform;
 }
 
+.swiper-slide {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: 6px solid var(--link-color);
+  border-radius: 19px;
+  background-color: var(--link-color);
+}
+
 .swiper-3d,
 .swiper-3d.swiper-css-mode .swiper-wrapper {
   -webkit-perspective: 1200px;

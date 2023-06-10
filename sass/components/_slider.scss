@@ -37,6 +37,14 @@
     transition-property: transform;
 }
 
+// Ручная
+.swiper-slide {
+    box-sizing: content-box;
+    border: 6px solid var(--link-color);
+    border-radius: 19px;
+    background-color: var(--link-color);
+}
+
 .swiper-3d,
 .swiper-3d.swiper-css-mode .swiper-wrapper {
     perspective: 1200px;
