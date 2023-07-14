@@ -734,6 +734,77 @@ img {
   opacity: 1;
 }
 
+.application-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+}
+
+.secondary-application-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.14;
+}
+
+.cras-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -10px;
+}
+.cras-item--margin {
+  margin: 10px;
+}
+
+.cras-item__description {
+  min-width: 333px;
+}
+
+.cras-item__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.cras-item__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+}
+
+.cras-item__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.14;
+  color: #057198;
+}
+.cras-item__text--margin {
+  margin-left: 13px;
+}
+.cras-item__text--margin-sub {
+  margin-bottom: 13px;
+}
+
+.cras-item__name {
+  margin-bottom: 13px;
+}
+.cras-item__name--margin {
+  margin-bottom: 3px;
+}
+
+.cras-item--width {
+  max-width: 750px;
+}
+
+.cras-item__secondary-description {
+  margin-bottom: 13px;
+}
+
 .contacts {
   color: var(--pure-white);
   background-color: #06071b;
