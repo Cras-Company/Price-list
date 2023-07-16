@@ -2,30 +2,68 @@
     margin-bottom: 30px;
 
     font-weight: 700;
-    font-size: 26px;
+    font-size: 16px;
     line-height: 1.14;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 26px;
+    }
 }
 
 .secondary-application-title {
     margin-bottom: 30px;
     
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.14;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 18px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 20px;
+    }
+}
+
+.cras-list {
+    margin: -10px;
 }
 
 .cras-item {
     display: flex;
     flex-wrap: wrap;
-    margin: -10px;
+    margin: 10px;
 
     &--margin {
         margin: 10px;
     }
 }
 
+.cras-item__img {
+    height: fit-content;
+
+    @media screen and (max-width: 1023px) {
+        width: 250px;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        width: 275px;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
 .cras-item__description {
-    min-width: 333px;
+    min-width: 300px;
 }
 
 .cras-item__element {
@@ -36,14 +74,24 @@
 
 .cras-item__title {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.14;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 14px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+    }
 }
 
 .cras-item__text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.14;
+
+    text-align: justify;
 
     color: #057198;
 
@@ -53,6 +101,14 @@
 
     &--margin-sub {
         margin-bottom: 13px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 14px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
     }
 }
 
@@ -65,7 +121,17 @@
 }
 
 .cras-item--width {
-    max-width: 750px;
+    @media screen and (min-width: 1280px) {
+        max-width: 570px;
+    }
+
+    @media screen and (min-width: 1382px) {
+        max-width: 666px;
+    }
+
+    @media screen and (min-width: 1500px) {
+        max-width: 795px;
+    }
 }
 
 .cras-item__secondary-description {

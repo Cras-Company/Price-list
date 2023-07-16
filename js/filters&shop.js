@@ -64,15 +64,15 @@
 // Анимация Lazy-loading
 // ===========================================================================
 
-const lazyImages = document.querySelectorAll(
-  'img[class="lazyload work-list-item__img"]'
-);
+// const lazyImages = document.querySelectorAll(
+//   'img[class="lazyload work-list-item__img"]'
+// );
 
-lazyImages.forEach((image) => {
-  image.addEventListener("load", function () {
-    image.classList.add("appear");
-  });
-});
+// lazyImages.forEach((image) => {
+//   image.addEventListener("load", function () {
+//     image.classList.add("appear");
+//   });
+// });
 
 // ===========================================================================
 // Поиск в фильтре
@@ -169,69 +169,69 @@ lazyImages.forEach((image) => {
 // ===========================================================================
 // Побутова хімія
 // ===========================================================================
-const filterMenuChemical = document.querySelector(".js-filter__menu-chemical");
-const filterSecondaryMenuChemical = document.querySelector(
-  ".js-filter__secondary-menu-chemical"
-);
+// const filterMenuChemical = document.querySelector(".js-filter__menu-chemical");
+// const filterSecondaryMenuChemical = document.querySelector(
+//   ".js-filter__secondary-menu-chemical"
+// );
 
-const filterChemicalList = document.querySelector(".js-filter__chemical-list");
-const filterChemicalSecondaryList = document.querySelector(
-  ".js-filter__chemical-secondary-list"
-);
+// const filterChemicalList = document.querySelector(".js-filter__chemical-list");
+// const filterChemicalSecondaryList = document.querySelector(
+//   ".js-filter__chemical-secondary-list"
+// );
 
-const filterIconChemicalClose = document.querySelector(
-  ".js-filter__icon-chemical-close"
-);
-const filterIconChemicalOpen = document.querySelector(
-  ".js-filter__icon-chemical-open"
-);
+// const filterIconChemicalClose = document.querySelector(
+//   ".js-filter__icon-chemical-close"
+// );
+// const filterIconChemicalOpen = document.querySelector(
+//   ".js-filter__icon-chemical-open"
+// );
 
-const filterSecondaryIconChemicalOpen = document.querySelector(
-  ".js-filter__secondary-icon-chemical-open"
-);
-const filterSecondaryIconChemicalClose = document.querySelector(
-  ".js-filter__secondary-icon-chemical-close"
-);
+// const filterSecondaryIconChemicalOpen = document.querySelector(
+//   ".js-filter__secondary-icon-chemical-open"
+// );
+// const filterSecondaryIconChemicalClose = document.querySelector(
+//   ".js-filter__secondary-icon-chemical-close"
+// );
 
-const filterIconChemicalHandler = () => {
-  filterIconChemicalClose.classList.toggle("js-icon-close");
-  filterIconChemicalOpen.classList.toggle("js-icon-open");
-  filterChemicalList.classList.toggle("js-filter-list-open");
-};
+// const filterIconChemicalHandler = () => {
+//   filterIconChemicalClose.classList.toggle("js-icon-close");
+//   filterIconChemicalOpen.classList.toggle("js-icon-open");
+//   filterChemicalList.classList.toggle("js-filter-list-open");
+// };
 
-const filterSecondaryIconChemicalHandler = () => {
-  filterSecondaryIconChemicalClose.classList.toggle("js-icon-close");
-  filterSecondaryIconChemicalOpen.classList.toggle("js-icon-open");
-  filterChemicalSecondaryList.classList.toggle("js-filter-list-open");
-};
+// const filterSecondaryIconChemicalHandler = () => {
+//   filterSecondaryIconChemicalClose.classList.toggle("js-icon-close");
+//   filterSecondaryIconChemicalOpen.classList.toggle("js-icon-open");
+//   filterChemicalSecondaryList.classList.toggle("js-filter-list-open");
+// };
 
-filterMenuChemical.addEventListener("click", filterIconChemicalHandler);
-filterSecondaryMenuChemical.addEventListener(
-  "click",
-  filterSecondaryIconChemicalHandler
-);
+// filterMenuChemical.addEventListener("click", filterIconChemicalHandler);
+// filterSecondaryMenuChemical.addEventListener(
+//   "click",
+//   filterSecondaryIconChemicalHandler
+// );
 
 // ===========================================================================
 // Засоби гігієни
 // ===========================================================================
-const filterMenuGigiena = document.querySelector(".js-filter__menu-gigiena");
-const filterGigienaList = document.querySelector(".js-filter__gigiena-list");
+// const filterMenuGigiena = document.querySelector(".js-filter__menu-gigiena");
+// const filterGigienaList = document.querySelector(".js-filter__gigiena-list");
 
-const filterIconGigienaClose = document.querySelector(
-  ".js-filter__icon-gigiena-close"
-);
+// const filterIconGigienaClose = document.querySelector(
+//   ".js-filter__icon-gigiena-close"
+// );
 
-const filterIconGigienaOpen = document.querySelector(
-  ".js-filter__icon-gigiena-open"
-);
+// const filterIconGigienaOpen = document.querySelector(
+//   ".js-filter__icon-gigiena-open"
+// );
 
-const filterIconGigienaHandler = () => {
-  filterIconGigienaClose.classList.toggle("js-icon-close");
-  filterIconGigienaOpen.classList.toggle("js-icon-open");
-  filterGigienaList.classList.toggle("js-filter-list-open");
-};
+// const filterIconGigienaHandler = () => {
+//   filterIconGigienaClose.classList.toggle("js-icon-close");
+//   filterIconGigienaOpen.classList.toggle("js-icon-open");
+//   filterGigienaList.classList.toggle("js-filter-list-open");
+// };
 
-filterMenuGigiena.addEventListener("click", filterIconGigienaHandler);
+// filterMenuGigiena.addEventListener("click", filterIconGigienaHandler);
 
 // ===========================================================================
 // Медицина
