@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-ul {
+ul, ol {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1099,13 +1099,14 @@ img {
 .licence > h2 {
   margin: 25px 0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.14;
   text-align: center;
 }
 @media screen and (min-width: 1024px) {
   .licence > h2 {
     font-size: 24px;
+    text-align: left;
   }
 }
 
