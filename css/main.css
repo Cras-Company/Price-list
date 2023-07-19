@@ -807,7 +807,7 @@ img {
 }
 
 .cras-item__description {
-  min-width: 300px;
+  min-width: 310px;
 }
 
 .cras-item__element {
@@ -876,7 +876,7 @@ img {
 }
 @media screen and (min-width: 1500px) {
   .cras-item--width {
-    max-width: 795px;
+    max-width: 785px;
   }
 }
 
