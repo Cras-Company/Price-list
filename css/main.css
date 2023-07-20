@@ -807,7 +807,7 @@ img {
 }
 
 .cras-item__description {
-  min-width: 310px;
+  min-width: 315px;
 }
 
 .cras-item__element {
@@ -857,6 +857,10 @@ img {
   }
 }
 
+.cras-item__text--font {
+  font-size: 14.5px;
+}
+
 .cras-item__name {
   margin-bottom: 13px;
 }
@@ -866,17 +870,17 @@ img {
 
 @media screen and (min-width: 1280px) {
   .cras-item--width {
-    max-width: 570px;
+    max-width: 565px;
   }
 }
 @media screen and (min-width: 1382px) {
   .cras-item--width {
-    max-width: 666px;
+    max-width: 660px;
   }
 }
 @media screen and (min-width: 1500px) {
   .cras-item--width {
-    max-width: 785px;
+    max-width: 780px;
   }
 }
 
