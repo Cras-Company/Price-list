@@ -71,7 +71,6 @@ a {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 .container {
@@ -783,11 +782,6 @@ img {
   margin: 10px;
 }
 
-.cras-item__img {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
 @media screen and (max-width: 1023px) {
   .cras-item__img {
     width: 250px;
