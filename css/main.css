@@ -71,6 +71,9 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .container {
