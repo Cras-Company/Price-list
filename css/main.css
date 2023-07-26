@@ -1044,17 +1044,6 @@ img {
   opacity: 1;
 }
 
-@media screen and (max-width: 479px) {
-  .reg-login__button--margin-footer {
-    margin-top: 22px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .reg-login__button--margin-footer {
-    margin-top: 22px;
-  }
-}
-
 .footer {
   z-index: 10;
   border-top: 1px solid var(--pure-white);

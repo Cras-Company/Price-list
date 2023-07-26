@@ -146,16 +146,6 @@
   }
 }
 
-.reg-login__button--margin-footer {
-  @media screen and (max-width: 479px) {
-    margin-top: 22px;
-  }
-
-  @media screen and (min-width: 1024px) {
-    margin-top: 22px;
-  }
-}
-
 .footer {
   z-index: 10;
 
