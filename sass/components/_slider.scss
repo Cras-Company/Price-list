@@ -1,8 +1,9 @@
 .section--position {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
+    @media screen and (min-width: 480px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
 
 .swiper {
@@ -62,14 +63,41 @@
 }
 
 .tranding-slide {
-    width: 300px;
-    height: 200px;
+    width: 240px;
+    height: 160px;
+
+    @media screen and (min-width: 480px) {
+        width: 300px;
+        height: 200px;
+    }
 }
 
 .tranding-slide .tranding-slide-img img {
-    width: 300px;
-    height: 200px;
+    width: 240px;
+    height: 160px;
     border-radius: 30px;
+
+    @media screen and (min-width: 480px) {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+// --------------------------------------
+// Кнопки карусели
+// --------------------------------------
+
+.swiper-button--position {
+    display: flex;
+    justify-content: space-around;
+
+    @media screen and (max-width: 479px) {
+        margin-top: 20px;   
+    }
+
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
 }
 
 .swiper-button-next,
@@ -78,21 +106,18 @@
     border: none;
 
     cursor: pointer;
-
-    @media screen and (max-width: 479px) {
-        position: absolute;
-        z-index: 100;
-        top: 50%;
-        transform: translateY(-50%);
-    }
 }
 
 .swiper-button-prev--position {
-    left: 0;
+    @media screen and (max-width: 479px) {
+        display: none;
+    }
 }
 
 .swiper-button-next--position {
-    right: 0;
+    @media screen and (max-width: 479px) {
+        display: none;
+    }
 }
 
 .swiper__icon {
