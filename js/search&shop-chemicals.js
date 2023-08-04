@@ -89,9 +89,12 @@ function createListItemsMarkup(items) {
 
 import { shopLotsMeansWashingDishes } from "./array-means-washing-dishes.js";
 import { shopLotsWashingPowders } from "./array-washing-powders.js";
+import { shopLotsMeansCleaning } from "./array-means-cleaning.js";
 
 const shopListMeansWashingDishes = document.querySelector(".js-cras__list--means-washing-dishes");
 const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
+const shopListMeansCleaning = document.querySelector(".js-cras__list--means-cleaning");
 
 shopListMeansWashingDishes.innerHTML = createListItemsMarkup(shopLotsMeansWashingDishes);
 shopListWashingPowders.innerHTML = createListItemsMarkup(shopLotsWashingPowders);
+shopListMeansCleaning.innerHTML = createListItemsMarkup(shopLotsMeansCleaning);
