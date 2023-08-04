@@ -2,20 +2,6 @@
 // Динамическая разметка
 // ===========================================================================
 
-// ---------------------------------------------------------------------------
-// Детские шампуни
-// ---------------------------------------------------------------------------
-
-import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
-import { shopLotsAdultShampoos } from "./array-adult_shampoos.js";
-import { shopLotsShowerGels } from "./array-shower_gels.js";
-import { shopLotsMicellarWipes } from "./array-micellar_wipes.js";
-
-const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
-const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-shampoos");
-const shopListShowerGels = document.querySelector(".js-cras__list--shower-gels");
-const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
-
 function createListItemsMarkup(items) {
     return items.map(({ type, url, alt, marker, brand, nameEN, companyName, countryName, volume_weight,
                         priceGRN, priceUSDT, quantity, priceGRNOpt, priceUSDTOpt,
@@ -101,10 +87,11 @@ function createListItemsMarkup(items) {
     }).join("");
 }
 
-shopListBabyShampoos.innerHTML = createListItemsMarkup(shopLotsBabyShampoos);
+import { shopLotsMeansWashingDishes } from "./array-means-washing-dishes.js";
+import { shopLotsWashingPowders } from "./array-washing-powders.js";
 
-shopListAdultShampoos.innerHTML = createListItemsMarkup(shopLotsAdultShampoos);
+const shopListMeansWashingDishes = document.querySelector(".js-cras__list--means-washing-dishes");
+const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
 
-shopListShowerGels.innerHTML = createListItemsMarkup(shopLotsShowerGels);
-
-shopListMicellarWipes.innerHTML = createListItemsMarkup(shopLotsMicellarWipes);
+shopListMeansWashingDishes.innerHTML = createListItemsMarkup(shopLotsMeansWashingDishes);
+shopListWashingPowders.innerHTML = createListItemsMarkup(shopLotsWashingPowders);
