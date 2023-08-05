@@ -98,9 +98,100 @@ const shopListShowerGels = document.querySelector(".js-cras__list--shower-gels")
 const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
 
 shopListBabyShampoos.innerHTML = createListItemsMarkup(shopLotsBabyShampoos);
-
 shopListAdultShampoos.innerHTML = createListItemsMarkup(shopLotsAdultShampoos);
-
 shopListShowerGels.innerHTML = createListItemsMarkup(shopLotsShowerGels);
-
 shopListMicellarWipes.innerHTML = createListItemsMarkup(shopLotsMicellarWipes);
+
+// ===========================================================================
+// Поиск в фильтре
+// ===========================================================================
+const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
+const SectionAllBathGels = document.querySelector(".js-section-all-bath-gels");
+const SectionAllWipes = document.querySelector(".js-section-all-wipes");
+
+const JSSectionOne = document.querySelectorAll(".js-section-none");
+
+const inputSearch = document.querySelector("#search");
+const filterForm = document.querySelector(".js-filter__form");
+
+const outputError = document.querySelector(".js-output-error");
+
+inputSearch.value = "";
+
+filterForm.addEventListener("submit", handleFormSubmit);
+
+function universalSearch(items, searchItem) {
+    const searchWords = searchItem.split(" ").filter(word => word.trim() !== "");
+
+    if (searchWords.length === 0) {
+        return items;
+    }
+
+    const filteredItems = items.filter((shopLot) => {
+        for (const key in shopLot) {
+            if (typeof shopLot[key] === 'string') {
+                const lowerCaseValue = shopLot[key].toLowerCase();
+                if (searchWords.every(word => lowerCaseValue.includes(word))) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    });
+
+    return filteredItems;
+}
+
+function handleFormSubmit(event) {
+    event.preventDefault();
+
+    const searchItem = inputSearch.value.trim().toLowerCase();
+
+    const filteredBabyShampoos = universalSearch(shopLotsBabyShampoos, searchItem);
+    const filteredAdultShampoos = universalSearch(shopLotsAdultShampoos, searchItem);
+    const filteredShowerGels = universalSearch(shopLotsShowerGels, searchItem);
+    const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
+
+    const allFilteredItems = [...filteredBabyShampoos, ...filteredAdultShampoos, ...filteredShowerGels, ...filteredMicellarWipes];
+
+    if (allFilteredItems.length === 0) {
+        outputError.textContent = "Нажаль, такого товару у нас не має :(";
+        outputError.style.marginTop = "60px";
+        outputError.style.marginBottom = "60px";
+        shopListBabyShampoos.innerHTML = "";
+        shopListAdultShampoos.innerHTML = "";
+        shopListShowerGels.innerHTML = "";
+        shopListMicellarWipes.innerHTML = "";
+        JSSectionOne.forEach((section) => {
+            section.style.display = "none";
+        });
+        return;
+    } else {
+        outputError.textContent = "";
+        outputError.style.marginTop = "0px";
+        outputError.style.marginBottom = "0px";
+        JSSectionOne.forEach((section) => {
+            section.style.display = "block";
+        });
+    }
+
+    if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
+        shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
+        shopListAdultShampoos.innerHTML = createListItemsMarkup(filteredAdultShampoos);
+    } else {
+        SectionAllShampoos.style.display = "none";
+    }
+
+    const shopsections = [
+        { element: shopListShowerGels, items: filteredShowerGels, section: SectionAllBathGels },
+        { element: shopListMicellarWipes, items: filteredMicellarWipes, section: SectionAllWipes }
+    ];
+
+    shopsections.forEach(shopsection => {
+        if (shopsection.items.length > 0) {
+            shopsection.element.innerHTML = createListItemsMarkup(shopsection.items);
+        } else {
+            shopsection.section.style.display = "none";
+        }
+    });
+}

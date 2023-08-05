@@ -116,6 +116,28 @@
 
         <section class="container section">
 
+            <form class="filter__form js-filter__form">
+            
+                <label class="filter__title" for="search">Пошук</label>
+            
+                <div class="filter__search">
+            
+                    <input type="text" name="search" id="search" placeholder="ТІЛЬКИ у засобах гігієни"
+                        autofocus>
+            
+                    <button class="filter__button filter__button--margin" type="submit">
+            
+                        <svg class="filter__icon-search" width="32" height="32">
+            
+                            <use class="icon-search-loupe" href="./images/icon/sprite.svg#search"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section class="container section js-section-none js-section-all-shampoos">
+
             <h2 class="application-title">Шампуні для волосся</h2>
 
             <h3 class="secondary-application-title">Для дітей</h3>
@@ -127,19 +149,21 @@
             <ul class="cras-list js-cras__list--adult-shampoos"> </ul>
         </section>
 
-        <section class="container section">
+        <section class="container section js-section-none js-section-all-bath-gels">
 
             <h2 class="application-title">Гелі для душу</h2>
 
             <ul class="cras-list js-cras__list--shower-gels"></ul>
         </section>
 
-        <section class="container section">
+        <section class="container section js-section-none js-section-all-wipes">
             
             <h2 class="application-title">Міцелярні серветки</h2>
             
             <ul class="cras-list js-cras__list--micellar-wipes"></ul>
         </section>
+
+        <p class="output-error js-output-error"></p>
     </main>
 
     <!-- Футер -->
