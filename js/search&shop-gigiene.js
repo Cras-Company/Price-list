@@ -87,10 +87,17 @@ function createListItemsMarkup(items) {
     }).join("");
 }
 
+// ===========================================================================
+// Импорт массивов
+// ===========================================================================
 import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./array-adult_shampoos.js";
 import { shopLotsShowerGels } from "./array-shower_gels.js";
 import { shopLotsMicellarWipes } from "./array-micellar_wipes.js";
+
+// ===========================================================================
+// Создание разметки
+// ===========================================================================
 
 const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
 const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-shampoos");
@@ -105,15 +112,26 @@ shopListMicellarWipes.innerHTML = createListItemsMarkup(shopLotsMicellarWipes);
 // ===========================================================================
 // Поиск в фильтре
 // ===========================================================================
-const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
-const SectionAllBathGels = document.querySelector(".js-section-all-bath-gels");
-const SectionAllWipes = document.querySelector(".js-section-all-wipes");
 
-const JSSectionOne = document.querySelectorAll(".js-section-none");
-
+// Форма поиска
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
 
+// Шампуни
+const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
+const BlockBabyShampoos = document.querySelector(".js-block-baby-shampoos");
+const BlockAdultShampoos = document.querySelector(".js-block-adult-shampoos");
+
+// Гели
+const SectionAllBathGels = document.querySelector(".js-section-all-bath-gels");
+
+// Салфетки
+const SectionAllWipes = document.querySelector(".js-section-all-wipes");
+
+// Скрыть секцию
+const JSSectionOne = document.querySelectorAll(".js-section-none");
+
+// Нет товара
 const outputError = document.querySelector(".js-output-error");
 
 inputSearch.value = "";
@@ -158,10 +176,6 @@ function handleFormSubmit(event) {
         outputError.textContent = "Нажаль, такого товару у нас не має :(";
         outputError.style.marginTop = "60px";
         outputError.style.marginBottom = "60px";
-        shopListBabyShampoos.innerHTML = "";
-        shopListAdultShampoos.innerHTML = "";
-        shopListShowerGels.innerHTML = "";
-        shopListMicellarWipes.innerHTML = "";
         JSSectionOne.forEach((section) => {
             section.style.display = "none";
         });
@@ -175,6 +189,10 @@ function handleFormSubmit(event) {
         });
     }
 
+    SectionAllShampoos.style.display = "block";
+    BlockBabyShampoos.style.display = "block";
+    BlockAdultShampoos.style.display = "block";
+
     if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
         shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
         shopListAdultShampoos.innerHTML = createListItemsMarkup(filteredAdultShampoos);
@@ -182,6 +200,18 @@ function handleFormSubmit(event) {
         SectionAllShampoos.style.display = "none";
     }
 
+    if (filteredBabyShampoos.length > 0 ) {
+        shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
+    } else {
+        BlockBabyShampoos.style.display = "none";
+    }
+
+    if (filteredAdultShampoos.length > 0 ) {
+        shopListAdultShampoos.innerHTML = createListItemsMarkup(filteredAdultShampoos);
+    } else {
+        BlockAdultShampoos.style.display = "none";
+    }
+    
     const shopsections = [
         { element: shopListShowerGels, items: filteredShowerGels, section: SectionAllBathGels },
         { element: shopListMicellarWipes, items: filteredMicellarWipes, section: SectionAllWipes }

@@ -5,7 +5,7 @@ export const shopLotsMicellarWipes = [
     alt: "cynosure_micellar_wipes",
     marker: "MW001",
     brand: "Cynosure",
-    nameUKR: "Міцелянрі серветки серветка",
+    nameUKR: "Міцелянрі серветки серветка макіяж макияж для снятия зняття",
     nameEN: "Micellar Cleansing Wipes",
     companyName: "Lachmund GmbH",
     countryName: "Німеччина",

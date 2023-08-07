@@ -87,9 +87,16 @@ function createListItemsMarkup(items) {
     }).join("");
 }
 
+// ===========================================================================
+// Импорт массивов
+// ===========================================================================
 import { shopLotsMeansWashingDishes } from "./array-means-washing-dishes.js";
 import { shopLotsWashingPowders } from "./array-washing-powders.js";
 import { shopLotsMeansCleaning } from "./array-means-cleaning.js";
+
+// ===========================================================================
+// Создание разметки
+// ===========================================================================
 
 const shopListMeansWashingDishes = document.querySelector(".js-cras__list--means-washing-dishes");
 const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
@@ -102,14 +109,23 @@ shopListMeansCleaning.innerHTML = createListItemsMarkup(shopLotsMeansCleaning);
 // ===========================================================================
 // Поиск в фильтре
 // ===========================================================================
-const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
-const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
 
-const JSSectionOne = document.querySelectorAll(".js-section-none");
-
+// Форма поиска
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
 
+// Средства для мытья
+const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
+const BlockWashingDishes = document.querySelector(".js-block-washing-dishes");
+const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
+
+// Средства для чистки
+const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
+
+// Скрыть секцию
+const JSSectionOne = document.querySelectorAll(".js-section-none");
+
+// Нет товара
 const outputError = document.querySelector(".js-output-error");
 
 inputSearch.value = "";
@@ -153,9 +169,6 @@ function handleFormSubmit(event) {
         outputError.textContent = "Нажаль, такого товару у нас не має :(";
         outputError.style.marginTop = "60px";
         outputError.style.marginBottom = "60px";
-        shopListMeansWashingDishes.innerHTML = "";
-        shopListWashingPowders.innerHTML = "";
-        shopListMeansCleaning.innerHTML = "";
         JSSectionOne.forEach((section) => {
             section.style.display = "none";
         });
@@ -169,11 +182,27 @@ function handleFormSubmit(event) {
         });
     }
 
+    SectionAllMeansWashing.style.display = "block";
+    BlockWashingDishes.style.display = "block";
+    BlockWashingPowders.style.display = "block";
+
     if (filteredMeansWashingDishes.length > 0 || filteredWashingPowders.length > 0 ) {
         shopListMeansWashingDishes.innerHTML = createListItemsMarkup(filteredMeansWashingDishes);
         shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
     } else {
         SectionAllMeansWashing.style.display = "none";
+    }
+
+    if (filteredMeansWashingDishes.length > 0 ) {
+        shopListMeansWashingDishes.innerHTML = createListItemsMarkup(filteredMeansWashingDishes);
+    } else {
+        BlockWashingDishes.style.display = "none";
+    }
+
+    if (filteredWashingPowders.length > 0 ) {
+        shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
+    } else {
+        BlockWashingPowders.style.display = "none";
     }
 
     const shopsections = [
