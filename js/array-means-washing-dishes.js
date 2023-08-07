@@ -185,7 +185,7 @@ export const shopLotsMeansWashingDishes = [
         alt: "fairy_ultra_plus_konzentrat",
         marker: "MFWD010",
         brand: "Fairy",
-        nameUKR: "фери фейри фері фейрі засіб для миття мытья посуду посуды",
+        nameUKR: "фери фейри фері фейрі проктор гембл засіб для миття мытья посуду посуды",
         nameEN: "Ultra Plus Konzentrat",
         companyName: "The Procter & Gamble Company",
         countryName: "Німеччина",
