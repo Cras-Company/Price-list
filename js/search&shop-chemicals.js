@@ -91,20 +91,34 @@ function createListItemsMarkup(items) {
 // Импорт массивов
 // ===========================================================================
 import { shopLotsMeansWashingDishes } from "./array-means-washing-dishes.js";
+import { shopLotsWashingGels } from "./array-washing-gels.js";
+import { shopLotsPowerCaps } from "./array-power-caps.js";
 import { shopLotsWashingPowders } from "./array-washing-powders.js";
+
 import { shopLotsMeansCleaning } from "./array-means-cleaning.js";
+
+import { shopLotsStainRemovers } from "./array-stain-removers.js";
 
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
-
 const shopListMeansWashingDishes = document.querySelector(".js-cras__list--means-washing-dishes");
+const shopListWashingGels = document.querySelector(".js-cras__list--washing-gels");
+const shopListPowerCaps = document.querySelector(".js-cras__list--power-caps");
 const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
+
 const shopListMeansCleaning = document.querySelector(".js-cras__list--means-cleaning");
 
+const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
+
 shopListMeansWashingDishes.innerHTML = createListItemsMarkup(shopLotsMeansWashingDishes);
+shopListWashingGels.innerHTML = createListItemsMarkup(shopLotsWashingGels);
+shopListPowerCaps.innerHTML = createListItemsMarkup(shopLotsPowerCaps);
 shopListWashingPowders.innerHTML = createListItemsMarkup(shopLotsWashingPowders);
+
 shopListMeansCleaning.innerHTML = createListItemsMarkup(shopLotsMeansCleaning);
+
+shopListStainRemovers.innerHTML = createListItemsMarkup(shopLotsStainRemovers);
 
 // ===========================================================================
 // Поиск в фильтре
@@ -117,10 +131,15 @@ const filterForm = document.querySelector(".js-filter__form");
 // Средства для мытья
 const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
 const BlockWashingDishes = document.querySelector(".js-block-washing-dishes");
+const BlockWashingGels = document.querySelector(".js-block-washing-gels");
+const BlockPowerCaps = document.querySelector(".js-block-power-caps");
 const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
 
 // Средства для чистки
 const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
+
+// Пятновыводители
+const SectionStainRemovers = document.querySelector(".js-section-stain-removers");
 
 // Скрыть секцию
 const JSSectionOne = document.querySelectorAll(".js-section-none");
@@ -160,10 +179,22 @@ function handleFormSubmit(event) {
     const searchItem = inputSearch.value.trim().toLowerCase();
 
     const filteredMeansWashingDishes = universalSearch(shopLotsMeansWashingDishes, searchItem);
+    const filteredWashingGels = universalSearch(shopLotsWashingGels, searchItem);
+    const filteredPowerCaps = universalSearch(shopLotsPowerCaps, searchItem);
     const filteredWashingPowders = universalSearch(shopLotsWashingPowders, searchItem);
+
     const filteredMeansCleaning = universalSearch(shopLotsMeansCleaning, searchItem);
 
-    const allFilteredItems = [...filteredMeansWashingDishes, ...filteredWashingPowders, ...filteredMeansCleaning ];
+    const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
+
+    const allFilteredItems = [
+        ...filteredMeansWashingDishes,
+        ...filteredWashingGels,
+        ...filteredPowerCaps,
+        ...filteredWashingPowders,
+        ...filteredMeansCleaning,
+        ...filteredStainRemovers
+    ];
 
     if (allFilteredItems.length === 0) {
         outputError.textContent = "Нажаль, такого товару у нас не має :(";
@@ -183,30 +214,42 @@ function handleFormSubmit(event) {
     }
 
     SectionAllMeansWashing.style.display = "block";
+    BlockWashingGels.style.display = "block";
     BlockWashingDishes.style.display = "block";
+    BlockPowerCaps.style.display = "block";
     BlockWashingPowders.style.display = "block";
-
-    if (filteredMeansWashingDishes.length > 0 || filteredWashingPowders.length > 0 ) {
+ 
+    if (filteredMeansWashingDishes.length > 0 ||
+        filteredWashingGels.length > 0 ||
+        filteredPowerCaps.length > 0 ||
+        filteredWashingPowders.length > 0
+        ) {
         shopListMeansWashingDishes.innerHTML = createListItemsMarkup(filteredMeansWashingDishes);
+        shopListWashingGels.innerHTML = createListItemsMarkup(filteredWashingGels);
+        shopListPowerCaps.innerHTML = createListItemsMarkup(filteredPowerCaps);
         shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
     } else {
         SectionAllMeansWashing.style.display = "none";
     }
 
-    if (filteredMeansWashingDishes.length > 0 ) {
-        shopListMeansWashingDishes.innerHTML = createListItemsMarkup(filteredMeansWashingDishes);
-    } else {
-        BlockWashingDishes.style.display = "none";
-    }
+    const shopblocks = [
+        { element: shopListMeansWashingDishes, items: filteredMeansWashingDishes, block: BlockWashingDishes },
+        { element: shopListWashingGels, items: filteredWashingGels, block: BlockWashingGels },
+        { element: shopListPowerCaps, items: filteredPowerCaps, block: BlockPowerCaps },
+        { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders }
+    ];
 
-    if (filteredWashingPowders.length > 0 ) {
-        shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
-    } else {
-        BlockWashingPowders.style.display = "none";
-    }
+     shopblocks.forEach(shopblock => {
+        if (shopblock.items.length > 0) {
+            shopblock.element.innerHTML = createListItemsMarkup(shopblock.items);
+        } else {
+            shopblock.block.style.display = "none";
+        }
+    });
 
     const shopsections = [
-        { element: shopListMeansCleaning, items: filteredMeansCleaning, section: SectionAllMeansCleaning },
+        { element: shopListStainRemovers, items: filteredStainRemovers, section: SectionStainRemovers },
+        { element: shopListMeansCleaning, items: filteredMeansCleaning, section: SectionAllMeansCleaning }
     ];
 
     shopsections.forEach(shopsection => {
