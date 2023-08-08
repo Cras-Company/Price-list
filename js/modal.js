@@ -60,4 +60,4 @@ function onCloseModal(modal) {
     });
   }
 
-  addClickHandler(refs.openModalEnterBtn[1], refs.modalMobileMenu, refs.modalEnter);
+  addClickHandler(refs.modalMobileMenu);
