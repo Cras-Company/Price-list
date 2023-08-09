@@ -245,7 +245,8 @@ function handleFormSubmit(event) {
         { element: shopListMeansWashingDishes, items: filteredMeansWashingDishes, block: BlockWashingDishes },
         { element: shopListWashingGels, items: filteredWashingGels, block: BlockWashingGels },
         { element: shopListPowerCaps, items: filteredPowerCaps, block: BlockPowerCaps },
-        { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders }
+        { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders },
+        { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners }
     ];
 
      shopblocks.forEach(shopblock => {
