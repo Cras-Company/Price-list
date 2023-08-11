@@ -69,7 +69,7 @@ export const shopLotsPowerCaps = [
         nameEN: "Colorwaschmittel All in 1 PODS",
         companyName: "The Procter & Gamble Company",
         countryName: "Німеччина",
-        volume_weight: "23.8 гр.",
+        volume_weight: "38 шт.",
         priceGRN: 425,
         priceUSDT: 11.32,
         quantity: "4",
