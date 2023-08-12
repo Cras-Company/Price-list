@@ -62,12 +62,12 @@ function createListItemsMarkup(items) {
                         ` : `
 
                             <div class="cras-item__element">
-                                <h4 class="cras-item__title">Ціна (від 24 шт., грн.):</h4>
+                                <h4 class="cras-item__title">Ціна (від 12 шт., грн.):</h4>
                                 <p class="cras-item__text cras-item__text--margin">${priceGRNOpt};</p>
                             </div>
 
                             <div class="cras-item__element">
-                                <h4 class="cras-item__title">Ціна (від 24 шт., USDT):</h4>
+                                <h4 class="cras-item__title">Ціна (від 12 шт., USDT):</h4>
                                 <p class="cras-item__text cras-item__text--margin">${priceUSDTOpt};</p>
                             </div>
                         `}
