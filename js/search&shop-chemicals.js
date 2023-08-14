@@ -1,7 +1,6 @@
 // ===========================================================================
 // Динамическая разметка
 // ===========================================================================
-
 function createListItemsMarkup(items) {
     return items.map(({ type, url, alt, marker, brand, nameEN, companyName, countryName, volume_weight,
                         priceGRN, priceUSDT, quantity, priceGRNOpt, priceUSDTOpt,
@@ -90,38 +89,47 @@ function createListItemsMarkup(items) {
 // ===========================================================================
 // Импорт массивов
 // ===========================================================================
-import { shopLotsMeansWashingDishes } from "./array-means-washing-dishes.js";
+import { shopLotsMeansHandsWashingDishes } from "./array-means-hands-washing-dishes.js";
+import { shopLotsMeansMechanicalWashingDishes } from "./array-means-mechanical-washing-dishes.js";
+
 import { shopLotsWashingGels } from "./array-washing-gels.js";
 import { shopLotsPowerCaps } from "./array-power-caps.js";
 import { shopLotsWashingPowders } from "./array-washing-powders.js";
+import { shopLotsStainRemovers } from "./array-stain-removers.js";
 import { shopLotsSofteners } from "./array-softeners.js";
 
-import { shopLotsMeansCleaning } from "./array-means-cleaning.js";
-
-import { shopLotsStainRemovers } from "./array-stain-removers.js";
+import { shopLotsMeansCleaningUniversal } from "./array-means-cleaning-universal.js";
+import { shopLotsMeansCleaningKitchenBathroom } from "./array-means-cleaning-kitchen-bathroom.js";
+import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwashers.js";
 
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
-const shopListMeansWashingDishes = document.querySelector(".js-cras__list--means-washing-dishes");
+const shopListMeansHandsWashingDishes = document.querySelector(".js-cras__list--means-hands-washing-dishes");
+const shopListMeansMechanicalWashingDishes = document.querySelector(".js-cras__list--means-mechanical-washing-dishes");
+
 const shopListWashingGels = document.querySelector(".js-cras__list--washing-gels");
 const shopListPowerCaps = document.querySelector(".js-cras__list--power-caps");
 const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
+const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
 const shopListSofteners = document.querySelector(".js-cras__list--softeners");
 
-const shopListMeansCleaning = document.querySelector(".js-cras__list--means-cleaning");
+const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--universal");
+const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
+const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
 
-const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
+shopListMeansHandsWashingDishes.innerHTML = createListItemsMarkup(shopLotsMeansHandsWashingDishes);
+shopListMeansMechanicalWashingDishes.innerHTML = createListItemsMarkup(shopLotsMeansMechanicalWashingDishes);
 
-shopListMeansWashingDishes.innerHTML = createListItemsMarkup(shopLotsMeansWashingDishes);
 shopListWashingGels.innerHTML = createListItemsMarkup(shopLotsWashingGels);
 shopListPowerCaps.innerHTML = createListItemsMarkup(shopLotsPowerCaps);
 shopListWashingPowders.innerHTML = createListItemsMarkup(shopLotsWashingPowders);
+shopListStainRemovers.innerHTML = createListItemsMarkup(shopLotsStainRemovers);
 shopListSofteners.innerHTML = createListItemsMarkup(shopLotsSofteners);
 
-shopListMeansCleaning.innerHTML = createListItemsMarkup(shopLotsMeansCleaning);
-
-shopListStainRemovers.innerHTML = createListItemsMarkup(shopLotsStainRemovers);
+shopListMeansCleaningUniversal.innerHTML = createListItemsMarkup(shopLotsMeansCleaningUniversal);
+shopListMeansCleaningKitchenBathroom.innerHTML = createListItemsMarkup(shopLotsMeansCleaningKitchenBathroom);
+shopListMeansCleaningDishwashers.innerHTML = createListItemsMarkup(shopLotsMeansCleaningDishwashers);
 
 // ===========================================================================
 // Поиск в фильтре
@@ -133,17 +141,22 @@ const filterForm = document.querySelector(".js-filter__form");
 
 // Средства для мытья
 const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
-const BlockWashingDishes = document.querySelector(".js-block-washing-dishes");
+const BlockHandsWashingDishes = document.querySelector(".js-block-hands-washing-dishes");
+const BlockMechanicalWashingDishes = document.querySelector(".js-block-mechanical-washing-dishes");
+
+// Средства для стирки
+const SectionAllLaundryDetergents = document.querySelector(".js-section-all-laundry-detergents");
 const BlockWashingGels = document.querySelector(".js-block-washing-gels");
 const BlockPowerCaps = document.querySelector(".js-block-power-caps");
 const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
+const BlockStainRemovers = document.querySelector(".js-block-stain-removers");
 const BlockSofteners = document.querySelector(".js-block-softeners");
 
 // Средства для чистки
 const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
-
-// Пятновыводители
-const SectionStainRemovers = document.querySelector(".js-section-stain-removers");
+const BlockCleaningUniversal = document.querySelector(".js-block-universal");
+const BlockCleaningKitchenBathroom = document.querySelector(".js-block-kitchen_bathroom");
+const BlockCleaningDishwashers = document.querySelector(".js-block-dishwashers");
 
 // Скрыть секцию
 const JSSectionOne = document.querySelectorAll(".js-section-none");
@@ -182,24 +195,33 @@ function handleFormSubmit(event) {
 
     const searchItem = inputSearch.value.trim().toLowerCase();
 
-    const filteredMeansWashingDishes = universalSearch(shopLotsMeansWashingDishes, searchItem);
+    const filteredMeansHandsWashingDishes = universalSearch(shopLotsMeansHandsWashingDishes, searchItem);
+    const filteredMeansMechanicalWashingDishes = universalSearch(shopLotsMeansMechanicalWashingDishes, searchItem);
+
+
     const filteredWashingGels = universalSearch(shopLotsWashingGels, searchItem);
     const filteredPowerCaps = universalSearch(shopLotsPowerCaps, searchItem);
     const filteredWashingPowders = universalSearch(shopLotsWashingPowders, searchItem);
+    const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
     const filteredSofteners = universalSearch(shopLotsSofteners, searchItem);
 
-    const filteredMeansCleaning = universalSearch(shopLotsMeansCleaning, searchItem);
-
-    const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
+    const filteredMeansCleaningUniversal = universalSearch( shopLotsMeansCleaningUniversal, searchItem);
+    const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
+    const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
 
     const allFilteredItems = [
-        ...filteredMeansWashingDishes,
+        ...filteredMeansHandsWashingDishes,
+        ...filteredMeansMechanicalWashingDishes,
+
         ...filteredWashingGels,
         ...filteredPowerCaps,
         ...filteredWashingPowders,
+        ...filteredStainRemovers,
         ...filteredSofteners,
-        ...filteredMeansCleaning,
-        ...filteredStainRemovers
+
+        ...filteredMeansCleaningUniversal,
+        ...filteredMeansCleaningKitchenBathroom,
+        ...filteredMeansCleaningDishwashers,
     ];
 
     if (allFilteredItems.length === 0) {
@@ -220,33 +242,69 @@ function handleFormSubmit(event) {
     }
 
     SectionAllMeansWashing.style.display = "block";
+    BlockHandsWashingDishes.style.display = "block";
+    BlockMechanicalWashingDishes.style.display = "block";
+
+    SectionAllLaundryDetergents.style.display = "block";
     BlockWashingGels.style.display = "block";
-    BlockWashingDishes.style.display = "block";
     BlockPowerCaps.style.display = "block";
     BlockWashingPowders.style.display = "block";
+    BlockStainRemovers.style.display = "block";
     BlockSofteners.style.display = "block";
+
+    SectionAllMeansCleaning.style.display = "block";
+    BlockCleaningUniversal.style.display = "block";
+    BlockCleaningKitchenBathroom.style.display = "block";
+    BlockCleaningDishwashers.style.display = "block";
  
-    if (filteredMeansWashingDishes.length > 0 ||
-        filteredWashingGels.length > 0 ||
-        filteredPowerCaps.length > 0 ||
-        filteredWashingPowders.length > 0 ||
-        filteredSofteners.length > 0
+    if (filteredMeansHandsWashingDishes.length > 0 ||
+        filteredMeansMechanicalWashingDishes.length > 0
         ) {
-        shopListMeansWashingDishes.innerHTML = createListItemsMarkup(filteredMeansWashingDishes);
-        shopListWashingGels.innerHTML = createListItemsMarkup(filteredWashingGels);
-        shopListPowerCaps.innerHTML = createListItemsMarkup(filteredPowerCaps);
-        shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
-        shopListSofteners.innerHTML = createListItemsMarkup(filteredSofteners);
+        shopListMeansHandsWashingDishes.innerHTML = createListItemsMarkup(filteredMeansHandsWashingDishes);
+        shopListMeansMechanicalWashingDishes.innerHTML = createListItemsMarkup(filteredMeansMechanicalWashingDishes);
     } else {
         SectionAllMeansWashing.style.display = "none";
     }
 
+    if (filteredWashingGels.length > 0 ||
+        filteredPowerCaps.length > 0 ||
+        filteredWashingPowders.length > 0 ||
+        filteredStainRemovers.length > 0 ||
+        filteredSofteners.length > 0
+        ) {
+        shopListWashingGels.innerHTML = createListItemsMarkup(filteredWashingGels);
+        shopListPowerCaps.innerHTML = createListItemsMarkup(filteredPowerCaps);
+        shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
+        shopListStainRemovers.innerHTML = createListItemsMarkup(filteredStainRemovers);
+        shopListSofteners.innerHTML = createListItemsMarkup(filteredSofteners);
+    } else {
+        SectionAllLaundryDetergents.style.display = "none";
+    }
+
+    if (filteredMeansCleaningUniversal.length > 0 ||
+        filteredMeansCleaningKitchenBathroom.length > 0 ||
+        filteredMeansCleaningDishwashers.length > 0
+        ) {
+        shopListMeansCleaningUniversal.innerHTML = createListItemsMarkup(filteredMeansCleaningUniversal);
+        shopListMeansCleaningKitchenBathroom.innerHTML = createListItemsMarkup(filteredMeansCleaningKitchenBathroom);
+        shopListMeansCleaningDishwashers.innerHTML = createListItemsMarkup(filteredMeansCleaningDishwashers);
+    } else {
+        SectionAllMeansCleaning.style.display = "none";
+    }
+
     const shopblocks = [
-        { element: shopListMeansWashingDishes, items: filteredMeansWashingDishes, block: BlockWashingDishes },
+        { element: shopListMeansHandsWashingDishes, items: filteredMeansHandsWashingDishes, block: BlockHandsWashingDishes },
+        { element: shopListMeansMechanicalWashingDishes, items: filteredMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes },
+
         { element: shopListWashingGels, items: filteredWashingGels, block: BlockWashingGels },
         { element: shopListPowerCaps, items: filteredPowerCaps, block: BlockPowerCaps },
         { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders },
-        { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners }
+        { element: shopListStainRemovers, items: filteredStainRemovers, block: BlockStainRemovers },
+        { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners },
+
+        { element: shopListMeansCleaningUniversal, items: filteredMeansCleaningUniversal, block: BlockCleaningUniversal },
+        { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
+        { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
     ];
 
      shopblocks.forEach(shopblock => {
@@ -257,16 +315,17 @@ function handleFormSubmit(event) {
         }
     });
 
-    const shopsections = [
-        { element: shopListStainRemovers, items: filteredStainRemovers, section: SectionStainRemovers },
-        { element: shopListMeansCleaning, items: filteredMeansCleaning, section: SectionAllMeansCleaning }
-    ];
+    // const shopsections = [
+    //     { element: shopListStainRemovers, items: filteredStainRemovers, section: SectionAllMeansWashing },
+    //     { element: shopListStainRemovers, items: filteredStainRemovers, section: SectionAllLaundryDetergents },
+    //     { element: shopListMeansCleaning, items: filteredMeansCleaning, section: SectionAllMeansCleaning }
+    // ];
 
-    shopsections.forEach(shopsection => {
-        if (shopsection.items.length > 0) {
-            shopsection.element.innerHTML = createListItemsMarkup(shopsection.items);
-        } else {
-            shopsection.section.style.display = "none";
-        }
-    });
+    // shopsections.forEach(shopsection => {
+    //     if (shopsection.items.length > 0) {
+    //         shopsection.element.innerHTML = createListItemsMarkup(shopsection.items);
+    //     } else {
+    //         shopsection.section.style.display = "none";
+    //     }
+    // });
 }
