@@ -16,51 +16,6 @@
 // })
 
 // ===========================================================================
-// Динамическая разметка
-// ===========================================================================
-
-// import { shopLots } from "./test-array01.js";
-
-// const shopList = document.querySelector(".js-shop__list");
-
-// function createListItemsMarkup(items) {
-//   return items
-//     .map(
-//       ({ url, alt, priceGRN, priceUSDT, nameUKR, nameEN }) =>
-//         `<li class="shop-list__item">
-//           <div class="shop-list__position">
-//             <a class="work-list-item__link" href="">
-//               <img
-//                 class="lazyload work-list-item__img"
-//                 data-src="${url}"
-//                 alt="${alt}"
-//                 width="200"
-//                 height="256"
-//               />
-
-//               <h2 class="work-list-item__title">
-//                 ${priceGRN} ГРН – ${priceUSDT} USDT
-//               </h2>
-
-//               <p class="work-list-item__text">
-//                 ${nameUKR} &#171;${nameEN}&#187;
-//               </p>
-//             </a>
-
-//             <button class="reg-login__button work-list__button--position" type="submit">
-//               <span class="reg-login__button__text">У кошик</span>
-//             </button>
-//           </div>
-//         </li>`
-//     )
-//     .join("");
-// }
-
-// const listItemMarkup = createListItemsMarkup(shopLots);
-
-// shopList.innerHTML = listItemMarkup;
-
-// ===========================================================================
 // Анимация Lazy-loading
 // ===========================================================================
 
@@ -73,40 +28,6 @@
 //     image.classList.add("appear");
 //   });
 // });
-
-// ===========================================================================
-// Поиск в фильтре
-// ===========================================================================
-// const inputSearch = document.querySelector("#search");
-
-// const outputError = document.querySelector(".js-output-error");
-
-// inputSearch.value = "";
-
-// inputSearch.addEventListener("input", _.debounce(searchChangeHandler, 1500));
-
-// function searchChangeHandler(event) {
-//   const searchItem = event.target.value.trim().toLowerCase();
-
-//   const filteredIitems = shopLots.filter(
-//     (shopLot) =>
-//       shopLot.nameEN.toLowerCase().includes(searchItem) ||
-//       shopLot.nameUKR.toLowerCase().includes(searchItem)
-//   );
-
-//   if (filteredIitems.length === 0) {
-//     outputError.textContent = "Нажаль, такого товару у нас не має :(";
-//     outputError.style.marginTop = "90px";
-//     shopList.innerHTML = "";
-//     return;
-//   } else {
-//     outputError.textContent = "";
-//     outputError.style.marginTop = "0px";
-//   }
-
-//   const listItemsMarkup = createListItemsMarkup(filteredIitems);
-
-//   shopList.innerHTML = listItemsMarkup;
 
 //   // ===========================================================================
 //   // Анимация отфильтрованых изборажений
@@ -169,47 +90,60 @@
 // ===========================================================================
 // Побутова хімія
 // ===========================================================================
-// const filterMenuChemical = document.querySelector(".js-filter__menu-chemical");
-// const filterSecondaryMenuChemical = document.querySelector(
-//   ".js-filter__secondary-menu-chemical"
-// );
+const filterMenus = document.querySelectorAll(".js-filter__menu");
+const filterSecondaryMenus = document.querySelectorAll(".js-filter__secondary-menu");
 
-// const filterChemicalList = document.querySelector(".js-filter__chemical-list");
-// const filterChemicalSecondaryList = document.querySelector(
-//   ".js-filter__chemical-secondary-list"
-// );
+const filterLists = document.querySelectorAll(".js-filter__list");
+const filterSecondaryLists = document.querySelectorAll(".js-filter__secondary-list");
 
-// const filterIconChemicalClose = document.querySelector(
-//   ".js-filter__icon-chemical-close"
-// );
-// const filterIconChemicalOpen = document.querySelector(
-//   ".js-filter__icon-chemical-open"
-// );
+const filterIconsOpen = document.querySelectorAll(".js-filter__icon-open");
+const filterIconsClose = document.querySelectorAll(".js-filter__icon-close");
 
-// const filterSecondaryIconChemicalOpen = document.querySelector(
-//   ".js-filter__secondary-icon-chemical-open"
-// );
-// const filterSecondaryIconChemicalClose = document.querySelector(
-//   ".js-filter__secondary-icon-chemical-close"
-// );
+const filterSecondaryIconsOpen = document.querySelectorAll(".js-filter__secondary-icon-open");
+const filterSecondaryIconsClose = document.querySelectorAll(".js-filter__secondary-icon-close");
 
-// const filterIconChemicalHandler = () => {
-//   filterIconChemicalClose.classList.toggle("js-icon-close");
-//   filterIconChemicalOpen.classList.toggle("js-icon-open");
-//   filterChemicalList.classList.toggle("js-filter-list-open");
+// const filterIconHandler = () => {
+//   filterIconClose.classList.toggle("js-icon-close");
+//   filterIconOpen.classList.toggle("js-icon-open");
+//   filterList.classList.toggle("js-filter-list-open");
 // };
 
-// const filterSecondaryIconChemicalHandler = () => {
-//   filterSecondaryIconChemicalClose.classList.toggle("js-icon-close");
-//   filterSecondaryIconChemicalOpen.classList.toggle("js-icon-open");
-//   filterChemicalSecondaryList.classList.toggle("js-filter-list-open");
-// };
+const filterIconHandler = (menuIndex) => {
+  const iconClose = filterIconsClose[menuIndex];
+  const iconOpen = filterIconsOpen[menuIndex];
+  const list = filterLists[menuIndex];
 
-// filterMenuChemical.addEventListener("click", filterIconChemicalHandler);
-// filterSecondaryMenuChemical.addEventListener(
-//   "click",
-//   filterSecondaryIconChemicalHandler
-// );
+  iconClose.classList.toggle("js-icon-close");
+  iconOpen.classList.toggle("js-icon-open");
+  list.classList.toggle("js-filter-list-open");
+};
+
+const filterSecondaryIconHandler = (menuIndex) => {
+  const secondaryIconClose = filterSecondaryIconsClose[menuIndex];
+  const secondaryIconOpen = filterSecondaryIconsOpen[menuIndex];
+  const secondaryList = filterSecondaryLists[menuIndex];
+
+  secondaryIconClose.classList.toggle("js-icon-close");
+  secondaryIconOpen.classList.toggle("js-icon-open");
+  secondaryList.classList.toggle("js-filter-list-open");
+};
+
+// filterMenu.addEventListener("click", filterIconHandler);
+
+filterMenus.forEach((menu, index) => {
+  menu.addEventListener("click", (event) => {
+    event.stopPropagation();
+    filterIconHandler(index);
+  });
+});
+
+filterSecondaryMenus.forEach((menu, index) => {
+  menu.addEventListener("click", (event) => {
+    event.stopPropagation();
+    filterSecondaryIconHandler(index);
+  });
+});
+
 
 // ===========================================================================
 // Засоби гігієни
