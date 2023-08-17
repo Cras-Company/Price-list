@@ -25,6 +25,12 @@
     position: static;
     transform: translate(0);
   }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 385px;
+    position: static;
+    transform: translate(0);
+  }
 }
 
 // // ----------------------------------------

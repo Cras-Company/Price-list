@@ -15,9 +15,10 @@ let TrandingSlider = new Swiper('.tranding-slider', {
     prevEl: '.swiper-button-prev',
   },
   autoplay: {
-    delay: 1000,
+    delay: 50,
     disableOnInteraction: false,
   },
+  speed: 2500,
 });
 
 let sliderContainer = document.querySelector('.tranding-slider');
