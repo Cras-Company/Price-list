@@ -370,6 +370,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .filter.is-open {
+    margin-right: 30px;
     -webkit-transform: translate(0);
             transform: translate(0);
   }
@@ -384,9 +385,6 @@ img {
 @media screen and (min-width: 1280px) {
   .filter {
     max-width: 385px;
-    position: static;
-    -webkit-transform: translate(0);
-            transform: translate(0);
   }
 }
 
