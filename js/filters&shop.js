@@ -1,94 +1,485 @@
 // ===========================================================================
-// Фильтр на мобилку
+// Динамическая разметка
 // ===========================================================================
 
-// const mobileSearchBtn = document.querySelector('[data-mobile-search-button]');
-// const mobileSearchMenu = document.querySelector('[data-filter-menu]')
+function createListItemsMarkup(items) {
+    return items.map(({ type, url, alt, marker, brand, nameEN, companyName, countryName, volume_weight,
+                        priceGRN, priceUSDT, quantity, priceGRNOpt, priceUSDTOpt,
+                        description01, description02, description03, description04, description05 }) => {
 
-// mobileSearchBtn.addEventListener('click', () => {
-//   const expanded = mobileSearchBtn.getAttribute('aria-expanded') === 'true' || 'false'
+        return `<li class="cras-item">
 
-//   mobileSearchBtn.classList.toggle('is-open');
+                    <img class="lazyload cras-item__img cras-item--margin" 
+                        data-src="${url}"
+                        alt="${alt}" 
+                        width="310" 
+                        height="310"
+                    />
 
-//   mobileSearchBtn.setAttribute('aria-expanded', !expanded);
+                    <div class="cras-item__description cras-item--margin">
 
-//   mobileSearchMenu.classList.toggle('is-open');
-// })
+                        <div class="cras-item__element">
+                            <h4 class="cras-item__title">Маркер:</h4>
+                            <p class="cras-item__text cras-item__text--margin">${marker};</p>
+                        </div>
+
+                        <div class="cras-item__element">
+                            <h4 class="cras-item__title">Бренд:</h4>
+                            <p class="cras-item__text cras-item__text--margin">&#171;${brand}&#187;;</p>
+                        </div>
+
+                        <div class="cras-item__name">
+                            <h4 class="cras-item__title cras-item__name--margin">Назва продукту:</h4>
+                            <p class="cras-item__text">&#171;${nameEN}&#187;;</p>
+                        </div>
+
+                        <div class="cras-item__name">
+                            <h4 class="cras-item__title cras-item__name--margin">Компанія - виробник:</h4>
+                            <p class="cras-item__text">&#171;${companyName}&#187;;</p>
+                        </div>
+
+                        <div class="cras-item__element">
+                            <h4 class="cras-item__title">Країна - виробник:</h4>
+                            <p class="cras-item__text cras-item__text--margin">${countryName};</p>
+                        </div>
+
+                        <div class="cras-item__element">
+                            <h4 class="cras-item__title">Об'єм / Вага:</h4>
+                            <p class="cras-item__text cras-item__text--margin">${volume_weight};</p>
+                        </div>
+
+                        <div class="cras-item__element">
+                            <h4 class="cras-item__title">Ціна (грн. / USDT):</h4>
+                            <p class="cras-item__text cras-item__text--margin">${priceGRN} / ${priceUSDT};</p>
+                        </div>
+
+                        ${type === 'retail' ? `
+                            <div class="cras-item__element">
+                                <h4 class="cras-item__title">Кількість на складі (шт.):</h4>
+                                <p class="cras-item__text cras-item__text--margin">${quantity};</p>
+                            </div>
+
+                        ` : `
+
+                            <div class="cras-item__element">
+                                <h4 class="cras-item__title">Ціна (від 12 шт., грн.):</h4>
+                                <p class="cras-item__text cras-item__text--margin">${priceGRNOpt};</p>
+                            </div>
+
+                            <div class="cras-item__element">
+                                <h4 class="cras-item__title">Ціна (від 12 шт., USDT):</h4>
+                                <p class="cras-item__text cras-item__text--margin">${priceUSDTOpt};</p>
+                            </div>
+                        `}
+                    </div>
+
+                    <div class="cras-item--width unselectable cras-item--margin">
+
+                        <h4 class="cras-item__title cras-item__secondary-description">Опис товару:</h4>
+
+                        <p class="cras-item__text cras-item__text--margin-sub">${description01}</p>
+                        <p class="cras-item__text cras-item__text--margin-sub">${description02}</p>
+                        <p class="cras-item__text cras-item__text--margin-sub">${description03}</p>
+                        <p class="cras-item__text cras-item__text--margin-sub">${description04}</p>
+                        <p class="cras-item__text cras-item__text--margin-sub">${description05}</p>
+                    </div>
+                </li>`;
+    }).join("");
+}
+
+// ===========================================================================
+// Импорт массивов
+// ===========================================================================
+
+// Средства гигиены
+import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
+import { shopLotsAdultShampoos } from "./array-adult_shampoos.js";
+
+import { shopLotsBabyShowerGels } from "./array-baby-shower-gels.js";
+import { shopLotsAdultShowerGels } from "./array-adult-shower-gels.js";
+
+import { shopLotsMicellarWipes } from "./array-micellar_wipes.js";
+
+// Бытовая химия
+import { shopLotsMeansHandsWashingDishes } from "./array-means-hands-washing-dishes.js";
+import { shopLotsMeansMechanicalWashingDishes } from "./array-means-mechanical-washing-dishes.js";
+
+import { shopLotsWashingGels } from "./array-washing-gels.js";
+import { shopLotsPowerCaps } from "./array-power-caps.js";
+import { shopLotsWashingPowders } from "./array-washing-powders.js";
+import { shopLotsStainRemovers } from "./array-stain-removers.js";
+import { shopLotsSofteners } from "./array-softeners.js";
+
+import { shopLotsMeansCleaningUniversal } from "./array-means-cleaning-universal.js";
+import { shopLotsMeansCleaningKitchenBathroom } from "./array-means-cleaning-kitchen-bathroom.js";
+import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwashers.js";
+
+// ===========================================================================
+// Создание разметки
+// ===========================================================================
+
+// Средства гигиены
+const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
+const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-shampoos");
+
+const shopListBabyShowerGels = document.querySelector(".js-cras__list--baby-shower-gels");
+const shopListAdultShowerGels = document.querySelector(".js-cras__list--adult-shower-gels");
+
+const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
+
+// Бытовая химия
+const shopListMeansHandsWashingDishes = document.querySelector(".js-cras__list--means-hands-washing-dishes");
+const shopListMeansMechanicalWashingDishes = document.querySelector(".js-cras__list--means-mechanical-washing-dishes");
+
+const shopListWashingGels = document.querySelector(".js-cras__list--washing-gels");
+const shopListPowerCaps = document.querySelector(".js-cras__list--power-caps");
+const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
+const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
+const shopListSofteners = document.querySelector(".js-cras__list--softeners");
+
+const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--universal");
+const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
+const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
+
+const shopLists = [
+  { element: shopListBabyShampoos, items: shopLotsBabyShampoos },
+  { element: shopListAdultShampoos, items: shopLotsAdultShampoos },
+
+  { element: shopListBabyShowerGels, items: shopLotsBabyShowerGels },
+  { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels },
+
+  { element: shopListMicellarWipes, items: shopLotsMicellarWipes },
+
+  { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes },
+  { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes },
+
+  { element: shopListWashingGels, items: shopLotsWashingGels },
+  { element: shopListPowerCaps, items: shopLotsPowerCaps },
+  { element: shopListWashingPowders, items: shopLotsWashingPowders },
+  { element: shopListStainRemovers, items: shopLotsStainRemovers },
+  { element: shopListSofteners, items: shopLotsSofteners },
+
+  { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal },
+  { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom },
+  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers }
+];
+
+shopLists.forEach(({ element, items }) => {
+  element.innerHTML = createListItemsMarkup(items);
+});
 
 // ===========================================================================
 // Анимация Lazy-loading
 // ===========================================================================
 
-// const lazyImages = document.querySelectorAll(
-//   'img[class="lazyload work-list-item__img"]'
-// );
+const lazyImages = document.querySelectorAll(
+  'img[class="lazyload cras-item__img cras-item--margin"]'
+);
 
-// lazyImages.forEach((image) => {
-//   image.addEventListener("load", function () {
-//     image.classList.add("appear");
-//   });
-// });
-
-//   // ===========================================================================
-//   // Анимация отфильтрованых изборажений
-//   // ===========================================================================
-
-//   const lazyImagesFiltered = document.querySelectorAll(
-//     'img[class="lazyload work-list-item__img"]'
-//   );
-
-//   lazyImagesFiltered.forEach((image) => {
-//     image.addEventListener("load", function () {
-//       image.classList.add("appear");
-//     });
-//   });
-// }
+lazyImages.forEach((image) => {
+  image.addEventListener("load", function () {
+    image.classList.add("appear");
+  });
+});
 
 // ===========================================================================
-// Продукти харчування
+// Фильтр на мобилку
 // ===========================================================================
-// const filterMenuFood = document.querySelector(".js-filter__menu-food");
-// const filterSecondaryMenuFood = document.querySelector(
-//   ".js-filter__secondary-menu-food"
-// );
 
-// const filterFoodList = document.querySelector(".js-filter__food-list");
-// const filterFoodSecondaryList = document.querySelector(
-//   ".js-filter__food-secondary-list"
-// );
+const mobileSearchBtn = document.querySelector('[data-mobile-search-button]');
+const mobileSearchMenu = document.querySelector('[data-filter-menu]');
+const categoryItems = document.querySelectorAll(".js-category-items");
 
-// const filterIconFoodClose = document.querySelector(
-//   ".js-filter__icon-food-close"
-// );
-// const filterIconFoodOpen = document.querySelector(".js-filter__icon-food-open");
+mobileSearchBtn.addEventListener('click', () => {
+  const expanded = mobileSearchBtn.getAttribute('aria-expanded') === 'true' || 'false'
 
-// const filterSecondaryIconFoodOpen = document.querySelector(
-//   ".js-filter__secondary-icon-food-open"
-// );
-// const filterSecondaryIconFoodClose = document.querySelector(
-//   ".js-filter__secondary-icon-food-close"
-// );
+  mobileSearchBtn.classList.toggle('is-open');
 
-// const filterIconFoodHandler = () => {
-//   filterIconFoodClose.classList.toggle("js-icon-close");
-//   filterIconFoodOpen.classList.toggle("js-icon-open");
-//   filterFoodList.classList.toggle("js-filter-list-open");
-// };
+  mobileSearchBtn.setAttribute('aria-expanded', !expanded);
 
-// const filterSecondaryIconFoodHandler = () => {
-//   filterSecondaryIconFoodClose.classList.toggle("js-icon-close");
-//   filterSecondaryIconFoodOpen.classList.toggle("js-icon-open");
-//   filterFoodSecondaryList.classList.toggle("js-filter-list-open");
-// };
+  mobileSearchMenu.classList.toggle('is-open');
+});
 
-// filterMenuFood.addEventListener("click", filterIconFoodHandler);
-// filterSecondaryMenuFood.addEventListener(
-//   "click",
-//   filterSecondaryIconFoodHandler
-// );
+categoryItems.forEach(item => {
+  item.addEventListener('click', () => {
+    mobileSearchMenu.classList.remove('is-open');
+    mobileSearchBtn.classList.toggle('is-open');
+  });
+});
 
 // ===========================================================================
-// Побутова хімія
+// Поиск в фильтре
+// ===========================================================================
+
+// Форма поиска
+const inputSearch = document.querySelector("#search");
+const filterForm = document.querySelector(".js-filter__form");
+
+// Шампуни
+const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
+const BlockBabyShampoos = document.querySelector(".js-block-baby-shampoos");
+const BlockAdultShampoos = document.querySelector(".js-block-adult-shampoos");
+
+// Гели
+const SectionAllShowerGels = document.querySelector(".js-section-all-shower-gels");
+const BlockBabyShowerGels = document.querySelector(".js-block-baby-shower-gels");
+const BlockAdultShowerGels = document.querySelector(".js-block-adult-shower-gels");
+
+// Салфетки
+const SectionAllWipes = document.querySelector(".js-section-all-wipes");
+const BlockMicellarWipes = document.querySelector(".js-block-micellar-wipes");
+
+// Средства для мытья
+const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
+const BlockHandsWashingDishes = document.querySelector(".js-block-hands-washing-dishes");
+const BlockMechanicalWashingDishes = document.querySelector(".js-block-mechanical-washing-dishes");
+
+// Средства для стирки
+const SectionAllLaundryDetergents = document.querySelector(".js-section-all-laundry-detergents");
+const BlockWashingGels = document.querySelector(".js-block-washing-gels");
+const BlockPowerCaps = document.querySelector(".js-block-power-caps");
+const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
+const BlockStainRemovers = document.querySelector(".js-block-stain-removers");
+const BlockSofteners = document.querySelector(".js-block-softeners");
+
+// Средства для чистки
+const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
+const BlockCleaningUniversal = document.querySelector(".js-block-universal");
+const BlockCleaningKitchenBathroom = document.querySelector(".js-block-kitchen_bathroom");
+const BlockCleaningDishwashers = document.querySelector(".js-block-dishwashers");
+
+// Скрыть секцию
+const JSSectionOne = document.querySelectorAll(".js-section-none");
+
+// Нет товара
+const outputError = document.querySelector(".js-output-error");
+
+function resetMarkup() {
+    productLists.forEach(product => {
+    product.element.style.display = "block";
+    if (product.block) {
+      product.block.style.display = "block";
+    }
+  });
+
+  JSSectionOne.forEach(section => {
+    section.style.display = "block";
+  });
+}
+
+inputSearch.value = "";
+
+filterForm.addEventListener("submit", handleFormSubmit);
+
+function universalSearch(items, searchItem) {
+
+    const searchWords = searchItem.split(" ").filter(word => word.trim() !== "");
+
+    if (searchWords.length === 0) {
+        return items;
+    }
+
+    const filteredItems = items.filter((shopLot) => {
+        for (const key in shopLot) {
+            if (typeof shopLot[key] === 'string') {
+                const lowerCaseValue = shopLot[key].toLowerCase();
+                if (searchWords.every(word => lowerCaseValue.includes(word))) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    });
+
+    return filteredItems;
+}
+
+function handleFormSubmit(event) {
+
+  event.preventDefault();
+
+  const searchItem = inputSearch.value.trim().toLowerCase();
+
+  resetMarkup();
+
+  inputSearch.value = "";
+
+  if (searchItem === "") {
+    return;
+  }
+
+  // Средства гигиены
+  const filteredBabyShampoos = universalSearch(shopLotsBabyShampoos, searchItem);
+  const filteredAdultShampoos = universalSearch(shopLotsAdultShampoos, searchItem);
+
+  const filteredBabyShowerGels = universalSearch(shopLotsBabyShowerGels, searchItem);
+  const filteredAdultShowerGels = universalSearch(shopLotsAdultShowerGels, searchItem);
+  
+  const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
+  
+  // Бытовая химия
+  const filteredMeansHandsWashingDishes = universalSearch(shopLotsMeansHandsWashingDishes, searchItem);
+  const filteredMeansMechanicalWashingDishes = universalSearch(shopLotsMeansMechanicalWashingDishes, searchItem);
+
+  const filteredWashingGels = universalSearch(shopLotsWashingGels, searchItem);
+  const filteredPowerCaps = universalSearch(shopLotsPowerCaps, searchItem);
+  const filteredWashingPowders = universalSearch(shopLotsWashingPowders, searchItem);
+  const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
+  const filteredSofteners = universalSearch(shopLotsSofteners, searchItem);
+
+  const filteredMeansCleaningUniversal = universalSearch( shopLotsMeansCleaningUniversal, searchItem);
+  const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
+  const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
+
+  const allFilteredItems = [
+    // Средства гигиены
+    ...filteredBabyShampoos,
+    ...filteredAdultShampoos,
+    ...filteredBabyShowerGels,
+    ...filteredAdultShowerGels,
+    ...filteredMicellarWipes,
+    
+    // Бытовая химия
+    ...filteredMeansHandsWashingDishes,
+    ...filteredMeansMechanicalWashingDishes,
+
+    ...filteredWashingGels,
+    ...filteredPowerCaps,
+    ...filteredWashingPowders,
+    ...filteredStainRemovers,
+    ...filteredSofteners,
+
+    ...filteredMeansCleaningUniversal,
+    ...filteredMeansCleaningKitchenBathroom,
+    ...filteredMeansCleaningDishwashers,];
+
+    if (allFilteredItems.length === 0) {
+        outputError.textContent = "Нажаль, такого товару у нас не має :(";
+        outputError.style.marginTop = "60px";
+        outputError.style.marginBottom = "60px";
+        JSSectionOne.forEach((section) => {
+            section.style.display = "none";
+        });
+        return;
+    } else {
+        outputError.textContent = "";
+        outputError.style.marginTop = "0px";
+        outputError.style.marginBottom = "0px";
+        JSSectionOne.forEach((section) => {
+            section.style.display = "block";
+        });
+      }
+  
+  if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
+      shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
+      shopListAdultShampoos.innerHTML = createListItemsMarkup(filteredAdultShampoos);
+  } else {
+      SectionAllShampoos.style.display = "none";
+  }
+
+  if (filteredBabyShowerGels.length > 0 || filteredAdultShowerGels.length > 0 ) {
+      shopListBabyShowerGels.innerHTML = createListItemsMarkup(filteredBabyShowerGels);
+      shopListAdultShowerGels.innerHTML = createListItemsMarkup(filteredAdultShowerGels);
+  } else {
+      SectionAllShowerGels.style.display = "none";
+  }
+
+    if (filteredMicellarWipes.length > 0 ) {
+      shopListMicellarWipes.innerHTML = createListItemsMarkup(filteredMicellarWipes);
+  } else {
+      SectionAllWipes.style.display = "none";
+  }
+
+  // const shopsections = [
+  //     { element: shopListMicellarWipes, items: filteredMicellarWipes, section: SectionAllWipes }
+  // ];
+
+  // shopsections.forEach(shopsection => {
+  //     if (shopsection.items.length > 0) {
+  //         shopsection.element.innerHTML = createListItemsMarkup(shopsection.items);
+  //     } else {
+  //         shopsection.section.style.display = "none";
+  //     }
+  // });
+
+  if (filteredMeansHandsWashingDishes.length > 0 ||
+      filteredMeansMechanicalWashingDishes.length > 0
+      ) {
+      shopListMeansHandsWashingDishes.innerHTML = createListItemsMarkup(filteredMeansHandsWashingDishes);
+      shopListMeansMechanicalWashingDishes.innerHTML = createListItemsMarkup(filteredMeansMechanicalWashingDishes);
+    } else {
+      SectionAllMeansWashing.style.display = "none";
+    }
+
+    if (filteredWashingGels.length > 0 ||
+        filteredPowerCaps.length > 0 ||
+        filteredWashingPowders.length > 0 ||
+        filteredStainRemovers.length > 0 ||
+        filteredSofteners.length > 0
+        ) {
+        shopListWashingGels.innerHTML = createListItemsMarkup(filteredWashingGels);
+        shopListPowerCaps.innerHTML = createListItemsMarkup(filteredPowerCaps);
+        shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
+        shopListStainRemovers.innerHTML = createListItemsMarkup(filteredStainRemovers);
+        shopListSofteners.innerHTML = createListItemsMarkup(filteredSofteners);
+    } else {
+        SectionAllLaundryDetergents.style.display = "none";
+    }
+
+    if (filteredMeansCleaningUniversal.length > 0 ||
+        filteredMeansCleaningKitchenBathroom.length > 0 ||
+        filteredMeansCleaningDishwashers.length > 0
+        ) {
+        shopListMeansCleaningUniversal.innerHTML = createListItemsMarkup(filteredMeansCleaningUniversal);
+        shopListMeansCleaningKitchenBathroom.innerHTML = createListItemsMarkup(filteredMeansCleaningKitchenBathroom);
+        shopListMeansCleaningDishwashers.innerHTML = createListItemsMarkup(filteredMeansCleaningDishwashers);
+    } else {
+        SectionAllMeansCleaning.style.display = "none";
+  }
+  
+  const shopblocks = [ 
+    { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
+    { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
+    { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
+    
+    { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
+    { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
+    
+    { element: shopListMeansHandsWashingDishes, items: filteredMeansHandsWashingDishes, block: BlockHandsWashingDishes },
+    { element: shopListMeansMechanicalWashingDishes, items: filteredMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes },
+
+    { element: shopListWashingGels, items: filteredWashingGels, block: BlockWashingGels },
+    { element: shopListPowerCaps, items: filteredPowerCaps, block: BlockPowerCaps },
+    { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders },
+    { element: shopListStainRemovers, items: filteredStainRemovers, block: BlockStainRemovers },
+    { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners },
+
+    { element: shopListMeansCleaningUniversal, items: filteredMeansCleaningUniversal, block: BlockCleaningUniversal },
+    { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
+    { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
+  ];
+
+  shopblocks.forEach(shopblock => {
+    if (shopblock.items.length > 0) {
+        shopblock.element.innerHTML = createListItemsMarkup(shopblock.items);
+    } else {
+        shopblock.block.style.display = "none";
+    }
+  });
+
+  const lazyImages = document.querySelectorAll(
+    'img[class="lazyload cras-item__img cras-item--margin"]'
+  );
+
+  lazyImages.forEach((image) => {
+    image.addEventListener("load", function () {
+      image.classList.add("appear");
+    });
+  });
+}
+
+// ===========================================================================
+// Разделы товаров
 // ===========================================================================
 const filterMenus = document.querySelectorAll(".js-filter__menu");
 const filterSecondaryMenus = document.querySelectorAll(".js-filter__secondary-menu");
@@ -101,12 +492,6 @@ const filterIconsClose = document.querySelectorAll(".js-filter__icon-close");
 
 const filterSecondaryIconsOpen = document.querySelectorAll(".js-filter__secondary-icon-open");
 const filterSecondaryIconsClose = document.querySelectorAll(".js-filter__secondary-icon-close");
-
-// const filterIconHandler = () => {
-//   filterIconClose.classList.toggle("js-icon-close");
-//   filterIconOpen.classList.toggle("js-icon-open");
-//   filterList.classList.toggle("js-filter-list-open");
-// };
 
 const filterIconHandler = (menuIndex) => {
   const iconClose = filterIconsClose[menuIndex];
@@ -128,8 +513,6 @@ const filterSecondaryIconHandler = (menuIndex) => {
   secondaryList.classList.toggle("js-filter-list-open");
 };
 
-// filterMenu.addEventListener("click", filterIconHandler);
-
 filterMenus.forEach((menu, index) => {
   menu.addEventListener("click", (event) => {
     event.stopPropagation();
@@ -144,47 +527,81 @@ filterSecondaryMenus.forEach((menu, index) => {
   });
 });
 
-
 // ===========================================================================
-// Засоби гігієни
+// Навигация по товарам
 // ===========================================================================
-// const filterMenuGigiena = document.querySelector(".js-filter__menu-gigiena");
-// const filterGigienaList = document.querySelector(".js-filter__gigiena-list");
 
-// const filterIconGigienaClose = document.querySelector(
-//   ".js-filter__icon-gigiena-close"
-// );
+const productLists = [
+  { element: shopListBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
+  { element: shopListAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
 
-// const filterIconGigienaOpen = document.querySelector(
-//   ".js-filter__icon-gigiena-open"
-// );
+  { element: shopListBabyShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
+  { element: shopListAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },
 
-// const filterIconGigienaHandler = () => {
-//   filterIconGigienaClose.classList.toggle("js-icon-close");
-//   filterIconGigienaOpen.classList.toggle("js-icon-open");
-//   filterGigienaList.classList.toggle("js-filter-list-open");
-// };
+  { element: shopListMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
 
-// filterMenuGigiena.addEventListener("click", filterIconGigienaHandler);
+  { element: shopListMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
+  { element: shopListMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
 
-// ===========================================================================
-// Медицина
-// ===========================================================================
-// const filterMenuMedicine = document.querySelector(".js-filter__menu-medicine");
-// const filterMedicineList = document.querySelector(".js-filter__medicine-list");
+  { element: shopListWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
+  { element: shopListPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
+  { element: shopListWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
+  { element: shopListStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
+  { element: shopListSofteners, block: BlockSofteners, dataTarget: "softeners" },
 
-// const filterIconMedicineClose = document.querySelector(
-//   ".js-filter__icon-medicine-close"
-// );
+  { element: shopListMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
+  { element: shopListMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
+  { element: shopListMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
+];
 
-// const filterIconMedicineOpen = document.querySelector(
-//   ".js-filter__icon-medicine-open"
-// );
+function filterClickHandler(event) {
+  const target = event.target;
+  if (target.tagName === "LI") {
+    const dataTarget = target.getAttribute("data-target");
 
-// const filterIconMedicineHandler = () => {
-//   filterIconMedicineClose.classList.toggle("js-icon-close");
-//   filterIconMedicineOpen.classList.toggle("js-icon-open");
-//   filterMedicineList.classList.toggle("js-filter-list-open");
-// };
+    hideAllSectionsAndProducts();
+    showSelectedProducts(dataTarget);
+    hideEmptySections();
+  }
+}
 
-// filterMenuMedicine.addEventListener("click", filterIconMedicineHandler);
+[...filterLists, ...filterSecondaryLists].forEach(list => {
+  list.addEventListener("click", filterClickHandler);
+});
+
+
+function showSelectedProducts(dataTarget) {
+  productLists.forEach(product => {
+    if (product.dataTarget === dataTarget) {
+      product.element.style.display = "block";
+      const section = product.element.closest(".js-section-none");
+      if (section) {
+        section.style.display = "block";
+        product.block.style.display = "block";
+      }
+    }
+  });
+}
+
+function hideAllSectionsAndProducts() {
+  JSSectionOne.forEach(section => {
+    section.style.display = "none";
+  });
+
+  productLists.forEach(product => {
+    product.element.style.display = "none";
+    if (product.block) {
+      product.block.style.display = "none";
+    }
+  });
+}
+
+function hideEmptySections() {
+  JSSectionOne.forEach(section => {
+    const productsInSection = productLists.filter(product =>
+      product.element.closest(".js-section-none") === section && product.element.style.display !== "none"
+    );
+
+    section.style.display = productsInSection.length === 0 ? "none" : "block";
+  });
+}

@@ -1,3 +1,14 @@
+.section_search_shop--flex {
+    display: flex;
+}
+
+.shop--margin {
+
+    @media screen and (min-width: 768px) {
+        margin-left: 30px;
+    }
+}
+
 .application-title {
     margin-bottom: 30px;
     font-weight: 700;
@@ -44,23 +55,19 @@
 }
 
 .cras-item__img {
-    @media screen and (max-width: 1023px) {
-        width: 250px;
-    }
+    transform: translateY(50%);
+    opacity: 0;
+    transition: all 1000ms linear 500ms;
 
-    @media screen and (min-width: 1024px) and (max-width: 1279px) {
-        width: 275px;
-    }
-
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1024px) {
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
-.cras-item__description {
-    min-width: 315px;
+.cras-list .cras-item__img.appear {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .cras-item__element {
@@ -71,12 +78,8 @@
 
 .cras-item__title {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.14;
-
-    @media screen and (min-width: 1024px) {
-        font-size: 14px;
-    }
 
     @media screen and (min-width: 1280px) {
         font-size: 16px;
@@ -85,7 +88,7 @@
 
 .cras-item__text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.14;
 
     text-align: justify;
@@ -98,10 +101,6 @@
 
     &--margin-sub {
         margin-bottom: 13px;
-    }
-
-    @media screen and (min-width: 1024px) {
-        font-size: 14px;
     }
 
     @media screen and (min-width: 1280px) {
@@ -121,19 +120,19 @@
     }
 }
 
-.cras-item--width {
-    @media screen and (min-width: 1280px) {
-        max-width: 565px;
-    }
+// .cras-item--width {
+//     @media screen and (min-width: 1280px) {
+//         max-width: 565px;
+//     }
 
-    @media screen and (min-width: 1382px) {
-        max-width: 660px;
-    }
+//     @media screen and (min-width: 1382px) {
+//         max-width: 660px;
+//     }
 
-    @media screen and (min-width: 1500px) {
-        max-width: 780px;
-    }
-}
+//     @media screen and (min-width: 1500px) {
+//         max-width: 780px;
+//     }
+// }
 
 .cras-item__secondary-description {
     margin-bottom: 13px;

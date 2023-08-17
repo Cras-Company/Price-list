@@ -46,7 +46,7 @@ export const shopLotsStainRemovers = [
         marker: "HCUT003",
         brand: "Ace",
         nameUKR: "ейс аце эйс кандегина кандегіна плюс засіб засоби для виведення видалення плям пляма плямовивідник плямовивідники пятновыводитель пятновыдодители дезинфектор дезинфекция дезинфекція дезінфектор дезінфекція відбілювач відбілювачі отбеливатель отбеливатели білий білого білих белый белого белых від плісняви от плесени плесень знежирювач проти жиру обезжириватель",
-        nameEN: "Candeggina Più <br> Fresco Profumo",
+        nameEN: "Candeggina Più Fresco Profumo",
         companyName: "The Procter & Gamble Company",
         countryName: "Італія",
         volume_weight: "800 мл.",

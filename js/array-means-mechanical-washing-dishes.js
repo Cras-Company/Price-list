@@ -7,7 +7,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         brand: "Denkmit",
         nameUKR: "денкмит денктміт засіб для миття мытья посуду посуды машина машину машини машины посудомийка посудомойка посудомоечная посудомийочна посудомийна таблетка таблетки таблеткі посудомоечной посудомийної",
         nameEN: "Geschirr-Reiniger Classic Tabs",
-        companyName: "dm-drogerie markt GmbH + Co. KG",
+        companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         volume_weight: "65 шт.",
         priceGRN: 229,

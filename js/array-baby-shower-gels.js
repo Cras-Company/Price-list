@@ -1,5 +1,5 @@
-export const shopLotsBabyShampoos = [
-  {
+export const shopLotsBabyShowerGels = [
+ {
     type: "wholesale",
     url: "./images/shop/shampoos/bubchen_dschungelbande.jpg",
     alt: "bubchen_dschungelbande",
