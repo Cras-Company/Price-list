@@ -351,6 +351,7 @@ img {
 
 .filter {
   width: 100vw;
+  height: 100vw;
   margin-right: 30px;
   padding-bottom: 20px;
   position: absolute;
@@ -367,15 +368,14 @@ img {
   -webkit-transform: translate(0, 50px);
           transform: translate(0, 50px);
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .filter.is-open {
     -webkit-transform: translate(0);
             transform: translate(0);
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .filter {
-    max-width: 275px;
     position: static;
     -webkit-transform: translate(0);
             transform: translate(0);
@@ -384,7 +384,7 @@ img {
 
 .filter__title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.14;
 }
 
@@ -397,23 +397,27 @@ img {
 
 .filter__search input {
   padding: 0 13px;
-  width: 230px;
   border: 2px solid var(--link-color);
   border-radius: var(--border-radius);
 }
+@media screen and (min-width: 480px) {
+  .filter__search input {
+    width: 390px;
+  }
+}
 @media screen and (min-width: 768px) {
   .filter__search input {
-    width: 230px;
+    width: 265px;
   }
 }
 @media screen and (min-width: 1024px) {
   .filter__search input {
-    width: 260px;
+    width: 285px;
   }
 }
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1280px) {
   .filter__search input {
-    width: 285px;
+    width: 330px;
   }
 }
 
@@ -447,23 +451,39 @@ img {
   overflow: hidden;
 }
 
-.filter__title,
 .filter-icon-title__title {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 1.14;
 }
 @media screen and (min-width: 768px) {
-  .filter__title,
-  .filter-icon-title__title {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .filter__title,
   .filter-icon-title__title {
     font-size: 18px;
   }
+}
+
+.filter-icon-title__secondary-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+}
+@media screen and (min-width: 768px) {
+  .filter-icon-title__secondary-title {
+    font-size: 14px;
+  }
+}
+
+.filter__secondary-list > li {
+  margin-top: -2px;
+  margin-left: 37px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  -webkit-transition: -webkit-transform 250ms var(--timing-function);
+  transition: -webkit-transform 250ms var(--timing-function);
+  transition: transform 250ms var(--timing-function);
+  transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
 }
 
 .filter__list,
@@ -514,33 +534,7 @@ img {
 
 .filter__secondary-menu {
   margin-left: 30px;
-}
-
-.filter__secondary-list > li {
-  margin-left: 37px;
-  padding: 10px;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 1.14;
-  -webkit-transition: -webkit-transform 250ms var(--timing-function);
-  transition: -webkit-transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
-}
-@media screen and (min-width: 768px) {
-  .filter__secondary-list > li {
-    font-size: 10px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .filter__secondary-list > li {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .filter__secondary-list > li {
-    font-size: 14px;
-  }
+  margin-top: -2px;
 }
 
 .filter-list__item:hover,
@@ -558,22 +552,6 @@ img {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   position: relative;
-}
-
-.filter-icon-title__secondary-title {
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 1.14;
-}
-@media screen and (min-width: 768px) {
-  .filter-icon-title__secondary-title {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .filter-icon-title__secondary-title {
-    font-size: 14px;
-  }
 }
 
 .filter__icon-title-box {
@@ -790,12 +768,6 @@ img {
   display: flex;
 }
 
-@media screen and (min-width: 768px) {
-  .shop--margin {
-    margin-left: 30px;
-  }
-}
-
 .application-title {
   margin-bottom: 30px;
   font-weight: 700;
@@ -853,10 +825,15 @@ img {
   -webkit-transition: all 1000ms linear 500ms;
   transition: all 1000ms linear 500ms;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cras-item__img {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1068px) {
+  .cras-item__img {
+    width: 265px;
   }
 }
 

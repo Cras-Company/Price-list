@@ -2,13 +2,6 @@
     display: flex;
 }
 
-.shop--margin {
-
-    @media screen and (min-width: 768px) {
-        margin-left: 30px;
-    }
-}
-
 .application-title {
     margin-bottom: 30px;
     font-weight: 700;
@@ -59,9 +52,13 @@
     opacity: 0;
     transition: all 1000ms linear 500ms;
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1023px) {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1068px) {
+        width: 265px;
     }
 }
 
@@ -119,20 +116,6 @@
         margin-bottom: 3px;
     }
 }
-
-// .cras-item--width {
-//     @media screen and (min-width: 1280px) {
-//         max-width: 565px;
-//     }
-
-//     @media screen and (min-width: 1382px) {
-//         max-width: 660px;
-//     }
-
-//     @media screen and (min-width: 1500px) {
-//         max-width: 780px;
-//     }
-// }
 
 .cras-item__secondary-description {
     margin-bottom: 13px;

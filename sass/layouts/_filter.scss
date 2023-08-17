@@ -1,11 +1,6 @@
-// .filter-shop--flex {
-//   display: flex;
-
-//   position: relative;
-// }
-
 .filter {
   width: 100vw;
+  height: 100vw;
 
   margin-right: 30px;
   padding-bottom: 20px;
@@ -21,13 +16,12 @@
   &.is-open {
     transform: translate(0, 50px);
 
-    @media screen and (min-width: 767px) {
+    @media screen and (min-width: 768px) {
       transform: translate(0);
     }
   }
 
-  @media screen and (min-width: 767px) {
-    max-width: 275px;
+  @media screen and (min-width: 768px) {
     position: static;
     transform: translate(0);
   }
@@ -39,7 +33,7 @@
 
 .filter__title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.14;
 }
 
@@ -51,21 +45,23 @@
 .filter__search input {
   padding: 0 13px;
 
-  width: 230px;
-
   border: 2px solid var(--link-color);
   border-radius: var(--border-radius);
 
+  @media screen and (min-width: 480px) {
+    width: 390px;
+  }
+
   @media screen and (min-width: 768px) {
-    width: 230px;
+    width: 265px;
   }
 
   @media screen and (min-width: 1024px) {
-    width: 260px;
+    width: 285px;
   }
 
-  @media screen and (min-width: 1040px) {
-    width: 285px;
+  @media screen and (min-width: 1280px) {
+    width: 330px;
   }
 }
 
@@ -88,19 +84,52 @@
   overflow: hidden;
 }
 
-.filter__title,
 .filter-icon-title__title {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 20px;
+  line-height: 1.14;
+
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+    }
+}
+
+.filter-icon-title__secondary-title {
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1.14;
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
   }
 
-  @media screen and (min-width: 1280px) {
-    font-size: 18px;
-  }
+  // @media screen and (min-width: 1280px) {
+  //   font-size: 14px;
+  // }
+}
+
+.filter__secondary-list>li {
+  margin-top: -2px;
+  margin-left: 37px;
+  padding: 10px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+  transition: transform 250ms var(--timing-function);
+
+  // @media screen and (min-width: 768px) {
+  //   font-size: 10px;
+  // }
+
+  // @media screen and (min-width: 1024px) {
+  //   font-size: 12px;
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   font-size: 14px;
+  // }
 }
 
 .filter__list,
@@ -151,29 +180,7 @@
 
 .filter__secondary-menu {
   margin-left: 30px;
-}
-
-.filter__secondary-list>li {
-  margin-left: 37px;
-  padding: 10px;
-
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 1.14;
-
-  transition: transform 250ms var(--timing-function);
-
-  @media screen and (min-width: 768px) {
-    font-size: 10px;
-  }
-
-  @media screen and (min-width: 1024px) {
-    font-size: 12px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    font-size: 14px;
-  }
+  margin-top: -2px;
 }
 
 .filter-list__item:hover,
@@ -190,20 +197,6 @@
   opacity: 1;
   transform: translateY(0);
   position: relative;
-}
-
-.filter-icon-title__secondary-title {
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 1.14;
-
-  @media screen and (min-width: 768px) {
-    font-size: 12px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    font-size: 14px;
-  }
 }
 
 // // ----------------------------------------
