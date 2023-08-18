@@ -7,7 +7,7 @@ function createListItemsMarkup(items) {
                         priceGRN, priceUSDT, quantity, priceGRNOpt, priceUSDTOpt,
                         description01, description02, description03, description04, description05 }) => {
 
-      return `<li>
+      return `<li class="cras-block">
         
                 <div class="cras-item">
 

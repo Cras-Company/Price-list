@@ -36,7 +36,15 @@
 }
 
 .cras-list {
-    margin: -10px;
+    @media screen and (min-width: 480px) {
+        margin: -10px;
+    }
+}
+
+.cras-block {
+    border: 2px solid #057198;
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
 
 .cras-item {
@@ -45,13 +53,17 @@
 
     position: relative;
     z-index: 100;
-    padding: 10px;
+    
 
     &--margin {
         margin: 10px;
     }
 
     background-color: var(--pure-white);
+
+    @media screen and (min-width: 768px) {
+        padding: 10px;
+    }
 }
 
 .cras-item__description {
@@ -69,7 +81,7 @@
     }
 
     @media screen and (min-width: 1024px) and (max-width: 1068px) {
-        width: 265px;
+        width: 260px;
     }
 }
 
@@ -132,14 +144,20 @@
     display: flex;
     align-items: center;
 
-    padding: 10px;
-
     background-color: var(--pure-white);
 
     cursor: pointer;
 
     position: relative;
     z-index: 90;
+
+    @media screen and (max-width: 767px) {
+        padding: 0 10px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 10px;
+    }
 }
 
 .price__icon-close,
