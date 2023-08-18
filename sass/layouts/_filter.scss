@@ -1,6 +1,10 @@
 .filter {
   width: 94vw;
 
+  @media screen and (min-width: 330px) and (max-width: 767px) {
+    min-height: 1000px;
+  }
+
   @media screen and (min-width: 355px) {
     width: 94.5vw;
   }
@@ -36,7 +40,6 @@
   transition: transform 666ms var(--timing-function);
 
   @media screen and (max-width: 767px) {
-    min-height: 300px;
 
     border: 5px solid #057198;
     border-radius: 10px;

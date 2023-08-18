@@ -363,6 +363,11 @@ img {
   transition: transform 666ms var(--timing-function);
   transition: transform 666ms var(--timing-function), -webkit-transform 666ms var(--timing-function);
 }
+@media screen and (min-width: 330px) and (max-width: 767px) {
+  .filter {
+    min-height: 1000px;
+  }
+}
 @media screen and (min-width: 355px) {
   .filter {
     width: 94.5vw;
@@ -395,7 +400,6 @@ img {
 }
 @media screen and (max-width: 767px) {
   .filter {
-    min-height: 300px;
     border: 5px solid #057198;
     border-radius: 10px;
   }
