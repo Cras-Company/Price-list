@@ -1,5 +1,7 @@
 .section_search_shop--flex {
-    display: flex;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 
 .application-title {
@@ -40,11 +42,20 @@
 .cras-item {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+
+    position: relative;
+    z-index: 100;
+    padding: 10px;
 
     &--margin {
         margin: 10px;
     }
+
+    background-color: var(--pure-white);
+}
+
+.cras-item__description {
+    background-color: var(--pure-white);
 }
 
 .cras-item__img {
@@ -117,6 +128,52 @@
     }
 }
 
-.cras-item__secondary-description {
-    margin-bottom: 13px;
+.price__icon-box {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+
+    background-color: var(--pure-white);
+
+    cursor: pointer;
+
+    position: relative;
+    z-index: 90;
+}
+
+.price__icon-close,
+.price__icon-open {
+    margin-right: 10px;
+}
+
+.price__icon-open {
+    position: absolute;
+
+    opacity: 0;
+}
+
+.price__lot-description {
+    position: absolute;
+    opacity: 0;
+    z-index: 80;
+
+    transform: translateY(-130%);
+    transition: transform 1000ms var(--timing-function);
+
+    background-color: var(--pure-white);
+}
+
+.js-price__lot-description-open {
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+}
+
+.js-icon-close {
+    opacity: 0;
+}
+
+.js-icon-open {
+    opacity: 1;
 }

@@ -7,7 +7,9 @@ function createListItemsMarkup(items) {
                         priceGRN, priceUSDT, quantity, priceGRNOpt, priceUSDTOpt,
                         description01, description02, description03, description04, description05 }) => {
 
-        return `<li class="cras-item">
+      return `<li>
+        
+                <div class="cras-item">
 
                     <img class="lazyload cras-item__img cras-item--margin" 
                         data-src="${url}"
@@ -72,18 +74,35 @@ function createListItemsMarkup(items) {
                             </div>
                         `}
                     </div>
+                </div>
 
-                    <div class="cras-item--width unselectable cras-item--margin">
+                <div>
 
-                        <h4 class="cras-item__title cras-item__secondary-description">Опис товару:</h4>
+                  <div class="price__icon-box js-price__box">
+    
+                      <svg class="price__icon-close js-price__icon-close" width="40" height="40">
+                  
+                          <use href="./images/icon/sprite.svg#icon-eye-close"></use>
+                      </svg>
+                  
+                      <svg class="price__icon-open js-price__icon-open" width="40" height="40">
+                  
+                          <use href="./images/icon/sprite.svg#icon-eye-open"></use>
+                      </svg>
 
-                        <p class="cras-item__text cras-item__text--margin-sub">${description01}</p>
-                        <p class="cras-item__text cras-item__text--margin-sub">${description02}</p>
-                        <p class="cras-item__text cras-item__text--margin-sub">${description03}</p>
-                        <p class="cras-item__text cras-item__text--margin-sub">${description04}</p>
-                        <p class="cras-item__text cras-item__text--margin-sub">${description05}</p>
-                    </div>
-                </li>`;
+                      <h4 class="cras-item__title unselectable">Опис товару:</h4>
+                  </div>
+        
+                  <div class="price__lot-description unselectable cras-item--margin js-price__lot-description">
+
+                      <p class="cras-item__text cras-item__text--margin-sub">${description01}</p>
+                      <p class="cras-item__text cras-item__text--margin-sub">${description02}</p>
+                      <p class="cras-item__text cras-item__text--margin-sub">${description03}</p>
+                      <p class="cras-item__text cras-item__text--margin-sub">${description04}</p>
+                      <p class="cras-item__text cras-item__text--margin-sub">${description05}</p>
+                  </div>
+                </div>
+              </li>`;
     }).join("");
 }
 
@@ -605,3 +624,30 @@ function hideEmptySections() {
     section.style.display = productsInSection.length === 0 ? "none" : "block";
   });
 }
+
+// ===========================================================================
+// Анимация описания
+// ===========================================================================
+const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
+
+const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
+const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
+
+const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
+
+const priceIconHandler = (menuIndex) => {
+  const iconClose = priceIconsClose[menuIndex];
+  const iconOpen = priceIconsOpen[menuIndex];
+  const list = priceLotsDescription[menuIndex];
+
+  iconClose.classList.toggle("js-icon-close");
+  iconOpen.classList.toggle("js-icon-open");
+  list.classList.toggle("js-price__lot-description-open");
+};
+
+priceDescriptionIconsBlocks.forEach((menu, index) => {
+  menu.addEventListener("click", (event) => {
+    event.stopPropagation();
+    priceIconHandler(index);
+  });
+});

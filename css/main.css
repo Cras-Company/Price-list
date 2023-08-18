@@ -28,6 +28,7 @@ body {
   background-color: var(--pure-white);
   font-family: Montserrat, sans-serif;
   letter-spacing: 0.03em;
+  overflow-x: hidden;
 }
 
 .cinzel {
@@ -350,12 +351,11 @@ img {
 }
 
 .filter {
-  width: 100vw;
   height: 100vw;
   margin-right: 30px;
   padding-bottom: 20px;
   position: absolute;
-  z-index: 100;
+  z-index: 110;
   background-color: var(--pure-white);
   -webkit-transform: translate(-110%, 50px);
           transform: translate(-110%, 50px);
@@ -768,10 +768,12 @@ img {
   opacity: 1;
 }
 
-.section_search_shop--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 768px) {
+  .section_search_shop--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .application-title {
@@ -818,10 +820,17 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10px;
+  position: relative;
+  z-index: 100;
+  padding: 10px;
+  background-color: var(--pure-white);
 }
 .cras-item--margin {
   margin: 10px;
+}
+
+.cras-item__description {
+  background-color: var(--pure-white);
 }
 
 .cras-item__img {
@@ -897,8 +906,56 @@ img {
   margin-bottom: 3px;
 }
 
-.cras-item__secondary-description {
-  margin-bottom: 13px;
+.price__icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  background-color: var(--pure-white);
+  cursor: pointer;
+  position: relative;
+  z-index: 90;
+}
+
+.price__icon-close,
+.price__icon-open {
+  margin-right: 10px;
+}
+
+.price__icon-open {
+  position: absolute;
+  opacity: 0;
+}
+
+.price__lot-description {
+  position: absolute;
+  opacity: 0;
+  z-index: 80;
+  -webkit-transform: translateY(-130%);
+          transform: translateY(-130%);
+  -webkit-transition: -webkit-transform 1000ms var(--timing-function);
+  transition: -webkit-transform 1000ms var(--timing-function);
+  transition: transform 1000ms var(--timing-function);
+  transition: transform 1000ms var(--timing-function), -webkit-transform 1000ms var(--timing-function);
+  background-color: var(--pure-white);
+}
+
+.js-price__lot-description-open {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  position: relative;
+}
+
+.js-icon-close {
+  opacity: 0;
+}
+
+.js-icon-open {
+  opacity: 1;
 }
 
 .contacts {
