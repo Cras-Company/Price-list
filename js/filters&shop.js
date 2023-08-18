@@ -547,6 +547,33 @@ filterSecondaryMenus.forEach((menu, index) => {
 });
 
 // ===========================================================================
+// Анимация описания
+// ===========================================================================
+const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
+
+const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
+const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
+
+const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
+
+const priceIconHandler = (menuIndex) => {
+  const iconClose = priceIconsClose[menuIndex];
+  const iconOpen = priceIconsOpen[menuIndex];
+  const list = priceLotsDescription[menuIndex];
+
+  iconClose.classList.toggle("js-icon-close");
+  iconOpen.classList.toggle("js-icon-open");
+  list.classList.toggle("js-price__lot-description-open");
+};
+
+priceDescriptionIconsBlocks.forEach((menu, index) => {
+  menu.addEventListener("click", (event) => {
+    event.stopPropagation();
+    priceIconHandler(index);
+  });
+});
+
+// ===========================================================================
 // Навигация по товарам
 // ===========================================================================
 
@@ -624,30 +651,3 @@ function hideEmptySections() {
     section.style.display = productsInSection.length === 0 ? "none" : "block";
   });
 }
-
-// ===========================================================================
-// Анимация описания
-// ===========================================================================
-const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
-
-const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
-const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
-
-const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
-
-const priceIconHandler = (menuIndex) => {
-  const iconClose = priceIconsClose[menuIndex];
-  const iconOpen = priceIconsOpen[menuIndex];
-  const list = priceLotsDescription[menuIndex];
-
-  iconClose.classList.toggle("js-icon-close");
-  iconOpen.classList.toggle("js-icon-open");
-  list.classList.toggle("js-price__lot-description-open");
-};
-
-priceDescriptionIconsBlocks.forEach((menu, index) => {
-  menu.addEventListener("click", (event) => {
-    event.stopPropagation();
-    priceIconHandler(index);
-  });
-});
