@@ -428,7 +428,7 @@
 
                 <form class="filter__form js-filter__form">
                 
-                    <label class="filter__title" for="search">Пошук</label>
+                    <label class="filter__title search-disable" for="search">Пошук</label>
                 
                     <div class="filter__search">
                 
@@ -650,9 +650,12 @@
         <!-- Search and filter -->
             <div>
 
-                <div class="shop_filter">
-                
-                    <button class="filter__button filter__button--mobile" type="button" aria-expanded="false" aria-controls="filter"
+                <div class="mobile-filter">
+
+                    <button class="filter__button" 
+                        type="button" 
+                        aria-expanded="false" 
+                        aria-controls="filter"
                         data-mobile-search-button>
                 
                         <svg class="filter__icon-search" width="32" height="32" aria-label="Перемикач мобільного пошуку">
@@ -662,6 +665,8 @@
                             <use class="icon-search-cross" href="./images/icon/sprite.svg#icon-cross"></use>
                         </svg>
                     </button>
+
+                    <p class="mobile-filter__title">Пошук</p>
                 </div>
 
                 <section class="js-section-none js-section-all-shampoos">

@@ -36,15 +36,7 @@
 }
 
 .cras-list {
-    @media screen and (min-width: 480px) {
-        margin: -10px;
-    }
-}
-
-.cras-block {
-    border: 2px solid #057198;
-    border-radius: 20px;
-    margin-bottom: 5px;
+    margin: -10px;
 }
 
 .cras-item {
@@ -81,7 +73,7 @@
     }
 
     @media screen and (min-width: 1024px) and (max-width: 1068px) {
-        width: 260px;
+        width: 300px;
     }
 }
 

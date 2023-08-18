@@ -138,12 +138,6 @@
   }
 }
 
-.filter__button--mobile {
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
-
 .filter__button--margin {
   margin-left: 10px;
 }
