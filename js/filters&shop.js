@@ -495,6 +495,27 @@ function handleFormSubmit(event) {
     }
   });
 
+  const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
+
+  const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
+  const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
+
+  const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
+
+  priceDescriptionIconsBlocks.forEach((menu, index) => {
+    menu.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const iconEyeClose = priceIconsClose[index];
+      const iconEyeOpen = priceIconsOpen[index];
+      const listEye = priceLotsDescription[index];
+
+      iconEyeClose.classList.toggle("js-icon-close");
+      iconEyeOpen.classList.toggle("js-icon-open");
+      listEye.classList.toggle("js-price__lot-description-open");
+    });
+  });
+  
+
   const lazyImages = document.querySelectorAll(
     'img[class="lazyload cras-item__img cras-item--margin"]'
   );
@@ -630,7 +651,6 @@ function filterClickHandler(event) {
     }
   });
 });
-
 
 function showSelectedProducts(dataTarget) {
   productLists.forEach(product => {
