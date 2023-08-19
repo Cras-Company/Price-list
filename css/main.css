@@ -351,6 +351,7 @@ img {
 }
 
 .filter {
+  overflow-y: auto;
   width: 94vw;
   padding: 10px;
   position: absolute;
@@ -365,7 +366,7 @@ img {
 }
 @media screen and (min-width: 330px) and (max-width: 767px) {
   .filter {
-    min-height: 1000px;
+    min-height: 500px;
   }
 }
 @media screen and (min-width: 355px) {
@@ -844,15 +845,6 @@ img {
   }
 }
 
-.output-error {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--link-color);
-  text-align: center;
-}
-
 .shop__list .work-list-item__img {
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
@@ -1106,6 +1098,22 @@ img {
 
 .js-icon-open {
   opacity: 1;
+}
+
+.output-error {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--link-color);
+  text-align: center;
+}
+@media screen and (min-width: 1280px) {
+  .output-error {
+    font-size: 36px;
+  }
 }
 
 .contacts {

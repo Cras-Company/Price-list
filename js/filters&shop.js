@@ -273,8 +273,19 @@ const JSSectionOne = document.querySelectorAll(".js-section-none");
 // Нет товара
 const outputError = document.querySelector(".js-output-error");
 
+function hideErrorMessage() {
+  outputError.textContent = "";
+  outputError.style.marginTop = "0px";
+  outputError.style.marginBottom = "0px";
+}
+
+function resetFilterResults() {
+  hasResults = true;
+  hideErrorMessage();
+}
+
 function resetMarkup() {
-    productLists.forEach(product => {
+  productLists.forEach(product => {
     product.element.style.display = "block";
     if (product.block) {
       product.block.style.display = "block";
@@ -284,10 +295,11 @@ function resetMarkup() {
   JSSectionOne.forEach(section => {
     section.style.display = "block";
   });
+
+  resetFilterResults();
 }
 
 inputSearch.value = "";
-
 filterForm.addEventListener("submit", handleFormSubmit);
 
 function universalSearch(items, searchItem) {
@@ -313,14 +325,14 @@ function universalSearch(items, searchItem) {
     return filteredItems;
 }
 
-function handleFormSubmit(event) {
+let hasResults = true;
 
+function handleFormSubmit(event) {
   event.preventDefault();
 
   const searchItem = inputSearch.value.trim().toLowerCase();
 
   resetMarkup();
-
   inputSearch.value = "";
 
   if (searchItem === "") {
@@ -372,22 +384,19 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningKitchenBathroom,
     ...filteredMeansCleaningDishwashers,];
 
-    if (allFilteredItems.length === 0) {
-        outputError.textContent = "Нажаль, такого товару у нас не має :(";
-        outputError.style.marginTop = "60px";
-        outputError.style.marginBottom = "60px";
-        JSSectionOne.forEach((section) => {
-            section.style.display = "none";
-        });
-        return;
-    } else {
-        outputError.textContent = "";
-        outputError.style.marginTop = "0px";
-        outputError.style.marginBottom = "0px";
-        JSSectionOne.forEach((section) => {
-            section.style.display = "block";
-        });
-      }
+  hasResults = allFilteredItems.length > 0;
+
+  if (!hasResults) {
+    outputError.textContent = "Нажаль, такого товару у нас не має :(";
+    outputError.style.marginTop = "60px";
+    outputError.style.marginBottom = "60px";
+
+    JSSectionOne.forEach(section => {
+      section.style.display = "none";
+    });
+  } else {
+    hideErrorMessage(); // Скрываем сообщение об ошибке
+  }
   
   if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
       shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
@@ -556,20 +565,16 @@ const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
 
 const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
 
-const priceIconHandler = (menuIndex) => {
-  const iconClose = priceIconsClose[menuIndex];
-  const iconOpen = priceIconsOpen[menuIndex];
-  const list = priceLotsDescription[menuIndex];
-
-  iconClose.classList.toggle("js-icon-close");
-  iconOpen.classList.toggle("js-icon-open");
-  list.classList.toggle("js-price__lot-description-open");
-};
-
 priceDescriptionIconsBlocks.forEach((menu, index) => {
   menu.addEventListener("click", (event) => {
     event.stopPropagation();
-    priceIconHandler(index);
+    const iconEyeClose = priceIconsClose[index];
+    const iconEyeOpen = priceIconsOpen[index];
+    const listEye = priceLotsDescription[index];
+    
+    iconEyeClose.classList.toggle("js-icon-close");
+    iconEyeOpen.classList.toggle("js-icon-open");
+    listEye.classList.toggle("js-price__lot-description-open");
   });
 });
 
@@ -612,7 +617,18 @@ function filterClickHandler(event) {
 }
 
 [...filterLists, ...filterSecondaryLists].forEach(list => {
-  list.addEventListener("click", filterClickHandler);
+  list.addEventListener("click", (event) => {
+    const target = event.target;
+    if (target.tagName === "LI") {
+      hideErrorMessage(); // Скрываем сообщение о недоступности товара при навигации
+      resetMarkup(); // Сбрасываем фильтрацию и отображение товаров
+      
+      const dataTarget = target.getAttribute("data-target");
+      hideAllSectionsAndProducts();
+      showSelectedProducts(dataTarget);
+      hideEmptySections();
+    }
+  });
 });
 
 

@@ -220,3 +220,21 @@
 .js-icon-open {
     opacity: 1;
 }
+
+.output-error {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--link-color);
+
+    text-align: center;
+
+    @media screen and (min-width: 1280px) {
+        font-size: 36px;
+    }
+}
