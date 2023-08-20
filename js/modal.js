@@ -62,3 +62,28 @@ refs.closeModalBtn.forEach((btn) => {
     onCloseModal(refs.modalMobileMenu);
   });
 });
+
+// ===========================================================================
+// Фильтр на мобилку
+// ===========================================================================
+
+const mobileSearchBtn = document.querySelector('[data-mobile-search-button]');
+const mobileSearchMenu = document.querySelector('[data-filter-menu]');
+const categoryItems = document.querySelectorAll(".js-category-items");
+
+mobileSearchBtn.addEventListener('click', () => {
+  const expanded = mobileSearchBtn.getAttribute('aria-expanded') === 'true' || 'false'
+
+  mobileSearchBtn.classList.toggle('is-open');
+
+  mobileSearchBtn.setAttribute('aria-expanded', !expanded);
+
+  mobileSearchMenu.classList.toggle('is-open');
+});
+
+categoryItems.forEach(item => {
+  item.addEventListener('click', () => {
+    mobileSearchMenu.classList.remove('is-open');
+    mobileSearchBtn.classList.toggle('is-open');
+  });
+});

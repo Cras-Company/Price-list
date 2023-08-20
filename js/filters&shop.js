@@ -107,7 +107,7 @@ function createListItemsMarkup(items) {
 }
 
 // ===========================================================================
-// Импорт массивов
+// Импорт внешних массивов
 // ===========================================================================
 
 // Средства гигиены
@@ -160,74 +160,8 @@ const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--u
 const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
 const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
 
-const shopLists = [
-  { element: shopListBabyShampoos, items: shopLotsBabyShampoos },
-  { element: shopListAdultShampoos, items: shopLotsAdultShampoos },
-
-  { element: shopListBabyShowerGels, items: shopLotsBabyShowerGels },
-  { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels },
-
-  { element: shopListMicellarWipes, items: shopLotsMicellarWipes },
-
-  { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes },
-  { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes },
-
-  { element: shopListWashingGels, items: shopLotsWashingGels },
-  { element: shopListPowerCaps, items: shopLotsPowerCaps },
-  { element: shopListWashingPowders, items: shopLotsWashingPowders },
-  { element: shopListStainRemovers, items: shopLotsStainRemovers },
-  { element: shopListSofteners, items: shopLotsSofteners },
-
-  { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal },
-  { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom },
-  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers }
-];
-
-shopLists.forEach(({ element, items }) => {
-  element.innerHTML = createListItemsMarkup(items);
-});
-
 // ===========================================================================
-// Анимация Lazy-loading
-// ===========================================================================
-
-const lazyImages = document.querySelectorAll(
-  'img[class="lazyload cras-item__img cras-item--margin"]'
-);
-
-lazyImages.forEach((image) => {
-  image.addEventListener("load", function () {
-    image.classList.add("appear");
-  });
-});
-
-// ===========================================================================
-// Фильтр на мобилку
-// ===========================================================================
-
-const mobileSearchBtn = document.querySelector('[data-mobile-search-button]');
-const mobileSearchMenu = document.querySelector('[data-filter-menu]');
-const categoryItems = document.querySelectorAll(".js-category-items");
-
-mobileSearchBtn.addEventListener('click', () => {
-  const expanded = mobileSearchBtn.getAttribute('aria-expanded') === 'true' || 'false'
-
-  mobileSearchBtn.classList.toggle('is-open');
-
-  mobileSearchBtn.setAttribute('aria-expanded', !expanded);
-
-  mobileSearchMenu.classList.toggle('is-open');
-});
-
-categoryItems.forEach(item => {
-  item.addEventListener('click', () => {
-    mobileSearchMenu.classList.remove('is-open');
-    mobileSearchBtn.classList.toggle('is-open');
-  });
-});
-
-// ===========================================================================
-// Поиск в фильтре
+// Секции и блоки
 // ===========================================================================
 
 // Форма поиска
@@ -273,33 +207,226 @@ const JSSectionOne = document.querySelectorAll(".js-section-none");
 // Нет товара
 const outputError = document.querySelector(".js-output-error");
 
-function hideErrorMessage() {
-  outputError.textContent = "";
-  outputError.style.marginTop = "0px";
-  outputError.style.marginBottom = "0px";
-}
+// ===========================================================================
+// Массив товаров
+// ===========================================================================
 
-function resetFilterResults() {
-  hasResults = true;
-  hideErrorMessage();
-}
+const arrayOfProducts = [
+  { element: shopListBabyShampoos, items: shopLotsBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
+  { element: shopListAdultShampoos, items: shopLotsAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
+
+  { element: shopListBabyShowerGels, items: shopLotsBabyShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
+  { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },
+
+  { element: shopListMicellarWipes, items: shopLotsMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
+
+  { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
+  { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
+
+  { element: shopListWashingGels, items: shopLotsWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
+  { element: shopListPowerCaps, items: shopLotsPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
+  { element: shopListWashingPowders, items: shopLotsWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
+  { element: shopListStainRemovers, items: shopLotsStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
+  { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
+
+  { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
+  { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
+  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" }
+];
+
+arrayOfProducts.forEach(({ element, items }) => {
+  element.innerHTML = createListItemsMarkup(items);
+});
+
+// ===========================================================================
+// Сброс разметки
+// ===========================================================================
 
 function resetMarkup() {
-  productLists.forEach(product => {
+  arrayOfProducts.forEach(product => {
     product.element.style.display = "block";
-    if (product.block) {
-      product.block.style.display = "block";
-    }
+    product.block.style.display = "block";
   });
 
   JSSectionOne.forEach(section => {
     section.style.display = "block";
   });
-
-  resetFilterResults();
 }
 
+// ===========================================================================
+// Анимация Lazy-loading
+// ===========================================================================
+
+function lazyLoadImagesAnimation() {
+  const lazyImages = document.querySelectorAll('img[class="lazyload cras-item__img cras-item--margin"]');
+
+  lazyImages.forEach((image) => {
+    image.addEventListener("load", function () {
+      image.classList.add("appear");
+    });
+  });
+}
+
+lazyLoadImagesAnimation();
+
+// ===========================================================================
+// Анимация иконок в разделе товаров
+// ===========================================================================
+const filterMenus = document.querySelectorAll(".js-filter__menu");
+const filterSecondaryMenus = document.querySelectorAll(".js-filter__secondary-menu");
+
+const filterLists = document.querySelectorAll(".js-filter__list");
+const filterSecondaryLists = document.querySelectorAll(".js-filter__secondary-list");
+
+const filterIconsOpen = document.querySelectorAll(".js-filter__icon-open");
+const filterIconsClose = document.querySelectorAll(".js-filter__icon-close");
+
+const filterSecondaryIconsOpen = document.querySelectorAll(".js-filter__secondary-icon-open");
+const filterSecondaryIconsClose = document.querySelectorAll(".js-filter__secondary-icon-close");
+
+const filterIconHandler = (menuIndex) => {
+  const iconClose = filterIconsClose[menuIndex];
+  const iconOpen = filterIconsOpen[menuIndex];
+  const list = filterLists[menuIndex];
+
+  iconClose.classList.toggle("js-icon-close");
+  iconOpen.classList.toggle("js-icon-open");
+  list.classList.toggle("js-filter-list-open");
+};
+
+const filterSecondaryIconHandler = (menuIndex) => {
+  const secondaryIconClose = filterSecondaryIconsClose[menuIndex];
+  const secondaryIconOpen = filterSecondaryIconsOpen[menuIndex];
+  const secondaryList = filterSecondaryLists[menuIndex];
+
+  secondaryIconClose.classList.toggle("js-icon-close");
+  secondaryIconOpen.classList.toggle("js-icon-open");
+  secondaryList.classList.toggle("js-filter-list-open");
+};
+
+filterMenus.forEach((menu, index) => {
+  menu.addEventListener("click", (event) => {
+    event.stopPropagation();
+    filterIconHandler(index);
+  });
+});
+
+filterSecondaryMenus.forEach((menu, index) => {
+  menu.addEventListener("click", (event) => {
+    event.stopPropagation();
+    filterSecondaryIconHandler(index);
+  });
+});
+
+// ===========================================================================
+// Анимация иконки описания товаров
+// ===========================================================================
+
+function iconsDescriptionAnimation() {
+  const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
+
+  const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
+  const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
+
+  const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
+  
+  priceDescriptionIconsBlocks.forEach((menu, index) => {
+    menu.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const iconEyeClose = priceIconsClose[index];
+      const iconEyeOpen = priceIconsOpen[index];
+      const listEye = priceLotsDescription[index];
+
+      iconEyeClose.classList.toggle("js-icon-close");
+      iconEyeOpen.classList.toggle("js-icon-open");
+      listEye.classList.toggle("js-price__lot-description-open");
+    });
+  });
+}
+
+iconsDescriptionAnimation();
+
+// ===========================================================================
+// Навигация по товарам
+// ===========================================================================
+
+[...filterLists, ...filterSecondaryLists].forEach(list => {
+  list.addEventListener("click", filterClickHandler);
+});
+
+function hideAllSectionsAndProducts() {
+  JSSectionOne.forEach(section => {
+    section.style.display = "none";
+  });
+
+  arrayOfProducts.forEach(product => {
+    product.element.style.display = "none";
+    if (product.block) {
+      product.block.style.display = "none";
+    }
+  });
+}
+
+function showSelectedProducts(dataTarget) {
+  arrayOfProducts.forEach(product => {
+    if (product.dataTarget === dataTarget) {
+      product.element.style.display = "block";
+      const section = product.element.closest(".js-section-none");
+      if (section) {
+        section.style.display = "block";
+        product.block.style.display = "block";
+      }
+    }
+  });
+}
+
+function hideEmptySections() {
+  JSSectionOne.forEach(section => {
+    const productsInSection = arrayOfProducts.filter(product =>
+      product.element.closest(".js-section-none") === section && product.element.style.display !== "none"
+    );
+
+    section.style.display = productsInSection.length === 0 ? "none" : "block";
+  });
+}
+
+function filterClickHandler(event) {
+  const target = event.target;
+  if (target.tagName === "LI") {
+    const dataTarget = target.getAttribute("data-target");
+    
+    // Отключаем действие по умолчанию (переход по ссылке)
+    event.preventDefault();
+    
+    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
+    const newUrl = window.location.origin + window.location.pathname + "?dataTarget=" + dataTarget;
+    window.location.href = newUrl;
+  }
+}
+
+window.addEventListener("load", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const dataTarget = urlParams.get("dataTarget");
+  
+  if (dataTarget) {
+    hideAllSectionsAndProducts();
+    showSelectedProducts(dataTarget);
+    hideEmptySections();
+
+    // Находим выбранную секцию по dataTarget и прокручиваем к ней
+    const selectedSection = document.querySelector(`[data-target="${dataTarget}"]`);
+    if (selectedSection) {
+      selectedSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+});
+
+// ===========================================================================
+// Поиск в фильтре
+// ===========================================================================
+
 inputSearch.value = "";
+
 filterForm.addEventListener("submit", handleFormSubmit);
 
 function universalSearch(items, searchItem) {
@@ -325,14 +452,14 @@ function universalSearch(items, searchItem) {
     return filteredItems;
 }
 
-let hasResults = true;
-
 function handleFormSubmit(event) {
+
   event.preventDefault();
 
   const searchItem = inputSearch.value.trim().toLowerCase();
 
   resetMarkup();
+
   inputSearch.value = "";
 
   if (searchItem === "") {
@@ -384,19 +511,22 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningKitchenBathroom,
     ...filteredMeansCleaningDishwashers,];
 
-  hasResults = allFilteredItems.length > 0;
-
-  if (!hasResults) {
-    outputError.textContent = "Нажаль, такого товару у нас не має :(";
-    outputError.style.marginTop = "60px";
-    outputError.style.marginBottom = "60px";
-
-    JSSectionOne.forEach(section => {
-      section.style.display = "none";
-    });
-  } else {
-    hideErrorMessage(); // Скрываем сообщение об ошибке
-  }
+ if (allFilteredItems.length === 0) {
+        outputError.textContent = "Нажаль, такого товару у нас не має :(";
+        outputError.style.marginTop = "60px";
+        outputError.style.marginBottom = "60px";
+        JSSectionOne.forEach((section) => {
+            section.style.display = "none";
+        });
+        return;
+    } else {
+        outputError.textContent = "";
+        outputError.style.marginTop = "0px";
+        outputError.style.marginBottom = "0px";
+        JSSectionOne.forEach((section) => {
+            section.style.display = "block";
+        });
+      }
   
   if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
       shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
@@ -495,195 +625,6 @@ function handleFormSubmit(event) {
     }
   });
 
-  const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
-
-  const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
-  const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
-
-  const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
-
-  priceDescriptionIconsBlocks.forEach((menu, index) => {
-    menu.addEventListener("click", (event) => {
-      event.stopPropagation();
-      const iconEyeClose = priceIconsClose[index];
-      const iconEyeOpen = priceIconsOpen[index];
-      const listEye = priceLotsDescription[index];
-
-      iconEyeClose.classList.toggle("js-icon-close");
-      iconEyeOpen.classList.toggle("js-icon-open");
-      listEye.classList.toggle("js-price__lot-description-open");
-    });
-  });
-  
-
-  const lazyImages = document.querySelectorAll(
-    'img[class="lazyload cras-item__img cras-item--margin"]'
-  );
-
-  lazyImages.forEach((image) => {
-    image.addEventListener("load", function () {
-      image.classList.add("appear");
-    });
-  });
-}
-
-// ===========================================================================
-// Разделы товаров
-// ===========================================================================
-const filterMenus = document.querySelectorAll(".js-filter__menu");
-const filterSecondaryMenus = document.querySelectorAll(".js-filter__secondary-menu");
-
-const filterLists = document.querySelectorAll(".js-filter__list");
-const filterSecondaryLists = document.querySelectorAll(".js-filter__secondary-list");
-
-const filterIconsOpen = document.querySelectorAll(".js-filter__icon-open");
-const filterIconsClose = document.querySelectorAll(".js-filter__icon-close");
-
-const filterSecondaryIconsOpen = document.querySelectorAll(".js-filter__secondary-icon-open");
-const filterSecondaryIconsClose = document.querySelectorAll(".js-filter__secondary-icon-close");
-
-const filterIconHandler = (menuIndex) => {
-  const iconClose = filterIconsClose[menuIndex];
-  const iconOpen = filterIconsOpen[menuIndex];
-  const list = filterLists[menuIndex];
-
-  iconClose.classList.toggle("js-icon-close");
-  iconOpen.classList.toggle("js-icon-open");
-  list.classList.toggle("js-filter-list-open");
-};
-
-const filterSecondaryIconHandler = (menuIndex) => {
-  const secondaryIconClose = filterSecondaryIconsClose[menuIndex];
-  const secondaryIconOpen = filterSecondaryIconsOpen[menuIndex];
-  const secondaryList = filterSecondaryLists[menuIndex];
-
-  secondaryIconClose.classList.toggle("js-icon-close");
-  secondaryIconOpen.classList.toggle("js-icon-open");
-  secondaryList.classList.toggle("js-filter-list-open");
-};
-
-filterMenus.forEach((menu, index) => {
-  menu.addEventListener("click", (event) => {
-    event.stopPropagation();
-    filterIconHandler(index);
-  });
-});
-
-filterSecondaryMenus.forEach((menu, index) => {
-  menu.addEventListener("click", (event) => {
-    event.stopPropagation();
-    filterSecondaryIconHandler(index);
-  });
-});
-
-// ===========================================================================
-// Анимация описания
-// ===========================================================================
-const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
-
-const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
-const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
-
-const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
-
-priceDescriptionIconsBlocks.forEach((menu, index) => {
-  menu.addEventListener("click", (event) => {
-    event.stopPropagation();
-    const iconEyeClose = priceIconsClose[index];
-    const iconEyeOpen = priceIconsOpen[index];
-    const listEye = priceLotsDescription[index];
-    
-    iconEyeClose.classList.toggle("js-icon-close");
-    iconEyeOpen.classList.toggle("js-icon-open");
-    listEye.classList.toggle("js-price__lot-description-open");
-  });
-});
-
-// ===========================================================================
-// Навигация по товарам
-// ===========================================================================
-
-const productLists = [
-  { element: shopListBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
-  { element: shopListAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
-
-  { element: shopListBabyShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
-  { element: shopListAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },
-
-  { element: shopListMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
-
-  { element: shopListMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
-  { element: shopListMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
-
-  { element: shopListWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
-  { element: shopListPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
-  { element: shopListWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
-  { element: shopListStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
-  { element: shopListSofteners, block: BlockSofteners, dataTarget: "softeners" },
-
-  { element: shopListMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
-  { element: shopListMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
-  { element: shopListMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
-];
-
-function filterClickHandler(event) {
-  const target = event.target;
-  if (target.tagName === "LI") {
-    const dataTarget = target.getAttribute("data-target");
-
-    hideAllSectionsAndProducts();
-    showSelectedProducts(dataTarget);
-    hideEmptySections();
-  }
-}
-
-[...filterLists, ...filterSecondaryLists].forEach(list => {
-  list.addEventListener("click", (event) => {
-    const target = event.target;
-    if (target.tagName === "LI") {
-      hideErrorMessage(); // Скрываем сообщение о недоступности товара при навигации
-      resetMarkup(); // Сбрасываем фильтрацию и отображение товаров
-      
-      const dataTarget = target.getAttribute("data-target");
-      hideAllSectionsAndProducts();
-      showSelectedProducts(dataTarget);
-      hideEmptySections();
-    }
-  });
-});
-
-function showSelectedProducts(dataTarget) {
-  productLists.forEach(product => {
-    if (product.dataTarget === dataTarget) {
-      product.element.style.display = "block";
-      const section = product.element.closest(".js-section-none");
-      if (section) {
-        section.style.display = "block";
-        product.block.style.display = "block";
-      }
-    }
-  });
-}
-
-function hideAllSectionsAndProducts() {
-  JSSectionOne.forEach(section => {
-    section.style.display = "none";
-  });
-
-  productLists.forEach(product => {
-    product.element.style.display = "none";
-    if (product.block) {
-      product.block.style.display = "none";
-    }
-  });
-}
-
-function hideEmptySections() {
-  JSSectionOne.forEach(section => {
-    const productsInSection = productLists.filter(product =>
-      product.element.closest(".js-section-none") === section && product.element.style.display !== "none"
-    );
-
-    section.style.display = productsInSection.length === 0 ? "none" : "block";
-  });
+  lazyLoadImagesAnimation();
+  iconsDescriptionAnimation();
 }
