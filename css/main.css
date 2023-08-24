@@ -731,6 +731,12 @@ img {
   line-height: 1.14;
 }
 
+.cras-country-list--scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-color: #057198 #f4f4f4;
+}
+
 .cras-country-list > li {
   margin-left: 37px;
   padding: 10px;

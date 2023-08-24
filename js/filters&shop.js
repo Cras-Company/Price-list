@@ -27,7 +27,7 @@ function createListItemsMarkup(items) {
 
                         <div class="cras-item__element">
                             <h4 class="cras-item__title">Бренд:</h4>
-                            <p class="cras-item__text cras-item__text--margin">&#171;${brand}&#187;;</p>
+                            <p class="cras-item__text cras-item__text--margin" data-set="brand">&#171;${brand}&#187;;</p>
                         </div>
 
                         <div class="cras-item__name">
@@ -631,6 +631,142 @@ function handleFormSubmit(event) {
 }
 
 // ===========================================================================
+// Навигация брендам
+// ===========================================================================
+
+const crasBrands = document.querySelector('.js-cras__list--brends');
+
+const arrayCrasBrands = new Set();
+
+arrayOfProducts.forEach(product => {
+  const brands = product.items.flatMap(item => item.brand);
+  
+  brands.forEach(brand => {
+    arrayCrasBrands.add(brand);
+  });
+});
+
+const arrayCrasBrandsMarkup = [...arrayCrasBrands];
+
+arrayCrasBrandsMarkup.sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'base' }));
+
+function createListCrasBrandsMarkup() {
+    return arrayCrasBrandsMarkup.map(brand => {
+      return `<li data-brand="${brand}">${brand}</li>`;
+    }).join("");
+}
+
+crasBrands.innerHTML = createListCrasBrandsMarkup();
+
+crasBrands.addEventListener("click", brandClickHandler);
+
+// function brandClickHandler(event) {
+//   const target = event.target;
+
+//   if (target.tagName === "LI") {
+//     const dataBrand = target.getAttribute("data-brand");
+
+//     hideAllSectionsAndProducts();
+
+//     arrayOfProducts.forEach(({ element, items, block }) => {
+//       if (items.some(item => item.brand === dataBrand)) {
+//         element.style.display = "block";
+
+//         const section = element.closest(".js-section-none");
+//         if (section) {
+//           section.style.display = "block";
+//         }
+
+//         if (block) {
+//           block.style.display = "block";
+
+//           const productElements = block.querySelectorAll('.cras-block');
+
+//           productElements.forEach(productElement => {
+//             const firstBrand = productElement.querySelector('[data-set="brand"]').textContent;
+
+//             const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
+
+//               if (productElementBrand === dataBrand) {
+//                 productElement.style.display = "block";
+//               } else {
+//                 productElement.style.display = "none";
+//               }
+//           });
+//         }
+//       }
+//     });
+//   }
+// }
+
+function brandClickHandler(event) {
+  const target = event.target;
+
+  if (target.tagName === "LI") {
+    const dataBrand = target.getAttribute("data-brand");
+
+        // Отключаем действие по умолчанию (переход по ссылке)
+    event.preventDefault();
+    
+    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
+    const newUrl = window.location.origin + window.location.pathname + "?dataBrand=" + dataBrand;
+    window.location.href = newUrl;
+  }
+}
+
+window.addEventListener("load", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const dataBrand = urlParams.get("dataBrand");
+  
+  if (dataBrand) {
+    hideAllSectionsAndProducts();
+
+    arrayOfProducts.forEach(({ element, items, block }) => {
+      if (items.some(item => item.brand === dataBrand)) {
+        element.style.display = "block";
+
+        const section = element.closest(".js-section-none");
+        if (section) {
+          section.style.display = "block";
+        }
+
+        if (block) {
+          block.style.display = "block";
+
+          const productElements = block.querySelectorAll('.cras-block');
+
+          productElements.forEach(productElement => {
+            const firstBrand = productElement.querySelector('[data-set="brand"]').textContent;
+
+            const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
+
+              if (productElementBrand === dataBrand) {
+                productElement.style.display = "block";
+              } else {
+                productElement.style.display = "none";
+              }
+          });
+        }
+      }
+    });
+
+    hideEmptySections();
+
+    const selectedSection = document.querySelector(`[data-brand="${dataBrand}"]`);
+    
+    if (selectedSection) {
+      const rect = selectedSection.getBoundingClientRect();
+      const offset = rect.top + window.scrollY - (window.innerHeight / 2) + (rect.height / 2);
+      
+      window.scrollTo({
+        top: offset,
+        behavior: "smooth",
+      });
+    }
+  }
+});
+
+// ===========================================================================
 // Навигация по странам
 // ===========================================================================
 
@@ -711,7 +847,6 @@ function countryClickHandler(event) {
     // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
     const newUrl = window.location.origin + window.location.pathname + "?dataCountry=" + dataCountry;
     window.location.href = newUrl;
-
   }
 }
 
