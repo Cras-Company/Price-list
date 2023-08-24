@@ -347,82 +347,6 @@ function iconsDescriptionAnimation() {
 iconsDescriptionAnimation();
 
 // ===========================================================================
-// Навигация по товарам
-// ===========================================================================
-
-[...filterLists, ...filterSecondaryLists].forEach(list => {
-  list.addEventListener("click", filterClickHandler);
-});
-
-function hideAllSectionsAndProducts() {
-  JSSectionOne.forEach(section => {
-    section.style.display = "none";
-  });
-
-  arrayOfProducts.forEach(product => {
-    product.element.style.display = "none";
-    if (product.block) {
-      product.block.style.display = "none";
-    }
-  });
-}
-
-function showSelectedProducts(dataTarget) {
-  arrayOfProducts.forEach(product => {
-    if (product.dataTarget === dataTarget) {
-      product.element.style.display = "block";
-      const section = product.element.closest(".js-section-none");
-      if (section) {
-        section.style.display = "block";
-        product.block.style.display = "block";
-      }
-    }
-  });
-}
-
-function hideEmptySections() {
-  JSSectionOne.forEach(section => {
-    const productsInSection = arrayOfProducts.filter(product =>
-      product.element.closest(".js-section-none") === section && product.element.style.display !== "none"
-    );
-
-    section.style.display = productsInSection.length === 0 ? "none" : "block";
-  });
-}
-
-function filterClickHandler(event) {
-  const target = event.target;
-  if (target.tagName === "LI") {
-    const dataTarget = target.getAttribute("data-target");
-    
-    // Отключаем действие по умолчанию (переход по ссылке)
-    event.preventDefault();
-    
-    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
-    const newUrl = window.location.origin + window.location.pathname + "?dataTarget=" + dataTarget;
-    window.location.href = newUrl;
-  }
-}
-
-window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const dataTarget = urlParams.get("dataTarget");
-  
-  if (dataTarget) {
-    hideAllSectionsAndProducts();
-    showSelectedProducts(dataTarget);
-    hideEmptySections();
-
-    // Находим выбранную секцию по dataTarget и прокручиваем к ней
-    const selectedSection = document.querySelector(`[data-target="${dataTarget}"]`);
-    
-    if (selectedSection) {
-      selectedSection.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }
-});
-
-// ===========================================================================
 // Поиск в фильтре
 // ===========================================================================
 
@@ -631,6 +555,81 @@ function handleFormSubmit(event) {
 }
 
 // ===========================================================================
+// Навигация по товарам
+// ===========================================================================
+
+[...filterLists, ...filterSecondaryLists].forEach(list => {
+  list.addEventListener("click", filterClickHandler);
+});
+
+function hideAllSectionsAndProducts() {
+  JSSectionOne.forEach(section => {
+    section.style.display = "none";
+  });
+
+  arrayOfProducts.forEach(product => {
+    product.element.style.display = "none";
+    if (product.block) {
+      product.block.style.display = "none";
+    }
+  });
+}
+
+function showSelectedProducts(dataTarget) {
+  arrayOfProducts.forEach(product => {
+    if (product.dataTarget === dataTarget) {
+      product.element.style.display = "block";
+      const section = product.element.closest(".js-section-none");
+      if (section) {
+        section.style.display = "block";
+        product.block.style.display = "block";
+      }
+    }
+  });
+}
+
+function hideEmptySections() {
+  JSSectionOne.forEach(section => {
+    const productsInSection = arrayOfProducts.filter(product =>
+      product.element.closest(".js-section-none") === section && product.element.style.display !== "none"
+    );
+
+    section.style.display = productsInSection.length === 0 ? "none" : "block";
+  });
+}
+
+function filterClickHandler(event) {
+  const target = event.target;
+  if (target.tagName === "LI") {
+    const dataTarget = target.getAttribute("data-target");
+    
+    // Отключаем действие по умолчанию (переход по ссылке)
+    event.preventDefault();
+    
+    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
+    const newUrl = window.location.origin + window.location.pathname + "?dataTarget=" + dataTarget;
+    window.location.href = newUrl;
+  }
+}
+
+window.addEventListener("load", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const dataTarget = urlParams.get("dataTarget");
+  
+  if (dataTarget) {
+    hideAllSectionsAndProducts();
+    showSelectedProducts(dataTarget);
+    hideEmptySections();
+
+    const filterMenuElement = document.querySelector('[data-filter-menu]');
+
+    if (filterMenuElement) {
+      filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+});
+
+// ===========================================================================
 // Навигация брендам
 // ===========================================================================
 
@@ -752,16 +751,10 @@ window.addEventListener("load", () => {
 
     hideEmptySections();
 
-    const selectedSection = document.querySelector(`[data-brand="${dataBrand}"]`);
+    const filterMenuElement = document.querySelector('[data-filter-menu]');
     
-    if (selectedSection) {
-      const rect = selectedSection.getBoundingClientRect();
-      const offset = rect.top + window.scrollY - (window.innerHeight / 2) + (rect.height / 2);
-      
-      window.scrollTo({
-        top: offset,
-        behavior: "smooth",
-      });
+    if (filterMenuElement) {
+      filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }
 });
@@ -886,16 +879,10 @@ window.addEventListener("load", () => {
 
     hideEmptySections();
 
-    const selectedSection = document.querySelector(`[data-country="${dataCountry}"]`);
+    const filterMenuElement = document.querySelector('[data-filter-menu]');
     
-    if (selectedSection) {
-      const rect = selectedSection.getBoundingClientRect();
-      const offset = rect.top + window.scrollY - (window.innerHeight / 2) + (rect.height / 2);
-      
-      window.scrollTo({
-        top: offset,
-        behavior: "smooth",
-      });
+    if (filterMenuElement) {
+      filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }
 });
