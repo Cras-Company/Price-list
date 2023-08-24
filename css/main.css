@@ -439,6 +439,9 @@ img {
   font-size: 20px;
   line-height: 1.14;
 }
+.filter__title--country-margin {
+  margin: 20px 0;
+}
 
 @media screen and (max-width: 767px) {
   .search-disable {
@@ -726,6 +729,26 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.14;
+}
+
+.cras-country-list > li {
+  margin-left: 37px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  -webkit-transition: -webkit-transform 250ms var(--timing-function);
+  transition: -webkit-transform 250ms var(--timing-function);
+  transition: transform 250ms var(--timing-function);
+  transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
+  width: 200px;
+  cursor: pointer;
+}
+.cras-country-list > li:hover {
+  color: var(--link-color);
+  font-weight: 700;
+  -webkit-transform: translateX(13px);
+          transform: translateX(13px);
 }
 
 .shop {

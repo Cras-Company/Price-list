@@ -11,7 +11,7 @@ export const shopLotsWashingPowders = [
         nameUKR: "ариель арієль арієль проктор гембл стиральный пральний порошок пральні порошки кольорові кольорових речей вещей цветных",
         nameEN: "Colour & Style",
         companyName: "The Procter & Gamble Company",
-        countryName: "Італия",
+        countryName: "Італія",
         volume_weight: "2.6 кг.",
         priceGRN: 325,
         priceUSDT: 8.68,

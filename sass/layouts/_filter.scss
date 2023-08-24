@@ -79,6 +79,10 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 1.14;
+
+  &--country-margin {
+    margin: 20px 0;
+  }
 }
 
 .search-disable {
@@ -342,4 +346,24 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 1.14;
+}
+
+.cras-country-list > li {
+  margin-left: 37px;
+  padding: 10px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  transition: transform 250ms var(--timing-function);
+
+  width: 200px;
+
+  cursor: pointer;
+
+  &:hover {
+    color: var(--link-color);
+    font-weight: 700;
+    transform: translateX(13px);
+  }
 }

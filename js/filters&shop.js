@@ -42,7 +42,7 @@ function createListItemsMarkup(items) {
 
                         <div class="cras-item__element">
                             <h4 class="cras-item__title">Країна - виробник:</h4>
-                            <p class="cras-item__text cras-item__text--margin">${countryName};</p>
+                            <p class="cras-item__text cras-item__text--margin" data-set="country">${countryName};</p>
                         </div>
 
                         <div class="cras-item__element">
@@ -415,8 +415,9 @@ window.addEventListener("load", () => {
 
     // Находим выбранную секцию по dataTarget и прокручиваем к ней
     const selectedSection = document.querySelector(`[data-target="${dataTarget}"]`);
+    
     if (selectedSection) {
-      selectedSection.scrollIntoView({ behavior: "smooth" });
+      selectedSection.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }
 });
@@ -628,3 +629,138 @@ function handleFormSubmit(event) {
   lazyLoadImagesAnimation();
   iconsDescriptionAnimation();
 }
+
+// ===========================================================================
+// Навигация по странам
+// ===========================================================================
+
+const producingCountrys = document.querySelector('.js-cras__list--producing-countrys');
+
+const arrayProducingCountrys = new Set();
+
+arrayOfProducts.forEach(product => {
+  const countries = product.items.flatMap(item => item.countryName);
+  
+  countries.forEach(country => {
+    arrayProducingCountrys.add(country);
+  });
+});
+
+const arrayProducingCountrysMarkup = [...arrayProducingCountrys];
+
+arrayProducingCountrysMarkup.sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'base' }));
+
+function createListProducingCountrysMarkup() {
+    return arrayProducingCountrysMarkup.map(country => {
+      return `<li data-country="${country}">${country}</li>`;
+    }).join("");
+}
+
+producingCountrys.innerHTML = createListProducingCountrysMarkup();
+
+producingCountrys.addEventListener("click", countryClickHandler);
+
+// function countryClickHandler(event) {
+//   const target = event.target;
+
+//   if (target.tagName === "LI") {
+//     const dataCountry = target.getAttribute("data-country");
+
+//     console.log("Clicked country:", dataCountry);
+
+//     hideAllSectionsAndProducts();
+
+//     arrayOfProducts.forEach(({ element, items, block }) => {
+//       if (items.some(item => item.countryName === dataCountry)) {
+//         element.style.display = "block";
+
+//         const section = element.closest(".js-section-none");
+//         if (section) {
+//           section.style.display = "block";
+//         }
+
+//         if (block) {
+//           block.style.display = "block";
+
+//           const productElements = block.querySelectorAll('.cras-block');
+
+//           productElements.forEach(productElement => {
+//             const productElementCountry = productElement.querySelector('[data-set="country"]').textContent.slice(0, -1);
+
+//               if (productElementCountry === dataCountry) {
+//                 productElement.style.display = "block";
+//               } else {
+//                 productElement.style.display = "none";
+//               }
+//           });
+//         }
+//       }
+//     });
+//   }
+// }
+
+function countryClickHandler(event) {
+  const target = event.target;
+
+  if (target.tagName === "LI") {
+    const dataCountry = target.getAttribute("data-country");
+
+        // Отключаем действие по умолчанию (переход по ссылке)
+    event.preventDefault();
+    
+    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
+    const newUrl = window.location.origin + window.location.pathname + "?dataCountry=" + dataCountry;
+    window.location.href = newUrl;
+
+  }
+}
+
+window.addEventListener("load", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const dataCountry = urlParams.get("dataCountry");
+  
+  if (dataCountry) {
+    hideAllSectionsAndProducts();
+
+    arrayOfProducts.forEach(({ element, items, block }) => {
+      if (items.some(item => item.countryName === dataCountry)) {
+        element.style.display = "block";
+
+        const section = element.closest(".js-section-none");
+        if (section) {
+          section.style.display = "block";
+        }
+
+        if (block) {
+          block.style.display = "block";
+
+          const productElements = block.querySelectorAll('.cras-block');
+
+          productElements.forEach(productElement => {
+            const productElementCountry = productElement.querySelector('[data-set="country"]').textContent.slice(0, -1);
+
+              if (productElementCountry === dataCountry) {
+                productElement.style.display = "block";
+              } else {
+                productElement.style.display = "none";
+              }
+          });
+        }
+      }
+    });
+
+    hideEmptySections();
+
+    const selectedSection = document.querySelector(`[data-country="${dataCountry}"]`);
+    
+    if (selectedSection) {
+      const rect = selectedSection.getBoundingClientRect();
+      const offset = rect.top + window.scrollY - (window.innerHeight / 2) + (rect.height / 2);
+      
+      window.scrollTo({
+        top: offset,
+        behavior: "smooth",
+      });
+    }
+  }
+});
