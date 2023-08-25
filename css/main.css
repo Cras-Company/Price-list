@@ -732,7 +732,7 @@ img {
 }
 
 .cras-country-list--scroll {
-  max-height: 300px;
+  max-height: 220px;
   overflow-y: auto;
   scrollbar-color: #057198 #f4f4f4;
   scrollbar-width: thin;
