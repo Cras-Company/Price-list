@@ -302,7 +302,7 @@ export const shopLotsMeansCleaningUniversal = [
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/gut_gunstig_allzweckreiniger_bergfrische.jpg",
         alt: "gut_gunstig_allzweckreiniger_bergfrische",
         marker: "MCU050",
-        brand: "Gut & Günstig",
+        brand: "Gut Günstig",
         nameUKR: "гуд гут гунстиг гунстіг універсальний засіб для чищення",
         nameEN: "Allzweckreiniger Bergfrische",
         companyName: "Edeka",
@@ -311,11 +311,11 @@ export const shopLotsMeansCleaningUniversal = [
         priceGRN: 84,
         priceUSDT: 2.22,
         quantity: 7,
-        description01: "&#171;Gut & Günstig - Allzweckreiniger Bergfrische&#187; - це універсальний засіб для прибирання, який привносить свіжість гірських вершин у ваш дім. З його допомогою легко і швидко можна очистити різні поверхні, забезпечивши бездоганну чистоту.",
+        description01: "&#171;Gut Günstig - Allzweckreiniger Bergfrische&#187; - це універсальний засіб для прибирання, який привносить свіжість гірських вершин у ваш дім. З його допомогою легко і швидко можна очистити різні поверхні, забезпечивши бездоганну чистоту.",
         description02: "Засіб ефективно бореться з жиром, забрудненням і бактеріями, залишаючи поверхні блискучими і з приємним ароматом. Він має спеціальну формулу, яка забезпечує гігієнічну чистоту і захист від мікробів.",
-        description03: "&#171;Gut & Günstig - Allzweckreiniger Bergfrische&#187; має неповторний аромат свіжості гірських долин, що створює приємну атмосферу у вашому домі. Він ідеально підходить для прибирання різних поверхонь, включаючи підлоги, столи, ванні кімнати та кухні.",
+        description03: "&#171;Gut Günstig - Allzweckreiniger Bergfrische&#187; має неповторний аромат свіжості гірських долин, що створює приємну атмосферу у вашому домі. Він ідеально підходить для прибирання різних поверхонь, включаючи підлоги, столи, ванні кімнати та кухні.",
         description04: "<strong>Універсальний засіб для чищення.</strong>",
-        description05: "Зробіть прибирання легким з &#171;Gut & Günstig - Allzweckreiniger Bergfrische&#187;, який забезпечить вашому дому бездоганну чистоту і освіжаючий аромат гірських вершин."
+        description05: "Зробіть прибирання легким з &#171;Gut Günstig - Allzweckreiniger Bergfrische&#187;, який забезпечить вашому дому бездоганну чистоту і освіжаючий аромат гірських вершин."
     },
     // ===========================================================================
     // Я!

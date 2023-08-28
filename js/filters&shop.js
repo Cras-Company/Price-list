@@ -683,6 +683,7 @@ crasBrands.addEventListener("click", brandClickHandler);
 
 //   if (target.tagName === "LI") {
 //     const dataBrand = target.getAttribute("data-brand");
+//         console.log(dataBrand);
 
 //     hideAllSectionsAndProducts();
 
@@ -705,7 +706,9 @@ crasBrands.addEventListener("click", brandClickHandler);
 
 //             const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
 
-//               if (productElementBrand === dataBrand) {
+//             if (productElementBrand === dataBrand) {
+                
+//               console.log(productElementBrand)
 //                 productElement.style.display = "block";
 //               } else {
 //                 productElement.style.display = "none";
@@ -723,10 +726,8 @@ function brandClickHandler(event) {
   if (target.tagName === "LI") {
     const dataBrand = target.getAttribute("data-brand");
 
-        // Отключаем действие по умолчанию (переход по ссылке)
     event.preventDefault();
     
-    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
     const newUrl = window.location.origin + window.location.pathname + "?dataBrand=" + dataBrand;
     window.location.href = newUrl;
   }
@@ -754,14 +755,13 @@ window.addEventListener("load", () => {
           const productElements = block.querySelectorAll('.cras-block');
 
           productElements.forEach(productElement => {
-            const firstBrand = productElement.querySelector('[data-set="brand"]').textContent;
-
-            const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
+              const firstBrand = productElement.querySelector('[data-set="brand"]').textContent;
+              const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
 
               if (productElementBrand === dataBrand) {
-                productElement.style.display = "block";
+                  productElement.style.display = "block";
               } else {
-                productElement.style.display = "none";
+                  productElement.style.display = "none";
               }
           });
         }

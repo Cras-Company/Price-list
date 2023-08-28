@@ -4,7 +4,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_pulver_power.jpg",
         alt: "gut_gunstig_pulver_power",
         marker: "MCKB010",
-        brand: "Gut & Günstig",
+        brand: "Gut Günstig",
         nameUKR: "гут гуд гунстиг гюнстиг гунстіг гюнстіг засіб для труб чистки чищення очистки",
         nameEN: "Rohrreineger Pulver Power",
         companyName: "Edeka",
@@ -14,11 +14,11 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         priceUSDT: "--",
         priceGRNOpt: 110,
         priceUSDTOpt: 2.93,
-        description01: "&#171;Gut & Günstig - Rohrreineger Pulver Power&#187 -  це потужний і ефективний засіб для прочищення труб і зливів. Його спеціальна формула розроблена так, щоб легко розчиняти бруд, жир та інші відкладення, які можуть заважати нормальному стоку води. Засіб працює швидко та результативно, забезпечуючи відновлення нормальної роботи системи відведення.",
+        description01: "&#171;Gut Günstig - Rohrreineger Pulver Power&#187 -  це потужний і ефективний засіб для прочищення труб і зливів. Його спеціальна формула розроблена так, щоб легко розчиняти бруд, жир та інші відкладення, які можуть заважати нормальному стоку води. Засіб працює швидко та результативно, забезпечуючи відновлення нормальної роботи системи відведення.",
         description02: "Цей порошковий розчинник ефективно діє навіть на важкі засмічення, забезпечуючи повний потік води та запобігаючи забиттю труб. Він також може бути використаний для профілактики, забезпечуючи чистоту системи каналізації.",
         description03: "",
         description04: "<strong>Для чистки труб та стоків.</strong>",
-        description05: "Позбудьтеся бруду та відновіть нормальну роботу водостічних систем з &#171;Gut & Günstig - Rohrreineger Pulver Power&#187 - ви зможете легко та швидко вирішити проблеми з забиттями та погіршеним стоком води."
+        description05: "Позбудьтеся бруду та відновіть нормальну роботу водостічних систем з &#171;Gut Günstig - Rohrreineger Pulver Power&#187 - ви зможете легко та швидко вирішити проблеми з забиттями та погіршеним стоком води."
     },
     {
         type: "wholesale",
