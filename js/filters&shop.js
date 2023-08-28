@@ -11,11 +11,12 @@ function createListItemsMarkup(items) {
         
                 <div class="cras-item">
 
-                    <img class="lazyload cras-item__img cras-item--margin" 
-                        data-src="${url}"
-                        alt="${alt}" 
-                        width="310" 
-                        height="310"
+                    <img class="lazyload cras-item__img cras-item--margin"
+                          loadind="lazy"
+                          data-src="${url}"
+                          alt="${alt}" 
+                          width="310" 
+                          height="310"
                     />
 
                     <div class="cras-item__description cras-item--margin">
