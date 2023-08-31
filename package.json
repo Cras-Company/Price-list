@@ -1,0 +1,25 @@
+{
+  "name": "price-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "autoprefixer": "npx postcss ./css/main.min.css --use autoprefixer -d ./css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cras-Company/Price-list.git"
+  },
+  "author": "Slider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cras-Company/Price-list/issues"
+  },
+  "homepage": "https://github.com/Cras-Company/Price-list#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0"
+  }
+}
