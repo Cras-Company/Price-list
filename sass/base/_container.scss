@@ -15,11 +15,6 @@
     padding-right: 25px;
   }
 
-  @media screen and (min-width: 1024px) {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   @media screen and (min-width: 1280px) {
     padding-left: 16px;
     padding-right: 16px;
@@ -27,18 +22,43 @@
 }
 
 .section {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
   @media screen and (min-width: 1024px) {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
   }
 }
 
 .section--reset {
   @media screen and (min-width: 768px) {
-      padding-top: 0px;
-      padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.section--padding {
+  padding-top: 64px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 132px;
+  }
+}
+
+.section--padding-about-us {
+    padding-top: 95px;
+    
+    @media screen and (min-width: 768px) {
+      padding-top: 110px;
+    }
+  
+    @media screen and (min-width: 1024px) {
+      padding-top: 110px;
     }
 }

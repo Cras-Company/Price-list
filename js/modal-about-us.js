@@ -1,8 +1,11 @@
 const refs = {
   openModalMobileMenuBtn: document.querySelector("[data-modal-mobile-menu-open]"),
   modalMobileMenu: document.querySelector("[data-modal-mobile-menu]"),
+
   closeModalBtn: document.querySelectorAll('[data-modal-close]'),
 };
+
+const categoryItems = document.querySelectorAll(".js-category-items");
 
 const html = document.documentElement;
 
@@ -45,45 +48,14 @@ function onCloseModal(modal) {
   modal.classList.add("is-hidden");
 
   html.style.marginRight = "";
+  crasItem.style.paddingLeft = "";
 }
 
 // Открытие и закрытие модального окна мобилки
 refs.openModalMobileMenuBtn.addEventListener("click", () => onOpenModal(refs.modalMobileMenu));
-refs.closeModalBtn.forEach((btn) => btn.addEventListener("click", () => onCloseModal(refs.modalMobileMenu)));
 
-// Добавьте слушатель события для открытия модального окна
-refs.openModalMobileMenuBtn.addEventListener("click", () => {
-  onOpenModal(refs.modalMobileMenu);
-});
-
-// Добавьте слушатель события для закрытия модального окна
 refs.closeModalBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
     onCloseModal(refs.modalMobileMenu);
-  });
-});
-
-// ===========================================================================
-// Фильтр на мобилку
-// ===========================================================================
-
-const mobileSearchBtn = document.querySelector('[data-mobile-search-button]');
-const mobileSearchMenu = document.querySelector('[data-filter-menu]');
-const categoryItems = document.querySelectorAll(".js-category-items");
-
-mobileSearchBtn.addEventListener('click', () => {
-  const expanded = mobileSearchBtn.getAttribute('aria-expanded') === 'true' || 'false'
-
-  mobileSearchBtn.classList.toggle('is-open');
-
-  mobileSearchBtn.setAttribute('aria-expanded', !expanded);
-
-  mobileSearchMenu.classList.toggle('is-open');
-});
-
-categoryItems.forEach(item => {
-  item.addEventListener('click', () => {
-    mobileSearchMenu.classList.remove('is-open');
-    mobileSearchBtn.classList.toggle('is-open');
   });
 });

@@ -1,116 +1,11 @@
 // ===========================================================================
-// Динамическая разметка
+// Импорт внешних источников
 // ===========================================================================
+import { createMobileListItemsMarkup, createModalListItemsMarkup } from './markups.js';
 
-function createListItemsMarkup(items) {
-    return items.map(({ type, url, alt, marker, brand, nameEN, companyName, countryName, volume_weight,
-                        priceGRN, priceUSDT, quantity, priceGRNOpt, priceUSDTOpt,
-                        description01, description02, description03, description04, description05 }) => {
+import { onOpenModal, onCloseModal, refs } from './modal-index.js';
 
-      return `<li class="cras-block">
-        
-                <div class="cras-item">
-
-                    <img
-                          loading="lazy"
-                          class="lazyload cras-item__img cras-item--margin"
-                          data-src="${url}"
-                          alt="${alt}" 
-                          width="310" 
-                          height="310"
-                    />
-
-                    <div class="cras-item__description cras-item--margin">
-
-                        <div class="cras-item__element">
-                            <h4 class="cras-item__title">Маркер:</h4>
-                            <p class="cras-item__text cras-item__text--margin">${marker};</p>
-                        </div>
-
-                        <div class="cras-item__element">
-                            <h4 class="cras-item__title">Бренд:</h4>
-                            <p class="cras-item__text cras-item__text--margin" data-set="brand">&#171;${brand}&#187;;</p>
-                        </div>
-
-                        <div class="cras-item__name">
-                            <h4 class="cras-item__title cras-item__name--margin">Назва продукту:</h4>
-                            <p class="cras-item__text">&#171;${nameEN}&#187;;</p>
-                        </div>
-
-                        <div class="cras-item__name">
-                            <h4 class="cras-item__title cras-item__name--margin">Компанія - виробник:</h4>
-                            <p class="cras-item__text">&#171;${companyName}&#187;;</p>
-                        </div>
-
-                        <div class="cras-item__element">
-                            <h4 class="cras-item__title">Країна - виробник:</h4>
-                            <p class="cras-item__text cras-item__text--margin" data-set="country">${countryName};</p>
-                        </div>
-
-                        <div class="cras-item__element">
-                            <h4 class="cras-item__title">Об'єм / Вага:</h4>
-                            <p class="cras-item__text cras-item__text--margin">${volume_weight};</p>
-                        </div>
-
-                        <div class="cras-item__element">
-                            <h4 class="cras-item__title">Ціна (грн. / USDT):</h4>
-                            <p class="cras-item__text cras-item__text--margin">${priceGRN} / ${priceUSDT};</p>
-                        </div>
-
-                        ${type === 'retail' ? `
-                            <div class="cras-item__element">
-                                <h4 class="cras-item__title">Кількість на складі (шт.):</h4>
-                                <p class="cras-item__text cras-item__text--margin">${quantity};</p>
-                            </div>
-
-                        ` : `
-
-                            <div class="cras-item__element">
-                                <h4 class="cras-item__title">Ціна (від 12 шт., грн.):</h4>
-                                <p class="cras-item__text cras-item__text--margin">${priceGRNOpt};</p>
-                            </div>
-
-                            <div class="cras-item__element">
-                                <h4 class="cras-item__title">Ціна (від 12 шт., USDT):</h4>
-                                <p class="cras-item__text cras-item__text--margin">${priceUSDTOpt};</p>
-                            </div>
-                        `}
-                    </div>
-                </div>
-
-                <div>
-
-                  <div class="price__icon-box js-price__box">
-    
-                      <svg class="price__icon-close js-price__icon-close" width="40" height="40">
-                  
-                          <use href="./images/icon/sprite.svg#icon-eye-close"></use>
-                      </svg>
-                  
-                      <svg class="price__icon-open js-price__icon-open" width="40" height="40">
-                  
-                          <use href="./images/icon/sprite.svg#icon-eye-open"></use>
-                      </svg>
-
-                      <h4 class="cras-item__title unselectable">Опис товару:</h4>
-                  </div>
-        
-                  <div class="price__lot-description unselectable cras-item--margin js-price__lot-description">
-
-                      <p class="cras-item__text cras-item__text--margin-sub">${description01}</p>
-                      <p class="cras-item__text cras-item__text--margin-sub">${description02}</p>
-                      <p class="cras-item__text cras-item__text--margin-sub">${description03}</p>
-                      <p class="cras-item__text cras-item__text--margin-sub">${description04}</p>
-                      <p class="cras-item__text cras-item__text--margin-sub">${description05}</p>
-                  </div>
-                </div>
-              </li>`;
-    }).join("");
-}
-
-// ===========================================================================
-// Импорт внешних массивов
-// ===========================================================================
+import {lazyLoadImagesAnimation, iconsDescriptionAnimation} from './supporting_functions.js'
 
 // Средства гигиены
 import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
@@ -167,6 +62,9 @@ const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list-
 // ===========================================================================
 
 // Форма поиска
+const inputSearchMobile = document.querySelector("#search-mobile");
+const filterFormMobile = document.querySelector(".js-filter__form-mobile");
+
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
 
@@ -237,54 +135,8 @@ const arrayOfProducts = [
 ];
 
 arrayOfProducts.forEach(({ element, items }) => {
-  element.innerHTML = createListItemsMarkup(items);
+  element.innerHTML = createMobileListItemsMarkup(items);
 });
-
-// ===========================================================================
-// Сброс разметки
-// ===========================================================================
-
-function resetMarkup() {
-  arrayOfProducts.forEach(product => {
-    product.element.style.display = "block";
-    product.block.style.display = "block";
-  });
-
-  JSSectionOne.forEach(section => {
-    section.style.display = "block";
-  });
-}
-
-// ===========================================================================
-// Анимация Lazy-loading
-// ===========================================================================
-
-// if ('loading' in HTMLImageElement.prototype) {
-//   const lazyImages = document.querySelectorAll('img[loading="lazy"]');
-  
-//   lazyImages.forEach(img => {
-//     img.src = img.dataset.src;
-//   });
-// } else {
-//   const script = document.createElement('script');
-
-//   script.src = "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js";
-//   script.integrity = "sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==";
-//   script.crossOrigin = "anonymous";
-//   script.referrerpolicy = "no-referrer"
-
-//   document.body.appendChild(script);
-// }
-
-function lazyLoadImagesAnimation() {
-  const lazyImages = document.querySelectorAll('img[loading="lazy"]');
-
-  lazyImages.forEach(image => {image.addEventListener(
-    "load",
-    function () { image.classList.add("appear") },
-    { once: true });
-  });
-}
 
 lazyLoadImagesAnimation();
 
@@ -338,76 +190,64 @@ filterSecondaryMenus.forEach((menu, index) => {
 });
 
 // ===========================================================================
-// Анимация иконки описания товаров
+// Сброс разметки
 // ===========================================================================
 
-function iconsDescriptionAnimation() {
-  const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
+function resetMarkup() {
+  arrayOfProducts.forEach(product => {
+    product.element.style.display = "block";
+    product.block.style.display = "block";
+  });
 
-  const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
-  const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
-
-  const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
-  
-  priceDescriptionIconsBlocks.forEach((menu, index) => {
-    menu.addEventListener("click", (event) => {
-      event.stopPropagation();
-      const iconEyeClose = priceIconsClose[index];
-      const iconEyeOpen = priceIconsOpen[index];
-      const listEye = priceLotsDescription[index];
-
-      iconEyeClose.classList.toggle("js-icon-close");
-      iconEyeOpen.classList.toggle("js-icon-open");
-      listEye.classList.toggle("js-price__lot-description-open");
-    });
+  JSSectionOne.forEach(section => {
+    section.style.display = "block";
   });
 }
-
-iconsDescriptionAnimation();
 
 // ===========================================================================
 // Поиск в фильтре
 // ===========================================================================
 
+inputSearchMobile.value = "";
 inputSearch.value = "";
 
+filterFormMobile.addEventListener("submit", handleFormSubmit);
 filterForm.addEventListener("submit", handleFormSubmit);
 
 function universalSearch(items, searchItem) {
+  const searchWords = searchItem.split(" ").filter(word => word.trim() !== "");
 
-    const searchWords = searchItem.split(" ").filter(word => word.trim() !== "");
+  if (searchWords.length === 0) {
+    return items;
+  }
 
-    if (searchWords.length === 0) {
-        return items;
-    }
-
-    const filteredItems = items.filter((shopLot) => {
-        for (const key in shopLot) {
-            if (typeof shopLot[key] === 'string') {
-                const lowerCaseValue = shopLot[key].toLowerCase();
-                if (searchWords.every(word => lowerCaseValue.includes(word))) {
-                    return true;
-                }
-            }
+  const filteredItems = items.filter((shopLot) => {
+    for (const key in shopLot) {
+      if (typeof shopLot[key] === 'string') {
+        const lowerCaseValue = shopLot[key].toLowerCase();
+        if (searchWords.every(word => lowerCaseValue.includes(word))) {
+          return true;
         }
-        return false;
-    });
+      }
+    }
+    return false;
+  });
 
-    return filteredItems;
+  return filteredItems;
 }
 
 function handleFormSubmit(event) {
 
   event.preventDefault();
 
-  const searchItem = inputSearch.value.trim().toLowerCase();
+  const searchItem = event.target === filterForm ? inputSearch.value.trim().toLowerCase() : inputSearchMobile.value.trim().toLowerCase();
 
   resetMarkup();
 
-  inputSearch.value = "";
-
-  if (searchItem === "") {
-    return;
+  if (event.target === filterForm) {
+    inputSearch.value = "";
+  } else if (event.target === filterFormMobile) {
+    inputSearchMobile.value = "";
   }
 
   // Средства гигиены
@@ -473,21 +313,21 @@ function handleFormSubmit(event) {
       }
   
   if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
-      shopListBabyShampoos.innerHTML = createListItemsMarkup(filteredBabyShampoos);
-      shopListAdultShampoos.innerHTML = createListItemsMarkup(filteredAdultShampoos);
+      shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredBabyShampoos);
+      shopListAdultShampoos.innerHTML = createMobileListItemsMarkup(filteredAdultShampoos);
   } else {
       SectionAllShampoos.style.display = "none";
   }
 
   if (filteredBabyShowerGels.length > 0 || filteredAdultShowerGels.length > 0 ) {
-      shopListBabyShowerGels.innerHTML = createListItemsMarkup(filteredBabyShowerGels);
-      shopListAdultShowerGels.innerHTML = createListItemsMarkup(filteredAdultShowerGels);
+      shopListBabyShowerGels.innerHTML = createMobileListItemsMarkup(filteredBabyShowerGels);
+      shopListAdultShowerGels.innerHTML = createMobileListItemsMarkup(filteredAdultShowerGels);
   } else {
       SectionAllShowerGels.style.display = "none";
   }
 
     if (filteredMicellarWipes.length > 0 ) {
-      shopListMicellarWipes.innerHTML = createListItemsMarkup(filteredMicellarWipes);
+      shopListMicellarWipes.innerHTML = createMobileListItemsMarkup(filteredMicellarWipes);
   } else {
       SectionAllWipes.style.display = "none";
   }
@@ -498,7 +338,7 @@ function handleFormSubmit(event) {
 
   // shopsections.forEach(shopsection => {
   //     if (shopsection.items.length > 0) {
-  //         shopsection.element.innerHTML = createListItemsMarkup(shopsection.items);
+  //         shopsection.element.innerHTML = createMobileListItemsMarkup(shopsection.items);
   //     } else {
   //         shopsection.section.style.display = "none";
   //     }
@@ -507,8 +347,8 @@ function handleFormSubmit(event) {
   if (filteredMeansHandsWashingDishes.length > 0 ||
       filteredMeansMechanicalWashingDishes.length > 0
       ) {
-      shopListMeansHandsWashingDishes.innerHTML = createListItemsMarkup(filteredMeansHandsWashingDishes);
-      shopListMeansMechanicalWashingDishes.innerHTML = createListItemsMarkup(filteredMeansMechanicalWashingDishes);
+      shopListMeansHandsWashingDishes.innerHTML = createMobileListItemsMarkup(filteredMeansHandsWashingDishes);
+      shopListMeansMechanicalWashingDishes.innerHTML = createMobileListItemsMarkup(filteredMeansMechanicalWashingDishes);
     } else {
       SectionAllMeansWashing.style.display = "none";
     }
@@ -519,11 +359,11 @@ function handleFormSubmit(event) {
         filteredStainRemovers.length > 0 ||
         filteredSofteners.length > 0
         ) {
-        shopListWashingGels.innerHTML = createListItemsMarkup(filteredWashingGels);
-        shopListPowerCaps.innerHTML = createListItemsMarkup(filteredPowerCaps);
-        shopListWashingPowders.innerHTML = createListItemsMarkup(filteredWashingPowders);
-        shopListStainRemovers.innerHTML = createListItemsMarkup(filteredStainRemovers);
-        shopListSofteners.innerHTML = createListItemsMarkup(filteredSofteners);
+        shopListWashingGels.innerHTML = createMobileListItemsMarkup(filteredWashingGels);
+        shopListPowerCaps.innerHTML = createMobileListItemsMarkup(filteredPowerCaps);
+        shopListWashingPowders.innerHTML = createMobileListItemsMarkup(filteredWashingPowders);
+        shopListStainRemovers.innerHTML = createMobileListItemsMarkup(filteredStainRemovers);
+        shopListSofteners.innerHTML = createMobileListItemsMarkup(filteredSofteners);
     } else {
         SectionAllLaundryDetergents.style.display = "none";
     }
@@ -532,9 +372,9 @@ function handleFormSubmit(event) {
         filteredMeansCleaningKitchenBathroom.length > 0 ||
         filteredMeansCleaningDishwashers.length > 0
         ) {
-        shopListMeansCleaningUniversal.innerHTML = createListItemsMarkup(filteredMeansCleaningUniversal);
-        shopListMeansCleaningKitchenBathroom.innerHTML = createListItemsMarkup(filteredMeansCleaningKitchenBathroom);
-        shopListMeansCleaningDishwashers.innerHTML = createListItemsMarkup(filteredMeansCleaningDishwashers);
+        shopListMeansCleaningUniversal.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningUniversal);
+        shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
+        shopListMeansCleaningDishwashers.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningDishwashers);
     } else {
         SectionAllMeansCleaning.style.display = "none";
   }
@@ -561,16 +401,28 @@ function handleFormSubmit(event) {
     { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
   ];
 
+  if (searchItem === "") {
+
+      shopblocks.forEach(shopblock => {
+          
+        shopblock.element.style.display = "flex";
+      });
+    
+    lazyLoadImagesAnimation();
+        
+    return;
+  }
+
   shopblocks.forEach(shopblock => {
     if (shopblock.items.length > 0) {
-        shopblock.element.innerHTML = createListItemsMarkup(shopblock.items);
+      shopblock.element.style.display = "flex";
+      shopblock.element.innerHTML = createMobileListItemsMarkup(shopblock.items);
     } else {
-        shopblock.block.style.display = "none";
+      shopblock.block.style.display = "none";
     }
   });
 
   lazyLoadImagesAnimation();
-  iconsDescriptionAnimation();
 }
 
 // ===========================================================================
@@ -594,65 +446,58 @@ function hideAllSectionsAndProducts() {
   });
 }
 
-function showSelectedProducts(dataTarget) {
-  arrayOfProducts.forEach(product => {
-    if (product.dataTarget === dataTarget) {
-      product.element.style.display = "block";
-      const section = product.element.closest(".js-section-none");
-      if (section) {
-        section.style.display = "block";
-        product.block.style.display = "block";
-      }
-    }
-  });
-}
-
-function hideEmptySections() {
-  JSSectionOne.forEach(section => {
-    const productsInSection = arrayOfProducts.filter(product =>
-      product.element.closest(".js-section-none") === section && product.element.style.display !== "none"
-    );
-
-    section.style.display = productsInSection.length === 0 ? "none" : "block";
-  });
-}
-
 function filterClickHandler(event) {
+  outputError.textContent = "";
+  outputError.style.marginTop = "0px";
+  outputError.style.marginBottom = "0px";
+  
   const target = event.target;
+
   if (target.tagName === "LI") {
     const dataTarget = target.getAttribute("data-target");
-    
-    // Отключаем действие по умолчанию (переход по ссылке)
-    event.preventDefault();
-    
-    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
-    const newUrl = window.location.origin + window.location.pathname + "?dataTarget=" + dataTarget;
-    window.location.href = newUrl;
+
+    if (dataTarget) {
+      hideAllSectionsAndProducts();
+
+      arrayOfProducts.forEach(({ element, dataTarget: productDataTarget, block }) => {
+        if (productDataTarget === dataTarget) {
+          element.style.display = "flex";
+
+          const section = element.closest(".js-section-none");
+
+          if (section) {
+            section.style.display = "block";
+          }
+
+          if (block) {
+            block.style.display = "block";
+
+            arrayOfProducts.forEach(product => {
+              if (productDataTarget === dataTarget) {
+                product.element.innerHTML = createMobileListItemsMarkup(product.items);
+              }
+            })
+          }
+        }
+      });
+
+      const filterMenuElement = document.querySelector('[data-filter-menu]');
+
+      if (filterMenuElement) {
+        filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      lazyLoadImagesAnimation();
+    }  
   }
 }
-
-window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const dataTarget = urlParams.get("dataTarget");
-  
-  if (dataTarget) {
-    hideAllSectionsAndProducts();
-    showSelectedProducts(dataTarget);
-    hideEmptySections();
-
-    const filterMenuElement = document.querySelector('[data-filter-menu]');
-
-    if (filterMenuElement) {
-      filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }
-});
 
 // ===========================================================================
 // Навигация брендам
 // ===========================================================================
 
-const crasBrands = document.querySelector('.js-cras__list--brends');
+// Разметка
+const crasBrands = document.querySelectorAll('.js-cras__list--brends');
 
 const arrayCrasBrands = new Set();
 
@@ -670,119 +515,68 @@ arrayCrasBrandsMarkup.sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'ba
 
 function createListCrasBrandsMarkup() {
     return arrayCrasBrandsMarkup.map(brand => {
-      return `<li data-brand="${brand}">${brand}</li>`;
+      return `<li>${brand}</li>`;
     }).join("");
 }
 
-crasBrands.innerHTML = createListCrasBrandsMarkup();
-
-crasBrands.addEventListener("click", brandClickHandler);
-
-// function brandClickHandler(event) {
-//   const target = event.target;
-
-//   if (target.tagName === "LI") {
-//     const dataBrand = target.getAttribute("data-brand");
-//         console.log(dataBrand);
-
-//     hideAllSectionsAndProducts();
-
-//     arrayOfProducts.forEach(({ element, items, block }) => {
-//       if (items.some(item => item.brand === dataBrand)) {
-//         element.style.display = "block";
-
-//         const section = element.closest(".js-section-none");
-//         if (section) {
-//           section.style.display = "block";
-//         }
-
-//         if (block) {
-//           block.style.display = "block";
-
-//           const productElements = block.querySelectorAll('.cras-block');
-
-//           productElements.forEach(productElement => {
-//             const firstBrand = productElement.querySelector('[data-set="brand"]').textContent;
-
-//             const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
-
-//             if (productElementBrand === dataBrand) {
-                
-//               console.log(productElementBrand)
-//                 productElement.style.display = "block";
-//               } else {
-//                 productElement.style.display = "none";
-//               }
-//           });
-//         }
-//       }
-//     });
-//   }
-// }
+crasBrands.forEach(brandList => {
+  brandList.innerHTML = createListCrasBrandsMarkup();
+  brandList.addEventListener("click", brandClickHandler);
+});
 
 function brandClickHandler(event) {
+  outputError.textContent = "";
+  outputError.style.marginTop = "0px";
+  outputError.style.marginBottom = "0px";
+  
   const target = event.target;
 
   if (target.tagName === "LI") {
-    const dataBrand = target.getAttribute("data-brand");
+    const dataBrand = target.textContent;
 
-    event.preventDefault();
-    
-    const newUrl = window.location.origin + window.location.pathname + "?dataBrand=" + dataBrand;
-    window.location.href = newUrl;
-  }
-}
+    if (dataBrand) {
+      hideAllSectionsAndProducts();
 
-window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const dataBrand = urlParams.get("dataBrand");
-  
-  if (dataBrand) {
-    hideAllSectionsAndProducts();
+      arrayOfProducts.forEach(({ element, items, block }) => {
+        if (items.some(item => item.brand === dataBrand)) {
+          element.style.display = "flex";
 
-    arrayOfProducts.forEach(({ element, items, block }) => {
-      if (items.some(item => item.brand === dataBrand)) {
-        element.style.display = "block";
+          const section = element.closest(".js-section-none");
 
-        const section = element.closest(".js-section-none");
-        if (section) {
-          section.style.display = "block";
-        }
+          if (section) {
+            section.style.display = "block";
+          }
 
-        if (block) {
-          block.style.display = "block";
+          if (block) {
+            block.style.display = "block";
 
-          const productElements = block.querySelectorAll('.cras-block');
-
-          productElements.forEach(productElement => {
-              const firstBrand = productElement.querySelector('[data-set="brand"]').textContent;
-              const productElementBrand = firstBrand.substring(1, firstBrand.length - 2);
-
-              if (productElementBrand === dataBrand) {
-                  productElement.style.display = "block";
-              } else {
-                  productElement.style.display = "none";
+            arrayOfProducts.forEach(product => {
+              const foundItems = product.items.filter(item => item.brand === dataBrand);
+              if (foundItems.length > 0) {
+                product.element.innerHTML = createMobileListItemsMarkup(foundItems);
               }
-          });
+            });
+          }
         }
-      }
-    });
+      });
 
-    hideEmptySections();
-
-    const filterMenuElement = document.querySelector('[data-filter-menu]');
+      const filterMenuElement = document.querySelector('[data-filter-menu]');
     
-    if (filterMenuElement) {
-      filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (filterMenuElement) {
+        filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      lazyLoadImagesAnimation();
     }
   }
-});
+}
 
 // ===========================================================================
 // Навигация по странам
 // ===========================================================================
 
-const producingCountrys = document.querySelector('.js-cras__list--producing-countrys');
+// Разметка
+const producingCountrys = document.querySelectorAll('.js-cras__list--producing-countrys');
 
 const arrayProducingCountrys = new Set();
 
@@ -800,108 +594,100 @@ arrayProducingCountrysMarkup.sort((a, b) => a.localeCompare(b, 'uk', { sensitivi
 
 function createListProducingCountrysMarkup() {
     return arrayProducingCountrysMarkup.map(country => {
-      return `<li data-country="${country}">${country}</li>`;
+      return `<li>${country}</li>`;
     }).join("");
 }
 
-producingCountrys.innerHTML = createListProducingCountrysMarkup();
-
-producingCountrys.addEventListener("click", countryClickHandler);
-
-// function countryClickHandler(event) {
-//   const target = event.target;
-
-//   if (target.tagName === "LI") {
-//     const dataCountry = target.getAttribute("data-country");
-
-//     console.log("Clicked country:", dataCountry);
-
-//     hideAllSectionsAndProducts();
-
-//     arrayOfProducts.forEach(({ element, items, block }) => {
-//       if (items.some(item => item.countryName === dataCountry)) {
-//         element.style.display = "block";
-
-//         const section = element.closest(".js-section-none");
-//         if (section) {
-//           section.style.display = "block";
-//         }
-
-//         if (block) {
-//           block.style.display = "block";
-
-//           const productElements = block.querySelectorAll('.cras-block');
-
-//           productElements.forEach(productElement => {
-//             const productElementCountry = productElement.querySelector('[data-set="country"]').textContent.slice(0, -1);
-
-//               if (productElementCountry === dataCountry) {
-//                 productElement.style.display = "block";
-//               } else {
-//                 productElement.style.display = "none";
-//               }
-//           });
-//         }
-//       }
-//     });
-//   }
-// }
+producingCountrys.forEach(countryList => {
+  countryList.innerHTML = createListProducingCountrysMarkup();
+  countryList.addEventListener("click", countryClickHandler);
+});
 
 function countryClickHandler(event) {
+  outputError.textContent = "";
+  outputError.style.marginTop = "0px";
+  outputError.style.marginBottom = "0px";
+  
   const target = event.target;
 
   if (target.tagName === "LI") {
-    const dataCountry = target.getAttribute("data-country");
+    const dataCountry = target.textContent;
 
-        // Отключаем действие по умолчанию (переход по ссылке)
-    event.preventDefault();
+    if (dataCountry) {
+      hideAllSectionsAndProducts();
+
+        arrayOfProducts.forEach(({ element, items, block }) => {
+          if (items.some(item => item.countryName === dataCountry)) {
+            element.style.display = "flex";
+
+            const section = element.closest(".js-section-none");
+            if (section) {
+              section.style.display = "block";
+            }
+
+            if (block) {
+              block.style.display = "block";
+
+              arrayOfProducts.forEach(product => {
+                const foundItems = product.items.filter(item => item.countryName === dataCountry);
+                if (foundItems.length > 0) {
+                  product.element.innerHTML = createMobileListItemsMarkup(foundItems);
+                }
+              });
+            }
+          }
+        });
+
+      const filterMenuElement = document.querySelector('[data-filter-menu]');
     
-    // Добавляем параметр dataTarget к URL и выполняем перезагрузку страницы
-    const newUrl = window.location.origin + window.location.pathname + "?dataCountry=" + dataCountry;
-    window.location.href = newUrl;
+      if (filterMenuElement) {
+        filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      lazyLoadImagesAnimation();
+    }
   }
 }
 
-window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const dataCountry = urlParams.get("dataCountry");
-  
-  if (dataCountry) {
-    hideAllSectionsAndProducts();
+// ===========================================================================
+// Открытие модального окна лота
+// ===========================================================================
 
-    arrayOfProducts.forEach(({ element, items, block }) => {
-      if (items.some(item => item.countryName === dataCountry)) {
-        element.style.display = "block";
+const shopListAllLots = document.querySelector(".js-click-for-new-window");
 
-        const section = element.closest(".js-section-none");
-        if (section) {
-          section.style.display = "block";
+const shopListMobileLot = document.querySelector('.js-modal-lot');
+
+shopListAllLots.addEventListener('click', lotModalOpenHandler);
+
+refs.closeModalBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    onCloseModal(refs.openModalLot);
+  });
+});
+
+function lotModalOpenHandler(event) {
+    const target = event.target.closest("li.cras-block");
+
+  if (target) {
+    const markerElement = target.querySelector(".cras-item__text.cras-item__text--margin").textContent;
+    
+    onOpenModal(refs.openModalLot);
+
+    let foundItem = null;
+
+    arrayOfProducts.forEach(({ items }) => {
+      items.forEach(item => {
+        if (item.marker === markerElement && !foundItem) {
+          foundItem = item;
         }
-
-        if (block) {
-          block.style.display = "block";
-
-          const productElements = block.querySelectorAll('.cras-block');
-
-          productElements.forEach(productElement => {
-            const productElementCountry = productElement.querySelector('[data-set="country"]').textContent.slice(0, -1);
-
-              if (productElementCountry === dataCountry) {
-                productElement.style.display = "block";
-              } else {
-                productElement.style.display = "none";
-              }
-          });
-        }
-      }
+      });
     });
 
-    hideEmptySections();
-
-    const filterMenuElement = document.querySelector('[data-filter-menu]');
-    
-    if (filterMenuElement) {
-      filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (foundItem) {
+      shopListMobileLot.innerHTML = createModalListItemsMarkup([foundItem]);
     }
   }
-});
+
+  lazyLoadImagesAnimation();
+  iconsDescriptionAnimation();
+}

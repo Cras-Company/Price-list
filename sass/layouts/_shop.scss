@@ -1,120 +1,120 @@
-// ----------------------------------------
-// Позиции магазина
-// ----------------------------------------
+// // ----------------------------------------
+// // Позиции магазина
+// // ----------------------------------------
 
-.shop {
-  position: relative;
+// .shop {
+//   position: relative;
 
-  @media screen and (min-width: 1280px) and (max-width: 1499px) {
-    min-width: 800px;
-  }
+//   @media screen and (min-width: 1280px) and (max-width: 1499px) {
+//     min-width: 800px;
+//   }
   
-  @media screen and (min-width: 1500px) {
-    min-width: 1168px;
-  }
-}
+//   @media screen and (min-width: 1500px) {
+//     min-width: 1168px;
+//   }
+// }
 
-.shop_filter {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+// .shop_filter {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
 
-  margin-bottom: 20px;
+//   margin-bottom: 20px;
 
-  @media screen and (min-width: 1024px) {
-    justify-content: flex-end;
-  }
-}
+//   @media screen and (min-width: 1024px) {
+//     justify-content: flex-end;
+//   }
+// }
 
-.shop__list {
-  display: flex;
-  flex-wrap: wrap;
+// .shop__list {
+//   display: flex;
+//   flex-wrap: wrap;
 
-  margin: -20px;
-}
+//   margin: -20px;
+// }
 
-.shop-list__item {
-  padding: 0 15px 25px 15px;
-  margin: 20px;
+// .shop-list__item {
+//   padding: 0 15px 25px 15px;
+//   margin: 20px;
 
-  width: 100%;
+//   width: 100%;
 
-  transition: box-shadow 250ms var(--timing-function);
+//   transition: box-shadow 250ms var(--timing-function);
 
-  @media screen and (min-width: 768px) {
-    width: calc((100% - 2 * 20px));
-  }
+//   @media screen and (min-width: 768px) {
+//     width: calc((100% - 2 * 20px));
+//   }
 
-  @media screen and (min-width: 768px) {
-    width: calc((100% - 4 *20px) / 2);
-  }
+//   @media screen and (min-width: 768px) {
+//     width: calc((100% - 4 *20px) / 2);
+//   }
 
-  @media screen and (min-width: 1280px) {
-    width: calc((100% - 6 * 20px) / 3);
+//   @media screen and (min-width: 1280px) {
+//     width: calc((100% - 6 * 20px) / 3);
 
-  }
+//   }
 
-  @media screen and (min-width: 1500px) {
-    flex-basis: calc((100% - 8 * 20px) / 4);
-  }
-}
+//   @media screen and (min-width: 1500px) {
+//     flex-basis: calc((100% - 8 * 20px) / 4);
+//   }
+// }
 
-.shop-list__item:hover,
-.shop-list__item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+// .shop-list__item:hover,
+// .shop-list__item:focus {
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
 
-.work-list-item__link {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+// .work-list-item__link {
+//   display: flex;
+//   flex-direction: column;
+//   text-align: center;
 
-  height: 100%;
-}
+//   height: 100%;
+// }
 
-.work-list-item__img {
-  margin-left: auto;
-  margin-right: auto;
-}
+// .work-list-item__img {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
 
-.work-list-item__title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+// .work-list-item__title {
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 2;
+//   letter-spacing: 0.06em;
 
-  color: var(--primary-text-color);
-}
+//   color: var(--primary-text-color);
+// }
 
-.work-list-item__text {
-  font-size: 14px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+// .work-list-item__text {
+//   font-size: 14px;
+//   line-height: 1.56;
+//   letter-spacing: 0.03em;
 
-  color: #071d66;
+//   color: #071d66;
 
-  @media screen and (min-width: 480px) {
-    font-size: 18px;
-  }
-}
+//   @media screen and (min-width: 480px) {
+//     font-size: 18px;
+//   }
+// }
 
-// ----------------------------------------
-// Анимация
-// ----------------------------------------
+// // ----------------------------------------
+// // Анимация
+// // ----------------------------------------
 
-.shop__list .work-list-item__img {
-  transform: translateY(50%);
-  opacity: 0;
-  transition: all 1000ms linear 500ms;
-  width: 200px;
-  height: 256px;
-  object-fit: cover;
+// .shop__list .work-list-item__img {
+//   transform: translateY(50%);
+//   opacity: 0;
+//   transition: all 1000ms linear 500ms;
+//   width: 200px;
+//   height: 256px;
+//   object-fit: cover;
 
-  z-index: 1;
-}
+//   z-index: 1;
+// }
 
-.shop__list .work-list-item__img.appear {
-  transform: translateY(0);
-  opacity: 1;
-}
+// .shop__list .work-list-item__img.appear {
+//   transform: translateY(0);
+//   opacity: 1;
+// }

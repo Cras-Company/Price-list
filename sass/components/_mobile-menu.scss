@@ -15,6 +15,10 @@
 
 .modal__nav-item {
     margin-top: 20px;
+
+    &--reset {
+        margin-top: 0;
+    }
 }
 
 .modal__nav-link {
@@ -37,5 +41,16 @@
 }
 
 .modal__nav-link--active {
+    color: var(--link-color);
+}
+
+.mobile-catalog {
+    margin: 0 10px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.18;
+    letter-spacing: .02em;
+
     color: var(--link-color);
 }

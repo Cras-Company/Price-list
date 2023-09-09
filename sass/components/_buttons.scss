@@ -13,6 +13,17 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+
+  &--border {
+    padding: 5px;
+
+    border: 2px solid var(--link-color);
+    border-radius: var(--border-radius);
+  }
+
+  &--position {
+    margin: 0 auto;
+  }
 }
 
 // // Кнопка регистрации
@@ -154,13 +165,14 @@
   display: none;
 }
 
-// Кнопка магазина
-.work-list__button--position {
-  display: block;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
+.cras-block__button {
+  padding: 0;
+
+  border: none;
+
+  background-color: var(--pure-white);
+
+  cursor: pointer;
 }
 
 .modal__button-close {
