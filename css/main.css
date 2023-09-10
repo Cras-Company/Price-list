@@ -937,53 +937,8 @@ img {
 }
 
 .cras-item {
-  height: 110vw;
+  height: 60vh;
   overflow: auto;
-}
-@media screen and (min-width: 480px) {
-  .cras-item {
-    height: 80vw;
-  }
-}
-@media screen and (min-width: 560px) {
-  .cras-item {
-    height: 70vw;
-  }
-}
-@media screen and (min-width: 666px) {
-  .cras-item {
-    height: 60vw;
-  }
-}
-@media screen and (min-width: 768px) {
-  .cras-item {
-    height: 50vw;
-  }
-}
-@media screen and (min-width: 900px) {
-  .cras-item {
-    height: 40vw;
-  }
-}
-@media screen and (min-width: 1150px) {
-  .cras-item {
-    height: 37vw;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .cras-item {
-    height: 35vw;
-  }
-}
-@media screen and (min-width: 1350px) {
-  .cras-item {
-    height: 30vw;
-  }
-}
-@media screen and (min-width: 1500px) {
-  .cras-item {
-    padding: 0 20px 20px 20px;
-  }
 }
 @media screen and (min-width: 1024px) {
   .cras-item--flex {
