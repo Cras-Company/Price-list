@@ -424,6 +424,7 @@ img {
 @media screen and (min-width: 768px) {
   .filter {
     max-width: 335px;
+    height: auto;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -468,11 +469,6 @@ img {
   width: 100%;
   border: 2px solid var(--link-color);
   border-radius: var(--border-radius);
-}
-@media screen and (max-width: 479px) {
-  .filter__search input {
-    width: 200px;
-  }
 }
 @media screen and (min-width: 768px) {
   .filter__search input {
@@ -916,18 +912,20 @@ img {
 }
 
 .cras-item {
-  height: 60vh;
+  height: 65vh;
   overflow: auto;
 }
-@media screen and (min-width: 1024px) {
+.cras-item--flex {
+  position: relative;
+  z-index: 100;
+  background-color: var(--pure-white);
+}
+@media screen and (min-width: 768px) {
   .cras-item--flex {
     padding-right: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: var(--pure-white);
-    position: relative;
-    z-index: 100;
   }
 }
 
@@ -935,6 +933,11 @@ img {
   position: relative;
   z-index: 100;
   background-color: var(--pure-white);
+}
+@media screen and (min-width: 1500px) {
+  .cras-item__description {
+    padding-left: 150px;
+  }
 }
 
 .cras-item__img {
@@ -1740,14 +1743,14 @@ body.modal-open {
 
 .modal {
   position: absolute;
-  top: 54.5%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  max-width: 310px;
-  width: 100%;
-  min-height: 550px;
+  left: 2.5%;
   padding: 60px 20px 20px 20px;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: -webkit-transform 250ms linear 50ms;
+  transition: -webkit-transform 250ms linear 50ms;
+  transition: transform 250ms linear 50ms;
+  transition: transform 250ms linear 50ms, -webkit-transform 250ms linear 50ms;
   background-color: var(--pure-white);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1755,59 +1758,66 @@ body.modal-open {
 }
 @media screen and (min-width: 480px) {
   .modal {
-    max-width: 450px;
     padding: 75px 40px 30px 40px;
     background-size: contain;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .modal {
-    max-width: 528px;
-    min-height: 581px;
   }
 }
 .modal--search-padding {
   padding-top: 50px;
 }
 .modal--mobile-menu {
+  width: 95vw;
   min-height: 230px;
+  top: 30%;
+}
+
+.modal-open .modal {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .modal--mobile-footer {
   padding: 60px 0 0 0;
 }
 
-.modal--lot {
+.modal--menu {
   position: fixed;
+  top: 13%;
+  width: 95vw;
   min-height: 250px;
 }
-@media screen and (min-width: 480px) {
-  .modal--lot {
-    max-height: 550px;
-  }
+
+.modal--lot {
+  position: fixed;
+  top: 13%;
+  width: 95vw;
+  min-height: 250px;
 }
 @media screen and (min-width: 1024px) {
   .modal--lot {
-    max-width: 800px;
+    left: 15%;
+    width: 70vw;
   }
 }
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1280px) {
   .modal--lot {
-    min-height: 550px;
+    left: 20%;
+    width: 60vw;
   }
 }
 
-.img-modal-lot {
+.img-modal {
   position: absolute;
   top: -11%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-@media screen and (min-width: 1024px) {
-  .img-modal-lot {
-    top: -9%;
-  }
+.img-modal--menu {
+  top: -9.5%;
+}
+.img-modal--lot {
+  top: -9%;
 }
 
 .mobile-button {

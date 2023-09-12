@@ -4,7 +4,7 @@ export const refs = {
 
   mobileSearchBtn: document.querySelector("[data-search-button]"),
 
-  openModalMobileMenuBtn: document.querySelectorAll("[data-modal-mobile-menu-open]"),
+  openModalMobileMenuBtn: document.querySelector("[data-modal-mobile-menu-open]"),
   modalMobileMenu: document.querySelector("[data-modal-mobile-menu]"),
 
   openModalMobileMainMenuBtn: document.querySelector("[data-mobile-main-menu]"),
@@ -65,22 +65,28 @@ export function onCloseModal(modal) {
   header.style.marginLeft = "0";
 }
 
-// Открытие и закрытие модального окна мобилки
+// Открытие меню поиска
 refs.openModalMobileSearchBtns.forEach(button => {
   button.addEventListener("click", () => {
-    onOpenModal(refs.modalMobileMenuSearch);
-    onCloseModal(refs.modalMobileMainMenu);
+    if (!refs.modalMobileMainMenu.classList.contains("is-hidden")) {
+      onCloseModal(refs.modalMobileMainMenu);
+
+      setTimeout(() => {
+        refs.openModalMobileSearchBtns[0].click();
+      }, 250);
+    } else {
+      onOpenModal(refs.modalMobileMenuSearch);
+    }
   });
 });
 
-refs.openModalMobileMenuBtn.forEach(button => {
-  button.addEventListener("click", () => {
-    onOpenModal(refs.modalMobileMenu);
-  });
-});
+// Открытие мобильного меню
+refs.openModalMobileMenuBtn.addEventListener("click", () => onOpenModal(refs.modalMobileMenu));
 
+// Открытие главного меню
 refs.openModalMobileMainMenuBtn.addEventListener("click", () => onOpenModal(refs.modalMobileMainMenu));
 
+// Закрытие окна при клике на "поиск"
 refs.mobileSearchBtn.addEventListener('click', () => onCloseModal(refs.modalMobileMenuSearch));
 
 refs.closeModalBtn.forEach((btn) => {

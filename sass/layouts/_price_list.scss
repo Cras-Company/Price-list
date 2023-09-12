@@ -113,18 +113,18 @@
 }
 
 .cras-item {
-    height: 60vh;
+    height: 65vh;
     overflow: auto;
 
     &--flex {
-        @media screen and (min-width: 1024px) {
+        position: relative;
+        z-index: 100;
+
+        background-color: var(--pure-white);
+
+        @media screen and (min-width: 768px) {
             padding-right: 10px;;
             display: flex;
-
-            background-color: var(--pure-white);
-
-            position: relative;
-            z-index: 100;
         }
     }
 }
@@ -134,6 +134,10 @@
     z-index: 100;
 
     background-color: var(--pure-white);
+
+    @media screen and (min-width: 1500px) {
+        padding-left: 150px;
+    }
 }
 
 .cras-item__img {
