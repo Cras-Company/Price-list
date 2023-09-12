@@ -412,29 +412,9 @@ img {
 }
 
 .filter {
-  height: 110vw;
+  height: 65vh;
   padding: 10px;
   background-color: var(--pure-white);
-}
-@media screen and (min-width: 480px) {
-  .filter {
-    height: 80vw;
-  }
-}
-@media screen and (min-width: 560px) {
-  .filter {
-    height: 70vw;
-  }
-}
-@media screen and (min-width: 666px) {
-  .filter {
-    height: 60vw;
-  }
-}
-@media screen and (min-width: 666px) {
-  .filter {
-    height: 100vw;
-  }
 }
 @media screen and (max-width: 767px) {
   .filter {
@@ -875,7 +855,6 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  margin: -5px;
 }
 
 .cras-block {
@@ -1793,16 +1772,6 @@ body.modal-open {
 .modal--mobile-menu {
   min-height: 230px;
 }
-.modal--corrective {
-  padding-top: 70px;
-  padding-bottom: 30px;
-  min-height: 333px;
-}
-@media screen and (min-width: 480px) {
-  .modal--corrective {
-    padding-top: 80px;
-  }
-}
 
 .modal--mobile-footer {
   padding: 60px 0 0 0;
@@ -1829,21 +1798,11 @@ body.modal-open {
 }
 
 .img-modal-lot {
-  position: fixed;
+  position: absolute;
   top: -11%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-}
-@media screen and (min-width: 400px) {
-  .img-modal-lot {
-    top: -9%;
-  }
-}
-@media screen and (min-width: 480px) {
-  .img-modal-lot {
-    top: -10%;
-  }
 }
 @media screen and (min-width: 1024px) {
   .img-modal-lot {

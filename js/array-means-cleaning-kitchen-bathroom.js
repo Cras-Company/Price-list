@@ -4,7 +4,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_pulver_power.jpg",
         alt: "gut_gunstig_pulver_power",
         marker: "MCKB010",
-        brand: "Gut Günstig",
+        brand: "Gut & Günstig",
         search: "гут гуд гунстиг гюнстиг гунстіг гюнстіг труб чищення очистки",
         nameUKR: "Засіб для чистки труб та стоків",
         nameEN: "Rohrreineger Pulver Power",

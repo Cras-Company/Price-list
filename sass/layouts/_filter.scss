@@ -1,21 +1,5 @@
 .filter {  
-  height: 110vw;
-
-  @media screen and (min-width: 480px) {
-    height: 80vw;
-  }
-
-  @media screen and (min-width: 560px) {
-    height: 70vw;
-  }
-
-  @media screen and (min-width: 666px) {
-    height: 60vw;
-  }
-
-  @media screen and (min-width: 666px) {
-    height: 100vw;
-  }
+  height: 65vh;
 
   padding: 10px;
 

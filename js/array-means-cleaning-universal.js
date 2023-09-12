@@ -330,7 +330,7 @@ export const shopLotsMeansCleaningUniversal = [
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/gut_gunstig_allzweckreiniger_bergfrische.jpg",
         alt: "gut_gunstig_allzweckreiniger_bergfrische",
         marker: "MCU050",
-        brand: "Gut Günstig",
+        brand: "Gut & Günstig",
         search: "гуд гут гунстиг гунстіг едека эдека средство чистки",
         nameUKR: "Універсальний засіб для чищення, свіжість гірських вершин",
         nameEN: "Allzweckreiniger Bergfrische",

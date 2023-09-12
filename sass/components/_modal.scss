@@ -62,17 +62,6 @@ body.modal-open {
   &--mobile-menu {
     min-height: 230px;
   }
-
-  &--corrective {
-    padding-top: 70px;
-    padding-bottom: 30px;
-
-    min-height: 333px;
-
-    @media screen and (min-width: 480px) {
-      padding-top: 80px;
-    }
-  }
 }
 
 .modal--mobile-footer {
@@ -96,45 +85,6 @@ body.modal-open {
   }
 }
 
-// .modal-lot {
-//   max-width: 300px;
-//   width: 100%;
-//   max-height: 135vw;
-
-//   position: absolute;
-
-//   top: 10%;
-//   left: 2%;
-//   transform: translate(-50%, -50%);
-
-//   padding: 55px 13px 20px 13px;
-  
-//   background-color: var(--pure-white);
-//   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//     0px 2px 1px rgba(0, 0, 0, 0.2);
-//   border-radius: var(--border-radius);
-
-//   transform: scale(0.5);
-//   transition: transform 1000ms var(--timing-function);
-
-//   @media screen and (min-width: 480px) {
-//     width: calc(100% - 40px);
-
-//     left: 5%;
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     width: calc(100% - 200px);
-
-//     top: 10%;
-//     left: 14%;
-//   }
-// }
-
-// .modal-open .modal-lot {
-//   transform: scale(1);
-// }
-
 // .modal__form input::placeholder {
 //   font-size: 13px;
 //   font-weight: 600;
@@ -146,18 +96,10 @@ body.modal-open {
 // }
 
 .img-modal-lot {
-  position: fixed;
+  position: absolute;
 
   top: -11%;
   left: 50%;
-
-  @media screen and (min-width: 400px) {
-    top: -9%;
-  }
-
-  @media screen and (min-width: 480px) {
-    top: -10%;
-  }
 
   @media screen and (min-width: 1024px) {
     top: -9%;
