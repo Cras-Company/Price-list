@@ -13,7 +13,6 @@ export const shopLotsMicellarWipes = [
     quantityName: "Кількість",
     quantity: "25 шт.",
     priceGRN: 35,
-    priceUSDT: 0.94,
     priceGRNOpt: 32,
     priceUSDTOpt: 0.86,
     description01: "&#171;Cynosure - Micellar Cleansing Wipes&#187; - це секрет бездоганної і яскравої шкіри. Ці зволожуючі і збагачені гіалуроновою кислотою серветки забезпечують ефективне очищення, одночасно зволожуючи і заспокоюючи вашу шкіру.",
