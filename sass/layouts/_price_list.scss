@@ -129,6 +129,36 @@
     }
 }
 
+.cras-item__title-box {
+    margin-bottom: 20px;
+}
+
+.cras-item__main-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    text-align: center;
+
+    color: #057198;
+
+    @media screen and (min-width: 480px) {
+        font-size: 18px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1500px) {
+        font-size: 24px;
+    }
+
+    &--margin {
+        margin-bottom: 10px;
+    }
+}
+
 .cras-item__description {
     position: relative;
     z-index: 100;

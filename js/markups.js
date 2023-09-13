@@ -103,132 +103,139 @@ export function createMobileListItemsMarkup(items) {
 // ===========================================================================
 
 export function createModalListItemsMarkup(items) {
-  return items.map(({ type, url, alt, marker, brand, nameEN, companyName, countryName,
+  return items.map(({ type, url, alt, marker, brand, nameEN, nameUKR, companyName, countryName,
                         volumeName, weightName, quantityName, volume, weight, quantity,
                         priceGRN, priceUSDT, quantityOnStorage, priceGRNOpt, priceUSDTOpt,
                         description01, description02, description03, description04, description05 }) => {
 
       return `<div class="cras-item">
 
-                  <div class="cras-item--flex">
+                <div class="cras-item__title-box">
 
-                      <img class="lazyload cras-item__img cras-item__img--lot"
-                          loading="lazy"
-                          data-src="${url}"
-                          alt="${alt}" 
-                          width="310" 
-                          height="310"
-                      />
+                    <h2 class="cras-item__main-title cras-item__main-title--margin">${nameUKR}</h2>
 
-                      <div class="cras-item__description">
+                    <h2 class="cras-item__main-title">&#171;${brand} - ${nameEN}&#187;</h2>
+                </div>
 
-                          <div class="cras-item__element cras-item__element--left">
-                              <h4 class="cras-item__title cras-mobile-font">Маркер:</h4>
-                              <p class="cras-item__text cras-item__text--margin cras-mobile-font">${marker};</p>
-                          </div>
+                <div class="cras-item--flex">
 
-                          <div class="cras-item__element cras-item__element--left">
-                              <h4 class="cras-item__title cras-mobile-font">Бренд:</h4>
-                              <p class="cras-item__text cras-item__text--margin cras-mobile-font">&#171;${brand}&#187;;</p>
-                          </div>
+                    <img class="lazyload cras-item__img cras-item__img--lot"
+                        loading="lazy"
+                        data-src="${url}"
+                        alt="${alt}" 
+                        width="310" 
+                        height="310"
+                    />
 
-                          <div class="cras-item__name">
-                              <h4 class="cras-item__title cras-mobile-font cras-item__name--margin">Назва продукту:</h4>
-                              <p class="cras-item__text cras-mobile-font">&#171;${nameEN}&#187;;</p>
-                          </div>
+                    <div class="cras-item__description">
 
-                          <div class="cras-item__name">
-                              <h4 class="cras-item__title cras-mobile-font cras-item__name--margin">Компанія - виробник:</h4>
-                              <p class="cras-item__text cras-mobile-font">&#171;${companyName}&#187;;</p>
-                          </div>
+                        <div class="cras-item__element cras-item__element--left">
+                            <h4 class="cras-item__title cras-mobile-font">Маркер:</h4>
+                            <p class="cras-item__text cras-item__text--margin cras-mobile-font">${marker};</p>
+                        </div>
 
-                          <div class="cras-item__element cras-item__element--left">
-                              <h4 class="cras-item__title cras-mobile-font">Країна - виробник:</h4>
-                              <p class="cras-item__text cras-item__text--margin cras-mobile-font">${countryName};</p>
-                          </div>
+                        <div class="cras-item__element cras-item__element--left">
+                            <h4 class="cras-item__title cras-mobile-font">Бренд:</h4>
+                            <p class="cras-item__text cras-item__text--margin cras-mobile-font">&#171;${brand}&#187;;</p>
+                        </div>
 
-                          ${volumeName ? `
+                        <div class="cras-item__name">
+                            <h4 class="cras-item__title cras-mobile-font cras-item__name--margin">Назва продукту:</h4>
+                            <p class="cras-item__text cras-mobile-font">&#171;${nameEN}&#187;;</p>
+                        </div>
 
-                              <div class="cras-item__element cras-item__element--left">
+                        <div class="cras-item__name">
+                            <h4 class="cras-item__title cras-mobile-font cras-item__name--margin">Компанія - виробник:</h4>
+                            <p class="cras-item__text cras-mobile-font">&#171;${companyName}&#187;;</p>
+                        </div>
 
-                                  <h4 class="cras-item__title cras-mobile-font">${volumeName}:</h4>
+                        <div class="cras-item__element cras-item__element--left">
+                            <h4 class="cras-item__title cras-mobile-font">Країна - виробник:</h4>
+                            <p class="cras-item__text cras-item__text--margin cras-mobile-font">${countryName};</p>
+                        </div>
 
-                                  <p class="cras-item__text cras-item__text--margin cras-mobile-font">${volume}</p>
-                              </div>
+                        ${volumeName ? `
 
-                          ` : (weightName ? `
+                            <div class="cras-item__element cras-item__element--left">
 
-                              <div class="cras-item__element cras-item__element--left">
+                                <h4 class="cras-item__title cras-mobile-font">${volumeName}:</h4>
 
-                                  <h4 class="cras-item__title cras-mobile-font">${weightName}:</h4>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${volume}</p>
+                            </div>
 
-                                  <p class="cras-item__text cras-item__text--margin cras-mobile-font">${weight}</p>
-                              </div>
+                        ` : (weightName ? `
 
-                          ` : `
-                              <div class="cras-item__element cras-item__element--left">
+                            <div class="cras-item__element cras-item__element--left">
 
-                                  <h4 class="cras-item__title cras-mobile-font">${quantityName}:</h4>
+                                <h4 class="cras-item__title cras-mobile-font">${weightName}:</h4>
 
-                                  <p class="cras-item__text cras-item__text--margin cras-mobile-font">${quantity}</p>
-                              </div>
-                          `)}
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${weight}</p>
+                            </div>
 
-                          <div class="cras-item__element cras-item__element--left">
-                              <h4 class="cras-item__title cras-mobile-font">Ціна (грн. / USDT):</h4>
-                              <p class="cras-item__text cras-item__text--margin cras-mobile-font">${priceGRN} / ${priceUSDT};</p>
-                          </div>
+                        ` : `
+                            <div class="cras-item__element cras-item__element--left">
 
-                          ${type === 'retail' ? `
-                              <div class="cras-item__element cras-item__element--left">
-                                  <h4 class="cras-item__title cras-mobile-font">Кількість на складі (шт.):</h4>
-                                  <p class="cras-item__text cras-item__text--margin cras-mobile-font">${quantityOnStorage};</p>
-                              </div>
+                                <h4 class="cras-item__title cras-mobile-font">${quantityName}:</h4>
 
-                          ` : `
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${quantity}</p>
+                            </div>
+                        `)}
 
-                              <div class="cras-item__element cras-item__element--left">
-                                  <h4 class="cras-item__title cras-mobile-font">Ціна (від 12 шт., грн.):</h4>
-                                  <p class="cras-item__text cras-item__text--margin cras-mobile-font">${priceGRNOpt};</p>
-                              </div>
+                        <div class="cras-item__element cras-item__element--left">
+                            <h4 class="cras-item__title cras-mobile-font">Ціна (грн. / USDT):</h4>
+                            <p class="cras-item__text cras-item__text--margin cras-mobile-font">${priceGRN} / ${priceUSDT};</p>
+                        </div>
 
-                              <div class="cras-item__element cras-item__element--left">
-                                  <h4 class="cras-item__title cras-mobile-font">Ціна (від 12 шт., USDT):</h4>
-                                  <p class="cras-item__text cras-item__text--margin cras-mobile-font">${priceUSDTOpt};</p>
-                              </div>
-                          `}
+                        ${type === 'retail' ? `
+                            <div class="cras-item__element cras-item__element--left">
+                                <h4 class="cras-item__title cras-mobile-font">Кількість на складі (шт.):</h4>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${quantityOnStorage};</p>
+                            </div>
 
-                          <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Замовити</span></a>
-                      </div>
+                        ` : `
 
-                  </div>
+                            <div class="cras-item__element cras-item__element--left">
+                                <h4 class="cras-item__title cras-mobile-font">Ціна (від 12 шт., грн.):</h4>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${priceGRNOpt};</p>
+                            </div>
 
-                  <div class="price__icon-box js-price__box">
+                            <div class="cras-item__element cras-item__element--left">
+                                <h4 class="cras-item__title cras-mobile-font">Ціна (від 12 шт., USDT):</h4>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${priceUSDTOpt};</p>
+                            </div>
+                        `}
 
-                      <svg class="price__icon-close js-price__icon-close" width="40" height="40">
-                  
-                          <use href="./images/icon/sprite.svg#icon-eye-close"></use>
-                      </svg>
-                  
-                      <svg class="price__icon-open js-price__icon-open" width="40" height="40">
-                  
-                          <use href="./images/icon/sprite.svg#icon-eye-open"></use>
-                      </svg>
+                        <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Замовити</span></a>
+                    </div>
 
-                      <h4 class="cras-item__title cras-mobile-font unselectable">Опис товару:</h4>
-                  </div>
-        
-                  <div class="price__lot-description unselectable cras-item--margin js-price__lot-description">
+                </div>
 
-                      <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description01}</p>
-                      <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description02}</p>
-                      <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description03}</p>
-                      <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description04}</p>
-                      <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description05}</p>
+                <div class="price__icon-box js-price__box">
 
-                      <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Замовити</span></a>
+                    <svg class="price__icon-close js-price__icon-close" width="40" height="40">
+                
+                        <use href="./images/icon/sprite.svg#icon-eye-close"></use>
+                    </svg>
+                
+                    <svg class="price__icon-open js-price__icon-open" width="40" height="40">
+                
+                        <use href="./images/icon/sprite.svg#icon-eye-open"></use>
+                    </svg>
 
-                  </div>
-              </div>`;
+                    <h4 class="cras-item__title cras-mobile-font unselectable">Опис товару:</h4>
+                </div>
+    
+                <div class="price__lot-description unselectable cras-item--margin js-price__lot-description">
+
+                    <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description01}</p>
+                    <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description02}</p>
+                    <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description03}</p>
+                    <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description04}</p>
+                    <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description05}</p>
+
+                    <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Замовити</span></a>
+
+                </div>
+            </div>`;
     });
 }
