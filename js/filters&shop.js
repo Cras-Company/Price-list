@@ -5,7 +5,7 @@ import { createMobileListItemsMarkup, createModalListItemsMarkup } from './marku
 
 import { onOpenModal, onCloseModal, refs } from './modal-index.js';
 
-import {lazyLoadImagesAnimation, iconsDescriptionAnimation} from './supporting_functions.js'
+import {lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation} from './supporting_functions.js'
 
 // Средства гигиены
 import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
@@ -422,6 +422,7 @@ function handleFormSubmit(event) {
     }
   });
 
+  jumpSearch();
   lazyLoadImagesAnimation();
 }
 
@@ -481,12 +482,7 @@ function filterClickHandler(event) {
         }
       });
 
-      const filterMenuElement = document.querySelector(".js-click-for-new-window");
-
-      if (filterMenuElement) {
-        filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-
+      jumpSearch();
       lazyLoadImagesAnimation();
     }  
   }
@@ -560,12 +556,7 @@ function brandClickHandler(event) {
         }
       });
 
-      const filterMenuElement = document.querySelector(".js-click-for-new-window");
-    
-      if (filterMenuElement) {
-        filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-
+      jumpSearch();
       lazyLoadImagesAnimation();
     }
   }
@@ -638,12 +629,7 @@ function countryClickHandler(event) {
           }
         });
 
-      const filterMenuElement = document.querySelector(".js-click-for-new-window");
-    
-      if (filterMenuElement) {
-        filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-
+      jumpSearch();
       lazyLoadImagesAnimation();
     }
   }

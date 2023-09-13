@@ -30,6 +30,18 @@ export function lazyLoadImagesAnimation() {
 }
 
 // ===========================================================================
+// Прокрутка при поиске
+// ===========================================================================
+
+export function jumpSearch() {
+  const filterMenuElement = document.querySelector(".tranding-slide-img");
+
+  if (filterMenuElement) {
+    filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+// ===========================================================================
 // Анимация иконки описания товаров
 // ===========================================================================
 
