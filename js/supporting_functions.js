@@ -34,45 +34,45 @@ export function lazyLoadImagesAnimation() {
 // ===========================================================================
 
 export function iconsDescriptionAnimation() {
-  const priceDescriptionIconsBlocks = document.querySelectorAll(".js-price__box");
+  const crasItems = document.querySelectorAll('.cras-item');
 
-  const priceIconsOpen = document.querySelectorAll(".js-price__icon-open");
-  const priceIconsClose = document.querySelectorAll(".js-price__icon-close");
+  crasItems.forEach((crasItem) => {
+    const priceDescriptionIconsBlocks = crasItem.querySelectorAll(".js-price__box");
+    const priceIconsOpen = crasItem.querySelectorAll(".js-price__icon-open");
+    const priceIconsClose = crasItem.querySelectorAll(".js-price__icon-close");
+    const priceLotsDescription = crasItem.querySelectorAll(".js-price__lot-description");
 
-  const priceLotsDescription = document.querySelectorAll(".js-price__lot-description");
-
-  const crasItem = document.querySelector('.cras-item');
-
-  priceDescriptionIconsBlocks.forEach((menu, index) => {
+    priceDescriptionIconsBlocks.forEach((menu, index) => {
       menu.addEventListener("click", (event) => {
-          event.stopPropagation();
-          const iconEyeClose = priceIconsClose[index];
-          const iconEyeOpen = priceIconsOpen[index];
-          const listEye = priceLotsDescription[index];
+        event.stopPropagation();
+        const iconEyeClose = priceIconsClose[index];
+        const iconEyeOpen = priceIconsOpen[index];
+        const listEye = priceLotsDescription[index];
 
-          iconEyeClose.classList.toggle("js-icon-close");
-          iconEyeOpen.classList.toggle("js-icon-open");
-          listEye.classList.toggle("js-price__lot-description-open");
+        iconEyeClose.classList.toggle("js-icon-close");
+        iconEyeOpen.classList.toggle("js-icon-open");
+        listEye.classList.toggle("js-price__lot-description-open");
 
-          const scrollAmount = 300;
-          const duration = 1000;
-          const startScrollTop = crasItem.scrollTop;
-          const startTime = performance.now();
+        const scrollAmount = 300;
+        const duration = 1000;
+        const startScrollTop = crasItem.scrollTop;
+        const startTime = performance.now();
 
-          function scrollStep(timestamp) {
-              const currentTime = timestamp - startTime;
-              const scrollProgress = currentTime / duration;
+        function scrollStep(timestamp) {
+          const currentTime = timestamp - startTime;
+          const scrollProgress = currentTime / duration;
 
-              if (scrollProgress < 1) {
-                  const newScrollTop = startScrollTop + scrollAmount * scrollProgress;
-                  crasItem.scrollTop = newScrollTop;
-                  requestAnimationFrame(scrollStep);
-              } else {
-                  crasItem.scrollTop = startScrollTop + scrollAmount;
-              }
+          if (scrollProgress < 1) {
+            const newScrollTop = startScrollTop + scrollAmount * scrollProgress;
+            crasItem.scrollTop = newScrollTop;
+            requestAnimationFrame(scrollStep);
+          } else {
+            crasItem.scrollTop = startScrollTop + scrollAmount;
           }
+        }
 
-          requestAnimationFrame(scrollStep);
+        requestAnimationFrame(scrollStep);
       });
+    });
   });
 }

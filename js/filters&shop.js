@@ -481,7 +481,7 @@ function filterClickHandler(event) {
         }
       });
 
-      const filterMenuElement = document.querySelector('[data-filter-menu]');
+      const filterMenuElement = document.querySelector(".filter--search");
 
       if (filterMenuElement) {
         filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -560,7 +560,7 @@ function brandClickHandler(event) {
         }
       });
 
-      const filterMenuElement = document.querySelector('[data-filter-menu]');
+      const filterMenuElement = document.querySelector(".filter--search");
     
       if (filterMenuElement) {
         filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -638,7 +638,7 @@ function countryClickHandler(event) {
           }
         });
 
-      const filterMenuElement = document.querySelector('[data-filter-menu]');
+      const filterMenuElement = document.querySelector(".filter--search");
     
       if (filterMenuElement) {
         filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
