@@ -7,11 +7,13 @@ export const refs = {
   openModalMobileMenuBtn: document.querySelector("[data-modal-mobile-menu-open]"),
   modalMobileMenu: document.querySelector("[data-modal-mobile-menu]"),
 
+  openModalBasketBtns: document.querySelectorAll("[data-modal-basket]"),
+  modalBasketMenu: document.querySelector("[data-modal-basket-menu]"),
+
   openModalMobileMainMenuBtn: document.querySelector("[data-mobile-main-menu]"),
   modalMobileMainMenu: document.querySelector("[data-modal-main-menu]"),
 
   openModalLot: document.querySelector("[data-modal-lot]"),
-  openModalLotBtn: document.querySelector("[data-modal-lot-open]"),
 
   closeModalBtn: document.querySelectorAll('[data-modal-close]'),
 };
@@ -51,7 +53,7 @@ export function onOpenModal(modal) {
 }
 
 export function onCloseModal(modal) {
-  const header = document.querySelector(".js-header")
+  const header = document.querySelector(".js-header");
   const escKeyPressHandler = (event) => onEscKeyPress(event, modal);
   const backdropClickHandler = (event) => onBackdropClick(event, modal);
 
@@ -83,6 +85,13 @@ refs.openModalMobileSearchBtns.forEach(button => {
 // Открытие мобильного меню
 refs.openModalMobileMenuBtn.addEventListener("click", () => onOpenModal(refs.modalMobileMenu));
 
+// Открытие корзины
+refs.openModalBasketBtns.forEach(button => {
+  button.addEventListener("click", () => {
+    onOpenModal(refs.modalBasketMenu)
+  });
+});
+
 // Открытие главного меню
 refs.openModalMobileMainMenuBtn.addEventListener("click", () => onOpenModal(refs.modalMobileMainMenu));
 
@@ -94,6 +103,7 @@ refs.closeModalBtn.forEach((btn) => {
     onCloseModal(refs.modalMobileMenuSearch);
     onCloseModal(refs.modalMobileMenu);
     onCloseModal(refs.modalMobileMainMenu);
+    onCloseModal(refs.modalBasketMenu);
   });
 });
 

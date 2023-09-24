@@ -74,6 +74,14 @@
     background-color: var(--pure-white);
 
     transition: scale 250ms linear 50ms;
+
+    @media screen and (min-width: 768px) {
+        &:hover,
+        &:focus,
+        &:active {
+            scale: 1.05;
+        }
+    }
     
     @media screen and (min-width: 1024px) {
         width: calc(33.3333% - 10px);
@@ -85,12 +93,6 @@
 
     @media screen and (min-width: 1500px) {
         width: calc(20% - 10px);
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-        scale: 1.05;
     }
 }
 
@@ -117,19 +119,19 @@
     overflow: auto;
 
     @media screen and (min-width: 768px) {
-        height: 67vh;
+        height: 70vh;
     }
 
     @media screen and (min-width: 1024px) {
-        height: 63vh;
+        height: 65vh;
     }
 
     @media screen and (min-width: 1280px) {
-        height: 67vh;
+        height: 69vh;
     }
 
     @media screen and (min-width: 1500px) {
-        height: 69vh;
+        height: 72vh;
     }
 
     &--flex {
@@ -182,7 +184,7 @@
     background-color: var(--pure-white);
 
     @media screen and (min-width: 1500px) {
-        padding-left: 150px;
+        padding-left: 100px;
     }
 }
 
@@ -293,6 +295,13 @@
     }
 }
 
+// Блок заказа
+.cras-block__order {
+    display: flex;
+
+    padding-bottom: 10px;
+}
+
 // Кнопка - ссылка
 .link__button {
     position: relative;
@@ -301,19 +310,15 @@
     justify-content: center;
     align-items: center;
 
-    padding: 0;
-    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
 
-    min-width: 120px;
-    min-height: 30px;
-
-    @media screen and (min-width: 480px) {
-        min-height: 35px;
-        font-size: 16px;
+    @media screen and (min-width: 480px){
+        font-size: 14px;
     }
 
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.19;
 
     color: var(--pure-white);
@@ -366,9 +371,15 @@
 }
 
 .link__button--mobile {
+    font-size: 15px;
+}
+
+.link__button--description {
     margin: 0 auto;
-    width: 270px;
-    height: 35px;
+
+    width: 210px;
+
+    font-size: 15px;
 }
 
 .link__button:hover,
