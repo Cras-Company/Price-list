@@ -9,7 +9,7 @@ import {
   createBasketOrderMarkup
 } from './markups.js';
 
-import { refs } from './modal-index.js';
+import { refs, onOpenModal, onCloseModal } from './modal-index.js';
 
 import {lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation} from './supporting_functions.js'
 
@@ -655,68 +655,6 @@ const shopListMobileLot = document.querySelector('.js-modal-lot');
 
 shopListAllLots.addEventListener('click', lotModalOpenHandler);
 
-const html = document.documentElement;
-const marginSize = window.innerWidth - html.clientWidth;
-const header = document.querySelector(".js-header");
-
-function onEscKeyPress(event, modal) {
-  if (event.code === 'Escape') {
-    onCloseModalLot(modal);
-  }
-}
-
-function onBackdropClick(event, modal) {
-  if (event.target === event.currentTarget) {
-    onCloseModalLot(modal);
-  }
-}
-
-function onOpenModalLot(modal) {
-  const marginSize = window.innerWidth - html.clientWidth;
-  const header = document.querySelector(".js-header")
-  const escKeyPressHandler = (event) => onEscKeyPress(event, modal);
-  const backdropClickHandler = (event) => onBackdropClick(event, modal);
-
-  window.addEventListener('keydown', escKeyPressHandler);
-  modal.addEventListener('click', backdropClickHandler);
-
-  document.body.classList.add('modal-open');
-  modal.classList.remove("is-hidden");
-
-  if (marginSize) {
-    html.style.marginRight = marginSize + "px";
-    header.style.marginLeft = -8.5 + "px"
-  }
-}
-
-function onCloseModalLot(modal) {
-  const header = document.querySelector(".js-header");
-  const escKeyPressHandler = (event) => onEscKeyPress(event, modal);
-  const backdropClickHandler = (event) => onBackdropClick(event, modal);
-
-  window.removeEventListener('keydown', escKeyPressHandler);
-  modal.removeEventListener('click', backdropClickHandler);
-
-  document.body.classList.remove('modal-open');
-  modal.classList.add("is-hidden");
-
-  html.style.marginRight = "";
-  header.style.marginLeft = "0";
-  restoreIcons();
-      handleQuantityDecrease();
-    handleQuantityIncrease();
-}
-
-refs.closeModalBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    onCloseModalLot(refs.openModalLot);
-    restoreTotalPrices();
-    restoreBasketItemsArrayMarkup();
-    handleQuantityDecrease();
-    handleQuantityIncrease();
-  });
-});
-
 function lotModalOpenHandler(event) {
   const targetButton = event.target.closest('button[data-modal-lot-open]');
 
@@ -726,7 +664,7 @@ function lotModalOpenHandler(event) {
     if (target) {
       const markerElement = target.querySelector(".js-marker").textContent;
 
-      onOpenModalLot(refs.openModalLot);
+      onOpenModal(refs.openModalLot)
 
       let foundItem = null;
 
@@ -764,6 +702,14 @@ function lotModalOpenHandler(event) {
     restoreStoregeIcons(lotElements);
   }
 }
+
+refs.closeModalBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    restoreBasketAmount();
+    restoreBasketItemsArrayMarkup();
+    restoreIcons();
+  });
+});
 
 // ===========================================================================
 // Корзина
@@ -859,6 +805,7 @@ function lotBasketIconHandler(event) {
   }
 }
 
+// Восстановление числа товаров в корзине
 function restoreBasketAmount() {
   const basketAmount = localStorage.getItem('headerBasketNumberValue');
   if (basketAmount) {
@@ -877,6 +824,7 @@ function restoreBasketAmount() {
 
 restoreBasketAmount();
 
+// Восстановление массива товаров и разметки
 function restoreBasketItemsArrayMarkup() {
   const storedBasketItemsArray = localStorage.getItem('basketfoundItemsArray');
 
@@ -1008,25 +956,25 @@ function lotBasketHandler(event) {
       localStorage.setItem('totalPrices', JSON.stringify(totalPrices));
     }
 
-    if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
-      localStorage.removeItem('totalOptPrices');
-    } else {
-      localStorage.setItem('totalOptPrices', JSON.stringify(totalOptPrices));
-    }
+    // if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
+    //   localStorage.removeItem('totalOptPrices');
+    // } else {
+    //   localStorage.setItem('totalOptPrices', JSON.stringify(totalOptPrices));
+    // }
 
-    const decreaseButtons = document.querySelectorAll('[data-price-down]');
-    const increaseButtons = document.querySelectorAll('[data-price-up]');
+    // const decreaseButtons = document.querySelectorAll('[data-price-down]');
+    // const increaseButtons = document.querySelectorAll('[data-price-up]');
 
-    decreaseButtons.forEach(function (button) {
-      button.addEventListener('click', handleQuantityDecrease);
-    });
+    // decreaseButtons.forEach(function (button) {
+    //   button.addEventListener('click', handleQuantityDecrease);
+    // });
 
-    increaseButtons.forEach(function (button) {
-      button.addEventListener('click', handleQuantityIncrease);
-    });
+    // increaseButtons.forEach(function (button) {
+    //   button.addEventListener('click', handleQuantityIncrease);
+    // });
 
-    handleQuantityDecrease();
-    handleQuantityIncrease();
+    // handleQuantityDecrease();
+    // handleQuantityIncrease();
 
     // Удаление товара на кнопку "Удалить"
     const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
@@ -1130,11 +1078,11 @@ function removeBasketItem(event) {
       localStorage.setItem('totalPrices', JSON.stringify(totalPrices));
     }
 
-    if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
-      localStorage.removeItem('totalOptPrices');
-    } else {
-      localStorage.setItem('totalOptPrices', JSON.stringify(totaOptPrices));
-    }
+    // if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
+    //   localStorage.removeItem('totalOptPrices');
+    // } else {
+    //   localStorage.setItem('totalOptPrices', JSON.stringify(totalOptPrices));
+    // }
   }
 
   headerBasketNumbers.forEach((headerBasketNumber) => {
@@ -1157,24 +1105,11 @@ function removeBasketItem(event) {
   }
 
   // Убираем классы с иконок и удаляем с массива
-  const crasBlocks = document.querySelectorAll('li.cras-block');
-  let crasBlock = null;
+  const iconsArrayJSON = localStorage.getItem("iconsArray");
+  const iconsArray = JSON.parse(iconsArrayJSON) || [];
 
-  for (const block of crasBlocks) {
-    if (block.getAttribute('data-basket-marker') === marker) {
-      crasBlock = block;
-      break;
-    }
-  }
-  const basketIn = crasBlock.querySelector(".js-basket__icon-in");
-  const basketOut = crasBlock.querySelector(".js-basket__icon-out");
-
-  basketIn.classList.remove("js-icon-close");
-  basketOut.classList.remove("js-icon-open");
-
-  const iconIndex = iconsArray.findIndex((item) => item.marker === marker);
-  if (iconIndex !== -1) {
-    iconsArray.splice(iconIndex, 1);
+  if (itemIndex !== -1) {
+    iconsArray.splice(itemIndex, 1);
     localStorage.setItem('iconsArray', JSON.stringify(iconsArray));
   }
 

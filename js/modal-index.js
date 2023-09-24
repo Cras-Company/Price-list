@@ -104,6 +104,7 @@ refs.closeModalBtn.forEach((btn) => {
     onCloseModal(refs.modalMobileMenu);
     onCloseModal(refs.modalMobileMainMenu);
     onCloseModal(refs.modalBasketMenu);
+    onCloseModal(refs.openModalLot);
   });
 });
 
