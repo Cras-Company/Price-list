@@ -716,7 +716,7 @@ const travolta = document.querySelector(".js-travolta");
 
 let basketfoundItemsArray = [];
 let iconsArray = [];
-
+let quantityItemsArray = [];
 
 shopListAllLots.addEventListener('click', lotBasketHandler);
 
@@ -729,6 +729,7 @@ function lotBasketHandler(event) {
     let marker;
     let basketInIcon;
     let basketOutIcon;
+    let currentValue = 1;
 
     if (event.target.closest(".cras-block")) {
       target = targetButton.closest(".cras-block");
@@ -807,6 +808,36 @@ function lotBasketHandler(event) {
 
     toggleItemInBasket(marker);
 
+    const decreaseButtons = document.querySelectorAll('[data-price-down]');
+    const increaseButtons = document.querySelectorAll('[data-price-up]');
+
+    decreaseButtons.forEach(function (button) {
+      button.addEventListener('click', handleQuantityDecrease);
+    });
+
+    increaseButtons.forEach(function (button) {
+      button.addEventListener('click', handleQuantityIncrease);
+    });
+
+    const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+    const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+    let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
+    if (existingItemIndex !== -1) {
+      // Если товар уже есть в массиве, обновляем его количество
+      quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    } else {
+      // Иначе, добавляем новый товар в массив
+      quantityItemsArray.push({
+        marker: marker,
+        quantityItem: currentValue,
+      });
+    }
+
+    // Сохраняем массив с информацией о количестве товаров в локальное хранилище
+    localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+
     // Количество товаров в корзине
     headerBasketNumbers.forEach((headerBasketNumber) => {
       if (basketfoundItemsArray.length > 0) {
@@ -860,20 +891,6 @@ function lotBasketHandler(event) {
     // } else {
     //   localStorage.setItem('totalOptPrices', JSON.stringify(totalOptPrices));
     // }
-
-    // const decreaseButtons = document.querySelectorAll('[data-price-down]');
-    // const increaseButtons = document.querySelectorAll('[data-price-up]');
-
-    // decreaseButtons.forEach(function (button) {
-    //   button.addEventListener('click', handleQuantityDecrease);
-    // });
-
-    // increaseButtons.forEach(function (button) {
-    //   button.addEventListener('click', handleQuantityIncrease);
-    // });
-
-    // handleQuantityDecrease();
-    // handleQuantityIncrease();
 
     // Удаление товара на кнопку "Удалить"
     const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
@@ -980,6 +997,19 @@ function removeBasketItem(event) {
     }
   }
 
+  // Удаляем элемент массива числа товаров из локального хранилища
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+  if (itemIndex !== -1) {
+    quantityItemsArray.splice(itemIndex, 1);
+    localStorage.setItem('quantityItemsArray', JSON.stringify(quantityItemsArray));
+  }
+
+  if (quantityItemsArray.length === 0) {
+    localStorage.removeItem("quantityItemsArray");
+  }
+
   // Убираем классы с иконок и удаляем с массива
   const iconsArrayJSON = localStorage.getItem("iconsArray");
   const iconsArray = JSON.parse(iconsArrayJSON) || [];
@@ -1005,6 +1035,7 @@ function clearBasket() {
   const keysToRemove = Object.keys(localStorage).filter((key) =>
     key.startsWith("basketMarkup") ||
     key === "basketfoundItemsArray" ||
+    key === "quantityItemsArray" ||
     key === "iconsArray" ||
     key === "totalPrices" ||
     key === "totalOptPrices" ||
@@ -1017,6 +1048,7 @@ function clearBasket() {
 
   // Обновляем массивы из localStorage
   basketfoundItemsArray = JSON.parse(localStorage.getItem('basketfoundItemsArray')) || [];
+  quantityItemsArray = JSON.parse(localStorage.getItem('quantityItemsArray')) || [];
   iconsArray = JSON.parse(localStorage.getItem("iconsArray")) || [];
 
   // Удаление счётчка товара в корзине
@@ -1064,36 +1096,81 @@ function addOrderBoxOptMarkup(totalOptPriceGRN, totalOptPriceUSDT) {
   }
 }
 
-function handleQuantityDecrease() {
-  const itemQuantityElement = this.parentElement.querySelector('.js-item-quantity');
+function handleQuantityDecrease(event) {
+  const targetButton = event.target.closest('button[data-price-down]');
+  if (!targetButton) return;
 
-  if (itemQuantityElement) {
-    // Получаем текущее значение количества и преобразуем его в число
-    let currentQuantity = parseInt(itemQuantityElement.textContent);
+  const item = targetButton.closest('.basket__item');
+  if (!item) return;
 
-    // Уменьшаем значение, но не меньше 1
-    if (currentQuantity > 1) {
-      currentQuantity--;
-    }
+  const itemQuantity = item.querySelector('.js-item-quantity');
+  if (!itemQuantity) return;
 
-    // Обновляем значение на странице
-    itemQuantityElement.textContent = currentQuantity;
+  let currentValue = parseInt(itemQuantity.textContent);
+  currentValue = Math.max(currentValue - 1, 1);
+  itemQuantity.textContent = currentValue;
+
+  const marker = item.getAttribute('data-basket-marker');
+
+  // Получаем текущее значение quantityItemsArray из локального хранилища
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+  // Ищем товар с текущим маркером в массиве
+  let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
+  if (existingItemIndex !== -1) {
+    // Если товар уже есть в массиве, обновляем его количество
+    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+  } else {
+    // Иначе, добавляем новый товар в массив
+    quantityItemsArray.push({
+      marker: marker,
+      quantityItem: currentValue,
+    });
   }
+
+  // Обновляем массив в локальном хранилище
+  localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
-function handleQuantityIncrease() {
-  const itemQuantityElement = this.parentElement.querySelector('.js-item-quantity');
 
-  if (itemQuantityElement) {
-    // Получаем текущее значение количества и преобразуем его в число
-    let currentQuantity = parseInt(itemQuantityElement.textContent);
+function handleQuantityIncrease(event) {
+  const targetButton = event.target.closest('button[data-price-up]');
+  if (!targetButton) return;
 
-    // Увеличиваем значение
-    currentQuantity++;
+  const item = targetButton.closest('.basket__item');
+  if (!item) return;
 
-    // Обновляем значение на странице
-    itemQuantityElement.textContent = currentQuantity;
+  const itemQuantity = item.querySelector('.js-item-quantity');
+  if (!itemQuantity) return;
+
+  let currentValue = parseInt(itemQuantity.textContent);
+  currentValue += 1;
+  itemQuantity.textContent = currentValue;
+
+  const marker = item.getAttribute('data-basket-marker');
+
+  // Получаем текущее значение quantityItemsArray из локального хранилища
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+  // Ищем товар с текущим маркером в массиве
+  let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
+  if (existingItemIndex !== -1) {
+    // Если товар уже есть в массиве, обновляем его количество
+    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+  } else {
+    // Иначе, добавляем новый товар в массив
+    quantityItemsArray.push({
+      marker: marker,
+      quantityItem: currentValue,
+    });
   }
+
+  // Обновляем массив в локальном хранилище
+  localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
 // --------------------------------
@@ -1139,12 +1216,14 @@ function restoreIcons() {
 
 restoreIcons();
 
-// Общая сумма
+// Общая сумма товаров и их колличество
 function restoreTotalPrices() {
+
+
   const storedTotalPrices = localStorage.getItem('totalPrices');
   const storedTotalOptPrices = localStorage.getItem('totalOptPrices');
 
-  if (storedTotalPrices ||storedTotalOptPrices) {
+  if (storedTotalPrices || storedTotalOptPrices) {
     const totalPrices = JSON.parse(storedTotalPrices);
     const totalOptPrices = JSON.parse(storedTotalPrices);
 
@@ -1198,3 +1277,30 @@ function restoreBasketItemsArrayMarkup() {
 }
 
 restoreBasketItemsArrayMarkup();
+
+function restoreBasketItemsAmount() {
+  const quantityItemsJSON = localStorage.getItem('quantityItemsArray');
+
+  if (quantityItemsJSON) {
+    const quantityItems = JSON.parse(quantityItemsJSON);
+
+    // Проходим по массиву и обновляем элементы на странице
+    quantityItems.forEach(item => {
+      const marker = item.marker;
+      const quantityItem = item.quantityItem;
+
+      // Находим товар на странице по маркеру
+      const itemElement = document.querySelector(`[data-basket-marker="${marker}"]`);
+      if (itemElement) {
+        // Находим элемент с количеством товара
+        const itemQuantityElement = itemElement.querySelector('.js-item-quantity');
+        if (itemQuantityElement) {
+          // Обновляем значение на странице
+          itemQuantityElement.textContent = quantityItem;
+        }
+      }
+    });
+  }
+}
+
+restoreBasketItemsAmount();
