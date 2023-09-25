@@ -712,7 +712,7 @@ const headerBasketNumbers = document.querySelectorAll(".js-header__basket-number
 const basketListLots = document.querySelector(".js-modal-basket");
 const clearBasketButton = document.querySelector("[data-modal-busket-clear]");
 const basketOrderBox = document.querySelector(".js-basket__order-box");
-const travolta = document.querySelector(".js-travolta");
+// const travolta = document.querySelector(".js-travolta");
 
 let basketfoundItemsArray = [];
 let iconsArray = [];
@@ -1067,7 +1067,7 @@ function clearBasket() {
     element.classList.remove("js-icon-open");
   });
 
-  travolta.style.display = "block"
+  // travolta.style.display = "block"
 }
 
 // Разметка общей суммы заказа
@@ -1076,10 +1076,10 @@ function addOrderBoxMarkup(totalPriceGRN, totalPriceUSDT) {
   if (totalPriceGRN > 0 && totalPriceUSDT > 0) {
     const markup = createBasketOrderMarkup(totalPriceGRN, totalPriceUSDT);
     basketOrderBox.innerHTML = markup;
-    travolta.style.display = "none"
+    // travolta.style.display = "none"
   } else {
     basketOrderBox.innerHTML = "";
-    travolta.style.display = "block"
+    // travolta.style.display = "block"
   }
 }
 
@@ -1089,10 +1089,10 @@ function addOrderBoxOptMarkup(totalOptPriceGRN, totalOptPriceUSDT) {
   if (totalOptPriceGRN > 0 && totalOptPriceUSDT > 0) {
     const markup = createBasketOrderMarkup(totalOptPriceGRN, totalOptPriceUSDT);
     basketOrderBox.innerHTML = markup;
-    travolta.style.display = "none"
+    // travolta.style.display = "none"
   } else {
     basketOrderBox.innerHTML = "";
-    travolta.style.display = "block"
+    // travolta.style.display = "block"
   }
 }
 

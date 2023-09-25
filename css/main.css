@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --pure-white: #ffffff;
   --primary-text-color: #2a2a2a;
@@ -1971,10 +1972,16 @@ body.modal-open {
   text-align: center;
   color: #057198;
 }
+@media screen and (min-width: 480px) {
+  .header__basket-number {
+    min-width: 27px;
+  }
+}
 @media screen and (min-width: 768px) {
   .header__basket-number {
     top: 13%;
     right: 31%;
+    min-width: 20px;
     font-size: 14px;
   }
 }
@@ -2431,10 +2438,12 @@ body.modal-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 5px;
+}
+@media screen and (min-width: 400px) {
+  .basket__case {
+    margin-bottom: 10px;
+  }
 }
 
 .basket__img {
@@ -2444,11 +2453,179 @@ body.modal-open {
 }
 
 .cras-item__basket-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .cras-item__basket-description {
+    margin: 20px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cras-item__basket-description {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .cras-item__basket-description {
+    margin: 20px 0;
+  }
+}
+
+.cras-item__busket-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cras-item__busket-title {
+  font-weight: 700;
+}
+
+.cras-item__busket-text {
+  font-weight: 400;
+  color: var(--link-color);
+}
+
+.cras-item__busket-title,
+.cras-item__busket-text {
+  font-size: 12px;
+  line-height: 1.14;
+}
+@media screen and (min-width: 350px) {
+  .cras-item__busket-title,
+  .cras-item__busket-text {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .cras-item__busket-title,
+  .cras-item__busket-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .cras-item__busket-title,
+  .cras-item__busket-text {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cras-item__busket-title,
+  .cras-item__busket-text {
+    font-size: 14px;
+  }
+}
+
+.cras-item__busket-element-reset {
+  margin: 0;
 }
 
 .cras-item__element--basket {
   margin-bottom: 0;
+}
+
+.basket__wholesale-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+@media screen and (min-width: 400px) {
+  .basket__wholesale-label {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.basket__wholesale-сheckbox-input {
+  position: absolute;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.basket__wholesale-icon .basket__icon-unchecked {
+  -webkit-transform: opacity 250ms;
+          transform: opacity 250ms;
+}
+.basket__wholesale-icon .basket__icon-checked {
+  opacity: 0;
+  -webkit-transform: opacity 250ms;
+          transform: opacity 250ms;
+}
+@media screen and (min-width: 370px) {
+  .basket__wholesale-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .basket__wholesale-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .basket__wholesale-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.basket__wholesale-сheckbox-input:checked + .basket__wholesale-icon .basket__icon-checked {
+  opacity: 1;
+}
+
+.basket__wholesale-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.14;
+}
+@media screen and (min-width: 350px) {
+  .basket__wholesale-text {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .basket__wholesale-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .basket__wholesale-text {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .basket__wholesale-text {
+    margin-left: 15px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .basket__wholesale-text {
+    font-size: 14px;
+  }
 }
 
 .basket__footer {

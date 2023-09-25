@@ -170,9 +170,15 @@
 
   color: #057198;
 
+  @media screen and (min-width: 480px) {
+    min-width: 27px;
+  }
+
   @media screen and (min-width: 768px) {
     top: 13%;
     right: 31%;
+
+    min-width: 20px;
 
     font-size: 14px;
   }

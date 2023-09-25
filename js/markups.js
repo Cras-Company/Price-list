@@ -322,18 +322,40 @@ export function createBasketListItemsMarkup(items) {
 
                         <div class="cras-item__basket-description">
 
-                            <div class="cras-item__element">
+                            <div class="cras-item__busket-element">
                             
-                                <h4 class="cras-item__title">Маркер:</h4>
+                                <h4 class="cras-item__busket-title">Маркер:</h4>
                             
-                                <p class="cras-item__text cras-item__text--margin js-marker">${marker}</p>
+                                <p class="cras-item__busket-text cras-item__text--margin js-marker">${marker}</p>
                             </div>
                         
-                            <div class="cras-item__element cras-item__element--reset">
+                            <div class="cras-item__element cras-item__element--reset cras-item__busket-element-reset">
                         
-                                <p class="cras-item__text cras-item__text--position cras-item__text--margin-bot">${nameUKR}</p>
+                                <p class="cras-item__busket-text cras-item__text--position cras-item__text--margin-bot">${nameUKR}</p>
                         
-                                <p class="cras-item__text cras-item__text--position">&#171;${brand} - ${nameEN}&#187;</p>
+                                <p class="cras-item__busket-text cras-item__text--position">&#171;${brand} - ${nameEN}&#187;</p>
+                            </div>
+
+                            <div class="basket__wholesale-сheckbox unselectable">
+
+                                <label class="basket__wholesale-label" for="basket__wholesale-сheckbox-input">
+
+                                    <input id="basket__wholesale-сheckbox-input" 
+                                        class="basket__wholesale-сheckbox-input js-basket__wholesale-сheckbox-input" 
+                                        type="checkbox" 
+                                        name="wholesale-input" 
+                                        value="basket__wholesale-сheckbox-input">
+
+                                    <svg class="basket__wholesale-icon" width="20" height="20">
+                                    
+                                        <use class="basket__icon-unchecked" href="./images/icon/sprite.svg#icon-basket-uncheked"></use>
+
+                                        <use class="basket__icon-checked" href="./images/icon/sprite.svg#icon-basket-cheked"></use>
+                                    </svg>
+
+                                    <p class="basket__wholesale-text">Купити оптом</p>
+
+                                </label>
                             </div>
                         </div>
                     </div>
