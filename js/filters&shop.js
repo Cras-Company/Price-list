@@ -1299,6 +1299,17 @@ function restoreBasketItemsAmount() {
           itemQuantityElement.textContent = quantityItem;
         }
       }
+
+    const decreaseButtons = document.querySelectorAll('[data-price-down]');
+    const increaseButtons = document.querySelectorAll('[data-price-up]');
+      
+    decreaseButtons.forEach(function (button) {
+      button.addEventListener('click', handleQuantityDecrease);
+    });
+
+    increaseButtons.forEach(function (button) {
+      button.addEventListener('click', handleQuantityIncrease);
+    });
     });
   }
 }
