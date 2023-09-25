@@ -338,9 +338,9 @@ export function createBasketListItemsMarkup(items) {
 
                             <div class="basket__wholesale-сheckbox unselectable">
 
-                                <label class="basket__wholesale-label" for="basket__wholesale-сheckbox-input">
+                                <label class="basket__wholesale-label" for="${marker}">
 
-                                    <input id="basket__wholesale-сheckbox-input" 
+                                    <input id="${marker}" 
                                         class="basket__wholesale-сheckbox-input js-basket__wholesale-сheckbox-input" 
                                         type="checkbox" 
                                         name="wholesale-input" 

@@ -2490,7 +2490,8 @@ body.modal-open {
           justify-content: center;
 }
 
-.cras-item__busket-title {
+.cras-item__busket-title,
+.basket__wholesale-text {
   font-weight: 700;
 }
 
@@ -2500,32 +2501,63 @@ body.modal-open {
 }
 
 .cras-item__busket-title,
-.cras-item__busket-text {
+.cras-item__busket-text,
+.basket__wholesale-text {
   font-size: 12px;
   line-height: 1.14;
 }
 @media screen and (min-width: 350px) {
   .cras-item__busket-title,
-  .cras-item__busket-text {
+  .cras-item__busket-text,
+  .basket__wholesale-text {
     font-size: 13px;
   }
 }
 @media screen and (min-width: 390px) {
   .cras-item__busket-title,
-  .cras-item__busket-text {
+  .cras-item__busket-text,
+  .basket__wholesale-text {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 480px) {
   .cras-item__busket-title,
-  .cras-item__busket-text {
+  .cras-item__busket-text,
+  .basket__wholesale-text {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 768px) {
   .cras-item__busket-title,
-  .cras-item__busket-text {
+  .cras-item__busket-text,
+  .basket__wholesale-text {
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .cras-item__busket-title,
+  .cras-item__busket-text,
+  .basket__wholesale-text {
+    font-size: 16px;
+  }
+}
+
+.basket__wholesale-text {
+  margin-left: 7px;
+}
+@media screen and (min-width: 351px) {
+  .basket__wholesale-text {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .basket__wholesale-text {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .basket__wholesale-text {
+    margin-left: 15px;
   }
 }
 
@@ -2591,41 +2623,15 @@ body.modal-open {
     height: 25px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .basket__wholesale-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 .basket__wholesale-сheckbox-input:checked + .basket__wholesale-icon .basket__icon-checked {
   opacity: 1;
-}
-
-.basket__wholesale-text {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 1.14;
-}
-@media screen and (min-width: 350px) {
-  .basket__wholesale-text {
-    font-size: 13px;
-  }
-}
-@media screen and (min-width: 390px) {
-  .basket__wholesale-text {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 400px) {
-  .basket__wholesale-text {
-    margin-left: 10px;
-  }
-}
-@media screen and (min-width: 480px) {
-  .basket__wholesale-text {
-    margin-left: 15px;
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .basket__wholesale-text {
-    font-size: 14px;
-  }
 }
 
 .basket__footer {
