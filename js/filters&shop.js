@@ -9,7 +9,7 @@ import {
   createBasketOrderMarkup
 } from './markups.js';
 
-import { refs, onOpenModal, onCloseModal } from './modal-index.js';
+import { refs, onOpenModal } from './modal-index.js';
 
 import {lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation} from './supporting_functions.js'
 
@@ -664,7 +664,7 @@ function lotModalOpenHandler(event) {
     if (target) {
       const markerElement = target.querySelector(".js-marker").textContent;
 
-      onOpenModal(refs.openModalLot)
+      onOpenModal(refs.openModalLot);
 
       let foundItem = null;
 
@@ -684,7 +684,6 @@ function lotModalOpenHandler(event) {
     // Убираем предыдущий слушатель события click, если он был
     const crasItems = document.querySelectorAll(".js-cras-item");
     crasItems.forEach((crasItem) => {
-      crasItem.removeEventListener('click', lotBasketIconHandler);
       crasItem.removeEventListener('click', lotBasketHandler);
     });
 
@@ -693,23 +692,17 @@ function lotModalOpenHandler(event) {
 
     // Добавляем новый слушатель события click
     crasItems.forEach((crasItem) => {
-      crasItem.addEventListener('click', lotBasketIconHandler);
-      crasItem.addEventListener('click', lotBasketHandler);
+      crasItem.addEventListener('click', (event) => {
+        lotBasketHandler(event);
+        restoreIcons();
+      });
     });
 
     // Обновляем иконки в модальном окне
-    const lotElements = document.querySelectorAll(".js-cras-item");
-    restoreStoregeIcons(lotElements);
+    const lotModalElements = document.querySelectorAll(".js-cras-item");
+    restoreStoregeIcons(lotModalElements); // Добавили вызов сюда
   }
 }
-
-refs.closeModalBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    restoreBasketAmount();
-    restoreBasketItemsArrayMarkup();
-    restoreIcons();
-  });
-});
 
 // ===========================================================================
 // Корзина
@@ -724,130 +717,6 @@ const travolta = document.querySelector(".js-travolta");
 let basketfoundItemsArray = [];
 let iconsArray = [];
 
-function restoreIcons() {
-  const lotElements = document.querySelectorAll(".cras-block");
-    
-  restoreStoregeIcons(lotElements);
-
-  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
-  removeButtons.forEach((button) => {
-    button.addEventListener("click", removeBasketItem);
-  });
-
-  clearBasketButton.addEventListener("click", clearBasket);
-}
-
-restoreIcons();
-
-function restoreTotalPrices() {
-  const storedTotalPrices = localStorage.getItem('totalPrices');
-  const storedTotalOptPrices = localStorage.getItem('totalOptPrices');
-
-  if (storedTotalPrices ||storedTotalOptPrices) {
-    const totalPrices = JSON.parse(storedTotalPrices);
-    const totalOptPrices = JSON.parse(storedTotalPrices);
-
-    addOrderBoxMarkup(totalPrices.totalPriceGRN, totalPrices.totalPriceUSDT);
-    addOrderBoxOptMarkup(totalOptPrices.totalOptPriceGRN, totalOptPrices.totalOptPriceUSDT);
-  }
-}
-
-restoreTotalPrices();
-
-// Обработка клика на иконку, анимация
-shopListAllLots.addEventListener('click', lotBasketIconHandler);
-
-function lotBasketIconHandler(event) {
-  const targetButton = event.target.closest('button[data-lot-basket]');
-
-  if (targetButton) {
-
-    let target;
-    let basketInIcon;
-    let basketOutIcon;
-    let marker;
-
-    if (event.target.closest(".cras-block")) {
-      target = targetButton.closest(".cras-block");
-      basketInIcon = target.querySelector(".js-basket__icon-in");
-      basketOutIcon = target.querySelector(".js-basket__icon-out");
-      marker = target.getAttribute('data-basket-marker');
-    } else if (event.target.closest(".js-cras-item")) {
-      target = targetButton.closest(".js-cras-item");
-      basketInIcon = target.querySelector(".js-basket__icon-in");
-      basketOutIcon = target.querySelector(".js-basket__icon-out");
-      marker = target.getAttribute('data-basket-marker');
-    }
-
-    basketInIcon.classList.toggle("js-icon-close");
-    basketOutIcon.classList.toggle("js-icon-open");
-
-    // Создаем или получаем массив значений иконок из локального хранилища
-    const iconsArrayJSON = localStorage.getItem("iconsArray");
-    const iconsArray = JSON.parse(iconsArrayJSON) || [];
-
-    let existingIndex = iconsArray.findIndex(item => item.marker === marker);
-
-    if (existingIndex !== -1) {
-      iconsArray.splice(existingIndex, 1);
-    } else {
-      iconsArray.push({
-        marker: marker,
-        addedInBasket: true,
-      });
-    }
-
-    if (iconsArray.length === 0) {
-      localStorage.removeItem("iconsArray");
-    } else {
-      localStorage.setItem("iconsArray", JSON.stringify(iconsArray));
-    }
-  }
-}
-
-// Восстановление числа товаров в корзине
-function restoreBasketAmount() {
-  const basketAmount = localStorage.getItem('headerBasketNumberValue');
-  if (basketAmount) {
-    headerBasketNumbers.forEach((headerBasketNumber) => {
-      headerBasketNumber.textContent = basketAmount;
-    });
-  }
-
-  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
-  removeButtons.forEach((button) => {
-    button.addEventListener("click", removeBasketItem);
-  });
-
-  clearBasketButton.addEventListener("click", clearBasket);
-}
-
-restoreBasketAmount();
-
-// Восстановление массива товаров и разметки
-function restoreBasketItemsArrayMarkup() {
-  const storedBasketItemsArray = localStorage.getItem('basketfoundItemsArray');
-
-  if (storedBasketItemsArray) {
-    basketfoundItemsArray = JSON.parse(storedBasketItemsArray);
-  }
-
-  const savedBasketMarkup = localStorage.getItem('basketMarkup');
-
-  basketListLots.innerHTML = "";
-
-  if (savedBasketMarkup && basketListLots) {
-    basketListLots.innerHTML = savedBasketMarkup;
-  }
-
-  // Удаление товара на кнопку "Удалить"
-  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
-  removeButtons.forEach((button) => {
-    button.addEventListener("click", removeBasketItem);
-  });
-}
-
-restoreBasketItemsArrayMarkup();
 
 shopListAllLots.addEventListener('click', lotBasketHandler);
 
@@ -858,13 +727,19 @@ function lotBasketHandler(event) {
 
     let target;
     let marker;
+    let basketInIcon;
+    let basketOutIcon;
 
     if (event.target.closest(".cras-block")) {
       target = targetButton.closest(".cras-block");
-      marker = target.querySelector(".js-marker").textContent.trim();
+      marker = target.getAttribute('data-basket-marker');
+      basketInIcon = target.querySelector(".js-basket__icon-in");
+      basketOutIcon = target.querySelector(".js-basket__icon-out");
     } else if (event.target.closest(".js-cras-item")) {
       target = targetButton.closest(".js-cras-item");
-      marker = target.querySelector(".js-marker").textContent.trim().slice(0, -1);
+      marker = target.getAttribute('data-basket-marker');
+      basketInIcon = target.querySelector(".js-basket__icon-in");
+      basketOutIcon = target.querySelector(".js-basket__icon-out");
     }
 
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
@@ -956,6 +831,30 @@ function lotBasketHandler(event) {
       localStorage.setItem('totalPrices', JSON.stringify(totalPrices));
     }
 
+    // Обработка иконок
+    basketInIcon.classList.toggle("js-icon-close");
+    basketOutIcon.classList.toggle("js-icon-open");
+
+    const iconsArrayJSON = localStorage.getItem("iconsArray");
+    const iconsArray = JSON.parse(iconsArrayJSON) || [];
+
+    let existingIndex = iconsArray.findIndex(item => item.marker === marker);
+
+    if (existingIndex !== -1) {
+      iconsArray.splice(existingIndex, 1);
+    } else {
+      iconsArray.push({
+        marker: marker,
+        addedInBasket: true,
+      });
+    }
+
+    if (iconsArray.length === 0) {
+      localStorage.removeItem("iconsArray");
+    } else {
+      localStorage.setItem("iconsArray", JSON.stringify(iconsArray));
+    }
+
     // if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
     //   localStorage.removeItem('totalOptPrices');
     // } else {
@@ -987,29 +886,6 @@ function lotBasketHandler(event) {
       clearBasketButton.addEventListener("click", clearBasket);
     }
   }
-}
-
-// Восстановление состояния иконок из хранилища
-function restoreStoregeIcons(lotElements) {
-  const iconsArrayJSON = localStorage.getItem("iconsArray");
-  const iconsArray = iconsArrayJSON ? JSON.parse(iconsArrayJSON) : [];
-
-  lotElements.forEach((element) => {
-    const marker = element.getAttribute("data-basket-marker");
-    const basketInIcon = element.querySelector(".js-basket__icon-in");
-    const basketOutIcon = element.querySelector(".js-basket__icon-out");
-
-    // Находим соответствующий элемент в iconsArray
-    const item = iconsArray.find((item) => item.marker === marker);
-
-    if (item) {
-      basketInIcon.classList.add("js-icon-close");
-      basketOutIcon.classList.add("js-icon-open");
-    } else {
-      basketInIcon.classList.remove("js-icon-close");
-      basketOutIcon.classList.remove("js-icon-open");
-    }
-  });
 }
 
 // Общая стоимость в корзине
@@ -1116,6 +992,7 @@ function removeBasketItem(event) {
   if (iconsArray.length === 0) {
     localStorage.removeItem("iconsArray");
   }
+  restoreIcons();
 }
 
 // Полная очистка корзины
@@ -1218,3 +1095,106 @@ function handleQuantityIncrease() {
     itemQuantityElement.textContent = currentQuantity;
   }
 }
+
+// --------------------------------
+// Фунции восстановления корзины
+// --------------------------------
+
+// Состояние иконок из хранилища
+function restoreStoregeIcons(lotElements) {
+  const iconsArrayJSON = localStorage.getItem("iconsArray");
+  const iconsArray = iconsArrayJSON ? JSON.parse(iconsArrayJSON) : [];
+
+  lotElements.forEach((element) => {
+    const marker = element.getAttribute("data-basket-marker");
+    const basketInIcon = element.querySelector(".js-basket__icon-in");
+    const basketOutIcon = element.querySelector(".js-basket__icon-out");
+
+    // Находим соответствующий элемент в iconsArray
+    const item = iconsArray.find((item) => item.marker === marker);
+
+    if (item) {
+      basketInIcon.classList.add("js-icon-close");
+      basketOutIcon.classList.add("js-icon-open");
+    } else {
+      basketInIcon.classList.remove("js-icon-close");
+      basketOutIcon.classList.remove("js-icon-open");
+    }
+  });
+}
+
+// Общее восстановление иконок
+function restoreIcons() {
+  const lotElements = document.querySelectorAll(".cras-block");
+    
+  restoreStoregeIcons(lotElements);
+
+  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
+  removeButtons.forEach((button) => {
+    button.addEventListener("click", removeBasketItem);
+  });
+
+  clearBasketButton.addEventListener("click", clearBasket);
+}
+
+restoreIcons();
+
+// Общая сумма
+function restoreTotalPrices() {
+  const storedTotalPrices = localStorage.getItem('totalPrices');
+  const storedTotalOptPrices = localStorage.getItem('totalOptPrices');
+
+  if (storedTotalPrices ||storedTotalOptPrices) {
+    const totalPrices = JSON.parse(storedTotalPrices);
+    const totalOptPrices = JSON.parse(storedTotalPrices);
+
+    addOrderBoxMarkup(totalPrices.totalPriceGRN, totalPrices.totalPriceUSDT);
+    addOrderBoxOptMarkup(totalOptPrices.totalOptPriceGRN, totalOptPrices.totalOptPriceUSDT);
+  }
+}
+
+restoreTotalPrices();
+
+// Восстановление числа товаров в корзине
+function restoreBasketAmount() {
+  const basketAmount = localStorage.getItem('headerBasketNumberValue');
+  if (basketAmount) {
+    headerBasketNumbers.forEach((headerBasketNumber) => {
+      headerBasketNumber.textContent = basketAmount;
+    });
+  }
+
+  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
+  removeButtons.forEach((button) => {
+    button.addEventListener("click", removeBasketItem);
+  });
+
+  clearBasketButton.addEventListener("click", clearBasket);
+}
+
+restoreBasketAmount();
+
+// Восстановление массива товаров и разметки
+function restoreBasketItemsArrayMarkup() {
+  const storedBasketItemsArray = localStorage.getItem('basketfoundItemsArray');
+
+  if (storedBasketItemsArray) {
+    basketfoundItemsArray = JSON.parse(storedBasketItemsArray);
+  }
+
+  const savedBasketMarkup = localStorage.getItem('basketMarkup');
+
+  basketListLots.innerHTML = "";
+
+  if (savedBasketMarkup && basketListLots) {
+    basketListLots.innerHTML = savedBasketMarkup;
+  }
+
+  // Удаление товара на кнопку "Удалить"
+  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
+  removeButtons.forEach((button) => {
+    button.addEventListener("click", removeBasketItem);
+  });
+}
+
+restoreBasketItemsArrayMarkup();
