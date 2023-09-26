@@ -300,7 +300,7 @@ export function createModalListItemsMarkup(items) {
 
 export function createBasketListItemsMarkup(items) {    
 
-    return items.map(({ url, alt, marker, brand, nameUKR, nameEN,
+    return items.map(({ type, url, alt, marker, brand, nameUKR, nameEN,
                     priceGRN, priceUSDT, priceGRNOpt, priceUSDTOpt}) => {
 
         priceUSDT = (Number(priceGRN) / USDTRate).toFixed(2);
@@ -336,27 +336,33 @@ export function createBasketListItemsMarkup(items) {
                                 <p class="cras-item__busket-text cras-item__text--position">&#171;${brand} - ${nameEN}&#187;</p>
                             </div>
 
-                            <div class="basket__wholesale-сheckbox unselectable">
+                            ${type === 'retail' ? `
 
-                                <label class="basket__wholesale-label" for="${marker}">
+                                <div></div>
+                            
+                             ` : `
 
-                                    <input id="${marker}" 
-                                        class="basket__wholesale-сheckbox-input js-basket__wholesale-сheckbox-input" 
-                                        type="checkbox" 
-                                        name="wholesale-input" 
-                                        value="basket__wholesale-сheckbox-input">
+                                <div class="basket__wholesale-сheckbox unselectable">
 
-                                    <svg class="basket__wholesale-icon" width="20" height="20">
-                                    
-                                        <use class="basket__icon-unchecked" href="./images/icon/sprite.svg#icon-basket-uncheked"></use>
+                                    <label class="basket__wholesale-label" for="${marker}">
 
-                                        <use class="basket__icon-checked" href="./images/icon/sprite.svg#icon-basket-cheked"></use>
-                                    </svg>
+                                        <input id="${marker}" 
+                                            class="basket__wholesale-сheckbox-input js-basket__wholesale-сheckbox-input" 
+                                            type="checkbox" 
+                                            name="wholesale-input" 
+                                            value="basket__wholesale-сheckbox-input">
 
-                                    <p class="basket__wholesale-text">Купити оптом</p>
+                                        <svg class="basket__wholesale-icon" width="20" height="20">
+                                        
+                                            <use class="basket__icon-unchecked" href="./images/icon/sprite.svg#icon-basket-uncheked"></use>
 
-                                </label>
-                            </div>
+                                            <use class="basket__icon-checked" href="./images/icon/sprite.svg#icon-basket-cheked"></use>
+                                        </svg>
+
+                                        <p class="basket__wholesale-text">Купити оптом</p>
+                                    </label>
+                                </div>
+                            `}
                         </div>
                     </div>
 
@@ -364,22 +370,20 @@ export function createBasketListItemsMarkup(items) {
 
                         <div class="basket__footer-price">
 
-                            ${priceGRN !== "--" ? `
 
-                                <div class="cras-item__element cras-item__element--basket">
-                                
-                                    <h4 class="basket__price">
-                                    <span class="cinzel">${priceGRN}</span> грн. / <span class="cinzel">${priceUSDT}</span> USDT</h4>
-                                </div>
+                            <div class="cras-item__element cras-item__element--basket js-basket-price-retail">
+                            
+                                <h4 class="basket__price">
+                                <span class="cinzel">${priceGRN}</span> грн. / <span class="cinzel">${priceUSDT}</span> USDT</h4>
+                            </div>
 
-                            ` : `
 
-                                <div class="cras-item__element cras-item__element--basket">
-                                
-                                    <h4 class="basket__price">
-                                    <span class="cinzel">${priceGRNOpt}</span> грн. / <span class="cinzel">${priceUSDTOpt}</span> USDT</h4>
-                                </div>
-                            `}
+                            <div class="cras-item__element cras-item__element--basket js-basket-price-wholesale">
+                            
+                                <h4 class="basket__price">
+                                <span class="cinzel">${priceGRNOpt}</span> грн. / <span class="cinzel">${priceUSDTOpt}</span> USDT</h4>
+                            </div>
+
 
                             <div class="busket__price-change">
 

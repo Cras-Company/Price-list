@@ -902,6 +902,13 @@ function lotBasketHandler(event) {
     if (clearBasketButton) {
       clearBasketButton.addEventListener("click", clearBasket);
     }
+
+    const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
+    const priceRetails = document.querySelectorAll('.js-basket-price-retail');
+    const priceWholesales = document.querySelectorAll('.js-basket-price-wholesale');
+    const itemQuantities = document.querySelectorAll('.js-item-quantity');
+
+    basketCheckboxChanger(wholesaleCheckboxes, priceRetails, priceWholesales, itemQuantities);
   }
 }
 
@@ -1106,9 +1113,17 @@ function handleQuantityDecrease(event) {
   const itemQuantity = item.querySelector('.js-item-quantity');
   if (!itemQuantity) return;
 
-  let currentValue = parseInt(itemQuantity.textContent);
-  currentValue = Math.max(currentValue - 1, 1);
-  itemQuantity.textContent = currentValue;
+  const wholesaleCheckbox = item.querySelector('.js-basket__wholesale-сheckbox-input');
+
+  if (wholesaleCheckbox && wholesaleCheckbox.checked) {
+    let currentValue = parseInt(itemQuantity.textContent);
+    currentValue = Math.max(currentValue - 1, 12); // Минимальное значение 12
+    itemQuantity.textContent = currentValue;
+  } else {
+    let currentValue = parseInt(itemQuantity.textContent);
+    currentValue = Math.max(currentValue - 1, 1);
+    itemQuantity.textContent = currentValue;
+  }
 
   const marker = item.getAttribute('data-basket-marker');
 
@@ -1172,6 +1187,37 @@ function handleQuantityIncrease(event) {
   // Обновляем массив в локальном хранилище
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
+
+function basketCheckboxChanger(checkboxes, retails, wholesales, itemQuantities) {
+  checkboxes.forEach((wholesaleCheckbox, index) => {
+    // Получаем чекбокс и элементы цены для текущего товара
+    const priceRetail = retails[index];
+    const priceWholesale = wholesales[index];
+    const itemQuantity = itemQuantities[index];
+
+    // Проверяем, выбран ли чекбокс для текущего товара
+    if (!wholesaleCheckbox.checked) {
+      priceRetail.style.display = 'block';
+      priceWholesale.style.display = 'none';
+    } else {
+      itemQuantity.textContent = '12';
+    }
+
+    // Назначаем обработчик события на чекбокс
+    wholesaleCheckbox.addEventListener('change', function () {
+      if (this.checked) {
+        priceRetail.style.display = 'none';
+        priceWholesale.style.display = 'block';
+        itemQuantity.textContent = '12';
+      } else {
+        priceRetail.style.display = 'block';
+        priceWholesale.style.display = 'none';
+        itemQuantity.textContent = '1';
+      }
+    });
+  });
+}
+
 
 // --------------------------------
 // Фунции восстановления корзины
@@ -1311,6 +1357,13 @@ function restoreBasketItemsAmount() {
       button.addEventListener('click', handleQuantityIncrease);
     });
     });
+
+    const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
+    const priceRetails = document.querySelectorAll('.js-basket-price-retail');
+    const priceWholesales = document.querySelectorAll('.js-basket-price-wholesale');
+    const itemQuantities = document.querySelectorAll('.js-item-quantity');
+
+    basketCheckboxChanger(wholesaleCheckboxes, priceRetails, priceWholesales, itemQuantities);
   }
 }
 
