@@ -744,6 +744,8 @@ function lotBasketHandler(event) {
     }
 
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+    const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
+    const priceUSDT = (priceGRN / USDTRate).toFixed(2);
 
     function toggleItemInBasket(marker) {
 
@@ -807,7 +809,7 @@ function lotBasketHandler(event) {
     }
 
     toggleItemInBasket(marker);
-
+    
     const decreaseButtons = document.querySelectorAll('[data-price-down]');
     const increaseButtons = document.querySelectorAll('[data-price-up]');
 
@@ -825,18 +827,21 @@ function lotBasketHandler(event) {
     let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
 
     if (existingItemIndex !== -1) {
-      // Если товар уже есть в массиве, обновляем его количество
-      quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+      quantityItemsArray.splice(existingItemIndex, 1);
     } else {
-      // Иначе, добавляем новый товар в массив
       quantityItemsArray.push({
         marker: marker,
         quantityItem: currentValue,
+        priceGRN: priceGRN,
+        priceUSDT: priceUSDT,
       });
     }
 
-    // Сохраняем массив с информацией о количестве товаров в локальное хранилище
-    localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+    if (quantityItemsArray.length === 0) {
+      localStorage.removeItem("quantityItemsArray");
+    } else {
+      localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+    }
 
     // Количество товаров в корзине
     headerBasketNumbers.forEach((headerBasketNumber) => {
@@ -1105,27 +1110,49 @@ function addOrderBoxOptMarkup(totalOptPriceGRN, totalOptPriceUSDT) {
 
 function handleQuantityDecrease(event) {
   const targetButton = event.target.closest('button[data-price-down]');
+
   if (!targetButton) return;
 
   const item = targetButton.closest('.basket__item');
   if (!item) return;
+  
+  const marker = item.getAttribute('data-basket-marker');
+  const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+  const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
+  const priceOptGRN = foundItem ? parseFloat(foundItem.priceGRNOpt) : 0;
+  const priceOptUSDT = (priceOptGRN / USDTRate).toFixed(2);
 
   const itemQuantity = item.querySelector('.js-item-quantity');
-  if (!itemQuantity) return;
+  const priceGRNElement = item.querySelector('.js-priceGRN'); 
+  const priceOptGRNElement = item.querySelector('.js-priceOptGRN');
+  const priceUSDTElement = item.querySelector('.js-priceUSDT');
+  const priceOptUSDTElement = item.querySelector('.js-priceOptUSDT');
+
+  let priceGRNItem = 0;
+  let priceUSDTItem = 0;
+  let priceOptGRNItem = 0;
+  let priceUSDTOptItem = 0;
+  let currentValue = parseInt(itemQuantity.textContent);
+
+  if (!itemQuantity || !priceGRNElement || !priceUSDTElement || !priceOptGRNElement || !priceOptUSDTElement) return;
 
   const wholesaleCheckbox = item.querySelector('.js-basket__wholesale-сheckbox-input');
 
   if (wholesaleCheckbox && wholesaleCheckbox.checked) {
-    let currentValue = parseInt(itemQuantity.textContent);
-    currentValue = Math.max(currentValue - 1, 12); // Минимальное значение 12
+    currentValue = Math.max(currentValue - 1, 12);
     itemQuantity.textContent = currentValue;
+    priceOptGRNItem = priceOptGRN * currentValue;
+    priceOptGRNElement.textContent = priceOptGRNItem;
+    priceUSDTOptItem = (priceOptUSDT * currentValue).toFixed(2);;
+    priceOptUSDTElement.textContent = priceUSDTOptItem;
   } else {
-    let currentValue = parseInt(itemQuantity.textContent);
     currentValue = Math.max(currentValue - 1, 1);
     itemQuantity.textContent = currentValue;
+    priceGRNItem = priceGRN * currentValue;
+    priceGRNElement.textContent = priceGRNItem;
+    priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
+    priceUSDTElement.textContent = priceUSDTItem;
   }
-
-  const marker = item.getAttribute('data-basket-marker');
 
   // Получаем текущее значение quantityItemsArray из локального хранилища
   const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
@@ -1149,22 +1176,51 @@ function handleQuantityDecrease(event) {
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
-
 function handleQuantityIncrease(event) {
   const targetButton = event.target.closest('button[data-price-up]');
+
   if (!targetButton) return;
 
   const item = targetButton.closest('.basket__item');
   if (!item) return;
+  
+  const marker = item.getAttribute('data-basket-marker');
+  const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+  const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
+  const priceOptGRN = foundItem ? parseFloat(foundItem.priceGRNOpt) : 0;
+  const priceOptUSDT = (priceOptGRN / USDTRate).toFixed(2);
 
   const itemQuantity = item.querySelector('.js-item-quantity');
-  if (!itemQuantity) return;
+  const priceGRNElement = item.querySelector('.js-priceGRN'); 
+  const priceOptGRNElement = item.querySelector('.js-priceOptGRN');
+  const priceUSDTElement = item.querySelector('.js-priceUSDT');
+  const priceOptUSDTElement = item.querySelector('.js-priceOptUSDT');
 
+  let priceGRNItem = 0;
+  let priceUSDTItem = 0;
+  let priceOptGRNItem = 0;
+  let priceUSDTOptItem = 0;
   let currentValue = parseInt(itemQuantity.textContent);
-  currentValue += 1;
-  itemQuantity.textContent = currentValue;
 
-  const marker = item.getAttribute('data-basket-marker');
+  if (!itemQuantity || !priceGRNElement || !priceUSDTElement || !priceOptGRNElement || !priceOptUSDTElement) return;
+
+  const wholesaleCheckbox = item.querySelector('.js-basket__wholesale-сheckbox-input');
+
+  if (wholesaleCheckbox && wholesaleCheckbox.checked) {
+    currentValue += 1;
+    itemQuantity.textContent = currentValue;
+    priceOptGRNItem = priceOptGRN * currentValue;
+    priceOptGRNElement.textContent = priceOptGRNItem;
+    priceUSDTOptItem = (priceOptUSDT * currentValue).toFixed(2);;
+    priceOptUSDTElement.textContent = priceUSDTOptItem;
+  } else {
+    currentValue += 1;
+    itemQuantity.textContent = currentValue;
+    priceGRNItem = priceGRN * currentValue;
+    priceGRNElement.textContent = priceGRNItem;
+    priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
+    priceUSDTElement.textContent = priceUSDTItem;
+  }
 
   // Получаем текущее значение quantityItemsArray из локального хранилища
   const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
@@ -1174,17 +1230,20 @@ function handleQuantityIncrease(event) {
   let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
 
   if (existingItemIndex !== -1) {
-    // Если товар уже есть в массиве, обновляем его количество
+    // Если товар уже есть в массиве, обновляем его количество и цену
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
+    quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
   } else {
     // Иначе, добавляем новый товар в массив
     quantityItemsArray.push({
       marker: marker,
       quantityItem: currentValue,
+      priceGRN: priceGRNItem,
+      priceUSDT: priceUSDTItem,
     });
   }
 
-  // Обновляем массив в локальном хранилище
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
@@ -1217,7 +1276,6 @@ function basketCheckboxChanger(checkboxes, retails, wholesales, itemQuantities) 
     });
   });
 }
-
 
 // --------------------------------
 // Фунции восстановления корзины
