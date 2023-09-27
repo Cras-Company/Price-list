@@ -2495,6 +2495,10 @@ body.modal-open {
   font-weight: 700;
 }
 
+.cras-item__busket-title--position {
+  text-align: center;
+}
+
 .cras-item__busket-text {
   font-weight: 400;
   color: var(--link-color);

@@ -911,9 +911,8 @@ function lotBasketHandler(event) {
     const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
     const priceRetails = document.querySelectorAll('.js-basket-price-retail');
     const priceWholesales = document.querySelectorAll('.js-basket-price-wholesale');
-    const itemQuantities = document.querySelectorAll('.js-item-quantity');
 
-    basketCheckboxChanger(wholesaleCheckboxes, priceRetails, priceWholesales, itemQuantities);
+    basketCheckboxChanger(wholesaleCheckboxes, priceRetails, priceWholesales);
   }
 }
 
@@ -1128,6 +1127,11 @@ function handleQuantityDecrease(event) {
   const priceUSDTElement = item.querySelector('.js-priceUSDT');
   const priceOptUSDTElement = item.querySelector('.js-priceOptUSDT');
 
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+  let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
   let priceGRNItem = 0;
   let priceUSDTItem = 0;
   let priceOptGRNItem = 0;
@@ -1145,6 +1149,12 @@ function handleQuantityDecrease(event) {
     priceOptGRNElement.textContent = priceOptGRNItem;
     priceUSDTOptItem = (priceOptUSDT * currentValue).toFixed(2);;
     priceOptUSDTElement.textContent = priceUSDTOptItem;
+
+    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    // delete quantityItemsArray[existingItemIndex].priceGRN;
+    // delete quantityItemsArray[existingItemIndex].priceUSDT;
+    quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
+    quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
   } else {
     currentValue = Math.max(currentValue - 1, 1);
     itemQuantity.textContent = currentValue;
@@ -1152,27 +1162,14 @@ function handleQuantityDecrease(event) {
     priceGRNElement.textContent = priceGRNItem;
     priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
     priceUSDTElement.textContent = priceUSDTItem;
-  }
 
-  // Получаем текущее значение quantityItemsArray из локального хранилища
-  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
-  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
-
-  // Ищем товар с текущим маркером в массиве
-  let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
-
-  if (existingItemIndex !== -1) {
-    // Если товар уже есть в массиве, обновляем его количество
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-  } else {
-    // Иначе, добавляем новый товар в массив
-    quantityItemsArray.push({
-      marker: marker,
-      quantityItem: currentValue,
-    });
+    // delete quantityItemsArray[existingItemIndex].optPriceGRN;
+    // delete quantityItemsArray[existingItemIndex].optPriceUSDT;
+    quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
+    quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
   }
 
-  // Обновляем массив в локальном хранилище
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
@@ -1196,6 +1193,11 @@ function handleQuantityIncrease(event) {
   const priceUSDTElement = item.querySelector('.js-priceUSDT');
   const priceOptUSDTElement = item.querySelector('.js-priceOptUSDT');
 
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+  let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
   let priceGRNItem = 0;
   let priceUSDTItem = 0;
   let priceOptGRNItem = 0;
@@ -1213,6 +1215,12 @@ function handleQuantityIncrease(event) {
     priceOptGRNElement.textContent = priceOptGRNItem;
     priceUSDTOptItem = (priceOptUSDT * currentValue).toFixed(2);;
     priceOptUSDTElement.textContent = priceUSDTOptItem;
+
+    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    // delete quantityItemsArray[existingItemIndex].priceGRN;
+    // delete quantityItemsArray[existingItemIndex].priceUSDT;
+    quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
+    quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
   } else {
     currentValue += 1;
     itemQuantity.textContent = currentValue;
@@ -1220,39 +1228,43 @@ function handleQuantityIncrease(event) {
     priceGRNElement.textContent = priceGRNItem;
     priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
     priceUSDTElement.textContent = priceUSDTItem;
-  }
 
-  // Получаем текущее значение quantityItemsArray из локального хранилища
-  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
-  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
-
-  // Ищем товар с текущим маркером в массиве
-  let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
-
-  if (existingItemIndex !== -1) {
-    // Если товар уже есть в массиве, обновляем его количество и цену
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    // delete quantityItemsArray[existingItemIndex].optPriceGRN;
+    // delete quantityItemsArray[existingItemIndex].optPriceUSDT;
     quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
     quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
-  } else {
-    // Иначе, добавляем новый товар в массив
-    quantityItemsArray.push({
-      marker: marker,
-      quantityItem: currentValue,
-      priceGRN: priceGRNItem,
-      priceUSDT: priceUSDTItem,
-    });
   }
 
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
-function basketCheckboxChanger(checkboxes, retails, wholesales, itemQuantities) {
+function basketCheckboxChanger(checkboxes, retails, wholesales) {
+
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+
   checkboxes.forEach((wholesaleCheckbox, index) => {
     // Получаем чекбокс и элементы цены для текущего товара
+    const item = wholesaleCheckbox.closest('.basket__item');
+    const marker = item.getAttribute('data-basket-marker');
+    const itemQuantity = item.querySelector('.js-item-quantity');
+    const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
     const priceRetail = retails[index];
     const priceWholesale = wholesales[index];
-    const itemQuantity = itemQuantities[index];
+
+    const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
+    const priceUSDT = (priceGRN / USDTRate).toFixed(2);
+    const priceOptGRN = foundItem ? parseFloat(foundItem.priceGRNOpt) : 0;
+    const priceOptUSDT = (priceOptGRN / USDTRate).toFixed(2);
+
+    const priceGRNElement = item.querySelector('.js-priceGRN');
+    const priceUSDTElement = item.querySelector('.js-priceUSDT');
+    const priceOptGRNElement = item.querySelector('.js-priceOptGRN');
+    const priceOptUSDTElement = item.querySelector('.js-priceOptUSDT');
+
+    let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
 
     // Проверяем, выбран ли чекбокс для текущего товара
     if (!wholesaleCheckbox.checked) {
@@ -1267,12 +1279,31 @@ function basketCheckboxChanger(checkboxes, retails, wholesales, itemQuantities) 
       if (this.checked) {
         priceRetail.style.display = 'none';
         priceWholesale.style.display = 'block';
+
+        priceOptGRNElement.textContent = priceOptGRN * 12;
+        priceOptUSDTElement.textContent = (priceOptUSDT * 12).toFixed(2);
         itemQuantity.textContent = '12';
+
+        delete quantityItemsArray[existingItemIndex].priceGRN;
+        delete quantityItemsArray[existingItemIndex].priceUSDT;
+        quantityItemsArray[existingItemIndex].quantityItem = 12;
+        quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRN * 12;
+        quantityItemsArray[existingItemIndex].optPriceUSDT = (priceOptUSDT * 12).toFixed(2);
       } else {
         priceRetail.style.display = 'block';
         priceWholesale.style.display = 'none';
+
+        priceGRNElement.textContent = priceGRN;
+        priceUSDTElement.textContent = priceUSDT;
         itemQuantity.textContent = '1';
+
+        delete quantityItemsArray[existingItemIndex].optPriceGRN;
+        delete quantityItemsArray[existingItemIndex].optPriceUSDT;
+        quantityItemsArray[existingItemIndex].quantityItem = 1;
+        quantityItemsArray[existingItemIndex].optPriceGRN = priceGRN;
+        quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDT;
       }
+      localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
     });
   });
 }

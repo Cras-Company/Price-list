@@ -359,7 +359,15 @@ export function createBasketListItemsMarkup(items) {
                                             <use class="basket__icon-checked" href="./images/icon/sprite.svg#icon-basket-cheked"></use>
                                         </svg>
 
-                                        <p class="basket__wholesale-text">Купити оптом</p>
+                                        <div class="basket__wholesale-text">
+
+                                            <p>Купити оптом</p>
+
+                                            <p class="cras-item__busket-title--position">
+                                                <span class="cinzel">${priceGRNOpt}</span> грн. / 
+                                                <span class="cinzel">${priceUSDTOpt}</span>
+                                            </p>
+                                        </div>
                                     </label>
                                 </div>
                             `}
@@ -381,7 +389,9 @@ export function createBasketListItemsMarkup(items) {
                             <div class="cras-item__element cras-item__element--basket js-basket-price-wholesale">
                             
                                 <h4 class="basket__price">
-                                <span class="cinzel js-priceOptGRN">${priceGRNOpt}</span> грн. / <span class="cinzel js-priceOptUSDT">${priceUSDTOpt}</span> USDT</h4>
+                                    <span class="cinzel js-priceOptGRN"></span> грн. / 
+                                    <span class="cinzel js-priceOptUSDT"></span> USDT
+                                </h4>
                             </div>
 
 
