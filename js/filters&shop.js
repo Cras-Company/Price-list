@@ -430,7 +430,6 @@ function handleFormSubmit(event) {
 
   jumpSearch();
   lazyLoadImagesAnimation();
-  restoreLotStates();
 }
 
 // ===========================================================================
@@ -491,7 +490,6 @@ function filterClickHandler(event) {
 
       jumpSearch();
       lazyLoadImagesAnimation();
-      restoreLotStates();
     }  
   }
 }
@@ -566,7 +564,6 @@ function brandClickHandler(event) {
 
       jumpSearch();
       lazyLoadImagesAnimation();
-      restoreLotStates();
     }
   }
 }
@@ -640,7 +637,6 @@ function countryClickHandler(event) {
 
       jumpSearch();
       lazyLoadImagesAnimation();
-      restoreLotStates();
     }
   }
 }
@@ -1184,8 +1180,9 @@ function handleQuantityIncrease(event) {
 
 function basketCheckboxChanger() {
   const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
+  const wholesaleCheckboxesArray = [...wholesaleCheckboxes];
 
-  wholesaleCheckboxes.forEach(wholesaleCheckbox => {
+  wholesaleCheckboxesArray.forEach(wholesaleCheckbox => {
     const item = wholesaleCheckbox.closest('.basket__item');
     if (!item) {
       return;
@@ -1216,7 +1213,13 @@ function basketCheckboxChanger() {
     }
 
     if (foundItem.type === "only-wholesale") {
-      wholesaleCheckboxes.forEach((checkbox) => {
+      const marker = foundItem.marker;
+      const checkboxesToUpdate = wholesaleCheckboxesArray.filter(checkbox => {
+        const item = checkbox.closest('.basket__item');
+        const itemMarker = item.getAttribute('data-basket-marker');
+        return itemMarker === marker;
+      });
+      checkboxesToUpdate.forEach((checkbox) => {
         checkbox.checked = true;
         checkbox.disabled = true;
       
@@ -1356,6 +1359,10 @@ function totalItemsAmount() {
 
   if (totalGRN > 0 && totalUSDT > 0) {
     travolta.style.display = "none";
+  }
+
+  if (totalGRN === 0) {
+    localStorage.removeItem("totalAmount");
   }
 }
 
