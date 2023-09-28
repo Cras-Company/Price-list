@@ -712,7 +712,7 @@ const headerBasketNumbers = document.querySelectorAll(".js-header__basket-number
 const basketListLots = document.querySelector(".js-modal-basket");
 const clearBasketButton = document.querySelector("[data-modal-busket-clear]");
 const basketOrderBox = document.querySelector(".js-basket__order-box");
-// const travolta = document.querySelector(".js-travolta");
+const travolta = document.querySelector(".js-travolta");
 
 let basketfoundItemsArray = [];
 let iconsArray = [];
@@ -908,11 +908,15 @@ function lotBasketHandler(event) {
       clearBasketButton.addEventListener("click", clearBasket);
     }
 
-    const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
-    const priceRetails = document.querySelectorAll('.js-basket-price-retail');
-    const priceWholesales = document.querySelectorAll('.js-basket-price-wholesale');
+    const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale")
 
-    basketCheckboxChanger(wholesaleCheckboxes, priceRetails, priceWholesales);
+    if (foundItem.type === "retail") {
+      priceWholesales.forEach((priceWholesale) => {
+        priceWholesale.style.display = "none";
+      })
+    }
+
+    basketCheckboxChanger();
   }
 }
 
@@ -1151,8 +1155,6 @@ function handleQuantityDecrease(event) {
     priceOptUSDTElement.textContent = priceUSDTOptItem;
 
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-    // delete quantityItemsArray[existingItemIndex].priceGRN;
-    // delete quantityItemsArray[existingItemIndex].priceUSDT;
     quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
     quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
   } else {
@@ -1164,8 +1166,6 @@ function handleQuantityDecrease(event) {
     priceUSDTElement.textContent = priceUSDTItem;
 
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-    // delete quantityItemsArray[existingItemIndex].optPriceGRN;
-    // delete quantityItemsArray[existingItemIndex].optPriceUSDT;
     quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
     quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
   }
@@ -1217,8 +1217,6 @@ function handleQuantityIncrease(event) {
     priceOptUSDTElement.textContent = priceUSDTOptItem;
 
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-    // delete quantityItemsArray[existingItemIndex].priceGRN;
-    // delete quantityItemsArray[existingItemIndex].priceUSDT;
     quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
     quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
   } else {
@@ -1230,8 +1228,6 @@ function handleQuantityIncrease(event) {
     priceUSDTElement.textContent = priceUSDTItem;
 
     quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-    // delete quantityItemsArray[existingItemIndex].optPriceGRN;
-    // delete quantityItemsArray[existingItemIndex].optPriceUSDT;
     quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
     quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
   }
@@ -1239,20 +1235,25 @@ function handleQuantityIncrease(event) {
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
 }
 
-function basketCheckboxChanger(checkboxes, retails, wholesales) {
+function basketCheckboxChanger() {
+  const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
 
-  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
-  let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
-
-
-  checkboxes.forEach((wholesaleCheckbox, index) => {
-    // Получаем чекбокс и элементы цены для текущего товара
+  wholesaleCheckboxes.forEach(wholesaleCheckbox => {
     const item = wholesaleCheckbox.closest('.basket__item');
+
+    if (!item) {
+      return;
+    }
+
+    const priceRetail = item.querySelector('.js-basket-price-retail');
+    const priceWholesale = item.querySelector('.js-basket-price-wholesale');
+
+    const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+    let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
     const marker = item.getAttribute('data-basket-marker');
     const itemQuantity = item.querySelector('.js-item-quantity');
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
-    const priceRetail = retails[index];
-    const priceWholesale = wholesales[index];
 
     const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
     const priceUSDT = (priceGRN / USDTRate).toFixed(2);
@@ -1266,8 +1267,7 @@ function basketCheckboxChanger(checkboxes, retails, wholesales) {
 
     let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
 
-    // Проверяем, выбран ли чекбокс для текущего товара
-    if (!wholesaleCheckbox.checked) {
+    if (!wholesaleCheckbox || !wholesaleCheckbox.checked) {
       priceRetail.style.display = 'block';
       priceWholesale.style.display = 'none';
     } else {
@@ -1307,6 +1307,7 @@ function basketCheckboxChanger(checkboxes, retails, wholesales) {
     });
   });
 }
+
 
 // --------------------------------
 // Фунции восстановления корзины
@@ -1447,12 +1448,7 @@ function restoreBasketItemsAmount() {
     });
     });
 
-    const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
-    const priceRetails = document.querySelectorAll('.js-basket-price-retail');
-    const priceWholesales = document.querySelectorAll('.js-basket-price-wholesale');
-    const itemQuantities = document.querySelectorAll('.js-item-quantity');
-
-    basketCheckboxChanger(wholesaleCheckboxes, priceRetails, priceWholesales, itemQuantities);
+    basketCheckboxChanger();
   }
 }
 
