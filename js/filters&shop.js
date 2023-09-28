@@ -717,6 +717,7 @@ const travolta = document.querySelector(".js-travolta");
 
 let basketfoundItemsArray = [];
 let iconsArray = [];
+let itemsArrayChecked = [];
 let quantityItemsArray = [];
 let totalAmount = [];
 
@@ -977,6 +978,19 @@ function removeBasketItem(event) {
     travolta.style.display = "block";
   }
 
+  // Удаляем элемент массива состаяния чекбокса из локального хранилища
+  const itemsArrayCheckedJSON = localStorage.getItem("itemsArrayChecked");
+  const itemsArrayChecked = JSON.parse(itemsArrayCheckedJSON) || [];
+
+  if (itemIndex !== -1) {
+    itemsArrayChecked.splice(itemIndex, 1);
+    localStorage.setItem('itemsArrayChecked', JSON.stringify(itemsArrayChecked));
+  }
+
+  if (itemsArrayChecked.length === 0) {
+    localStorage.removeItem("itemsArrayChecked");
+  }
+
   // Убираем классы с иконок и удаляем с массива
   const iconsArrayJSON = localStorage.getItem("iconsArray");
   const iconsArray = JSON.parse(iconsArrayJSON) || [];
@@ -989,9 +1003,9 @@ function removeBasketItem(event) {
   if (iconsArray.length === 0) {
     localStorage.removeItem("iconsArray");
   }
+
   restoreIcons();
   totalItemsAmount();
-
 }
 
 // Полная очистка корзины
@@ -1006,6 +1020,7 @@ function clearBasket() {
     key.startsWith("basketMarkup") ||
     key === "basketfoundItemsArray" ||
     key === "quantityItemsArray" ||
+    key === "itemsArrayChecked" ||
     key === "totalAmount" ||
     key === "iconsArray" ||
     key === "basketNumber"
@@ -1018,6 +1033,7 @@ function clearBasket() {
   // Обновляем массивы из localStorage
   basketfoundItemsArray = JSON.parse(localStorage.getItem('basketfoundItemsArray')) || [];
   quantityItemsArray = JSON.parse(localStorage.getItem('quantityItemsArray')) || [];
+  itemsArrayChecked = JSON.parse(localStorage.getItem('itemsArrayChecked')) || [];
   totalAmount = JSON.parse(localStorage.getItem('totalAmount')) || [];
   iconsArray = JSON.parse(localStorage.getItem("iconsArray")) || [];
 
@@ -1169,7 +1185,6 @@ function basketCheckboxChanger() {
 
   wholesaleCheckboxes.forEach(wholesaleCheckbox => {
     const item = wholesaleCheckbox.closest('.basket__item');
-
     if (!item) {
       return;
     }
@@ -1179,6 +1194,8 @@ function basketCheckboxChanger() {
 
     const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
     let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+    const itemsArrayCheckedJSON = localStorage.getItem("itemsArrayChecked");
+    let itemsArrayChecked = JSON.parse(itemsArrayCheckedJSON) || [];
 
     const marker = item.getAttribute('data-basket-marker');
     const itemQuantity = item.querySelector('.js-item-quantity');
@@ -1229,10 +1246,29 @@ function basketCheckboxChanger() {
         delete quantityItemsArray[existingItemIndex].optPriceGRN;
         delete quantityItemsArray[existingItemIndex].optPriceUSDT;
         quantityItemsArray[existingItemIndex].quantityItem = 1;
-        quantityItemsArray[existingItemIndex].optPriceGRN = priceGRN;
-        quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDT;
+        quantityItemsArray[existingItemIndex].priceGRN = priceGRN;
+        quantityItemsArray[existingItemIndex].priceUSDT = priceUSDT;
       }
+
+      const isChecked = this.checked;
+      const itemIndex = itemsArrayChecked.findIndex(item => item.marker === marker);
+      
+      if (isChecked && itemIndex === -1) {
+        // Чекбокс был отмечен и записи в массиве не существует, добавляем запись
+        itemsArrayChecked.push({ marker, isChecked: true });
+      } else if (!isChecked && itemIndex !== -1) {
+        // Чекбокс был снят и запись существует, удаляем её из массива
+        itemsArrayChecked.splice(itemIndex, 1);
+      }
+      
+      localStorage.setItem("itemsArrayChecked", JSON.stringify(itemsArrayChecked));
       localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+
+      if (itemsArrayChecked.length === 0) {
+        localStorage.removeItem("itemsArrayChecked");
+      }
+
+      totalItemsAmount();
     });
   });
 }
@@ -1251,14 +1287,14 @@ function totalItemsAmount() {
   let totalUSDT = 0;
 
   quantityItemsArray.forEach(item => {
-    totalGRN += item.priceGRN || 0;
-    totalUSDT += parseFloat(item.priceUSDT) || 0;
+    totalGRN += (item.priceGRN || item.optPriceGRN || 0);
+    totalUSDT += parseFloat(item.priceUSDT || item.optPriceUSDT || 0);
   });
 
   // Записываем общие суммы в соответствующие элементы на странице
   if (totalAmountGRN && totalAmountUSDT) {
-  totalAmountGRN.textContent = totalGRN.toFixed(2);
-  totalAmountUSDT.textContent = totalUSDT.toFixed(2);
+    totalAmountGRN.textContent = totalGRN.toFixed(2);
+    totalAmountUSDT.textContent = totalUSDT.toFixed(2);
   }
 
   if (totalAmount.length > 0) {
@@ -1366,6 +1402,7 @@ function restoreBasketItemsArrayMarkup() {
 
 restoreBasketItemsArrayMarkup();
 
+// Восстановление суммы и количества товаров
 function restoreBasketItemsAmount() {
   const quantityItemsJSON = localStorage.getItem('quantityItemsArray');
   const totalAmountJSON = localStorage.getItem("totalAmount");
@@ -1379,18 +1416,25 @@ function restoreBasketItemsAmount() {
       const quantityItem = item.quantityItem;
       const priceGRN = item.priceGRN;
       const priceUSDT = item.priceUSDT;
+      const optPriceGRNiceGRN = item.optPriceGRN;
+      const optPriceUSDTpriceUSDT = item.optPriceUSDT;
 
       // Находим товар на странице по маркеру
       const itemElement = document.querySelector(`[data-basket-marker="${marker}"]`);
+      
       if (itemElement) {
         // Находим элемент с количеством товара
         const itemQuantityElement = itemElement.querySelector('.js-item-quantity');
-        const priceGRNElement = itemElement.querySelector('.js-priceGRN');
+        const priceGRNElement = itemElement.querySelector('.js-priceGRN'); 
+        const priceOptGRNElement = itemElement.querySelector('.js-priceOptGRN');
         const priceUSDTElement = itemElement.querySelector('.js-priceUSDT');
+        const priceOptUSDTElement = itemElement.querySelector('.js-priceOptUSDT');
 
         itemQuantityElement.textContent = quantityItem;
         priceGRNElement.textContent = priceGRN;
         priceUSDTElement.textContent = priceUSDT;
+        priceOptGRNElement.textContent = optPriceGRNiceGRN;
+        priceOptUSDTElement.textContent = optPriceUSDTpriceUSDT;
       }
 
     const decreaseButtons = document.querySelectorAll('[data-price-down]');
@@ -1424,3 +1468,43 @@ function restoreBasketItemsAmount() {
 }
 
 restoreBasketItemsAmount();
+
+// Восстановление разметки не активного блока
+document.addEventListener('DOMContentLoaded', function() {
+  const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
+
+  priceWholesales.forEach((priceWholesale) => {
+    const item = priceWholesale.closest(".basket__item");
+    if (item) {
+      const marker = item.getAttribute('data-basket-marker');
+      const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+      
+      if (foundItem && foundItem.type === "retail") {
+        priceWholesale.style.display = "none";
+      }
+    }
+  });
+
+  const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
+  const itemsArrayCheckedJSON = localStorage.getItem("itemsArrayChecked");
+  itemsArrayChecked = JSON.parse(itemsArrayCheckedJSON) || [];
+
+  wholesaleCheckboxes.forEach(wholesaleCheckbox => {
+
+    if (wholesaleCheckbox) {
+
+      const itemElement = wholesaleCheckbox.closest('.basket__item');
+      const marker = wholesaleCheckbox.closest('.basket__item').getAttribute('data-basket-marker');
+      const itemState = itemsArrayChecked.find(item => item.marker === marker);
+      const priceRetail = itemElement.querySelector(".js-basket-price-retail")
+      const priceWholesale = itemElement.querySelector('.js-basket-price-wholesale');
+
+      if (itemState) {
+        wholesaleCheckbox.checked = itemState.isChecked;
+          priceRetail.style.display = 'none';
+          priceWholesale.style.display = 'block';
+      }
+    }
+  });
+});
+ 
