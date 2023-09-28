@@ -432,15 +432,15 @@ export function createBasketListItemsMarkup(items) {
 // Динамическая разметка на корзину, футер
 // ===========================================================================
 
-export function createBasketOrderMarkup(totalPriceGRN, totalPriceUSDT) {
+export function createBasketOrderMarkup() {
 
     return `<h2 class="basket__order-title"><span class="basket__order-title--color">До сплати:</span> 
 
                     <span class="basket__price-gnr js-basket__price-gnr">
-                    <span class="cinzel">${totalPriceGRN}</span></span> грн. /
+                    <span class="cinzel js-total-priceGRN"></span></span> грн. /
 
                     <span class="basket__price-usdt js-basket__price-usdt">
-                    <span class="cinzel">${totalPriceUSDT}</span></span> USDT</h2>
+                    <span class="cinzel js-total-priceUSDT"></span></span> USDT</h2>
 
                 <button class="button__copy" type="button">
 

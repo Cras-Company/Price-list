@@ -712,11 +712,13 @@ const headerBasketNumbers = document.querySelectorAll(".js-header__basket-number
 const basketListLots = document.querySelector(".js-modal-basket");
 const clearBasketButton = document.querySelector("[data-modal-busket-clear]");
 const basketOrderBox = document.querySelector(".js-basket__order-box");
+
 const travolta = document.querySelector(".js-travolta");
 
 let basketfoundItemsArray = [];
 let iconsArray = [];
 let quantityItemsArray = [];
+let totalAmount = [];
 
 shopListAllLots.addEventListener('click', lotBasketHandler);
 
@@ -854,19 +856,6 @@ function lotBasketHandler(event) {
       }
     });
 
-    // Общая сумма стоимости товаров
-    const totalPrices = updateTotalPrices();
-    const totalOptPrices = updateTotalPrices();
-
-    addOrderBoxMarkup(totalPrices.totalPriceGRN, totalPrices.totalPriceUSDT);
-    addOrderBoxOptMarkup(totalPrices.totalOptPriceGRN, totalPrices.totalOptPriceUSDT);
-
-    if (totalPrices.totalPriceGRN === 0 || totalPrices.totalPriceUSDT === 0) {
-      localStorage.removeItem('totalPrices');
-    } else {
-      localStorage.setItem('totalPrices', JSON.stringify(totalPrices));
-    }
-
     // Обработка иконок
     basketInIcon.classList.toggle("js-icon-close");
     basketOutIcon.classList.toggle("js-icon-open");
@@ -891,12 +880,6 @@ function lotBasketHandler(event) {
       localStorage.setItem("iconsArray", JSON.stringify(iconsArray));
     }
 
-    // if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
-    //   localStorage.removeItem('totalOptPrices');
-    // } else {
-    //   localStorage.setItem('totalOptPrices', JSON.stringify(totalOptPrices));
-    // }
-
     // Удаление товара на кнопку "Удалить"
     const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
     removeButtons.forEach((button) => {
@@ -916,27 +899,10 @@ function lotBasketHandler(event) {
       })
     }
 
+    basketOrderBox.innerHTML = createBasketOrderMarkup();
     basketCheckboxChanger();
+    totalItemsAmount();
   }
-}
-
-// Общая стоимость в корзине
-function updateTotalPrices() {
-  let totalPriceGRN = 0;
-  let totalPriceUSDT = 0;
-
-  let totalOptPriceGRN = 0;
-  let totalOptPriceUSDT = 0;
-
-  basketfoundItemsArray.forEach((basketItem) => {
-    totalPriceGRN += Number(basketItem.priceGRN);
-    totalOptPriceGRN =+ Number(basketItem.priceGRNOpt);
-  });
-
-  totalPriceUSDT = Number((totalPriceGRN / USDTRate).toFixed(2));
-  totalOptPriceUSDT = Number((totalOptPriceGRN / USDTRate).toFixed(2));
-
-  return { totalPriceGRN, totalPriceUSDT, totalOptPriceGRN, totalOptPriceUSDT};
 }
 
 // Удаление лота из корзины
@@ -974,23 +940,6 @@ function removeBasketItem(event) {
   const itemIndex = basketfoundItemsArray.findIndex((item) => item.marker === marker);
   if (itemIndex !== -1) {
     basketfoundItemsArray.splice(itemIndex, 1);
-    const totalPrices = updateTotalPrices();
-    const totalOptPrices = updateTotalPrices();
-
-    addOrderBoxMarkup(totalPrices.totalPriceGRN, totalPrices.totalPriceUSDT);
-    addOrderBoxOptMarkup(totalOptPrices.totalOptPriceGRN, totalOptPrices.totalOptPriceUSDT);
-
-    if (totalPrices.totalPriceGRN === 0 || totalPrices.totalPriceUSDT === 0) {
-      localStorage.removeItem('totalPrices');
-    } else {
-      localStorage.setItem('totalPrices', JSON.stringify(totalPrices));
-    }
-
-    // if (totalOptPrices.totalOptPriceGRN === 0 || totalOptPrices.totalOptPriceUSDT === 0) {
-    //   localStorage.removeItem('totalOptPrices');
-    // } else {
-    //   localStorage.setItem('totalOptPrices', JSON.stringify(totalOptPrices));
-    // }
   }
 
   headerBasketNumbers.forEach((headerBasketNumber) => {
@@ -1023,6 +972,9 @@ function removeBasketItem(event) {
 
   if (quantityItemsArray.length === 0) {
     localStorage.removeItem("quantityItemsArray");
+    localStorage.removeItem("totalAmount");
+    basketOrderBox.innerHTML = "";
+    travolta.style.display = "block";
   }
 
   // Убираем классы с иконок и удаляем с массива
@@ -1038,6 +990,8 @@ function removeBasketItem(event) {
     localStorage.removeItem("iconsArray");
   }
   restoreIcons();
+  totalItemsAmount();
+
 }
 
 // Полная очистка корзины
@@ -1045,15 +999,15 @@ function clearBasket() {
   // Удаление разметки корзины
   basketListLots.innerHTML = "";
   basketOrderBox.innerHTML = "";
+  travolta.style.display = "block";
 
   // Удаление данных из локального хранилища, связанные с корзиной
   const keysToRemove = Object.keys(localStorage).filter((key) =>
     key.startsWith("basketMarkup") ||
     key === "basketfoundItemsArray" ||
     key === "quantityItemsArray" ||
+    key === "totalAmount" ||
     key === "iconsArray" ||
-    key === "totalPrices" ||
-    key === "totalOptPrices" ||
     key === "basketNumber"
   );
 
@@ -1064,6 +1018,7 @@ function clearBasket() {
   // Обновляем массивы из localStorage
   basketfoundItemsArray = JSON.parse(localStorage.getItem('basketfoundItemsArray')) || [];
   quantityItemsArray = JSON.parse(localStorage.getItem('quantityItemsArray')) || [];
+  totalAmount = JSON.parse(localStorage.getItem('totalAmount')) || [];
   iconsArray = JSON.parse(localStorage.getItem("iconsArray")) || [];
 
   // Удаление счётчка товара в корзине
@@ -1081,34 +1036,6 @@ function clearBasket() {
   basketOutElements.forEach((element) => {
     element.classList.remove("js-icon-open");
   });
-
-  // travolta.style.display = "block"
-}
-
-// Разметка общей суммы заказа
-function addOrderBoxMarkup(totalPriceGRN, totalPriceUSDT) {
-
-  if (totalPriceGRN > 0 && totalPriceUSDT > 0) {
-    const markup = createBasketOrderMarkup(totalPriceGRN, totalPriceUSDT);
-    basketOrderBox.innerHTML = markup;
-    // travolta.style.display = "none"
-  } else {
-    basketOrderBox.innerHTML = "";
-    // travolta.style.display = "block"
-  }
-}
-
-// Разметка общей оптовой суммы заказа
-function addOrderBoxOptMarkup(totalOptPriceGRN, totalOptPriceUSDT) {
-
-  if (totalOptPriceGRN > 0 && totalOptPriceUSDT > 0) {
-    const markup = createBasketOrderMarkup(totalOptPriceGRN, totalOptPriceUSDT);
-    basketOrderBox.innerHTML = markup;
-    // travolta.style.display = "none"
-  } else {
-    basketOrderBox.innerHTML = "";
-    // travolta.style.display = "block"
-  }
 }
 
 function handleQuantityDecrease(event) {
@@ -1171,6 +1098,7 @@ function handleQuantityDecrease(event) {
   }
 
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+  totalItemsAmount();
 }
 
 function handleQuantityIncrease(event) {
@@ -1233,6 +1161,7 @@ function handleQuantityIncrease(event) {
   }
 
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+  totalItemsAmount();
 }
 
 function basketCheckboxChanger() {
@@ -1308,6 +1237,47 @@ function basketCheckboxChanger() {
   });
 }
 
+function totalItemsAmount() {
+  const totalAmountGRN = document.querySelector(".js-total-priceGRN");
+  const totalAmountUSDT = document.querySelector(".js-total-priceUSDT");
+
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+  const totalAmountJSON = localStorage.getItem("totalAmount");
+  let totalAmount = JSON.parse(totalAmountJSON) || [];
+
+  // Инициализируем переменные для хранения общей суммы
+  let totalGRN = 0;
+  let totalUSDT = 0;
+
+  quantityItemsArray.forEach(item => {
+    totalGRN += item.priceGRN || 0;
+    totalUSDT += parseFloat(item.priceUSDT) || 0;
+  });
+
+  // Записываем общие суммы в соответствующие элементы на странице
+  if (totalAmountGRN && totalAmountUSDT) {
+  totalAmountGRN.textContent = totalGRN.toFixed(2);
+  totalAmountUSDT.textContent = totalUSDT.toFixed(2);
+  }
+
+  if (totalAmount.length > 0) {
+    totalAmount[0].totalAmountGRN = totalGRN;
+    totalAmount[0].totalAmountUSDT = totalUSDT;
+  } else {
+    totalAmount.push({
+      totalAmountGRN: totalGRN,
+      totalAmountUSDT: totalUSDT,
+    });
+  }
+
+  localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+  localStorage.setItem("totalAmount", JSON.stringify(totalAmount));
+
+  if (totalGRN > 0 && totalUSDT > 0) {
+    travolta.style.display = "none";
+  }
+}
 
 // --------------------------------
 // Фунции восстановления корзины
@@ -1351,24 +1321,6 @@ function restoreIcons() {
 }
 
 restoreIcons();
-
-// Общая сумма товаров и их колличество
-function restoreTotalPrices() {
-
-
-  const storedTotalPrices = localStorage.getItem('totalPrices');
-  const storedTotalOptPrices = localStorage.getItem('totalOptPrices');
-
-  if (storedTotalPrices || storedTotalOptPrices) {
-    const totalPrices = JSON.parse(storedTotalPrices);
-    const totalOptPrices = JSON.parse(storedTotalPrices);
-
-    addOrderBoxMarkup(totalPrices.totalPriceGRN, totalPrices.totalPriceUSDT);
-    addOrderBoxOptMarkup(totalOptPrices.totalOptPriceGRN, totalOptPrices.totalOptPriceUSDT);
-  }
-}
-
-restoreTotalPrices();
 
 // Восстановление числа товаров в корзине
 function restoreBasketAmount() {
@@ -1416,6 +1368,7 @@ restoreBasketItemsArrayMarkup();
 
 function restoreBasketItemsAmount() {
   const quantityItemsJSON = localStorage.getItem('quantityItemsArray');
+  const totalAmountJSON = localStorage.getItem("totalAmount");
 
   if (quantityItemsJSON) {
     const quantityItems = JSON.parse(quantityItemsJSON);
@@ -1424,16 +1377,20 @@ function restoreBasketItemsAmount() {
     quantityItems.forEach(item => {
       const marker = item.marker;
       const quantityItem = item.quantityItem;
+      const priceGRN = item.priceGRN;
+      const priceUSDT = item.priceUSDT;
 
       // Находим товар на странице по маркеру
       const itemElement = document.querySelector(`[data-basket-marker="${marker}"]`);
       if (itemElement) {
         // Находим элемент с количеством товара
         const itemQuantityElement = itemElement.querySelector('.js-item-quantity');
-        if (itemQuantityElement) {
-          // Обновляем значение на странице
-          itemQuantityElement.textContent = quantityItem;
-        }
+        const priceGRNElement = itemElement.querySelector('.js-priceGRN');
+        const priceUSDTElement = itemElement.querySelector('.js-priceUSDT');
+
+        itemQuantityElement.textContent = quantityItem;
+        priceGRNElement.textContent = priceGRN;
+        priceUSDTElement.textContent = priceUSDT;
       }
 
     const decreaseButtons = document.querySelectorAll('[data-price-down]');
@@ -1446,9 +1403,23 @@ function restoreBasketItemsAmount() {
     increaseButtons.forEach(function (button) {
       button.addEventListener('click', handleQuantityIncrease);
     });
-    });
+  });
 
     basketCheckboxChanger();
+  }
+
+  if (totalAmountJSON) {
+    const totalAmount = JSON.parse(totalAmountJSON);
+    const totalAmountGRN = document.querySelector(".js-total-priceGRN");
+    const totalAmountUSDT = document.querySelector(".js-total-priceUSDT");
+
+    if (totalAmountGRN && totalAmountUSDT) {
+      totalAmountGRN.textContent = totalAmount.totalGRN.toFixed(2);
+      totalAmountUSDT.textContent = totalAmount.totalUSDT.toFixed(2);
+    }
+
+    basketOrderBox.innerHTML = createBasketOrderMarkup();
+    totalItemsAmount();
   }
 }
 
