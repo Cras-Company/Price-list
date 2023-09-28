@@ -1,6 +1,6 @@
 export const shopLotsMeansCleaningKitchenBathroom = [
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_pulver_power.jpg",
         alt: "gut_gunstig_pulver_power",
         marker: "MCKB010",
@@ -21,7 +21,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Позбудьтеся бруду та відновіть нормальну роботу водостічних систем з &#171;Gut Günstig - Rohrreineger Pulver Power&#187 - ви зможете легко та швидко вирішити проблеми з забиттями та погіршеним стоком води."
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/power_wash_kalkloser.jpg",
         alt: "power_wash_kalkloser",
         marker: "MCKB020",

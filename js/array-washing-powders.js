@@ -225,7 +225,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171;Gallus - Vollwaschmittel&#187;."
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_58.jpg",
         alt: "gallus_color_58",
         marker: "LDWP050",
@@ -246,7 +246,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171;Gallus - Colorwaschmittel 4 in 1&#187; вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_58.jpg",
         alt: "gallus_voll_58",
         marker: "LDWP051",
@@ -267,7 +267,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть перший крок до найкращої якості разом з &#171;Gallus - Colorwaschmittel 4 in 1&#187; та забудьте про компроміси у догляді за вашими улюбленими речами!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_120.jpg",
         alt: "gallus_color_120",
         marker: "LDWP052",
@@ -288,7 +288,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171;Gallus - Colorwaschmittel 4 in 1&#187; вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_120.jpg",
         alt: "gallus_voll_120",
         marker: "LDWP053",
@@ -312,7 +312,7 @@ export const shopLotsWashingPowders = [
     // ОНИКС
     // ===========================================================================
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_40.jpg",
         alt: "onyx_color_40",
         marker: "LDWP060",
@@ -333,7 +333,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовляйте &#171;Onyx - Colorwaschmittel Konzentriertes&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі."
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_voll_40.jpg",
         alt: "onyx_voll_40",
         marker: "LDWP061",
@@ -441,7 +441,7 @@ export const shopLotsWashingPowders = [
     // ПАВЕР ВОШ
     // ===========================================================================
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/power_wash_color_130.jpg",
         alt: "power_wash_color_130",
         marker: "LDWP073",
@@ -462,7 +462,7 @@ export const shopLotsWashingPowders = [
         description05: "Не зволікайте з наданням найкращого догляду для вашого одягу та замовляйте &#171;Power Wash - Colorwaschmittel Professional&#187 вже сьогодні та дозвольте вашій білизні сяяти на повну!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/power_wash_voll_130.jpg",
         alt: "power_wash_voll_130",
         marker: "LDWP076",

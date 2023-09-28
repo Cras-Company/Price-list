@@ -382,14 +382,16 @@ export function createBasketListItemsMarkup(items) {
                             <div class="cras-item__element cras-item__element--basket js-basket-price-retail">
                             
                                 <h4 class="basket__price">
-                                <span class="cinzel js-priceGRN">${priceGRN}</span> грн. / <span class="cinzel js-priceUSDT">${priceUSDT}</span> USDT</h4>
+                                    <span class="cinzel basket__price--wight js-priceGRN">${priceGRN}</span> грн. / 
+                                    <span class="cinzel basket__price--wight js-priceUSDT">${priceUSDT}</span> USDT
+                                </h4>
                             </div>
 
                             <div class="cras-item__element cras-item__element--basket js-basket-price-wholesale">
                             
                                 <h4 class="basket__price">
-                                    <span class="cinzel js-priceOptGRN"></span> грн. / 
-                                    <span class="cinzel js-priceOptUSDT"></span> USDT
+                                    <span class="cinzel basket__price--wight js-priceOptGRN"></span> грн. / 
+                                    <span class="cinzel basket__price--wight js-priceOptUSDT"></span> USDT
                                 </h4>
                             </div>
 

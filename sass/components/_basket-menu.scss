@@ -262,6 +262,26 @@
     @media screen and (min-width: 480px) {
         font-size: 20px;
     }
+
+    @media screen and (min-width: 480px) {
+        font-size: 18px;
+    }
+
+    &--wight {
+        display: inline-block;
+
+        min-width: 40px;
+
+        text-align: center;
+
+        @media screen and (min-width: 480px) {
+            min-width: 60px;
+        }
+
+        @media screen and (min-width: 768px) {
+            min-width: 55px;
+        }
+    }
 }
 
 .basket__order-box {

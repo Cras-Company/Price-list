@@ -892,8 +892,10 @@ function lotBasketHandler(event) {
       clearBasketButton.addEventListener("click", clearBasket);
     }
 
-    const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale")
-
+    const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
+    const priceRetails = document.querySelectorAll('.js-basket-price-retail');
+    const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
+    
     if (foundItem.type === "retail") {
       priceWholesales.forEach((priceWholesale) => {
         priceWholesale.style.display = "none";
@@ -1192,11 +1194,6 @@ function basketCheckboxChanger() {
     const priceRetail = item.querySelector('.js-basket-price-retail');
     const priceWholesale = item.querySelector('.js-basket-price-wholesale');
 
-    const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
-    let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
-    const itemsArrayCheckedJSON = localStorage.getItem("itemsArrayChecked");
-    let itemsArrayChecked = JSON.parse(itemsArrayCheckedJSON) || [];
-
     const marker = item.getAttribute('data-basket-marker');
     const itemQuantity = item.querySelector('.js-item-quantity');
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
@@ -1211,8 +1208,6 @@ function basketCheckboxChanger() {
     const priceOptGRNElement = item.querySelector('.js-priceOptGRN');
     const priceOptUSDTElement = item.querySelector('.js-priceOptUSDT');
 
-    let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
-
     if (!wholesaleCheckbox || !wholesaleCheckbox.checked) {
       priceRetail.style.display = 'block';
       priceWholesale.style.display = 'none';
@@ -1220,8 +1215,57 @@ function basketCheckboxChanger() {
       itemQuantity.textContent = '12';
     }
 
+    if (foundItem.type === "only-wholesale") {
+      wholesaleCheckboxes.forEach((checkbox) => {
+        checkbox.checked = true;
+        checkbox.disabled = true;
+      
+        priceRetail.style.display = 'none';
+        priceWholesale.style.display = 'block';
+        itemQuantity.textContent = '12';
+
+        const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+        let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+        const itemsArrayCheckedJSON = localStorage.getItem("itemsArrayChecked");
+        let itemsArrayChecked = JSON.parse(itemsArrayCheckedJSON) || [];
+        let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
+        priceRetail.style.display = 'none';
+        priceWholesale.style.display = 'block';
+
+        priceOptGRNElement.textContent = priceOptGRN * 12;
+        priceOptUSDTElement.textContent = (priceOptUSDT * 12).toFixed(2);
+        itemQuantity.textContent = '12';
+
+        delete quantityItemsArray[existingItemIndex].priceGRN;
+        delete quantityItemsArray[existingItemIndex].priceUSDT;
+        quantityItemsArray[existingItemIndex].quantityItem = 12;
+        quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRN * 12;
+        quantityItemsArray[existingItemIndex].optPriceUSDT = (priceOptUSDT * 12).toFixed(2);
+
+        const itemIndex = itemsArrayChecked.findIndex(item => item.marker === marker);
+        const isChecked = checkbox.checked;
+        if (isChecked && itemIndex === -1) {
+          // Чекбокс был отмечен и записи в массиве не существует, добавляем запись
+          itemsArrayChecked.push({ marker, isChecked: true });
+        } else if (!isChecked && itemIndex !== -1) {
+          // Чекбокс был снят и запись существует, удаляем её из массива
+          itemsArrayChecked.splice(itemIndex, 1);
+        }
+
+        localStorage.setItem("itemsArrayChecked", JSON.stringify(itemsArrayChecked));
+        localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+      });
+    }
+
     // Назначаем обработчик события на чекбокс
     wholesaleCheckbox.addEventListener('change', function () {
+      const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+      let quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+      const itemsArrayCheckedJSON = localStorage.getItem("itemsArrayChecked");
+      let itemsArrayChecked = JSON.parse(itemsArrayCheckedJSON) || [];
+      let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
       if (this.checked) {
         priceRetail.style.display = 'none';
         priceWholesale.style.display = 'block';

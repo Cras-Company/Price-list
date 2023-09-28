@@ -2669,6 +2669,26 @@ body.modal-open {
     font-size: 20px;
   }
 }
+@media screen and (min-width: 480px) {
+  .basket__price {
+    font-size: 18px;
+  }
+}
+.basket__price--wight {
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  .basket__price--wight {
+    min-width: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .basket__price--wight {
+    min-width: 55px;
+  }
+}
 
 .basket__order-box {
   position: fixed;

@@ -84,7 +84,7 @@ export const shopLotsPowerCaps = [
         description05: "Просто додайте капсулу у пральну машину та насолоджуйтесь бездоганністю своєї білизни з &#171;Lenor - Colorwaschmittel All in 1 PODS&#187;."
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color_150.jpg",
         alt: "power_wash_color_150",
         marker: "LDPC030",
@@ -105,7 +105,7 @@ export const shopLotsPowerCaps = [
         description05: "Не зволікайте з наданням найкращого догляду для вашого одягу та замовляйте &#171;Power Wash - Colorwaschmittel Professional&#187 вже сьогодні та дозвольте вашій білизні сяяти на повну!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll_150.jpg",
         alt: "power_wash_voll_150",
         marker: "LDPC031",
