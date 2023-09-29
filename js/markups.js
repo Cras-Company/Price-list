@@ -436,26 +436,32 @@ export function createBasketListItemsMarkup(items) {
 
 export function createBasketOrderMarkup() {
 
-    return `<h2 class="basket__order-title"><span class="basket__order-title--color">До сплати:</span> 
+    return `<div class="basket__order-case">
+                <h2 class="basket__order-title">
+                    <span class="basket__order-title--color">До сплати:</span>
+                </h2>
 
+                <h2 class="basket__order-title basket__order-title--margin">
                     <span class="basket__price-gnr js-basket__price-gnr">
-                    <span class="cinzel js-total-priceGRN"></span></span> грн. /
+                    <span class="cinzel basket__total-price js-total-priceGRN"></span></span> грн. /
 
                     <span class="basket__price-usdt js-basket__price-usdt">
-                    <span class="cinzel js-total-priceUSDT"></span></span> USDT</h2>
+                    <span class="cinzel basket__total-price js-total-priceUSDT"></span></span> USDT
+                </h2>
+            </div>
 
-                <button class="button__copy" type="button">
+            <button class="button__copy js-button__copy" type="button">
 
-                    <p class="basket__copy-markers">Скопіювати всі маркери</p>
-                    
-                    <svg width="15" height="15">
-                    
-                        <use href="./images/icon/sprite.svg#copy"></use>
-                    </svg>
-                </button>
+                <p class="basket__copy-markers">Скопіювати Ваше замовлення</p>
 
-                <a class="link__button link__button--description" href="./licence.html">
+                <svg width="15" height="15">
                 
-                    <span class="link__button__text">Замовити</span>
-                </a>`;
+                    <use href="./images/icon/sprite.svg#copy"></use>
+                </svg>
+            </button>
+
+            <a class="link__button link__button--description" href="./licence.html">
+            
+                <span class="link__button__text">Замовити</span>
+            </a>`;
 };

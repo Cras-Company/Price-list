@@ -888,8 +888,6 @@ function lotBasketHandler(event) {
       clearBasketButton.addEventListener("click", clearBasket);
     }
 
-    const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
-    const priceRetails = document.querySelectorAll('.js-basket-price-retail');
     const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
     
     if (foundItem.type === "retail") {
@@ -901,6 +899,8 @@ function lotBasketHandler(event) {
     basketOrderBox.innerHTML = createBasketOrderMarkup();
     basketCheckboxChanger();
     totalItemsAmount();
+
+    restoreButtonCopy();
   }
 }
 
@@ -1340,13 +1340,13 @@ function totalItemsAmount() {
 
   // Записываем общие суммы в соответствующие элементы на странице
   if (totalAmountGRN && totalAmountUSDT) {
-    totalAmountGRN.textContent = totalGRN.toFixed(2);
+    totalAmountGRN.textContent = totalGRN;
     totalAmountUSDT.textContent = totalUSDT.toFixed(2);
   }
 
   if (totalAmount.length > 0) {
     totalAmount[0].totalAmountGRN = totalGRN;
-    totalAmount[0].totalAmountUSDT = totalUSDT;
+    totalAmount[0].totalAmountUSDT = totalUSDT.toFixed(2);;
   } else {
     totalAmount.push({
       totalAmountGRN: totalGRN,
@@ -1520,6 +1520,70 @@ function restoreBasketItemsAmount() {
 
 restoreBasketItemsAmount();
 
+function restoreButtonCopy() {
+  const buttonCopy = document.querySelector(".js-button__copy");
+
+  if (buttonCopy) {
+    buttonCopy.addEventListener("click", scaleButton);
+    function scaleButton() {
+      buttonCopy.style.transform = 'scale(0.8)';
+      setTimeout(function () {
+        buttonCopy.style.transform = 'scale(1)';
+      }, 200);
+    }
+
+  buttonCopy.addEventListener("click", function () {
+
+    const quantityItemsJSON = localStorage.getItem('quantityItemsArray');
+    const totalAmountDataJSON = localStorage.getItem("totalAmount");
+    
+    if (totalAmountDataJSON && quantityItemsJSON) {
+
+      const quantityItems = JSON.parse(quantityItemsJSON);
+      const totalAmountData = JSON.parse(totalAmountDataJSON);
+    
+      let textToCopy = "Доброго дня. Хочу оформити замовлення:\n\n";
+      quantityItems.forEach((item) => {
+        let priceGRN, priceUSDT;
+
+        if ('optPriceGRN' in item) {
+          priceGRN = item.optPriceGRN;
+          priceUSDT = item.optPriceUSDT;
+        } else {
+          priceGRN = item.priceGRN;
+          priceUSDT = item.priceUSDT;
+        }
+        textToCopy += `Маркер: ${item.marker}; Кількість: ${item.quantityItem}; Ціна: ${priceGRN} грн. / ${priceUSDT} USDT;\n\n`;
+      });
+
+      const { totalAmountGRN, totalAmountUSDT } = totalAmountData[0];
+      
+      textToCopy += `Загальна сумма замовлення: ${totalAmountGRN} грн. / ${totalAmountUSDT} USDT.`;
+      
+      // Создаем временный элемент textarea для копирования текста в буфер обмена
+      const textarea = document.createElement("textarea");
+      textarea.value = textToCopy;
+      document.body.appendChild(textarea);
+      
+      // Выделяем текст в textarea
+      textarea.select();
+      
+      // Копируем выделенный текст в буфер обмена
+      document.execCommand("copy");
+      
+      // Удаляем временный элемент textarea
+      document.body.removeChild(textarea);
+      
+      // Оповещаем пользователя о успешном копировании (можно заменить на свою логику)
+      alert("Ваше замовлення та інформація про товари збережена.");
+    }
+  });
+
+  }
+}
+
+restoreButtonCopy();
+
 // Восстановление разметки не активного блока
 document.addEventListener('DOMContentLoaded', function() {
   const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
@@ -1558,4 +1622,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
- 

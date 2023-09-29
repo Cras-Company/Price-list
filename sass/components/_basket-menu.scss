@@ -1,10 +1,14 @@
 .modal--basket {
     padding-top: 35px;
-    padding-bottom: 115px;
+    padding-bottom: 135px;
     padding-left: 15px;
     padding-right: 5px;
 
     top: 9%;
+
+    @media screen and (min-width: 360px) {
+        padding-bottom: 115px;
+    }
 
     @media screen and (min-width: 768px) {
         padding-top: 25px;
@@ -243,6 +247,14 @@
     opacity: 1;
 }
 
+.basket__order-case {
+
+    @media screen and (min-width: 360px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .basket__footer {
     display: flex;
     justify-content: space-around;
@@ -284,6 +296,22 @@
     }
 }
 
+.basket__total-price {
+    display: inline-block;
+    
+    min-width: 50px;
+
+    text-align: center;
+
+    @media screen and (min-width: 480px) {
+        min-width: 60px;
+    }
+
+    @media screen and (min-width: 768px) {
+        min-width: 55px;
+    }
+}
+
 .basket__order-box {
     position: fixed;
     bottom: 3%;
@@ -302,6 +330,13 @@
 
     @media screen and (min-width: 768px) {
         font-size: 20px;
+    }
+
+    &--margin {
+
+        @media screen and (min-width: 768px) {
+            margin-left: 15px;
+        }
     }
 
     &--color {
