@@ -1,6 +1,6 @@
 export const shopLotsMeansCleaningDishwashers= [
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/gut_gunstig_anti_kalk_51.jpg",
         alt: "gut_gunstig_anti_kalk_51",
         marker: "MCDS010",

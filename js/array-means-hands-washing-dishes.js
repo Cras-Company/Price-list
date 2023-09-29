@@ -360,7 +360,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Зробіть свою кухню бездоганною і блискучою з &#171;K-Classic - Spülmittel Konzentrat Ultra Plus&#187;, який подарує вам максимальний комфорт та чистоту."
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_apfel_5l.jpg",
         alt: "power_wash_apfel_5l",
         marker: "MHWD065",
@@ -381,7 +381,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовляйте &#171;Power Wash - Spülmittel Frische Apfel + Minze&#187 вже сьогодні та насолоджуйтеся чистотою, свіжістю і ароматом у кожній краплинці."
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_original_5l.jpg",
         alt: "power_wash_original_5l",
         marker: "MHWD067",
@@ -402,7 +402,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Не витрачайте час на марні спроби вивести жир або пригорілу їжу - &#171;Power Wash - Spülmittel Original&#187 зробить це за вас. Віддайте перевагу якості та надійності, яку можна відчути!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_zitrone_5l.jpg",
         alt: "power_wash_zitrone_5l",
         marker: "MHWD069",

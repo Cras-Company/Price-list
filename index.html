@@ -45,14 +45,14 @@
                         width="43">
                     </button>
 
-                    <!-- <div class="nav__logo-name">
-
-                        <span class="logo logo--mobile" lang="en">Cras</span>
-                        
-                        <span class="point">.</span>
-                        
-                        <span class="logo logo--head" lang="en">Company</span>
-                    </div> -->
+                    <button class="mobile-button" type="button" data-modal-basket>
+                    
+                        <svg width="45" height="45">
+                            <use href="./images/icon/sprite.svg#basket-mobile"></use>
+                        </svg>
+                    
+                        <span class="header__basket-number js-header__basket-number"></span>
+                    </button>
                     
                     <button class="mobile-button mobile-button--border" type="button" data-mobile-main-menu>
                     
@@ -93,6 +93,15 @@
                     </li>
                 </ul>
             </nav>
+
+            <button class="header__basket" type="button" data-modal-basket>
+
+                <svg width="70" height="70">
+                    <use href="./images/icon/sprite.svg#basket"></use>
+                </svg>
+
+                <span class="header__basket-number js-header__basket-number"></span>
+            </button>
         </div>
     </header>
 
@@ -104,6 +113,7 @@
             <img class="img-modal img-modal--menu" src="./images/logo-bg.png" alt="Логотип" width="100">
     
             <button class="modal__button-close" type="button" data-modal-close>
+
                 <svg width="50" height="50">
                     <use href="./images/icon/sprite.svg#logoblack"></use>
                 </svg>
@@ -599,6 +609,38 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно корзины -->
+    <div class="backdrop is-hidden" data-modal-basket-menu>
+    
+        <div class="modal modal--lot modal--basket">
+
+            <button class="basket-clear-all" type="button" data-modal-busket-clear>
+            
+                <p class="basket-clear-all__text">Очистити кошик</p>
+            </button>
+    
+            <img class="img-modal img-modal--basket" src="./images/logo-bg.png" alt="Логотип" width="100">
+    
+            <button class="modal__button-close" type="button" data-modal-close>
+
+                <svg width="50" height="50">
+
+                    <use href="./images/icon/sprite.svg#logoblack"></use>
+                </svg>
+            </button>
+
+            <h1 class="title title--basket"><span class="title--main-color">Мій</span title--secondary-color> <span>кошик</span></h1>
+
+            <div class="basket__box-list">
+                <img class="travolta js-travolta" src="./images/travolta.gif" alt="travolta">
+                
+                <ul class="basket__list js-modal-basket"></ul>
+            </div>
+
+            <div class="basket__order-box js-basket__order-box"></div>
         </div>
     </div>
 

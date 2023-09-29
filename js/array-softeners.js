@@ -42,7 +42,7 @@ export const shopLotsSofteners = [
     description05: "Замовте &#171;Gallus - Orchidee Concentrated Softener&#187; вже сьогодні та насолоджуйтесь неперевершеною м'якістю та ароматом вашого одягу!"
     },
     {
-    type: "wholesale",
+    type: "only-wholesale",
     url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_2l.jpg",
     alt: "gallus_frisch_2l",
     marker: "LDSS012",
@@ -63,7 +63,7 @@ export const shopLotsSofteners = [
     description05: "Нехай ваш одяг говорить за вас! Оберіть &#171;Gallus - Frisch Concentrated Softener&#187; для найкращого догляду, який він заслуговує."
     },
     {
-    type: "wholesale",
+    type: "only-wholesale",
     url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_2l.jpg",
     alt: "gallus_orchidee_2l",
     marker: "LDSS013",
@@ -84,7 +84,7 @@ export const shopLotsSofteners = [
     description05: "Замовте &#171;Gallus - Orchidee Concentrated Softener&#187; вже сьогодні та насолоджуйтесь неперевершеною м'якістю та ароматом вашого одягу!"
     },
     {
-    type: "wholesale",
+    type: "only-wholesale",
     url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_4l.jpg",
     alt: "gallus_frisch_4l",
     marker: "LDSS014",
@@ -105,7 +105,7 @@ export const shopLotsSofteners = [
     description05: "Нехай ваш одяг говорить за вас! Оберіть &#171;Gallus - Frisch Concentrated Softener&#187; для найкращого догляду, який він заслуговує."
     },
     {
-    type: "wholesale",
+    type: "only-wholesale",
     url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_4l.jpg",
     alt: "gallus_orchidee_4l",
     marker: "LDSS015",

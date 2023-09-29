@@ -42,7 +42,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Обирайте &#171;Finish - Powerball Quantum Ultimate&#187; з технологією &#171;Active Blue&#187; та насолоджуйтеся блискучими результатами миття. Дійте зараз і переконайтеся у його перевагах самі!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_allin1_40.jpg",
         alt: "gut_gunstig_allin1_40",
         marker: "MMWD030",
@@ -63,7 +63,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Спростіть своє щоденне миття посуду та отримайте ідеальний результат, оберіть зручність та якість з &#171;Gut Günstig - All in 1 Geschirr-Reiniger Tabs&#187!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_classic_60.jpg",
         alt: "gut_gunstig_classic_60",
         marker: "MMWD031",
