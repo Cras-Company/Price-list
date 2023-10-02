@@ -3,7 +3,7 @@
 // ===========================================================================
 
 // Курс USDT
-export const USDTRate = 37.47;
+export const USDTRate = 37.08;
 
 export function createMobileListItemsMarkup(items) {    
 
@@ -460,8 +460,45 @@ export function createBasketOrderMarkup() {
                 </svg>
             </button>
 
-            <a class="link__button link__button--description" href="./licence.html">
-            
-                <span class="link__button__text">Замовити</span>
-            </a>`;
+            <ul class="contacts__social contacts__social--basket">
+
+                <li class="contacts__list contacts__list--basket-margin">
+                    <a class="socials-link" href="https://m.me/crascompany.ua" target="_blank">
+                        <svg class="social-icon" width="40" height="40">
+                            <use class="social-icon__main" href="./images/icon/sprite.svg#icon-facebook"></use>
+                            <use class="social-icon__hover"
+                                href="./images/icon/sprite.svg#icon-facebook-hovered">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="contacts__list contacts__list--basket-margin">
+                    <a class="socials-link" href="https://www.instagram.com/direct/t/17845007873476272" target="_blank">
+                        <svg class="social-icon" width="40" height="40">
+                            <use class="social-icon__main" 
+                                href="./images/icon/sprite.svg#instagram">
+                            </use>
+
+                            <use class="social-icon__hover"
+                                href="./images/icon/sprite.svg#instagram-hovered">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="contacts__list">
+                    <a class="socials-link" href="https://t.me/Cras_Company" target="_blank">
+
+                        <svg class="social-icon" width="40" height="40">
+
+                            <use class="social-icon__main" href="./images/icon/sprite.svg#telega">
+                            </use>
+                
+                            <use class="social-icon__hover" href="./images/icon/sprite.svg#telega-hovered">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>`;
 };

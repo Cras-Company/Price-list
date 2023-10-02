@@ -1395,6 +1395,15 @@ img {
             justify-content: space-between;
   }
 }
+.contacts__social--basket {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacts__list--basket-margin {
+  margin-right: 40px;
+}
 
 .contacts__title--center {
   text-align: center;
