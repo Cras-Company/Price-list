@@ -11,7 +11,14 @@ import {
 
 import { refs, onOpenModal } from './modal-index.js';
 
-import {lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation} from './supporting_functions.js'
+import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
+
+// Продукты питания
+import { shopLotsCoffeeBeans } from "./array-coffee_beans.js";
+
+import { shopLotsCacao } from "./array-cacao.js";
+
+import { shopLotsSauces } from "./array-sauces.js";
 
 // Средства гигиены
 import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
@@ -39,6 +46,13 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
+
+// Продукты питания
+const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
+
+const shopListCacao = document.querySelector(".js-cras__list--cacao");
+
+const shopListSauces = document.querySelector(".js-cras__list--sauces");
 
 // Средства гигиены
 const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
@@ -73,6 +87,15 @@ const filterFormMobile = document.querySelector(".js-filter__form-mobile");
 
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
+
+// Напитки
+const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
+const BlockCoffeeBeans = document.querySelector(".js-block-coffee-beans");
+const BlockCacao = document.querySelector(".js-block-cacao");
+
+// Модификаторы вкуса
+const SectionAllTasteModifiers = document.querySelector(".js-section-all-taste-modifiers");
+const BlockSauces = document.querySelector(".js-block-sauces");
 
 // Шампуни
 const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
@@ -118,6 +141,11 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
+  { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
+
+  { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
+
   { element: shopListBabyShampoos, items: shopLotsBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
   { element: shopListAdultShampoos, items: shopLotsAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
 
@@ -256,7 +284,12 @@ function handleFormSubmit(event) {
     inputSearchMobile.value = "";
   }
 
-  // Средства гигиены
+  // Продукты питания
+  const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
+  const filteredCacao = universalSearch(shopLotsCacao, searchItem);
+  const filteredSauces = universalSearch(shopLotsSauces, searchItem);
+
+  // Гигиена
   const filteredBabyShampoos = universalSearch(shopLotsBabyShampoos, searchItem);
   const filteredAdultShampoos = universalSearch(shopLotsAdultShampoos, searchItem);
 
@@ -280,6 +313,10 @@ function handleFormSubmit(event) {
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
 
   const allFilteredItems = [
+    // Продукты питания
+    ...filteredCoffeeBeans,
+    ...filteredCacao,
+    ...filteredSauces,
     // Средства гигиены
     ...filteredBabyShampoos,
     ...filteredAdultShampoos,
@@ -316,7 +353,21 @@ function handleFormSubmit(event) {
         JSSectionOne.forEach((section) => {
             section.style.display = "block";
         });
-      }
+  }
+  
+  if (filteredCoffeeBeans.length > 0 ||
+      filteredCacao.length > 0) {
+      shopListCoffeeBeans.innerHTML = createMobileListItemsMarkup(filteredCoffeeBeans);
+      shopListCacao.innerHTML = createMobileListItemsMarkup(filteredCacao);
+  } else {
+      SectionAllDrinks.style.display = "none";
+  }
+
+  if (filteredSauces.length > 0) {
+      shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
+  } else {
+      SectionAllTasteModifiers.style.display = "none";
+  }
   
   if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
       shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredBabyShampoos);
@@ -385,7 +436,11 @@ function handleFormSubmit(event) {
         SectionAllMeansCleaning.style.display = "none";
   }
   
-  const shopblocks = [ 
+  const shopblocks = [
+    { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
+    { element: shopListCacao, items: filteredCacao, block: BlockCacao },
+    { element: shopListSauces, items: filteredSauces, block: BlockSauces },
+  
     { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
     { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
     { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
