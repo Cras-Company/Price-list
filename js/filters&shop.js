@@ -14,11 +14,14 @@ import { refs, onOpenModal } from './modal-index.js';
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
 // Продукты питания
+import { shopLotsPopcorns } from "./array-popcorns.js";
 import { shopLotsCoffeeBeans } from "./array-coffee_beans.js";
-
 import { shopLotsCacao } from "./array-cacao.js";
 
+import { shopLotsOliveOil } from "./array-olive-oil.js";
+
 import { shopLotsSauces } from "./array-sauces.js";
+import { shopLotsSeasonings } from "./array-seasonings.js";
 
 // Средства гигиены
 import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
@@ -48,11 +51,15 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
-const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
+const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
 
+const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
 const shopListCacao = document.querySelector(".js-cras__list--cacao");
 
+const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
+
 const shopListSauces = document.querySelector(".js-cras__list--sauces");
+const shopListSeasonings = document.querySelector(".js-cras__list--seasonings");
 
 // Средства гигиены
 const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
@@ -88,14 +95,23 @@ const filterFormMobile = document.querySelector(".js-filter__form-mobile");
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
 
+// Закуски
+const SectionAllSnacks = document.querySelector(".js-section-all-snacks");
+const BlockPopcorn = document.querySelector(".js-block-popcorn");
+
 // Напитки
 const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
 const BlockCoffeeBeans = document.querySelector(".js-block-coffee-beans");
 const BlockCacao = document.querySelector(".js-block-cacao");
 
+// Оливки и масло
+const SectionAllOlivesOil = document.querySelector(".js-section-all-olives-oil");
+const BlockOliveOil = document.querySelector(".js-block-olive-oil");
+
 // Модификаторы вкуса
 const SectionAllTasteModifiers = document.querySelector(".js-section-all-taste-modifiers");
 const BlockSauces = document.querySelector(".js-block-sauces");
+const BlockSeasonings = document.querySelector(".js-block-seasonings");
 
 // Шампуни
 const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
@@ -141,10 +157,15 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
+
   { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
   { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
 
+  { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
+
   { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
+  { element: shopListSeasonings, items: shopLotsSeasonings, block: BlockSeasonings, dataTarget: "seasonings" },
 
   { element: shopListBabyShampoos, items: shopLotsBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
   { element: shopListAdultShampoos, items: shopLotsAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
@@ -285,9 +306,15 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
+
   const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
   const filteredCacao = universalSearch(shopLotsCacao, searchItem);
+
+  const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
+
   const filteredSauces = universalSearch(shopLotsSauces, searchItem);
+  const filteredSeasonings = universalSearch(shopLotsSeasonings, searchItem);
 
   // Гигиена
   const filteredBabyShampoos = universalSearch(shopLotsBabyShampoos, searchItem);
@@ -314,14 +341,21 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredPopcorns,
+
     ...filteredCoffeeBeans,
     ...filteredCacao,
+
+    ...filteredOliveOil,
+
     ...filteredSauces,
+    ...filteredSeasonings,
     // Средства гигиены
     ...filteredBabyShampoos,
     ...filteredAdultShampoos,
     ...filteredBabyShowerGels,
     ...filteredAdultShowerGels,
+    
     ...filteredMicellarWipes,
     
     // Бытовая химия
@@ -338,7 +372,7 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningKitchenBathroom,
     ...filteredMeansCleaningDishwashers,];
 
- if (allFilteredItems.length === 0) {
+  if (allFilteredItems.length === 0) {
         outputError.textContent = "Нажаль, такого товару у нас не має :(";
         outputError.style.marginTop = "60px";
         outputError.style.marginBottom = "60px";
@@ -354,6 +388,12 @@ function handleFormSubmit(event) {
             section.style.display = "block";
         });
   }
+
+  if (filteredPopcorns.length > 0) {
+      shopListPopcorn.innerHTML = createMobileListItemsMarkup(filteredPopcorns);
+  } else {
+      SectionAllSnacks.style.display = "none";
+  }
   
   if (filteredCoffeeBeans.length > 0 ||
       filteredCacao.length > 0) {
@@ -363,8 +403,16 @@ function handleFormSubmit(event) {
       SectionAllDrinks.style.display = "none";
   }
 
-  if (filteredSauces.length > 0) {
+  if (filteredOliveOil.length > 0) {
+      shopListOliveOil.innerHTML = createMobileListItemsMarkup(filteredOliveOil);
+  } else {
+      SectionAllOlivesOil.style.display = "none";
+  }
+
+  if (filteredSauces.length > 0 ||
+      filteredSeasonings.length > 0) {
       shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
+      shopListSeasonings.innerHTML = createMobileListItemsMarkup(filteredSeasonings);
   } else {
       SectionAllTasteModifiers.style.display = "none";
   }
@@ -437,9 +485,15 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
+  
     { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
     { element: shopListCacao, items: filteredCacao, block: BlockCacao },
+
+    { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
+
     { element: shopListSauces, items: filteredSauces, block: BlockSauces },
+    { element: shopListSeasonings, items: filteredSeasonings, block: BlockSeasonings },
   
     { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
     { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
