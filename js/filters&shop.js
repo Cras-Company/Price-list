@@ -16,6 +16,7 @@ import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from '
 // Продукты питания
 import { shopLotsPopcorns } from "./array-popcorns.js";
 import { shopLotsCoffeeBeans } from "./array-coffee_beans.js";
+import { shopLotsGroundCoffee } from "./array-ground-coffee.js";
 import { shopLotsCacao } from "./array-cacao.js";
 
 import { shopLotsOliveOil } from "./array-olive-oil.js";
@@ -54,6 +55,7 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
 
 const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
+const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coffee");
 const shopListCacao = document.querySelector(".js-cras__list--cacao");
 
 const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
@@ -102,6 +104,7 @@ const BlockPopcorn = document.querySelector(".js-block-popcorn");
 // Напитки
 const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
 const BlockCoffeeBeans = document.querySelector(".js-block-coffee-beans");
+const BlockGroundCoffee = document.querySelector(".js-block-ground-coffee");
 const BlockCacao = document.querySelector(".js-block-cacao");
 
 // Оливки и масло
@@ -160,6 +163,7 @@ const arrayOfProducts = [
   { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
 
   { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
+  { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
   { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
 
   { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
@@ -309,6 +313,7 @@ function handleFormSubmit(event) {
   const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
 
   const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
+  const filteredGroundCoffee = universalSearch(shopLotsGroundCoffee, searchItem);
   const filteredCacao = universalSearch(shopLotsCacao, searchItem);
 
   const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
@@ -344,6 +349,7 @@ function handleFormSubmit(event) {
     ...filteredPopcorns,
 
     ...filteredCoffeeBeans,
+    ...filteredGroundCoffee,
     ...filteredCacao,
 
     ...filteredOliveOil,
@@ -396,8 +402,10 @@ function handleFormSubmit(event) {
   }
   
   if (filteredCoffeeBeans.length > 0 ||
+      filteredGroundCoffee.length > 0 ||
       filteredCacao.length > 0) {
       shopListCoffeeBeans.innerHTML = createMobileListItemsMarkup(filteredCoffeeBeans);
+      shopListGroundCoffee.innerHTML = createMobileListItemsMarkup(filteredGroundCoffee);
       shopListCacao.innerHTML = createMobileListItemsMarkup(filteredCacao);
   } else {
       SectionAllDrinks.style.display = "none";
@@ -488,6 +496,7 @@ function handleFormSubmit(event) {
     { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
   
     { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
+    { element: shopListGroundCoffee, items: filteredGroundCoffee, block: BlockGroundCoffee },
     { element: shopListCacao, items: filteredCacao, block: BlockCacao },
 
     { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
