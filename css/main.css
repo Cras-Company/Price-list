@@ -564,6 +564,12 @@ img {
   }
 }
 
+@media screen and (min-width: 400px) {
+  .filter--next-line {
+    display: none;
+  }
+}
+
 .filter-icon-title__secondary-title {
   font-weight: 700;
   font-size: 12px;
