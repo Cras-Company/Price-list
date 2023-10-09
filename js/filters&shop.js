@@ -22,6 +22,7 @@ import { shopLotsGroundCoffee } from "./array-ground-coffee.js";
 import { shopLotsInstantCoffee } from "./array-instant-coffee.js";
 import { shopLotsCacao } from "./array-cacao.js";
 
+import { shopLotsOil } from "./array-oil.js";
 import { shopLotsOliveOil } from "./array-olive-oil.js";
 
 import { shopLotsSauces } from "./array-sauces.js";
@@ -63,6 +64,7 @@ const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coff
 const shopListInstantCoffee = document.querySelector(".js-cras__list--instant-coffee");
 const shopListCacao = document.querySelector(".js-cras__list--cacao");
 
+const shopListOil = document.querySelector(".js-cras__list--oil");
 const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
 
 const shopListSauces = document.querySelector(".js-cras__list--sauces");
@@ -116,6 +118,7 @@ const BlockCacao = document.querySelector(".js-block-cacao");
 
 // Оливки и масло
 const SectionAllOlivesOil = document.querySelector(".js-section-all-olives-oil");
+const BlockOil = document.querySelector(".js-block-oil");
 const BlockOliveOil = document.querySelector(".js-block-olive-oil");
 
 // Модификаторы вкуса
@@ -175,6 +178,7 @@ const arrayOfProducts = [
   { element: shopListInstantCoffee, items: shopLotsInstantCoffee, block: BlockInstantCoffee, dataTarget: "instant-coffee" },
   { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
 
+  { element: shopListOil, items: shopLotsOil, block: BlockOil, dataTarget: "oil" },
   { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
 
   { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
@@ -327,6 +331,7 @@ function handleFormSubmit(event) {
   const filteredInstantCoffee = universalSearch(shopLotsInstantCoffee, searchItem);
   const filteredCacao = universalSearch(shopLotsCacao, searchItem);
 
+  const filteredOil = universalSearch(shopLotsOil, searchItem);
   const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
 
   const filteredSauces = universalSearch(shopLotsSauces, searchItem);
@@ -365,6 +370,7 @@ function handleFormSubmit(event) {
     ...filteredInstantCoffee,
     ...filteredCacao,
 
+    ...filteredOil,
     ...filteredOliveOil,
 
     ...filteredSauces,
@@ -428,7 +434,9 @@ function handleFormSubmit(event) {
       SectionAllDrinks.style.display = "none";
   }
 
-  if (filteredOliveOil.length > 0) {
+  if (filteredOil.length > 0 ||
+      filteredOliveOil.length > 0) {
+      shopListOil.innerHTML = createMobileListItemsMarkup(filteredOil);
       shopListOliveOil.innerHTML = createMobileListItemsMarkup(filteredOliveOil);
   } else {
       SectionAllOlivesOil.style.display = "none";
@@ -518,6 +526,7 @@ function handleFormSubmit(event) {
     { element: shopListInstantCoffee, items: filteredInstantCoffee, block: BlockInstantCoffee },
     { element: shopListCacao, items: filteredCacao, block: BlockCacao },
 
+    { element: shopListOil, items: filteredOil, block: BlockOil },
     { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
 
     { element: shopListSauces, items: filteredSauces, block: BlockSauces },
