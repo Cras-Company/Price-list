@@ -6,7 +6,7 @@ export const shopLotsOil = [
         marker: "FDOI040",
         brand: "Vesuvio",
         search: "кукуруза кукурудза кукурузное масло",
-        nameUKR: "Кукурузна олія",
+        nameUKR: "Кукурудзяна олія",
         nameEN: "Mais Corn Oil",
         companyName: "Vesuvio G.I.R",
         countryName: "Італія",

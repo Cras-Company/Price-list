@@ -14,6 +14,8 @@ import { refs, onOpenModal } from './modal-index.js';
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
 // Продукты питания
+import { shopLotsSprats } from "./array-sprats.js";
+
 import { shopLotsPopcorns } from "./array-popcorns.js";
 import { shopLotsChips } from "./array-chips.js";
 
@@ -56,6 +58,8 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
+const shopListSprats = document.querySelector(".js-cras__list--sprats");
+
 const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
 const shopListChips = document.querySelector(".js-cras__list--chips");
 
@@ -103,6 +107,10 @@ const filterFormMobile = document.querySelector(".js-filter__form-mobile");
 
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
+
+// Консервация
+const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food");
+const BlockSprats = document.querySelector(".js-block-sprats");
 
 // Закуски
 const SectionAllSnacks = document.querySelector(".js-section-all-snacks");
@@ -170,6 +178,8 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
+
   { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
   { element: shopListChips, items: shopLotsChips, block: BlockChips, dataTarget: "chips" },
 
@@ -323,6 +333,8 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredSprats = universalSearch(shopLotsSprats, searchItem);
+
   const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
   const filteredChips = universalSearch(shopLotsChips, searchItem);
 
@@ -362,6 +374,7 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredSprats,
     ...filteredPopcorns,
     ...filteredChips,
 
@@ -412,6 +425,12 @@ function handleFormSubmit(event) {
         JSSectionOne.forEach((section) => {
             section.style.display = "block";
         });
+  }
+
+  if (filteredSprats.length > 0) {
+      shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
+  } else {
+      SectionAllCannedFood.style.display = "none";
   }
 
   if (filteredPopcorns.length > 0 ||
@@ -518,6 +537,8 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListSprats, items: filteredSprats, block: BlockSprats },
+  
     { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
     { element: shopListChips, items: filteredChips, block: BlockChips },
   
