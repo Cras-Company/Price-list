@@ -14,6 +14,7 @@ import { refs, onOpenModal } from './modal-index.js';
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
 // Продукты питания
+import { shopLotsTuna } from "./array-tuna.js";
 import { shopLotsSprats } from "./array-sprats.js";
 
 import { shopLotsPopcorns } from "./array-popcorns.js";
@@ -58,6 +59,7 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
+const shopListTuna = document.querySelector(".js-cras__list--tuna");
 const shopListSprats = document.querySelector(".js-cras__list--sprats");
 
 const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
@@ -110,6 +112,7 @@ const filterForm = document.querySelector(".js-filter__form");
 
 // Консервация
 const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food");
+const BlockTuna = document.querySelector(".js-block-tuna");
 const BlockSprats = document.querySelector(".js-block-sprats");
 
 // Закуски
@@ -178,6 +181,7 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
   { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
 
   { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
@@ -333,6 +337,7 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredTuna = universalSearch(shopLotsTuna, searchItem);
   const filteredSprats = universalSearch(shopLotsSprats, searchItem);
 
   const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
@@ -374,7 +379,9 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredTuna,
     ...filteredSprats,
+
     ...filteredPopcorns,
     ...filteredChips,
 
@@ -427,7 +434,9 @@ function handleFormSubmit(event) {
         });
   }
 
-  if (filteredSprats.length > 0) {
+  if (filteredTuna.length > 0 ||
+      filteredSprats.length > 0) {
+      shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
       shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
   } else {
       SectionAllCannedFood.style.display = "none";
@@ -537,6 +546,7 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListTuna, items: filteredTuna, block: BlockTuna },
     { element: shopListSprats, items: filteredSprats, block: BlockSprats },
   
     { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
