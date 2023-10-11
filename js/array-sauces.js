@@ -3,7 +3,7 @@ export const shopLotsSauces = [
         type: "retail",
         url: "./images/shop/food/taste_modifier/sauces/eros_pista.jpg",
         alt: "eros_pista",
-        marker: "FDSS001",
+        marker: "FDSU001",
         brand: "Univer",
         search: "універ универ ерош ерюш пішта перець гострі острый острые соуси соусы",
         nameUKR: "Гострий соус",

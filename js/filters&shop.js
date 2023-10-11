@@ -20,6 +20,10 @@ import { shopLotsSprats } from "./array-sprats.js";
 import { shopLotsPopcorns } from "./array-popcorns.js";
 import { shopLotsChips } from "./array-chips.js";
 
+import { shopLotsSweetSpreads } from "./array-sweet-spreads.js";
+
+import { shopLotsBars } from "./array-bars.js";
+
 import { shopLotsCoffeeBeans } from "./array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./array-ground-coffee.js";
 import { shopLotsInstantCoffee } from "./array-instant-coffee.js";
@@ -64,6 +68,10 @@ const shopListSprats = document.querySelector(".js-cras__list--sprats");
 
 const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
 const shopListChips = document.querySelector(".js-cras__list--chips");
+
+const shopListSweetSpreads = document.querySelector(".js-cras__list--sweet-spreads");
+
+const shopListBars = document.querySelector(".js-cras__list--bars");
 
 const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
 const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coffee");
@@ -119,6 +127,14 @@ const BlockSprats = document.querySelector(".js-block-sprats");
 const SectionAllSnacks = document.querySelector(".js-section-all-snacks");
 const BlockPopcorn = document.querySelector(".js-block-popcorn");
 const BlockChips = document.querySelector(".js-block-chips");
+
+// Помазанки
+const SectionAllBreadSpreads = document.querySelector(".js-section-all-bread-spreads");
+const BlockSweetSpreads = document.querySelector(".js-block-sweet-spreads");
+
+// Сладости
+const SectionAllSweets = document.querySelector(".js-section-all-sweets");
+const BlockBars = document.querySelector(".js-block-bars");
 
 // Напитки
 const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
@@ -186,6 +202,10 @@ const arrayOfProducts = [
 
   { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
   { element: shopListChips, items: shopLotsChips, block: BlockChips, dataTarget: "chips" },
+
+  { element: shopListSweetSpreads, items: shopLotsSweetSpreads, block: BlockSweetSpreads, dataTarget: "sweet-spreads" },
+
+  { element: shopListBars, items: shopLotsBars, block: BlockBars, dataTarget: "bars" },
 
   { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
   { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
@@ -343,6 +363,10 @@ function handleFormSubmit(event) {
   const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
   const filteredChips = universalSearch(shopLotsChips, searchItem);
 
+  const filteredSweetSpreads = universalSearch(shopLotsSweetSpreads, searchItem);
+
+  const filteredBars = universalSearch(shopLotsBars, searchItem);
+
   const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
   const filteredGroundCoffee = universalSearch(shopLotsGroundCoffee, searchItem);
   const filteredInstantCoffee = universalSearch(shopLotsInstantCoffee, searchItem);
@@ -384,6 +408,10 @@ function handleFormSubmit(event) {
 
     ...filteredPopcorns,
     ...filteredChips,
+
+    ...filteredSweetSpreads,
+
+    ...filteredBars,
 
     ...filteredCoffeeBeans,
     ...filteredGroundCoffee,
@@ -448,6 +476,18 @@ function handleFormSubmit(event) {
       shopListChips.innerHTML = createMobileListItemsMarkup(filteredChips);
   } else {
       SectionAllSnacks.style.display = "none";
+  }
+
+  if (filteredSweetSpreads.length > 0) {
+      shopListSweetSpreads.innerHTML = createMobileListItemsMarkup(filteredSweetSpreads);
+  } else {
+      SectionAllBreadSpreads.style.display = "none";
+  }
+
+  if (filteredBars.length > 0) {
+      shopListBars.innerHTML = createMobileListItemsMarkup(filteredBars);
+  } else {
+      SectionAllSweets.style.display = "none";
   }
   
   if (filteredCoffeeBeans.length > 0 ||
@@ -551,6 +591,10 @@ function handleFormSubmit(event) {
   
     { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
     { element: shopListChips, items: filteredChips, block: BlockChips },
+
+    { element: shopListSweetSpreads, items: filteredSweetSpreads, block: BlockSweetSpreads },
+
+    { element: shopListBars, items: filteredBars, block: BlockBars },
   
     { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
     { element: shopListGroundCoffee, items: filteredGroundCoffee, block: BlockGroundCoffee },
