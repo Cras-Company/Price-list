@@ -1927,16 +1927,32 @@ body.modal-open {
 
 .img-modal {
   position: absolute;
+  height: auto;
   top: -11%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 .img-modal--menu {
-  top: -11%;
+  top: -50px;
 }
 .img-modal--lot {
-  top: -11%;
+  top: -50px;
+}
+@media screen and (min-width: 768px) {
+  .img-modal--lot {
+    top: -6%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .img-modal--lot {
+    top: -8.5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .img-modal--lot {
+    top: -8%;
+  }
 }
 
 .mobile-button {
@@ -2382,11 +2398,11 @@ body.modal-open {
 }
 
 .img-modal--basket {
-  top: -9%;
+  top: -50px;
 }
 @media screen and (min-width: 768px) {
   .img-modal--basket {
-    top: -8%;
+    top: -6%;
   }
 }
 @media screen and (min-width: 1024px) {
