@@ -135,6 +135,8 @@
     }
 
     &--flex {
+        align-items: center;
+        
         position: relative;
         z-index: 100;
 
@@ -198,6 +200,10 @@
     transition: all 1000ms linear 500ms;
 
     &--lot {
+        @media screen and (min-width: 768px) {
+            margin-bottom: 0;
+        }
+
         @media screen and (min-width: 1500px) {
             margin: 0;
         }
