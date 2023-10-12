@@ -247,6 +247,8 @@
     font-size: 12px;
     line-height: 1.14;
 
+    color: var(--primary-text-color);
+
     @media screen and (min-width: 480px) {
         font-size: 16px;
     }
@@ -295,6 +297,8 @@
     font-weight: 700;
     font-size: 11px;
     line-height: 1.14;
+
+    color: var(--primary-text-color);
 
     @media screen and (min-width: 480px) {
         font-size: 16px;
