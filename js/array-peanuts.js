@@ -62,4 +62,25 @@ export const shopLotsPeanuts = [
         description04: "<strong>Арахіс солоний.</strong>",
         description05: "Не вагайтеся та замовте &#171Mani King - Tostado sin Piel&#187 вже зараз і розважайте свою родину та друзів цією чудовою закускою!"
     },
+    {
+        type: "wholesale",
+        url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
+        alt: "mogyi_peanuts_roasted_salted_150",
+        marker: "FDPS040",
+        brand: "Mogyi",
+        search: "модь сіль",
+        nameUKR: "Солоний арахіс",
+        nameEN: "Peanuts Roasted, Salted",
+        companyName: "MOGYI LTD. HU.",
+        countryName: "Угорщина",
+        weightName: "Вага",
+        weight: "150 гр.",
+        priceGRN: 41,
+        priceGRNOpt: 36,
+        description01: "&#171Mogyi - Peanuts Roasted, Salted&#187 - це закуска, яка підкорить Вас з першого разу. Кожен арахіс обсмажується з особливою увагою, щоб досягти ідеальної хрусткої текстури та солоного смаку. Цей арахіс поєднує у собі неперевершений солодкий смак з гармонійною солоністю, створюючи справжню насолоду.",
+        description02: "Ця закуска ідеально підходить для перекусу у будь-який час дня. Вона стане відмінним супутником під час вечірки, спортивних змагань або просто для задоволення вашого апетиту.",
+        description03: "&#171Mogyi - Peanuts Roasted, Salted&#187 - найкраща якість та неперевершений смак арахісу. Ця закуска додасть смаку вашим дням і зробить кожен момент особливим.",
+        description04: "<strong>Арахіс солоний.</strong>",
+        description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
+    },
 ]
