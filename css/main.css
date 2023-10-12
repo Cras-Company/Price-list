@@ -1933,10 +1933,10 @@ body.modal-open {
           transform: translateX(-50%);
 }
 .img-modal--menu {
-  top: -9.5%;
+  top: -11%;
 }
 .img-modal--lot {
-  top: -9%;
+  top: -11%;
 }
 
 .mobile-button {

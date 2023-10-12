@@ -17,6 +17,7 @@ import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from '
 import { shopLotsTuna } from "./array-tuna.js";
 import { shopLotsSprats } from "./array-sprats.js";
 
+import { shopLotsPeanuts } from "./array-peanuts.js";
 import { shopLotsPopcorns } from "./array-popcorns.js";
 import { shopLotsChips } from "./array-chips.js";
 
@@ -66,6 +67,7 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 const shopListTuna = document.querySelector(".js-cras__list--tuna");
 const shopListSprats = document.querySelector(".js-cras__list--sprats");
 
+const shopListPeanuts = document.querySelector(".js-cras__list--peanuts");
 const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
 const shopListChips = document.querySelector(".js-cras__list--chips");
 
@@ -125,6 +127,7 @@ const BlockSprats = document.querySelector(".js-block-sprats");
 
 // Закуски
 const SectionAllSnacks = document.querySelector(".js-section-all-snacks");
+const BlockPeanuts = document.querySelector(".js-block-peanuts");
 const BlockPopcorn = document.querySelector(".js-block-popcorn");
 const BlockChips = document.querySelector(".js-block-chips");
 
@@ -200,6 +203,7 @@ const arrayOfProducts = [
   { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
   { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
 
+  { element: shopListPeanuts, items: shopLotsPeanuts, block: BlockPeanuts, dataTarget: "peanuts" },
   { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
   { element: shopListChips, items: shopLotsChips, block: BlockChips, dataTarget: "chips" },
 
