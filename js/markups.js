@@ -502,5 +502,3 @@ export function createBasketOrderMarkup() {
                 </li>
             </ul>`;
 };
-
-// Test
