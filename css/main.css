@@ -321,6 +321,10 @@ img {
   }
 }
 
+.nav__img {
+  height: auto;
+}
+
 .title {
   margin: 10px 0;
   font-weight: 900;
