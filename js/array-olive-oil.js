@@ -24,7 +24,7 @@ export const shopLotsOliveOil = [
         type: "wholesale",
         url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_500.jpg",
         alt: "maestro_garsia_olive_oil_500",
-        marker: "FDOL006",
+        marker: "FDOL007",
         brand: "Maestro Garsia",
         search: "оливковое масло оливка оливки",
         nameUKR: "Оливкова олія",
