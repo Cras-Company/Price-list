@@ -14,6 +14,7 @@ import { refs, onOpenModal } from './modal-index.js';
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
 // Продукты питания
+import { shopLotsPates } from "./array-pates.js";
 import { shopLotsTuna } from "./array-tuna.js";
 import { shopLotsSprats } from "./array-sprats.js";
 
@@ -64,6 +65,7 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
+const shopListPates = document.querySelector(".js-cras__list--pates");
 const shopListTuna = document.querySelector(".js-cras__list--tuna");
 const shopListSprats = document.querySelector(".js-cras__list--sprats");
 
@@ -122,6 +124,7 @@ const filterForm = document.querySelector(".js-filter__form");
 
 // Консервация
 const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food");
+const BlockPates = document.querySelector(".js-block-pates");
 const BlockTuna = document.querySelector(".js-block-tuna");
 const BlockSprats = document.querySelector(".js-block-sprats");
 
@@ -200,6 +203,7 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
   { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
   { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
 
@@ -361,6 +365,7 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredPates = universalSearch(shopLotsPates, searchItem);
   const filteredTuna = universalSearch(shopLotsTuna, searchItem);
   const filteredSprats = universalSearch(shopLotsSprats, searchItem);
 
@@ -407,6 +412,7 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredPates,
     ...filteredTuna,
     ...filteredSprats,
 
@@ -466,8 +472,10 @@ function handleFormSubmit(event) {
         });
   }
 
-  if (filteredTuna.length > 0 ||
+  if (filteredPates.length > 0 ||
+      filteredTuna.length > 0 ||
       filteredSprats.length > 0) {
+      shopListPates.innerHTML = createMobileListItemsMarkup(filteredPates);
       shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
       shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
   } else {
@@ -590,6 +598,7 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListPates, items: filteredPates, block: BlockPates },
     { element: shopListTuna, items: filteredTuna, block: BlockTuna },
     { element: shopListSprats, items: filteredSprats, block: BlockSprats },
   
