@@ -2402,6 +2402,17 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .modal--basket {
     padding-top: 25px;
+    padding-bottom: 135px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modal--basket {
+    padding-bottom: 125px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .modal--basket {
+    padding-bottom: 130px;
   }
 }
 
