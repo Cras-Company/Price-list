@@ -47,7 +47,7 @@ export const shopLotsForBaking = [
         alt: "helio_masa_makowa_850",
         marker: "FDFB020",
         brand: "Helio",
-        search: "молотый мак для выпечки тесто теста торт торты торти маковая масса маса",
+        search: "молотый мак для выпечки тесто теста торт торты торти маковая масса маса смесь",
         nameUKR: "Макова суміш з сухофруктами",
         nameEN: "Masa Makowa Z Bakaliami",
         companyName: "Helio S.A.",

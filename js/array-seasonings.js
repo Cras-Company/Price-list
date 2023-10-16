@@ -21,6 +21,27 @@ export const shopLotsSeasonings = [
         description05: "Придбайте &#171;Caneo - Przyprawa Uniwersalna&#187; зараз і дайте своїм стравам неперевершений смак."
     },
     {
+        type: "wholesale",
+        url: "./images/shop/food/taste_modifier/seasonings/lucullus_mezes-csipos_48.jpg",
+        alt: "lucullus_mezes-csipos_48",
+        marker: "FDSG030",
+        brand: "Lucullus",
+        search: "лукулус лукуллус мед медовый медовая гострий острый острая приправа",
+        nameUKR: "Медово-гостра приправа для курячих крилець",
+        nameEN: "Mézes-Csípős Csirkeszárny Fűszersó",
+        companyName: "Szilasfood Kft.",
+        countryName: "Угорщина",
+        weightName: "Вага",
+        weight: "48 гр.",
+        priceGRN: 27,
+        priceGRNOpt: 23,
+        description01: "&#171Lucullus - Mézes-Csípős Csirkeszárny Fűszersó&#187 - це справжній дарунок для шанувальників пікантних страв. Завдяки унікальному поєднанню медової солодкості та гостроти, ця приправа перетворює звичайні курячі крильця у справжній шедевр кулінарного мистецтва.",
+        description02: "Завдяки ретельно підібраним інгредієнтам, &#171Lucullus - Mézes-Csípős Csirkeszárny Fűszersó&#187 гармонійно поєднує у собі смак меду, гостроту чилі та ароматні приправи. Ця суміш додасть вашим стравам неперевершений смак та аромат, які вразять Вас та вашу родину.",
+        description03: "Ця приправа ідеально підходить для грилювання, смаження та запікання. З нею Ви зможете створити найсмачніші курячі крильця, які не залишать байдужими нікого.",
+        description04: "<strong>Приправа медово-гостра для курячих крилець.</strong>",
+        description05: "Спробуйте &#171Lucullus - Mézes-Csípős Csirkeszárny Fűszersó&#187 вже сьогодні і дайте своїм стравам справжній аромат та смак!"
+    },
+    {
         type: "retail",
         url: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csemege_160.jpg",
         alt: "univer_gulyaskrem_csemege_160",
