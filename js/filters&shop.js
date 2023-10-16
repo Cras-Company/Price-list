@@ -34,6 +34,7 @@ import { shopLotsCacao } from "./array-cacao.js";
 import { shopLotsOil } from "./array-oil.js";
 import { shopLotsOliveOil } from "./array-olive-oil.js";
 
+import { shopLotsForBaking } from "./array-for-baking.js";
 import { shopLotsSauces } from "./array-sauces.js";
 import { shopLotsSeasonings } from "./array-seasonings.js";
 
@@ -85,6 +86,7 @@ const shopListCacao = document.querySelector(".js-cras__list--cacao");
 const shopListOil = document.querySelector(".js-cras__list--oil");
 const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
 
+const shopListForBaking = document.querySelector(".js-cras__list--for-baking");
 const shopListSauces = document.querySelector(".js-cras__list--sauces");
 const shopListSeasonings = document.querySelector(".js-cras__list--seasonings");
 
@@ -156,6 +158,7 @@ const BlockOliveOil = document.querySelector(".js-block-olive-oil");
 
 // Модификаторы вкуса
 const SectionAllTasteModifiers = document.querySelector(".js-section-all-taste-modifiers");
+const BlockForBaking = document.querySelector(".js-block-for-baking");
 const BlockSauces = document.querySelector(".js-block-sauces");
 const BlockSeasonings = document.querySelector(".js-block-seasonings");
 
@@ -223,6 +226,7 @@ const arrayOfProducts = [
   { element: shopListOil, items: shopLotsOil, block: BlockOil, dataTarget: "oil" },
   { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
 
+  { element: shopListForBaking, items: shopLotsForBaking, block: BlockForBaking, dataTarget: "for-baking" },
   { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
   { element: shopListSeasonings, items: shopLotsSeasonings, block: BlockSeasonings, dataTarget: "seasonings" },
 
@@ -369,6 +373,7 @@ function handleFormSubmit(event) {
   const filteredTuna = universalSearch(shopLotsTuna, searchItem);
   const filteredSprats = universalSearch(shopLotsSprats, searchItem);
 
+  const filteredPeanuts = universalSearch(shopLotsPeanuts, searchItem);
   const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
   const filteredChips = universalSearch(shopLotsChips, searchItem);
 
@@ -384,6 +389,7 @@ function handleFormSubmit(event) {
   const filteredOil = universalSearch(shopLotsOil, searchItem);
   const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
 
+  const filteredForBaking = universalSearch(shopLotsForBaking, searchItem);
   const filteredSauces = universalSearch(shopLotsSauces, searchItem);
   const filteredSeasonings = universalSearch(shopLotsSeasonings, searchItem);
 
@@ -416,6 +422,7 @@ function handleFormSubmit(event) {
     ...filteredTuna,
     ...filteredSprats,
 
+    ...filteredPeanuts,
     ...filteredPopcorns,
     ...filteredChips,
 
@@ -431,8 +438,10 @@ function handleFormSubmit(event) {
     ...filteredOil,
     ...filteredOliveOil,
 
+    ...filteredForBaking,
     ...filteredSauces,
     ...filteredSeasonings,
+
     // Средства гигиены
     ...filteredBabyShampoos,
     ...filteredAdultShampoos,
@@ -482,8 +491,10 @@ function handleFormSubmit(event) {
       SectionAllCannedFood.style.display = "none";
   }
 
-  if (filteredPopcorns.length > 0 ||
+  if (filteredPeanuts.length > 0 ||
+      filteredPopcorns.length > 0 ||
       filteredChips.length > 0) {
+      shopListPeanuts.innerHTML = createMobileListItemsMarkup(filteredPeanuts);
       shopListPopcorn.innerHTML = createMobileListItemsMarkup(filteredPopcorns);
       shopListChips.innerHTML = createMobileListItemsMarkup(filteredChips);
   } else {
@@ -522,8 +533,10 @@ function handleFormSubmit(event) {
       SectionAllOlivesOil.style.display = "none";
   }
 
-  if (filteredSauces.length > 0 ||
+  if (filteredForBaking.length > 0 ||
+      filteredSauces.length > 0 ||
       filteredSeasonings.length > 0) {
+      shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
       shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
       shopListSeasonings.innerHTML = createMobileListItemsMarkup(filteredSeasonings);
   } else {
@@ -601,7 +614,8 @@ function handleFormSubmit(event) {
     { element: shopListPates, items: filteredPates, block: BlockPates },
     { element: shopListTuna, items: filteredTuna, block: BlockTuna },
     { element: shopListSprats, items: filteredSprats, block: BlockSprats },
-  
+    
+    { element: shopListPeanuts, items: filteredPeanuts, block: BlockPeanuts },
     { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
     { element: shopListChips, items: filteredChips, block: BlockChips },
 
@@ -617,6 +631,7 @@ function handleFormSubmit(event) {
     { element: shopListOil, items: filteredOil, block: BlockOil },
     { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
 
+    { element: shopListForBaking, items: filteredForBaking, block: BlockForBaking },
     { element: shopListSauces, items: filteredSauces, block: BlockSauces },
     { element: shopListSeasonings, items: filteredSeasonings, block: BlockSeasonings },
   
