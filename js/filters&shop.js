@@ -16,10 +16,12 @@ import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from '
 // Продукты питания
 import { shopLotsPates } from "./array-pates.js";
 import { shopLotsTuna } from "./array-tuna.js";
+import { shopLotsCod } from "./array-cod.js";
 import { shopLotsSprats } from "./array-sprats.js";
 
 import { shopLotsPeanuts } from "./array-peanuts.js";
 import { shopLotsPopcorns } from "./array-popcorns.js";
+import { shopLotsPistachios } from "./array-pistachios.js";
 import { shopLotsChips } from "./array-chips.js";
 
 import { shopLotsSweetSpreads } from "./array-sweet-spreads.js";
@@ -68,10 +70,12 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // Продукты питания
 const shopListPates = document.querySelector(".js-cras__list--pates");
 const shopListTuna = document.querySelector(".js-cras__list--tuna");
+const shopListCod = document.querySelector(".js-cras__list--cod");
 const shopListSprats = document.querySelector(".js-cras__list--sprats");
 
 const shopListPeanuts = document.querySelector(".js-cras__list--peanuts");
 const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
+const shopListPistachios = document.querySelector(".js-cras__list--pistachios");
 const shopListChips = document.querySelector(".js-cras__list--chips");
 
 const shopListSweetSpreads = document.querySelector(".js-cras__list--sweet-spreads");
@@ -128,12 +132,14 @@ const filterForm = document.querySelector(".js-filter__form");
 const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food");
 const BlockPates = document.querySelector(".js-block-pates");
 const BlockTuna = document.querySelector(".js-block-tuna");
+const BlockCod = document.querySelector(".js-block-cod");
 const BlockSprats = document.querySelector(".js-block-sprats");
 
 // Закуски
 const SectionAllSnacks = document.querySelector(".js-section-all-snacks");
 const BlockPeanuts = document.querySelector(".js-block-peanuts");
 const BlockPopcorn = document.querySelector(".js-block-popcorn");
+const BlockPistachios = document.querySelector(".js-block-pistachios");
 const BlockChips = document.querySelector(".js-block-chips");
 
 // Помазанки
@@ -208,10 +214,12 @@ const outputError = document.querySelector(".js-output-error");
 const arrayOfProducts = [
   { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
   { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
+  { element: shopListCod, items: shopLotsCod, block: BlockCod, dataTarget: "cod" },
   { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
 
   { element: shopListPeanuts, items: shopLotsPeanuts, block: BlockPeanuts, dataTarget: "peanuts" },
   { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
+  { element: shopListPistachios, items: shopLotsPistachios, block: BlockPistachios, dataTarget: "pistachios" },
   { element: shopListChips, items: shopLotsChips, block: BlockChips, dataTarget: "chips" },
 
   { element: shopListSweetSpreads, items: shopLotsSweetSpreads, block: BlockSweetSpreads, dataTarget: "sweet-spreads" },
@@ -371,10 +379,12 @@ function handleFormSubmit(event) {
   // Продукты питания
   const filteredPates = universalSearch(shopLotsPates, searchItem);
   const filteredTuna = universalSearch(shopLotsTuna, searchItem);
+  const filteredCod = universalSearch(shopLotsCod, searchItem);
   const filteredSprats = universalSearch(shopLotsSprats, searchItem);
 
   const filteredPeanuts = universalSearch(shopLotsPeanuts, searchItem);
   const filteredPopcorns = universalSearch(shopLotsPopcorns, searchItem);
+  const filteredPistachios = universalSearch(shopLotsPistachios, searchItem);
   const filteredChips = universalSearch(shopLotsChips, searchItem);
 
   const filteredSweetSpreads = universalSearch(shopLotsSweetSpreads, searchItem);
@@ -420,10 +430,12 @@ function handleFormSubmit(event) {
     // Продукты питания
     ...filteredPates,
     ...filteredTuna,
+    ...filteredCod,
     ...filteredSprats,
 
     ...filteredPeanuts,
     ...filteredPopcorns,
+    ...filteredPistachios,
     ...filteredChips,
 
     ...filteredSweetSpreads,
@@ -483,9 +495,11 @@ function handleFormSubmit(event) {
 
   if (filteredPates.length > 0 ||
       filteredTuna.length > 0 ||
+      filteredCod.length > 0 ||
       filteredSprats.length > 0) {
       shopListPates.innerHTML = createMobileListItemsMarkup(filteredPates);
       shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
+      shopListCod.innerHTML = createMobileListItemsMarkup(filteredCod);
       shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
   } else {
       SectionAllCannedFood.style.display = "none";
@@ -493,9 +507,11 @@ function handleFormSubmit(event) {
 
   if (filteredPeanuts.length > 0 ||
       filteredPopcorns.length > 0 ||
+      filteredPistachios.length > 0 ||
       filteredChips.length > 0) {
       shopListPeanuts.innerHTML = createMobileListItemsMarkup(filteredPeanuts);
       shopListPopcorn.innerHTML = createMobileListItemsMarkup(filteredPopcorns);
+      shopListPistachios.innerHTML = createMobileListItemsMarkup(filteredPistachios);
       shopListChips.innerHTML = createMobileListItemsMarkup(filteredChips);
   } else {
       SectionAllSnacks.style.display = "none";
@@ -613,10 +629,12 @@ function handleFormSubmit(event) {
   const shopblocks = [
     { element: shopListPates, items: filteredPates, block: BlockPates },
     { element: shopListTuna, items: filteredTuna, block: BlockTuna },
+    { element: shopListCod, items: filteredCod, block: BlockCod },
     { element: shopListSprats, items: filteredSprats, block: BlockSprats },
     
     { element: shopListPeanuts, items: filteredPeanuts, block: BlockPeanuts },
     { element: shopListPopcorn, items: filteredPopcorns, block: BlockPopcorn },
+    { element: shopListPistachios, items: filteredPistachios, block: BlockPistachios },
     { element: shopListChips, items: filteredChips, block: BlockChips },
 
     { element: shopListSweetSpreads, items: filteredSweetSpreads, block: BlockSweetSpreads },
