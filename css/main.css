@@ -655,6 +655,9 @@ img {
 .filter__secondary-list--index-65 {
   z-index: 65;
 }
+.filter__secondary-list--index-70 {
+  z-index: 70;
+}
 
 .filter-list__item {
   margin-left: 68px;

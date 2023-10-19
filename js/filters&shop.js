@@ -13,7 +13,9 @@ import { refs, onOpenModal } from './modal-index.js';
 
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
-// Продукты питания
+// Продукты 
+import { shopLotsCheese } from "./array-cheese.js";
+
 import { shopLotsPates } from "./array-pates.js";
 import { shopLotsTuna } from "./array-tuna.js";
 import { shopLotsCod } from "./array-cod.js";
@@ -27,6 +29,7 @@ import { shopLotsChips } from "./array-chips.js";
 import { shopLotsSweetSpreads } from "./array-sweet-spreads.js";
 
 import { shopLotsBars } from "./array-bars.js";
+import { shopLotsWaffles } from "./array-waffles.js";
 
 import { shopLotsCoffeeBeans } from "./array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./array-ground-coffee.js";
@@ -68,6 +71,8 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
+const shopListCheese = document.querySelector(".js-cras__list--cheese");
+
 const shopListPates = document.querySelector(".js-cras__list--pates");
 const shopListTuna = document.querySelector(".js-cras__list--tuna");
 const shopListCod = document.querySelector(".js-cras__list--cod");
@@ -81,6 +86,7 @@ const shopListChips = document.querySelector(".js-cras__list--chips");
 const shopListSweetSpreads = document.querySelector(".js-cras__list--sweet-spreads");
 
 const shopListBars = document.querySelector(".js-cras__list--bars");
+const shopListWaffles = document.querySelector(".js-cras__list--waffles");
 
 const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
 const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coffee");
@@ -128,6 +134,10 @@ const filterFormMobile = document.querySelector(".js-filter__form-mobile");
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
 
+// Молочные продукты
+const SectionAllDairy = document.querySelector(".js-section-all-dairy");
+const BlockCheese = document.querySelector(".js-block-cheese");
+
 // Консервация
 const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food");
 const BlockPates = document.querySelector(".js-block-pates");
@@ -149,6 +159,7 @@ const BlockSweetSpreads = document.querySelector(".js-block-sweet-spreads");
 // Сладости
 const SectionAllSweets = document.querySelector(".js-section-all-sweets");
 const BlockBars = document.querySelector(".js-block-bars");
+const BlockWaffles = document.querySelector(".js-block-waffles");
 
 // Напитки
 const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
@@ -212,6 +223,8 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
+
   { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
   { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
   { element: shopListCod, items: shopLotsCod, block: BlockCod, dataTarget: "cod" },
@@ -225,6 +238,7 @@ const arrayOfProducts = [
   { element: shopListSweetSpreads, items: shopLotsSweetSpreads, block: BlockSweetSpreads, dataTarget: "sweet-spreads" },
 
   { element: shopListBars, items: shopLotsBars, block: BlockBars, dataTarget: "bars" },
+  { element: shopListWaffles, items: shopLotsWaffles, block: BlockWaffles, dataTarget: "waffles" },
 
   { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
   { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
@@ -377,6 +391,8 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredCheese = universalSearch(shopLotsCheese, searchItem);
+
   const filteredPates = universalSearch(shopLotsPates, searchItem);
   const filteredTuna = universalSearch(shopLotsTuna, searchItem);
   const filteredCod = universalSearch(shopLotsCod, searchItem);
@@ -390,6 +406,7 @@ function handleFormSubmit(event) {
   const filteredSweetSpreads = universalSearch(shopLotsSweetSpreads, searchItem);
 
   const filteredBars = universalSearch(shopLotsBars, searchItem);
+  const filteredWaffles = universalSearch(shopLotsWaffles, searchItem);
 
   const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
   const filteredGroundCoffee = universalSearch(shopLotsGroundCoffee, searchItem);
@@ -428,6 +445,8 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredCheese,
+
     ...filteredPates,
     ...filteredTuna,
     ...filteredCod,
@@ -441,6 +460,7 @@ function handleFormSubmit(event) {
     ...filteredSweetSpreads,
 
     ...filteredBars,
+    ...filteredWaffles,
 
     ...filteredCoffeeBeans,
     ...filteredGroundCoffee,
@@ -493,90 +513,98 @@ function handleFormSubmit(event) {
         });
   }
 
-  if (filteredPates.length > 0 ||
-      filteredTuna.length > 0 ||
-      filteredCod.length > 0 ||
-      filteredSprats.length > 0) {
-      shopListPates.innerHTML = createMobileListItemsMarkup(filteredPates);
-      shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
-      shopListCod.innerHTML = createMobileListItemsMarkup(filteredCod);
-      shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
+  if (filteredCheese.length > 0) {
+    shopListCheese.innerHTML = createMobileListItemsMarkup(filteredCheese);
   } else {
-      SectionAllCannedFood.style.display = "none";
+    SectionAllDairy.style.display = "none";
+  }
+
+  if (filteredPates.length > 0 ||
+    filteredTuna.length > 0 ||
+    filteredCod.length > 0 ||
+    filteredSprats.length > 0) {
+    shopListPates.innerHTML = createMobileListItemsMarkup(filteredPates);
+    shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
+    shopListCod.innerHTML = createMobileListItemsMarkup(filteredCod);
+    shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
+  } else {
+    SectionAllCannedFood.style.display = "none";
   }
 
   if (filteredPeanuts.length > 0 ||
-      filteredPopcorns.length > 0 ||
-      filteredPistachios.length > 0 ||
-      filteredChips.length > 0) {
-      shopListPeanuts.innerHTML = createMobileListItemsMarkup(filteredPeanuts);
-      shopListPopcorn.innerHTML = createMobileListItemsMarkup(filteredPopcorns);
-      shopListPistachios.innerHTML = createMobileListItemsMarkup(filteredPistachios);
-      shopListChips.innerHTML = createMobileListItemsMarkup(filteredChips);
+    filteredPopcorns.length > 0 ||
+    filteredPistachios.length > 0 ||
+    filteredChips.length > 0) {
+    shopListPeanuts.innerHTML = createMobileListItemsMarkup(filteredPeanuts);
+    shopListPopcorn.innerHTML = createMobileListItemsMarkup(filteredPopcorns);
+    shopListPistachios.innerHTML = createMobileListItemsMarkup(filteredPistachios);
+    shopListChips.innerHTML = createMobileListItemsMarkup(filteredChips);
   } else {
-      SectionAllSnacks.style.display = "none";
+    SectionAllSnacks.style.display = "none";
   }
 
   if (filteredSweetSpreads.length > 0) {
-      shopListSweetSpreads.innerHTML = createMobileListItemsMarkup(filteredSweetSpreads);
+    shopListSweetSpreads.innerHTML = createMobileListItemsMarkup(filteredSweetSpreads);
   } else {
-      SectionAllBreadSpreads.style.display = "none";
+    SectionAllBreadSpreads.style.display = "none";
   }
 
-  if (filteredBars.length > 0) {
-      shopListBars.innerHTML = createMobileListItemsMarkup(filteredBars);
+  if (filteredBars.length > 0 ||
+    filteredWaffles.length > 0) {
+    shopListBars.innerHTML = createMobileListItemsMarkup(filteredBars);
+    shopListWaffles.innerHTML = createMobileListItemsMarkup(filteredWaffles);
   } else {
-      SectionAllSweets.style.display = "none";
+    SectionAllSweets.style.display = "none";
   }
   
   if (filteredCoffeeBeans.length > 0 ||
-      filteredGroundCoffee.length > 0 ||
-      filteredInstantCoffee.length > 0 ||
-      filteredCacao.length > 0) {
-      shopListCoffeeBeans.innerHTML = createMobileListItemsMarkup(filteredCoffeeBeans);
-      shopListGroundCoffee.innerHTML = createMobileListItemsMarkup(filteredGroundCoffee);
-      shopListInstantCoffee.innerHTML = createMobileListItemsMarkup(filteredInstantCoffee);
-      shopListCacao.innerHTML = createMobileListItemsMarkup(filteredCacao);
+    filteredGroundCoffee.length > 0 ||
+    filteredInstantCoffee.length > 0 ||
+    filteredCacao.length > 0) {
+    shopListCoffeeBeans.innerHTML = createMobileListItemsMarkup(filteredCoffeeBeans);
+    shopListGroundCoffee.innerHTML = createMobileListItemsMarkup(filteredGroundCoffee);
+    shopListInstantCoffee.innerHTML = createMobileListItemsMarkup(filteredInstantCoffee);
+    shopListCacao.innerHTML = createMobileListItemsMarkup(filteredCacao);
   } else {
-      SectionAllDrinks.style.display = "none";
+    SectionAllDrinks.style.display = "none";
   }
 
   if (filteredOil.length > 0 ||
-      filteredOliveOil.length > 0) {
-      shopListOil.innerHTML = createMobileListItemsMarkup(filteredOil);
-      shopListOliveOil.innerHTML = createMobileListItemsMarkup(filteredOliveOil);
+    filteredOliveOil.length > 0) {
+    shopListOil.innerHTML = createMobileListItemsMarkup(filteredOil);
+    shopListOliveOil.innerHTML = createMobileListItemsMarkup(filteredOliveOil);
   } else {
-      SectionAllOlivesOil.style.display = "none";
+    SectionAllOlivesOil.style.display = "none";
   }
 
   if (filteredForBaking.length > 0 ||
-      filteredSauces.length > 0 ||
-      filteredSeasonings.length > 0) {
-      shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
-      shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
-      shopListSeasonings.innerHTML = createMobileListItemsMarkup(filteredSeasonings);
+    filteredSauces.length > 0 ||
+    filteredSeasonings.length > 0) {
+    shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
+    shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
+    shopListSeasonings.innerHTML = createMobileListItemsMarkup(filteredSeasonings);
   } else {
-      SectionAllTasteModifiers.style.display = "none";
+    SectionAllTasteModifiers.style.display = "none";
   }
   
   if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
-      shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredBabyShampoos);
-      shopListAdultShampoos.innerHTML = createMobileListItemsMarkup(filteredAdultShampoos);
+    shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredBabyShampoos);
+    shopListAdultShampoos.innerHTML = createMobileListItemsMarkup(filteredAdultShampoos);
   } else {
-      SectionAllShampoos.style.display = "none";
+    SectionAllShampoos.style.display = "none";
   }
 
   if (filteredBabyShowerGels.length > 0 || filteredAdultShowerGels.length > 0 ) {
-      shopListBabyShowerGels.innerHTML = createMobileListItemsMarkup(filteredBabyShowerGels);
-      shopListAdultShowerGels.innerHTML = createMobileListItemsMarkup(filteredAdultShowerGels);
+    shopListBabyShowerGels.innerHTML = createMobileListItemsMarkup(filteredBabyShowerGels);
+    shopListAdultShowerGels.innerHTML = createMobileListItemsMarkup(filteredAdultShowerGels);
   } else {
-      SectionAllShowerGels.style.display = "none";
+    SectionAllShowerGels.style.display = "none";
   }
 
     if (filteredMicellarWipes.length > 0 ) {
-      shopListMicellarWipes.innerHTML = createMobileListItemsMarkup(filteredMicellarWipes);
+    shopListMicellarWipes.innerHTML = createMobileListItemsMarkup(filteredMicellarWipes);
   } else {
-      SectionAllWipes.style.display = "none";
+    SectionAllWipes.style.display = "none";
   }
 
   // const shopsections = [
@@ -592,38 +620,35 @@ function handleFormSubmit(event) {
   // });
 
   if (filteredMeansHandsWashingDishes.length > 0 ||
-      filteredMeansMechanicalWashingDishes.length > 0
-      ) {
-      shopListMeansHandsWashingDishes.innerHTML = createMobileListItemsMarkup(filteredMeansHandsWashingDishes);
-      shopListMeansMechanicalWashingDishes.innerHTML = createMobileListItemsMarkup(filteredMeansMechanicalWashingDishes);
-    } else {
-      SectionAllMeansWashing.style.display = "none";
-    }
+    filteredMeansMechanicalWashingDishes.length > 0) {
+    shopListMeansHandsWashingDishes.innerHTML = createMobileListItemsMarkup(filteredMeansHandsWashingDishes);
+    shopListMeansMechanicalWashingDishes.innerHTML = createMobileListItemsMarkup(filteredMeansMechanicalWashingDishes);
+  } else {
+    SectionAllMeansWashing.style.display = "none";
+  }
 
-    if (filteredWashingGels.length > 0 ||
-        filteredPowerCaps.length > 0 ||
-        filteredWashingPowders.length > 0 ||
-        filteredStainRemovers.length > 0 ||
-        filteredSofteners.length > 0
-        ) {
-        shopListWashingGels.innerHTML = createMobileListItemsMarkup(filteredWashingGels);
-        shopListPowerCaps.innerHTML = createMobileListItemsMarkup(filteredPowerCaps);
-        shopListWashingPowders.innerHTML = createMobileListItemsMarkup(filteredWashingPowders);
-        shopListStainRemovers.innerHTML = createMobileListItemsMarkup(filteredStainRemovers);
-        shopListSofteners.innerHTML = createMobileListItemsMarkup(filteredSofteners);
-    } else {
-        SectionAllLaundryDetergents.style.display = "none";
-    }
+  if (filteredWashingGels.length > 0 ||
+    filteredPowerCaps.length > 0 ||
+    filteredWashingPowders.length > 0 ||
+    filteredStainRemovers.length > 0 ||
+    filteredSofteners.length > 0) {
+    shopListWashingGels.innerHTML = createMobileListItemsMarkup(filteredWashingGels);
+    shopListPowerCaps.innerHTML = createMobileListItemsMarkup(filteredPowerCaps);
+    shopListWashingPowders.innerHTML = createMobileListItemsMarkup(filteredWashingPowders);
+    shopListStainRemovers.innerHTML = createMobileListItemsMarkup(filteredStainRemovers);
+    shopListSofteners.innerHTML = createMobileListItemsMarkup(filteredSofteners);
+  } else {
+    SectionAllLaundryDetergents.style.display = "none";
+  }
 
-    if (filteredMeansCleaningUniversal.length > 0 ||
-        filteredMeansCleaningKitchenBathroom.length > 0 ||
-        filteredMeansCleaningDishwashers.length > 0
-        ) {
-        shopListMeansCleaningUniversal.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningUniversal);
-        shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
-        shopListMeansCleaningDishwashers.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningDishwashers);
-    } else {
-        SectionAllMeansCleaning.style.display = "none";
+  if (filteredMeansCleaningUniversal.length > 0 ||
+    filteredMeansCleaningKitchenBathroom.length > 0 ||
+    filteredMeansCleaningDishwashers.length > 0) {
+    shopListMeansCleaningUniversal.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningUniversal);
+    shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
+    shopListMeansCleaningDishwashers.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningDishwashers);
+  } else {
+    SectionAllMeansCleaning.style.display = "none";
   }
   
   const shopblocks = [
@@ -640,6 +665,7 @@ function handleFormSubmit(event) {
     { element: shopListSweetSpreads, items: filteredSweetSpreads, block: BlockSweetSpreads },
 
     { element: shopListBars, items: filteredBars, block: BlockBars },
+    { element: shopListWaffles, items: filteredWaffles, block: BlockWaffles },
   
     { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
     { element: shopListGroundCoffee, items: filteredGroundCoffee, block: BlockGroundCoffee },
