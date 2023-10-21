@@ -669,6 +669,8 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListCheese, items: filteredCheese, block: BlockCheese },
+
     { element: shopListPates, items: filteredPates, block: BlockPates },
     { element: shopListTuna, items: filteredTuna, block: BlockTuna },
     { element: shopListCod, items: filteredCod, block: BlockCod },
