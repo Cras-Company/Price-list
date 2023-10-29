@@ -13,7 +13,8 @@ import { refs, onOpenModal } from './modal-index.js';
 
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
-// Продукты 
+// Продукты
+import { shopLotsNoodles } from "./array-noodles.js";
 import { shopLotsMacaroni } from "./array-macaroni.js";
 
 import { shopLotsCheese } from "./array-cheese.js";
@@ -75,6 +76,7 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
+const shopListNoodles = document.querySelector(".js-cras__list--noodles");
 const shopListMacaroni = document.querySelector(".js-cras__list--macaroni");
 
 const shopListCheese = document.querySelector(".js-cras__list--cheese");
@@ -144,6 +146,7 @@ const filterForm = document.querySelector(".js-filter__form");
 
 // Макаронные изделия
 const SectionAllPasta = document.querySelector(".js-section-all-pasta");
+const BlockNoodles = document.querySelector(".js-block-noodles");
 const BlockMacaroni = document.querySelector(".js-block-macaroni");
 
 // Молочные продукты
@@ -237,6 +240,7 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
   { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
 
   { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
@@ -409,6 +413,7 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredNoodles = universalSearch(shopLotsNoodles, searchItem);
   const filteredMacaroni = universalSearch(shopLotsMacaroni, searchItem);
 
   const filteredCheese = universalSearch(shopLotsCheese, searchItem);
@@ -467,6 +472,7 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredNoodles,
     ...filteredMacaroni,
 
     ...filteredCheese,
@@ -540,7 +546,9 @@ function handleFormSubmit(event) {
         });
   }
 
-  if (filteredMacaroni.length > 0) {
+  if (filteredNoodles.length > 0 ||
+    filteredMacaroni.length > 0) {
+    shopListNoodles.innerHTML = createMobileListItemsMarkup(filteredNoodles);
     shopListMacaroni.innerHTML = createMobileListItemsMarkup(filteredMacaroni);
   } else {
     SectionAllPasta.style.display = "none";
@@ -689,6 +697,7 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListNoodles, items: filteredNoodles, block: BlockNoodles },
     { element: shopListMacaroni, items: filteredMacaroni, block: BlockMacaroni },
   
     { element: shopListCheese, items: filteredCheese, block: BlockCheese },
