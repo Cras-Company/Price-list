@@ -14,6 +14,8 @@ import { refs, onOpenModal } from './modal-index.js';
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
 // Продукты 
+import { shopLotsMacaroni } from "./array-macaroni.js";
+
 import { shopLotsCheese } from "./array-cheese.js";
 
 import { shopLotsPates } from "./array-pates.js";
@@ -73,6 +75,8 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
+const shopListMacaroni = document.querySelector(".js-cras__list--macaroni");
+
 const shopListCheese = document.querySelector(".js-cras__list--cheese");
 
 const shopListPates = document.querySelector(".js-cras__list--pates");
@@ -137,6 +141,10 @@ const filterFormMobile = document.querySelector(".js-filter__form-mobile");
 
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
+
+// Макаронные изделия
+const SectionAllPasta = document.querySelector(".js-section-all-pasta");
+const BlockMacaroni = document.querySelector(".js-block-macaroni");
 
 // Молочные продукты
 const SectionAllDairy = document.querySelector(".js-section-all-dairy");
@@ -229,6 +237,8 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
+
   { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
 
   { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
@@ -399,6 +409,8 @@ function handleFormSubmit(event) {
   }
 
   // Продукты питания
+  const filteredMacaroni = universalSearch(shopLotsMacaroni, searchItem);
+
   const filteredCheese = universalSearch(shopLotsCheese, searchItem);
 
   const filteredPates = universalSearch(shopLotsPates, searchItem);
@@ -455,6 +467,8 @@ function handleFormSubmit(event) {
 
   const allFilteredItems = [
     // Продукты питания
+    ...filteredMacaroni,
+
     ...filteredCheese,
 
     ...filteredPates,
@@ -524,6 +538,12 @@ function handleFormSubmit(event) {
         JSSectionOne.forEach((section) => {
             section.style.display = "block";
         });
+  }
+
+  if (filteredMacaroni.length > 0) {
+    shopListMacaroni.innerHTML = createMobileListItemsMarkup(filteredMacaroni);
+  } else {
+    SectionAllPasta.style.display = "none";
   }
 
   if (filteredCheese.length > 0) {
@@ -669,6 +689,8 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListMacaroni, items: filteredMacaroni, block: BlockMacaroni },
+  
     { element: shopListCheese, items: filteredCheese, block: BlockCheese },
 
     { element: shopListPates, items: filteredPates, block: BlockPates },

@@ -177,7 +177,6 @@
 }
 
 .filter__secondary-list {
-  z-index: 85;
 
   &--index-50 {
     z-index: 50;
@@ -205,6 +204,14 @@
 
   &--index-70 {
     z-index: 70;
+  }
+
+  &--index-75 {
+    z-index: 75;
+  }
+
+  &--index-80 {
+    z-index: 80;
   }
 }
 
