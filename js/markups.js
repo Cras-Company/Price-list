@@ -474,7 +474,7 @@ export function createBasketOrderMarkup() {
                 </li>
 
                 <li class="contacts__list contacts__list--basket-margin">
-                    <a class="socials-link" href="https://www.instagram.com/direct/t/17845007873476272" target="_blank">
+                    <a class="socials-link" href="https://ig.me/m/cras_company" target="_blank">
                         <svg class="social-icon" width="40" height="40">
                             <use class="social-icon__main" 
                                 href="./images/icon/sprite.svg#instagram">
