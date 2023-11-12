@@ -17,6 +17,7 @@ import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from '
 import { shopLotsNoodles } from "./array-noodles.js";
 import { shopLotsMacaroni } from "./array-macaroni.js";
 import { shopLotsSpaghetti } from "./array-spaghetti.js";
+import { shopLotsTarhona } from "./array-tarhona.js";
 
 import { shopLotsCheese } from "./array-cheese.js";
 
@@ -80,6 +81,7 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 const shopListNoodles = document.querySelector(".js-cras__list--noodles");
 const shopListMacaroni = document.querySelector(".js-cras__list--macaroni");
 const shopListSpaghetti = document.querySelector(".js-cras__list--spaghetti");
+const shopListTarhona = document.querySelector(".js-cras__list--tarhona");
 
 const shopListCheese = document.querySelector(".js-cras__list--cheese");
 
@@ -151,6 +153,7 @@ const SectionAllPasta = document.querySelector(".js-section-all-pasta");
 const BlockNoodles = document.querySelector(".js-block-noodles");
 const BlockMacaroni = document.querySelector(".js-block-macaroni");
 const BlockSpaghetti = document.querySelector(".js-block-spaghetti");
+const BlockTarhona = document.querySelector(".js-block-tarhona");
 
 // Молочные продукты
 const SectionAllDairy = document.querySelector(".js-section-all-dairy");
@@ -246,6 +249,7 @@ const arrayOfProducts = [
   { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
   { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
   { element: shopListSpaghetti, items: shopLotsSpaghetti, block: BlockSpaghetti, dataTarget: "spaghetti" },
+  { element: shopListTarhona, items: shopLotsTarhona, block: BlockTarhona, dataTarget: "tarhona" },
 
   { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
 
@@ -420,6 +424,7 @@ function handleFormSubmit(event) {
   const filteredNoodles = universalSearch(shopLotsNoodles, searchItem);
   const filteredMacaroni = universalSearch(shopLotsMacaroni, searchItem);
   const filteredSpaghetti = universalSearch(shopLotsSpaghetti, searchItem);
+  const filteredTarhona = universalSearch(shopLotsTarhona, searchItem);
 
   const filteredCheese = universalSearch(shopLotsCheese, searchItem);
 
@@ -480,6 +485,7 @@ function handleFormSubmit(event) {
     ...filteredNoodles,
     ...filteredMacaroni,
     ...filteredSpaghetti,
+    ...filteredTarhona,
 
     ...filteredCheese,
 
@@ -554,10 +560,12 @@ function handleFormSubmit(event) {
 
   if (filteredNoodles.length > 0 ||
     filteredMacaroni.length > 0 ||
-    filteredSpaghetti.length > 0) {
+    filteredSpaghetti.length > 0 ||
+    filteredTarhona.length > 0) {
     shopListNoodles.innerHTML = createMobileListItemsMarkup(filteredNoodles);
     shopListMacaroni.innerHTML = createMobileListItemsMarkup(filteredMacaroni);
     shopListSpaghetti.innerHTML = createMobileListItemsMarkup(filteredSpaghetti);
+    shopListTarhona.innerHTML = createMobileListItemsMarkup(filteredTarhona);
   } else {
     SectionAllPasta.style.display = "none";
   }
@@ -708,6 +716,7 @@ function handleFormSubmit(event) {
     { element: shopListNoodles, items: filteredNoodles, block: BlockNoodles },
     { element: shopListMacaroni, items: filteredMacaroni, block: BlockMacaroni },
     { element: shopListSpaghetti, items: filteredSpaghetti, block: BlockSpaghetti },
+    { element: shopListTarhona, items: filteredTarhona, block: BlockTarhona },
   
     { element: shopListCheese, items: filteredCheese, block: BlockCheese },
 
