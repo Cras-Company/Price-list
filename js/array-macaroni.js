@@ -210,6 +210,27 @@ export const shopLotsMacaroni = [
         description05: "Насолоджуйтеся смаком Італії прямо у своєму домі з &#171Italiamo - Trottole Tricolore&#187!"
     },
     {
+        type: "wholesale",
+        url: "./images/shop/food/pasta/macaroni/jarmi_rise_500.jpg",
+        alt: "jarmi_rise_500",
+        marker: "FDMI450",
+        brand: "Jármi",
+        search: "ярмі ярми крупная макароны твердый твердий сорт тверді сорта твердые сорта с твердых сортов",
+        nameUKR: "Макарони у формі рису з твердих сортів",
+        nameEN: "Száraztészta",
+        companyName: "Jármitészta",
+        countryName: "Угорщина",
+        weightName: "Вага",
+        weight: "500 гр.",
+        priceGRN: 43,
+        priceGRNOpt: 39,
+        description01: "&#171Jármi - Száraztészta&#187 - це не просто макарони, а справжнє кулінарне відкриття. Їх унікальна форма рисинок додає оригінальності будь-якій страві, створюючи гармонійність текстури та смаку.",
+        description02: "Завдяки їхній унікальній формі, вони ідеально утримують соуси, надаючи кожній страві неповторності та насиченості.",
+        description03: "&#171Jármi - Száraztészta&#187 виготовляється із відбірного борошна за допомогою традиційних методів виробництва. Це гарантує Вам продукт високої якості, який зберігає всі корисні властивості пшениці.",
+        description04: "<strong>Макарони з твердих сортів пшениці, форма рису. Без яєць.</strong>",
+        description05: "Створюйте нові страви, експериментуйте з різноманітними соусами та насолоджуйтеся смаковим розмаїттям разом з &#171Jármi - Száraztészta&#187!"
+    },
+    {
         type: "retail",
         url: "./images/shop/food/pasta/macaroni/pasta_reggia_elbows_500.jpg",
         alt: "pasta_reggia_elbows_500",
