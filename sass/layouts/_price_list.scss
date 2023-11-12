@@ -150,7 +150,12 @@
 }
 
 .cras-item__title-box {
-    margin-bottom: 20px;
+    position: relative;
+    z-index: 200;
+
+    padding-bottom: 20px;
+
+    background-color: var(--pure-white);
 }
 
 .cras-item__main-title {
