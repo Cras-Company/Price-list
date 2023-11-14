@@ -44,6 +44,7 @@ import { shopLotsInstantCoffee } from "./array-instant-coffee.js";
 import { shopLotsCacao } from "./array-cacao.js";
 
 import { shopLotsOil } from "./array-oil.js";
+import { shopLotsOlives } from "./array-olives.js";
 import { shopLotsOliveOil } from "./array-olive-oil.js";
 
 import { shopLotsForBaking } from "./array-for-baking.js";
@@ -108,6 +109,7 @@ const shopListInstantCoffee = document.querySelector(".js-cras__list--instant-co
 const shopListCacao = document.querySelector(".js-cras__list--cacao");
 
 const shopListOil = document.querySelector(".js-cras__list--oil");
+const shopListOlives = document.querySelector(".js-cras__list--olives");
 const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
 
 const shopListForBaking = document.querySelector(".js-cras__list--for-baking");
@@ -194,6 +196,7 @@ const BlockCacao = document.querySelector(".js-block-cacao");
 // Оливки и масло
 const SectionAllOlivesOil = document.querySelector(".js-section-all-olives-oil");
 const BlockOil = document.querySelector(".js-block-oil");
+const BlockOlives = document.querySelector(".js-block-olives");
 const BlockOliveOil = document.querySelector(".js-block-olive-oil");
 
 // Модификаторы вкуса
@@ -276,6 +279,7 @@ const arrayOfProducts = [
   { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
 
   { element: shopListOil, items: shopLotsOil, block: BlockOil, dataTarget: "oil" },
+  { element: shopListOlives, items: shopLotsOlives, block: BlockOlives, dataTarget: "olives" },
   { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
 
   { element: shopListForBaking, items: shopLotsForBaking, block: BlockForBaking, dataTarget: "for-baking" },
