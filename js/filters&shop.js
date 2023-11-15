@@ -83,10 +83,11 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 
 // Продукты питания
-const shopListNoodles = document.querySelector(".js-cras__list--noodles");
 const shopListMacaroni = document.querySelector(".js-cras__list--macaroni");
 const shopListSpaghetti = document.querySelector(".js-cras__list--spaghetti");
 const shopListTarhona = document.querySelector(".js-cras__list--tarhona");
+
+const shopListNoodles = document.querySelector(".js-cras__list--noodles");
 
 const shopListCheese = document.querySelector(".js-cras__list--cheese");
 
