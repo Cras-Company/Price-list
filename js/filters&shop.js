@@ -22,6 +22,7 @@ import { shopLotsTarhona } from "./array-tarhona.js";
 import { shopLotsCheese } from "./array-cheese.js";
 
 import { shopLotsPates } from "./array-pates.js";
+import { shopLotsSalmon } from "./array-salmon.js";
 import { shopLotsTuna } from "./array-tuna.js";
 import { shopLotsCod } from "./array-cod.js";
 import { shopLotsSprats } from "./array-sprats.js";
@@ -87,6 +88,7 @@ const shopListTarhona = document.querySelector(".js-cras__list--tarhona");
 const shopListCheese = document.querySelector(".js-cras__list--cheese");
 
 const shopListPates = document.querySelector(".js-cras__list--pates");
+const shopListSalmon = document.querySelector(".js-cras__list--salmon");
 const shopListTuna = document.querySelector(".js-cras__list--tuna");
 const shopListCod = document.querySelector(".js-cras__list--cod");
 const shopListSprats = document.querySelector(".js-cras__list--sprats");
@@ -164,6 +166,7 @@ const BlockCheese = document.querySelector(".js-block-cheese");
 // Консервация
 const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food");
 const BlockPates = document.querySelector(".js-block-pates");
+const BlockSalmon = document.querySelector(".js-block-salmon");
 const BlockTuna = document.querySelector(".js-block-tuna");
 const BlockCod = document.querySelector(".js-block-cod");
 const BlockSprats = document.querySelector(".js-block-sprats");
@@ -257,6 +260,7 @@ const arrayOfProducts = [
   { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
 
   { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
+  { element: shopListSalmon, items: shopLotsSalmon, block: BlockSalmon, dataTarget: "salmon" },
   { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
   { element: shopListCod, items: shopLotsCod, block: BlockCod, dataTarget: "cod" },
   { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
@@ -433,6 +437,7 @@ function handleFormSubmit(event) {
   const filteredCheese = universalSearch(shopLotsCheese, searchItem);
 
   const filteredPates = universalSearch(shopLotsPates, searchItem);
+  const filteredSalmon = universalSearch(shopLotsSalmon, searchItem);
   const filteredTuna = universalSearch(shopLotsTuna, searchItem);
   const filteredCod = universalSearch(shopLotsCod, searchItem);
   const filteredSprats = universalSearch(shopLotsSprats, searchItem);
@@ -455,6 +460,7 @@ function handleFormSubmit(event) {
   const filteredCacao = universalSearch(shopLotsCacao, searchItem);
 
   const filteredOil = universalSearch(shopLotsOil, searchItem);
+  const filteredOlives = universalSearch(shopLotsOlives, searchItem);
   const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
 
   const filteredForBaking = universalSearch(shopLotsForBaking, searchItem);
@@ -494,6 +500,7 @@ function handleFormSubmit(event) {
     ...filteredCheese,
 
     ...filteredPates,
+    ...filteredSalmon,
     ...filteredTuna,
     ...filteredCod,
     ...filteredSprats,
@@ -516,6 +523,7 @@ function handleFormSubmit(event) {
     ...filteredCacao,
 
     ...filteredOil,
+    ...filteredOlives,
     ...filteredOliveOil,
 
     ...filteredForBaking,
@@ -581,10 +589,12 @@ function handleFormSubmit(event) {
   }
 
   if (filteredPates.length > 0 ||
+    filteredSalmon.length > 0 ||
     filteredTuna.length > 0 ||
     filteredCod.length > 0 ||
     filteredSprats.length > 0) {
     shopListPates.innerHTML = createMobileListItemsMarkup(filteredPates);
+    shopListSalmon.innerHTML = createMobileListItemsMarkup(filteredSalmon);
     shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
     shopListCod.innerHTML = createMobileListItemsMarkup(filteredCod);
     shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
@@ -635,8 +645,10 @@ function handleFormSubmit(event) {
   }
 
   if (filteredOil.length > 0 ||
+    filteredOlives.length > 0 ||
     filteredOliveOil.length > 0) {
     shopListOil.innerHTML = createMobileListItemsMarkup(filteredOil);
+    shopListOlives.innerHTML = createMobileListItemsMarkup(filteredOlives);
     shopListOliveOil.innerHTML = createMobileListItemsMarkup(filteredOliveOil);
   } else {
     SectionAllOlivesOil.style.display = "none";
@@ -725,6 +737,7 @@ function handleFormSubmit(event) {
     { element: shopListCheese, items: filteredCheese, block: BlockCheese },
 
     { element: shopListPates, items: filteredPates, block: BlockPates },
+    { element: shopListSalmon, items: filteredSalmon, block: BlockSalmon },
     { element: shopListTuna, items: filteredTuna, block: BlockTuna },
     { element: shopListCod, items: filteredCod, block: BlockCod },
     { element: shopListSprats, items: filteredSprats, block: BlockSprats },
@@ -747,6 +760,7 @@ function handleFormSubmit(event) {
     { element: shopListCacao, items: filteredCacao, block: BlockCacao },
 
     { element: shopListOil, items: filteredOil, block: BlockOil },
+    { element: shopListOlives, items: filteredOlives, block: BlockOlives },
     { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
 
     { element: shopListForBaking, items: filteredForBaking, block: BlockForBaking },

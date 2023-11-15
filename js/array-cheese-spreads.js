@@ -174,7 +174,7 @@ export const shopLotsCheeseSpreads = [
         marker: "CHSP080",
         brand: "Mlekpol",
         search: "млекпол норвезький смак норвежский вкус помазанка помазанки крем вершки сливки сливочный крем cир сыр сырный крем лосось укроп с лососем укропом",
-        nameUKR: "Сирний крем",
+        nameUKR: "Сирний крем з лососем та кропом",
         nameEN: "Norweski Smak",
         companyName: "Mlekpol",
         countryName: "Польща",
