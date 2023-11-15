@@ -1,5 +1,5 @@
 export const shopLotsMackerel = [
-        {
+    {
         type: "retail",
         url: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_tomato_170.jpg",
         alt: "marinero_filety_z_makreli_tomato_170",
@@ -19,5 +19,26 @@ export const shopLotsMackerel = [
         description03: "&#171Marinero - Filety Z Makreli&#187 виготовлені з найсвіжіших інгредієнтів, щоб забезпечити Вам справжню якість та неперевершений смак.",
         description04: "<strong>Макрель у томатному соусі, філе.</strong>",
         description05: "Спробуйте &#171Marinero - Filety Z Makreli&#187 у томатному соусі і відкрийте для себе новий рівень смакового задоволення!"
+    },
+    {
+        type: "retail",
+        url: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_oil_170.jpg",
+        alt: "marinero_filety_z_makreli_oil_170",
+        marker: "MKRL210",
+        brand: "Marinero",
+        search: "маринеро марінеро растительное масло в растительном масле соус соусы рыба риба рослинна олія",
+        nameUKR: "Макрель у рослинній олії",
+        nameEN: "Filety Z Makreli",
+        companyName: "Jeronimo Martins S.A.",
+        countryName: "Польща",
+        weightName: "Вага",
+        weight: "170 гр.",
+        priceGRN: 55,
+        quantityOnStorage: "5",
+        description01: "&#171Marinero - Filety Z Makreli&#187 - це справжній дарунок для гурманів, які цінують елегантність та здоров'я в їжі.",
+        description02: "Кожен кусочок філе ніжний і смачний, а рослинна олія додає дотик здоров'я, роблячи цей продукт ідеальним вибором для більш білкового та омега-3 насиченого раціону.",
+        description03: "&#171Marinero - Filety Z Makreli&#187 у рослинній олії готуються із застосуванням тільки найсвіжіших інгредієнтів та передових технологій, гарантуючи Вам бездоганний смак та поживні якості.",
+        description04: "<strong>Макрель у рослинній олії, філе.</strong>",
+        description05: "Оберіть здоров'я, оберіть смак - оберіть &#171Marinero - Filety Z Makreli&#187!"
     },
 ]

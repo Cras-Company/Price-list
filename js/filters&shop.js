@@ -24,6 +24,7 @@ import { shopLotsCheese } from "./array-cheese.js";
 import { shopLotsPates } from "./array-pates.js";
 import { shopLotsSalmon } from "./array-salmon.js";
 import { shopLotsMackerel } from "./array-mackerel.js";
+import { shopLotsHerring } from "./array-herring.js";
 import { shopLotsTuna } from "./array-tuna.js";
 import { shopLotsCod } from "./array-cod.js";
 import { shopLotsSprats } from "./array-sprats.js";
@@ -91,6 +92,7 @@ const shopListCheese = document.querySelector(".js-cras__list--cheese");
 const shopListPates = document.querySelector(".js-cras__list--pates");
 const shopListSalmon = document.querySelector(".js-cras__list--salmon");
 const shopListMackerel = document.querySelector(".js-cras__list--mackerel");
+const shopListHerring = document.querySelector(".js-cras__list--herring");
 const shopListTuna = document.querySelector(".js-cras__list--tuna");
 const shopListCod = document.querySelector(".js-cras__list--cod");
 const shopListSprats = document.querySelector(".js-cras__list--sprats");
@@ -170,6 +172,7 @@ const SectionAllCannedFood = document.querySelector(".js-section-all-canned-food
 const BlockPates = document.querySelector(".js-block-pates");
 const BlockSalmon = document.querySelector(".js-block-salmon");
 const BlockMackerel = document.querySelector(".js-block-mackerel");
+const BlockHerring = document.querySelector(".js-block-herring");
 const BlockTuna = document.querySelector(".js-block-tuna");
 const BlockCod = document.querySelector(".js-block-cod");
 const BlockSprats = document.querySelector(".js-block-sprats");
@@ -265,6 +268,7 @@ const arrayOfProducts = [
   { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
   { element: shopListSalmon, items: shopLotsSalmon, block: BlockSalmon, dataTarget: "salmon" },
   { element: shopListMackerel, items: shopLotsMackerel, block: BlockMackerel, dataTarget: "mackerel" },
+  { element: shopListHerring, items: shopLotsHerring, block: BlockHerring, dataTarget: "herring" },
   { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
   { element: shopListCod, items: shopLotsCod, block: BlockCod, dataTarget: "cod" },
   { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
@@ -443,6 +447,7 @@ function handleFormSubmit(event) {
   const filteredPates = universalSearch(shopLotsPates, searchItem);
   const filteredSalmon = universalSearch(shopLotsSalmon, searchItem);
   const filteredMackerel = universalSearch(shopLotsMackerel, searchItem);
+  const filteredHerring = universalSearch(shopLotsHerring, searchItem);
   const filteredTuna = universalSearch(shopLotsTuna, searchItem);
   const filteredCod = universalSearch(shopLotsCod, searchItem);
   const filteredSprats = universalSearch(shopLotsSprats, searchItem);
@@ -507,6 +512,7 @@ function handleFormSubmit(event) {
     ...filteredPates,
     ...filteredSalmon,
     ...filteredMackerel,
+    ...filteredHerring,
     ...filteredTuna,
     ...filteredCod,
     ...filteredSprats,
@@ -597,12 +603,14 @@ function handleFormSubmit(event) {
   if (filteredPates.length > 0 ||
     filteredSalmon.length > 0 ||
     filteredMackerel.length > 0 ||
+    filteredHerring.length > 0 ||
     filteredTuna.length > 0 ||
     filteredCod.length > 0 ||
     filteredSprats.length > 0) {
     shopListPates.innerHTML = createMobileListItemsMarkup(filteredPates);
     shopListSalmon.innerHTML = createMobileListItemsMarkup(filteredSalmon);
     shopListMackerel.innerHTML = createMobileListItemsMarkup(filteredMackerel);
+    shopListHerring.innerHTML = createMobileListItemsMarkup(filteredHerring);
     shopListTuna.innerHTML = createMobileListItemsMarkup(filteredTuna);
     shopListCod.innerHTML = createMobileListItemsMarkup(filteredCod);
     shopListSprats.innerHTML = createMobileListItemsMarkup(filteredSprats);
@@ -747,6 +755,7 @@ function handleFormSubmit(event) {
     { element: shopListPates, items: filteredPates, block: BlockPates },
     { element: shopListSalmon, items: filteredSalmon, block: BlockSalmon },
     { element: shopListMackerel, items: filteredMackerel, block: BlockMackerel },
+    { element: shopListHerring, items: filteredHerring, block: BlockHerring },
     { element: shopListTuna, items: filteredTuna, block: BlockTuna },
     { element: shopListCod, items: filteredCod, block: BlockCod },
     { element: shopListSprats, items: filteredSprats, block: BlockSprats },
