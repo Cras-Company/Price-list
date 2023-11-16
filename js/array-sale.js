@@ -1,6 +1,27 @@
 export const shopLotsSale = [
     {
         type: "retail",
+        url: "./images/shop/sale/cynosure_3_1.jpg",
+        alt: "cynosure_3_1",
+        marker: "SALE300",
+        brand: "Cynosure",
+        search: "серветка макіяж макияж для снятия зняття гіалуронова кислота",
+        nameUKR: "Міцелярні серветки <br>1 + 1 = 3",
+        nameEN: "Micellar Cleansing Wipes",
+        companyName: "Lachmund GmbH",
+        countryName: "Німеччина",
+        quantityName: "Кількість",
+        quantity: "75 шт.",
+        priceGRN: 100,
+        quantityOnStorage: "7",
+        description01: "&#171Cynosure - Micellar Cleansing Wipes&#187 - це секрет бездоганної і яскравої шкіри. Ці зволожуючі і збагачені гіалуроновою кислотою серветки забезпечують ефективне очищення, одночасно зволожуючи і заспокоюючи вашу шкіру.",
+        description02: "Інтенсивний догляд гіалуронової кислоти глибоко проникає у шкіру, допомагаючи зберігати природний баланс вологи і підтримувати молодість шкіри. Завдяки цьому, ваша шкіра виглядає свіжою, пружною і сяючою красою.",
+        description03: "Тонкий аромат &#171Cynosure - Micellar Cleansing Wipes&#187 створює атмосферу релаксації та комфорту. Практичні та зручні у використанні, ці серветки ідеально підходять для використання у дорозі.",
+        description04: "<strong>Підходить для будь-якого типу шкіри. Акційна пропозиція 1 + 1 = 3.</strong>",
+        description05: "Поспішайте придбати дві упаковки &#171Cynosure - Micellar Cleansing Wipes&#187 та отримайте третю у подарунок!"
+    },
+    {
+        type: "retail",
         url: "./images/shop/sale/right_guard_15_off.jpg",
         alt: "right_guard_15_off",
         marker: "SALE500",
