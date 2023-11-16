@@ -18,6 +18,7 @@ export const refs = {
   closeModalBtn: document.querySelectorAll('[data-modal-close]'),
 };
 
+const filterSale = document.querySelectorAll('.filter__menu[data-target="sale"]');
 const categoryItems = document.querySelectorAll(".js-category-items");
 
 const html = document.documentElement;
@@ -105,6 +106,12 @@ refs.closeModalBtn.forEach((btn) => {
     onCloseModal(refs.modalMobileMainMenu);
     onCloseModal(refs.modalBasketMenu);
     onCloseModal(refs.openModalLot);
+  });
+});
+
+filterSale.forEach(item => {
+  item.addEventListener('click', () => {
+    onCloseModal(refs.modalMobileMenuSearch);
   });
 });
 

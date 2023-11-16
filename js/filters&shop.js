@@ -871,48 +871,51 @@ function handleFormSubmit(event) {
 // Клик по акции
 // ===========================================================================
 
-document.querySelector('.filter__menu[data-target="sale"]').addEventListener('click', function(event) {
-  outputError.textContent = "";
-  outputError.style.marginTop = "0px";
-  outputError.style.marginBottom = "0px";
-  
-  const target = event.currentTarget;
+const filterListSale = document.querySelectorAll('.filter__menu[data-target="sale"]');
 
-  console.log(target)
+filterListSale.forEach(filterItem => {
+  filterItem.addEventListener('click', function (event) {
+    outputError.textContent = "";
+    outputError.style.marginTop = "0px";
+    outputError.style.marginBottom = "0px";
 
-  if (target.tagName === "LI") {
-    const dataTarget = target.getAttribute("data-target");
+    const target = event.currentTarget;
 
-    if (dataTarget) {
-      hideAllSectionsAndProducts();
+    console.log(target);
 
-      arrayOfProducts.forEach(({ element, dataTarget: productDataTarget, block }) => {
-        if (productDataTarget === dataTarget) {
-          element.style.display = "flex";
+    if (target.tagName === "LI") {
+      const dataTarget = target.getAttribute("data-target");
 
-          const section = element.closest(".js-section-none");
+      if (dataTarget) {
+        hideAllSectionsAndProducts();
 
-          if (section) {
-            section.style.display = "block";
+        arrayOfProducts.forEach(({ element, dataTarget: productDataTarget, block }) => {
+          if (productDataTarget === dataTarget) {
+            element.style.display = "flex";
+
+            const section = element.closest(".js-section-none");
+
+            if (section) {
+              section.style.display = "block";
+            }
+
+            if (block) {
+              block.style.display = "block";
+
+              arrayOfProducts.forEach(product => {
+                if (productDataTarget === dataTarget) {
+                  product.element.innerHTML = createMobileListItemsMarkup(product.items);
+                }
+              });
+            }
           }
+        });
 
-          if (block) {
-            block.style.display = "block";
-
-            arrayOfProducts.forEach(product => {
-              if (productDataTarget === dataTarget) {
-                product.element.innerHTML = createMobileListItemsMarkup(product.items);
-              }
-            })
-          }
-        }
-      });
-
-      jumpSearch();
-      lazyLoadImagesAnimation();
+        jumpSearch();
+        lazyLoadImagesAnimation();
+      }
     }
-  }
-
+  });
 });
 
 // ===========================================================================
