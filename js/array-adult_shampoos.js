@@ -26,7 +26,7 @@ export const shopLotsAdultShampoos = [
     alt: "right_guard_sport",
     marker: "ASDG002",
     brand: "Right Guard",
-    search: "шампуні гелі гели душа шварцкопф хенкель чоловічий чоловічі чоловічій",
+    search: "райт гуард шампуні гелі гели душа шварцкопф хенкель чоловічий чоловічі чоловічій",
     nameUKR: "Шампунь для чоловіків, гель для душу",
     nameEN: "Sport Recharge 3 in 1",
     companyName: "Schwarzkopf & Henkel",

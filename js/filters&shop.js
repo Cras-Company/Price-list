@@ -13,6 +13,9 @@ import { refs, onOpenModal } from './modal-index.js';
 
 import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
 
+// Акция
+import { shopLotsSale } from "./array-sale.js";
+
 // Продукты
 import { shopLotsNoodles } from "./array-noodles.js";
 import { shopLotsMacaroni } from "./array-macaroni.js";
@@ -81,6 +84,9 @@ import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwas
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
+
+// Акция
+const shopListSale = document.querySelector(".js-cras__list--sale");
 
 // Продукты питания
 const shopListMacaroni = document.querySelector(".js-cras__list--macaroni");
@@ -158,6 +164,10 @@ const filterFormMobile = document.querySelector(".js-filter__form-mobile");
 
 const inputSearch = document.querySelector("#search");
 const filterForm = document.querySelector(".js-filter__form");
+
+// Акция
+const SectionAllSale = document.querySelector(".js-section-all-sales");
+const BlockSale = document.querySelector(".js-block-sale");
 
 // Макаронные изделия
 const SectionAllPasta = document.querySelector(".js-section-all-pasta");
@@ -262,6 +272,8 @@ const outputError = document.querySelector(".js-output-error");
 // ===========================================================================
 
 const arrayOfProducts = [
+  { element: shopListSale, items: shopLotsSale, block: BlockSale, dataTarget: "sale" },
+
   { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
   { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
   { element: shopListSpaghetti, items: shopLotsSpaghetti, block: BlockSpaghetti, dataTarget: "spaghetti" },
@@ -441,6 +453,9 @@ function handleFormSubmit(event) {
     inputSearchMobile.value = "";
   }
 
+  // Акция
+  const filteredSale = universalSearch(shopLotsSale, searchItem);
+
   // Продукты питания
   const filteredNoodles = universalSearch(shopLotsNoodles, searchItem);
   const filteredMacaroni = universalSearch(shopLotsMacaroni, searchItem);
@@ -507,6 +522,9 @@ function handleFormSubmit(event) {
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
 
   const allFilteredItems = [
+    // Акция
+    ...filteredSale,
+
     // Продукты питания
     ...filteredNoodles,
     ...filteredMacaroni,
@@ -587,6 +605,12 @@ function handleFormSubmit(event) {
         JSSectionOne.forEach((section) => {
             section.style.display = "block";
         });
+  }
+
+  if (filteredSale.length > 0) {
+    shopListSale.innerHTML = createMobileListItemsMarkup(filteredSale);
+  } else {
+    SectionAllSale.style.display = "none";
   }
 
   if (filteredNoodles.length > 0 ||
@@ -754,6 +778,8 @@ function handleFormSubmit(event) {
   }
   
   const shopblocks = [
+    { element: shopListSale, items: filteredSale, block: BlockSale },
+  
     { element: shopListNoodles, items: filteredNoodles, block: BlockNoodles },
     { element: shopListMacaroni, items: filteredMacaroni, block: BlockMacaroni },
     { element: shopListSpaghetti, items: filteredSpaghetti, block: BlockSpaghetti },
@@ -840,6 +866,54 @@ function handleFormSubmit(event) {
   jumpSearch();
   lazyLoadImagesAnimation();
 }
+
+// ===========================================================================
+// Клик по акции
+// ===========================================================================
+
+document.querySelector('.filter__menu[data-target="sale"]').addEventListener('click', function(event) {
+  outputError.textContent = "";
+  outputError.style.marginTop = "0px";
+  outputError.style.marginBottom = "0px";
+  
+  const target = event.currentTarget;
+
+  console.log(target)
+
+  if (target.tagName === "LI") {
+    const dataTarget = target.getAttribute("data-target");
+
+    if (dataTarget) {
+      hideAllSectionsAndProducts();
+
+      arrayOfProducts.forEach(({ element, dataTarget: productDataTarget, block }) => {
+        if (productDataTarget === dataTarget) {
+          element.style.display = "flex";
+
+          const section = element.closest(".js-section-none");
+
+          if (section) {
+            section.style.display = "block";
+          }
+
+          if (block) {
+            block.style.display = "block";
+
+            arrayOfProducts.forEach(product => {
+              if (productDataTarget === dataTarget) {
+                product.element.innerHTML = createMobileListItemsMarkup(product.items);
+              }
+            })
+          }
+        }
+      });
+
+      jumpSearch();
+      lazyLoadImagesAnimation();
+    }
+  }
+
+});
 
 // ===========================================================================
 // Навигация по товарам

@@ -99,17 +99,17 @@
   font-size: 18px;
   line-height: 1.14;
 
-    @media screen and (min-width: 480px) {
-      font-size: 20px;
-    }
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+  }
 
-    @media screen and (min-width: 768px) and (max-width: 780px) {
-      font-size: 16px;
-    }
+  @media screen and (min-width: 768px) and (max-width: 780px) {
+    font-size: 16px;
+  }
 
-    @media screen and (min-width: 781px) {
-      font-size: 18px;
-    }
+  @media screen and (min-width: 781px) {
+    font-size: 18px;
+  }
 }
 
 .filter--next-line {
@@ -232,6 +232,12 @@
 .filter__secondary-menu {
   margin-left: 30px;
   margin-top: -2px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--link-color);
+  }
 }
 
 .filter-list__item:hover,
@@ -264,6 +270,12 @@
   z-index: 100;
 
   background-color: var(--pure-white);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--link-color);
+  }
 }
 
 .filter__secondary-icon-title-box {

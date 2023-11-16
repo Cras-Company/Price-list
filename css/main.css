@@ -680,6 +680,9 @@ img {
   margin-left: 30px;
   margin-top: -2px;
 }
+.filter__secondary-menu:hover, .filter__secondary-menu:focus, .filter__secondary-menu:active {
+  color: var(--link-color);
+}
 
 .filter-list__item:hover,
 .filter-list__item:focus,
@@ -709,6 +712,9 @@ img {
   position: relative;
   z-index: 100;
   background-color: var(--pure-white);
+}
+.filter__icon-title-box:hover, .filter__icon-title-box:focus, .filter__icon-title-box:active {
+  color: var(--link-color);
 }
 
 .filter__secondary-icon-title-box {
