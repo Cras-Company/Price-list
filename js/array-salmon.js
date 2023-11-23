@@ -1,6 +1,27 @@
 export const shopLotsSalmon = [
         {
         type: "retail",
+        url: "./images/shop/food/canned_food/salmon/m&k_losos_w_sosie_wlasnym_170.jpg",
+        alt: "m&k_losos_w_sosie_wlasnym_170",
+        marker: "SLMN180",
+        brand: "M & K",
+        search: "рыба в собственном соку риба losos w sosie wlasnym",
+        nameUKR: "Лосось у власному соку",
+        nameEN: "Łosoś W Sosie Własnym",
+        companyName: "Kasprzyk SP. K.",
+        countryName: "Польща",
+        weightName: "Вага",
+        weight: "170 гр.",
+        priceGRN: 72,
+        quantityOnStorage: "7",
+        description01: "&#171M & K - Łosoś W Sosie Własnym&#187 - найкращимй та неперевершений лосось у власному соку, справжній діамант серед рибних дельікатесів.",
+        description02: "Він вирізняється вишуканим поєднанням свіжості і смаку. Кожен кусочок насичений корисними речовинами, які роблять його ідеальним для здорового харчування.",
+        description03: "Спробуйте &#171M & K - Łosoś W Sosie Własnym&#187 і Ви відчуєте той неповторний смак, що розцінює справжній гурман. Його ніжна консистенція та смакові властивості роблять його неперевершеним вибором для ваших насолод.",
+        description04: "<strong>Лосось у власному соку, шматочками.</strong>",
+        description05: "Замовте лосося у власному соку &#171M & K - Łosoś W Sosie Własnym&#187 зараз і відчуйте розкіш смаку рибних делікатесів!"
+    },
+        {
+        type: "retail",
         url: "./images/shop/food/canned_food/salmon/marinero_losos_tomato_150.jpg",
         alt: "marinero_losos_tomato_150",
         marker: "SLMN202",
