@@ -188,4 +188,25 @@ export const shopLotsCheese = [
         description04: "<strong>Сир твердий. Пармезан. 30 місяців витримки.</strong>",
         description05: "Не втрачайте можливості спробувати &#171Parmareggio - Parmigiano Reggiano 30 Mesi&#187 - доторкніться до смакової вишуканості Італії вже сьогодні!"
     },
+    {
+        type: "wholesale",
+        url: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_naturale_30_mesi_250.jpg",
+        alt: "parmareggio_parmigiano_reggiano_naturale_30_mesi_250",
+        marker: "FDEE530",
+        brand: "Parmareggio",
+        search: "твердый сыр твердые сыры твердий сир тверді сири 30 месяцев с кальцием кальций с протеинами протеин",
+        nameUKR: "Пармезан з кальцієм та протеїнами",
+        nameEN: "Parmigiano Reggiano Oltre 30 Mesi",
+        companyName: "Parmareggio S.p.a.",
+        countryName: "Італія",
+        weightName: "Вага",
+        weight: "250 гр.",
+        priceGRN: 148,
+        priceGRNOpt: 134,
+        description01: "&#171Parmareggio - Parmigiano Reggiano Oltre 30 Mesi&#187 - сир пармезан відомий своєю витримкою та розкішним смаком. Це справжнє витвір мистецтва для істинних поціновувачів сиру.",
+        description02: "Це не тільки сир, але і вираження традиційної італійської майстерності. Його інтенсивний смак збагачений кальцієм та протеїнами. Цей сир витримується понад 30 місяців, щоб подарувати Вам неповторний гастрономічний досвід.",
+        description03: "&#171Parmareggio - Parmigiano Reggiano Oltre 30 Mesi&#187 буде ідеальним вибором для справжніх естетів. Подаруйте собі унікальний смак та вишуканість італійської гастрономії.",
+        description04: "<strong>Сир твердий. Пармезан. Без лактози, з кальцієм, протеїнами. 30 місяців витримки.</strong>",
+        description05: "Спробуйте витончений смак справжнього італійського пармезану &#171Parmareggio - Parmigiano Reggiano Oltre 30 Mesi&#187, який зробить ваші страви неперевершеними!"
+    },
 ]
