@@ -4,27 +4,6 @@ export const shopLotsMeansCleaningUniversal = [
     // ===========================================================================
     {
         type: "retail",
-        url: "./images/shop/household_chemicals/means_for_cleaning/universal/ace_sgrassatore_800.jpg",
-        alt: "ace_sgrassatore_800",
-        marker: "MCU001",
-        brand: "Ace",
-        search: "ейс аце эйс засоби проти жиру обезжириватель кухня кухні кухни",
-        nameUKR: "Знежирювач, засіб для чищення універсальний",
-        nameEN: "Sgrassatore Cucuna Limone e Bergamotto",
-        companyName: "The Procter & Gamble Company",
-        countryName: "Італія",
-        volumeName: "Об'єм",
-        volume: "800 мл.",
-        priceGRN: 89,
-        quantityONStorage: 2,
-        description01: "&#171Ace - Sgrassatore Cucuna Limone e Bergamotto&#187 - ваша таємниця бездоганної чистоти на кухні! Його унікальний склад, збагачений ароматами лимону та бергамоту, створює атмосферу свіжості та чистоти.",
-        description02: "Він здатний побороти навіть найскладніші жирні плями та утворення, дбає про збереження довготривалої чистоти, даруючи вам свободу на вашій кухні.",
-        description03: "Дія вражає, а результат залишається назавжди! Підходить для будь-якого типу кухонних поверхонь та посуди.",
-        description04: "<strong>Запаска! Знежирювач, засіб для чищення універсальний.</strong>",
-        description05: "Відкрийте новий рівень чистоти у вашому домі та дізнайтеся, як легко та ефективно здійснити догляд за вашою кухнею разом з &#171Ace - Sgrassatore Cucuna Limone e Bergamotto&#187."
-    },
-    {
-        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/ace_oxygen_750.jpg",
         alt: "ace_oxygen_750",
         marker: "HCUT001",

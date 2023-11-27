@@ -74,6 +74,7 @@ import { shopLotsMeansMechanicalWashingDishes } from "./array-means-mechanical-w
 import { shopLotsWashingGels } from "./array-washing-gels.js";
 import { shopLotsPowerCaps } from "./array-power-caps.js";
 import { shopLotsWashingPowders } from "./array-washing-powders.js";
+import { shopLotsBleaches } from "./array-bleaches.js";
 import { shopLotsStainRemovers } from "./array-stain-removers.js";
 import { shopLotsSofteners } from "./array-softeners.js";
 
@@ -147,6 +148,7 @@ const shopListMeansMechanicalWashingDishes = document.querySelector(".js-cras__l
 const shopListWashingGels = document.querySelector(".js-cras__list--washing-gels");
 const shopListPowerCaps = document.querySelector(".js-cras__list--power-caps");
 const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
+const shopListBleaches = document.querySelector(".js-cras__list--bleaches");
 const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
 const shopListSofteners = document.querySelector(".js-cras__list--softeners");
 
@@ -252,6 +254,7 @@ const SectionAllLaundryDetergents = document.querySelector(".js-section-all-laun
 const BlockWashingGels = document.querySelector(".js-block-washing-gels");
 const BlockPowerCaps = document.querySelector(".js-block-power-caps");
 const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
+const BlockBleaches = document.querySelector(".js-block-bleaches");
 const BlockStainRemovers = document.querySelector(".js-block-stain-removers");
 const BlockSofteners = document.querySelector(".js-block-softeners");
 
@@ -329,6 +332,7 @@ const arrayOfProducts = [
   { element: shopListWashingGels, items: shopLotsWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
   { element: shopListPowerCaps, items: shopLotsPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
   { element: shopListWashingPowders, items: shopLotsWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
+  { element: shopListBleaches, items: shopLotsBleaches, block: BlockBleaches, dataTarget: "bleaches" },
   { element: shopListStainRemovers, items: shopLotsStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
   { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
 
@@ -514,6 +518,7 @@ function handleFormSubmit(event) {
   const filteredWashingGels = universalSearch(shopLotsWashingGels, searchItem);
   const filteredPowerCaps = universalSearch(shopLotsPowerCaps, searchItem);
   const filteredWashingPowders = universalSearch(shopLotsWashingPowders, searchItem);
+  const filteredBleaches = universalSearch(shopLotsBleaches, searchItem);
   const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
   const filteredSofteners = universalSearch(shopLotsSofteners, searchItem);
 
@@ -582,6 +587,7 @@ function handleFormSubmit(event) {
     ...filteredWashingGels,
     ...filteredPowerCaps,
     ...filteredWashingPowders,
+    ...filteredBleaches,
     ...filteredStainRemovers,
     ...filteredSofteners,
 
@@ -756,11 +762,13 @@ function handleFormSubmit(event) {
   if (filteredWashingGels.length > 0 ||
     filteredPowerCaps.length > 0 ||
     filteredWashingPowders.length > 0 ||
+    filteredBleaches.length > 0 ||
     filteredStainRemovers.length > 0 ||
     filteredSofteners.length > 0) {
     shopListWashingGels.innerHTML = createMobileListItemsMarkup(filteredWashingGels);
     shopListPowerCaps.innerHTML = createMobileListItemsMarkup(filteredPowerCaps);
     shopListWashingPowders.innerHTML = createMobileListItemsMarkup(filteredWashingPowders);
+    shopListBleaches.innerHTML = createMobileListItemsMarkup(filteredBleaches);
     shopListStainRemovers.innerHTML = createMobileListItemsMarkup(filteredStainRemovers);
     shopListSofteners.innerHTML = createMobileListItemsMarkup(filteredSofteners);
   } else {
@@ -834,6 +842,7 @@ function handleFormSubmit(event) {
     { element: shopListWashingGels, items: filteredWashingGels, block: BlockWashingGels },
     { element: shopListPowerCaps, items: filteredPowerCaps, block: BlockPowerCaps },
     { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders },
+    { element: shopListBleaches, items: filteredBleaches, block: BlockBleaches },
     { element: shopListStainRemovers, items: filteredStainRemovers, block: BlockStainRemovers },
     { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners },
 
