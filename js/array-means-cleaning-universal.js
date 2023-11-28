@@ -1,7 +1,4 @@
 export const shopLotsMeansCleaningUniversal = [
-    // ===========================================================================
-    // ЭЙС
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/ace_spray mousse_750.jpg",
@@ -107,9 +104,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Комплект! Плямовивідник для білих речей, дезинфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості. 2 х 800 мл.</strong>",
         description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
     },
-    // ===========================================================================
-    // ХОУМ КЛИР
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/at_home_clean_all_purpose_floral_sweetness.jpg",
@@ -152,9 +146,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Зробіть свій будинок чистим і охайним разом з &#171;at home Clean - All Purpose Lime & Eucalyptus&#187;, який створить атмосферу затишку та чистоти в кожному куточку вашого дому."
     },
-    // ===========================================================================
-    // КЛИНАИР
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_arctic.jpg",
@@ -239,9 +230,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення. Розрахований на 44 порції.</strong>",
         description05: "Насолоджуйтеся легким та приємним прибиранням з &#171;Clinair - Allesreiniger Purple Flower&#187;, який не лише дарує чистоту, але і підносить настрій своїм неповторним ароматом."
     },
-    // ===========================================================================
-    // ДЕНКМИТ
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/denkmit_fruhlings_moments.jpg",
@@ -284,9 +272,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Підкори світ чистоти і аромату з &#171;Denkmit - Allzweckreiniger Limetten Zauber&#187;, і твоя домівка завжди буде сяяти чистотою та приємним ароматом лайма."
     },
-    // ===========================================================================
-    // ГЕНЕРАЛ
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_sensitive_aloe_vera.jpg",
@@ -329,9 +314,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Зробіть свій будинок бездоганно чистим з &#171;Der General - Universal Bergfrühling&#187;, який надає вашому дому приємний аромат і надійний захист від бактерій."
     },
-    // ===========================================================================
-    // ГУТ И ГУНСТИГ
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/gut_gunstig_allzweckreiniger_bergfrische.jpg",
@@ -353,9 +335,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Зробіть прибирання легким з &#171;Gut Günstig - Allzweckreiniger Bergfrische&#187;, який забезпечить вашому дому бездоганну чистоту і освіжаючий аромат гірських вершин."
     },
-    // ===========================================================================
-    // Я!
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/ja!_allzweckreiniger_lemon.jpg",
@@ -398,9 +377,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Звільніть себе від турботи про прибирання і насолоджуйтесь свіжістю океану з &#171;Ja! - Allzweckreiniger Ocean&#187;, який дарує вашому дому неперевершений аромат і бездоганну чистоту."
     },
-    // ===========================================================================
-    // К-КЛАССИК
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_fresh_breeze.jpg",
@@ -464,9 +440,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Зробіть прибирання приємною насолодою разом з &#171;K-Classic - Allesreiniger Tropical Flower&#187;, який подарує вашому дому чистоту і аромат тропічного райського саду."
     },
-    // ===========================================================================
-    // РЕЙНЕКС
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/reinex_apfel_fresh.jpg",
@@ -488,9 +461,6 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Універсальний засіб для чищення.</strong>",
         description05: "Зробіть прибирання легким та приємним з &#171;Reinex - Allzweckreiniger Apfel-Fresh&#187;, який надасть вашому дому чистоту, свіжість та безпеку."
     },
-    // ===========================================================================
-    // РЕСПЕКТ
-    // ===========================================================================
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/respekt_allzweckreiniger_sommertraum.jpg",
