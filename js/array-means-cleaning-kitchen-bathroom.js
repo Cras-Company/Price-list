@@ -48,7 +48,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         marker: "MCKB030",
         brand: "Ace",
         search: "ейс аце эйс засоби відбілювачі отбеливатель отбеливатели кухня для кухни",
-        nameUKR: "Знежирювач для кухні з вібілювачем",
+        nameUKR: "Знежирювач для кухні з відбілювачем",
         nameEN: "Sgrassatore Con Candeggina",
         companyName: "The Procter & Gamble Company",
         countryName: "Італія",
