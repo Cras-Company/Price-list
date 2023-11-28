@@ -210,7 +210,7 @@ export const shopLotsWaffles = [
         description05: "Замовте &#171Storck - Knoppers&#187 та відчуйте солодку насолоду їх неперевершеного смаку!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/food/sweets/waffles/storck_knoppers_balck_white_25.jpg",
         alt: "storck_knoppers_balck_white_25",
         marker: "FDWF170",
@@ -252,7 +252,7 @@ export const shopLotsWaffles = [
         description05: "Спробуйте &#171Storck - Knoppers Black & White&#187 і насолоджуйтесь піднесеним смаком та неперевершеною якістю!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/food/sweets/waffles/storck_knoppers_erdnuss_25.jpg",
         alt: "storck_knoppers_erdnuss_25",
         marker: "FDWF180",
@@ -294,7 +294,7 @@ export const shopLotsWaffles = [
         description05: "Насолоджуйтесь смаком вафель &#171Storck - Knoppers Erdnuss&#187 та додайте енергії своєму дню!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/food/sweets/waffles/storck_knoppers_joghurt_25.jpg",
         alt: "storck_knoppers_joghurt_25",
         marker: "FDWF190",
