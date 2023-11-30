@@ -129,7 +129,7 @@ export const shopLotsSauces = [
         type: "retail",
         url: "./images/shop/food/taste_modifier/sauces/barilla_bolognese_400.jpg",
         alt: "barilla_bolognese_400",
-        marker: "FDSU35",
+        marker: "FDSU035",
         brand: "Barilla",
         search: "барила барилла баріла барілла томат томатный томатные томантні соус соуси соусы помідор помідори помидор помидоры болоньезе болоньєзе",
         nameUKR: "Томатний соус для спагеті",
