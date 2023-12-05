@@ -105,7 +105,7 @@ export function createMobileListItemsMarkup(items) {
 
                         <a class="link__button" href="./licence.html"><span class="link__button__text">Замовити</span></a>
 
-                        <button class="cras-block__button-busket" type="button" data-lot-basket>
+                        <button class="cras-block__button-busket" type="button" data-lot-basket aria-label="Додати у кошик">
         
                             <svg class="basket__icon-in js-basket__icon-in" width="40" height="40">
         
@@ -247,7 +247,7 @@ export function createModalListItemsMarkup(items) {
 
                                 <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Замовити</span></a>
 
-                                <button class="cras-block__button-busket cras-block__button-busket--reset" type="button" data-lot-basket>
+                                <button class="cras-block__button-busket cras-block__button-busket--reset" type="button" data-lot-basket aria-label="Додати у кошик">
                 
                                     <svg class="basket__icon-in js-basket__icon-in" width="40" height="40">
                 
