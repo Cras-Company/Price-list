@@ -398,4 +398,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    width: 100%;
+    min-width: 280px;
+
+    @media screen and (min-width: 480px) {
+        min-width: 250px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 666px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 450px;
+    }
 }

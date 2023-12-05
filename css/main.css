@@ -2997,6 +2997,23 @@ body.modal-open {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  width: 100%;
+  min-width: 280px;
+}
+@media screen and (min-width: 480px) {
+  .travolta {
+    min-width: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .travolta {
+    width: 666px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .travolta {
+    width: 450px;
+  }
 }
 
 .modal__title {
