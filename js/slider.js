@@ -38,7 +38,7 @@ sliderContainer.addEventListener('wheel', function (e) {
   } else {
     TrandingSlider.slidePrev();
   }
-});
+}, { passive: false });
 
 // const sliderBrandsList = document.querySelector(".js-swiper--wrapper");
 
