@@ -1678,7 +1678,6 @@ function handleQuantityIncrease(event) {
   totalItemsAmount();
 }
 
-
 function basketCheckboxChanger() {
   const wholesaleCheckboxes = document.querySelectorAll('.js-basket__wholesale-сheckbox-input');
   const wholesaleCheckboxesArray = [...wholesaleCheckboxes];

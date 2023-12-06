@@ -1,0 +1,7 @@
+defaults:
+  - scope:
+      path: ''
+      type: 'image'
+    values:
+      cache:
+        max-age: 31536000 # 1 year in seconds
