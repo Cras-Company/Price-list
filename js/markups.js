@@ -37,16 +37,16 @@ export function createMobileListItemsMarkup(items) {
 
                                 <div class="cras-item__element">
 
-                                    <h4 class="cras-item__title"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></h4>
+                                    <p class="cras-item__title"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
                                 </div>
 
                             ` : `
 
                                 <div class="cras-item__element">
 
-                                    <h4 class="cras-item__price">
+                                    <p class="cras-item__price">
                                     <span class="cinzel">${priceGRN}</span> грн. - 
-                                    <span class="cinzel">${priceUSDT}</span> USDT</h4>
+                                    <span class="cinzel">${priceUSDT}</span> USDT</p>
                                 </div>
                         `}
 
@@ -54,7 +54,7 @@ export function createMobileListItemsMarkup(items) {
 
                             <div class="cras-item__element">
 
-                            <h4 class="cras-item__title"><span class="cras-item__action">ОПТОМ ДЕШЕВШЕ</span></h4>
+                            <p class="cras-item__title"><span class="cras-item__action">ОПТОМ ДЕШЕВШЕ</span></p>
                             </div>
 
                         ` : ''}
@@ -63,7 +63,7 @@ export function createMobileListItemsMarkup(items) {
 
                             <div class="cras-item__element">
 
-                                <h4 class="cras-item__title">${volumeName}:</h4>
+                                <p class="cras-item__title">${volumeName}:</p>
 
                                 <p class="cras-item__text cras-item__text--margin">${volume}</p>
                             </div>
@@ -72,7 +72,7 @@ export function createMobileListItemsMarkup(items) {
 
                             <div class="cras-item__element">
 
-                                <h4 class="cras-item__title">${weightName}:</h4>
+                                <p class="cras-item__title">${weightName}:</p>
 
                                 <p class="cras-item__text cras-item__text--margin">${weight}</p>
                             </div>
@@ -80,7 +80,7 @@ export function createMobileListItemsMarkup(items) {
                         ` : `
                             <div class="cras-item__element">
 
-                                <h4 class="cras-item__title">${quantityName}:</h4>
+                                <p class="cras-item__title">${quantityName}:</p>
 
                                 <p class="cras-item__text cras-item__text--margin">${quantity}</p>
                             </div>
@@ -88,7 +88,7 @@ export function createMobileListItemsMarkup(items) {
 
                         <div class="cras-item__element">
 
-                            <h4 class="cras-item__title">Країна:</h4>
+                            <p class="cras-item__title">Країна:</p>
 
                             <p class="cras-item__text cras-item__text--margin">${countryName}</p>
                         </div>
@@ -159,27 +159,27 @@ export function createModalListItemsMarkup(items) {
                         <div class="cras-item__description">
 
                             <div class="cras-item__element cras-item__element--left">
-                                <h4 class="cras-item__title cras-mobile-font">Маркер:</h4>
+                                <p class="cras-item__title cras-mobile-font">Маркер:</p>
                                 <p class="cras-item__text cras-item__text--margin cras-mobile-font js-marker">${marker};</p>
                             </div>
 
                             <div class="cras-item__element cras-item__element--left">
-                                <h4 class="cras-item__title cras-mobile-font">Бренд:</h4>
+                                <p class="cras-item__title cras-mobile-font">Бренд:</p>
                                 <p class="cras-item__text cras-item__text--margin cras-mobile-font">&#171;${brand}&#187;;</p>
                             </div>
 
                             <div class="cras-item__name">
-                                <h4 class="cras-item__title cras-mobile-font cras-item__name--margin">Назва продукту:</h4>
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Назва продукту:</p>
                                 <p class="cras-item__text cras-mobile-font">&#171;${nameEN}&#187;;</p>
                             </div>
 
                             <div class="cras-item__name">
-                                <h4 class="cras-item__title cras-mobile-font cras-item__name--margin">Компанія - виробник:</h4>
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Компанія - виробник:</p>
                                 <p class="cras-item__text cras-mobile-font">&#171;${companyName}&#187;;</p>
                             </div>
 
                             <div class="cras-item__element cras-item__element--left">
-                                <h4 class="cras-item__title cras-mobile-font">Країна - виробник:</h4>
+                                <p class="cras-item__title cras-mobile-font">Країна - виробник:</p>
                                 <p class="cras-item__text cras-item__text--margin cras-mobile-font">${countryName};</p>
                             </div>
 
@@ -187,7 +187,7 @@ export function createModalListItemsMarkup(items) {
 
                                 <div class="cras-item__element cras-item__element--left">
 
-                                    <h4 class="cras-item__title cras-mobile-font">${volumeName}:</h4>
+                                    <p class="cras-item__title cras-mobile-font">${volumeName}:</p>
 
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">${volume}</p>
                                 </div>
@@ -196,7 +196,7 @@ export function createModalListItemsMarkup(items) {
 
                                 <div class="cras-item__element cras-item__element--left">
 
-                                    <h4 class="cras-item__title cras-mobile-font">${weightName}:</h4>
+                                    <p class="cras-item__title cras-mobile-font">${weightName}:</p>
 
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">${weight}</p>
                                 </div>
@@ -204,7 +204,7 @@ export function createModalListItemsMarkup(items) {
                             ` : `
                                 <div class="cras-item__element cras-item__element--left">
 
-                                    <h4 class="cras-item__title cras-mobile-font">${quantityName}:</h4>
+                                    <p class="cras-item__title cras-mobile-font">${quantityName}:</p>
 
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">${quantity}</p>
                                 </div>
@@ -212,7 +212,7 @@ export function createModalListItemsMarkup(items) {
 
                             ${priceGRN !== "--" ? `
                                 <div class="cras-item__element cras-item__element--left">
-                                    <h4 class="cras-item__title cras-mobile-font">Ціна (грн. / USDT):</h4>
+                                    <p class="cras-item__title cras-mobile-font">Ціна (грн. / USDT):</p>
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">
                                     <span class="cinzel">${priceGRN}</span> / <span class="cinzel">${priceUSDT}</span>;</p>
                                 </div>
@@ -224,20 +224,20 @@ export function createModalListItemsMarkup(items) {
 
                             ${type === 'retail' ? `
                                 <div class="cras-item__element cras-item__element--left">
-                                    <h4 class="cras-item__title cras-mobile-font">Кількість на складі (шт.):</h4>
+                                    <p class="cras-item__title cras-mobile-font">Кількість на складі (шт.):</p>
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">${quantityOnStorage};</p>
                                 </div>
 
                             ` : `
 
                                 <div class="cras-item__element cras-item__element--left">
-                                    <h4 class="cras-item__title cras-mobile-font">Ціна (від 12 шт., грн.):</h4>
+                                    <p class="cras-item__title cras-mobile-font">Ціна (від 12 шт., грн.):</p>
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">
                                     <span class="cinzel">${priceGRNOpt}</span>;</p>
                                 </div>
 
                                 <div class="cras-item__element cras-item__element--left">
-                                    <h4 class="cras-item__title cras-mobile-font">Ціна (від 12 шт., USDT):</h4>
+                                    <p class="cras-item__title cras-mobile-font">Ціна (від 12 шт., USDT):</p>
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">
                                     <span class="cinzel">${priceUSDTOpt}</span>;</p>
                                 </div>
@@ -276,7 +276,7 @@ export function createModalListItemsMarkup(items) {
                             <use href="./images/icon/sprite.svg#icon-eye-open"></use>
                         </svg>
 
-                        <h4 class="cras-item__title cras-mobile-font unselectable">Опис товару:</h4>
+                        <p class="cras-item__title cras-mobile-font unselectable">Опис товару:</p>
                     </div>
         
                     <div class="price__lot-description unselectable cras-item--margin js-price__lot-description">
@@ -324,7 +324,7 @@ export function createBasketListItemsMarkup(items) {
 
                             <div class="cras-item__busket-element">
                             
-                                <h4 class="cras-item__busket-title">Маркер:</h4>
+                                <p class="cras-item__busket-title">Маркер:</p>
                             
                                 <p class="cras-item__busket-text cras-item__text--margin js-marker">${marker}</p>
                             </div>
@@ -381,18 +381,18 @@ export function createBasketListItemsMarkup(items) {
 
                             <div class="cras-item__element cras-item__element--basket js-basket-price-retail">
                             
-                                <h4 class="basket__price">
+                                <p class="basket__price">
                                     <span class="cinzel basket__price--wight js-priceGRN">${priceGRN}</span> грн. / 
                                     <span class="cinzel basket__price--wight js-priceUSDT">${priceUSDT}</span> USDT
-                                </h4>
+                                </p>
                             </div>
 
                             <div class="cras-item__element cras-item__element--basket js-basket-price-wholesale">
                             
-                                <h4 class="basket__price">
+                                <p class="basket__price">
                                     <span class="cinzel basket__price--wight js-priceOptGRN"></span> грн. / 
                                     <span class="cinzel basket__price--wight js-priceOptUSDT"></span> USDT
-                                </h4>
+                                </p>
                             </div>
 
                             <div class="busket__price-change">
