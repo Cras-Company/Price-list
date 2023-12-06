@@ -341,11 +341,54 @@ const arrayOfProducts = [
   { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" }
 ];
 
-arrayOfProducts.forEach(({ element, items }) => {
-  element.innerHTML = createMobileListItemsMarkup(items);
-});
+// arrayOfProducts.forEach(({ element, items }) => {
+//   element.innerHTML = createMobileListItemsMarkup(items);
+// });
 
-lazyLoadImagesAnimation();
+// lazyLoadImagesAnimation();
+
+const initialLoadCount = 1;
+const loadCountOnScroll = 5;
+let itemsLoaded = 0;
+let isFirstLoad = true;
+
+function loadItems() {
+  const countToLoad = isFirstLoad ? initialLoadCount : loadCountOnScroll;
+  const visibleItems = arrayOfProducts.slice(itemsLoaded, itemsLoaded + countToLoad);
+
+  visibleItems.forEach(({ element, items, block }) => {
+    element.style.display = "flex";
+
+    const section = element.closest(".js-section-none");
+
+    if (section) {
+      section.style.display = "block";
+    }
+
+    if (block) {
+      block.style.display = "block";
+      element.innerHTML = createMobileListItemsMarkup(items);
+      lazyLoadImagesAnimation();
+    }
+  });
+
+  itemsLoaded += countToLoad;
+  isFirstLoad = false;
+}
+
+hideAllSectionsAndProducts();
+loadItems();
+
+function handleScroll() {
+  const contentHeight = document.documentElement.scrollHeight;
+  const scrollPosition = window.scrollY + window.innerHeight;
+
+  if (scrollPosition >= contentHeight - 500) {
+    loadItems();
+  }
+}
+
+window.addEventListener('scroll', handleScroll);
 
 // ===========================================================================
 // Анимация иконок в разделе товаров
@@ -946,6 +989,8 @@ function hideAllSectionsAndProducts() {
       product.block.style.display = "none";
     }
   });
+
+  window.removeEventListener('scroll', handleScroll);
 }
 
 function filterClickHandler(event) {
