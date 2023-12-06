@@ -19,7 +19,7 @@ export function createMobileListItemsMarkup(items) {
 
                         <div class="cras-item__element">
 
-                            <h4 class="cras-item__title">Маркер:</h4>
+                            <p class="cras-item__title">Маркер:</p>
 
                             <p class="cras-item__text cras-item__text--margin js-marker">${marker}</p>
                         </div>
