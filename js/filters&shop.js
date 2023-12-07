@@ -341,54 +341,55 @@ const arrayOfProducts = [
   { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" }
 ];
 
-arrayOfProducts.forEach(({ element, items }) => {
-  element.innerHTML = createMobileListItemsMarkup(items);
-});
+// arrayOfProducts.forEach(({ element, items }) => {
+//   element.innerHTML = createMobileListItemsMarkup(items);
+// });
 
-lazyLoadImagesAnimation();
+// lazyLoadImagesAnimation();
 
-// const initialLoadCount = 1;
-// const loadCountOnScroll = 5;
-// let itemsLoaded = 0;
-// let isFirstLoad = true;
+const initialLoadCount = 1;
+const loadCountOnScroll = 5;
+let itemsLoaded = 0;
+let isFirstLoad = true;
 
-// function loadItems() {
-//   const countToLoad = isFirstLoad ? initialLoadCount : loadCountOnScroll;
-//   const visibleItems = arrayOfProducts.slice(itemsLoaded, itemsLoaded + countToLoad);
+function loadItems() {
+  const countToLoad = isFirstLoad ? initialLoadCount : loadCountOnScroll;
+  const visibleItems = arrayOfProducts.slice(itemsLoaded, itemsLoaded + countToLoad);
 
-//   visibleItems.forEach(({ element, items, block }) => {
-//     element.style.display = "flex";
+  visibleItems.forEach(({ element, items, block }) => {
+    element.style.display = "flex";
 
-//     const section = element.closest(".js-section-none");
+    const section = element.closest(".js-section-none");
 
-//     if (section) {
-//       section.style.display = "block";
-//     }
+    if (section) {
+      section.style.display = "block";
+    }
 
-//     if (block) {
-//       block.style.display = "block";
-//       element.innerHTML = createMobileListItemsMarkup(items);
-//       lazyLoadImagesAnimation();
-//     }
-//   });
+    if (block) {
+      block.style.display = "block";
+      element.innerHTML = createMobileListItemsMarkup(items);
+      lazyLoadImagesAnimation();
+    }
+  });
 
-//   itemsLoaded += countToLoad;
-//   isFirstLoad = false;
-// }
+  itemsLoaded += countToLoad;
+  isFirstLoad = false;
+}
 
-// hideAllSectionsAndProducts();
-// loadItems();
+hideAllSectionsAndProducts();
+loadItems();
 
-// function handleScroll() {
-//   const contentHeight = document.documentElement.scrollHeight;
-//   const scrollPosition = window.scrollY + window.innerHeight;
+function handleScroll() {
+  const contentHeight = document.documentElement.scrollHeight;
+  const scrollPosition = window.scrollY + window.innerHeight;
 
-//   if (scrollPosition >= contentHeight - 500) {
-//     loadItems();
-//   }
-// }
+  if (scrollPosition >= contentHeight - 500) {
+    loadItems();
+  }
+  restoreIcons();
+}
 
-// window.addEventListener('scroll', handleScroll);
+window.addEventListener('scroll', handleScroll);
 
 // ===========================================================================
 // Анимация иконок в разделе товаров
@@ -990,7 +991,7 @@ function hideAllSectionsAndProducts() {
     }
   });
 
-  // window.removeEventListener('scroll', handleScroll);
+  window.removeEventListener('scroll', handleScroll);
 }
 
 function filterClickHandler(event) {
@@ -1665,7 +1666,6 @@ function handleQuantityIncrease(event) {
   
   const marker = item.getAttribute('data-basket-marker');
   const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
-  const quantityOnStorage = foundItem ? parseInt(foundItem.quantityOnStorage) : 0; // Получаем максимальное количество из quantityOnStorage
   const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
   const priceOptGRN = foundItem ? parseFloat(foundItem.priceGRNOpt) : 0;
   const priceOptUSDT = (priceOptGRN / USDTRate).toFixed(2);
@@ -1692,31 +1692,27 @@ function handleQuantityIncrease(event) {
   const wholesaleCheckbox = item.querySelector('.js-basket__wholesale-сheckbox-input');
 
   if (wholesaleCheckbox && wholesaleCheckbox.checked) {
-    if (currentValue < quantityOnStorage) { // Проверяем, чтобы не превысить quantityOnStorage
-      currentValue += 1;
-      itemQuantity.textContent = currentValue;
-      priceOptGRNItem = priceOptGRN * currentValue;
-      priceOptGRNElement.textContent = priceOptGRNItem;
-      priceUSDTOptItem = (priceOptUSDT * currentValue).toFixed(2);;
-      priceOptUSDTElement.textContent = priceUSDTOptItem;
+    currentValue += 1;
+    itemQuantity.textContent = currentValue;
+    priceOptGRNItem = priceOptGRN * currentValue;
+    priceOptGRNElement.textContent = priceOptGRNItem;
+    priceUSDTOptItem = (priceOptUSDT * currentValue).toFixed(2);;
+    priceOptUSDTElement.textContent = priceUSDTOptItem;
 
-      quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-      quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
-      quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
-    }
+    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
+    quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
   } else {
-    if (currentValue < quantityOnStorage) { // Проверяем, чтобы не превысить quantityOnStorage
-      currentValue += 1;
-      itemQuantity.textContent = currentValue;
-      priceGRNItem = priceGRN * currentValue;
-      priceGRNElement.textContent = priceGRNItem;
-      priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
-      priceUSDTElement.textContent = priceUSDTItem;
+    currentValue += 1;
+    itemQuantity.textContent = currentValue;
+    priceGRNItem = priceGRN * currentValue;
+    priceGRNElement.textContent = priceGRNItem;
+    priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
+    priceUSDTElement.textContent = priceUSDTItem;
 
-      quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-      quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
-      quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
-    }
+    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+    quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
+    quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
   }
 
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
