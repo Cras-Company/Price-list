@@ -1666,6 +1666,7 @@ function handleQuantityIncrease(event) {
   
   const marker = item.getAttribute('data-basket-marker');
   const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+  const quantityOnStorage = foundItem ? parseInt(foundItem.quantityOnStorage) : 0;
   const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
   const priceOptGRN = foundItem ? parseFloat(foundItem.priceGRNOpt) : 0;
   const priceOptUSDT = (priceOptGRN / USDTRate).toFixed(2);
@@ -1703,16 +1704,18 @@ function handleQuantityIncrease(event) {
     quantityItemsArray[existingItemIndex].optPriceGRN = priceOptGRNItem;
     quantityItemsArray[existingItemIndex].optPriceUSDT = priceUSDTOptItem;
   } else {
-    currentValue += 1;
-    itemQuantity.textContent = currentValue;
-    priceGRNItem = priceGRN * currentValue;
-    priceGRNElement.textContent = priceGRNItem;
-    priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
-    priceUSDTElement.textContent = priceUSDTItem;
+    if (currentValue < quantityOnStorage || wholesaleCheckbox) {
+      currentValue += 1;
+      itemQuantity.textContent = currentValue;
+      priceGRNItem = priceGRN * currentValue;
+      priceGRNElement.textContent = priceGRNItem;
+      priceUSDTItem = (priceGRNItem / USDTRate).toFixed(2);
+      priceUSDTElement.textContent = priceUSDTItem;
 
-    quantityItemsArray[existingItemIndex].quantityItem = currentValue;
-    quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
-    quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
+      quantityItemsArray[existingItemIndex].quantityItem = currentValue;
+      quantityItemsArray[existingItemIndex].priceGRN = priceGRNItem;
+      quantityItemsArray[existingItemIndex].priceUSDT = priceUSDTItem;
+    }
   }
 
   localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
