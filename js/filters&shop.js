@@ -903,6 +903,7 @@ function handleFormSubmit(event) {
       });
     
     lazyLoadImagesAnimation();
+    window.removeEventListener('scroll', handleScroll);
         
     return;
   }
@@ -918,6 +919,7 @@ function handleFormSubmit(event) {
 
   jumpSearch();
   lazyLoadImagesAnimation();
+  window.removeEventListener('scroll', handleScroll);
 }
 
 // ===========================================================================
