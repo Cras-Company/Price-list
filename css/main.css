@@ -2096,6 +2096,14 @@ body.modal-open {
   }
 }
 
+@media screen and (min-width: 768px) {
+  [data-modal-search-menu],
+  [data-modal-mobile-menu],
+  [data-modal-main-menu] {
+    display: none;
+  }
+}
+
 .mobile-button {
   padding: 0;
   border: none;

@@ -17,70 +17,70 @@ import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from '
 import { shopLotsSale } from "./array-sale.js";
 
 // Продукты
-import { shopLotsNoodles } from "./array-noodles.js";
-import { shopLotsMacaroni } from "./array-macaroni.js";
-import { shopLotsSpaghetti } from "./array-spaghetti.js";
-import { shopLotsTarhona } from "./array-tarhona.js";
+import { shopLotsNoodles } from "./food/array-noodles.js";
+import { shopLotsMacaroni } from "./food/array-macaroni.js";
+import { shopLotsSpaghetti } from "./food/array-spaghetti.js";
+import { shopLotsTarhona } from "./food/array-tarhona.js";
 
-import { shopLotsCheese } from "./array-cheese.js";
+import { shopLotsCheese } from "./food/array-cheese.js";
 
-import { shopLotsPates } from "./array-pates.js";
-import { shopLotsSalmon } from "./array-salmon.js";
-import { shopLotsMackerel } from "./array-mackerel.js";
-import { shopLotsHerring } from "./array-herring.js";
-import { shopLotsTuna } from "./array-tuna.js";
-import { shopLotsCod } from "./array-cod.js";
-import { shopLotsSprats } from "./array-sprats.js";
+import { shopLotsPates } from "./food/array-pates.js";
+import { shopLotsSalmon } from "./food/array-salmon.js";
+import { shopLotsMackerel } from "./food/array-mackerel.js";
+import { shopLotsHerring } from "./food/array-herring.js";
+import { shopLotsTuna } from "./food/array-tuna.js";
+import { shopLotsCod } from "./food/array-cod.js";
+import { shopLotsSprats } from "./food/array-sprats.js";
 
-import { shopLotsPeanuts } from "./array-peanuts.js";
-import { shopLotsPopcorns } from "./array-popcorns.js";
-import { shopLotsPistachios } from "./array-pistachios.js";
-import { shopLotsChips } from "./array-chips.js";
+import { shopLotsPeanuts } from "./food/array-peanuts.js";
+import { shopLotsPopcorns } from "./food/array-popcorns.js";
+import { shopLotsPistachios } from "./food/array-pistachios.js";
+import { shopLotsChips } from "./food/array-chips.js";
 
-import { shopLotsCreamSpreads } from "./array-cream-spreads.js";
-import { shopLotsCheeseSpreads } from "./array-cheese-spreads.js";
-import { shopLotsSweetSpreads } from "./array-sweet-spreads.js";
+import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
+import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
+import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
 
-import { shopLotsBars } from "./array-bars.js";
-import { shopLotsWaffles } from "./array-waffles.js";
+import { shopLotsBars } from "./food/array-bars.js";
+import { shopLotsWaffles } from "./food/array-waffles.js";
 
-import { shopLotsCoffeeBeans } from "./array-coffee_beans.js";
-import { shopLotsGroundCoffee } from "./array-ground-coffee.js";
-import { shopLotsInstantCoffee } from "./array-instant-coffee.js";
-import { shopLotsCacao } from "./array-cacao.js";
+import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
+import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
+import { shopLotsInstantCoffee } from "./food/array-instant-coffee.js";
+import { shopLotsCacao } from "./food/array-cacao.js";
 
-import { shopLotsOil } from "./array-oil.js";
-import { shopLotsOlives } from "./array-olives.js";
-import { shopLotsOliveOil } from "./array-olive-oil.js";
+import { shopLotsOil } from "./food/array-oil.js";
+import { shopLotsOlives } from "./food/array-olives.js";
+import { shopLotsOliveOil } from "./food/array-olive-oil.js";
 
-import { shopLotsForBaking } from "./array-for-baking.js";
-import { shopLotsMustard } from "./array-mustard.js";
-import { shopLotsSauces } from "./array-sauces.js";
-import { shopLotsSeasonings } from "./array-seasonings.js";
+import { shopLotsForBaking } from "./food/array-for-baking.js";
+import { shopLotsMustard } from "./food/array-mustard.js";
+import { shopLotsSauces } from "./food/array-sauces.js";
+import { shopLotsSeasonings } from "./food/array-seasonings.js";
 
 // Средства гигиены
-import { shopLotsBabyShampoos } from "./array-baby_shampoos.js";
-import { shopLotsAdultShampoos } from "./array-adult_shampoos.js";
+import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
+import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
 
-import { shopLotsBabyShowerGels } from "./array-baby-shower-gels.js";
-import { shopLotsAdultShowerGels } from "./array-adult-shower-gels.js";
+import { shopLotsBabyShowerGels } from "./hygiene/array-baby-shower-gels.js";
+import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 
-import { shopLotsMicellarWipes } from "./array-micellar_wipes.js";
+import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
 // Бытовая химия
-import { shopLotsMeansHandsWashingDishes } from "./array-means-hands-washing-dishes.js";
-import { shopLotsMeansMechanicalWashingDishes } from "./array-means-mechanical-washing-dishes.js";
+import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
+import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/array-means-mechanical-washing-dishes.js";
 
-import { shopLotsWashingGels } from "./array-washing-gels.js";
-import { shopLotsPowerCaps } from "./array-power-caps.js";
-import { shopLotsWashingPowders } from "./array-washing-powders.js";
-import { shopLotsBleaches } from "./array-bleaches.js";
-import { shopLotsStainRemovers } from "./array-stain-removers.js";
-import { shopLotsSofteners } from "./array-softeners.js";
+import { shopLotsWashingGels } from "./household_chemicals/array-washing-gels.js";
+import { shopLotsPowerCaps } from "./household_chemicals/array-power-caps.js";
+import { shopLotsWashingPowders } from "./household_chemicals/array-washing-powders.js";
+import { shopLotsBleaches } from "./household_chemicals/array-bleaches.js";
+import { shopLotsStainRemovers } from "./household_chemicals/array-stain-removers.js";
+import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
 
-import { shopLotsMeansCleaningUniversal } from "./array-means-cleaning-universal.js";
-import { shopLotsMeansCleaningKitchenBathroom } from "./array-means-cleaning-kitchen-bathroom.js";
-import { shopLotsMeansCleaningDishwashers } from "./array-means-cleaning-dishwashers.js";
+import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
+import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
+import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
 
 // ===========================================================================
 // Создание разметки
