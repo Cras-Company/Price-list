@@ -645,7 +645,8 @@ function handleFormSubmit(event) {
         outputError.style.marginTop = "60px";
         outputError.style.marginBottom = "60px";
         JSSectionOne.forEach((section) => {
-            section.style.display = "none";
+          section.style.display = "none";
+          window.removeEventListener('scroll', handleScroll);
         });
         return;
     } else {
