@@ -31,11 +31,11 @@ let sliderContainer = document.querySelector('.tranding-slider');
 
 sliderContainer.addEventListener('mouseenter', function () {
   TrandingSlider.autoplay.stop();
-});
+}, { passive: true });
 
 sliderContainer.addEventListener('mouseleave', function () {
   TrandingSlider.autoplay.start();
-});
+}, { passive: true });
 
 // const sliderBrandsList = document.querySelector(".js-swiper--wrapper");
 
