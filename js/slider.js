@@ -37,6 +37,14 @@ sliderContainer.addEventListener('mouseleave', function () {
   TrandingSlider.autoplay.start();
 }, { passive: true });
 
+sliderContainer.addEventListener('touchstart', function () {
+  TrandingSlider.autoplay.stop();
+}, { passive: true });
+
+sliderContainer.addEventListener('touchend', function () {
+  TrandingSlider.autoplay.start();
+}, { passive: true });
+
 // const sliderBrandsList = document.querySelector(".js-swiper--wrapper");
 
 // function createSliderBrandsMarkup(items) {
