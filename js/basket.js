@@ -133,7 +133,7 @@ const arrayOfProducts = [
   { items: shopLotsWashingPowders, },
   { items: shopLotsBleaches, },
   { items: shopLotsStainRemovers, },
-  { tems: shopLotsSofteners, },
+  { items: shopLotsSofteners, },
 
   { items: shopLotsMeansCleaningUniversal, },
   { items: shopLotsMeansCleaningKitchenBathroom, },
