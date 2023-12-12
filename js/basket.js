@@ -161,7 +161,7 @@ let totalAmount = [];
 
 shopListAllLots.addEventListener('click', lotBasketHandler);
 
-function lotBasketHandler(event) {
+export function lotBasketHandler(event) {
   const targetButton = event.target.closest('button[data-lot-basket]');
 
   if (targetButton) {
@@ -819,7 +819,7 @@ function totalItemsAmount() {
 // --------------------------------
 
 // Состояние иконок из хранилища
-function restoreStoregeIcons(lotElements) {
+export function restoreStoregeIcons(lotElements) {
   const iconsArrayJSON = localStorage.getItem("iconsArray");
   const iconsArray = iconsArrayJSON ? JSON.parse(iconsArrayJSON) : [];
 

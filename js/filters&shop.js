@@ -6,7 +6,7 @@ import {
   createModalListItemsMarkup,
 } from './markups.js';
 
-import { restoreIcons } from './basket.js';
+import { restoreIcons, lotBasketHandler, restoreStoregeIcons } from './basket.js';
 
 import { refs, onOpenModal } from './modal-index.js';
 
