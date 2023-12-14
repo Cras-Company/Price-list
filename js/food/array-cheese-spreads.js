@@ -1,6 +1,6 @@
 export const shopLotsCheeseSpreads = [
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
         alt: "milbona_cream_cheese_classic_300",
         marker: "CHSP050",
@@ -12,8 +12,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "300 гр.",
-        priceGRN: 72,
-        priceGRNOpt: 66,
+        priceGRN: 88,
+        quantityOnStorage: 10,
         description01: "&#171Milbona - Сream Сheese Сlassic&#187 - це витонченість та смак, об'єднані в одному продукті. З його ніжною текстурою та багатим смаком, Ви отримуєте справжню насолоду. Цей сирний крем виготовлений з відібраних натуральних інгредієнтів, що гарантує його натуральність та високу якість.",
         description02: "Ідеальний вибір на хліб та у використанні у кулінарних стравах. Він надасть вашим стравам неперевершений смак і аромат, а його м'яка консистенція робить його відмінним додатком до будь-якого столу.",
         description03: "&#171Milbona - Сream Сheese Сlassic&#187 має бездоганний склад і високий вміст білка, що робить його корисним вибором для всієї родини.",
