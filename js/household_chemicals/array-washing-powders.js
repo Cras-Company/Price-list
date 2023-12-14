@@ -139,6 +139,27 @@ export const shopLotsWashingPowders = [
     // ===========================================================================
     {
         type: "retail",
+        url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/fairy_non_bio_3.9.jpg",
+        alt: "fairy_non_bio_3.9",
+        marker: "LDWP028",
+        brand: "Fairy",
+        search: "фейри фейрі фери фері детский стиральный пральний порошок дитячі пральні порошки универсальный для дітей для детей",
+        nameUKR: "Дитячий пральний порошок",
+        nameEN: "Non Bio",
+        companyName: "The Procter & Gamble Company",
+        countryName: "Італія",
+        weightName: "Вага",
+        weight: "3.9 кг.",
+        priceGRN: 509,
+        quantityOnStorage: 3,
+        description01: "Зустрічайте &#171Fairy - Non Bio&#187 - ідеальний пральний порошок для вашої дитини.",
+        description02: "З його гіпоалергенною формулою, він подбає про найніжніші тканини та залишає приємний аромат.",
+        description03: "Пориньте у світ чистоти та ніжності для вашого малятка - &#171Fairy - Non Bio&#187 надасть йому тендітну доглянутість.",
+        description04: "<strong>Порошок універсальний, дитячий. Розрахований на 60 прань.</strong>",
+        description05: "Оберіть найкраще для своєї сім'ї і придбайте &#171Fairy - Non Bio&#187 для чистоти без зайвих слів!"
+    },
+    {
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ja!_super_kompakt.jpg",
         alt: "ja!_super_kompakt",
         marker: "LDWP030",
