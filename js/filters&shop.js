@@ -562,6 +562,8 @@ function handleFormSubmit(event) {
   const filteredBabyShowerGels = universalSearch(shopLotsBabyShowerGels, searchItem);
   const filteredAdultShowerGels = universalSearch(shopLotsAdultShowerGels, searchItem);
   
+  const filteredLiquidSoap = universalSearch(shopLotsLiquidSoap, searchItem);
+
   const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
   
   // Бытовая химия
@@ -631,6 +633,8 @@ function handleFormSubmit(event) {
     ...filteredBabyShowerGels,
     ...filteredAdultShowerGels,
     
+    ...filteredLiquidSoap,
+
     ...filteredMicellarWipes,
     
     // Бытовая химия
@@ -787,7 +791,13 @@ function handleFormSubmit(event) {
     SectionAllShowerGels.style.display = "none";
   }
 
-    if (filteredMicellarWipes.length > 0 ) {
+  if (filteredLiquidSoap.length > 0 ) {
+    shopListLiquidSoap.innerHTML = createMobileListItemsMarkup(filteredLiquidSoap);
+  } else {
+    SectionAllSoap.style.display = "none";
+  }
+
+  if (filteredMicellarWipes.length > 0 ) {
     shopListMicellarWipes.innerHTML = createMobileListItemsMarkup(filteredMicellarWipes);
   } else {
     SectionAllWipes.style.display = "none";
