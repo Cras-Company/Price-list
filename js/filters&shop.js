@@ -64,6 +64,8 @@ import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
 import { shopLotsBabyShowerGels } from "./hygiene/array-baby-shower-gels.js";
 import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 
+import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
+
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
 // Бытовая химия
@@ -137,6 +139,8 @@ const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-sham
 
 const shopListBabyShowerGels = document.querySelector(".js-cras__list--baby-shower-gels");
 const shopListAdultShowerGels = document.querySelector(".js-cras__list--adult-shower-gels");
+
+const shopListLiquidSoap = document.querySelector(".js-cras__list--liquid-soap");
 
 const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
 
@@ -239,6 +243,10 @@ const SectionAllShowerGels = document.querySelector(".js-section-all-shower-gels
 const BlockBabyShowerGels = document.querySelector(".js-block-baby-shower-gels");
 const BlockAdultShowerGels = document.querySelector(".js-block-adult-shower-gels");
 
+// Мыло
+const SectionAllSoap = document.querySelector(".js-section-all-soap");
+const BlockLiquidSoap = document.querySelector(".js-block-liquid-soap");
+
 // Салфетки
 const SectionAllWipes = document.querySelector(".js-section-all-wipes");
 const BlockMicellarWipes = document.querySelector(".js-block-micellar-wipes");
@@ -322,6 +330,8 @@ const arrayOfProducts = [
 
   { element: shopListBabyShowerGels, items: shopLotsBabyShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
   { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },
+
+  { element: shopListLiquidSoap, items: shopLotsLiquidSoap, block: BlockLiquidSoap, dataTarget: "liquid-soap" },
 
   { element: shopListMicellarWipes, items: shopLotsMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
 
