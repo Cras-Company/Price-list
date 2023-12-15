@@ -895,6 +895,7 @@ function handleFormSubmit(event) {
   
     { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
     { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
+    { element: shopListLiquidSoap, items: filteredLiquidSoap, block: BlockLiquidSoap },
     { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
     
     { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
