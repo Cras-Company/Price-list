@@ -33,23 +33,6 @@ export function createMobileListItemsMarkup(items) {
                             height="310"
                         />
 
-                        ${priceGRN === '--' ? `
-
-                                <div class="cras-item__element">
-
-                                    <p class="cras-item__title"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
-                                </div>
-
-                            ` : `
-
-                                <div class="cras-item__element">
-
-                                    <p class="cras-item__price">
-                                    <span class="cinzel">${priceGRN}</span> грн. - 
-                                    <span class="cinzel">${priceUSDT}</span> USDT</p>
-                                </div>
-                        `}
-
                         ${(priceGRNOpt && priceGRN !== '--') ? `
 
                             <div class="cras-item__element">
@@ -103,16 +86,37 @@ export function createMobileListItemsMarkup(items) {
                     
                     <div class="cras-block__order">
 
-                        <a class="link__button" href="./licence.html"><span class="link__button__text">Замовити</span></a>
+                        ${priceGRN === '--' ? `
+
+                                <div class="cras-item__element">
+
+                                    <p class="cras-item__title"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
+                                </div>
+
+                            ` : `
+
+                                <div class="cras-item__price-element">
+
+                                    <p class="cras-item__price cras-item__price--margin">
+
+                                        <span class="cinzel" style="color: var(--link-color);">${priceGRN}.00</span> грн.
+                                    </p>
+
+                                    <p class="cras-item__price">
+                                        
+                                        <span class="cinzel" style="color: var(--link-color);">${priceUSDT}</span> usdt
+                                    </p>
+                                </div>
+                        `}
 
                         <button class="cras-block__button-busket" type="button" data-lot-basket aria-label="Додати у кошик">
         
-                            <svg class="basket__icon-in js-basket__icon-in" width="40" height="40">
+                            <svg class="basket__icon-in js-basket__icon-in" width="35" height="35">
         
                                 <use href="./images/icon/sprite.svg#basket-in"></use>
                             </svg>
         
-                            <svg class="basket__icon-out js-basket__icon-out" width="40" height="40">
+                            <svg class="basket__icon-out js-basket__icon-out" width="35" height="35">
         
                                 <use href="./images/icon/sprite.svg#basket-out"></use>
                             </svg>
@@ -212,7 +216,7 @@ export function createModalListItemsMarkup(items) {
 
                             ${priceGRN !== "--" ? `
                                 <div class="cras-item__element cras-item__element--left">
-                                    <p class="cras-item__title cras-mobile-font">Ціна (грн. / USDT):</p>
+                                    <p class="cras-item__title cras-mobile-font">Ціна (грн. / usdt):</p>
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">
                                     <span class="cinzel">${priceGRN}</span> / <span class="cinzel">${priceUSDT}</span>;</p>
                                 </div>
@@ -237,7 +241,7 @@ export function createModalListItemsMarkup(items) {
                                 </div>
 
                                 <div class="cras-item__element cras-item__element--left">
-                                    <p class="cras-item__title cras-mobile-font">Ціна (від 12 шт., USDT):</p>
+                                    <p class="cras-item__title cras-mobile-font">Ціна (від 12 шт., usdt):</p>
                                     <p class="cras-item__text cras-item__text--margin cras-mobile-font">
                                     <span class="cinzel">${priceUSDTOpt}</span>;</p>
                                 </div>
@@ -245,7 +249,7 @@ export function createModalListItemsMarkup(items) {
 
                             <div class="cras-block__order">
 
-                                <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Замовити</span></a>
+                                <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Як замовити?</span></a>
 
                                 <button class="cras-block__button-busket cras-block__button-busket--reset" type="button" data-lot-basket aria-label="Додати у кошик">
                 
@@ -287,7 +291,7 @@ export function createModalListItemsMarkup(items) {
                         <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description04}</p>
                         <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description05}</p>
 
-                        <a class="link__button link__button--description" href="./licence.html"><span class="link__button__text">Замовити</span></a>
+                        <a class="link__button link__button--description" href="./licence.html"><span class="link__button__text">Як замовити?</span></a>
 
                     </div>
                 </div>`;
@@ -383,7 +387,7 @@ export function createBasketListItemsMarkup(items) {
                             
                                 <p class="basket__price">
                                     <span class="cinzel basket__price--wight js-priceGRN">${priceGRN}</span> грн. / 
-                                    <span class="cinzel basket__price--wight js-priceUSDT">${priceUSDT}</span> USDT
+                                    <span class="cinzel basket__price--wight js-priceUSDT">${priceUSDT}</span> usdt
                                 </p>
                             </div>
 
@@ -391,7 +395,7 @@ export function createBasketListItemsMarkup(items) {
                             
                                 <p class="basket__price">
                                     <span class="cinzel basket__price--wight js-priceOptGRN"></span> грн. / 
-                                    <span class="cinzel basket__price--wight js-priceOptUSDT"></span> USDT
+                                    <span class="cinzel basket__price--wight js-priceOptUSDT"></span> usdt
                                 </p>
                             </div>
 
@@ -446,7 +450,7 @@ export function createBasketOrderMarkup() {
                     <span class="cinzel basket__total-price js-total-priceGRN"></span></span> грн. /
 
                     <span class="basket__price-usdt js-basket__price-usdt">
-                    <span class="cinzel basket__total-price js-total-priceUSDT"></span></span> USDT
+                    <span class="cinzel basket__total-price js-total-priceUSDT"></span></span> usdt
                 </h2>
             </div>
 

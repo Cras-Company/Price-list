@@ -357,15 +357,15 @@
 
 .cras-block__button-busket {
   padding: 0;
-  margin: 0 10px;
 
   border: none;
 
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 
   background-color: var(--pure-white);
 
@@ -376,18 +376,33 @@
   &--reset {
     margin: 0 0 0 10px;
   }
+
+  @media screen and (min-width: 480px) {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .basket__icon-in {
   position: absolute;
 
   opacity: 1;
+
+  @media screen and (min-width: 480px) {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .basket__icon-out {
   position: absolute;
 
   opacity: 0;
+
+  @media screen and (min-width: 480px) {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .js-icon-close {
