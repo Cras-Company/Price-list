@@ -1112,6 +1112,9 @@ img {
   text-align: justify;
   color: #057198;
 }
+.cras-item__text--font {
+  font-weight: 700;
+}
 .cras-item__text--position {
   font-size: 12px;
   text-align: center;

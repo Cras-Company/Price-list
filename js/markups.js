@@ -78,7 +78,7 @@ export function createMobileListItemsMarkup(items) {
 
                         <div class="cras-item__element cras-item__element--reset">
 
-                            <p class="cras-item__text cras-item__text--position cras-item__text--margin-bot">${nameUKR}</p>
+                            <p class="cras-item__text cras-item__text--font cras-item__text--position cras-item__text--margin-bot">${nameUKR}</p>
 
                             <p class="cras-item__text cras-item__text--position">&#171;${brand} - ${nameEN}&#187;</p>
                         </div>
