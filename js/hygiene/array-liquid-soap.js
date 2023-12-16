@@ -146,4 +146,25 @@ export const shopLotsLiquidSoap = [
         description04: "<strong>Мило рідке, з аргановою олією та медом. Для лиця, рук та тіла. Дерматологічно протестований pH 5.5.</strong>",
         description05: "Подаруйте своїй шкірі приховану розкіш разом з &#171Milmil - Sapone Liquido Argan & Miele&#187, яка зачаровує з першого дотику!"
     },
+    {
+        type: "wholesale",
+        url: "./images/shop/soap/liquid_soap/milmil_cocco_vaniglia_2l.jpg",
+        alt: "milmil_cocco_vaniglia_2l",
+        marker: "LQSP460",
+        brand: "Milmil",
+        search: "милмил мілміл жидкое мыло liquid soap кокос с кокосом ваниль с ванилью ваніль",
+        nameUKR: "Рідке мило з кокосом та ваніллю",
+        nameEN: "Sapone Liquido Cocco & Vaniglia",
+        companyName: "Mirato Group",
+        countryName: "Італія",
+        volumeName: "Об'єм",
+        volume: "2 л.",
+        priceGRN: 154,
+        priceGRNOpt: 142,
+        description01: "Додайте своїй шкірі розкішне відчуття екзотичного догляду за допомогою рідкого мила &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187. Це мило не лише очищає, але і привносить насичений аромат кокосу та ванілі.",
+        description02: "Заплутайтеся у світі солодкого аромату ванілі та екзотичного кокоса, які об'єднуються у цьому милі. Його текстура, насичена ароматами, робить кожен душ витонченим ритуалом, а шкіра відчуває неймовірну м'якість та гладкість.",
+        description03: "Відчуйте бажання мати шкіру, яка пахне екзотикою та виглядає доглянутою. &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187 обіцяє вашій шкірі не лише розкошний дотик, але й чарівний аромат, який залишається з Вами протягом дня.",
+        description04: "<strong>Мило рідке, з кокосом та ваніллю. Для лиця, рук та тіла. Дерматологічно протестований pH 5.5.</strong>",
+        description05: "Замовте &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187 прямо зараз та даруйте своїй шкірі елітний догляд з кокосом та ваніллю, на який вона заслуговує!"
+    },
 ]
