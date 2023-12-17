@@ -88,9 +88,9 @@ export function createMobileListItemsMarkup(items) {
 
                         ${priceGRN === '--' ? `
 
-                                <div class="cras-item__element">
+                                <div class="cras-item__element cras-item__element--only">
 
-                                    <p class="cras-item__title"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
+                                    <p class="cras-item__title cras-item__title--only"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
                                 </div>
 
                             ` : `

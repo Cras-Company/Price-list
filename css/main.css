@@ -1080,6 +1080,9 @@ img {
       -ms-flex-pack: left;
           justify-content: left;
 }
+.cras-item__element--only {
+  margin-bottom: 0;
+}
 
 .cras-item__action {
   font-weight: 700;
@@ -1103,6 +1106,9 @@ img {
   .cras-item__title {
     font-size: 16px;
   }
+}
+.cras-item__title--only {
+  text-align: center;
 }
 
 .cras-item__text {
@@ -1166,6 +1172,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 10px;
 }
 

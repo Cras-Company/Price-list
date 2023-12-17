@@ -233,6 +233,10 @@
     &--left {
         justify-content: left;
     }
+
+    &--only {
+        margin-bottom: 0;
+    }
 }
 
 .cras-item__action {
@@ -256,6 +260,10 @@
 
     @media screen and (min-width: 480px) {
         font-size: 16px;
+    }
+
+    &--only {
+        text-align: center;
     }
 }
 
@@ -328,6 +336,7 @@
 .cras-block__order {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     padding-bottom: 10px;
 }
