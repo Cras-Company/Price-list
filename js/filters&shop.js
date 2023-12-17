@@ -42,6 +42,7 @@ import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
 
 import { shopLotsBars } from "./food/array-bars.js";
 import { shopLotsWaffles } from "./food/array-waffles.js";
+import { shopLotsChocolate } from "./food/array-chocolate.js";
 
 import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
@@ -118,6 +119,7 @@ const shopListSweetSpreads = document.querySelector(".js-cras__list--sweet-sprea
 
 const shopListBars = document.querySelector(".js-cras__list--bars");
 const shopListWaffles = document.querySelector(".js-cras__list--waffles");
+const shopListChocolate = document.querySelector(".js-cras__list--chocolate");
 
 const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
 const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coffee");
@@ -212,6 +214,7 @@ const BlockSweetSpreads = document.querySelector(".js-block-sweet-spreads");
 const SectionAllSweets = document.querySelector(".js-section-all-sweets");
 const BlockBars = document.querySelector(".js-block-bars");
 const BlockWaffles = document.querySelector(".js-block-waffles");
+const BlockChocolate = document.querySelector(".js-block-chocolate");
 
 // Напитки
 const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
@@ -310,6 +313,7 @@ const arrayOfProducts = [
 
   { element: shopListBars, items: shopLotsBars, block: BlockBars, dataTarget: "bars" },
   { element: shopListWaffles, items: shopLotsWaffles, block: BlockWaffles, dataTarget: "waffles" },
+  { element: shopListChocolate, items: shopLotsChocolate, block: BlockChocolate, dataTarget: "chocolate" },
 
   { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
   { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
@@ -540,6 +544,7 @@ function handleFormSubmit(event) {
 
   const filteredBars = universalSearch(shopLotsBars, searchItem);
   const filteredWaffles = universalSearch(shopLotsWaffles, searchItem);
+  const filteredChocolate = universalSearch(shopLotsChocolate, searchItem);
 
   const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
   const filteredGroundCoffee = universalSearch(shopLotsGroundCoffee, searchItem);
@@ -612,6 +617,7 @@ function handleFormSubmit(event) {
 
     ...filteredBars,
     ...filteredWaffles,
+    ...filteredChocolate,
 
     ...filteredCoffeeBeans,
     ...filteredGroundCoffee,
@@ -736,9 +742,11 @@ function handleFormSubmit(event) {
   }
 
   if (filteredBars.length > 0 ||
-    filteredWaffles.length > 0) {
+    filteredWaffles.length > 0 ||
+    filteredChocolate.length > 0) {
     shopListBars.innerHTML = createMobileListItemsMarkup(filteredBars);
     shopListWaffles.innerHTML = createMobileListItemsMarkup(filteredWaffles);
+    shopListChocolate.innerHTML = createMobileListItemsMarkup(filteredChocolate);
   } else {
     SectionAllSweets.style.display = "none";
   }
@@ -878,6 +886,7 @@ function handleFormSubmit(event) {
 
     { element: shopListBars, items: filteredBars, block: BlockBars },
     { element: shopListWaffles, items: filteredWaffles, block: BlockWaffles },
+    { element: shopListChocolate, items: filteredChocolate, block: BlockChocolate },
   
     { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
     { element: shopListGroundCoffee, items: filteredGroundCoffee, block: BlockGroundCoffee },
