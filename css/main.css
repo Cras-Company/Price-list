@@ -2404,6 +2404,9 @@ body.modal-open {
 }
 
 .basket-clear-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   top: 2%;
   padding: 3px;
@@ -3048,22 +3051,31 @@ body.modal-open {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 100%;
-  min-width: 280px;
+  width: 90%;
 }
 @media screen and (min-width: 480px) {
   .travolta {
-    min-width: 250px;
+    width: 350px;
   }
 }
 @media screen and (min-width: 768px) {
   .travolta {
-    width: 666px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 1024px) {
   .travolta {
-    width: 450px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .travolta {
+    width: 370px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .travolta {
+    width: 480px;
   }
 }
 

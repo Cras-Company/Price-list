@@ -399,18 +399,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 100%;
-    min-width: 280px;
+    width: 90%;
 
     @media screen and (min-width: 480px) {
-        min-width: 250px;
+        width: 350px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 666px;
+        width: 480px;
     }
 
     @media screen and (min-width: 1024px) {
-        width: 450px;
+        width: 350px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 370px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 480px;
     }
 }
