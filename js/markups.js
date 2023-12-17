@@ -33,15 +33,6 @@ export function createMobileListItemsMarkup(items) {
                             height="310"
                         />
 
-                        ${(priceGRNOpt && priceGRN !== '--') ? `
-
-                            <div class="cras-item__element">
-
-                            <p class="cras-item__title"><span class="cras-item__action">ОПТОМ ДЕШЕВШЕ</span></p>
-                            </div>
-
-                        ` : ''}
-
                         ${volumeName ? `
 
                             <div class="cras-item__element">
@@ -83,44 +74,56 @@ export function createMobileListItemsMarkup(items) {
                             <p class="cras-item__text cras-item__text--position">&#171;${brand} - ${nameEN}&#187;</p>
                         </div>
                     </button>
-                    
-                    <div class="cras-block__order">
 
-                        ${priceGRN === '--' ? `
+                    <div>
 
-                                <div class="cras-item__element cras-item__element--only">
+                        ${(priceGRNOpt && priceGRN !== '--') ? `
 
-                                    <p class="cras-item__title cras-item__title--only"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
-                                </div>
+                            <div class="cras-item__element">
 
-                            ` : `
+                                <p class="cras-item__title cras-item__title--only"><span class="cras-item__action">ОПТОМ ДЕШЕВШЕ</span></p>
+                            </div>
 
-                                <div class="cras-item__price-element">
+                        ` : ''}
+                        
+                        <div class="cras-block__order">
 
-                                    <p class="cras-item__price cras-item__price--margin">
+                            ${priceGRN === '--' ? `
 
-                                        <span class="cinzel" style="color: var(--link-color);">${priceGRN}.00</span> грн.
-                                    </p>
+                                    <div class="cras-item__element cras-item__element--only">
 
-                                    <p class="cras-item__price">
-                                        
-                                        <span class="cinzel" style="color: var(--link-color);">${priceUSDT}</span> usdt
-                                    </p>
-                                </div>
-                        `}
+                                        <p class="cras-item__title cras-item__title--only"><span class="cras-item__action">ТІЛЬКИ ОПТОМ</span></p>
+                                    </div>
 
-                        <button class="cras-block__button-busket" type="button" data-lot-basket aria-label="Додати у кошик">
-        
-                            <svg class="basket__icon-in js-basket__icon-in" width="35" height="35">
-        
-                                <use href="./images/icon/sprite.svg#basket-in"></use>
-                            </svg>
-        
-                            <svg class="basket__icon-out js-basket__icon-out" width="35" height="35">
-        
-                                <use href="./images/icon/sprite.svg#basket-out"></use>
-                            </svg>
-                        </button>
+                                ` : `
+
+                                    <div class="cras-item__price-element">
+
+                                        <p class="cras-item__price cras-item__price--margin">
+
+                                            <span class="cinzel" style="color: var(--link-color);">${priceGRN}.00</span> грн.
+                                        </p>
+
+                                        <p class="cras-item__price">
+                                            
+                                            <span class="cinzel" style="color: var(--link-color);">${priceUSDT}</span> usdt
+                                        </p>
+                                    </div>
+                            `}
+
+                            <button class="cras-block__button-busket" type="button" data-lot-basket aria-label="Додати у кошик">
+            
+                                <svg class="basket__icon-in js-basket__icon-in" width="35" height="35">
+            
+                                    <use href="./images/icon/sprite.svg#basket-in"></use>
+                                </svg>
+            
+                                <svg class="basket__icon-out js-basket__icon-out" width="35" height="35">
+            
+                                    <use href="./images/icon/sprite.svg#basket-out"></use>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </li>`;
     }).join("");
