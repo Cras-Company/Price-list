@@ -34,7 +34,7 @@ export function lazyLoadImagesAnimation() {
 // ===========================================================================
 
 export function jumpSearch() {
-  const filterMenuElement = document.querySelector(".tranding-slide-img");
+  const filterMenuElement = document.querySelector(".js-swiper");
 
   if (filterMenuElement) {
     filterMenuElement.scrollIntoView({ behavior: "smooth", block: "start" });
