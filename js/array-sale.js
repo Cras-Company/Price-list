@@ -230,6 +230,27 @@ export const shopLotsSale = [
     //     description04: "<strong>Підходить для будь-якого типу шкіри. Акційна пропозиція 1 + 1 = 3.</strong>",
     //     description05: "Поспішайте придбати дві упаковки &#171Cynosure - Micellar Cleansing Wipes&#187 та отримайте третю у подарунок!"
     // },
+    {
+        type: "retail",
+        url: "./images/shop/sale/parmigiano_reggiano_no_alco_6.jpg",
+        alt: "parmigiano_reggiano_no_alco_6",
+        marker: "SALE450",
+        brand: "Parmareggio",
+        search: "твердый сыр твердые сыры твердий сир тверді сири соус соусы соуси паста пасти пасты оцет печиво книга рецептів рецепт",
+        nameUKR: "Подарунковий набір",
+        nameEN: "Parmigiano Reggiano Tradizione Italiana",
+        companyName: "Parmareggio S.p.a.",
+        countryName: "Італія",
+        quantityName: "Кількість",
+        quantity: "6 шт.",
+        priceGRN: 1023,
+        quantityOnStorage: 6,
+        description01: "Запрошуємо вас у подорож по справжньому італійському смаку з &#171Parmareggio - Parmigiano Reggiano Tradizione Italiana&#187 - витонченість і аутентичність італійської кухні, яка зачаровує з першого погляду.",
+        description02: "Подаруйте смакову насолоду та вишуканість вашим близьким. &#171Parmareggio - Parmigiano Reggiano Tradizione Italiana&#187 - справжній дарунок для цінителів вишуканих смаків та аутентичності італійської кулінарії.",
+        description03: "",
+        description04: "<strong>Набір подарунковий. Містить: міні-книга рецептів &#171Parmigiano Reggiano Consortium&#187;; твердий італійський сир пармезан &#171Parmigiano Reggiano DOP&#187, 12 місяців витримки, 140 гр.; бальзамічний оцет &#171Modena IGP Senso Mengazzoli&#187, 250 мл.; макорони &#171Pennoni Rigati Garofalo PGI&#187, 250 гр.; банка соусу &#171Tenuta del Cervo Arrabbiata&#187, 185 гр.; пакет печива &#171Tarallini Grano d'Oro&#187, 100 гр.</strong>",
+        description05: "Зробіть свій подарунок неперевершеним – замовте &#171Parmareggio - Parmigiano Reggiano Tradizione Italiana&#187 прямо зараз та даруйте особливий смаку та елегантність італійської кухні!"
+    },
     // {
     //     type: "retail",
     //     url: "./images/shop/sale/right_guard_15_off.jpg",
