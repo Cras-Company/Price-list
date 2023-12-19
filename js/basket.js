@@ -34,6 +34,7 @@ import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
 
 import { shopLotsBars } from "./food/array-bars.js";
 import { shopLotsWaffles } from "./food/array-waffles.js";
+import { shopLotsChocolate } from "./food/array-chocolate.js";
 
 import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
@@ -104,6 +105,7 @@ const arrayOfProducts = [
 
   { items: shopLotsBars, },
   { items: shopLotsWaffles, },
+  { items: shopLotsChocolate, },
 
   { items: shopLotsCoffeeBeans, },
   { items: shopLotsGroundCoffee, },
