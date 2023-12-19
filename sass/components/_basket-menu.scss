@@ -150,6 +150,10 @@
     font-weight: 400;
 
     color: var(--link-color);
+
+    &--font {
+        font-weight: 700;
+    }
 }
 
 .cras-item__busket-title,

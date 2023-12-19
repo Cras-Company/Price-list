@@ -2757,6 +2757,9 @@ body.modal-open {
   font-weight: 400;
   color: var(--link-color);
 }
+.cras-item__busket-text--font {
+  font-weight: 700;
+}
 
 .cras-item__busket-title,
 .cras-item__busket-text,
