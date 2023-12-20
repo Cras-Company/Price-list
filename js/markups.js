@@ -135,7 +135,7 @@ export function createMobileListItemsMarkup(items) {
 
 export function createModalListItemsMarkup(items) {
 
-    return items.map(({ type, url, alt, marker, brand, nameEN, nameUKR, companyName, countryName,
+    return items.map(({ type, marker, brand, nameEN, nameUKR, companyName, countryName,
                             volumeName, weightName, quantityName, volume, weight, quantity,
                             priceGRN, priceUSDT, quantityOnStorage, priceGRNOpt, priceUSDTOpt,
                             description01, description02, description03, description04, description05 }) => {
@@ -157,19 +157,7 @@ export function createModalListItemsMarkup(items) {
 
                         <div class="swiper swiper--width js-swiper-modal-lot">
             
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide js-swiper-lot-slide">
-
-                                    <img class="cras-item__img cras-item__img--lot"
-                                        loading="lazy"
-                                        src="${url}"
-                                        alt="${alt}" 
-                                        width="310" 
-                                        height="310"
-                                    />
-                                </div>
-                            </div>
+                            <div class="swiper-wrapper"></div>
                             
                            <div class="swiper-lot-buttons js-swiper-lot-buttons">
 

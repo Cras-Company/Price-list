@@ -3,6 +3,8 @@ export const shopLotsNoodles = [
         type: "retail",
         url: "./images/shop/food/pasta/noodles/barilla_tagliatelle_16_500.jpg",
         alt: "barilla_tagliatelle_16_500",
+        url1: "./images/shop/food/pasta/noodles/barilla_tagliatelle_16_500.jpg",
+        alt1: "barilla_tagliatelle_16_500",
         marker: "FDNO030",
         brand: "Barilla",
         search: "барила барилла баріла барілла лапша таглиателе таглиателле тагліателе тагліаталле 16 твердый твердий сорт тверді сорта твердые сорта с твердых сортов",

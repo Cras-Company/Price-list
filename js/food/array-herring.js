@@ -3,6 +3,8 @@ export const shopLotsHerring = [
         type: "retail",
         url: "./images/shop/food/canned_food/herring/marinero_sledz_tomato_170.jpg",
         alt: "marinero_sledz_tomato_170",
+        url1: "./images/shop/food/canned_food/herring/marinero_sledz_tomato_170.jpg",
+        alt1: "marinero_sledz_tomato_170",
         marker: "HRNG200",
         brand: "Marinero",
         search: "маринеро марінеро томат томати помидор помидоры помідор помідори соус соусы рыба риба сельдь селедка sledz",

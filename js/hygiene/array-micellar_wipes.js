@@ -3,6 +3,8 @@ export const shopLotsMicellarWipes = [
     type: "wholesale",
     url: "./images/shop/micellar_wipes/cynosure_micellar_wipes.jpg",
     alt: "cynosure_micellar_wipes",
+    url1: "./images/shop/micellar_wipes/cynosure_micellar_wipes.jpg",
+    alt1: "cynosure_micellar_wipes",
     marker: "MW001",
     brand: "Cynosure",
     search: "серветка салфетка салфетки с кислотой макіяж макияж для снятия зняття гіалуронова кислота",

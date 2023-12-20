@@ -3,6 +3,8 @@ export const shopLotsCreamSpreads = [
         type: "wholesale",
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250.jpg",
         alt: "aro_natur_vajkrem_250",
+        url1: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250.jpg",
+        alt1: "aro_natur_vajkrem_250",
         marker: "FDCS010",
         brand: "Aro",
         search: "метро аро помазанка помазанки крем вершки сливки сливочный крем",

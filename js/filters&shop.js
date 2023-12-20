@@ -1253,12 +1253,11 @@ function lotModalOpenHandler(event) {
 
         const swiperLotButtons = document.querySelector(".js-swiper-lot-buttons");
         const arrayLengthImages = Object.keys(foundItem).filter(key => key.startsWith('url')).length;
-        const swiperLotSlide = document.querySelector(".js-swiper-lot-slide");
 
-        if (arrayLengthImages > 1) {
-          initializeSlider(foundItem, arrayLengthImages);
-          swiperLotSlide.style.display = 'none';
-        } else {
+        initializeSlider(foundItem, arrayLengthImages);
+
+        if (arrayLengthImages === 2) {
+          
           swiperLotButtons.style.display = 'none';
         }
       }
@@ -1307,7 +1306,7 @@ function lotModalOpenHandler(event) {
           slides: (function () {
             let lotImages = [];
 
-            for (let i = 1; i <= arrayLengthImages; i++) {
+            for (let i = 1; i < arrayLengthImages; i++) {
               lotImages.push(`
                 <div class="swiper-zoom-container"
                   <div class="swiper-slide">
