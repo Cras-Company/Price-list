@@ -1299,20 +1299,26 @@ function lotModalOpenHandler(event) {
         observer: true,
         observeParents: true,
         observeSlideChildren: true,
+        zoom: {
+          maxRatio: 3,
+          minRatio: 1,
+        },
         virtual: {
           slides: (function () {
             let lotImages = [];
 
             for (let i = 1; i <= arrayLengthImages; i++) {
               lotImages.push(`
-                <div class="swiper-slide">
-                  <img 
-                    loading="lazy"
-                    src="${foundItem[`url${i}`]}"
-                    alt="${foundItem[`alt${i}`]}" 
-                    width="310" 
-                    height="310"
-                  />
+                <div class="swiper-zoom-container"
+                  <div class="swiper-slide">
+                    <img 
+                      loading="lazy"
+                      src="${foundItem[`url${i}`]}"
+                      alt="${foundItem[`alt${i}`]}" 
+                      width="310" 
+                      height="310"
+                    />
+                  </div>
                 </div>
               `);
             }
