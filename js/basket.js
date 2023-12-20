@@ -978,7 +978,9 @@ function restoreButtonCopy() {
   const buttonCopy = document.querySelector(".js-button__copy");
 
   if (buttonCopy) {
+
     buttonCopy.addEventListener("click", scaleButton);
+    
     function scaleButton() {
       buttonCopy.style.transform = 'scale(0.8)';
       setTimeout(function () {

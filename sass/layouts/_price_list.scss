@@ -188,10 +188,13 @@
     position: relative;
     z-index: 100;
 
+    margin: 0 auto;
+
     background-color: var(--pure-white);
 
     @media screen and (min-width: 1500px) {
         padding-left: 100px;
+        margin: 0;
     }
 }
 

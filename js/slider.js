@@ -1,3 +1,4 @@
+// Слайдер на бренды
 import { brands } from "./array-brands.js";
 
 let TrandingSlider = new Swiper('.js-swiper', {

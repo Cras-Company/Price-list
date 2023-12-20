@@ -155,13 +155,43 @@ export function createModalListItemsMarkup(items) {
 
                     <div class="cras-item--flex">
 
-                            <img class="lazyload cras-item__img cras-item__img--lot"
-                            loading="lazy"
-                            data-src="${url}"
-                            alt="${alt}" 
-                            width="310" 
-                            height="310"
-                        />
+                        <div class="swiper swiper--width js-swiper-modal-lot">
+            
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide js-swiper-lot-slide">
+
+                                    <img class="cras-item__img cras-item__img--lot"
+                                        loading="lazy"
+                                        src="${url}"
+                                        alt="${alt}" 
+                                        width="310" 
+                                        height="310"
+                                    />
+                                </div>
+                            </div>
+                            
+                           <div class="swiper-lot-buttons js-swiper-lot-buttons">
+
+                                <div class="swiper-lot-button-prev js-swiper-lot-button-prev">
+                        
+                                    <svg class="swiper__icon" width="40" height="40">
+                        
+                                        <use href="./images/icon/sprite.svg#icon-circle-left"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="swiper-pagination"></div>
+                        
+                                <div class="swiper-lot-button-next js-swiper-lot-button-next">
+                        
+                                    <svg class="swiper__icon" width="40" height="40">
+                        
+                                        <use href="./images/icon/sprite.svg#icon-circle-right"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="cras-item__description">
 

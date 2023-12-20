@@ -7,52 +7,41 @@
     background-color: var(--link-color);
 }
 
+.swiper--width {
+    width: 270px;
+
+    @media screen and (min-width: 400px) {
+        width: 310px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin: 0;
+    }
+}
+
 // --------------------------------------
-// Кнопки карусели
+// Кнопки слайдера лота
 // --------------------------------------
 
-// .swiper-button--position {
-//     display: flex;
-//     justify-content: space-around;
+.swiper-lot-buttons {
+    display: flex;
+    justify-content: space-around;
 
-//     @media screen and (max-width: 479px) {
-//         margin-top: 20px;   
-//     }
+    margin-top: 10px;
+}
 
-//     @media screen and (min-width: 480px) {
-//         display: none;
-//     }
-// }
+.swiper-lot-button-next,
+.swiper-lot-button-prev {
+    background: transparent;
+    border: none;
 
-// .swiper-button-next,
-// .swiper-button-prev {
-//     background: transparent;
-//     border: none;
+    cursor: pointer;
+}
 
-//     cursor: pointer;
-// }
-
-// .swiper-button-prev--position {
-//     @media screen and (max-width: 479px) {
-//         display: none;
-//     }
-// }
-
-// .swiper-button-next--position {
-//     @media screen and (max-width: 479px) {
-//         display: none;
-//     }
-// }
-
-// .swiper__icon {
-//     fill: #2e2e2e;;
-//     transition: fill 250ms var(--timing-function);
-
-//     &:hover,
-//     &:focus {
-//         fill: var(--link-color);
-//     }
-// }
+.swiper__icon {
+    fill: var(--link-color);
+    transition: fill 250ms var(--timing-function);
+}
 
 .slider__slogan {
     margin-bottom: 20px;

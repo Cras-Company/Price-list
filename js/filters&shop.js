@@ -1250,7 +1250,77 @@ function lotModalOpenHandler(event) {
 
       if (foundItem) {
         shopListMobileLot.innerHTML = createModalListItemsMarkup([foundItem]);
+
+        const swiperLotButtons = document.querySelector(".js-swiper-lot-buttons");
+        const arrayLengthImages = Object.keys(foundItem).filter(key => key.startsWith('url')).length;
+        const swiperLotSlide = document.querySelector(".js-swiper-lot-slide");
+
+        if (arrayLengthImages > 1) {
+          initializeSlider(foundItem, arrayLengthImages);
+          swiperLotSlide.style.display = 'none';
+        } else {
+          swiperLotButtons.style.display = 'none';
+        }
       }
+    }
+
+    function initializeSlider(foundItem, arrayLengthImages) {
+
+      const lotButtonNext = document.querySelector(".js-swiper-lot-button-next");
+      const lotButtonPrev = document.querySelector(".js-swiper-lot-button-prev");
+
+      lotButtonNext.addEventListener("click", scaleButtonNext);
+      lotButtonPrev.addEventListener("click", scaleButtonPrev);
+
+      function scaleButtonNext() {
+        lotButtonNext.style.transform = 'scale(0.8)';
+        setTimeout(function () {
+          lotButtonNext.style.transform = 'scale(1)';
+        }, 200);
+      }
+
+      function scaleButtonPrev() {
+        lotButtonPrev.style.transform = 'scale(0.8)';
+        setTimeout(function () {
+          lotButtonPrev.style.transform = 'scale(1)';
+        }, 200);
+      }
+
+
+      new Swiper('.js-swiper-modal-lot', {
+        slidesPerView: 1,
+        mousewheel: {
+          sensitivity: 1,
+        },
+        navigation: {
+          nextEl: '.swiper-lot-button-next',
+          prevEl: '.swiper-lot-button-prev',
+        },
+        observer: true,
+        observeParents: true,
+        observeSlideChildren: true,
+        virtual: {
+          slides: (function () {
+            let lotImages = [];
+
+            for (let i = 1; i <= arrayLengthImages; i++) {
+              lotImages.push(`
+                <div class="swiper-slide">
+                  <img 
+                    loading="lazy"
+                    src="${foundItem[`url${i}`]}"
+                    alt="${foundItem[`alt${i}`]}" 
+                    width="310" 
+                    height="310"
+                  />
+                </div>
+              `);
+            }
+
+            return lotImages;
+          })(),
+        },
+      });
     }
 
     // Убираем предыдущий слушатель события click, если он был

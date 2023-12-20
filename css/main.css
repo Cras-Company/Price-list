@@ -1028,11 +1028,13 @@ img {
 .cras-item__description {
   position: relative;
   z-index: 100;
+  margin: 0 auto;
   background-color: var(--pure-white);
 }
 @media screen and (min-width: 1500px) {
   .cras-item__description {
     padding-left: 100px;
+    margin: 0;
   }
 }
 
@@ -2692,6 +2694,9 @@ body.modal-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 5px;
 }
 @media screen and (min-width: 400px) {
@@ -3355,6 +3360,42 @@ body.modal-open {
   border: 6px solid var(--link-color);
   border-radius: 20px;
   background-color: var(--link-color);
+}
+
+.swiper--width {
+  width: 270px;
+}
+@media screen and (min-width: 400px) {
+  .swiper--width {
+    width: 310px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .swiper--width {
+    margin: 0;
+  }
+}
+
+.swiper-lot-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
+}
+
+.swiper-lot-button-next,
+.swiper-lot-button-prev {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.swiper__icon {
+  fill: var(--link-color);
+  -webkit-transition: fill 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .slider__slogan {
