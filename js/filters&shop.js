@@ -1310,8 +1310,7 @@ function lotModalOpenHandler(event) {
               lotImages.push(`
                 <div class="swiper-zoom-container"
                   <div class="swiper-slide">
-                    <img 
-                      loading="lazy"
+                    <img class="cras-item__img"
                       src="${foundItem[`url${i}`]}"
                       alt="${foundItem[`alt${i}`]}" 
                       width="310" 
