@@ -49,7 +49,7 @@ export const shopLotsPistachios = [
     //     type: "wholesale",
     //     url: "./images/shop/food/snacks/pistachios/mogyi_pisztacia_60.jpg",
     //     alt: "mogyi_pisztacia_60",
-    //     marker: "FDPH040",
+    //     marker: "FDPH400",
     //     brand: "Mogyi",
     //     search: "модь сіль соль соленые фисташки",
     //     nameUKR: "Солоні фісташки",

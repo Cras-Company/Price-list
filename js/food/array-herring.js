@@ -5,7 +5,7 @@ export const shopLotsHerring = [
         alt: "marinero_sledz_tomato_170",
         url1: "./images/shop/food/canned_food/herring/marinero_sledz_tomato_170.jpg",
         alt1: "marinero_sledz_tomato_170",
-        marker: "HRNG200",
+        marker: "HRNG450",
         brand: "Marinero",
         search: "маринеро марінеро томат томати помидор помидоры помідор помідори соус соусы рыба риба сельдь селедка sledz",
         nameUKR: "Оселедець у томатному соусі",
