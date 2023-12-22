@@ -26,7 +26,7 @@ export const shopLotsAdultShampoos = [
     alt: "right_guard_sport",
     url1: "./images/shop/bath_gels/right_guard_sport.jpg",
     alt1: "right_guard_sport",
-    marker: "ASDG002",
+    marker: "ASDG700",
     brand: "Right Guard",
     search: "райт гуард шампуні гелі гели душа шварцкопф хенкель чоловічий чоловічі чоловічій",
     nameUKR: "Шампунь для чоловіків, гель для душу",
