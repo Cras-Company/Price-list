@@ -364,6 +364,10 @@ export const brands = [
     alt: "rio_mare",
   },
   {
+    url: "./images/carusel/riscossa.jpg",
+    alt: "riscossa",
+  },
+  {
     url: "./images/carusel/rosso_gargano.jpg",
     alt: "rosso_gargano",
   },
