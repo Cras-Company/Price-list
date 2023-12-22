@@ -120,7 +120,7 @@ export const shopLotsPeanuts = [
         alt: "mogyi_peanuts_roasted_salted_150",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
         alt1: "mogyi_peanuts_roasted_salted_150",
-        marker: "FDPS044",
+        marker: "FDPS470",
         brand: "Mogyi",
         search: "модь сіль соль соленый арахис",
         nameUKR: "Солоний арахіс",

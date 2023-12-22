@@ -1,26 +1,25 @@
 export const shopLotsMeansHandsWashingDishes = [
-    // {
-    //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
-    //     alt: "alio_happy_berry",
-    //     marker: "MHWD001",
-    //     brand: "alio",
-    //     search: "",//     
-    //     nameUKR: "алди алио аліо засіб для миття средство мытья мийний мийні забоси стредства посуду посуды посуда ягоди ягода",
-    //     nameEN: "Happy Berry 5 in 1",
-    //     companyName: "Aldi",
-    //     countryName: "Німеччина",
-    //     volumeName: "Об'єм",   
-    //     volume: "500 мл.",
-    //     priceGRN: 53,
-    //  
-    //     quantityOnStorage: 1,
-    //     description01: "&#171;alio - Happy Berry 5 in 1&#187; - ідеальний вибір для сяючої чистоти вашої посуду та веселого настрою на кухні. Унікальна формула надає п'ять вражаючих функцій в одному продукті. З легкістю видаляє навіть найскладніші забруднення та жир, не залишаючи слідів на посуді.",
-    //     description02: "За допомогою аромату ягід, цей миттєвий засіб дарує радість та свіжість під час кожного миття. Потужна дія гарантує бездоганно чистий посуд.",
-    //     description03: "&#171;alio - Happy Berry 5 in 1&#187; подарує вам чудовий настрій і чистоту на кожному кроці.",
-    //     description04: "<strong>Для ручного миття посуду.</strong>",
-    //     description05: "Насолоджуйтесь радістю кожного миття та ароматом ягід з &#171;alio - Happy Berry 5 in 1&#187;, що наповнить вашу кухню теплом і затишком."
-    // },
+    {
+        type: "retail",
+        url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
+        alt: "alio_happy_berry",
+        marker: "MHWD001",
+        brand: "alio",
+        search: "алди алио аліо засіб для миття средство мытья мийний мийні забоси стредства посуду посуды посуда ягоди ягода",     
+        nameUKR: "Засіб для миття посуду",
+        nameEN: "Happy Berry 5 in 1",
+        companyName: "Aldi",
+        countryName: "Німеччина",
+        volumeName: "Об'єм",   
+        volume: "500 мл.",
+        priceGRN: 53,
+        quantityOnStorage: 1,
+        description01: "&#171;alio - Happy Berry 5 in 1&#187; - ідеальний вибір для сяючої чистоти вашої посуду та веселого настрою на кухні. Унікальна формула надає п'ять вражаючих функцій в одному продукті. З легкістю видаляє навіть найскладніші забруднення та жир, не залишаючи слідів на посуді.",
+        description02: "За допомогою аромату ягід, цей миттєвий засіб дарує радість та свіжість під час кожного миття. Потужна дія гарантує бездоганно чистий посуд.",
+        description03: "&#171;alio - Happy Berry 5 in 1&#187; подарує вам чудовий настрій і чистоту на кожному кроці.",
+        description04: "<strong>Для ручного миття посуду.</strong>",
+        description05: "Насолоджуйтесь радістю кожного миття та ароматом ягід з &#171;alio - Happy Berry 5 in 1&#187;, що наповнить вашу кухню теплом і затишком."
+    },
     {
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_classic.jpg",

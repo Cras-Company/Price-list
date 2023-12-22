@@ -164,6 +164,10 @@ export const brands = [
     alt: "giana",
   },
   {
+    url: "./images/carusel/gustobello.jpg",
+    alt: "gustobello",
+  },
+  {
     url: "./images/carusel/gut_gunstig.jpg",
     alt: "gut_gunstig",
   },
