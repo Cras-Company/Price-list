@@ -3,6 +3,8 @@ export const shopLotsMeansHandsWashingDishes = [
         type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
         alt: "alio_happy_berry",
+        url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
+        alt1: "alio_happy_berry",
         marker: "MHWD010",
         brand: "alio",
         search: "алди алио аліо засіб для миття средство мытья мийний мийні забоси стредства посуду посуды посуда ягоди ягода",     
