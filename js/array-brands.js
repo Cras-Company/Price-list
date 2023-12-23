@@ -15,10 +15,10 @@ export const brands = [
     url: "./images/carusel/alio.jpg",
     alt: "alio",
   },
-  {
-    url: "./images/carusel/ambassador.jpg",
-    alt: "ambassador",
-  },
+  // {
+  //   url: "./images/carusel/ambassador.jpg",
+  //   alt: "ambassador",
+  // },
   {
     url: "./images/carusel/ariel.jpg",
     alt: "ariel",
