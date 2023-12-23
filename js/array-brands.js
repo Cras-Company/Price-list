@@ -208,6 +208,10 @@ export const brands = [
     alt: "izsaki_haziteszta",
   },
   {
+    url: "./images/carusel/j.j.darboven.jpg",
+    alt: "j.j.darboven",
+  },
+  {
     url: "./images/carusel/ja.jpg",
     alt: "ja",
   },
