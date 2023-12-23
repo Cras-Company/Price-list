@@ -100,6 +100,10 @@ export const brands = [
     alt: "cynosure",
   },
   {
+    url: "./images/carusel/dallmayr.jpg",
+    alt: "dallmayr",
+  },
+  {
     url: "./images/carusel/denkmit.jpg",
     alt: "denkmit",
   },
