@@ -171,184 +171,190 @@ export function lotBasketHandler(event) {
   const targetButton = event.target.closest('button[data-lot-basket]');
 
   if (targetButton) {
+    const target = targetButton.closest(".cras-block, .js-cras-item");
 
-    let target;
-    let marker;
-    let basketInIcon;
-    let basketOutIcon;
-    let currentValue = 1;
+    if (target) {
+      const marker = target.getAttribute('data-basket-marker');
+      const basketInIcons = target.querySelectorAll(".js-basket__icon-in");
+      const basketOutIcons = target.querySelectorAll(".js-basket__icon-out");
 
-    if (event.target.closest(".cras-block")) {
-      target = targetButton.closest(".cras-block");
-      marker = target.getAttribute('data-basket-marker');
-      basketInIcon = target.querySelector(".js-basket__icon-in");
-      basketOutIcon = target.querySelector(".js-basket__icon-out");
-    } else if (event.target.closest(".js-cras-item")) {
-      target = targetButton.closest(".js-cras-item");
-      marker = target.getAttribute('data-basket-marker');
-      basketInIcon = target.querySelector(".js-basket__icon-in");
-      basketOutIcon = target.querySelector(".js-basket__icon-out");
+      const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+      const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
+      const priceUSDT = (priceGRN / USDTRate).toFixed(2);
+
+      toggleItemInBasket(marker, foundItem);
+      setupQuantityButtons();
+      updateQuantityItemsArray(marker, priceGRN, priceUSDT);
+      updateHeaderBasketNumber();
+      toggleIconsForMarker(marker);
+      setupRemoveButtons();
+      handleClearBasketButton();
+      updatePriceWholesales(foundItem);
+      updateBasketOrder();
+      basketCheckboxChanger();
+      totalItemsAmount();
+      restoreButtonCopy();
+    }
+  }
+}
+
+function toggleItemInBasket(marker, foundItem) {
+  const itemIndex = basketfoundItemsArray.findIndex((item) => item.marker === marker);
+
+  if (itemIndex !== -1) {
+    basketfoundItemsArray.splice(itemIndex, 1);
+    removeBasketItemElement(marker);
+    removeBasketMarkupFromLocalStorage(marker);
+  } else {
+    if (foundItem) {
+      basketfoundItemsArray.push(foundItem);
+      addBasketItemElement(foundItem);
+      saveBasketMarkupToLocalStorage();
+    }
+  }
+
+  updateBasketFoundItemsArrayInLocalStorage();
+}
+
+function removeBasketItemElement(marker) {
+  const itemToRemove = basketListLots.querySelector(`[data-basket-marker="${marker}"]`);
+
+  if (itemToRemove) {
+    itemToRemove.remove();
+  }
+}
+
+function removeBasketMarkupFromLocalStorage(marker) {
+  const savedBasketMarkup = localStorage.getItem('basketMarkup');
+
+  if (savedBasketMarkup) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(savedBasketMarkup, 'text/html');
+    const itemToRemoveInStorage = doc.querySelector(`[data-basket-marker="${marker}"]`);
+
+    if (itemToRemoveInStorage) {
+      itemToRemoveInStorage.remove();
     }
 
-    const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
-    const priceGRN = foundItem ? parseFloat(foundItem.priceGRN) : 0;
-    const priceUSDT = (priceGRN / USDTRate).toFixed(2);
-
-    function toggleItemInBasket(marker) {
-
-      const itemIndex = basketfoundItemsArray.findIndex((item) => item.marker === marker);
-
-      if (itemIndex !== -1) {
-
-        basketfoundItemsArray.splice(itemIndex, 1);
-
-        const itemToRemove = basketListLots.querySelector(`[data-basket-marker="${marker}"]`);
-        
-        if (itemToRemove) {
-
-          itemToRemove.remove();
-        }
-
-        // Удаление сохраненной разметки из локального хранилища
-        const savedBasketMarkup = localStorage.getItem('basketMarkup');
-
-        if (savedBasketMarkup) {
-
-          const parser = new DOMParser();
-
-          const doc = parser.parseFromString(savedBasketMarkup, 'text/html');
-
-          const itemToRemoveInStorage = doc.querySelector(`[data-basket-marker="${marker}"]`);
-
-          if (itemToRemoveInStorage) {
-
-            itemToRemoveInStorage.remove();
-          }
-          
-          if (doc.body.innerHTML.trim() === '') {
-            localStorage.removeItem('basketMarkup');
-          } else {
-            localStorage.setItem('basketMarkup', doc.body.innerHTML);
-          }
-        }
-      } else {
-
-        if (foundItem) {
-
-          basketfoundItemsArray.push(foundItem);
-
-          const basketMarkup = createBasketListItemsMarkup([foundItem]);
-
-          if (basketMarkup) {
-
-            basketListLots.insertAdjacentHTML("beforeend", basketMarkup);
-            
-            localStorage.setItem('basketMarkup', basketListLots.innerHTML);
-          }
-        }
-      }
-
-      if (basketfoundItemsArray.length === 0) {
-        localStorage.removeItem('basketfoundItemsArray');
-      } else {
-        localStorage.setItem('basketfoundItemsArray', JSON.stringify(basketfoundItemsArray));
-      }
-    }
-
-    toggleItemInBasket(marker);
-    
-    const decreaseButtons = document.querySelectorAll('[data-price-down]');
-    const increaseButtons = document.querySelectorAll('[data-price-up]');
-
-    decreaseButtons.forEach(function (button) {
-      button.addEventListener('click', handleQuantityDecrease);
-    });
-
-    increaseButtons.forEach(function (button) {
-      button.addEventListener('click', handleQuantityIncrease);
-    });
-
-    const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
-    const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
-
-    let existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
-
-    if (existingItemIndex !== -1) {
-      quantityItemsArray.splice(existingItemIndex, 1);
+    if (doc.body.innerHTML.trim() === '') {
+      localStorage.removeItem('basketMarkup');
     } else {
-      quantityItemsArray.push({
-        marker: marker,
-        quantityItem: currentValue,
-        priceGRN: priceGRN,
-        priceUSDT: priceUSDT,
-      });
+      localStorage.setItem('basketMarkup', doc.body.innerHTML);
     }
+  }
+}
 
-    if (quantityItemsArray.length === 0) {
-      localStorage.removeItem("quantityItemsArray");
-    } else {
-      localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
-    }
+function addBasketItemElement(item) {
+  const basketMarkup = createBasketListItemsMarkup([item]);
 
-    // Количество товаров в корзине
-    headerBasketNumbers.forEach((headerBasketNumber) => {
-      if (basketfoundItemsArray.length > 0) {
-        headerBasketNumber.textContent = basketfoundItemsArray.length;
-        localStorage.setItem('headerBasketNumberValue', headerBasketNumber.textContent);
-      } else {
-        headerBasketNumber.textContent = "";
-        localStorage.removeItem('headerBasketNumberValue');
-      }
+  if (basketMarkup) {
+    basketListLots.insertAdjacentHTML("beforeend", basketMarkup);
+  }
+}
+
+function saveBasketMarkupToLocalStorage() {
+  localStorage.setItem('basketMarkup', basketListLots.innerHTML);
+}
+
+function updateBasketFoundItemsArrayInLocalStorage() {
+  if (basketfoundItemsArray.length === 0) {
+    localStorage.removeItem('basketfoundItemsArray');
+  } else {
+    localStorage.setItem('basketfoundItemsArray', JSON.stringify(basketfoundItemsArray));
+  }
+}
+
+function updateHeaderBasketNumber() {
+  headerBasketNumbers.forEach((headerBasketNumber) => {
+    headerBasketNumber.textContent = basketfoundItemsArray.length > 0 ? basketfoundItemsArray.length : "";
+    localStorage.setItem('headerBasketNumberValue', headerBasketNumber.textContent);
+  });
+}
+
+function toggleIconsForMarker(marker) {
+  const iconsArrayJSON = localStorage.getItem("iconsArray");
+  const iconsArray = JSON.parse(iconsArrayJSON) || [];
+
+  const existingIndex = iconsArray.findIndex(item => item.marker === marker);
+
+  if (existingIndex !== -1) {
+    iconsArray.splice(existingIndex, 1);
+  } else {
+    iconsArray.push({
+      marker: marker,
+      addedInBasket: true,
     });
+  }
 
-    // Обработка иконок
-    basketInIcon.classList.toggle("js-icon-close");
-    basketOutIcon.classList.toggle("js-icon-open");
+  if (iconsArray.length === 0) {
+    localStorage.removeItem("iconsArray");
+  } else {
+    localStorage.setItem("iconsArray", JSON.stringify(iconsArray));
+  }
 
-    const iconsArrayJSON = localStorage.getItem("iconsArray");
-    const iconsArray = JSON.parse(iconsArrayJSON) || [];
+  const basketInIcons = document.querySelectorAll(`[data-basket-marker="${marker}"] .js-basket__icon-in`);
+  const basketOutIcons = document.querySelectorAll(`[data-basket-marker="${marker}"] .js-basket__icon-out`);
 
-    let existingIndex = iconsArray.findIndex(item => item.marker === marker);
+  basketInIcons.forEach(icon => icon.classList.toggle("js-icon-close"));
+  basketOutIcons.forEach(icon => icon.classList.toggle("js-icon-open"));
+}
 
-    if (existingIndex !== -1) {
-      iconsArray.splice(existingIndex, 1);
-    } else {
-      iconsArray.push({
-        marker: marker,
-        addedInBasket: true,
-      });
-    }
+function setupQuantityButtons() {
+  const decreaseButtons = document.querySelectorAll('[data-price-down]');
+  const increaseButtons = document.querySelectorAll('[data-price-up]');
 
-    if (iconsArray.length === 0) {
-      localStorage.removeItem("iconsArray");
-    } else {
-      localStorage.setItem("iconsArray", JSON.stringify(iconsArray));
-    }
+  decreaseButtons.forEach((button) => button.addEventListener('click', handleQuantityDecrease));
+  increaseButtons.forEach((button) => button.addEventListener('click', handleQuantityIncrease));
+}
 
-    // Удаление товара на кнопку "Удалить"
-    const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
-    removeButtons.forEach((button) => {
-      button.addEventListener("click", removeBasketItem);
+function updateQuantityItemsArray(marker, priceGRN, priceUSDT) {
+  const quantityItemsArrayJSON = localStorage.getItem("quantityItemsArray");
+  const quantityItemsArray = JSON.parse(quantityItemsArrayJSON) || [];
+
+  const existingItemIndex = quantityItemsArray.findIndex(item => item.marker === marker);
+
+  if (existingItemIndex !== -1) {
+    quantityItemsArray.splice(existingItemIndex, 1);
+  } else {
+    quantityItemsArray.push({
+      marker: marker,
+      quantityItem: 1,
+      priceGRN: priceGRN,
+      priceUSDT: priceUSDT,
     });
+  }
 
-    // Полная очистка корзины
-    if (clearBasketButton) {
-      clearBasketButton.addEventListener("click", clearBasket);
-    }
+  if (quantityItemsArray.length === 0) {
+    localStorage.removeItem("quantityItemsArray");
+  } else {
+    localStorage.setItem("quantityItemsArray", JSON.stringify(quantityItemsArray));
+  }
+}
 
-    const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
-    
-    if (foundItem.type === "retail") {
-      priceWholesales.forEach((priceWholesale) => {
-        priceWholesale.style.display = "none";
-      })
-    }
+function updatePriceWholesales(foundItem) {
+  const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
 
-    basketOrderBox.innerHTML = createBasketOrderMarkup();
-    basketCheckboxChanger();
-    totalItemsAmount();
+  if (foundItem && foundItem.type === "retail") {
+    priceWholesales.forEach((priceWholesale) => {
+      priceWholesale.style.display = "none";
+    });
+  }
+}
 
-    restoreButtonCopy();
+function updateBasketOrder() {
+  basketOrderBox.innerHTML = createBasketOrderMarkup();
+}
+
+function setupRemoveButtons() {
+  const removeButtons = document.querySelectorAll("[data-modal-remove-item]");
+  removeButtons.forEach((button) => {
+    button.addEventListener("click", removeBasketItem);
+  });
+}
+
+function handleClearBasketButton() {
+  if (clearBasketButton) {
+    clearBasketButton.addEventListener("click", clearBasket);
   }
 }
 

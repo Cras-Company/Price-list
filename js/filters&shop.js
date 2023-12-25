@@ -1285,7 +1285,6 @@ function lotModalOpenHandler(event) {
         }, 200);
       }
 
-
       new Swiper('.js-swiper-modal-lot', {
         slidesPerView: 1,
         mousewheel: {
