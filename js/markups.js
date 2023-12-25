@@ -347,7 +347,7 @@ export function createBasketListItemsMarkup(items) {
 
                         <div class="cras-item__basket-description">
 
-                            <div class="cras-item__busket-element">
+                            <div class="cras-item__busket-element cras-item__busket-element-reset">
                             
                                 <p class="cras-item__busket-title">Маркер:</p>
                             
@@ -367,7 +367,7 @@ export function createBasketListItemsMarkup(items) {
                             
                              ` : `
 
-                                <div class="basket__wholesale-сheckbox unselectable">
+                                <div class="basket__wholesale-сheckbox cras-item__busket-element-reset unselectable">
 
                                     <label class="basket__wholesale-label" for="${marker}">
 

@@ -2813,7 +2813,7 @@ body.modal-open {
 }
 
 .cras-item__busket-element-reset {
-  margin: 0;
+  margin-bottom: 15px;
 }
 
 .cras-item__element--basket {
