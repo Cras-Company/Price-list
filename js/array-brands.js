@@ -232,6 +232,10 @@ export const brands = [
     alt: "king_oscar",
   },
   {
+    url: "./images/carusel/lavazza.jpg",
+    alt: "lavazza",
+  },
+  {
     url: "./images/carusel/lenor.jpg",
     alt: "lenor",
   },
