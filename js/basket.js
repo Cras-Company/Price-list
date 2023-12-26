@@ -40,6 +40,7 @@ import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
 import { shopLotsInstantCoffee } from "./food/array-instant-coffee.js";
 import { shopLotsCacao } from "./food/array-cacao.js";
+import { shopLotsCappuccino } from "./food/array-cappuccino.js";
 
 import { shopLotsOil } from "./food/array-oil.js";
 import { shopLotsOlives } from "./food/array-olives.js";
@@ -111,6 +112,7 @@ const arrayOfProducts = [
   { items: shopLotsGroundCoffee, },
   { items: shopLotsInstantCoffee, },
   { items: shopLotsCacao, },
+  { items: shopLotsCappuccino, },
 
   { items: shopLotsOil, },
   { items: shopLotsOlives, },

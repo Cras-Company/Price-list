@@ -48,6 +48,7 @@ import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
 import { shopLotsInstantCoffee } from "./food/array-instant-coffee.js";
 import { shopLotsCacao } from "./food/array-cacao.js";
+import { shopLotsCappuccino } from "./food/array-cappuccino.js";
 
 import { shopLotsOil } from "./food/array-oil.js";
 import { shopLotsOlives } from "./food/array-olives.js";
@@ -125,6 +126,7 @@ const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans
 const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coffee");
 const shopListInstantCoffee = document.querySelector(".js-cras__list--instant-coffee");
 const shopListCacao = document.querySelector(".js-cras__list--cacao");
+const shopListCappuccino = document.querySelector(".js-cras__list--cappuccino");
 
 const shopListOil = document.querySelector(".js-cras__list--oil");
 const shopListOlives = document.querySelector(".js-cras__list--olives");
@@ -222,6 +224,7 @@ const BlockCoffeeBeans = document.querySelector(".js-block-coffee-beans");
 const BlockGroundCoffee = document.querySelector(".js-block-ground-coffee");
 const BlockInstantCoffee = document.querySelector(".js-block-instant-coffee");
 const BlockCacao = document.querySelector(".js-block-cacao");
+const BlockCappuccino = document.querySelector(".js-block-cappuccino");
 
 // Оливки и масло
 const SectionAllOlivesOil = document.querySelector(".js-section-all-olives-oil");
@@ -319,6 +322,7 @@ const arrayOfProducts = [
   { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
   { element: shopListInstantCoffee, items: shopLotsInstantCoffee, block: BlockInstantCoffee, dataTarget: "instant-coffee" },
   { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
+  { element: shopListCappuccino, items: shopLotsCappuccino, block: BlockCappuccino, dataTarget: "cappuccino" },
 
   { element: shopListOil, items: shopLotsOil, block: BlockOil, dataTarget: "oil" },
   { element: shopListOlives, items: shopLotsOlives, block: BlockOlives, dataTarget: "olives" },
@@ -550,6 +554,7 @@ function handleFormSubmit(event) {
   const filteredGroundCoffee = universalSearch(shopLotsGroundCoffee, searchItem);
   const filteredInstantCoffee = universalSearch(shopLotsInstantCoffee, searchItem);
   const filteredCacao = universalSearch(shopLotsCacao, searchItem);
+  const filteredCappuccino = universalSearch(shopLotsCappuccino, searchItem);
 
   const filteredOil = universalSearch(shopLotsOil, searchItem);
   const filteredOlives = universalSearch(shopLotsOlives, searchItem);
@@ -623,6 +628,7 @@ function handleFormSubmit(event) {
     ...filteredGroundCoffee,
     ...filteredInstantCoffee,
     ...filteredCacao,
+    ...filteredCappuccino,
 
     ...filteredOil,
     ...filteredOlives,
@@ -754,11 +760,13 @@ function handleFormSubmit(event) {
   if (filteredCoffeeBeans.length > 0 ||
     filteredGroundCoffee.length > 0 ||
     filteredInstantCoffee.length > 0 ||
-    filteredCacao.length > 0) {
+    filteredCacao.length > 0 ||
+    filteredCappuccino.length > 0) {
     shopListCoffeeBeans.innerHTML = createMobileListItemsMarkup(filteredCoffeeBeans);
     shopListGroundCoffee.innerHTML = createMobileListItemsMarkup(filteredGroundCoffee);
     shopListInstantCoffee.innerHTML = createMobileListItemsMarkup(filteredInstantCoffee);
     shopListCacao.innerHTML = createMobileListItemsMarkup(filteredCacao);
+    shopListCappuccino.innerHTML = createMobileListItemsMarkup(filteredCappuccino);
   } else {
     SectionAllDrinks.style.display = "none";
   }
@@ -892,6 +900,7 @@ function handleFormSubmit(event) {
     { element: shopListGroundCoffee, items: filteredGroundCoffee, block: BlockGroundCoffee },
     { element: shopListInstantCoffee, items: filteredInstantCoffee, block: BlockInstantCoffee },
     { element: shopListCacao, items: filteredCacao, block: BlockCacao },
+    { element: shopListCappuccino, items: filteredCappuccino, block: BlockCappuccino },
 
     { element: shopListOil, items: filteredOil, block: BlockOil },
     { element: shopListOlives, items: filteredOlives, block: BlockOlives },
