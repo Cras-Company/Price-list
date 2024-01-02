@@ -204,6 +204,10 @@ export const brands = [
     alt: "hutesa",
   },
   {
+    url: "./images/carusel/illy.jpg",
+    alt: "illy",
+  },
+  {
     url: "./images/carusel/italiamo.jpg",
     alt: "italiamo",
   },
