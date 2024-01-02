@@ -44,6 +44,7 @@ import { shopLotsBars } from "./food/array-bars.js";
 import { shopLotsWaffles } from "./food/array-waffles.js";
 import { shopLotsChocolate } from "./food/array-chocolate.js";
 
+import { shopLotsHotChocolate } from "./food/array-hot-chocolate.js";
 import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
 import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
 import { shopLotsInstantCoffee } from "./food/array-instant-coffee.js";
@@ -122,6 +123,7 @@ const shopListBars = document.querySelector(".js-cras__list--bars");
 const shopListWaffles = document.querySelector(".js-cras__list--waffles");
 const shopListChocolate = document.querySelector(".js-cras__list--chocolate");
 
+const shopListHotChocolate = document.querySelector(".js-cras__list--hot-chocolate");
 const shopListCoffeeBeans = document.querySelector(".js-cras__list--coffee-beans");
 const shopListGroundCoffee = document.querySelector(".js-cras__list--ground-coffee");
 const shopListInstantCoffee = document.querySelector(".js-cras__list--instant-coffee");
@@ -220,6 +222,7 @@ const BlockChocolate = document.querySelector(".js-block-chocolate");
 
 // Напитки
 const SectionAllDrinks = document.querySelector(".js-section-all-drinks");
+const BlockHotChocolate = document.querySelector(".js-block-hot-chocolate");
 const BlockCoffeeBeans = document.querySelector(".js-block-coffee-beans");
 const BlockGroundCoffee = document.querySelector(".js-block-ground-coffee");
 const BlockInstantCoffee = document.querySelector(".js-block-instant-coffee");
@@ -318,6 +321,7 @@ const arrayOfProducts = [
   { element: shopListWaffles, items: shopLotsWaffles, block: BlockWaffles, dataTarget: "waffles" },
   { element: shopListChocolate, items: shopLotsChocolate, block: BlockChocolate, dataTarget: "chocolate" },
 
+  { element: shopListHotChocolate, items: shopLotsHotChocolate, block: BlockHotChocolate, dataTarget: "hot-chocolate" },
   { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
   { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
   { element: shopListInstantCoffee, items: shopLotsInstantCoffee, block: BlockInstantCoffee, dataTarget: "instant-coffee" },
@@ -550,6 +554,7 @@ function handleFormSubmit(event) {
   const filteredWaffles = universalSearch(shopLotsWaffles, searchItem);
   const filteredChocolate = universalSearch(shopLotsChocolate, searchItem);
 
+  const filteredHotChocolate = universalSearch(shopLotsHotChocolate, searchItem);
   const filteredCoffeeBeans = universalSearch(shopLotsCoffeeBeans, searchItem);
   const filteredGroundCoffee = universalSearch(shopLotsGroundCoffee, searchItem);
   const filteredInstantCoffee = universalSearch(shopLotsInstantCoffee, searchItem);
@@ -624,6 +629,7 @@ function handleFormSubmit(event) {
     ...filteredWaffles,
     ...filteredChocolate,
 
+    ...filteredHotChocolate,
     ...filteredCoffeeBeans,
     ...filteredGroundCoffee,
     ...filteredInstantCoffee,
@@ -757,11 +763,13 @@ function handleFormSubmit(event) {
     SectionAllSweets.style.display = "none";
   }
   
-  if (filteredCoffeeBeans.length > 0 ||
+  if (filteredHotChocolate.length > 0 ||
+    filteredCoffeeBeans.length > 0 ||
     filteredGroundCoffee.length > 0 ||
     filteredInstantCoffee.length > 0 ||
     filteredCacao.length > 0 ||
     filteredCappuccino.length > 0) {
+    shopListHotChocolate.innerHTML = createMobileListItemsMarkup(filteredHotChocolate);
     shopListCoffeeBeans.innerHTML = createMobileListItemsMarkup(filteredCoffeeBeans);
     shopListGroundCoffee.innerHTML = createMobileListItemsMarkup(filteredGroundCoffee);
     shopListInstantCoffee.innerHTML = createMobileListItemsMarkup(filteredInstantCoffee);
@@ -895,7 +903,8 @@ function handleFormSubmit(event) {
     { element: shopListBars, items: filteredBars, block: BlockBars },
     { element: shopListWaffles, items: filteredWaffles, block: BlockWaffles },
     { element: shopListChocolate, items: filteredChocolate, block: BlockChocolate },
-  
+    
+    { element: shopListHotChocolate, items: filteredHotChocolate, block: BlockHotChocolate },
     { element: shopListCoffeeBeans, items: filteredCoffeeBeans, block: BlockCoffeeBeans },
     { element: shopListGroundCoffee, items: filteredGroundCoffee, block: BlockGroundCoffee },
     { element: shopListInstantCoffee, items: filteredInstantCoffee, block: BlockInstantCoffee },
