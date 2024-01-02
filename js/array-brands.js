@@ -184,6 +184,10 @@ export const brands = [
     alt: "happy_pasta",
   },
   {
+    url: "./images/carusel/hearts.jpg",
+    alt: "hearts",
+  },
+  {
     url: "./images/carusel/hedan_plus.jpg",
     alt: "hedan_plus",
   },
