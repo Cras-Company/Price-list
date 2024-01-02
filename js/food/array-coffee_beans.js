@@ -283,7 +283,7 @@ export const shopLotsCoffeeBeans = [
         alt2: "illy_classico_250-02",
         url3: "./images/shop/food/drinks/coffee_beans/illy_classico_250-03.jpg",
         alt3: "illy_classico_250-03",
-        marker: "CFBN300",
+        marker: "CFBN340",
         brand: "Illy",
         search: "илли іллі кава кофе у зерно зернова в зернах классіко класіко классико класико",
         nameUKR: "Кава в зернах",
