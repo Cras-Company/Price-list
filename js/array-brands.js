@@ -76,6 +76,10 @@ export const brands = [
     alt: "caneo",
   },
   {
+    url: "./images/carusel/chanteclair.jpg",
+    alt: "chanteclair",
+  },
+  {
     url: "./images/carusel/chocofini.jpg",
     alt: "chocofini",
   },
