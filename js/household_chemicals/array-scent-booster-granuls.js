@@ -10,7 +10,7 @@ export const shopLotsScentBoosterGranuls = [
         marker: "GLSS350",
         brand: "Fairy",
         search: "фейри фейрі фери фері детский для дітей для детей підсилювач запаху запах усилитель запаха парфюм гранулы гранули гранула чутлива шкіра чуствительноя кожа чувствительная кожа для чуствительной кожи для чувствительрой кожи мигдаль миндаль",
-        nameUKR: "Дитячий пармум у гранулах з ароматом мигдального молока та меду Манука",
+        nameUKR: "Дитячий парфум у гранулах з ароматом мигдального молока та меду Манука",
         nameEN: "In-Wash Scent Booster Almond Milk & Manuka Honey Scent",
         companyName: "The Procter & Gamble Company",
         countryName: "Італія",
