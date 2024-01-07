@@ -1,0 +1,27 @@
+export const shopLotsGranulSofteners = [
+    {
+        type: "wholesale",
+        url: "./images/shop/household_chemicals/laundry_detergents/granul_softeners/fairy_scent_booster_almond_manuka_245.jpg",
+        alt: "fairy_scent_booster_almond_manuka_245",
+        url1: "./images/shop/household_chemicals/laundry_detergents/granul_softeners/fairy_scent_booster_almond_manuka_245-01.jpg",
+        alt1: "fairy_scent_booster_almond_manuka_245-01",
+        url2: "./images/shop/household_chemicals/laundry_detergents/granul_softeners/fairy_scent_booster_almond_manuka_245-02.jpg",
+        alt2: "fairy_scent_booster_almond_manuka_245-02",
+        marker: "GLSS350",
+        brand: "Fairy",
+        search: "фейри фейрі фери фері детский для дітей для детей ополаскиватель помякшувач пом'якшувач підсилювач запаху запах усилитель запаха гранулы гранули гранула мигдаль миндаль",
+        nameUKR: "Дитячий ополіскувач у гранулах з ароматом мигдального молока та меду Манука",
+        nameEN: "In-Wash Scent Booster Almond Milk & Manuka Honey Scent",
+        companyName: "The Procter & Gamble Company",
+        countryName: "Італія",
+        weightName: "Вага",
+        weight: "245 гр.",
+        priceGRN: 232,
+        priceGRNOpt: 213,
+        description01: "Відкрийте для себе світ неймовірного аромату та надзвичайної свіжості з дитячим ополіскувачем у гранулах &#171Fairy - In-Wash Scent Booster Almond Milk & Manuka Honey Scent&#187.",
+        description02: "Цей продукт витончено поєднує аромат мигдального молока та меду Манука, надаючи вашій білизні не лише неперевершену чистоту, але й надзвичайно приємний аромат.",
+        description03: "Бажаєте, щоб ваша білизна не лише сяяла, але й пахла чарівно? Ви неодмінно захочете вибрати &#171Fairy - In-Wash Scent Booster Almond Milk & Manuka Honey Scent&#187, щоб кожен дотик до одягу вашого малюка приносив насолоду ароматною свіжістю.",
+        description04: "<strong>Підсилювач запаху, дитячий ополіскувач у гранулах. Аромат: мигдальне молоко, мед Манука. Не містить важких парфумів та барвників. Для чутливої шкіри.</strong>",
+        description05: "Вдихніть аромат розкоші у кожен день вашого малюка - додайте &#171Fairy - In-Wash Scent Booster Almond Milk & Manuka Honey Scent&#187 у Ваше прання та насолоджуйтеся бездоганною свіжістю одягу!"
+    },
+]

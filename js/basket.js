@@ -73,6 +73,7 @@ import { shopLotsWashingPowders } from "./household_chemicals/array-washing-powd
 import { shopLotsBleaches } from "./household_chemicals/array-bleaches.js";
 import { shopLotsStainRemovers } from "./household_chemicals/array-stain-removers.js";
 import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
+import { shopLotsGranulSofteners } from "./household_chemicals/array-granul-softeners.js";
 
 import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
@@ -144,6 +145,7 @@ const arrayOfProducts = [
   { items: shopLotsBleaches, },
   { items: shopLotsStainRemovers, },
   { items: shopLotsSofteners, },
+  { items: shopLotsGranulSofteners, },
 
   { items: shopLotsMeansCleaningUniversal, },
   { items: shopLotsMeansCleaningKitchenBathroom, },

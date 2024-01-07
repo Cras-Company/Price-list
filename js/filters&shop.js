@@ -81,6 +81,7 @@ import { shopLotsWashingPowders } from "./household_chemicals/array-washing-powd
 import { shopLotsBleaches } from "./household_chemicals/array-bleaches.js";
 import { shopLotsStainRemovers } from "./household_chemicals/array-stain-removers.js";
 import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
+import { shopLotsGranulSofteners } from "./household_chemicals/array-granul-softeners.js";
 
 import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
@@ -160,6 +161,7 @@ const shopListWashingPowders = document.querySelector(".js-cras__list--washing-p
 const shopListBleaches = document.querySelector(".js-cras__list--bleaches");
 const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
 const shopListSofteners = document.querySelector(".js-cras__list--softeners");
+const shopListGranulSofteners = document.querySelector(".js-cras__list--granul-softeners");
 
 const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--universal");
 const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
@@ -273,6 +275,7 @@ const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
 const BlockBleaches = document.querySelector(".js-block-bleaches");
 const BlockStainRemovers = document.querySelector(".js-block-stain-removers");
 const BlockSofteners = document.querySelector(".js-block-softeners");
+const BlockGranulSofteners = document.querySelector(".js-block-granul-softeners");
 
 // Средства для чистки
 const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
@@ -356,6 +359,7 @@ const arrayOfProducts = [
   { element: shopListBleaches, items: shopLotsBleaches, block: BlockBleaches, dataTarget: "bleaches" },
   { element: shopListStainRemovers, items: shopLotsStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
   { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
+  { element: shopListGranulSofteners, items: shopLotsGranulSofteners, block: BlockGranulSofteners, dataTarget: "granul-softeners" },
 
   { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
   { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
@@ -591,6 +595,7 @@ function handleFormSubmit(event) {
   const filteredBleaches = universalSearch(shopLotsBleaches, searchItem);
   const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
   const filteredSofteners = universalSearch(shopLotsSofteners, searchItem);
+  const filteredGranulSofteners = universalSearch(shopLotsGranulSofteners, searchItem);
 
   const filteredMeansCleaningUniversal = universalSearch( shopLotsMeansCleaningUniversal, searchItem);
   const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
@@ -665,6 +670,7 @@ function handleFormSubmit(event) {
     ...filteredBleaches,
     ...filteredStainRemovers,
     ...filteredSofteners,
+    ...filteredGranulSofteners,
 
     ...filteredMeansCleaningUniversal,
     ...filteredMeansCleaningKitchenBathroom,
@@ -852,13 +858,15 @@ function handleFormSubmit(event) {
     filteredWashingPowders.length > 0 ||
     filteredBleaches.length > 0 ||
     filteredStainRemovers.length > 0 ||
-    filteredSofteners.length > 0) {
+    filteredSofteners.length > 0 ||
+    filteredGranulSofteners.length > 0) {
     shopListWashingGels.innerHTML = createMobileListItemsMarkup(filteredWashingGels);
     shopListPowerCaps.innerHTML = createMobileListItemsMarkup(filteredPowerCaps);
     shopListWashingPowders.innerHTML = createMobileListItemsMarkup(filteredWashingPowders);
     shopListBleaches.innerHTML = createMobileListItemsMarkup(filteredBleaches);
     shopListStainRemovers.innerHTML = createMobileListItemsMarkup(filteredStainRemovers);
     shopListSofteners.innerHTML = createMobileListItemsMarkup(filteredSofteners);
+    shopListGranulSofteners.innerHTML = createMobileListItemsMarkup(filteredGranulSofteners);
   } else {
     SectionAllLaundryDetergents.style.display = "none";
   }
@@ -937,6 +945,7 @@ function handleFormSubmit(event) {
     { element: shopListBleaches, items: filteredBleaches, block: BlockBleaches },
     { element: shopListStainRemovers, items: filteredStainRemovers, block: BlockStainRemovers },
     { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners },
+    { element: shopListGranulSofteners, items: filteredGranulSofteners, block: BlockGranulSofteners },
 
     { element: shopListMeansCleaningUniversal, items: filteredMeansCleaningUniversal, block: BlockCleaningUniversal },
     { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
