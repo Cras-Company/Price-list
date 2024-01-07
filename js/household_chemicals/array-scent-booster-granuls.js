@@ -21,7 +21,7 @@ export const shopLotsScentBoosterGranuls = [
         description01: "Відкрийте для себе світ неймовірного аромату та надзвичайної свіжості з дитячим парфумом у гранулах &#171Fairy - In-Wash Scent Booster Almond Milk & Manuka Honey Scent&#187.",
         description02: "Цей продукт витончено поєднує аромат мигдального молока та меду Манука, надаючи вашій білизні не лише неперевершену чистоту, але й надзвичайно приємний аромат.",
         description03: "Бажаєте, щоб ваша білизна не лише сяяла, але й пахла чарівно? Ви неодмінно захочете вибрати &#171Fairy - In-Wash Scent Booster Almond Milk & Manuka Honey Scent&#187, щоб кожен дотик до одягу вашого малюка приносив насолоду ароматною свіжістю.",
-        description04: "<strong>Підсилювач запаху, дитячий парфум у гранулах. Аромат: мигдальне молоко, мед Манука. Не містить важких парфумів та барвників. Для чутливої шкіри.</strong>",
+        description04: "<strong>Підсилювач запаху, дитячий парфум у гранулах для прання. Аромат: мигдальне молоко, мед Манука. Не містить важких парфумів та барвників. Для чутливої шкіри.</strong>",
         description05: "Вдихніть аромат розкоші у кожен день вашого малюка - додайте &#171Fairy - In-Wash Scent Booster Almond Milk & Manuka Honey Scent&#187 у Ваше прання та насолоджуйтеся бездоганною свіжістю одягу!"
     },
     {
@@ -46,7 +46,32 @@ export const shopLotsScentBoosterGranuls = [
         description01: "Приготуйтеся зануритися у світ екзотичних ароматів з парфумом у гранулах &#171Lenor - In-Wash Scent Booster Exotic Bloom&#187.",
         description02: "Цей унікальний продукт об'єднує неабиякі пахощі екзотичних квітів, даруючи вашій білизні неймовірну свіжість та приємний аромат протягом тривалого часу.",
         description03: "Бажаєте, щоб ваш одяг привертав увагу не лише своєю чистотою, але й ароматом, який заворожує? Обирайте &#171Lenor - In-Wash Scent Booster Exotic Bloom&#187 для того, щоб кожне прання стало справжнім ритуалом насолоди.",
-        description04: "<strong>Підсилювач запаху, парфум у гранулах. Аромат: екзотичні квіти.</strong>",
+        description04: "<strong>Підсилювач запаху, парфум у гранулах для прання. Аромат: екзотичні квіти.</strong>",
         description05: "Надайте своєму життю аромат екзотичних квітів - замовте &#171Lenor - In-Wash Scent Booster Exotic Bloom&#187 зараз і відчуйте чарівну ауру ароматів у кожній вашій речі!"
+    },
+    {
+        type: "wholesale",
+        url: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_profumo_risveglio_primaverile_210.jpg",
+        alt: "lenor_profumo_risveglio_primaverile_210",
+        url1: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_profumo_risveglio_primaverile_210-01.jpg",
+        alt1: "lenor_profumo_risveglio_primaverile_210-01",
+        url2: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_profumo_risveglio_primaverile_210-02.jpg",
+        alt2: "lenor_profumo_risveglio_primaverile_210-02",
+        marker: "GLSS520",
+        brand: "Lenor",
+        search: "ленор підсилювач запаху запах усилитель запаха ароматизатор в гранулах у гранулах парфюм гранулы гранули гранула с аромотом весеннего пробуждения весеннее пробуждение",
+        nameUKR: "Парфум у гранулах з ароматом весняного пробудження",
+        nameEN: "Profumo Per Il Bucato Risveglio Primaverile",
+        companyName: "The Procter & Gamble Company",
+        countryName: "Італія",
+        weightName: "Вага",
+        weight: "210 гр.",
+        priceGRN: 179,
+        priceGRNOpt: 163,
+        description01: "Відчуйте аромат весняного пробудження та неперевершену свіжість завдяки парфуму у гранулах &#171Lenor - Profumo Per Il Bucato Risveglio Primaverile&#187.",
+        description02: "Він перетворить Ваше прання у справжню подорож ароматами весняного саду, наповнюючи білизну чарівністю природної свіжості.",
+        description03: "Мрієте про те, щоб Ваш одяг завжди мав аромат весняного ранку? Обирайте &#171Lenor - Profumo Per Il Bucato Risveglio Primaverile&#187, щоб кожен Ваш наряд запам'ятовувався не лише чистотою, але й неймовірним ароматом.",
+        description04: "<strong>Підсилювач запаху, парфум у гранулах для прання. Аромат: весняне пробудження.</strong>",
+        description05: "Насолоджуйтеся квітковою свіжістю у кожному пранні - замовте &#171Lenor - Profumo Per Il Bucato Risveglio Primaverile&#187 зараз і даруйте Вашій білизні неперевершений аромат весняного розквіту!"
     },
 ]
