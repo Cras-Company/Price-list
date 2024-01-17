@@ -400,7 +400,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 72,
+        priceGRN: 94,
         quantityOnStorage: 10,
         description01: "Знайомтесь із чудодійним засобом для миття унітазів &#171Denkmit - WC-Reiniger Ozean Frische&#187. Завдяки інноваційній формулі, він ефективно усуває бруд та неприємні запахи, перетворюючи ванну кімнату у куточок свіжості.",
         description02: "Аромат океану подарує вашому унітазу неймовірну свіжість та бездоганну чистоту. Спробуйте його один раз - і Ви залишитесь вражені результатом!",
