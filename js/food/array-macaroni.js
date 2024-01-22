@@ -1,6 +1,37 @@
 export const shopLotsMacaroni = [
     {
         type: "retail",
+        url: "./images/shop/food/pasta/macaroni/barilla_conchiglie_rigate_500.jpg",
+        alt: "barilla_conchiglie_rigate_500",
+        url1: "./images/shop/food/pasta/macaroni/barilla_conchiglie_rigate_500-01.jpg",
+        alt1: "barilla_conchiglie_rigate_500-01",
+        url2: "./images/shop/food/pasta/macaroni/barilla_conchiglie_rigate_500-02.jpg",
+        alt2: "barilla_conchiglie_rigate_500-02",
+        url3: "./images/shop/food/pasta/macaroni/barilla_conchiglie_rigate_500-03.jpg",
+        alt3: "barilla_conchiglie_rigate_500-03",
+        url4: "./images/shop/food/pasta/macaroni/barilla_conchiglie_rigate_500-04.jpg",
+        alt4: "barilla_conchiglie_rigate_500-04",
+        url5: "./images/shop/food/pasta/macaroni/barilla_conchiglie_rigate_500-05.jpg",
+        alt5: "barilla_conchiglie_rigate_500-05",
+        marker: "FDMI060",
+        brand: "Barilla",
+        search: "барила барилла баріла барілла макароны кончиглие ригате кончігліє рігате 93 твердый твердий сорт тверді сорта твердые сорта с твердых сортов",
+        nameUKR: "Макарони з твердих сортів",
+        nameEN: "Conchiglie Rigate №93",
+        companyName: "Barilla G. e R.",
+        countryName: "Італія",
+        weightName: "Вага",
+        weight: "500 гр.",
+        priceGRN: 58,
+        quantityOnStorage: "11",
+        description01: "Представляємо Вам макарони з твердих сортів &#171Barilla - Conchiglie Rigate №93&#187, що завоювали світ своєю італійською вишуканістю.",
+        description02: "Ці макарони мають унікальну форму раковини, яка ідеально утримує соус, роблячи кожен шматочок насиченим та смачним.",
+        description03: "Мрієте про ідеальну основу для Вашого улюбленого соусу чи страви? Оберіть &#171Barilla - Conchiglie Rigate №93&#187, щоб насолоджуватися бездоганними гастрономічними враженнями.",
+        description04: "<strong>Макарони з твердих сортів пшениці.</strong>",
+        description05: "Підкресліть свій вишуканий смак - замовте макарони &#171Barilla - Conchiglie Rigate №93&#187 зараз і створіть неперевершені італійські страви вдома!"
+    },
+    {
+        type: "retail",
         url: "./images/shop/food/pasta/macaroni/barilla_fargalle_65_500.jpg",
         alt: "barilla_fargalle_65_500",
         url1: "./images/shop/food/pasta/macaroni/barilla_fargalle_65_500-01.jpg",
@@ -28,7 +59,7 @@ export const shopLotsMacaroni = [
         description02: "Вони ідеально підходять для приготування різних італійських страв, від салатів до пасти. Їхній аромат і смак вразять навіть найвибагливіших гурманів.",
         description03: "&#171Barilla - Farfalle №65&#187 не містять шкідливих домішок та генетично модифікованих інгредієнтів, що робить їх натуральним та безпечним вибором. Вони допоможуть Вам створити справжні шедеври на вашій кухні.",
         description04: "<strong>Макарони з твердих сортів пшениці.</strong>",
-        description05: "Спробуйте&#171Barilla - Farfalle №65&#187 і насолоджуйтесь найкращими італійськими стравами у себе вдома!"
+        description05: "Спробуйте &#171Barilla - Farfalle №65&#187 і насолоджуйтесь найкращими італійськими стравами у себе вдома!"
     },
     // {
     //     type: "retail",
