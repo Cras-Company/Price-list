@@ -159,7 +159,7 @@ export function createModalListItemsMarkup(items) {
             
                             <div class="swiper-wrapper"></div>
                             
-                           <div class="swiper-lot-buttons js-swiper-lot-buttons">
+                            <div class="swiper-lot-buttons js-swiper-lot-buttons">
 
                                 <div class="swiper-lot-button-prev js-swiper-lot-button-prev">
                         
