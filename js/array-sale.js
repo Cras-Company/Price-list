@@ -497,7 +497,7 @@ export const shopLotsSale = [
         search: "райт гуард шампуні гель гелі гели для душа шварцкопф хенкель чоловічий чоловічі чоловічій",
         nameUKR: "Сімейний набір",
         nameEN: "Sport Recharge, Sensual & Oil",
-        companyName: "Schwarzkopf & Henkel, Johnson & Johnson",
+        companyName: "Schwarzkopf & Henkel",
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "600 мл.",
