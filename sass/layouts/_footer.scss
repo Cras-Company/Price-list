@@ -139,6 +139,10 @@
   @media screen and (max-width: 1023px) {
     margin-right: 40px;
   }
+
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    margin-right: 10px;
+  }
 }
 
 // -----------------------------------

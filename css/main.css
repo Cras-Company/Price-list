@@ -1471,6 +1471,11 @@ img {
     margin-right: 40px;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .contacts__list--margin {
+    margin-right: 10px;
+  }
+}
 
 .social-icon {
   border-radius: 50%;
