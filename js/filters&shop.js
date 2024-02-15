@@ -1325,7 +1325,7 @@ function lotModalOpenHandler(event) {
         observeParents: true,
         observeSlideChildren: true,
         zoom: {
-          maxRatio: 3,
+          maxRatio: 6.4,
           minRatio: 1,
         },
         virtual: {
