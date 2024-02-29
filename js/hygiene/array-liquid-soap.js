@@ -327,7 +327,7 @@ export const shopLotsLiquidSoap = [
         alt1: "milmil_delicatezza_avvolgente_2l",
         marker: "LQSP465",
         brand: "Milmil",
-        search: "милмил мілміл жидкое мыло liquid soap чувствительная кожа чуствительная кожа для чувствительной кожи для чуствительной кожи чутлива шкіра",
+        search: "милмил мілміл жидкое мыло liquid soap чувствительная кожа для чувствительной кожи чутлива шкіра для чутливої шкіри",
         nameUKR: "Рідке мило для чутливої шкіри",
         nameEN: "Dermo Sapone Delicatezza Avvolgente",
         companyName: "Mirato Group",

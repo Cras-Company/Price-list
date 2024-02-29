@@ -59,7 +59,7 @@ export const shopLotsBabyShowerGels = [
     alt2: "bubchen_sanfte_lieblinge_230-02",
     marker: "CNSG110",
     brand: "Bübchen",
-    search: "джонсон бубхен бюбхен bubchen гелі гель для душа для дітей детей дитей дитячі шампуні детский шампунь детские шампуни bubchen",
+    search: "джонсон бубхен бюбхен bubchen гелі гель для душа для дітей детей дитей дитячі шампуні детский шампунь детские шампуни bubchen чувствительная кожа для чувствительной кожи чутлива шкіра для чутливої шкіри",
     nameUKR: "Дитячий шампунь, гель для душу",
     nameEN: "Sanfte Lieblinge",
     companyName: "Johnson & Johnson GmbH",

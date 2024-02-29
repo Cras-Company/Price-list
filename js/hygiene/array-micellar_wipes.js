@@ -7,7 +7,7 @@ export const shopLotsMicellarWipes = [
     alt1: "cynosure_micellar_wipes",
     marker: "MRWS150",
     brand: "Cynosure",
-    search: "серветка салфетка салфетки с кислотой макіяж макияж для снятия зняття гіалуронова кислота",
+    search: "серветка салфетка салфетки с кислотой макіяж макияж для снятия зняття гіалуронова кислота чувствительная кожа для чувствительной кожи чутлива шкіра для чутливої шкіри",
     nameUKR: "Міцелярні серветки",
     nameEN: "Micellar Cleansing Wipes",
     companyName: "Lachmund GmbH",
