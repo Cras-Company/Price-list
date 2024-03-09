@@ -55,8 +55,6 @@ export const shopLotsBars = [
         alt2: "ferrero_nutella_b_ready_132-02",
         url3: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_132-03.jpg",
         alt3: "ferrero_nutella_b_ready_132-03",
-        url4: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_132-04.jpg",
-        alt4: "ferrero_nutella_b_ready_132-04",
         marker: "FDBS310",
         brand: "Ferrero",
         search: "фереро ферреро нутелла нутела шоколад горіх орех ореховая крем паста батончики",
