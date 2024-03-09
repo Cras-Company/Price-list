@@ -96,7 +96,7 @@ export const shopLotsSweetSpreads = [
         description05: "Не втратьте можливість спробувати цей смаковий шедевр та замовте &#171Chocofini - Krem O Smaku Czekoladowo - Orzechowym&#187 прямо зараз!"
     },
     {
-        type: "retail",
+        type: "wholesale",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_200.jpg",
         alt: "ferrero_nutella_200",
         url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_200.jpg",
@@ -110,8 +110,8 @@ export const shopLotsSweetSpreads = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 99,
-        quantityOnStorage: "16",
+        priceGRN: 113,
+        priceGRNOpt: 102,
         description01: "&#171Ferrero - Nutella&#187 - це вираз справжнього задоволення для вашого смаку. Ця неймовірна шоколадна крем-паста поєднує у собі найкращі якості молочного шоколаду та горіхової начинки.",
         description02: "Завдяки унікальному поєднанню смаків, вона стала справжньою класикою у світі гастрономії. Ви можете використовувати її на хліб, горіхових оладок, вафель або просто вживати її з ложки. Цей смак додасть особливої атмосфери у будь-яку страву.",
         description03: "&#171Ferrero - Nutella&#187 - це не лише смак, це частина вашого щоденного життя. Вона надає енергії та позитиву, будуючи зв'язок між сім'єю і друзями.",
@@ -133,7 +133,7 @@ export const shopLotsSweetSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "350 гр.",
-        priceGRN: 117,
+        priceGRN: 129,
         quantityOnStorage: "9",
         description01: "&#171Ferrero - Nutella&#187 - це вираз справжнього задоволення для вашого смаку. Ця неймовірна шоколадна крем-паста поєднує у собі найкращі якості молочного шоколаду та горіхової начинки.",
         description02: "Завдяки унікальному поєднанню смаків, вона стала справжньою класикою у світі гастрономії. Ви можете використовувати її на хліб, горіхових оладок, вафель або просто вживати її з ложки. Цей смак додасть особливої атмосфери у будь-яку страву.",

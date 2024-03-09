@@ -1,6 +1,6 @@
 export const shopLotsPistachios = [
     {
-        type: "retail",
+        type: "wholesale",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
         alt: "alesto_pistazien_250",
         url1: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -14,8 +14,8 @@ export const shopLotsPistachios = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 141,
-        quantityOnStorage: 7,
+        priceGRN: 150,
+        priceGRNOpt: 139,
         description01: "&#171Alesto - Pistazien Geröstet & Gesalzen&#187 - це справжня родзинка для гурманів і цінителів закусок. Ці фісташки обсмажені та підсолені майстрами вишуканого смаку, щоб кожен гризунець був найсмачнішим.",
         description02: "Ці фісташки - джерело корисних жирів, білків та вітамінів. Вони підходять для перекусу, а також чудово доповнюють аперитив під час зустрічі гостей.",
         description03: "Зробіть свої вечірні посиденьки особливими, подаруйте собі і близьким миті задоволення смаку разом з &#171Alesto - Pistazien Geröstet & Gesalzen&#187.",
@@ -23,7 +23,7 @@ export const shopLotsPistachios = [
         description05: "Замовте ці чудові фісташки &#171Alesto - Pistazien Geröstet & Gesalzen&#187 та відкрийте для себе справжню насолоду!"
     },
     {
-        type: "retail",
+        type: "wholesale",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
         alt: "alesto_pistazien_250",
         url1: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -37,8 +37,8 @@ export const shopLotsPistachios = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 272,
-        quantityOnStorage: 11,
+        priceGRN: 289,
+        priceGRNOpt: 266,
         description01: "&#171Alesto - Pistazien Geröstet & Gesalzen&#187 - це справжня родзинка для гурманів і цінителів закусок. Ці фісташки обсмажені та підсолені майстрами вишуканого смаку, щоб кожен гризунець був найсмачнішим.",
         description02: "Ці фісташки - джерело корисних жирів, білків та вітамінів. Вони підходять для перекусу, а також чудово доповнюють аперитив під час зустрічі гостей.",
         description03: "Зробіть свої вечірні посиденьки особливими, подаруйте собі і близьким миті задоволення смаку разом з &#171Alesto - Pistazien Geröstet & Gesalzen&#187.",
