@@ -14,15 +14,15 @@
     }
   }
 
-  &--head {
-    color: #071d66;
-  }
-
   &--footer {
     color: var(--pure-white);
   }
 
-  &--margin {
+  &--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     margin-left: 10px;
   }
 
@@ -40,6 +40,26 @@
 
   @media screen and (min-width: 1280px) {
     font-size: 35px;
+  }
+
+  &--head {
+    color: #071d66;
+
+    @media screen and (min-width: 480px) {
+      font-size: 25px;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 15px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      font-size: 25px;
+    }
   }
 }
 
