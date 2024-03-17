@@ -446,7 +446,7 @@ export const shopLotsWashingGels = [
         description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Universal&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     },
     {
-        type: "retail",
+        type: "wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_color_4l.jpg",
         alt: "power_wash_color_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_color_4l-01.jpg",
@@ -462,8 +462,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "4 л.",
-        priceGRN: 199,
-        quantityOnStorage: 5,
+        priceGRN: 242,
+        priceGRNOpt: 219,
         description01: "Ласкаво просимо у світ інноваційного догляду за вашими кольоровими речами разом з &#171Power Wash - Gel Colorwaschmittel Color&#187. Цей гель для прання надає неперевершений захист від вицвітання та забезпечує яскравість кольорів, яку ви заслуговуєте.",
         description02: "Його продуктивна формула допомагає зберегти інтенсивність кольорів під час прання, навіть при низьких температурах. Проникає глибоко в тканини, видаляючи плями та забруднення без шкоди для кольору.",
         description03: "Нехай ваш одяг зберігає свою яскравість та вишуканість навіть після численних прань. Спробуйте &#171Power Wash - Gel Colorwaschmittel Color&#187 і відчуйте різницю у догляді за кольоровими речами.",
@@ -471,7 +471,7 @@ export const shopLotsWashingGels = [
         description05: "Збережіть свої улюблені кольори та замовте &#171Power Wash - Gel Colorwaschmittel Color&#187 сьогодні та насолоджуйтесь відновленою яскравістю вашого одягу."
     },
     {
-        type: "retail",
+        type: "wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_universal_4l.jpg",
         alt: "power_wash_universal_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_universal_4l-01.jpg",
@@ -487,8 +487,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "4 л.",
-        priceGRN: 199,
-        quantityOnStorage: 4,
+        priceGRN: 242,
+        priceGRNOpt: 219,
         description01: "Відкрийте для себе найсучасніший засіб для універсального прання - &#171Power Wash - Gel Vollwaschmittel Universal&#187. Цей гель містить активні ферменти, які розкладають плями та забруднення до найменших часточок, забезпечуючи неймовірно чистий результат.",
         description02: "Завдяки спеціальній формулі, цей гель працює на будь-яких видах тканин, від бавовни до синтетичних матеріалів.",
         description03: "Він ефективний навіть при низьких температурах і допомагає зберегти якість вашого одягу.",
