@@ -5,14 +5,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Указываем Express, где находятся статические файлы
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname)));
 
 // Маршрут для обработки запросов к вашему сайту
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Слушаем указанный порт
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
