@@ -76,7 +76,7 @@ export const shopLotsPates = [
         alt1: "freshona_pasta_măsline_120",
         marker: "FDPT310",
         brand: "Freshona",
-        search: "веган веганство в маслини маслины",
+        search: "веган веганство в маслини маслины с маслинами",
         nameUKR: "Пісний паштет з маслинами",
         nameEN: "Pastă Vegetală Tartinabilă Cu Măsline",
         companyName: "Lidl",
