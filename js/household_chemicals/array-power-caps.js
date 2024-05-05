@@ -68,7 +68,7 @@ export const shopLotsPowerCaps = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "38 шт.",
-        priceGRN: 425,
+        priceGRN: 525,
         quantityOnStorage: "4",
         description01: "&#171Lenor - Colorwaschmittel All in 1 PODS&#187 - це інноваційний засіб для прання, що поєднує у собі всі необхідні компоненти для відмінного прання кольорової білизни. Капсули забезпечують бездоганну чистоту, зберігаючи яскравість кольорів вашого одягу.",
         description02: "Кожена капсула містить пральний гель, засіб для видалення плям та засіб для збереження яскравості кольорів. Просто додайте капсулу в барабан пральної машини разом із білизною, і результат вас приємно вразить.",
@@ -100,7 +100,7 @@ export const shopLotsPowerCaps = [
         description05: "Просто додайте капсулу у пральну машину та насолоджуйтесь бездоганністю своєї білизни з &#171Persil - Discs Color 4 in 1&#187."
     },
     {
-        type: "only-wholesale",
+        type: "wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color_150.jpg",
         alt: "power_wash_color_150",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color_150-01.jpg",
@@ -114,8 +114,8 @@ export const shopLotsPowerCaps = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "150 шт.",
-        priceGRN: "--",
-        priceGRNOpt: 913,
+        priceGRN: 1060,
+        priceGRNOpt: 943,
         description01: "&#171Power Wash - Colorwaschmittel Professional&#187 - це надійний помічник у догляді за вашим одягом. Ці капсули розроблені, щоб зберегти яскравість та насиченість кольорів на вашій білизні та текстильних виробах.",
         description02: "Інноваційна формула допомагає підтримувати якість кольорів під час прання. Вони легко видаляють плями та забруднення, зберігаючи якість тканини незмінною.",
         description03: "Просто додайте одну капсулу &#171Power Wash - Colorwaschmittel Professional&#187 до вашої пральної машини і запустіть програму. Ваш одяг знову стане яскравим та неперевершеним.",
@@ -123,7 +123,7 @@ export const shopLotsPowerCaps = [
         description05: "Не зволікайте з наданням найкращого догляду для вашого одягу та замовляйте &#171Power Wash - Colorwaschmittel Professional&#187 вже сьогодні та дозвольте вашій білизні сяяти на повну!"
     },
     {
-        type: "only-wholesale",
+        type: "wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll_150.jpg",
         alt: "power_wash_voll_150",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll_150-01.jpg",
@@ -137,8 +137,8 @@ export const shopLotsPowerCaps = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "150 шт.",
-        priceGRN: "--",
-        priceGRNOpt: 913,
+        priceGRN: 1060,
+        priceGRNOpt: 943,
         description01: "&#171Power Wash - Vollwaschmittel Professional&#187 - це вища якість догляду за вашим одягом! Ці професіональні капсули створені, щоб забезпечити максимально ефективне прання та видалення найскладніших забруднень з будь-яких типів тканин.",
         description02: "Інтенсивна формула забезпечує глибоке проникнення у тканини, видаляючи плями, жир і бруд з перших циклів прання. Ваш одяг буде неймовірно чистим та свіжим, як після першого використання.",
         description03: "Додайте всього одну капсулу &#171Power Wash - Vollwaschmittel Professional&#187 до вашої пральної машини, і ви отримаєте результат, який перевершить ваші очікування. Насолоджуйтеся бездоганними результатами при кожному пранні.",
