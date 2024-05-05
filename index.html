@@ -81,9 +81,19 @@
     <!-- End Meta Pixel Code -->
 
     <script>
-        if (window.location.href === "http://www.cras.company" || window.location.href === "http://cras.company") {
-            window.location.href = "http://www.cras.company/?nocache=" + new Date().getTime();
-        }
+        // Очистка кэша
+        window.addEventListener('load', function () {
+            caches.keys().then(function (cacheNames) {
+                cacheNames.forEach(function (cacheName) {
+                    caches.delete(cacheName);
+                });
+            });
+        });
+
+        // Очистка куки
+        document.cookie.split(";").forEach(function (c) {
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+        });
     </script>
 </head>
 
