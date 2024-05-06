@@ -54,6 +54,7 @@
 .nav__item {
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -66,8 +67,18 @@
   }
 
   &:not(:last-child) {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        margin-right: 40px;
+      }
+
     margin-right: 50px;
   }
+}
+
+.nav__item--width {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+      width: 100px;
+    }
 }
 
 .nav__link {
