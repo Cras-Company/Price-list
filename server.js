@@ -9,11 +9,12 @@ app.use(express.static(path.join(__dirname)));
 
 app.use((req, res, next) => {
 
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
-    res.setHeader('Pragma', 'no-cache');
-    res.setHeader('Expires', '0');
+  const expiryDate = new Date();
+  expiryDate.setDate(expiryDate.getDate() + 1);
+  res.setHeader('Cache-Control', 'public, max-age=86400');
+  res.setHeader('Expires', expiryDate.toUTCString());
 
-    next();
+  next();
 });
 
 // Маршрут для обработки запросов к вашему сайту
