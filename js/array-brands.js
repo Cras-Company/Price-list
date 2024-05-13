@@ -120,6 +120,10 @@ export const brands = [
     alt: "dermomed",
   },
   {
+    url: "./images/carusel/derr.jpg",
+    alt: "derr",
+  },
+  {
     url: "./images/carusel/dr.oetker.jpg",
     alt: "dr.oetker",
   },
@@ -140,6 +144,10 @@ export const brands = [
     alt: "fairy",
   },
   {
+    url: "./images/carusel/felce_azzurra.jpg",
+    alt: "felce_azzurra",
+  },
+  {
     url: "./images/carusel/fincarre.jpg",
     alt: "fincarre",
   },
@@ -150,6 +158,10 @@ export const brands = [
   {
     url: "./images/carusel/fit.jpg",
     alt: "fit",
+  },
+  {
+    url: "./images/carusel/formil.jpg",
+    alt: "formil",
   },
   {
     url: "./images/carusel/fresh.jpg",
@@ -242,6 +254,10 @@ export const brands = [
   {
     url: "./images/carusel/king_oscar.jpg",
     alt: "king_oscar",
+  },
+  {
+    url: "./images/carusel/la_salud.jpg",
+    alt: "la_salud",
   },
   {
     url: "./images/carusel/lavazza.jpg",
