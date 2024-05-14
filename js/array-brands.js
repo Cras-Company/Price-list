@@ -176,6 +176,10 @@ export const brands = [
     alt: "frosch",
   },
   {
+    url: "./images/carusel/gain.jpg",
+    alt: "gain",
+  },
+  {
     url: "./images/carusel/gallus.jpg",
     alt: "gallus",
   },
@@ -466,5 +470,9 @@ export const brands = [
   {
     url: "./images/carusel/vigora.jpg",
     alt: "vigora",
+  },
+  {
+    url: "./images/carusel/weißer_riese.jpg",
+    alt: "weißer_riese",
   },
 ];
