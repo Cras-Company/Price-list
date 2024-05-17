@@ -456,6 +456,10 @@ export const brands = [
     alt: "tasso",
   },
   {
+    url: "./images/carusel/tesori_d'oriente.jpg",
+    alt: "tesori_d'oriente",
+  },
+  {
     url: "./images/carusel/tiradell.jpg",
     alt: "tiradell",
   },
@@ -470,6 +474,10 @@ export const brands = [
   {
     url: "./images/carusel/vigora.jpg",
     alt: "vigora",
+  },
+  {
+    url: "./images/carusel/vir.jpg",
+    alt: "vir",
   },
   {
     url: "./images/carusel/weißer_riese.jpg",
