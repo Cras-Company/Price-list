@@ -332,6 +332,10 @@ export const brands = [
     alt: "monini",
   },
   {
+    url: "./images/carusel/neo_blanc.jpg",
+    alt: "neo_blanc",
+  },
+  {
     url: "./images/carusel/nesquik.jpg",
     alt: "nesquik",
   },
