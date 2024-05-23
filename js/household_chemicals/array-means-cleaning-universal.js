@@ -274,7 +274,7 @@ export const shopLotsMeansCleaningUniversal = [
         description04: "<strong>Запаска! Знежирювач універсальний, засіб для виведення плям. Аромат: лимон. Не застосовувати з іншими засобами!</strong>",
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Limone&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
-    {
+        {
         type: "wholesale",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_600.jpg",
         alt: "chanteclair_sgrassatore_universale_marsiglia_600",
@@ -285,7 +285,7 @@ export const shopLotsMeansCleaningUniversal = [
         marker: "HCUT135",
         brand: "Chanteclair",
         search: "шантеклер засоби видалення пляма плямовивідник плямовивідники пятновыводитель пятновыдодители засіб проти жиру обезжириватель средство средства против жира с ароматом марсель марселя",
-        nameUKR: "Універсальний знежирювач, засіб для виведення плям з марсельським ароматом",
+        nameUKR: "Універсальний знежирювач, засіб для виведення плям з марсельським милом",
         nameEN: "Sgrassatore Universale Profumo Di Marsiglia",
         companyName: "Real Chimica Srl",
         countryName: "Італія",
@@ -293,9 +293,9 @@ export const shopLotsMeansCleaningUniversal = [
         volume: "600 мл.",
         priceGRN: 132,
         priceGRNOpt: 115,
-        description01: "Представляємо Вам ідеальний засіб &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 - знежирювач та засіб для виведення плям з марсельським ароматом.",
+        description01: "Представляємо Вам ідеальний засіб &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 - знежирювач та засіб для виведення плям з марсельським милом.",
         description02: "Цей універсальний засіб ефективно розчиняє жир та видаляє плями, а його ніжний марсельський аромат наповнює простір чистотою та гармонією.",
-        description03: "Завдяки &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 Ваша кожна річ стане не тільки чистою, але і наповненою чарівним марсельським ароматом. Задовольняйте своє бажання насолоджуватися приємними запахами та бездоганною чистотою.",
+        description03: "Завдяки &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 Ваша кожна річ стане не тільки чистою, але і наповненою чарівним марсельським милом. Задовольняйте своє бажання насолоджуватися приємними запахами та бездоганною чистотою.",
         description04: "<strong>Знежирювач універсальний, засіб для виведення плям. Аромат: марсельське мило. Не застосовувати з іншими засобами!</strong>",
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
@@ -310,7 +310,7 @@ export const shopLotsMeansCleaningUniversal = [
         marker: "HCUT137",
         brand: "Chanteclair",
         search: "шантеклер засоби видалення пляма плямовивідник плямовивідники пятновыводитель пятновыдодители засіб проти жиру обезжириватель средство средства против жира с ароматом марсель марселя",
-        nameUKR: "Універсальний знежирювач, засіб для виведення плям з марсельським ароматом",
+        nameUKR: "Універсальний знежирювач, засіб для виведення плям з марсельським милом",
         nameEN: "Sgrassatore Universale Profumo Di Marsiglia",
         companyName: "Real Chimica Srl",
         countryName: "Італія",
@@ -318,9 +318,9 @@ export const shopLotsMeansCleaningUniversal = [
         volume: "600 мл.",
         priceGRN: 118,
         priceGRNOpt: 108,
-        description01: "Представляємо Вам ідеальний засіб &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 - знежирювач та засіб для виведення плям з марсельським ароматом.",
+        description01: "Представляємо Вам ідеальний засіб &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 - знежирювач та засіб для виведення плям з марсельським милом.",
         description02: "Цей універсальний засіб ефективно розчиняє жир та видаляє плями, а його ніжний марсельський аромат наповнює простір чистотою та гармонією.",
-        description03: "Завдяки &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 Ваша кожна річ стане не тільки чистою, але і наповненою чарівним марсельським ароматом. Задовольняйте своє бажання насолоджуватися приємними запахами та бездоганною чистотою.",
+        description03: "Завдяки &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 Ваша кожна річ стане не тільки чистою, але і наповненою чарівним марсельським милом. Задовольняйте своє бажання насолоджуватися приємними запахами та бездоганною чистотою.",
         description04: "<strong>Запаска! Знежирювач універсальний, засіб для виведення плям. Аромат: марсельське мило. Не застосовувати з іншими засобами!</strong>",
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
