@@ -128,6 +128,10 @@ export const brands = [
     alt: "derr",
   },
   {
+    url: "./images/carusel/domestos.jpg",
+    alt: "domestos",
+  },
+  {
     url: "./images/carusel/dr.oetker.jpg",
     alt: "dr.oetker",
   },
@@ -490,5 +494,9 @@ export const brands = [
   {
     url: "./images/carusel/weißer_riese.jpg",
     alt: "weißer_riese",
+  },
+  {
+    url: "./images/carusel/well_done.jpg",
+    alt: "well_done",
   },
 ];
