@@ -86,6 +86,7 @@ import { shopLotsScentBoosterGranuls } from "./household_chemicals/array-scent-b
 
 import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
+import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
 
 // ===========================================================================
@@ -167,6 +168,7 @@ const shopListScentBoosterGranuls = document.querySelector(".js-cras__list--scen
 
 const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--universal");
 const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
+const shopListForWC = document.querySelector(".js-cras__list--for_wc");
 const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
 
 // ===========================================================================
@@ -284,6 +286,7 @@ const BlockScentBoosterGranuls = document.querySelector(".js-block-scent-booster
 const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
 const BlockCleaningUniversal = document.querySelector(".js-block-universal");
 const BlockCleaningKitchenBathroom = document.querySelector(".js-block-kitchen_bathroom");
+const BlockForWC = document.querySelector(".js-block-for_wc");
 const BlockCleaningDishwashers = document.querySelector(".js-block-dishwashers");
 
 // Скрыть секцию
@@ -367,6 +370,7 @@ const arrayOfProducts = [
 
   { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
   { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
+  { element: shopListForWC, items: shopLotsForWC, block: BlockForWC, dataTarget: "for_wc" },
   { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" }
 ];
 
@@ -604,6 +608,7 @@ function handleFormSubmit(event) {
 
   const filteredMeansCleaningUniversal = universalSearch( shopLotsMeansCleaningUniversal, searchItem);
   const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
+  const filteredForWC = universalSearch(shopLotsForWC, searchItem);
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
 
   const allFilteredItems = [
@@ -680,6 +685,7 @@ function handleFormSubmit(event) {
 
     ...filteredMeansCleaningUniversal,
     ...filteredMeansCleaningKitchenBathroom,
+    ...filteredForWC,
     ...filteredMeansCleaningDishwashers,
   ];
 
@@ -881,9 +887,11 @@ function handleFormSubmit(event) {
 
   if (filteredMeansCleaningUniversal.length > 0 ||
     filteredMeansCleaningKitchenBathroom.length > 0 ||
+    filteredForWC.length > 0 ||
     filteredMeansCleaningDishwashers.length > 0) {
     shopListMeansCleaningUniversal.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningUniversal);
     shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
+    shopListForWC.innerHTML = createMobileListItemsMarkup(filteredForWC);
     shopListMeansCleaningDishwashers.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningDishwashers);
   } else {
     SectionAllMeansCleaning.style.display = "none";
@@ -958,6 +966,7 @@ function handleFormSubmit(event) {
 
     { element: shopListMeansCleaningUniversal, items: filteredMeansCleaningUniversal, block: BlockCleaningUniversal },
     { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
+    { element: shopListForWC, items: filteredForWC, block: BlockForWC },
     { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
   ];
 

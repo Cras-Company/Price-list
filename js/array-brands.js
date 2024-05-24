@@ -68,6 +68,10 @@ export const brands = [
     alt: "bold",
   },
   {
+    url: "./images/carusel/brait.jpg",
+    alt: "brait",
+  },
+  {
     url: "./images/carusel/bubchen.jpg",
     alt: "bubchen",
   },
