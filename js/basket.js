@@ -76,6 +76,8 @@ import { shopLotsStainRemovers } from "./household_chemicals/array-stain-remover
 import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
 import { shopLotsScentBoosterGranuls } from "./household_chemicals/array-scent-booster-granuls.js";
 
+import { shopLotsForWindows } from "./household_chemicals/array-for-windows.js";
+import { shopLotsForFurniture } from "./household_chemicals/array-for-furniture.js";
 import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
 import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
@@ -150,6 +152,8 @@ const arrayOfProducts = [
   { items: shopLotsSofteners, },
   { items: shopLotsScentBoosterGranuls, },
 
+  { items: shopLotsForWindows, },
+  { items: shopLotsForFurniture, },
   { items: shopLotsMeansCleaningUniversal, },
   { items: shopLotsMeansCleaningKitchenBathroom, },
   { items: shopLotsForWC, },
