@@ -78,6 +78,7 @@ import { shopLotsScentBoosterGranuls } from "./household_chemicals/array-scent-b
 
 import { shopLotsForWindows } from "./household_chemicals/array-for-windows.js";
 import { shopLotsForFurniture } from "./household_chemicals/array-for-furniture.js";
+import { shopLotsForFloor } from "./household_chemicals/array-for-floor.js";
 import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
 import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
@@ -154,6 +155,7 @@ const arrayOfProducts = [
 
   { items: shopLotsForWindows, },
   { items: shopLotsForFurniture, },
+  { items: shopLotsForFloor, },
   { items: shopLotsMeansCleaningUniversal, },
   { items: shopLotsMeansCleaningKitchenBathroom, },
   { items: shopLotsForWC, },

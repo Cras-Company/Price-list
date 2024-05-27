@@ -86,6 +86,7 @@ import { shopLotsScentBoosterGranuls } from "./household_chemicals/array-scent-b
 
 import { shopLotsForWindows } from "./household_chemicals/array-for-windows.js";
 import { shopLotsForFurniture } from "./household_chemicals/array-for-furniture.js";
+import { shopLotsForFloor } from "./household_chemicals/array-for-floor.js";
 import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
 import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
@@ -170,6 +171,7 @@ const shopListScentBoosterGranuls = document.querySelector(".js-cras__list--scen
 
 const shopListForWindows = document.querySelector(".js-cras__list--for_windows");
 const shopListForFurniture = document.querySelector(".js-cras__list--for_furniture");
+const shopListForFloor = document.querySelector(".js-cras__list--for_floor");
 const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--universal");
 const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
 const shopListForWC = document.querySelector(".js-cras__list--for_wc");
@@ -289,6 +291,7 @@ const BlockScentBoosterGranuls = document.querySelector(".js-block-scent-booster
 // Средства для чистки
 const BlockForWindows = document.querySelector(".js-block-for_windows");
 const BlockForFurniture = document.querySelector(".js-block-for_furniture");
+const BlockForFloor = document.querySelector(".js-block-for_floor");
 const SectionAllMeansCleaning = document.querySelector(".js-section-all-means-cleaning");
 const BlockCleaningUniversal = document.querySelector(".js-block-universal");
 const BlockCleaningKitchenBathroom = document.querySelector(".js-block-kitchen_bathroom");
@@ -376,6 +379,7 @@ const arrayOfProducts = [
 
   { element: shopListForWindows, items: shopLotsForWindows, block: BlockForWindows, dataTarget: "for_windows" },
   { element: shopListForFurniture, items: shopLotsForFurniture, block: BlockForFurniture, dataTarget: "for_furniture" },
+  { element: shopListForFloor, items: shopLotsForFloor, block: BlockForFloor, dataTarget: "for_floor" },
   { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
   { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
   { element: shopListForWC, items: shopLotsForWC, block: BlockForWC, dataTarget: "for_wc" },
@@ -616,6 +620,7 @@ function handleFormSubmit(event) {
 
   const filteredForWindows = universalSearch(shopLotsForWindows, searchItem);
   const filteredForFurniture = universalSearch(shopLotsForFurniture, searchItem);
+  const filteredForFloor = universalSearch(shopLotsForFloor, searchItem);
   const filteredMeansCleaningUniversal = universalSearch( shopLotsMeansCleaningUniversal, searchItem);
   const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
   const filteredForWC = universalSearch(shopLotsForWC, searchItem);
@@ -695,6 +700,7 @@ function handleFormSubmit(event) {
 
     ...filteredForWindows,
     ...filteredForFurniture,
+    ...filteredForFloor,
     ...filteredMeansCleaningUniversal,
     ...filteredMeansCleaningKitchenBathroom,
     ...filteredForWC,
@@ -899,12 +905,14 @@ function handleFormSubmit(event) {
 
   if (filteredForWindows.length > 0 ||
     filteredForFurniture.length > 0 ||
+    filteredForFloor.length > 0 ||
     filteredMeansCleaningUniversal.length > 0 ||
     filteredMeansCleaningKitchenBathroom.length > 0 ||
     filteredForWC.length > 0 ||
     filteredMeansCleaningDishwashers.length > 0) {
     shopListForWindows.innerHTML = createMobileListItemsMarkup(filteredForWindows);
     shopListForFurniture.innerHTML = createMobileListItemsMarkup(filteredForFurniture);
+    shopListForFloor.innerHTML = createMobileListItemsMarkup(filteredForFloor);
     shopListMeansCleaningUniversal.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningUniversal);
     shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
     shopListForWC.innerHTML = createMobileListItemsMarkup(filteredForWC);
@@ -982,6 +990,7 @@ function handleFormSubmit(event) {
 
     { element: shopListForWindows, items: filteredForWindows, block: BlockForWindows },
     { element: shopListForFurniture, items: filteredForFurniture, block: BlockForFurniture },
+    { element: shopListForFloor, items: filteredForFloor, block: BlockForFloor },
     { element: shopListMeansCleaningUniversal, items: filteredMeansCleaningUniversal, block: BlockCleaningUniversal },
     { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
     { element: shopListForWC, items: filteredForWC, block: BlockForWC },
