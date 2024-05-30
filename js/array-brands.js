@@ -267,10 +267,10 @@ export const brands = [
     url: "./images/carusel/k-classic.jpg",
     alt: "k-classic",
   },
-  {
-    url: "./images/carusel/king_oscar.jpg",
-    alt: "king_oscar",
-  },
+  // {
+  //   url: "./images/carusel/king_oscar.jpg",
+  //   alt: "king_oscar",
+  // },
   {
     url: "./images/carusel/la_salud.jpg",
     alt: "la_salud",
@@ -338,6 +338,10 @@ export const brands = [
   {
     url: "./images/carusel/monini.jpg",
     alt: "monini",
+  },
+  {
+    url: "./images/carusel/morning_fresh.jpg",
+    alt: "morning_fresh",
   },
   {
     url: "./images/carusel/neo_blanc.jpg",

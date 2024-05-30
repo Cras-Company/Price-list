@@ -1,5 +1,5 @@
 export const shopLotsSalmon = [
-        {
+    {
         type: "retail",
         url: "./images/shop/food/canned_food/salmon/m&k_losos_w_sosie_wlasnym_170.jpg",
         alt: "m&k_losos_w_sosie_wlasnym_170",
@@ -37,7 +37,7 @@ export const shopLotsSalmon = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "150 гр.",
-        priceGRN: 55,
+        priceGRN: 64,
         quantityOnStorage: "5",
         description01: "&#171Marinero - Łosoś Kawałki&#187 вражають своєю свіжістю та ніжністю, надаючи вашому столу смакове розмаїття.",
         description02: "Це ідеальне поєднання смаку та користі для вашого організму. Вони багаті Омега-3 кислотами та білками, забезпечуючи Вас енергію та підтримуючи здоров'я серця. Виготовлені з любов'ю, вони стануть гідним доповненням вашого раціону.",
