@@ -264,6 +264,10 @@ export const brands = [
     alt: "jarmi",
   },
   {
+    url: "./images/carusel/just.jpg",
+    alt: "just",
+  },
+  {
     url: "./images/carusel/k-classic.jpg",
     alt: "k-classic",
   },
