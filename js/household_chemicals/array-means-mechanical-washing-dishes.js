@@ -117,7 +117,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         alt2: "gut_gunstig_classic_60-02",
         url3: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_classic_60-03.jpg",
         alt3: "gut_gunstig_classic_60-03",
-        marker: "MMWD315",
+        marker: "MMWD310",
         brand: "Gut & Günstig",
         search: "гут гуд гунстиг гюнстиг гунстіг гюнстіг мытья посуды машина машину машини машины посудомийка посудомойка посудомоечная посудомийочна посудомийна таблетка таблетки таблеткі посудомоечной посудомийної",
         nameUKR: "Таблетки для миття посуду, для посудомийних машин",
