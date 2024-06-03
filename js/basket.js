@@ -61,6 +61,9 @@ import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 
 import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
 
+import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
+import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
+
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
 // Бытовая химия
@@ -138,6 +141,9 @@ const arrayOfProducts = [
   { items: shopLotsAdultShowerGels, },
 
   { items: shopLotsLiquidSoap, },
+
+  { items: shopLotsToothpastesChildren, },
+  { items: shopLotsToothpastesAdult, },
 
   { items: shopLotsMicellarWipes, },
 

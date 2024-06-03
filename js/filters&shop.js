@@ -69,6 +69,9 @@ import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 
 import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
 
+import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
+import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
+
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
 // Бытовая химия
@@ -153,6 +156,9 @@ const shopListBabyShowerGels = document.querySelector(".js-cras__list--baby-show
 const shopListAdultShowerGels = document.querySelector(".js-cras__list--adult-shower-gels");
 
 const shopListLiquidSoap = document.querySelector(".js-cras__list--liquid-soap");
+
+const shopListToothpastesChildren = document.querySelector(".js-cras__list--toothpastes-children");
+const shopListToothpastesAdult = document.querySelector(".js-cras__list--toothpastes-adult");
 
 const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
 
@@ -268,6 +274,11 @@ const BlockAdultShowerGels = document.querySelector(".js-block-adult-shower-gels
 const SectionAllSoap = document.querySelector(".js-section-all-soap");
 const BlockLiquidSoap = document.querySelector(".js-block-liquid-soap");
 
+// Зубные пасты
+const SectionAllToothpastes = document.querySelector(".js-section-all-toothpastes");
+const BlockToothpastesChildren = document.querySelector(".js-block-toothpastes-children");
+const BlockToothpastesAdult = document.querySelector(".js-block-toothpastes-adult");
+
 // Салфетки
 const SectionAllWipes = document.querySelector(".js-section-all-wipes");
 const BlockMicellarWipes = document.querySelector(".js-block-micellar-wipes");
@@ -362,6 +373,9 @@ const arrayOfProducts = [
   { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },
 
   { element: shopListLiquidSoap, items: shopLotsLiquidSoap, block: BlockLiquidSoap, dataTarget: "liquid-soap" },
+
+  { element: shopListToothpastesChildren, items: shopLotsToothpastesChildren, block: BlockToothpastesChildren, dataTarget: "toothpastes-children" },
+  { element: shopListToothpastesAdult, items: shopLotsToothpastesAdult, block: BlockToothpastesAdult, dataTarget: "toothpastes-adult" },
 
   { element: shopListMicellarWipes, items: shopLotsMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
 
@@ -603,6 +617,9 @@ function handleFormSubmit(event) {
   
   const filteredLiquidSoap = universalSearch(shopLotsLiquidSoap, searchItem);
 
+  const filteredToothpastesChildren = universalSearch(shopLotsToothpastesChildren, searchItem);
+  const filteredToothpastesAdult = universalSearch(shopLotsToothpastesAdult, searchItem);
+
   const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
   
   // Бытовая химия
@@ -682,6 +699,9 @@ function handleFormSubmit(event) {
     ...filteredAdultShowerGels,
     
     ...filteredLiquidSoap,
+
+    ...filteredToothpastesChildren,
+    ...filteredToothpastesAdult,
 
     ...filteredMicellarWipes,
     
@@ -857,6 +877,15 @@ function handleFormSubmit(event) {
     SectionAllSoap.style.display = "none";
   }
 
+  if (filteredToothpastesChildren.length > 0 ||
+    filteredToothpastesAdult.length > 0
+   ) {
+    shopListToothpastesChildren.innerHTML = createMobileListItemsMarkup(filteredToothpastesChildren);
+    shopListToothpastesAdult.innerHTML = createMobileListItemsMarkup(filteredToothpastesAdult);
+  } else {
+    SectionAllToothpastes.style.display = "none";
+  }
+
   if (filteredMicellarWipes.length > 0 ) {
     shopListMicellarWipes.innerHTML = createMobileListItemsMarkup(filteredMicellarWipes);
   } else {
@@ -971,6 +1000,8 @@ function handleFormSubmit(event) {
     { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
     { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
     { element: shopListLiquidSoap, items: filteredLiquidSoap, block: BlockLiquidSoap },
+    { element: shopListToothpastesChildren, items: filteredToothpastesChildren, block: BlockToothpastesChildren },
+    { element: shopListToothpastesAdult, items: filteredToothpastesAdult, block: BlockToothpastesAdult },
     { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
     
     { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },

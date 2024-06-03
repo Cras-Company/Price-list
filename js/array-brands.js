@@ -52,6 +52,10 @@ export const brands = [
     alt: "barilla",
   },
   {
+    url: "./images/carusel/beauty_smile.jpg",
+    alt: "beauty_smile",
+  },
+  {
     url: "./images/carusel/bellarom.jpg",
     alt: "bellarom",
   },
@@ -118,6 +122,10 @@ export const brands = [
   {
     url: "./images/carusel/denkmit.jpg",
     alt: "denkmit",
+  },
+  {
+    url: "./images/carusel/dental.jpg",
+    alt: "dental",
   },
   {
     url: "./images/carusel/der_general.jpg",
