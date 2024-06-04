@@ -152,6 +152,10 @@ export const brands = [
     alt: "el_toro_rojo",
   },
   {
+    url: "./images/carusel/elkos.jpg",
+    alt: "elkos",
+  },
+  {
     url: "./images/carusel/ensa.jpg",
     alt: "ensa",
   },
