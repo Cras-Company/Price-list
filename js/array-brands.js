@@ -116,6 +116,14 @@ export const brands = [
     alt: "cynosure",
   },
   {
+    url: "./images/carusel/dabur.jpg",
+    alt: "dabur",
+  },
+  {
+    url: "./images/carusel/dabur_herb'l.jpg",
+    alt: "dabur_herb'l",
+  },
+  {
     url: "./images/carusel/dallmayr.jpg",
     alt: "dallmayr",
   },

@@ -71,6 +71,7 @@ import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
 
 import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
 import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
+import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride.js";
 
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
@@ -159,6 +160,7 @@ const shopListLiquidSoap = document.querySelector(".js-cras__list--liquid-soap")
 
 const shopListToothpastesChildren = document.querySelector(".js-cras__list--toothpastes-children");
 const shopListToothpastesAdult = document.querySelector(".js-cras__list--toothpastes-adult");
+const shopListToothpastesNoFluoride = document.querySelector(".js-cras__list--toothpastes-no-fluoride");
 
 const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
 
@@ -278,6 +280,7 @@ const BlockLiquidSoap = document.querySelector(".js-block-liquid-soap");
 const SectionAllToothpastes = document.querySelector(".js-section-all-toothpastes");
 const BlockToothpastesChildren = document.querySelector(".js-block-toothpastes-children");
 const BlockToothpastesAdult = document.querySelector(".js-block-toothpastes-adult");
+const BlockToothpastesNoFluoride = document.querySelector(".js-block-toothpastes-no-fluoride");
 
 // Салфетки
 const SectionAllWipes = document.querySelector(".js-section-all-wipes");
@@ -376,6 +379,7 @@ const arrayOfProducts = [
 
   { element: shopListToothpastesChildren, items: shopLotsToothpastesChildren, block: BlockToothpastesChildren, dataTarget: "toothpastes-children" },
   { element: shopListToothpastesAdult, items: shopLotsToothpastesAdult, block: BlockToothpastesAdult, dataTarget: "toothpastes-adult" },
+  { element: shopListToothpastesNoFluoride, items: shopLotsToothpastesNoFluoride, block: BlockToothpastesNoFluoride, dataTarget: "toothpastes-no_fluoride" },
 
   { element: shopListMicellarWipes, items: shopLotsMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
 
@@ -619,6 +623,7 @@ function handleFormSubmit(event) {
 
   const filteredToothpastesChildren = universalSearch(shopLotsToothpastesChildren, searchItem);
   const filteredToothpastesAdult = universalSearch(shopLotsToothpastesAdult, searchItem);
+  const filteredToothpastesNoFluoride = universalSearch(shopLotsToothpastesNoFluoride, searchItem);
 
   const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
   
@@ -702,6 +707,7 @@ function handleFormSubmit(event) {
 
     ...filteredToothpastesChildren,
     ...filteredToothpastesAdult,
+    ...filteredToothpastesNoFluoride,
 
     ...filteredMicellarWipes,
     
@@ -878,10 +884,12 @@ function handleFormSubmit(event) {
   }
 
   if (filteredToothpastesChildren.length > 0 ||
-    filteredToothpastesAdult.length > 0
+    filteredToothpastesAdult.length > 0 ||
+    filteredToothpastesNoFluoride.length > 0
    ) {
     shopListToothpastesChildren.innerHTML = createMobileListItemsMarkup(filteredToothpastesChildren);
     shopListToothpastesAdult.innerHTML = createMobileListItemsMarkup(filteredToothpastesAdult);
+    shopListToothpastesNoFluoride.innerHTML = createMobileListItemsMarkup(filteredToothpastesNoFluoride);
   } else {
     SectionAllToothpastes.style.display = "none";
   }
@@ -1002,6 +1010,7 @@ function handleFormSubmit(event) {
     { element: shopListLiquidSoap, items: filteredLiquidSoap, block: BlockLiquidSoap },
     { element: shopListToothpastesChildren, items: filteredToothpastesChildren, block: BlockToothpastesChildren },
     { element: shopListToothpastesAdult, items: filteredToothpastesAdult, block: BlockToothpastesAdult },
+    { element: shopListToothpastesNoFluoride, items: filteredToothpastesNoFluoride, block: BlockToothpastesNoFluoride },
     { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
     
     { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
