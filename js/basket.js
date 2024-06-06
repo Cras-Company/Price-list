@@ -28,11 +28,11 @@ import { shopLotsPopcorns } from "./food/array-popcorns.js";
 import { shopLotsPistachios } from "./food/array-pistachios.js";
 import { shopLotsChips } from "./food/array-chips.js";
 
-import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
-import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
+// import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
+// import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
 import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
 
-import { shopLotsBars } from "./food/array-bars.js";
+// import { shopLotsBars } from "./food/array-bars.js";
 import { shopLotsWaffles } from "./food/array-waffles.js";
 import { shopLotsChocolate } from "./food/array-chocolate.js";
 
@@ -111,11 +111,11 @@ const arrayOfProducts = [
   { items: shopLotsPistachios,  },
   { items: shopLotsChips, },
 
-  { items: shopLotsCreamSpreads, },
-  { items: shopLotsCheeseSpreads, },
+  // { items: shopLotsCreamSpreads, },
+  // { items: shopLotsCheeseSpreads, },
   { items: shopLotsSweetSpreads, },
 
-  { items: shopLotsBars, },
+  // { items: shopLotsBars, },
   { items: shopLotsWaffles, },
   { items: shopLotsChocolate, },
 
