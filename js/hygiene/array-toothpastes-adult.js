@@ -67,18 +67,18 @@ export const shopLotsToothpastesAdult = [
         brand: "Beauty Smile",
         search: "бьюти бьюті смайл зубная паста для зубов зубные пасты зубні пасти двойная мята с мятой мятная м'ятна",
         nameUKR: "Зубна паста (подвійна м'ята)",
-        nameEN: "Doumble Mint",
+        nameEN: "Double Mint",
         companyName: "Rubella Beauty AD",
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "100 мл.",
         priceGRN: 39,
         priceGRNOpt: 35,
-        description01: "Зубна паста &#171Beauty Smile - Doumble Mint&#187 дарує Вашим зубам надійний захист та подвійну свіжість подиху.",
+        description01: "Зубна паста &#171Beauty Smile - Double Mint&#187 дарує Вашим зубам надійний захист та подвійну свіжість подиху.",
         description02: "Спеціальна формула з подвійною м'ятою ефективно очищає зуби, видаляючи наліт та запобігаючи карієсу.",
-        description03: "Насолоджуйтесь тривалим відчуттям чистоти та м'ятної свіжості, що робить Ваш подих впевненим протягом усього дня разом з &#171Beauty Smile - Doumble Mint&#187.",
+        description03: "Насолоджуйтесь тривалим відчуттям чистоти та м'ятної свіжості, що робить Ваш подих впевненим протягом усього дня разом з &#171Beauty Smile - Double Mint&#187.",
         description04: "<strong>Зубна паста з подвійною м'ятою. Містить фтор.</strong>",
-        description05: "Купуйте B&#171Beauty Smile - Doumble Mint&#187 сьогодні і подаруйте собі бездоганну усмішку на неперевершений подих!"
+        description05: "Купуйте B&#171Beauty Smile - Double Mint&#187 сьогодні і подаруйте собі бездоганну усмішку на неперевершений подих!"
     },
     {
         type: "wholesale",
