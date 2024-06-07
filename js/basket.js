@@ -47,7 +47,7 @@ import { shopLotsOil } from "./food/array-oil.js";
 import { shopLotsOlives } from "./food/array-olives.js";
 import { shopLotsOliveOil } from "./food/array-olive-oil.js";
 
-import { shopLotsForBaking } from "./food/array-for-baking.js";
+// import { shopLotsForBaking } from "./food/array-for-baking.js";
 import { shopLotsMustard } from "./food/array-mustard.js";
 import { shopLotsSauces } from "./food/array-sauces.js";
 import { shopLotsSeasonings } from "./food/array-seasonings.js";
@@ -130,7 +130,7 @@ const arrayOfProducts = [
   { items: shopLotsOlives, },
   { items: shopLotsOliveOil, },
 
-  { items: shopLotsForBaking, },
+  // { items: shopLotsForBaking, },
   { items: shopLotsMustard, },
   { items: shopLotsSauces, },
   { items: shopLotsSeasonings, },

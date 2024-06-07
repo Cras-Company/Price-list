@@ -55,7 +55,7 @@ import { shopLotsOil } from "./food/array-oil.js";
 import { shopLotsOlives } from "./food/array-olives.js";
 import { shopLotsOliveOil } from "./food/array-olive-oil.js";
 
-import { shopLotsForBaking } from "./food/array-for-baking.js";
+// import { shopLotsForBaking } from "./food/array-for-baking.js";
 import { shopLotsMustard } from "./food/array-mustard.js";
 import { shopLotsSauces } from "./food/array-sauces.js";
 import { shopLotsSeasonings } from "./food/array-seasonings.js";
@@ -144,7 +144,7 @@ const shopListOil = document.querySelector(".js-cras__list--oil");
 const shopListOlives = document.querySelector(".js-cras__list--olives");
 const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
 
-const shopListForBaking = document.querySelector(".js-cras__list--for-baking");
+// const shopListForBaking = document.querySelector(".js-cras__list--for-baking");
 const shopListMustard = document.querySelector(".js-cras__list--mustard");
 const shopListSauces = document.querySelector(".js-cras__list--sauces");
 const shopListSeasonings = document.querySelector(".js-cras__list--seasonings");
@@ -257,7 +257,7 @@ const BlockOliveOil = document.querySelector(".js-block-olive-oil");
 
 // Модификаторы вкуса
 const SectionAllTasteModifiers = document.querySelector(".js-section-all-taste-modifiers");
-const BlockForBaking = document.querySelector(".js-block-for-baking");
+// const BlockForBaking = document.querySelector(".js-block-for-baking");
 const BlockMustard = document.querySelector(".js-block-mustard");
 const BlockSauces = document.querySelector(".js-block-sauces");
 const BlockSeasonings = document.querySelector(".js-block-seasonings");
@@ -364,7 +364,7 @@ const arrayOfProducts = [
   { element: shopListOlives, items: shopLotsOlives, block: BlockOlives, dataTarget: "olives" },
   { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
 
-  { element: shopListForBaking, items: shopLotsForBaking, block: BlockForBaking, dataTarget: "for-baking" },
+  // { element: shopListForBaking, items: shopLotsForBaking, block: BlockForBaking, dataTarget: "for-baking" },
   { element: shopListMustard, items: shopLotsMustard, block: BlockMustard, dataTarget: "mustard" },
   { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
   { element: shopListSeasonings, items: shopLotsSeasonings, block: BlockSeasonings, dataTarget: "seasonings" },
@@ -607,7 +607,7 @@ function handleFormSubmit(event) {
   const filteredOlives = universalSearch(shopLotsOlives, searchItem);
   const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
 
-  const filteredForBaking = universalSearch(shopLotsForBaking, searchItem);
+  // const filteredForBaking = universalSearch(shopLotsForBaking, searchItem);
   const filteredMustard = universalSearch(shopLotsMustard, searchItem);
   const filteredSauces = universalSearch(shopLotsSauces, searchItem);
   const filteredSeasonings = universalSearch(shopLotsSeasonings, searchItem);
@@ -692,7 +692,7 @@ function handleFormSubmit(event) {
     ...filteredOlives,
     ...filteredOliveOil,
 
-    ...filteredForBaking,
+    // ...filteredForBaking,
     ...filteredMustard,
     ...filteredSauces,
     ...filteredSeasonings,
@@ -853,11 +853,12 @@ function handleFormSubmit(event) {
     SectionAllOlivesOil.style.display = "none";
   }
 
-  if (filteredForBaking.length > 0 ||
+  if (
+    // filteredForBaking.length > 0 ||
     filteredMustard.length > 0 ||
     filteredSauces.length > 0 ||
     filteredSeasonings.length > 0) {
-    shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
+    // shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
     shopListMustard.innerHTML = createMobileListItemsMarkup(filteredMustard);
     shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
     shopListSeasonings.innerHTML = createMobileListItemsMarkup(filteredSeasonings);
@@ -1002,7 +1003,7 @@ function handleFormSubmit(event) {
     { element: shopListOlives, items: filteredOlives, block: BlockOlives },
     { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
 
-    { element: shopListForBaking, items: filteredForBaking, block: BlockForBaking },
+    // { element: shopListForBaking, items: filteredForBaking, block: BlockForBaking },
     { element: shopListMustard, items: filteredMustard, block: BlockMustard },
     { element: shopListSauces, items: filteredSauces, block: BlockSauces },
     { element: shopListSeasonings, items: filteredSeasonings, block: BlockSeasonings },
