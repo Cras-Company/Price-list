@@ -23,14 +23,14 @@ export const brands = [
     url: "./images/carusel/ariel.jpg",
     alt: "ariel",
   },
-  {
-    url: "./images/carusel/aro.jpg",
-    alt: "aro",
-  },
-  {
-    url: "./images/carusel/asia_gold.jpg",
-    alt: "asia_gold",
-  },
+  // {
+  //   url: "./images/carusel/aro.jpg",
+  //   alt: "aro",
+  // },
+  // {
+  //   url: "./images/carusel/asia_gold.jpg",
+  //   alt: "asia_gold",
+  // },
   {
     url: "./images/carusel/at_home_clean.jpg",
     alt: "at_home_clean",
@@ -39,10 +39,10 @@ export const brands = [
     url: "./images/carusel/at_home_wash.jpg",
     alt: "at_home_wash",
   },
-  {
-    url: "./images/carusel/backmit.jpg",
-    alt: "backmit",
-  },
+  // {
+  //   url: "./images/carusel/backmit.jpg",
+  //   alt: "backmit",
+  // },
   {
     url: "./images/carusel/baresa.jpg",
     alt: "baresa",
@@ -63,10 +63,10 @@ export const brands = [
     url: "./images/carusel/bio_natura.jpg",
     alt: "bio_natura",
   },
-  {
-    url: "./images/carusel/bio_presto.jpg",
-    alt: "bio_presto",
-  },
+  // {
+  //   url: "./images/carusel/bio_presto.jpg",
+  //   alt: "bio_presto",
+  // },
   {
     url: "./images/carusel/bold.jpg",
     alt: "bold",
@@ -91,10 +91,10 @@ export const brands = [
     url: "./images/carusel/chanteclair.jpg",
     alt: "chanteclair",
   },
-  {
-    url: "./images/carusel/chocofini.jpg",
-    alt: "chocofini",
-  },
+  // {
+  //   url: "./images/carusel/chocofini.jpg",
+  //   alt: "chocofini",
+  // },
   {
     url: "./images/carusel/clinair.jpg",
     alt: "clinair",
@@ -151,10 +151,10 @@ export const brands = [
     url: "./images/carusel/domestos.jpg",
     alt: "domestos",
   },
-  {
-    url: "./images/carusel/dr.oetker.jpg",
-    alt: "dr.oetker",
-  },
+  // {
+  //   url: "./images/carusel/dr.oetker.jpg",
+  //   alt: "dr.oetker",
+  // },
   {
     url: "./images/carusel/el_toro_rojo.jpg",
     alt: "el_toro_rojo",
@@ -164,9 +164,13 @@ export const brands = [
     alt: "elkos",
   },
   {
-    url: "./images/carusel/ensa.jpg",
-    alt: "ensa",
+    url: "./images/carusel/elsa.jpg",
+    alt: "elsa",
   },
+  // {
+  //   url: "./images/carusel/ensa.jpg",
+  //   alt: "ensa",
+  // },
   {
     url: "./images/carusel/evrafish.jpg",
     alt: "evrafish",
@@ -187,10 +191,10 @@ export const brands = [
     url: "./images/carusel/finish.jpg",
     alt: "finish",
   },
-  {
-    url: "./images/carusel/fit.jpg",
-    alt: "fit",
-  },
+  // {
+  //   url: "./images/carusel/fit.jpg",
+  //   alt: "fit",
+  // },
   {
     url: "./images/carusel/formil.jpg",
     alt: "formil",
@@ -247,10 +251,10 @@ export const brands = [
     url: "./images/carusel/helcom.jpg",
     alt: "helcom",
   },
-  {
-    url: "./images/carusel/helio.jpg",
-    alt: "helio",
-  },
+  // {
+  //   url: "./images/carusel/helio.jpg",
+  //   alt: "helio",
+  // },
   {
     url: "./images/carusel/himmel.jpg",
     alt: "himmel",
@@ -343,14 +347,14 @@ export const brands = [
     url: "./images/carusel/mixfix.jpg",
     alt: "mixfix",
   },
-  {
-    url: "./images/carusel/mlekovita.jpg",
-    alt: "mlekovita",
-  },
-  {
-    url: "./images/carusel/mlekpol.jpg",
-    alt: "mlekpol",
-  },
+  // {
+  //   url: "./images/carusel/mlekovita.jpg",
+  //   alt: "mlekovita",
+  // },
+  // {
+  //   url: "./images/carusel/mlekpol.jpg",
+  //   alt: "mlekpol",
+  // },
   {
     url: "./images/carusel/mogyi.jpg",
     alt: "mogyi",
@@ -359,10 +363,10 @@ export const brands = [
     url: "./images/carusel/molly.jpg",
     alt: "molly",
   },
-  {
-    url: "./images/carusel/monini.jpg",
-    alt: "monini",
-  },
+  // {
+  //   url: "./images/carusel/monini.jpg",
+  //   alt: "monini",
+  // },
   {
     url: "./images/carusel/morning_fresh.jpg",
     alt: "morning_fresh",
@@ -483,10 +487,10 @@ export const brands = [
     url: "./images/carusel/sovia.jpg",
     alt: "sovia",
   },
-  {
-    url: "./images/carusel/spee.jpg",
-    alt: "spee",
-  },
+  // {
+  //   url: "./images/carusel/spee.jpg",
+  //   alt: "spee",
+  // },
   {
     url: "./images/carusel/storck.jpg",
     alt: "storck",
