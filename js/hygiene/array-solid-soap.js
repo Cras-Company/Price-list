@@ -1,0 +1,27 @@
+export const shopLotsSolidSoap = [
+    {
+        type: "wholesale",
+        url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90.jpg",
+        alt: "gallus_creme_seife_beauty_soap_extra_cream_90",
+        url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90-01.jpg",
+        alt1: "gallus_creme_seife_beauty_soap_extra_cream_90-01",
+        url2: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90-02.jpg",
+        alt2: "gallus_creme_seife_beauty_soap_extra_cream_90-02",
+        marker: "SDSP300",
+        brand: "Gallus",
+        search: "галлус галус твердое мыло hand solid soap ромака с ромашкой с экстрактом ромашки",
+        nameUKR: "Тверде мило (екстра крем), з екстратом ромашки",
+        nameEN: "Creme Seife Beauty Soap Extra Cream",
+        companyName: "Euduco KBC Group SP.",
+        countryName: "Німеччина",
+        weightName: "Вага",
+        weight: "90 г.",
+        priceGRN: 22,
+        priceGRNOpt: 20,
+        description01: "Тверде мило &#171Gallus - Creme Seife Beauty Soap Extra Cream&#187 з екстрактом ромашки - це розкішний догляд для Вашої шкіри.",
+        description02: "Його насичена кремова формула м'яко очищує, зберігаючи природний баланс вологості і даруючи відчуття свіжості.",
+        description03: "&#171Gallus - Creme Seife Beauty Soap Extra Cream&#187 з екстрактом ромашки заспокоює та живить шкіру, роблячи її м'якою і шовковистою.",
+        description04: "<strong>Тверде мило з екстрактом ромашки. Екстра крем. Для щоденного використання.</strong>",
+        description05: "Замовляйте &#171Gallus - Creme Seife Beauty Soap Extra Cream&#187 з екстрактом ромашки зараз і відчуйте справжню ніжність кожного дня!"
+    },
+]
