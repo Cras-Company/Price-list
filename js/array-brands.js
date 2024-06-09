@@ -312,6 +312,10 @@ export const brands = [
     alt: "lenor",
   },
   {
+    url: "./images/carusel/lifebuoy.jpg",
+    alt: "lifebuoy",
+  },
+  {
     url: "./images/carusel/lucullus.jpg",
     alt: "lucullus",
   },
@@ -326,6 +330,10 @@ export const brands = [
   {
     url: "./images/carusel/madero.jpg",
     alt: "madero",
+  },
+  {
+    url: "./images/carusel/malizia.jpg",
+    alt: "malizia",
   },
   {
     url: "./images/carusel/mani_king.jpg",
