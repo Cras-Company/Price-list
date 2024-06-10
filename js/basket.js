@@ -68,6 +68,8 @@ import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fl
 
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
+import { shopLotsIntimHygiene } from "./hygiene/array-intim-hygiene.js";
+
 // Бытовая химия
 import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
 import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/array-means-mechanical-washing-dishes.js";
@@ -150,6 +152,8 @@ const arrayOfProducts = [
   { items: shopLotsToothpastesNoFluoride, },
 
   { items: shopLotsMicellarWipes, },
+
+  { items: shopLotsIntimHygiene, },
 
   { items: shopLotsMeansHandsWashingDishes, },
   { items: shopLotsMeansMechanicalWashingDishes, },

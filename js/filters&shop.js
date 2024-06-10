@@ -76,6 +76,8 @@ import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fl
 
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
+import { shopLotsIntimHygiene } from "./hygiene/array-intim-hygiene.js";
+
 // Бытовая химия
 import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
 import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/array-means-mechanical-washing-dishes.js";
@@ -165,6 +167,8 @@ const shopListToothpastesAdult = document.querySelector(".js-cras__list--toothpa
 const shopListToothpastesNoFluoride = document.querySelector(".js-cras__list--toothpastes-no-fluoride");
 
 const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
+
+const shopListIntimHygiene = document.querySelector(".js-cras__list--intim-hygiene");
 
 // Бытовая химия
 const shopListMeansHandsWashingDishes = document.querySelector(".js-cras__list--means-hands-washing-dishes");
@@ -289,6 +293,10 @@ const BlockToothpastesNoFluoride = document.querySelector(".js-block-toothpastes
 const SectionAllWipes = document.querySelector(".js-section-all-wipes");
 const BlockMicellarWipes = document.querySelector(".js-block-micellar-wipes");
 
+// Женская гигиена
+const SectionAllFeminieHygiene = document.querySelector(".js-section-all-feminine-hygiene");
+const BlockIntimHygiene = document.querySelector(".js-block-intim-hygiene");
+
 // Средства для мытья
 const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
 const BlockHandsWashingDishes = document.querySelector(".js-block-hands-washing-dishes");
@@ -386,6 +394,8 @@ const arrayOfProducts = [
   { element: shopListToothpastesNoFluoride, items: shopLotsToothpastesNoFluoride, block: BlockToothpastesNoFluoride, dataTarget: "toothpastes-no_fluoride" },
 
   { element: shopListMicellarWipes, items: shopLotsMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
+
+  { element: shopListIntimHygiene, items: shopLotsIntimHygiene, block: BlockIntimHygiene, dataTarget: "intim-hygiene" },
 
   { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
   { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
@@ -631,6 +641,8 @@ function handleFormSubmit(event) {
   const filteredToothpastesNoFluoride = universalSearch(shopLotsToothpastesNoFluoride, searchItem);
 
   const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
+
+  const filteredIntimHygiene = universalSearch(shopLotsIntimHygiene, searchItem);
   
   // Бытовая химия
   const filteredMeansHandsWashingDishes = universalSearch(shopLotsMeansHandsWashingDishes, searchItem);
@@ -716,6 +728,8 @@ function handleFormSubmit(event) {
     ...filteredToothpastesNoFluoride,
 
     ...filteredMicellarWipes,
+
+    ...filteredIntimHygiene,
     
     // Бытовая химия
     ...filteredMeansHandsWashingDishes,
@@ -912,6 +926,12 @@ function handleFormSubmit(event) {
     SectionAllWipes.style.display = "none";
   }
 
+  if (filteredIntimHygiene.length > 0 ) {
+    shopListIntimHygiene.innerHTML = createMobileListItemsMarkup(filteredIntimHygiene);
+  } else {
+    SectionAllFeminieHygiene.style.display = "none";
+  }
+
   // const shopsections = [
   //     { element: shopListMicellarWipes, items: filteredMicellarWipes, section: SectionAllWipes }
   // ];
@@ -1028,6 +1048,8 @@ function handleFormSubmit(event) {
     { element: shopListToothpastesNoFluoride, items: filteredToothpastesNoFluoride, block: BlockToothpastesNoFluoride },
 
     { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
+
+    { element: shopListIntimHygiene, items: filteredIntimHygiene, block: BlockIntimHygiene },
     
     { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
     { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
