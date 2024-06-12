@@ -371,6 +371,10 @@ export const brands = [
     url: "./images/carusel/molly.jpg",
     alt: "molly",
   },
+  {
+    url: "./images/carusel/molped.jpg",
+    alt: "molped",
+  },
   // {
   //   url: "./images/carusel/monini.jpg",
   //   alt: "monini",

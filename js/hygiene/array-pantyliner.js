@@ -1,0 +1,25 @@
+export const shopLotsPantyliner = [
+  {
+    type: "retail",
+    url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_20.jpg",
+    alt: "molped_everyday_freshness_20",
+    url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_20-01.jpg",
+    alt1: "molped_everyday_freshness_20-01",
+    marker: "PTLR400",
+    brand: "Molped",
+    search: "молпед",
+    nameUKR: "Прокладки для щоденного використання",
+    nameEN: "Everyday Freshness Thin",
+    companyName: "Lachmund GmbH",
+    countryName: "Туреччина",
+    quantityName: "Кількість",
+    quantity: "20 шт.",
+    priceGRN: 75,
+    quantityOnStorage: 3,
+    description01: "&#171Cynosure - Everyday Freshness Thin&#187 - це секрет бездоганної і яскравої шкіри. Ці зволожуючі і збагачені гіалуроновою кислотою серветки забезпечують ефективне очищення, одночасно зволожуючи і заспокоюючи вашу шкіру.",
+    description02: "Інтенсивний догляд гіалуронової кислоти глибоко проникає у шкіру, допомагаючи зберігати природний баланс вологи і підтримувати молодість шкіри. Завдяки цьому, ваша шкіра виглядає свіжою, пружною і сяючою красою.",
+    description03: "Тонкий аромат &#171Cynosure - Micellar Cleansing Wipes&#187 створює атмосферу релаксації та комфорту. Практичні та зручні у використанні, ці серветки ідеально підходять для використання у дорозі.",
+    description04: "<strong>Підходить для будь-якого типу шкіри.</strong>",
+    description05: "Відкрийте для себе секрет сяючої краси з кожним застосуванням &#171Cynosure - Micellar Cleansing Wipes&#187."
+  },
+]
