@@ -77,6 +77,7 @@ import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fl
 import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 
 import { shopLotsIntimHygiene } from "./hygiene/array-intim-hygiene.js";
+import { shopLotsPantyliner } from "./hygiene/array-pantyliner.js";
 
 // Бытовая химия
 import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
@@ -169,6 +170,7 @@ const shopListToothpastesNoFluoride = document.querySelector(".js-cras__list--to
 const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-wipes");
 
 const shopListIntimHygiene = document.querySelector(".js-cras__list--intim-hygiene");
+const shopListPantyliner = document.querySelector(".js-cras__list--pantyliner");
 
 // Бытовая химия
 const shopListMeansHandsWashingDishes = document.querySelector(".js-cras__list--means-hands-washing-dishes");
@@ -296,6 +298,7 @@ const BlockMicellarWipes = document.querySelector(".js-block-micellar-wipes");
 // Женская гигиена
 const SectionAllFeminieHygiene = document.querySelector(".js-section-all-feminine-hygiene");
 const BlockIntimHygiene = document.querySelector(".js-block-intim-hygiene");
+const BlockPantyliner = document.querySelector(".js-block-pantyliner");
 
 // Средства для мытья
 const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
@@ -396,6 +399,7 @@ const arrayOfProducts = [
   { element: shopListMicellarWipes, items: shopLotsMicellarWipes, block: BlockMicellarWipes, dataTarget: "micellar-wipes" },
 
   { element: shopListIntimHygiene, items: shopLotsIntimHygiene, block: BlockIntimHygiene, dataTarget: "intim-hygiene" },
+  { element: shopListPantyliner, items: shopLotsPantyliner, block: BlockPantyliner, dataTarget: "pantyliner" },
 
   { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
   { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
@@ -643,6 +647,7 @@ function handleFormSubmit(event) {
   const filteredMicellarWipes = universalSearch(shopLotsMicellarWipes, searchItem);
 
   const filteredIntimHygiene = universalSearch(shopLotsIntimHygiene, searchItem);
+  const filteredPantyliner = universalSearch(shopLotsPantyliner, searchItem);
   
   // Бытовая химия
   const filteredMeansHandsWashingDishes = universalSearch(shopLotsMeansHandsWashingDishes, searchItem);
@@ -730,6 +735,7 @@ function handleFormSubmit(event) {
     ...filteredMicellarWipes,
 
     ...filteredIntimHygiene,
+    ...filteredPantyliner,
     
     // Бытовая химия
     ...filteredMeansHandsWashingDishes,
@@ -926,8 +932,11 @@ function handleFormSubmit(event) {
     SectionAllWipes.style.display = "none";
   }
 
-  if (filteredIntimHygiene.length > 0 ) {
+  if (filteredIntimHygiene.length > 0 ||
+    filteredPantyliner.length > 0
+   ) {
     shopListIntimHygiene.innerHTML = createMobileListItemsMarkup(filteredIntimHygiene);
+    shopListPantyliner.innerHTML = createMobileListItemsMarkup(filteredPantyliner);
   } else {
     SectionAllFeminieHygiene.style.display = "none";
   }
@@ -1050,6 +1059,7 @@ function handleFormSubmit(event) {
     { element: shopListMicellarWipes, items: filteredMicellarWipes, block: BlockMicellarWipes },
 
     { element: shopListIntimHygiene, items: filteredIntimHygiene, block: BlockIntimHygiene },
+    { element: shopListPantyliner, items: filteredPantyliner, block: BlockPantyliner },
     
     { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
     { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
