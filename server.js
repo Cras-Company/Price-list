@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware для предотвращения кеширования всех запросов
+// Middleware для установки заголовков, предотвращающих кеширование
 app.use((req, res, next) => {
   res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
   res.setHeader('Pragma', 'no-cache');
@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 });
 
 // Middleware для предотвращения кеширования динамических файлов .js
-app.use(/.*\.js$/, (req, res, next) => {
+app.use('/*.js', (req, res, next) => {
   res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
   res.setHeader('Pragma', 'no-cache');
   res.setHeader('Expires', '0');
@@ -22,8 +22,7 @@ app.use(/.*\.js$/, (req, res, next) => {
   next();
 });
 
-// Middleware для предотвращения кеширования файлов .svg
-app.use(/.*\.svg$/, (req, res, next) => {
+app.use('/*.svg', (req, res, next) => {
   res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
   res.setHeader('Pragma', 'no-cache');
   res.setHeader('Expires', '0');
