@@ -304,6 +304,10 @@ export const brands = [
     alt: "la_salud",
   },
   {
+    url: "./images/carusel/lactacyd.jpg",
+    alt: "lactacyd",
+  },
+  {
     url: "./images/carusel/lavazza.jpg",
     alt: "lavazza",
   },
@@ -412,6 +416,10 @@ export const brands = [
     alt: "onyx",
   },
   {
+    url: "./images/carusel/ooops!.jpg",
+    alt: "ooops!",
+  },
+  {
     url: "./images/carusel/opavia.jpg",
     alt: "opavia",
   },
@@ -504,25 +512,29 @@ export const brands = [
   //   alt: "spee",
   // },
   {
-    url: "./images/carusel/storck.jpg",
-    alt: "storck",
+    url: "./images/carusel/star_trio.jpg",
+    alt: "star_trio",
   },
+  // {
+  //   url: "./images/carusel/storck.jpg",
+  //   alt: "storck",
+  // },
   {
     url: "./images/carusel/tandil.jpg",
     alt: "tandil",
   },
-  {
-    url: "./images/carusel/tasso.jpg",
-    alt: "tasso",
-  },
+  // {
+  //   url: "./images/carusel/tasso.jpg",
+  //   alt: "tasso",
+  // },
   {
     url: "./images/carusel/tesori_d'oriente.jpg",
     alt: "tesori_d'oriente",
   },
-  {
-    url: "./images/carusel/tiradell.jpg",
-    alt: "tiradell",
-  },
+  // {
+  //   url: "./images/carusel/tiradell.jpg",
+  //   alt: "tiradell",
+  // },
   {
     url: "./images/carusel/univer.jpg",
     alt: "univer",

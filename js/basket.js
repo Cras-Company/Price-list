@@ -71,6 +71,7 @@ import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 import { shopLotsIntimHygiene } from "./hygiene/array-intim-hygiene.js";
 import { shopLotsPantyliner } from "./hygiene/array-pantyliner.js";
 
+import { shopLotsTPThreeLayer } from "./hygiene/array-tp-three-layer.js";
 
 // Бытовая химия
 import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
@@ -157,6 +158,8 @@ const arrayOfProducts = [
 
   { items: shopLotsIntimHygiene, },
   { items: shopLotsPantyliner, },
+
+  { items: shopLotsTPThreeLayer, },
 
   { items: shopLotsMeansHandsWashingDishes, },
   { items: shopLotsMeansMechanicalWashingDishes, },

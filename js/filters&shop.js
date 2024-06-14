@@ -79,6 +79,8 @@ import { shopLotsMicellarWipes } from "./hygiene/array-micellar_wipes.js";
 import { shopLotsIntimHygiene } from "./hygiene/array-intim-hygiene.js";
 import { shopLotsPantyliner } from "./hygiene/array-pantyliner.js";
 
+import { shopLotsTPThreeLayer } from "./hygiene/array-tp-three-layer.js";
+
 // Бытовая химия
 import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
 import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/array-means-mechanical-washing-dishes.js";
@@ -171,6 +173,8 @@ const shopListMicellarWipes = document.querySelector(".js-cras__list--micellar-w
 
 const shopListIntimHygiene = document.querySelector(".js-cras__list--intim-hygiene");
 const shopListPantyliner = document.querySelector(".js-cras__list--pantyliner");
+
+const shopListTPThreeLayer = document.querySelector(".js-cras__list--tp-three-layer");
 
 // Бытовая химия
 const shopListMeansHandsWashingDishes = document.querySelector(".js-cras__list--means-hands-washing-dishes");
@@ -300,6 +304,10 @@ const SectionAllFeminieHygiene = document.querySelector(".js-section-all-feminin
 const BlockIntimHygiene = document.querySelector(".js-block-intim-hygiene");
 const BlockPantyliner = document.querySelector(".js-block-pantyliner");
 
+// Туалетная бумага
+const SectionAllToiletPaper = document.querySelector(".js-section-all-toilet-paper");
+const BlockTPThreeLayer = document.querySelector(".js-block-tp-three-layer");
+
 // Средства для мытья
 const SectionAllMeansWashing = document.querySelector(".js-section-all-means-washing");
 const BlockHandsWashingDishes = document.querySelector(".js-block-hands-washing-dishes");
@@ -400,6 +408,8 @@ const arrayOfProducts = [
 
   { element: shopListIntimHygiene, items: shopLotsIntimHygiene, block: BlockIntimHygiene, dataTarget: "intim-hygiene" },
   { element: shopListPantyliner, items: shopLotsPantyliner, block: BlockPantyliner, dataTarget: "pantyliner" },
+
+  { element: shopListTPThreeLayer, items: shopLotsTPThreeLayer, block: BlockTPThreeLayer, dataTarget: "tp-three-layer" },
 
   { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
   { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
@@ -649,6 +659,8 @@ function handleFormSubmit(event) {
   const filteredIntimHygiene = universalSearch(shopLotsIntimHygiene, searchItem);
   const filteredPantyliner = universalSearch(shopLotsPantyliner, searchItem);
   
+  const filteredTPThreeLayer = universalSearch(shopLotsTPThreeLayer, searchItem);
+
   // Бытовая химия
   const filteredMeansHandsWashingDishes = universalSearch(shopLotsMeansHandsWashingDishes, searchItem);
   const filteredMeansMechanicalWashingDishes = universalSearch(shopLotsMeansMechanicalWashingDishes, searchItem);
@@ -736,6 +748,8 @@ function handleFormSubmit(event) {
 
     ...filteredIntimHygiene,
     ...filteredPantyliner,
+
+    ...filteredTPThreeLayer,
     
     // Бытовая химия
     ...filteredMeansHandsWashingDishes,
@@ -941,6 +955,12 @@ function handleFormSubmit(event) {
     SectionAllFeminieHygiene.style.display = "none";
   }
 
+  if (filteredTPThreeLayer.length > 0 ) {
+    shopListTPThreeLayer.innerHTML = createMobileListItemsMarkup(filteredTPThreeLayer);
+  } else {
+    SectionAllToiletPaper.style.display = "none";
+  }
+
   // const shopsections = [
   //     { element: shopListMicellarWipes, items: filteredMicellarWipes, section: SectionAllWipes }
   // ];
@@ -1060,6 +1080,8 @@ function handleFormSubmit(event) {
 
     { element: shopListIntimHygiene, items: filteredIntimHygiene, block: BlockIntimHygiene },
     { element: shopListPantyliner, items: filteredPantyliner, block: BlockPantyliner },
+
+    { element: shopListTPThreeLayer, items: filteredTPThreeLayer, block: BlockTPThreeLayer },
     
     { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
     { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
