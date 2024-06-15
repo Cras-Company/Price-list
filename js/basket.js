@@ -53,6 +53,11 @@ import { shopLotsSauces } from "./food/array-sauces.js";
 import { shopLotsSeasonings } from "./food/array-seasonings.js";
 
 // Средства гигиены
+import { shopLotsChildrenShampoos } from "./hygiene/array-children-shampoos.js";
+import { shopLotsChildrenShowerGels } from "./hygiene/array-children-shower-gels.js";
+import { shopLotsChildrenToothpastes } from "./hygiene/array-children-toothpastes.js";
+import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
+
 import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
 
@@ -140,6 +145,11 @@ const arrayOfProducts = [
   { items: shopLotsMustard, },
   { items: shopLotsSauces, },
   { items: shopLotsSeasonings, },
+
+  { items: shopLotsChildrenShampoos, },
+  { items: shopLotsChildrenShowerGels, },
+  { items: shopLotsChildrenToothpastes, },
+  { items: shopLotsChildrenDiapers, },
 
   { items: shopLotsBabyShampoos, },
   { items: shopLotsAdultShampoos, },

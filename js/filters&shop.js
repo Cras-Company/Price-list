@@ -61,6 +61,11 @@ import { shopLotsSauces } from "./food/array-sauces.js";
 import { shopLotsSeasonings } from "./food/array-seasonings.js";
 
 // Средства гигиены
+import { shopLotsChildrenShampoos } from "./hygiene/array-children-shampoos.js";
+import { shopLotsChildrenShowerGels } from "./hygiene/array-children-shower-gels.js";
+import { shopLotsChildrenToothpastes } from "./hygiene/array-children-toothpastes.js";
+import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
+
 import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
 
@@ -156,6 +161,11 @@ const shopListSauces = document.querySelector(".js-cras__list--sauces");
 const shopListSeasonings = document.querySelector(".js-cras__list--seasonings");
 
 // Средства гигиены
+const shopListChildrenShampoos = document.querySelector(".js-cras__list--children-shampoos");
+const shopListChildrenShowerGels = document.querySelector(".js-cras__list--children-shower-gels");
+const shopListChildrenToothpastes = document.querySelector(".js-cras__list--children-toothpaste");
+const shopListChildrenDiapers = document.querySelector(".js-cras__list--children-diapers");
+
 const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
 const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-shampoos");
 
@@ -274,8 +284,15 @@ const BlockMustard = document.querySelector(".js-block-mustard");
 const BlockSauces = document.querySelector(".js-block-sauces");
 const BlockSeasonings = document.querySelector(".js-block-seasonings");
 
+// Детская гигиена
+const SectionAllForChildren = document.querySelector(".js-section-all-for-children");
+const BlockChildrenShampoos = document.querySelector(".js-block-children-shampoos");
+const BlockChildrenShowerGels = document.querySelector(".js-block-children-shower-gels");
+const BlockChildrenToothpastes = document.querySelector(".js-block-children-toothpaste");
+const BlockChildrenDiapers = document.querySelector(".js-block-children-diapers");
+
 // Шампуни
-const SectionAllShampoos = document.querySelector(".js-section-all-shampoos");
+const SectionAllHairCare = document.querySelector(".js-section-all-hair-care");
 const BlockBabyShampoos = document.querySelector(".js-block-baby-shampoos");
 const BlockAdultShampoos = document.querySelector(".js-block-adult-shampoos");
 
@@ -390,6 +407,11 @@ const arrayOfProducts = [
   { element: shopListMustard, items: shopLotsMustard, block: BlockMustard, dataTarget: "mustard" },
   { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
   { element: shopListSeasonings, items: shopLotsSeasonings, block: BlockSeasonings, dataTarget: "seasonings" },
+
+  { element: shopListChildrenShampoos, items: shopLotsChildrenShampoos, block: BlockChildrenShampoos, dataTarget: "children-shampoos" },
+  { element: shopListChildrenShowerGels, items: shopLotsChildrenShowerGels, block: BlockChildrenShowerGels, dataTarget: "children-shower-gels" },
+  { element: shopListChildrenToothpastes, items: shopLotsChildrenToothpastes, block: BlockChildrenToothpastes, dataTarget: "children-toothpaste" },
+  { element: shopListChildrenDiapers, items: shopLotsChildrenDiapers, block: BlockChildrenDiapers, dataTarget: "children-diaper" },
 
   { element: shopListBabyShampoos, items: shopLotsBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
   { element: shopListAdultShampoos, items: shopLotsAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
@@ -641,6 +663,11 @@ function handleFormSubmit(event) {
   const filteredSeasonings = universalSearch(shopLotsSeasonings, searchItem);
 
   // Гигиена
+  const filteredChildrenShampoos = universalSearch(shopLotsChildrenShampoos, searchItem);
+  const filteredChildrenShowerGels = universalSearch(shopLotsChildrenShowerGels, searchItem);
+  const filteredChildrenToothpastes = universalSearch(shopLotsChildrenToothpastes, searchItem);
+  const filteredChildrenDiapers = universalSearch(shopLotsChildrenDiapers, searchItem);
+
   const filteredBabyShampoos = universalSearch(shopLotsBabyShampoos, searchItem);
   const filteredAdultShampoos = universalSearch(shopLotsAdultShampoos, searchItem);
 
@@ -732,8 +759,14 @@ function handleFormSubmit(event) {
     ...filteredSeasonings,
 
     // Средства гигиены
+    ...filteredChildrenShampoos,
+    ...filteredChildrenShowerGels,
+    ...filteredChildrenToothpastes,
+    ...filteredChildrenDiapers,
+
     ...filteredBabyShampoos,
     ...filteredAdultShampoos,
+
     ...filteredBabyShowerGels,
     ...filteredAdultShowerGels,
     
@@ -905,12 +938,24 @@ function handleFormSubmit(event) {
   } else {
     SectionAllTasteModifiers.style.display = "none";
   }
+
+  if (filteredChildrenShampoos.length > 0 ||
+    filteredChildrenShowerGels.length > 0 ||
+    filteredChildrenToothpastes.length > 0 ||
+    filteredChildrenDiapers.length > 0 ) {
+    shopListChildrenShampoos.innerHTML = createMobileListItemsMarkup(filteredChildrenShampoos);
+    shopListChildrenShowerGels.innerHTML = createMobileListItemsMarkup(filteredChildrenShowerGels);
+    shopListChildrenToothpastes.innerHTML = createMobileListItemsMarkup(filteredChildrenToothpastes);
+    shopListChildrenDiapers.innerHTML = createMobileListItemsMarkup(filteredChildrenDiapers);
+  } else {
+    SectionAllForChildren.style.display = "none";
+  }
   
   if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
     shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredBabyShampoos);
     shopListAdultShampoos.innerHTML = createMobileListItemsMarkup(filteredAdultShampoos);
   } else {
-    SectionAllShampoos.style.display = "none";
+    SectionAllHairCare.style.display = "none";
   }
 
   if (filteredBabyShowerGels.length > 0 || filteredAdultShowerGels.length > 0 ) {
@@ -1065,9 +1110,17 @@ function handleFormSubmit(event) {
     { element: shopListMustard, items: filteredMustard, block: BlockMustard },
     { element: shopListSauces, items: filteredSauces, block: BlockSauces },
     { element: shopListSeasonings, items: filteredSeasonings, block: BlockSeasonings },
+
+    { element: shopListChildrenShampoos, items: filteredChildrenShampoos, block: BlockChildrenShampoos },
+    { element: shopListChildrenShowerGels, items: filteredChildrenShowerGels, block: BlockChildrenShowerGels },
+    { element: shopListChildrenToothpastes, items: filteredChildrenToothpastes, block: BlockChildrenToothpastes },
+    { element: shopListChildrenDiapers, items: filteredChildrenDiapers, block: BlockChildrenDiapers },
   
     { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
     { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
+
+    { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
+    { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
 
     { element: shopListLiquidSoap, items: filteredLiquidSoap, block: BlockLiquidSoap },
     { element: shopListSolidSoap, items: filteredSolidSoap, block: BlockSolidSoap },
@@ -1082,9 +1135,6 @@ function handleFormSubmit(event) {
     { element: shopListPantyliner, items: filteredPantyliner, block: BlockPantyliner },
 
     { element: shopListTPThreeLayer, items: filteredTPThreeLayer, block: BlockTPThreeLayer },
-    
-    { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
-    { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
     
     { element: shopListMeansHandsWashingDishes, items: filteredMeansHandsWashingDishes, block: BlockHandsWashingDishes },
     { element: shopListMeansMechanicalWashingDishes, items: filteredMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes },

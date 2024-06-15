@@ -56,6 +56,10 @@ export const brands = [
     alt: "beauty_smile",
   },
   {
+    url: "./images/carusel/bebem_natural.jpg",
+    alt: "bebem_natural",
+  },
+  {
     url: "./images/carusel/bellarom.jpg",
     alt: "bellarom",
   },

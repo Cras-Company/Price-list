@@ -1,5 +1,5 @@
 export const shopLotsAdultShowerGels = [
-{
+    {
         type: "retail",
         url: "./images/shop/gigiena/bath_gels/dermomed_almond.jpg",
         alt: "dermomed_almond",
