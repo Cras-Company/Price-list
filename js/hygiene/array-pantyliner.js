@@ -81,7 +81,7 @@ export const shopLotsPantyliner = [
     quantityName: "Кількість",
     quantity: "8 шт.",
     priceGRN: 42,
-    quantityOnStorage: 3,
+    quantityOnStorage: 2,
     description01: "Відкрийте для себе неймовірний комфорт з прокладками &#171Molped - Pure & Soft Organic Cotton Normal&#187, створеними з органічної бавовни.",
     description02: "Завдяки високій здатності до поглинання, вони забезпечують надійний захист і свіжість протягом усього дня.",
     description03: "Натуральні матеріали та м'яка текстура прокладок &#171Molped - Pure & Soft Organic Cotton Normal&#187 дарують відчуття ніжності та турботи про Вашу шкіру.",
