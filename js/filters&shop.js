@@ -75,6 +75,8 @@ import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
 import { shopLotsSolidSoap } from "./hygiene/array-solid-soap.js";
 
+import { shopLotsHandCremes } from "./hygiene/array-hand-cremes.js";
+
 import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
 import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
 import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride.js";
@@ -174,6 +176,8 @@ const shopListAdultShowerGels = document.querySelector(".js-cras__list--adult-sh
 
 const shopListLiquidSoap = document.querySelector(".js-cras__list--liquid-soap");
 const shopListSolidSoap = document.querySelector(".js-cras__list--solid-soap");
+
+const shopListHandCremes = document.querySelector(".js-cras__list--hand-cremes");
 
 const shopListToothpastesChildren = document.querySelector(".js-cras__list--toothpastes-children");
 const shopListToothpastesAdult = document.querySelector(".js-cras__list--toothpastes-adult");
@@ -306,6 +310,10 @@ const SectionAllSoap = document.querySelector(".js-section-all-soap");
 const BlockLiquidSoap = document.querySelector(".js-block-liquid-soap");
 const BlockSolidSoap = document.querySelector(".js-block-solid-soap");
 
+// Уход за руками
+const SectionAllHandCare = document.querySelector(".js-section-all-hand-care");
+const BlockHandCremes = document.querySelector(".js-block-hand-cremes");
+
 // Зубные пасты
 const SectionAllToothpastes = document.querySelector(".js-section-all-toothpastes");
 const BlockToothpastesChildren = document.querySelector(".js-block-toothpastes-children");
@@ -421,6 +429,8 @@ const arrayOfProducts = [
 
   { element: shopListLiquidSoap, items: shopLotsLiquidSoap, block: BlockLiquidSoap, dataTarget: "liquid-soap" },
   { element: shopListSolidSoap, items: shopLotsSolidSoap, block: BlockSolidSoap, dataTarget: "solid-soap" },
+
+  { element: shopListHandCremes, items: shopLotsHandCremes, block: BlockHandCremes, dataTarget: "handcreme" },
 
   { element: shopListToothpastesChildren, items: shopLotsToothpastesChildren, block: BlockToothpastesChildren, dataTarget: "toothpastes-children" },
   { element: shopListToothpastesAdult, items: shopLotsToothpastesAdult, block: BlockToothpastesAdult, dataTarget: "toothpastes-adult" },
@@ -677,6 +687,8 @@ function handleFormSubmit(event) {
   const filteredLiquidSoap = universalSearch(shopLotsLiquidSoap, searchItem);
   const filteredSolidSoap = universalSearch(shopLotsSolidSoap, searchItem);
 
+  const filteredHandCremes = universalSearch(shopLotsHandCremes, searchItem);
+
   const filteredToothpastesChildren = universalSearch(shopLotsToothpastesChildren, searchItem);
   const filteredToothpastesAdult = universalSearch(shopLotsToothpastesAdult, searchItem);
   const filteredToothpastesNoFluoride = universalSearch(shopLotsToothpastesNoFluoride, searchItem);
@@ -772,6 +784,8 @@ function handleFormSubmit(event) {
     
     ...filteredLiquidSoap,
     ...filteredSolidSoap,
+
+    ...filteredHandCremes,
 
     ...filteredToothpastesChildren,
     ...filteredToothpastesAdult,
@@ -974,6 +988,12 @@ function handleFormSubmit(event) {
     SectionAllSoap.style.display = "none";
   }
 
+  if (filteredHandCremes.length > 0) {
+    shopListHandCremes.innerHTML = createMobileListItemsMarkup(filteredHandCremes);
+  } else {
+    SectionAllHandCare.style.display = "none";
+  }
+
   if (filteredToothpastesChildren.length > 0 ||
     filteredToothpastesAdult.length > 0 ||
     filteredToothpastesNoFluoride.length > 0
@@ -1124,6 +1144,8 @@ function handleFormSubmit(event) {
 
     { element: shopListLiquidSoap, items: filteredLiquidSoap, block: BlockLiquidSoap },
     { element: shopListSolidSoap, items: filteredSolidSoap, block: BlockSolidSoap },
+
+    { element: shopListHandCremes, items: filteredHandCremes, block: BlockHandCremes },
 
     { element: shopListToothpastesChildren, items: filteredToothpastesChildren, block: BlockToothpastesChildren },
     { element: shopListToothpastesAdult, items: filteredToothpastesAdult, block: BlockToothpastesAdult },

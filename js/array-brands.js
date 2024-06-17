@@ -132,6 +132,10 @@ export const brands = [
     alt: "dallmayr",
   },
   {
+    url: "./images/carusel/deba.jpg",
+    alt: "deba",
+  },
+  {
     url: "./images/carusel/denkmit.jpg",
     alt: "denkmit",
   },

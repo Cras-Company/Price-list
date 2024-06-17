@@ -67,6 +67,8 @@ import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
 import { shopLotsSolidSoap } from "./hygiene/array-solid-soap.js";
 
+import { shopLotsHandCremes } from "./hygiene/array-hand-cremes.js";
+
 import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
 import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
 import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride.js";
@@ -159,6 +161,8 @@ const arrayOfProducts = [
 
   { items: shopLotsLiquidSoap, },
   { items: shopLotsSolidSoap, },
+
+  { items: shopLotsHandCremes, },
 
   { items: shopLotsToothpastesChildren, },
   { items: shopLotsToothpastesAdult, },
