@@ -58,11 +58,10 @@ import { shopLotsChildrenShowerGels } from "./hygiene/array-children-shower-gels
 import { shopLotsChildrenToothpastes } from "./hygiene/array-children-toothpastes.js";
 import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
 
-import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
+import { shopLotsHairConditioners } from "./hygiene/array-hair-conditioners.js";
 import { shopLotsHairMasks } from "./hygiene/array-hair-masks.js";
 
-import { shopLotsBabyShowerGels } from "./hygiene/array-baby-shower-gels.js";
 import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 
 import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
@@ -70,7 +69,6 @@ import { shopLotsSolidSoap } from "./hygiene/array-solid-soap.js";
 
 import { shopLotsHandCremes } from "./hygiene/array-hand-cremes.js";
 
-import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
 import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
 import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride.js";
 
@@ -154,11 +152,10 @@ const arrayOfProducts = [
   { items: shopLotsChildrenToothpastes, },
   { items: shopLotsChildrenDiapers, },
 
-  { items: shopLotsBabyShampoos, },
   { items: shopLotsAdultShampoos, },
+  { items: shopLotsHairConditioners, },
   { items: shopLotsHairMasks, },
 
-  { items: shopLotsBabyShowerGels, },
   { items: shopLotsAdultShowerGels, },
 
   { items: shopLotsLiquidSoap, },
@@ -166,7 +163,6 @@ const arrayOfProducts = [
 
   { items: shopLotsHandCremes, },
 
-  { items: shopLotsToothpastesChildren, },
   { items: shopLotsToothpastesAdult, },
   { items: shopLotsToothpastesNoFluoride, },
 

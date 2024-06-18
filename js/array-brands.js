@@ -99,6 +99,10 @@ export const brands = [
   //   url: "./images/carusel/chocofini.jpg",
   //   alt: "chocofini",
   // },
+    {
+    url: "./images/carusel/cien.jpg",
+    alt: "cien",
+  },
   {
     url: "./images/carusel/clinair.jpg",
     alt: "clinair",

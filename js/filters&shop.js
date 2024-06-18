@@ -66,11 +66,10 @@ import { shopLotsChildrenShowerGels } from "./hygiene/array-children-shower-gels
 import { shopLotsChildrenToothpastes } from "./hygiene/array-children-toothpastes.js";
 import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
 
-import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
+import { shopLotsHairConditioners } from "./hygiene/array-hair-conditioners.js";
 import { shopLotsHairMasks } from "./hygiene/array-hair-masks.js";
 
-import { shopLotsBabyShowerGels } from "./hygiene/array-baby-shower-gels.js";
 import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
 
 import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
@@ -78,7 +77,6 @@ import { shopLotsSolidSoap } from "./hygiene/array-solid-soap.js";
 
 import { shopLotsHandCremes } from "./hygiene/array-hand-cremes.js";
 
-import { shopLotsToothpastesChildren } from "./hygiene/array-toothpastes-childrens.js";
 import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
 import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride.js";
 
@@ -171,6 +169,7 @@ const shopListChildrenDiapers = document.querySelector(".js-cras__list--children
 
 const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
 const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-shampoos");
+const shopListHairConditioners = document.querySelector(".js-cras__list--hair-conditioners");
 const shopListHairMasks = document.querySelector(".js-cras__list--hair-masks");
 
 const shopListBabyShowerGels = document.querySelector(".js-cras__list--baby-shower-gels");
@@ -301,6 +300,7 @@ const BlockChildrenDiapers = document.querySelector(".js-block-children-diapers"
 const SectionAllHairCare = document.querySelector(".js-section-all-hair-care");
 const BlockBabyShampoos = document.querySelector(".js-block-baby-shampoos");
 const BlockAdultShampoos = document.querySelector(".js-block-adult-shampoos");
+const BlockHairConditioners = document.querySelector(".js-block-hair-conditioners");
 const BlockHairMasks = document.querySelector(".js-block-hair-masks");
 
 // Гели
@@ -424,11 +424,12 @@ const arrayOfProducts = [
   { element: shopListChildrenToothpastes, items: shopLotsChildrenToothpastes, block: BlockChildrenToothpastes, dataTarget: "children-toothpaste" },
   { element: shopListChildrenDiapers, items: shopLotsChildrenDiapers, block: BlockChildrenDiapers, dataTarget: "children-diaper" },
 
-  { element: shopListBabyShampoos, items: shopLotsBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
+  { element: shopListBabyShampoos, items: shopLotsChildrenShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
   { element: shopListAdultShampoos, items: shopLotsAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
+  { element: shopListHairConditioners, items: shopLotsHairConditioners, block: BlockHairConditioners, dataTarget: "hair-conditioners" },
   { element: shopListHairMasks, items: shopLotsHairMasks, block: BlockHairMasks, dataTarget: "hair-masks" },
 
-  { element: shopListBabyShowerGels, items: shopLotsBabyShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
+  { element: shopListBabyShowerGels, items: shopLotsChildrenShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
   { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },
 
   { element: shopListLiquidSoap, items: shopLotsLiquidSoap, block: BlockLiquidSoap, dataTarget: "liquid-soap" },
@@ -436,7 +437,7 @@ const arrayOfProducts = [
 
   { element: shopListHandCremes, items: shopLotsHandCremes, block: BlockHandCremes, dataTarget: "handcreme" },
 
-  { element: shopListToothpastesChildren, items: shopLotsToothpastesChildren, block: BlockToothpastesChildren, dataTarget: "toothpastes-children" },
+  { element: shopListToothpastesChildren, items: shopLotsChildrenToothpastes, block: BlockToothpastesChildren, dataTarget: "toothpastes-children" },
   { element: shopListToothpastesAdult, items: shopLotsToothpastesAdult, block: BlockToothpastesAdult, dataTarget: "toothpastes-adult" },
   { element: shopListToothpastesNoFluoride, items: shopLotsToothpastesNoFluoride, block: BlockToothpastesNoFluoride, dataTarget: "toothpastes-no_fluoride" },
 
@@ -682,10 +683,10 @@ function handleFormSubmit(event) {
   const filteredChildrenToothpastes = universalSearch(shopLotsChildrenToothpastes, searchItem);
   const filteredChildrenDiapers = universalSearch(shopLotsChildrenDiapers, searchItem);
 
-  const filteredBabyShampoos = universalSearch(shopLotsBabyShampoos, searchItem);
   const filteredAdultShampoos = universalSearch(shopLotsAdultShampoos, searchItem);
+  const filteredHairConditioners = universalSearch(shopLotsHairConditioners, searchItem);
+  const filteredHairMasks = universalSearch(shopLotsHairMasks, searchItem);
 
-  const filteredBabyShowerGels = universalSearch(shopLotsBabyShowerGels, searchItem);
   const filteredAdultShowerGels = universalSearch(shopLotsAdultShowerGels, searchItem);
   
   const filteredLiquidSoap = universalSearch(shopLotsLiquidSoap, searchItem);
@@ -693,7 +694,6 @@ function handleFormSubmit(event) {
 
   const filteredHandCremes = universalSearch(shopLotsHandCremes, searchItem);
 
-  const filteredToothpastesChildren = universalSearch(shopLotsToothpastesChildren, searchItem);
   const filteredToothpastesAdult = universalSearch(shopLotsToothpastesAdult, searchItem);
   const filteredToothpastesNoFluoride = universalSearch(shopLotsToothpastesNoFluoride, searchItem);
 
@@ -780,10 +780,10 @@ function handleFormSubmit(event) {
     ...filteredChildrenToothpastes,
     ...filteredChildrenDiapers,
 
-    ...filteredBabyShampoos,
     ...filteredAdultShampoos,
+    ...filteredHairConditioners,
+    ...filteredHairMasks,
 
-    ...filteredBabyShowerGels,
     ...filteredAdultShowerGels,
     
     ...filteredLiquidSoap,
@@ -791,7 +791,6 @@ function handleFormSubmit(event) {
 
     ...filteredHandCremes,
 
-    ...filteredToothpastesChildren,
     ...filteredToothpastesAdult,
     ...filteredToothpastesNoFluoride,
 
@@ -969,15 +968,21 @@ function handleFormSubmit(event) {
     SectionAllForChildren.style.display = "none";
   }
   
-  if (filteredBabyShampoos.length > 0 || filteredAdultShampoos.length > 0 ) {
-    shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredBabyShampoos);
+  if (filteredChildrenShampoos.length > 0 ||
+    filteredAdultShampoos.length > 0 ||
+    filteredHairConditioners.length > 0 ||
+    filteredHairMasks.length > 0)  {
+    shopListBabyShampoos.innerHTML = createMobileListItemsMarkup(filteredChildrenShampoos);
     shopListAdultShampoos.innerHTML = createMobileListItemsMarkup(filteredAdultShampoos);
+    shopListHairConditioners.innerHTML = createMobileListItemsMarkup(filteredHairConditioners);
+    shopListHairMasks.innerHTML = createMobileListItemsMarkup(filteredHairMasks);
   } else {
     SectionAllHairCare.style.display = "none";
   }
 
-  if (filteredBabyShowerGels.length > 0 || filteredAdultShowerGels.length > 0 ) {
-    shopListBabyShowerGels.innerHTML = createMobileListItemsMarkup(filteredBabyShowerGels);
+  if (filteredChildrenShowerGels.length > 0 ||
+    filteredAdultShowerGels.length > 0) {
+    shopListBabyShowerGels.innerHTML = createMobileListItemsMarkup(filteredChildrenShowerGels);
     shopListAdultShowerGels.innerHTML = createMobileListItemsMarkup(filteredAdultShowerGels);
   } else {
     SectionAllShowerGels.style.display = "none";
@@ -998,11 +1003,11 @@ function handleFormSubmit(event) {
     SectionAllHandCare.style.display = "none";
   }
 
-  if (filteredToothpastesChildren.length > 0 ||
+  if (filteredChildrenToothpastes.length > 0 ||
     filteredToothpastesAdult.length > 0 ||
     filteredToothpastesNoFluoride.length > 0
    ) {
-    shopListToothpastesChildren.innerHTML = createMobileListItemsMarkup(filteredToothpastesChildren);
+    shopListToothpastesChildren.innerHTML = createMobileListItemsMarkup(filteredChildrenToothpastes);
     shopListToothpastesAdult.innerHTML = createMobileListItemsMarkup(filteredToothpastesAdult);
     shopListToothpastesNoFluoride.innerHTML = createMobileListItemsMarkup(filteredToothpastesNoFluoride);
   } else {
@@ -1140,10 +1145,12 @@ function handleFormSubmit(event) {
     { element: shopListChildrenToothpastes, items: filteredChildrenToothpastes, block: BlockChildrenToothpastes },
     { element: shopListChildrenDiapers, items: filteredChildrenDiapers, block: BlockChildrenDiapers },
   
-    { element: shopListBabyShampoos, items: filteredBabyShampoos, block: BlockBabyShampoos },
+    { element: shopListBabyShampoos, items: filteredChildrenShampoos, block: BlockBabyShampoos },
     { element: shopListAdultShampoos, items: filteredAdultShampoos, block: BlockAdultShampoos },
+    { element: shopListHairConditioners, items: filteredHairConditioners, block: BlockHairConditioners },
+    { element: shopListHairMasks, items: filteredHairMasks, block: BlockHairMasks },
 
-    { element: shopListBabyShowerGels, items: filteredBabyShowerGels, block: BlockBabyShowerGels },
+    { element: shopListBabyShowerGels, items: filteredChildrenShowerGels, block: BlockBabyShowerGels },
     { element: shopListAdultShowerGels, items: filteredAdultShowerGels, block: BlockAdultShowerGels },
 
     { element: shopListLiquidSoap, items: filteredLiquidSoap, block: BlockLiquidSoap },
@@ -1151,7 +1158,7 @@ function handleFormSubmit(event) {
 
     { element: shopListHandCremes, items: filteredHandCremes, block: BlockHandCremes },
 
-    { element: shopListToothpastesChildren, items: filteredToothpastesChildren, block: BlockToothpastesChildren },
+    { element: shopListToothpastesChildren, items: filteredChildrenToothpastes, block: BlockToothpastesChildren },
     { element: shopListToothpastesAdult, items: filteredToothpastesAdult, block: BlockToothpastesAdult },
     { element: shopListToothpastesNoFluoride, items: filteredToothpastesNoFluoride, block: BlockToothpastesNoFluoride },
 
