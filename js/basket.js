@@ -60,6 +60,7 @@ import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
 
 import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
+import { shopLotsHairMasks } from "./hygiene/array-hair-masks.js";
 
 import { shopLotsBabyShowerGels } from "./hygiene/array-baby-shower-gels.js";
 import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
@@ -155,6 +156,7 @@ const arrayOfProducts = [
 
   { items: shopLotsBabyShampoos, },
   { items: shopLotsAdultShampoos, },
+  { items: shopLotsHairMasks, },
 
   { items: shopLotsBabyShowerGels, },
   { items: shopLotsAdultShowerGels, },

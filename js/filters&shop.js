@@ -68,6 +68,7 @@ import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
 
 import { shopLotsBabyShampoos } from "./hygiene/array-baby_shampoos.js";
 import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
+import { shopLotsHairMasks } from "./hygiene/array-hair-masks.js";
 
 import { shopLotsBabyShowerGels } from "./hygiene/array-baby-shower-gels.js";
 import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
@@ -170,6 +171,7 @@ const shopListChildrenDiapers = document.querySelector(".js-cras__list--children
 
 const shopListBabyShampoos = document.querySelector(".js-cras__list--baby-shampoos");
 const shopListAdultShampoos = document.querySelector(".js-cras__list--adult-shampoos");
+const shopListHairMasks = document.querySelector(".js-cras__list--hair-masks");
 
 const shopListBabyShowerGels = document.querySelector(".js-cras__list--baby-shower-gels");
 const shopListAdultShowerGels = document.querySelector(".js-cras__list--adult-shower-gels");
@@ -295,10 +297,11 @@ const BlockChildrenShowerGels = document.querySelector(".js-block-children-showe
 const BlockChildrenToothpastes = document.querySelector(".js-block-children-toothpaste");
 const BlockChildrenDiapers = document.querySelector(".js-block-children-diapers");
 
-// Шампуни
+// Уход за волосами
 const SectionAllHairCare = document.querySelector(".js-section-all-hair-care");
 const BlockBabyShampoos = document.querySelector(".js-block-baby-shampoos");
 const BlockAdultShampoos = document.querySelector(".js-block-adult-shampoos");
+const BlockHairMasks = document.querySelector(".js-block-hair-masks");
 
 // Гели
 const SectionAllShowerGels = document.querySelector(".js-section-all-shower-gels");
@@ -423,6 +426,7 @@ const arrayOfProducts = [
 
   { element: shopListBabyShampoos, items: shopLotsBabyShampoos, block: BlockBabyShampoos, dataTarget: "baby-shampoos" },
   { element: shopListAdultShampoos, items: shopLotsAdultShampoos, block: BlockAdultShampoos, dataTarget: "adult-shampoos" },
+  { element: shopListHairMasks, items: shopLotsHairMasks, block: BlockHairMasks, dataTarget: "hair-masks" },
 
   { element: shopListBabyShowerGels, items: shopLotsBabyShowerGels, block: BlockBabyShowerGels, dataTarget: "baby-shower-gels" },
   { element: shopListAdultShowerGels, items: shopLotsAdultShowerGels, block: BlockAdultShowerGels, dataTarget: "adult-shower-gels" },

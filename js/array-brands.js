@@ -31,10 +31,10 @@ export const brands = [
   //   url: "./images/carusel/asia_gold.jpg",
   //   alt: "asia_gold",
   // },
-  {
-    url: "./images/carusel/at_home_clean.jpg",
-    alt: "at_home_clean",
-  },
+  // {
+  //   url: "./images/carusel/at_home_clean.jpg",
+  //   alt: "at_home_clean",
+  // },
   {
     url: "./images/carusel/at_home_wash.jpg",
     alt: "at_home_wash",
