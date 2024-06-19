@@ -646,6 +646,9 @@ img {
   }
 }
 
+.filter__secondary-list--index-45 {
+  z-index: 45;
+}
 .filter__secondary-list--index-50 {
   z-index: 50;
 }
@@ -672,6 +675,9 @@ img {
 }
 .filter__secondary-list--index-80 {
   z-index: 80;
+}
+.filter__secondary-list--index-85 {
+  z-index: 85;
 }
 
 .filter-list__item {
