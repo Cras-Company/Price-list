@@ -476,6 +476,10 @@ export const brands = [
     alt: "pringles",
   },
   {
+    url: "./images/carusel/queray.jpg",
+    alt: "queray",
+  },
+  {
     url: "./images/carusel/reinex.jpg",
     alt: "reinex",
   },
@@ -562,6 +566,10 @@ export const brands = [
   {
     url: "./images/carusel/vir.jpg",
     alt: "vir",
+  },
+  {
+    url: "./images/carusel/wash_go.jpg",
+    alt: "wash_go",
   },
   {
     url: "./images/carusel/weißer_riese.jpg",
