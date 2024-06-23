@@ -468,6 +468,10 @@ export const brands = [
     alt: "power_wash",
   },
   {
+    url: "./images/carusel/presto.jpg",
+    alt: "presto",
+  },
+  {
     url: "./images/carusel/pril.jpg",
     alt: "pril",
   },

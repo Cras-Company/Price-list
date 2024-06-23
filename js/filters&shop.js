@@ -107,6 +107,7 @@ import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-mean
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
 import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
+import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
 // ===========================================================================
 // Создание разметки
@@ -211,6 +212,7 @@ const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--u
 const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
 const shopListForWC = document.querySelector(".js-cras__list--for_wc");
 const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
+const shopListCleaningWipes = document.querySelector(".js-cras__list--cleaning_wipes");
 
 // ===========================================================================
 // Секции и блоки
@@ -361,6 +363,7 @@ const BlockCleaningUniversal = document.querySelector(".js-block-universal");
 const BlockCleaningKitchenBathroom = document.querySelector(".js-block-kitchen_bathroom");
 const BlockForWC = document.querySelector(".js-block-for_wc");
 const BlockCleaningDishwashers = document.querySelector(".js-block-dishwashers");
+const BlockCleaningWipes = document.querySelector(".js-block-cleaning_wipes");
 
 // Скрыть секцию
 const JSSectionOne = document.querySelectorAll(".js-section-none");
@@ -466,7 +469,8 @@ const arrayOfProducts = [
   { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
   { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
   { element: shopListForWC, items: shopLotsForWC, block: BlockForWC, dataTarget: "for_wc" },
-  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" }
+  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
+  { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
 ];
 
 // arrayOfProducts.forEach(({ element, items }) => {
@@ -724,6 +728,7 @@ function handleFormSubmit(event) {
   const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
   const filteredForWC = universalSearch(shopLotsForWC, searchItem);
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
+  const filteredCleaningWipes = universalSearch(shopLotsCleaningWipes, searchItem);
 
   const allFilteredItems = [
     // Акция
@@ -821,6 +826,7 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningKitchenBathroom,
     ...filteredForWC,
     ...filteredMeansCleaningDishwashers,
+    ...filteredCleaningWipes,
   ];
 
   if (allFilteredItems.length === 0) {
@@ -1081,7 +1087,8 @@ function handleFormSubmit(event) {
     filteredMeansCleaningUniversal.length > 0 ||
     filteredMeansCleaningKitchenBathroom.length > 0 ||
     filteredForWC.length > 0 ||
-    filteredMeansCleaningDishwashers.length > 0) {
+    filteredMeansCleaningDishwashers.length > 0 ||
+    filteredCleaningWipes.length > 0 ) {
     shopListForWindows.innerHTML = createMobileListItemsMarkup(filteredForWindows);
     shopListForFurniture.innerHTML = createMobileListItemsMarkup(filteredForFurniture);
     shopListForFloor.innerHTML = createMobileListItemsMarkup(filteredForFloor);
@@ -1089,6 +1096,7 @@ function handleFormSubmit(event) {
     shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
     shopListForWC.innerHTML = createMobileListItemsMarkup(filteredForWC);
     shopListMeansCleaningDishwashers.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningDishwashers);
+    shopListCleaningWipes.innerHTML = createMobileListItemsMarkup(filteredCleaningWipes);
   } else {
     SectionAllMeansCleaning.style.display = "none";
   }
@@ -1188,6 +1196,7 @@ function handleFormSubmit(event) {
     { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
     { element: shopListForWC, items: filteredForWC, block: BlockForWC },
     { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
+    { element: shopListCleaningWipes, items: filteredCleaningWipes, block: BlockCleaningWipes },
   ];
 
   if (searchItem === "") {
