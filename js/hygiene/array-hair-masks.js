@@ -100,7 +100,7 @@ export const shopLotsHairMasks = [
         volumeName: "Об'єм",
         volume: "1000 мл.",
         priceGRN: 160,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Відкрийте новий рівень догляду за волоссям з регенеруючою маскою &#171Milmil - Crema Rigenerante Alla Mela Verde&#187, яка підходить для всіх типів волосся.",
         description02: "Екстракт зеленого яблука збагачує волосся вітамінами, роблячи його м'яким, блискучим та здоровим.",
         description03: "&#171Milmil - Crema Rigenerante Alla Mela Verde&#187 глибоко проникає в структуру волосся, зміцнюючи його від коренів до кінчиків і відновлюючи природний баланс.",

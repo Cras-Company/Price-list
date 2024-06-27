@@ -101,6 +101,8 @@ import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
 import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
+import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
+
 const arrayOfProducts = [
   { items: shopLotsSale, },
 
@@ -194,6 +196,8 @@ const arrayOfProducts = [
   { items: shopLotsForWC, },
   { items: shopLotsMeansCleaningDishwashers, },
   { items: shopLotsCleaningWipes, },
+
+  { items: shopLotsAntiSmells, },
 ];
 
 // ===========================================================================

@@ -25,7 +25,7 @@ export const shopLotsAdultShampoos = [
     description05: "Дайте своєму волоссю силу та об'єм за допомогою &#171Cien - Provitamin 2 in 1 Shampoo + Conditioner Volume & Style&#187!"
   },
   {
-    type: "wholesale",
+    type: "retail",
     url: "./images/shop/gigiena/hair_care/shampoos/elkos_frucht_vitamin_500.jpg",
     alt: "elkos_frucht_vitamin_500",
     url1: "./images/shop/gigiena/hair_care/shampoos/elkos_frucht_vitamin_500-01.jpg",
@@ -42,7 +42,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "500 мл.",
     priceGRN: 76,
-    priceGRNOpt: 68,
+    quantityOnStorage: 5,
     description01: "Подаруйте своєму волоссю свіжість і життєву силу з шампунем &#171Elkos - Frucht & Vitamin Shampoo Mit Pro-Vitamin B5&#187 з провітаміном В5.",
     description02: "Завдяки натуральним екстрактам фруктів, цей шампунь глибоко живить та зміцнює волосся від коренів до кінчиків.",
     description03: "Провітамін В5 у &#171Elkos - Frucht & Vitamin Shampoo Mit Pro-Vitamin B5&#187 забезпечує інтенсивне зволоження, роблячи Ваше волосся м'яким, гладеньким та блискучим.",
@@ -50,7 +50,7 @@ export const shopLotsAdultShampoos = [
     description05: "Оберіть &#171Elkos - Frucht & Vitamin Shampoo Mit Pro-Vitamin B5&#187 для бездоганного догляду за нормальним та сухим волоссям!"
   },
   {
-    type: "wholesale",
+    type: "retail",
     url: "./images/shop/gigiena/hair_care/shampoos/elkos_krauter_500.jpg",
     alt: "elkos_krauter_500",
     url1: "./images/shop/gigiena/hair_care/shampoos/elkos_krauter_500-01.jpg",
@@ -67,7 +67,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "500 мл.",
     priceGRN: 76,
-    priceGRNOpt: 68,
+    quantityOnStorage: 2,
     description01: "Відчуйте силу природи з шампунем &#171Elkos - Kräuter Shampoo Mit Pro-Vitamin B5&#187 з комплексом 7 трав.",
     description02: "Цей шампунь спеціально розроблений для нормального та жирного волосся, забезпечуючи глибоке очищення та освіжаючий ефект.",
     description03: "Поєднання провітаміну В5 та природних екстрактів у &#171Elkos - Kräuter Shampoo Mit Pro-Vitamin B5&#187 зміцнює волосся, роблячи його здоровим та блискучим.",
@@ -75,7 +75,7 @@ export const shopLotsAdultShampoos = [
     description05: "Насолоджуйтеся свіжістю і здоров'ям Вашого волосся кожного дня разом з &#171Elkos - Kräuter Shampoo Mit Pro-Vitamin B5&#187!"
   },
   {
-    type: "wholesale",
+    type: "retail",
     url: "./images/shop/gigiena/hair_care/shampoos/elkos_hopfen_for_man_500.jpg",
     alt: "elkos_hopfen_for_man_500",
     url1: "./images/shop/gigiena/hair_care/shampoos/elkos_hopfen_for_man_500-01.jpg",
@@ -92,7 +92,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "500 мл.",
     priceGRN: 76,
-    priceGRNOpt: 68,
+    quantityOnStorage: 6,
     description01: "Шампунь &#171Elkos - For Men Hopfen Shampoo Mit Meersalz & Pro-Vitamin B5&#187 з екстрактом хмелю миттєво привертає увагу своїм потужним складом.",
     description02: "Вміст морської солі e поєднанні з провітаміном В5 забезпечує глибоке очищення та зміцнення волосся.",
     description03: "&#171Elkos - For Men Hopfen Shampoo Mit Meersalz & Pro-Vitamin B5&#187 cпеціально розроблений для чоловіків, надає волоссю здоровий вигляд та свіжість.",
