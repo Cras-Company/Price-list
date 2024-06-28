@@ -17,7 +17,7 @@ export const shopLotsAntiSmells = [
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         weightName: "Вага",
-        weight: "40 г.",
+        weight: "40 гр.",
         priceGRN: 132,
         priceGRNOpt: 114,
         description01: "Завдяки екстракту морських водоростей, нейтралізатор запахів &#171Denkmit - Kühlschrank Frische&#187 ефективно бореться з усіма неприємними ароматами.",

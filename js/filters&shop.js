@@ -109,6 +109,7 @@ import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
 import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
+import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 // ===========================================================================
 // Создание разметки
@@ -215,6 +216,7 @@ const shopListForWC = document.querySelector(".js-cras__list--for_wc");
 const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
 const shopListCleaningWipes = document.querySelector(".js-cras__list--cleaning_wipes");
 
+const shopListAirFresheners = document.querySelector(".js-cras__list--air-fresheners");
 const shopListAntiSmells = document.querySelector(".js-cras__list--anti-smells");
 // ===========================================================================
 // Секции и блоки
@@ -369,6 +371,7 @@ const BlockCleaningWipes = document.querySelector(".js-block-cleaning_wipes");
 
 // Мир ароматов
 const SectionAllSmells = document.querySelector(".js-section-all-smells");
+const BlockAirFresheners = document.querySelector(".js-block-air-fresheners");
 const BlockAntiSmells = document.querySelector(".js-block-anti-smells");
 
 // Скрыть секцию
@@ -478,6 +481,7 @@ const arrayOfProducts = [
   { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
   { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
 
+  { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
   { element: shopListAntiSmells, items: shopLotsAntiSmells, block: BlockAntiSmells, dataTarget: "anti_smells" },
 ];
 
@@ -738,6 +742,7 @@ function handleFormSubmit(event) {
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
   const filteredCleaningWipes = universalSearch(shopLotsCleaningWipes, searchItem);
 
+  const filteredAirFresheners = universalSearch(shopLotsAirFresheners, searchItem);
   const filteredAntiSmells = universalSearch(shopLotsAntiSmells, searchItem);
 
   const allFilteredItems = [
@@ -838,6 +843,7 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningDishwashers,
     ...filteredCleaningWipes,
 
+    ...filteredAirFresheners,
     ...filteredAntiSmells,
   ];
 
@@ -1113,7 +1119,9 @@ function handleFormSubmit(event) {
     SectionAllMeansCleaning.style.display = "none";
   }
 
-  if (filteredAntiSmells.length > 0 ) {
+  if (filteredAntiSmells.length > 0 ||
+    filteredAirFresheners.length > 0) {
+    shopListAirFresheners.innerHTML = createMobileListItemsMarkup(filteredAirFresheners);
     shopListAntiSmells.innerHTML = createMobileListItemsMarkup(filteredAntiSmells);
   } else {
     SectionAllSmells.style.display = "none";
@@ -1216,6 +1224,7 @@ function handleFormSubmit(event) {
     { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
     { element: shopListCleaningWipes, items: filteredCleaningWipes, block: BlockCleaningWipes },
 
+    { element: shopListAirFresheners, items: filteredAirFresheners, block: BlockAirFresheners },
     { element: shopListAntiSmells, items: filteredAntiSmells, block: BlockAntiSmells },
   ];
 

@@ -125,7 +125,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         companyName: "Edeka",
         countryName: "Німеччина",
         weightName: "Вага",
-        weight: "15 г.",
+        weight: "15 гр.",
         priceGRN: 5,
         quantityOnStorage: 50,
         description01: "&#171Gut & Günstig - Classic Geschirr-Reiniger Tabs&#187 - це надійний партнер для бездоганного миття посуду. Кожна таблетка містить у собі високоефективний мийний засіб, який швидко та легко розчиняє жир, плями та залишки їжі.",

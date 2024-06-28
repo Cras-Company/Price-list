@@ -71,7 +71,7 @@ export const shopLotsMeansCleaningDishwashers = [
         companyName: "Edeka",
         countryName: "Німеччина",
         weightName: "Вага",
-        weight: "15 г.",
+        weight: "15 гр.",
         priceGRN: 6,
         quantityOnStorage: 50,
         description01: "&#171Gut Günstig - Anti-Kalk Enthärter-Tabs&#187 - це незамінний інструмент для боротьби з вапняними відкладеннями та залишками мінералів у ваших посудомийній та пральній машинах. Кожна капсула містить спеціальний засіб для зм'якшення води, що допомагає попередити утворення вапняних відкладень.",
