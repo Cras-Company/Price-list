@@ -110,6 +110,7 @@ import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-me
 import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
 import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
+import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 // ===========================================================================
 // Создание разметки
@@ -217,6 +218,7 @@ const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list-
 const shopListCleaningWipes = document.querySelector(".js-cras__list--cleaning_wipes");
 
 const shopListAirFresheners = document.querySelector(".js-cras__list--air-fresheners");
+const shopListFabricFresheners = document.querySelector(".js-cras__list--fabric-fresheners");
 const shopListAntiSmells = document.querySelector(".js-cras__list--anti-smells");
 // ===========================================================================
 // Секции и блоки
@@ -372,6 +374,7 @@ const BlockCleaningWipes = document.querySelector(".js-block-cleaning_wipes");
 // Мир ароматов
 const SectionAllSmells = document.querySelector(".js-section-all-smells");
 const BlockAirFresheners = document.querySelector(".js-block-air-fresheners");
+const BlockFabricFresheners = document.querySelector(".js-block-fabric-fresheners");
 const BlockAntiSmells = document.querySelector(".js-block-anti-smells");
 
 // Скрыть секцию
@@ -482,6 +485,7 @@ const arrayOfProducts = [
   { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
 
   { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
+  { element: shopListFabricFresheners, items: shopLotsFabricFresheners, block: BlockFabricFresheners, dataTarget: "fabric_fresheners" },
   { element: shopListAntiSmells, items: shopLotsAntiSmells, block: BlockAntiSmells, dataTarget: "anti_smells" },
 ];
 
@@ -743,6 +747,7 @@ function handleFormSubmit(event) {
   const filteredCleaningWipes = universalSearch(shopLotsCleaningWipes, searchItem);
 
   const filteredAirFresheners = universalSearch(shopLotsAirFresheners, searchItem);
+  const filteredFabricFresheners = universalSearch(shopLotsFabricFresheners, searchItem);
   const filteredAntiSmells = universalSearch(shopLotsAntiSmells, searchItem);
 
   const allFilteredItems = [
@@ -844,6 +849,7 @@ function handleFormSubmit(event) {
     ...filteredCleaningWipes,
 
     ...filteredAirFresheners,
+    ...filteredFabricFresheners,
     ...filteredAntiSmells,
   ];
 
@@ -1120,8 +1126,10 @@ function handleFormSubmit(event) {
   }
 
   if (filteredAntiSmells.length > 0 ||
-    filteredAirFresheners.length > 0) {
+    filteredAirFresheners.length > 0 ||
+    filteredFabricFresheners.length > 0 ) {
     shopListAirFresheners.innerHTML = createMobileListItemsMarkup(filteredAirFresheners);
+    shopListFabricFresheners.innerHTML = createMobileListItemsMarkup(filteredFabricFresheners);
     shopListAntiSmells.innerHTML = createMobileListItemsMarkup(filteredAntiSmells);
   } else {
     SectionAllSmells.style.display = "none";
@@ -1225,6 +1233,7 @@ function handleFormSubmit(event) {
     { element: shopListCleaningWipes, items: filteredCleaningWipes, block: BlockCleaningWipes },
 
     { element: shopListAirFresheners, items: filteredAirFresheners, block: BlockAirFresheners },
+    { element: shopListFabricFresheners, items: filteredFabricFresheners, block: BlockFabricFresheners },
     { element: shopListAntiSmells, items: filteredAntiSmells, block: BlockAntiSmells },
   ];
 

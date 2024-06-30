@@ -102,6 +102,7 @@ import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-me
 import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
 import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
+import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 
 const arrayOfProducts = [
@@ -199,6 +200,7 @@ const arrayOfProducts = [
   { items: shopLotsCleaningWipes, },
 
   { items: shopLotsAirFresheners, },
+  { items: shopLotsFabricFresheners, },
   { items: shopLotsAntiSmells, },
 ];
 
