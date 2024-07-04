@@ -572,6 +572,10 @@ export const brands = [
     alt: "vir",
   },
   {
+    url: "./images/carusel/w5.jpg",
+    alt: "w5",
+  },
+  {
     url: "./images/carusel/wash_go.jpg",
     alt: "wash_go",
   },
