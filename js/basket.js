@@ -87,7 +87,7 @@ import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/arra
 import { shopLotsWashingGels } from "./household_chemicals/array-washing-gels.js";
 import { shopLotsPowerCaps } from "./household_chemicals/array-power-caps.js";
 import { shopLotsWashingPowders } from "./household_chemicals/array-washing-powders.js";
-import { shopLotsLaundrySheets } from "./household_chemicals/array-laundry-sheets.js";
+// import { shopLotsLaundrySheets } from "./household_chemicals/array-laundry-sheets.js";
 import { shopLotsBleaches } from "./household_chemicals/array-bleaches.js";
 import { shopLotsStainRemovers } from "./household_chemicals/array-stain-removers.js";
 import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
@@ -186,7 +186,7 @@ const arrayOfProducts = [
   { items: shopLotsWashingGels, },
   { items: shopLotsPowerCaps, },
   { items: shopLotsWashingPowders, },
-  { items: shopLotsLaundrySheets, },
+  // { items: shopLotsLaundrySheets, },
   { items: shopLotsBleaches, },
   { items: shopLotsStainRemovers, },
   { items: shopLotsSofteners, },

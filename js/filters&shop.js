@@ -95,7 +95,7 @@ import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/arra
 import { shopLotsWashingGels } from "./household_chemicals/array-washing-gels.js";
 import { shopLotsPowerCaps } from "./household_chemicals/array-power-caps.js";
 import { shopLotsWashingPowders } from "./household_chemicals/array-washing-powders.js";
-import { shopLotsLaundrySheets } from "./household_chemicals/array-laundry-sheets.js";
+// import { shopLotsLaundrySheets } from "./household_chemicals/array-laundry-sheets.js";
 import { shopLotsBleaches } from "./household_chemicals/array-bleaches.js";
 import { shopLotsStainRemovers } from "./household_chemicals/array-stain-removers.js";
 import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
@@ -205,7 +205,7 @@ const shopListMeansMechanicalWashingDishes = document.querySelector(".js-cras__l
 const shopListWashingGels = document.querySelector(".js-cras__list--washing-gels");
 const shopListPowerCaps = document.querySelector(".js-cras__list--power-caps");
 const shopListWashingPowders = document.querySelector(".js-cras__list--washing-powder");
-const shopListLaundrySheets = document.querySelector(".js-cras__list--laundry-sheets");
+// const shopListLaundrySheets = document.querySelector(".js-cras__list--laundry-sheets");
 const shopListBleaches = document.querySelector(".js-cras__list--bleaches");
 const shopListStainRemovers = document.querySelector(".js-cras__list--stain-removers");
 const shopListSofteners = document.querySelector(".js-cras__list--softeners");
@@ -359,7 +359,7 @@ const SectionAllLaundryDetergents = document.querySelector(".js-section-all-laun
 const BlockWashingGels = document.querySelector(".js-block-washing-gels");
 const BlockPowerCaps = document.querySelector(".js-block-power-caps");
 const BlockWashingPowders = document.querySelector(".js-block-washing-powder");
-const BlockLaundrySheets = document.querySelector(".js-block-laundry-sheets");
+// const BlockLaundrySheets = document.querySelector(".js-block-laundry-sheets");
 const BlockBleaches = document.querySelector(".js-block-bleaches");
 const BlockStainRemovers = document.querySelector(".js-block-stain-removers");
 const BlockSofteners = document.querySelector(".js-block-softeners");
@@ -476,7 +476,7 @@ const arrayOfProducts = [
   { element: shopListWashingGels, items: shopLotsWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
   { element: shopListPowerCaps, items: shopLotsPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
   { element: shopListWashingPowders, items: shopLotsWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
-  { element: shopListLaundrySheets, items: shopLotsLaundrySheets, block: BlockLaundrySheets, dataTarget: "laundry_sheets" },
+  // { element: shopListLaundrySheets, items: shopLotsLaundrySheets, block: BlockLaundrySheets, dataTarget: "laundry_sheets" },
   { element: shopListBleaches, items: shopLotsBleaches, block: BlockBleaches, dataTarget: "bleaches" },
   { element: shopListStainRemovers, items: shopLotsStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
   { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
@@ -739,7 +739,7 @@ function handleFormSubmit(event) {
   const filteredWashingGels = universalSearch(shopLotsWashingGels, searchItem);
   const filteredPowerCaps = universalSearch(shopLotsPowerCaps, searchItem);
   const filteredWashingPowders = universalSearch(shopLotsWashingPowders, searchItem);
-  const filteredLaundrySheets = universalSearch(shopLotsLaundrySheets, searchItem);
+  // const filteredLaundrySheets = universalSearch(shopLotsLaundrySheets, searchItem);
   const filteredBleaches = universalSearch(shopLotsBleaches, searchItem);
   const filteredStainRemovers = universalSearch(shopLotsStainRemovers, searchItem);
   const filteredSofteners = universalSearch(shopLotsSofteners, searchItem);
@@ -842,7 +842,7 @@ function handleFormSubmit(event) {
     ...filteredWashingGels,
     ...filteredPowerCaps,
     ...filteredWashingPowders,
-    ...filteredLaundrySheets,
+    // ...filteredLaundrySheets,
     ...filteredBleaches,
     ...filteredStainRemovers,
     ...filteredSofteners,
@@ -1101,7 +1101,7 @@ function handleFormSubmit(event) {
   if (filteredWashingGels.length > 0 ||
     filteredPowerCaps.length > 0 ||
     filteredWashingPowders.length > 0 ||
-    filteredLaundrySheets.length > 0 ||
+    // filteredLaundrySheets.length > 0 ||
     filteredBleaches.length > 0 ||
     filteredStainRemovers.length > 0 ||
     filteredSofteners.length > 0 ||
@@ -1109,7 +1109,7 @@ function handleFormSubmit(event) {
     shopListWashingGels.innerHTML = createMobileListItemsMarkup(filteredWashingGels);
     shopListPowerCaps.innerHTML = createMobileListItemsMarkup(filteredPowerCaps);
     shopListWashingPowders.innerHTML = createMobileListItemsMarkup(filteredWashingPowders);
-    shopListLaundrySheets.innerHTML = createMobileListItemsMarkup(filteredLaundrySheets);
+    // shopListLaundrySheets.innerHTML = createMobileListItemsMarkup(filteredLaundrySheets);
     shopListBleaches.innerHTML = createMobileListItemsMarkup(filteredBleaches);
     shopListStainRemovers.innerHTML = createMobileListItemsMarkup(filteredStainRemovers);
     shopListSofteners.innerHTML = createMobileListItemsMarkup(filteredSofteners);
@@ -1232,7 +1232,7 @@ function handleFormSubmit(event) {
     { element: shopListWashingGels, items: filteredWashingGels, block: BlockWashingGels },
     { element: shopListPowerCaps, items: filteredPowerCaps, block: BlockPowerCaps },
     { element: shopListWashingPowders, items: filteredWashingPowders, block: BlockWashingPowders },
-    { element: shopListLaundrySheets, items: filteredLaundrySheets, block: BlockLaundrySheets },
+    // { element: shopListLaundrySheets, items: filteredLaundrySheets, block: BlockLaundrySheets },
     { element: shopListBleaches, items: filteredBleaches, block: BlockBleaches },
     { element: shopListStainRemovers, items: filteredStainRemovers, block: BlockStainRemovers },
     { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners },
