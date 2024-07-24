@@ -67,7 +67,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "500 мл.",
     priceGRN: 76,
-    quantityOnStorage: 2,
+    quantityOnStorage: 1,
     description01: "Відчуйте силу природи з шампунем &#171Elkos - Kräuter Shampoo Mit Pro-Vitamin B5&#187 з комплексом 7 трав.",
     description02: "Цей шампунь спеціально розроблений для нормального та жирного волосся, забезпечуючи глибоке очищення та освіжаючий ефект.",
     description03: "Поєднання провітаміну В5 та природних екстрактів у &#171Elkos - Kräuter Shampoo Mit Pro-Vitamin B5&#187 зміцнює волосся, роблячи його здоровим та блискучим.",
