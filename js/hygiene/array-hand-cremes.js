@@ -142,7 +142,7 @@ export const shopLotsHandCremes = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 56,
-        quantityOnStorage: 6,
+        quantityOnStorage: 4,
         description01: "Подаруйте своїм рукам та нігтям розкішний догляд з кремом &#171Elkos - Hand & Nagel Creme Kamille&#187, збагаченим екстрактом ромашки, бджолиним воском та провітаміном B5.",
         description02: "Цей крем глибоко зволожує та живить шкіру, роблячи її ніжною та гладенькою.",
         description03: "Бджолиний віск у &#171Elkos - Hand & Nagel Creme Kamille&#187 забезпечує захист від шкідливих впливів, а провітамін B5 сприяє швидкому загоєнню дрібних тріщин і зміцнює нігті.",
