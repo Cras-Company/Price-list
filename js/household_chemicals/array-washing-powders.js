@@ -173,7 +173,7 @@ export const shopLotsWashingPowders = [
         description05: "Позбавтесь від плям і залишків бруду, насолоджуючись яскравими білими та свіжими речами разом з &#171Denkmit - Vollwaschmittel Für Strahlendes Weiss&#187."
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_summer_rain_1.3.jpg",
         alt: "denkmit_vollwaschmittel_summer_rain_1.3",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_summer_rain_1.3-01.jpg",
@@ -187,18 +187,18 @@ export const shopLotsWashingPowders = [
         marker: "LDWP220",
         brand: "Denkmit",
         search: "денкміт денкмит стиральный пральний порошок пральні порошки дождь дощ літо лето для білого белого белих вещей",
-        nameUKR: "Порошок для білих речей з ароматом прохолодного літнього дощу",
+        nameUKR: "Порошок для білих речей з ароматом літнього дощу",
         nameEN: "Vollwaschmittel Summer Rain",
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1.3 кг.",
         priceGRN: 246,
-        priceGRNOpt: 219,
+        quantityOnStorage: 2,
         description01: "&#171Denkmit - Vollwaschmittel Summer Rain&#187 - це незабутній аромат свіжості, який дарує вашому одягу новий рівень чистоти та комфорту. Цей пральний порошок має унікальну формулу, спеціально створену для прання різних видів тканин, зберігаючи білосніжність одягу.",
         description02: "Після прання, ваш одяг має приємний і освіжаючий аромат прохолодного літнього дощу, заповнюючи вашу кімнату свіжістю. Ваш одяг не лише стане бездоганно чистим, але й здобуде приємний літній аромат, який супроводжуватиме вас протягом дня.",
         description03: "Віддайте перевагу цьому чарівному пральному порошку і збережіть яскравість свого одягу, насолоджуючись прохолодою літнього дощу кожного разу, коли носите свої улюблені речі.",
-        description04: "<strong>Порошок для білих речей. Розрахований на 20 прань.</strong>",
+        description04: "<strong>Порошок для білих речей. Розрахований на 20 прань. Аромат: літній дощ.</strong>",
         description05: "Відчуйте свіжість літа в кожному одязі з &#171Denkmit - Vollwaschmittel Summer Rain&#187."
     },
     {
