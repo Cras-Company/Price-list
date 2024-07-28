@@ -1537,7 +1537,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         marker: "MCKB900",
         brand: "Well Done",
         search: "Hideg Zsiroldo велл дан доне засоби для чищення проти жиру обезжириватель средство средства против жира средства средство для чистки",
-        nameUKR: "Знежирювач",
+        nameUKR: "Засіб для чищення та знежирення",
         nameEN: "Hideg Zsíroldó",
         companyName: "Well Done St. Moritz Kft.",
         countryName: "Угорщина",
@@ -1549,7 +1549,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description02: "Інноваційна формула цього засобу дозволяє легко видаляти найстійкіші жирові плями навіть у холодній воді. Забудьте про тривале тертя та витрачений час.",
         description03: "Ваші поверхні будуть сяяти чистотою та свіжістю, а приємний аромат додасть Вашій кухні затишку. &#171Well Done - Hideg Zsíroldó&#187 підходить для різних поверхонь, забезпечуючи ідеальну чистоту.",
         description04: "<strong>Засіб для чищення та знежирення.</strong>",
-        description05: "Купуйте  &#171Well Done - Hideg Zsíroldó&#187 і відчуйте різницю вже сьогодні!"
+        description05: "Купуйте &#171Well Done - Hideg Zsíroldó&#187 і відчуйте різницю вже сьогодні!"
     },
     {
         type: "wholesale",
@@ -1562,7 +1562,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         marker: "MCKB910",
         brand: "Well Done",
         search: "Hideg Zsiroldo велл дан доне засоби для чищення проти жиру обезжириватель средство средства против жира средства средство для чистки",
-        nameUKR: "Знежирювач",
+        nameUKR: "Засіб для чищення та знежирення",
         nameEN: "Hideg Zsíroldó",
         companyName: "Well Done St. Moritz Kft.",
         countryName: "Угорщина",
@@ -1574,6 +1574,6 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description02: "Інноваційна формула цього засобу дозволяє легко видаляти найстійкіші жирові плями навіть у холодній воді. Забудьте про тривале тертя та витрачений час.",
         description03: "Ваші поверхні будуть сяяти чистотою та свіжістю, а приємний аромат додасть Вашій кухні затишку. &#171Well Done - Hideg Zsíroldó&#187 підходить для різних поверхонь, забезпечуючи ідеальну чистоту.",
         description04: "<strong>Запаска! Засіб для чищення та знежирення.</strong>",
-        description05: "Купуйте  &#171Well Done - Hideg Zsíroldó&#187 і відчуйте різницю вже сьогодні!"
+        description05: "Купуйте &#171Well Done - Hideg Zsíroldó&#187 і відчуйте різницю вже сьогодні!"
     },
 ]
