@@ -406,7 +406,7 @@ export const shopLotsForWC = [
         description05: "Оцініть переваги бездоганної чистоти з таблетками &#171Denkmit - WC-Wasserkasten-Tabletten 2 in 1&#187 для туалетного бачка!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-reinigungsschaum_500.jpg",
         alt: "denkmit_wc-reinigungsschaum_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-reinigungsschaum_500-01.jpg",
@@ -425,7 +425,7 @@ export const shopLotsForWC = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 112,
-        priceGRNOpt: 86,
+        quantityOnStorage: 5,
         description01: "Піна для чистки туалету з ароматом лимону &#171Denkmit - WC-Reinigungsschaum Zitrone&#187 забезпечує миттєву свіжість та ефективне видалення забруднень.",
         description02: "Спеціальна формула піни проникає навіть у важкодоступні місця, забезпечуючи ретельну чистку.",
         description03: "Аромат лимону &#171Denkmit - WC-Reinigungsschaum Zitrone&#187 залишає приємний запах, перетворюючи прибирання на задоволення.",
