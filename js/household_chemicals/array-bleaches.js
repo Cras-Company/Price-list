@@ -87,7 +87,7 @@ export const shopLotsBleaches = [
         description05: "Придбайте &#171Ace - Candeggina Più Fresco Profumo&#187 прямо зараз та насолоджуйтеся не лише бездоганною чистотою, але і неповторним ароматом свіжості!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/ace_for_whites_3l.jpg",
         alt: "ace_for_whites_3l",
         url1: "./images/shop/household_chemicals/universal_tools/ace_for_whites_3l-01.jpg",
@@ -100,19 +100,19 @@ export const shopLotsBleaches = [
         alt4: "ace_for_whites_3l-04",
         marker: "HCUT010",
         brand: "Ace",
-        search: "ейс аце эйс засоби для виведення видалення пляма пятновыводитель пятновыдодители отбеливатель отбеливатели для белых вещей белые вещи білі речі",
+        search: "ейс аце эйс засоби для видалення пляма пятновыводитель пятновыдодители средство для удаления пятен отбеливатель отбеливатели для белых вещей белые вещи білі речі",
         nameUKR: "Відбілювач, плямовивідник для білих речей",
         nameEN: "For Whites Triple Action",
         companyName: "Fater S.P.A.",
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3 л.",
-        priceGRN: 189,
-        priceGRNOpt: 170,
+        priceGRN: 226,
+        quantityOnStorage: 6,
         description01: "&#171Ace - For Whites Triple Action&#187 - відбілювач та плямовивідник для вашого білого одягу, який перевершить всі ваші очікування.",
         description02: "Запатентована формула гарантує ефективне відбілювання, видалення плям та захист білого кольору. Вам більше не потрібно перейматися за чистоту своїх улюблених білих речей.",
         description03: "Бажаєте зберегти білий блиск вашого одягу? &#171Ace - For Whites Triple Action&#187 забезпечить вашим речам бездоганну чистоту, зберігаючи їхню оригінальну красу.",
-        description04: "<strong>Плямовивідник, відбілювач. Не застосовувати з іншими засобами!</strong>",
+        description04: "<strong>Засіб для виведення плям, відбілювач. Не застосовувати з іншими засобами!</strong>",
         description05: "Замовте &#171Ace - For Whites Triple Action&#187 прямо зараз та насолоджуйтеся бездоганним виглядом свого білого гардеробу!"
     },
     // {

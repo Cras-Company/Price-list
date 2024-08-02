@@ -64,7 +64,7 @@ export const shopLotsMeansCleaningDishwashers = [
         url3: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/gut_gunstig_anti_kalk_51-03.jpg",
         alt3: "gut_gunstig_anti_kalk_51-03",
         marker: "MCDS300",
-        brand: "W5",
+        brand: "Gut & Günstig",
         search: "entharter-tabs гут гуд гунстиг гюнстиг гунстіг гюнстіг миття мытья посуду посуды машина машину машини машины посудомийка посудомойка посудомоечная посудомийочна посудомийна посудомоечной посудомийної від вапняного вапно наліту наліт вапняний",
         nameUKR: "Таблетки для пом'якшення води, проти вапняних та магнієвих відкладень, для пральних машин",
         nameEN: "Anti-Kalk Enthärter-Tabs",
