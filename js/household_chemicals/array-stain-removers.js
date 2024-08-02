@@ -1,6 +1,6 @@
 export const shopLotsStainRemovers = [
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/ace_for_whites_3l.jpg",
         alt: "ace_for_whites_3l",
         url1: "./images/shop/household_chemicals/universal_tools/ace_for_whites_3l-01.jpg",
@@ -20,8 +20,8 @@ export const shopLotsStainRemovers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3 л.",
-        priceGRN: 189,
-        priceGRNOpt: 170,
+        priceGRN: 226,
+        quantityOnStorage: 6,
         description01: "&#171Ace - For Whites Triple Action&#187 - відбілювач та плямовивідник для вашого білого одягу, який перевершить всі ваші очікування.",
         description02: "Запатентована формула гарантує ефективне відбілювання, видалення плям та захист білого кольору. Вам більше не потрібно перейматися за чистоту своїх улюблених білих речей.",
         description03: "Бажаєте зберегти білий блиск вашого одягу? &#171Ace - For Whites Triple Action&#187 забезпечить вашим речам бездоганну чистоту, зберігаючи їхню оригінальну красу.",
@@ -29,7 +29,7 @@ export const shopLotsStainRemovers = [
         description05: "Замовте &#171Ace - For Whites Triple Action&#187 прямо зараз та насолоджуйтеся бездоганним виглядом свого білого гардеробу!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_gentile_1l.jpg",
         alt: "ace_gentile_1l",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_gentile_1l-01.jpg",
@@ -46,7 +46,7 @@ export const shopLotsStainRemovers = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 88,
-        priceGRNOpt: 71,
+        quantityOnStorage: 6,
         description01: "Зустрічайте плямовивідник для кольорових речей &#171Ace - Gentile&#187 з активним киснем, який ефективно бореться з найскладнішими плямами.",
         description02: "Цей плямовивідник з активним киснем забезпечує глибоке очищення, зберігаючи яскравість кольорів та не пошкоджуючи тканини, гарантуючи Вашому одягу довготривалу свіжість.",
         description03: "Забудьте про неприємні плями та насолоджуйтесь бездоганною чистотою кольорових речей, які виглядають як нові після кожного прання з &#171Ace - Gentile&#187.",
@@ -54,7 +54,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте плямовивідник  &#171Ace - Gentile&#187 вже сьогодні і забезпечте своїм кольоровим речам бездоганну чистоту і яскравість!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_gentile_2l.jpg",
         alt: "ace_gentile_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_gentile_2l-01.jpg",
@@ -71,7 +71,7 @@ export const shopLotsStainRemovers = [
         volumeName: "Об'єм",
         volume: "2 л.",
         priceGRN: 153,
-        priceGRNOpt: 127,
+        quantityOnStorage: 6,
         description01: "Зустрічайте плямовивідник для кольорових речей &#171Ace - Gentile&#187 з активним киснем, який ефективно бореться з найскладнішими плямами.",
         description02: "Цей плямовивідник з активним киснем забезпечує глибоке очищення, зберігаючи яскравість кольорів та не пошкоджуючи тканини, гарантуючи Вашому одягу довготривалу свіжість.",
         description03: "Забудьте про неприємні плями та насолоджуйтесь бездоганною чистотою кольорових речей, які виглядають як нові після кожного прання з &#171Ace - Gentile&#187.",
@@ -79,7 +79,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте плямовивідник  &#171Ace - Gentile&#187 вже сьогодні і забезпечте своїм кольоровим речам бездоганну чистоту і яскравість!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_green_1.2l.jpg",
         alt: "ace_green_1.2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_green_1.2l-01.jpg",
@@ -96,7 +96,7 @@ export const shopLotsStainRemovers = [
         volumeName: "Об'єм",
         volume: "1.2 л.",
         priceGRN: 99,
-        priceGRNOpt: 79,
+        quantityOnStorage: 7,
         description01: "Відкрийте для себе екологічний плямовивідник &#171Ace - Green Colors&#187, що ефективно очищає білі та кольорові речі, забезпечуючи дезінфекцію без шкоди для довкілля.",
         description02: "Цей унікальний засіб поєднує потужну дію проти плям з дбайливим ставленням до природи, використовуючи безпечні для довкілля компоненти та забезпечуючи глибоку чистоту.",
         description03: "Забезпечте своїм речам бездоганну чистоту та захист від бактерій, зберігаючи при цьому яскравість кольорів і сяйво білих тканин разом з &#171Ace - Green Colors&#187.",
@@ -245,8 +245,8 @@ export const shopLotsStainRemovers = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 200,
-        quantityOnStorage: 3,
+        priceGRN: 207,
+        quantityOnStorage: 2,
         description01: "&#171Ariel - Fleckenentferner&#187 - інноваційний і надзвичайно потужний засіб для видалення плям. Цей чудовий засіб використовує передову технологію &#171OxyFoam&#187, щоб легко і ефективно забезпечити чудові результати при видаленні навіть найскладніших плям.",
         description02: "Завдяки спеціальній формулі, &#171Ariel - Fleckenentferner&#187 здатен змагатися з плямами від вина, жиру, кави, фруктів, і багатьох інших різновидів забруднень. Його активні компоненти глибоко проникають у тканини, розкладають забруднення на молекулярному рівні і забезпечують нейтралізацію неприємних запахів.",
         description03: "Тепер ви можете бути впевнені, що ваші улюблені речі завжди залишатимуться свіжими і чистими.",
