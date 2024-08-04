@@ -141,7 +141,7 @@ export const shopLotsBleaches = [
     //     description05: "Покращте своє життя зараз - замовте &#171Chanteclair - Sgrassatore Con Candeggina&#187 та відчуйте ефективність самі. Нехай ваш дім завжди виглядає як новий!"
     // },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_con_candeggina_625.jpg",
         alt: "chanteclair_sgrassatore_con_candeggina_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_con_candeggina_625-01.jpg",
@@ -157,8 +157,8 @@ export const shopLotsBleaches = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "625 мл.",
-        priceGRN: 135,
-        priceGRNOpt: 125,
+        priceGRN: 141,
+        quantityOnStorage: 2,
         description01: "Представляємо Вам ідеальний засіб для дому - &#171Chanteclair - Sgrassatore Con Candeggina&#187. Забудьте про труднощі при прибиранні! Його потужна формула видаляє жир, забруднення та усі бактерії, видаляє цвіль залишаючи Ваш простір свіжим та безпечним.",
         description02: "Цей засіб також ідеально підходить для білих тканин, роблячи їх яскравими та бездоганно чистими. Виборюйте плями та знищуйте небажані запахи з легкістю, завдяки його унікальним властивостям відбілювача та дезінфектора.",
         description03: "Насолоджуйтеся бездоганною чистотою та свіжістю у кожному куточку вашого будинку. З &#171Chanteclair - Sgrassatore Con Candeggina&#187, Ваші речі та приміщення будуть сяяти чистотою, а Ви будете відчувати справжню радість від свого бездоганного житла.",
