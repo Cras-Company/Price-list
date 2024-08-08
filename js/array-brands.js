@@ -84,8 +84,8 @@ export const brands = [
     alt: "bubchen",
   },
   {
-    url: "./images/carusel/cafe_d'or.jpg",
-    alt: "cafe_d'or",
+    url: "./images/carusel/cafe_dor.jpg",
+    alt: "cafe_dor",
   },
   {
     url: "./images/carusel/caneo.jpg",
@@ -128,8 +128,8 @@ export const brands = [
     alt: "dabur",
   },
   {
-    url: "./images/carusel/dabur_herb'l.jpg",
-    alt: "dabur_herb'l",
+    url: "./images/carusel/dabur_herbl.jpg",
+    alt: "dabur_herbl",
   },
   {
     url: "./images/carusel/dallmayr.jpg",
@@ -162,6 +162,10 @@ export const brands = [
   {
     url: "./images/carusel/domestos.jpg",
     alt: "domestos",
+  },
+    {
+    url: "./images/carusel/dr.beckmann.jpg",
+    alt: "dr.beckmann",
   },
   // {
   //   url: "./images/carusel/dr.oetker.jpg",
@@ -548,8 +552,8 @@ export const brands = [
   //   alt: "tasso",
   // },
   {
-    url: "./images/carusel/tesori_d'oriente.jpg",
-    alt: "tesori_d'oriente",
+    url: "./images/carusel/tesori_doriente.jpg",
+    alt: "tesori_doriente",
   },
   // {
   //   url: "./images/carusel/tiradell.jpg",

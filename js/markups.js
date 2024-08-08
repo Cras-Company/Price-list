@@ -3,7 +3,7 @@
 // ===========================================================================
 
 // Курс USDT
-export const USDTRate = 37.5;
+export const USDTRate = 40.07;
 
 export function createMobileListItemsMarkup(items) {    
 
