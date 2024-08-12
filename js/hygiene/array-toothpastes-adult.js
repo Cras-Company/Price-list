@@ -189,7 +189,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подаруйте собі посмішку Вашої мрії та спробуйте зубну пасту &#171Beauty Smile - Whitening&#187 вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/gigiena/toothpaste/adult/dentamax_fluor_fresh_125.jpg",
         alt: "dentamax_fluor_fresh_125",
         url1: "./images/shop/gigiena/toothpaste/adult/dentamax_fluor_fresh_125-01.jpg",
@@ -206,7 +206,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 54,
-        priceGRNOpt: 48,
+        quantityOnStorage: 2,
         description01: "Шукаєте зубний гель, який забезпечить не лише свіжість дихання, але й комплексний догляд за Вашими зубами та яснами? &#171Elkos - Dentamax Fluor Fresh Zanhgel&#187 - свіжість та здоров'я Ваших зубів.",
         description02: "Гель з натуральною олією м'яти, який не лише дарує відчуття свіжості на весь день, але й ефективно бореться з бактеріями, що викликають карієс та пародонтит. Завдяки фтору у складі він зміцнює емаль зубів та запобігає утворенню зубного каменю.",
         description03: "&#171Elkos - Dentamax Fluor Fresh Zanhgel&#187 - не лише ефективна, але й безпечний зубний гель. Натуральний склад робить його ідеальною для щоденного використання всією родиною.",
@@ -214,7 +214,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подаруйте собі здорову та сяючу посмішку і спробуйте зубний гель &#171Elkos - Dentamax Fluor Fresh Zanhgel&#187 вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/gigiena/toothpaste/adult/dentamax_krauter_125.jpg",
         alt: "dentamax_krauter_125",
         url1: "./images/shop/gigiena/toothpaste/adult/dentamax_krauter_125-01.jpg",
@@ -231,7 +231,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 54,
-        priceGRNOpt: 48,
+        quantityOnStorage: 13,
         description01: "Втомились від тьмяного й нездорового вигляду зубів? Зубний крем з травами &#171Elkos - Dentamax Kräuter Zahncreme&#187 - це Ваш шанс на сяючу та здорову посмішку!",
         description02: "Завдяки унікальній формулі з натуральних трав, він не лише дбайливо очищає зуби, але й бореться з бактеріями, що викликають карієс та неприємний запах.",
         description03: "&#171Elkos - Dentamax Kräuter Zahncreme&#187 – це не просто зубний крем, а секрет Вашої бездоганної посмішки. Насолоджуйтесь свіжістю та впевненістю протягом дня!",
@@ -239,7 +239,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Відкрийте для себе &#171Elkos - Dentamax Kräuter Zahncreme&#187 вже сьогодні та подаруйте своїм зубам справжню турботу!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/gigiena/toothpaste/adult/dentamax_sensitive_125.jpg",
         alt: "dentamax_sensitive_125",
         url1: "./images/shop/gigiena/toothpaste/adult/dentamax_sensitive_125-01.jpg",
@@ -256,7 +256,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 54,
-        priceGRNOpt: 48,
+        quantityOnStorage: 1,
         description01: "Відчуваєте гострий біль або дискомфорт під час чищення зубів? Зубний крем для чутливих зубів &#171Elkos - Dentamax Sensitive Zahncreme&#187 – це Ваш шанс на щасливу та здорову посмішку!",
         description02: "Завдяки делікатній формулі з фтором та кальцієм, він дбайливо очищає зуби, не дратуючи ясна.",
         description03: "&#171Elkos - Dentamax Sensitive Zahncreme&#187 – це не просто зубний крем, аце секрет Вашої бездоганної посмішки без болю й дискомфорту. Насолоджуйтесь свіжістю та впевненістю протягом дня!",
@@ -264,7 +264,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Замовляйте для себе &#171Elkos - Dentamax Sensitive Zahncreme&#187 вже сьогодні й подаруйте собі надійний захист!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/gigiena/toothpaste/adult/dentamax_zahnweiss_125.jpg",
         alt: "dentamax_zahnweiss_125",
         url1: "./images/shop/gigiena/toothpaste/adult/dentamax_zahnweiss_125-01.jpg",
@@ -281,7 +281,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 54,
-        priceGRNOpt: 48,
+        quantityOnStorage: 1,
         description01: "Познайомтеся з революційним засобом для догляду за зубами - зубним кремом &#171Elkos - Dentamax Zahnweiss Zahncreme&#187, який миттєво привертає увагу своєю ефективністю та якістю.",
         description02: "Цей інноваційний крем глибоко проникає у структуру емалі, видаляючи плями та забезпечуючи бездоганну білизну зубів.",
         description03: "Ви будете у захваті від м’якої формули &#171Elkos - Dentamax Zahnweiss Zahncreme&#187, яка не тільки дбайливо очищує, але й зміцнює зуби, залишаючи приємне відчуття свіжості та бажання використовувати його щодня.",
