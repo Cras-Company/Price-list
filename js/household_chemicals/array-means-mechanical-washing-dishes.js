@@ -187,7 +187,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Переконайтеся в якості цього продукту самі і насолоджуйтеся часом, який ви відділите від миття посуду. Ви заслуговуєте найкращого - оберіть &#171Gut & Günstig - Classic Geschirr-Reiniger Tabs&#187 для Вашого посуду!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l.jpg",
         alt: "gut_gunstig_klarspuler_1l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l-01.jpg",
@@ -204,7 +204,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 82,
-        priceGRNOpt: 71,
+        quantityOnStorage: 1,
         description01: "&#171Gut & Günstig - Klar Spüler&#187 - ідеальний ополіскувач для Вашої посудомийної машини, який надає посуду та столовим приладам сяючого блиску.",
         description02: "Його унікальна формула гарантує блискучий результат, а ефективне видалення залишків миючого засобу робить кожен посуд ідеально чистим.",
         description03: "&#171Gut & Günstig - Klar Spüler&#187 - забудьте про залишки від водних плям та вапняних відкладень і отримайте бездоганні результати кожного разу.",
