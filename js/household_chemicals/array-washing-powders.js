@@ -53,7 +53,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть свої речі чистими і доглянутими з &#171Ariel - Original&#187 - вибір господинь, які цінують бездоганність і першокласну якість."
     },
     {
-        type: "retail",
+        type: "only-wholesale",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130.jpg",
         alt: "ariel_whitescolor_lenor_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130-01.jpg",
@@ -73,8 +73,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "10 кг.",
-        priceGRN: 490,
-        quantityOnStorage: 14,
+        priceGRN: "--",
+        priceGRNOpt: 490,
         description01: "Відкрийте для себе універсальний порошок &#171Ariel - Automat Whites + Color Touch Of Fresh Lenor&#187 для бездоганної чистоти Вашого одягу!",
         description02: "Цей порошок ідеально підходить для прання як білих, так і кольорових речей, забезпечуючи яскравість та свіжість.",
         description03: "Формула &#171Ariel - Automat Whites + Color Touch Of Fresh Lenor&#187 з додаванням аромату &#171Lenor&#187 надає одягу приємний запах, який зберігається надовго.",
