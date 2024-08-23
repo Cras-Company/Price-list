@@ -101,6 +101,7 @@ import { shopLotsStainRemovers } from "./household_chemicals/array-stain-remover
 import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
 import { shopLotsScentBoosterGranuls } from "./household_chemicals/array-scent-booster-granuls.js";
 
+import { shopLotsForFabrics } from "./household_chemicals/array-for-fabrics.js";
 import { shopLotsForWindows } from "./household_chemicals/array-for-windows.js";
 import { shopLotsForFurniture } from "./household_chemicals/array-for-furniture.js";
 import { shopLotsForFloor } from "./household_chemicals/array-for-floor.js";
@@ -211,6 +212,7 @@ const shopListStainRemovers = document.querySelector(".js-cras__list--stain-remo
 const shopListSofteners = document.querySelector(".js-cras__list--softeners");
 const shopListScentBoosterGranuls = document.querySelector(".js-cras__list--scent-booster-granuls");
 
+const shopListForFabrics = document.querySelector(".js-cras__list--for_fabrics");
 const shopListForWindows = document.querySelector(".js-cras__list--for_windows");
 const shopListForFurniture = document.querySelector(".js-cras__list--for_furniture");
 const shopListForFloor = document.querySelector(".js-cras__list--for_floor");
@@ -366,6 +368,7 @@ const BlockSofteners = document.querySelector(".js-block-softeners");
 const BlockScentBoosterGranuls = document.querySelector(".js-block-scent-booster-granuls");
 
 // Средства для чистки
+const BlockForFabrics = document.querySelector(".js-block-for_fabrics");
 const BlockForWindows = document.querySelector(".js-block-for_windows");
 const BlockForFurniture = document.querySelector(".js-block-for_furniture");
 const BlockForFloor = document.querySelector(".js-block-for_floor");
@@ -482,6 +485,7 @@ const arrayOfProducts = [
   { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
   { element: shopListScentBoosterGranuls, items: shopLotsScentBoosterGranuls, block: BlockScentBoosterGranuls, dataTarget: "scent-booster-granuls" },
 
+  { element: shopListForFabrics, items: shopLotsForFabrics, block: BlockForFabrics, dataTarget: "for_fabrics" },
   { element: shopListForWindows, items: shopLotsForWindows, block: BlockForWindows, dataTarget: "for_windows" },
   { element: shopListForFurniture, items: shopLotsForFurniture, block: BlockForFurniture, dataTarget: "for_furniture" },
   { element: shopListForFloor, items: shopLotsForFloor, block: BlockForFloor, dataTarget: "for_floor" },
@@ -745,6 +749,7 @@ function handleFormSubmit(event) {
   const filteredSofteners = universalSearch(shopLotsSofteners, searchItem);
   const filteredScentBoosterGranuls = universalSearch(shopLotsScentBoosterGranuls, searchItem);
 
+  const filteredForFabrics = universalSearch(shopLotsForFabrics, searchItem);
   const filteredForWindows = universalSearch(shopLotsForWindows, searchItem);
   const filteredForFurniture = universalSearch(shopLotsForFurniture, searchItem);
   const filteredForFloor = universalSearch(shopLotsForFloor, searchItem);
@@ -848,6 +853,7 @@ function handleFormSubmit(event) {
     ...filteredSofteners,
     ...filteredScentBoosterGranuls,
 
+    ...filteredForFabrics,
     ...filteredForWindows,
     ...filteredForFurniture,
     ...filteredForFloor,
@@ -1118,14 +1124,16 @@ function handleFormSubmit(event) {
     SectionAllLaundryDetergents.style.display = "none";
   }
 
-  if (filteredForWindows.length > 0 ||
+  if (filteredForFabrics.length > 0 ||
+    filteredForWindows.length > 0 ||
     filteredForFurniture.length > 0 ||
     filteredForFloor.length > 0 ||
     filteredMeansCleaningUniversal.length > 0 ||
     filteredMeansCleaningKitchenBathroom.length > 0 ||
     filteredForWC.length > 0 ||
     filteredMeansCleaningDishwashers.length > 0 ||
-    filteredCleaningWipes.length > 0 ) {
+    filteredCleaningWipes.length > 0) {
+    shopListForFabrics.innerHTML = createMobileListItemsMarkup(filteredForFabrics);
     shopListForWindows.innerHTML = createMobileListItemsMarkup(filteredForWindows);
     shopListForFurniture.innerHTML = createMobileListItemsMarkup(filteredForFurniture);
     shopListForFloor.innerHTML = createMobileListItemsMarkup(filteredForFloor);
@@ -1238,6 +1246,7 @@ function handleFormSubmit(event) {
     { element: shopListSofteners, items: filteredSofteners, block: BlockSofteners },
     { element: shopListScentBoosterGranuls, items: filteredScentBoosterGranuls, block: BlockScentBoosterGranuls },
 
+    { element: shopListForFabrics, items: filteredForFabrics, block: BlockForFabrics },
     { element: shopListForWindows, items: filteredForWindows, block: BlockForWindows },
     { element: shopListForFurniture, items: filteredForFurniture, block: BlockForFurniture },
     { element: shopListForFloor, items: filteredForFloor, block: BlockForFloor },
