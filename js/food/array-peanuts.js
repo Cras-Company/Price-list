@@ -46,7 +46,7 @@ export const shopLotsPeanuts = [
     //     description05: "Спробуйте &#171Ensa - Arašidy Pražené Solené&#187 вже сьогодня і насолоджуйтеся смаком і якістю, яку можна отримати тільки від найкращих продуктів."
     // },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/food/snacks/peanuts/mani_king_tostado_sin_piel_120.jpg",
         alt: "mani_king_tostado_sin_piel_120",
         url1: "./images/shop/food/snacks/peanuts/mani_king_tostado_sin_piel_120-01.jpg",
@@ -65,7 +65,7 @@ export const shopLotsPeanuts = [
         weightName: "Вага",
         weight: "120 гр.",
         priceGRN: 25,
-        priceGRNOpt: 20,
+        quantityOnStorage: 2,
         description01: "&#171Mani King - Tostado sin Piel&#187 - це справжня закуска для справжніх гурманів. Кожен арахіс  вибирається з найвищою уважністю та обсмажується, щоб забезпечити ідеальний солоний смак та хрустку текстуру. Ця закуска поєднує у собі солодку начинку та солоний післясмак, що робить її неперевершеною.",
         description02: "&#171Mani King - Tostado sin Piel&#187 пропонує Вам можливість насолодитися найкращим арахісом, який можна собі уявити. Ця закуска ідеально підходить для перекусу вдома, на вечірці чи в подорожі. Завдяки вишуканому солоному смаку, вона стане улюбленою закускою для всієї родини.",
         description03: "Ви обираєте найвищу якість та натуральний смак арахісу. Ця закуска гарантує вашій вечірці або перегляду фільмів особливий шарм та неперевершений смак.",
