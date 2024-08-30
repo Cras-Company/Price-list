@@ -50,7 +50,7 @@ export const shopLotsMeansCleaningUniversal = [
     //     description05: "Замовляйте &#171Ace - Candeggina Più Gentile + Oxygen&#187 вже сьогодні та дізнайтеся, як легко та якісно ви можете доглядати за своїми речами та поверхнями!"
     // },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_700.jpg",
         alt: "ace_candeggina_piu_700",
         url1: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_700-01.jpg",
@@ -67,7 +67,7 @@ export const shopLotsMeansCleaningUniversal = [
         volumeName: "Об'єм",
         volume: "700 мл.",
         priceGRN: 89,
-        priceGRNOpt: 78,
+        quantityOnStorage: 3,
         description01: "&#171Ace - Candeggina Più + Mousse&#187 - не просто виведе плями з білих речей, але і забезпечить дезінфекцію, усуне плісняву та знежирить будь-яку поверхню на Вашій кухні!",
         description02: "Цей продукт поєднує у собі найсучасніші технології виведення плям та відбілювання. Його формула розроблена так, щоб ефективно впоратися з будь-якими забрудненнями і залишити Ваші речі неймовірно білими.",
         description03: "Перетворіть свої білі речі у символ бездоганності з &#171Ace - Candeggina Più + Mousse&#187. Відчуйте комфорт та впевненість у бездоганному вигляді Вашого одягу, завдяки його потужній формулі.",
@@ -75,7 +75,7 @@ export const shopLotsMeansCleaningUniversal = [
         description05: "Замовте &#171Ace - Candeggina Più + Mousse&#187 прямо зараз і відчуйте бездоганний догляд за Вашими білими речами та домівкою!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_fresco_profumo_700.jpg",
         alt: "ace_candeggina_piu_fresco_profumo_700",
         url1: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_fresco_profumo_700-01.jpg",
@@ -92,7 +92,7 @@ export const shopLotsMeansCleaningUniversal = [
         volumeName: "Об'єм",
         volume: "700 мл.",
         priceGRN: 89,
-        priceGRNOpt: 78,
+        quantityOnStorage: 1,
         description01: "&#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 - ваш незамінний помічник у догляді за будинком! Цей революційний засіб - справжній чарівник у вашій руці. Він є плямовивідником для білих речей, дезинфектором та знежирювачем, одночасно надаючи універсальний захист від плям, бруду та плісняви.",
         description02: "Чистота та свіжість поєднуються з неймовірним ароматом, який залишається на поверхнях та у тканинах. Відпочиньте від домашніх завдань та довіртеся магії &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187.",
         description03: "Замовте вже сьогодні і відкрийте безмежні можливості для бездоганності вашого дому.",
@@ -923,7 +923,7 @@ export const shopLotsMeansCleaningUniversal = [
         description05: "Зробіть прибирання приємною насолодою разом з &#171K-Classic - Allesreiniger Tropical Flower&#187, який подарує Вашому дому чистоту і аромат тропічного райського саду."
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia_desengordurante_700.jpg",
         alt: "neo_blanc_lixivia_desengordurante_700",
         url1: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia_desengordurante_700-01.jpg",
@@ -939,13 +939,13 @@ export const shopLotsMeansCleaningUniversal = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "700 мл.",
-        priceGRN: 85,
-        priceGRNOpt: 71,
-        description01: "&#171Neo Blanc - Lixivia + Desengordurante + Mousse&#187 - не просто виведе плями з білих речей, але і забезпечить дезінфекцію, усуне плісняву та знежирить будь-яку поверхню на Вашій кухні!",
-        description02: "Цей продукт поєднує у собі найсучасніші технології виведення плям та відбілювання. Його формула розроблена так, щоб ефективно впоратися з будь-якими забрудненнями і залишити Ваші речі неймовірно білими.",
-        description03: "Перетворіть свої білі речі у символ бездоганності з &#1711Neo Blanc - Lixivia + Desengordurante + Mousse&#187. Відчуйте комфорт та впевненість у бездоганному вигляді Вашого одягу, завдяки його потужній формулі.",
+        priceGRN: 89,
+        quantityOnStorage: 10,
+        description01: "&#171Neo Blanc - Lixivia + Desengordurante + Mousse&#187 - не просто виведе плями з білих речей, але і забезпечить дезінфекцію, усуне плісняву та знежирить будь-яку поверхню на вашій кухні!",
+        description02: "Цей продукт поєднує у собі найсучасніші технології виведення плям та відбілювання. Його формула розроблена так, щоб ефективно впоратися з будь-якими забрудненнями і залишити ваші речі неймовірно білими.",
+        description03: "Перетворіть свої білі речі у символ бездоганності з &#1711Neo Blanc - Lixivia + Desengordurante + Mousse&#187. Відчуйте комфорт та впевненість у бездоганному вигляді вашого одягу, завдяки його потужній формулі.",
         description04: "<strong>Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви.</strong>",
-        description05: "Замовте &#1711Neo Blanc - Lixivia + Desengordurante + Mousse&#187 прямо зараз і відчуйте бездоганний догляд за Вашими білими речами та домівкою!"
+        description05: "Замовте &#1711Neo Blanc - Lixivia + Desengordurante + Mousse&#187 прямо зараз і відчуйте бездоганний догляд за вашими білими речами та домівкою!"
     },
     {
         type: "wholesale",
