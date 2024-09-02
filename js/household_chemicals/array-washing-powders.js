@@ -52,35 +52,6 @@ export const shopLotsWashingPowders = [
         description04: "<strong>Порошок універсальний. Розрахований на 40 прань.</strong>",
         description05: "Зробіть свої речі чистими і доглянутими з &#171Ariel - Original&#187 - вибір господинь, які цінують бездоганність і першокласну якість."
     },
-    {
-        type: "retail",
-        url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130.jpg",
-        alt: "ariel_whitescolor_lenor_130",
-        url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130-01.jpg",
-        alt1: "ariel_whitescolor_lenor_130-01",
-        url2: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130-02.jpg",
-        alt2: "ariel_whitescolor_lenor_130-02",
-        url3: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130-03.jpg",
-        alt3: "ariel_whitescolor_lenor_130-03",
-        url4: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_whitescolor_lenor_130-04.jpg",
-        alt4: "ariel_whitescolor_lenor_130-04",
-        marker: "LDWP020",
-        brand: "Ariel",
-        search: "ариель арієль арієль проктор гембл стиральный пральний порошок пральні порошки универсальный ленор антистатический с антитстатическим эффектом эфектом",
-        nameUKR: "Порошок універсальний",
-        nameEN: "Automat Whites + Color Touch Of Fresh Lenor",
-        companyName: "The Procter & Gamble Company",
-        countryName: "Німеччина",
-        weightName: "Вага",
-        weight: "10 кг.",
-        priceGRN: 490,
-        quantityOnStorage: 1,
-        description01: "Відкрийте для себе універсальний порошок &#171Ariel - Automat Whites + Color Touch Of Fresh Lenor&#187 для бездоганної чистоти Вашого одягу!",
-        description02: "Цей порошок ідеально підходить для прання як білих, так і кольорових речей, забезпечуючи яскравість та свіжість.",
-        description03: "Формула &#171Ariel - Automat Whites + Color Touch Of Fresh Lenor&#187 з додаванням аромату &#171Lenor&#187 надає одягу приємний запах, який зберігається надовго.",
-        description04: "<strong>Порошок універсальний, антистатичний ефект. Розрахований на 130 прань.</strong>",
-        description05: "Спробуйте &#171Ariel - Automat Whites + Color Touch Of Fresh Lenor&#187 і насолоджуйтесь бездоганною чистотою Вашого одягу!"
-    },
     // ===========================================================================
     // БОЛД
     // ===========================================================================
