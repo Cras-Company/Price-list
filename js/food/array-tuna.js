@@ -1,6 +1,6 @@
 export const shopLotsTuna = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/tuna/albo_atun_clato_oliva_195.jpg",
         alt: "albo_atun_clato_oliva_195",
         url1: "./images/shop/food/canned_food/tuna/albo_atun_clato_oliva_195-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsTuna = [
         description05: "Не гайте часу даремно! Замовте &#171Albo - Atún Claro En Aceite De Oliva Virgen Extra&#187 вже сьогодні і пориньте у світ смаку та задоволення, яким можна насолоджуватися щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/tuna/helcom_tunczyk_z_olejem_roslynnym_170.jpg",
         alt: "helcom_tunczyk_z_olejem_roslynnym_170",
         url1: "./images/shop/food/canned_food/tuna/helcom_tunczyk_z_olejem_roslynnym_170.jpg",
@@ -123,7 +123,7 @@ export const shopLotsTuna = [
         description05: "Не пропустіть можливість насолодитися чудовим смаком та користю для здоров'я - замовляйте &#171M & K - Tuńczyk Rozdrobniony&#187 вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_80.jpg",
         alt: "rio_mare_tonno_al_naturale_80",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_80.jpg",
@@ -146,7 +146,7 @@ export const shopLotsTuna = [
         description05: "Придбайте &#171Rio Mare - Tonno Al Naturale&#187 вже сьогодні і насолоджуйтесь найкращим, що може запропонувати природа!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_320.jpg",
         alt: "rio_mare_tonno_al_naturale_320",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_320.jpg",
@@ -192,7 +192,7 @@ export const shopLotsTuna = [
         description05: "Придбайте &#171Rio Mare - Tonno Al Naturale&#187 вже сьогодні і насолоджуйтесь найкращим, що може запропонувати природа!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al'Olio_di_oliva_80.jpg",
         alt: "rio_mare_tonno_al'Olio_di_oliva_80",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al'Olio_di_oliva_80.jpg",

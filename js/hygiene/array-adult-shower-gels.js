@@ -393,7 +393,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Забудьте про сухість Вашої шкіри завдяки натуральному догляду &#171Ombia - Dusch-Creme Soft & Seidig Mit Provitamin B5&#187 і вона буде завжди ніжною і привабливою."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/bath_gels/queray_avena_miel_705.jpg",
         alt: "queray_avena_miel_705",
         url1: "./images/shop/gigiena/bath_gels/queray_avena_miel_705-01.jpg",
@@ -418,7 +418,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Подаруйте собі момент насолоди та турботи з гелем для душу &#171Queray - Gel De Baño Avena Y Miel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/bath_gels/queray_leche_algodon_705.jpg",
         alt: "queray_leche_algodon_705",
         url1: "./images/shop/gigiena/bath_gels/queray_leche_algodon_705-01.jpg",
@@ -443,7 +443,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Подаруйте своїй шкірі ніжність і захист з гелем для душу &#171Queray - Gel De Baño Leche Y Algodón&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/bath_gels/queray_narure_705.jpg",
         alt: "queray_narure_705",
         url1: "./images/shop/gigiena/bath_gels/queray_narure_705-01.jpg",
@@ -468,7 +468,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Відчуйте істинну чистоту та свіжість з кожним використанням  &#171Queray - Gel De Baño Nature&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/bath_gels/queray_relax_705.jpg",
         alt: "queray_relax_705",
         url1: "./images/shop/gigiena/bath_gels/queray_relax_705-01.jpg",
@@ -493,7 +493,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Додайте гель для душу &#171Queray - Gel De Baño Relax&#187 до свого щоденного ритуалу та насолоджуйтеся справжнім відпочинком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/bath_gels/right_guard_sensual_300.jpg",
         alt: "right_guard_sensual_300",
         url1: "./images/shop/gigiena/bath_gels/right_guard_sensual_300-01.jpg",
@@ -518,7 +518,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Дозвольте собі відчути розкіш і чарівність з &#171Right Guard - Sensual & Oil&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/bath_gels/right_guard_sport_300.jpg",
         alt: "right_guard_sport_300",
         url1: "./images/shop/gigiena/bath_gels/right_guard_sport_300-01.jpg",

@@ -1,6 +1,6 @@
 export const shopLotsCreamSpreads = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250.jpg",
         alt: "aro_natur_vajkrem_250",
         url1: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250-01.jpg",
@@ -23,7 +23,7 @@ export const shopLotsCreamSpreads = [
         description05: "Спробуйте &#171Aro - Natúr Vajkrém&#187 і додайте неперевершений смак вершків до своїх улюблених страв!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_zoldfuszeres_vajkrem_250.jpg",
         alt: "aro_zoldfuszeres_vajkrem_250",
         url1: "./images/shop/food/bread_spreads/cream_spreads/aro_zoldfuszeres_vajkrem_250-01.jpg",

@@ -121,7 +121,7 @@ export const shopLotsAdultShampoos = [
   //   description05: "Насолоджуйтеся свіжістю та легкістю з кожним застосуванням разом з &#171Ombia - Men 3 in 1 Fresh Up&#187."
   // },
     {
-      type: "wholesale",
+      type: "wholesale оптом",
       url: "./images/shop/gigiena/bath_gels/right_guard_sport_300.jpg",
       alt: "right_guard_sport_300",
       url1: "./images/shop/gigiena/bath_gels/right_guard_sport_300-01.jpg",
@@ -242,7 +242,7 @@ export const shopLotsAdultShampoos = [
   //   description05: "Додайте об'єму до свого стилю з &#171Schauma - Fresh Volume&#187 і розкрийте свою неперевершену красу!"
   // },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/schauma_coconut_water_400.jpg",
     alt: "schauma_coconut_water_400",
     url1: "./images/shop/gigiena/hair_care/shampoos/schauma_coconut_water_400-01.jpg",
@@ -267,7 +267,7 @@ export const shopLotsAdultShampoos = [
     description05: "Зачаруйте світ своєю неповторною красою разом з &#171Schauma - Coconut Water & Lotus Flower&#187!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/schauma_honey_elixir_400.jpg",
     alt: "schauma_honey_elixir_400",
     url1: "./images/shop/gigiena/hair_care/shampoos/schauma_honey_elixir_400-01.jpg",
@@ -292,7 +292,7 @@ export const shopLotsAdultShampoos = [
     description05: "Приголомшуйте світ своєю красою і здоровим волоссям разом з &#171Schauma - Honey Elixir & Barbary Fig Oil&#187!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_200.jpg",
     alt: "wash_go_aloe_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_200-01.jpg",
@@ -317,7 +317,7 @@ export const shopLotsAdultShampoos = [
     description05: "Оновіть догляд за волоссям з шампунем &#171Wash & Go - Shampoo With Aloe Vera Extract&#187 з алое вера!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_200.jpg",
     alt: "wash_go_anti_dandruff_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_200-01.jpg",
@@ -342,7 +342,7 @@ export const shopLotsAdultShampoos = [
     description05: "Спробуйте шампунь &#171Wash & Go - Shampoo With Anti-Dandruff Technology&#187 з технологією проти лупи для бездоганного вигляду Вашого волосся!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200.jpg",
     alt: "wash_go_herbal_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200-01.jpg",
@@ -367,7 +367,7 @@ export const shopLotsAdultShampoos = [
     description05: "Оберіть шампунь &#171Wash & Go - Shampoo With Herbal Extracts&#187 з екстрактами трав для бездоганного догляду за жирним волоссям!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
     alt: "wash_go_micellar_water_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200-01.jpg",
@@ -392,7 +392,7 @@ export const shopLotsAdultShampoos = [
     description05: "Відкрийте для себе шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187, який забезпечить м'якість і здоров'я волосся всієї родини!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_360.jpg",
     alt: "wash_go_aloe_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_360-01.jpg",
@@ -417,7 +417,7 @@ export const shopLotsAdultShampoos = [
     description05: "Оновіть догляд за волоссям з шампунем &#171Wash & Go - Shampoo Aloe Vera For Dry Hair&#187 з алое вера!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_oats_360.jpg",
     alt: "wash_go_anti_dandruff_oats_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_oats_360-01.jpg",
@@ -442,7 +442,7 @@ export const shopLotsAdultShampoos = [
     description05: "Спробуйте шампунь &#171Wash & Go - Shampoo With Anti-Dandruff Technology And Oats&#187 з технологією проти лупи для бездоганного вигляду Вашого волосся!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_menthol_men_360.jpg",
     alt: "wash_go_menthol_men_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_menthol_men_360-01.jpg",
@@ -467,7 +467,7 @@ export const shopLotsAdultShampoos = [
     description05: "Додайте свіжість і впевненість у свій день разом з &#171Wash & Go - Shampoo Menthol For Men&#187!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
     alt: "wash_go_micellar_water_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200-01.jpg",
@@ -492,7 +492,7 @@ export const shopLotsAdultShampoos = [
     description05: "Оберіть шампунь &#171Wash & Go - Hydra Pure Shampoo With Coconut Water&#187, який поєднує природу і технології для бездоганного результату!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_honey_extract_360.jpg",
     alt: "wash_go_honey_extract_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_honey_extract_360-01.jpg",
@@ -517,7 +517,7 @@ export const shopLotsAdultShampoos = [
     description05: "Спробуйте шампунь &#171Wash & Go - Shampoo With Honey Extract&#187 з медом і відчуйте справжню силу природи у кожному митті!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_jasmine_extract_360.jpg",
     alt: "wash_go_jasmine_extract_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_jasmine_extract_360-01.jpg",
@@ -542,7 +542,7 @@ export const shopLotsAdultShampoos = [
     description05: "Замовляйте вже сьогодні шампунь &#171Wash & Go - Shampoo With Jasmine Extract&#187 з жасміном для щоденного догляду за волоссям!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360.jpg",
     alt: "wash_go_micellar_water_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360-01.jpg",
@@ -567,7 +567,7 @@ export const shopLotsAdultShampoos = [
     description05: "Відкрийте для себе шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187, який забезпечить м'якість і здоров'я волосся всієї родини!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_pomegranate_extract_360.jpg",
     alt: "wash_go_pomegranate_extract_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_pomegranate_extract_360-01.jpg",

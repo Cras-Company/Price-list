@@ -1,6 +1,6 @@
 export const shopLotsOil = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/oil/nordolio_olio_di_semi_di_mais_1l.jpg",
         alt: "nordolio_olio_di_semi_di_mais_1l",
         url1: "./images/shop/food/olives_oil/oil/nordolio_olio_di_semi_di_mais_1l.jpg",
@@ -23,7 +23,7 @@ export const shopLotsOil = [
         description05: "Не вагайтесь спробувати цю неймовірну кукурудзяну олію &#171Nordolio - Olio Di Seni Di Mais&#187 вже сьогодні та насолоджуйтесь неперевершеним смаком і користью для вашого організму!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_250.jpg",
     //     alt: "vesuvio_avocado_oil_250",
     //     url1: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_250.jpg",
@@ -46,7 +46,7 @@ export const shopLotsOil = [
     //     description05: "Покладіть &#171Vesuvio - Avocado Oil&#187 у свій кошик та насолжуйтесь безмежними можливостями, які ця олія пропонує Вам!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_500.jpg",
         alt: "vesuvio_avocado_oil_500",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_500.jpg",
@@ -69,7 +69,7 @@ export const shopLotsOil = [
         description05: "Покладіть &#171Vesuvio - Avocado Oil&#187 у свій кошик та насолжуйтесь безмежними можливостями, які ця олія пропонує Вам!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/oil/vesuvio_corn_oil_1000.jpg",
         alt: "vesuvio_corn_oil_1000",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_corn_oil_1000-01.jpg",
@@ -94,7 +94,7 @@ export const shopLotsOil = [
         description05: "Зробіть правильний вибір для свого здоров'я - виберіть &#171Vesuvio - Corn Oil&#187 прямо зараз та насолоджуйтеся експлозією смаку та користі у кожній кулькарині вашого столу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_250.jpg",
         alt: "vesuvio_grapeseed_oil_250",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_250.jpg",
@@ -117,7 +117,7 @@ export const shopLotsOil = [
         description05: "Підкресліть смак своїх улюблених страв та насолоджуйтеся кулінарними витворами, які Вам подарить &#171Vesuvio - Grapeseed Oil&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_500.jpg",
         alt: "vesuvio_grapeseed_oil_500",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_500.jpg",
@@ -140,7 +140,7 @@ export const shopLotsOil = [
         description05: "Підкресліть смак своїх улюблених страв та насолоджуйтеся кулінарними витворами, які Вам подарить &#171Vesuvio - Grapeseed Oil&#187!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_1000.jpg",
     //     alt: "vesuvio_grapeseed_oil_1000",
     //     url1: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_1000-01.jpg",
@@ -165,7 +165,7 @@ export const shopLotsOil = [
     //     description05: "Підкресліть смак своїх улюблених страв та насолоджуйтеся кулінарними витворами, які Вам подарить &#171Vesuvio - Grapeseed Oil&#187!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/oil/vesuvio_mais_corn_oil_1l.jpg",
         alt: "vesuvio_mais_corn_oil_1l",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_mais_corn_oil_1l.jpg",

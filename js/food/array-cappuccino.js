@@ -1,6 +1,6 @@
 export const shopLotsCappuccino = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_amaretto_1kg.jpg",
         alt: "hearts_cappuccino_amaretto_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_amaretto_1kg-01.jpg",
@@ -29,7 +29,7 @@ export const shopLotsCappuccino = [
         description05: "Не відкладайте своє задоволення та замовте капучино &#171Hearts - Cappuccino Amaretto&#187 вже зараз і дозвольте смаковому екстазу заволодіти Вами!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_irish_cream_1kg.jpg",
         alt: "hearts_cappuccino_irish_cream_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_irish_cream_1kg-01.jpg",
@@ -58,7 +58,7 @@ export const shopLotsCappuccino = [
         description05: "Приготуйте власні миті насолоди – замовте зараз &#171Hearts - Cappuccino Irish Cream&#187 і дозвольте собі насолодитися бездоганним смаком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_karamell_1kg.jpg",
         alt: "hearts_cappuccino_karamell_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_karamell_1kg-01.jpg",
@@ -87,7 +87,7 @@ export const shopLotsCappuccino = [
         description05: "Спробуйте &#171Hearts - Cappuccino Karamell&#187 вже сьогодні і відчуйте екстаз смаку на який Ви завжди заслуговували!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_kakaonote_1kg.jpg",
         alt: "hearts_cappuccino_kakaonote_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_kakaonote_1kg-01.jpg",
@@ -116,7 +116,7 @@ export const shopLotsCappuccino = [
         description05: "Замовте собі цей ексклюзивний капучино &#171Hearts - Cappuccino Mit Feiner Kakaonote&#187 прямо зараз і відчуйте неперевершений смак з нотками какао!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/swisso_irish_cream_1kg.jpg",
         alt: "swisso_irish_cream_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_irish_cream_1kg-01.jpg",
@@ -143,7 +143,7 @@ export const shopLotsCappuccino = [
         description05: "Замовте капучино &#171Swisso - Cappuccino Irish Cream&#187 вже зараз і дозвольте собі перенестися в атмосферу задоволення та розкоші, насолоджуючись келихом ірландського комфорту прямо вдома!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/swisso_karamell_1kg.jpg",
         alt: "swisso_karamell_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_karamell_1kg-01.jpg",
@@ -170,7 +170,7 @@ export const shopLotsCappuccino = [
         description05: "Замовте капучино &#171Swisso - Cappuccino Karamell&#187 вже зараз і перетворіть звичайні миті у часи насолоди, дозволяючи цьому чарівному напою вписатися у Ваш кожен день!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/swisso_white_1kg.jpg",
         alt: "swisso_white_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_white_1kg-01.jpg",
@@ -195,7 +195,7 @@ export const shopLotsCappuccino = [
         description05: "Відчуйте смак італійської розкоші, замовивши капучино &#171Swisso - Cappuccino White&#187 вже зараз!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/cappuccino/swisso_wiener_melange_1kg.jpg",
         alt: "swisso_wiener_melange_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_wiener_melange_1kg-01.jpg",

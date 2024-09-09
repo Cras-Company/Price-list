@@ -96,7 +96,7 @@ export const shopLotsBars = [
     //     description05: "Спробуйте &#171Ferrero - Nutella B-ready&#187 вже сьогодні і занурьтесь у світ найсолодших моментів вашого життя!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/sweets/bars/pottyos_turo_rudi_30.jpg",
         alt: "pottyos_turo_rudi_30",
         url1: "./images/shop/food/sweets/bars/pottyos_turo_rudi_30.jpg",
@@ -119,7 +119,7 @@ export const shopLotsBars = [
         description05: "Спробуйте &#171Pöttyös - Turo Rudi&#187 та дозвольте собі підкорити цей неперевершений смак!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/sweets/bars/pottyos_turo_rudi_180.jpg",
         alt: "pottyos_turo_rudi_180",
         url1: "./images/shop/food/sweets/bars/pottyos_turo_rudi_180.jpg",

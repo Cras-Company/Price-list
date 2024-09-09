@@ -1,6 +1,6 @@
 export const shopLotsTarhona = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/combino_tarhona_500.jpg",
         alt: "combino_tarhona_500",
         url1: "./images/shop/food/pasta/tarhona/combino_tarhona_500.jpg",
@@ -23,7 +23,7 @@ export const shopLotsTarhona = [
         description05: "Створіть на своїй кухні справжні кулінарні шедеври з &#171Combino - Tarhoňa&#187 та пориньте у світ угорської кухні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/csaszar_dorzstarhonya_250.jpg",
         alt: "csaszar_dorzstarhonya_250",
         url1: "./images/shop/food/pasta/tarhona/csaszar_dorzstarhonya_250.jpg",
@@ -46,7 +46,7 @@ export const shopLotsTarhona = [
         description05: "Варіть &#171Császár - Dörzstarhonya&#187 з улюбленими соусами та насолоджуйтеся якістю і смаковим багатством!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/hedan_plus_tarhona_370.jpg",
         alt: "hedan_plus_tarhona_370",
         url1: "./images/shop/food/pasta/tarhona/hedan_plus_tarhona_370.jpg",
@@ -69,7 +69,7 @@ export const shopLotsTarhona = [
         description05: "Додайте &#171Hedan Plus - Tarhoňa&#187 до вашого улюбленого рецепту та пориньте у світ смакових експлозій!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/izsaki_eros_pistas_csipetke_200.jpg",
         alt: "izsaki_eros_pistas_csipetke_200",
         url1: "./images/shop/food/pasta/tarhona/izsaki_eros_pistas_csipetke_200.jpg",
@@ -92,7 +92,7 @@ export const shopLotsTarhona = [
         description05: "Дозвольте собі смакову подорож з найкращою &#171Izsáki Házitészta KFT - Erős Pistás Csipetke&#187 та створіть неповторний шедевр просто на власній кухні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_mini_500.jpg",
         alt: "jarmi_szarazteszta_mini_500",
         url1: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_mini_500.jpg",
@@ -115,7 +115,7 @@ export const shopLotsTarhona = [
         description05: "Зберіть родину за стіл, приготуйте свої улюблені страви та насолоджуйтеся унікальним смаком угорської кухні просто у вашому домі разом з &#171Jármi - Száraztészta&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_max_500.jpg",
         alt: "jarmi_szarazteszta_max_500",
         url1: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_max_500.jpg",
@@ -138,7 +138,7 @@ export const shopLotsTarhona = [
         description05: "Зберіть родину за стілом, приготуйте свої улюблені страви та насолоджуйтеся унікальним смаком угорської кухні просто у вашому домі разом з &#171Jármi - Száraztészta&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_cut_500.jpg",
         alt: "jarmi_szarazteszta_cut_500",
         url1: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_cut_500.jpg",
@@ -161,7 +161,7 @@ export const shopLotsTarhona = [
         description05: "Покохайте справжню угорську кухню з &#171Jármi - Száraztészta&#187 та пориньте в атмосферу витонченості та враження!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/tarhona/jarmi_reszeltteszta_250.jpg",
         alt: "jarmi_reszeltteszta_250",
         url1: "./images/shop/food/pasta/tarhona/jarmi_reszeltteszta_250-01.jpg",
@@ -186,7 +186,7 @@ export const shopLotsTarhona = [
         description05: "Замовте &#171Jármi - Reszelttészta&#187 вже зараз і зануртеся в аутентичний смак угорської кухні!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/pasta/tarhona/tiradell_tarhona_500.jpg",
     //     alt: "tiradell_tarhona_500",
     //     url1: "./images/shop/food/pasta/tarhona/tiradell_tarhona_500.jpg",

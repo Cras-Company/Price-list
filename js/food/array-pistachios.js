@@ -1,6 +1,6 @@
 export const shopLotsPistachios = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
         alt: "alesto_pistazien_250",
         url1: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -23,7 +23,7 @@ export const shopLotsPistachios = [
         description05: "Замовте ці чудові фісташки &#171Alesto - Pistazien Geröstet & Gesalzen&#187 та відкрийте для себе справжню насолоду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
         alt: "alesto_pistazien_250",
         url1: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -46,7 +46,7 @@ export const shopLotsPistachios = [
         description05: "Замовте ці чудові фісташки &#171Alesto - Pistazien Geröstet & Gesalzen&#187 та відкрийте для себе справжню насолоду!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/snacks/pistachios/mogyi_pisztacia_60.jpg",
     //     alt: "mogyi_pisztacia_60",
     //     marker: "FDPH400",

@@ -69,7 +69,7 @@ export const shopLotsChocolate = [
     //     description05: "Зробіть смакову подорож зараз і замовте &#171Fin Carrе́ - Czekolada Gorka Z Całymi Orzechami&#187, щоб насолоджуватися чудовим поєднанням чорного шоколаду та цілих горіхів!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/sweets/chocolate/fin_care_milk_nuts_100.jpg",
         alt: "fin_care_milk_nuts_100",
         url1: "./images/shop/food/sweets/chocolate/fin_care_milk_nuts_100.jpg",

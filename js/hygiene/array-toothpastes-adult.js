@@ -1,6 +1,6 @@
 export const shopLotsToothpastesAdult = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_paradontit_100.jpg",
         alt: "beauty_smile_anti_paradontit_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_paradontit_100-01.jpg",
@@ -27,7 +27,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Придбайте &#171Beauty Smile - Anti-Paradontit&#187 сьогодні і забудьте про проблеми з яснами!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_caries_100.jpg",
         alt: "beauty_smile_anti_caries_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_caries_100-01.jpg",
@@ -54,7 +54,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Замовляйте &#171Beauty Smile - Anti-Paradontit&#187 вже сьогодні і забезпечте своїм зубам надійний захист від карієсу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_double_mint_100.jpg",
         alt: "beauty_smile_double_mint_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_double_mint_100-01.jpg",
@@ -81,7 +81,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Купуйте B&#171Beauty Smile - Double Mint&#187 сьогодні і подаруйте собі бездоганну усмішку на неперевершений подих!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_for_smokers_100.jpg",
         alt: "beauty_smile_for_smokers_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_for_smokers_100-01.jpg",
@@ -108,7 +108,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Придбайте &#171Beauty Smile - For Smokers&#187 сьогодні і подаруйте собі впевненість у білосніжній усмішці!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_natural_herbs_100.jpg",
         alt: "beauty_smile_natural_herbs_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_natural_herbs_100-01.jpg",
@@ -135,7 +135,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Замовляйте &#171Beauty Smile - Natural Herbs&#187 вже сьогодні і відчуйте природну турботу про Вашу усмішку!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_propolis_100.jpg",
         alt: "beauty_smile_propolis_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_propolis_100-01.jpg",
@@ -162,7 +162,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подаруйте собі здорову та сяючу посмішку та спробуйте зубну пасту &#171Beauty Smile - Propolis&#187 вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_whitening_100.jpg",
         alt: "beauty_smile_whitening_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_whitening_100-01.jpg",

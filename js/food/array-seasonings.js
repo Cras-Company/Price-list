@@ -23,7 +23,7 @@ export const shopLotsSeasonings = [
         description05: "Придбайте &#171;Caneo - Przyprawa Uniwersalna&#187; зараз і дайте своїм стравам неперевершений смак."
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/taste_modifier/seasonings/lucullus_mezes-csipos_48.jpg",
     //     alt: "lucullus_mezes-csipos_48",
     //     url1: "./images/shop/food/taste_modifier/seasonings/lucullus_mezes-csipos_48.jpg",

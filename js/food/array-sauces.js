@@ -270,7 +270,7 @@ export const shopLotsSauces = [
     //     description05: "Спробуйте &#171Barilla - Olive&#187 і додайте італійського смаку своїм стравам!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/taste_modifier/sauces/bio_natura_passierte_tomaten_690.jpg",
         alt: "bio_natura_passierte_tomaten_690",
         url1: "./images/shop/food/taste_modifier/sauces/bio_natura_passierte_tomaten_690.jpg",
@@ -406,7 +406,7 @@ export const shopLotsSauces = [
         description05: "Насолоджуйтеся природним смаком сонця з &#171M & K - Przecier Pomidorowy&#187 та пориньте у світ справжньої італійської кухні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/taste_modifier/sauces/reggia_passata_di_pomodoro_680.jpg",
         alt: "reggia_passata_di_pomodoro_680",
         url1: "./images/shop/food/taste_modifier/sauces/reggia_passata_di_pomodoro_680-01.jpg",

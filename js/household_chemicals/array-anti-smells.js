@@ -1,6 +1,6 @@
 export const shopLotsAntiSmells = [
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_kuhlschrank_frische_40.jpg",
         alt: "denkmit_kuhlschrank_frische_40",
         url1: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_kuhlschrank_frische_40-01.jpg",
@@ -19,7 +19,7 @@ export const shopLotsAntiSmells = [
         weightName: "Вага",
         weight: "40 гр.",
         priceGRN: 132,
-        priceGRNOpt: 114,
+        quantityOnStorage: 4,
         description01: "Завдяки екстракту морських водоростей, нейтралізатор запахів &#171Denkmit - Kühlschrank Frische&#187 ефективно бореться з усіма неприємними ароматами.",
         description02: "Цей продукт не тільки усуває запахи, але й створює приємну свіжість, забезпечуючи комфорт кожного разу, коли відкриваєте холодильник.",
         description03: "&#171Denkmit - Kühlschrank Frische&#187 дуже простий у використанні, але при цьому зберігає смакові якості всіх продуктів.",

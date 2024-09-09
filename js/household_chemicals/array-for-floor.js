@@ -58,7 +58,7 @@ export const shopLotsForFloor = [
         description05: "Довіртеся &#171Ace - Candeggina Classica&#187 для безкомпромісної чистоти вашого одягу та дому!"
     },
     {
-        type: "wretail",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_lavanda_1l.jpg",
         alt: "ace_pavimenti_lavanda_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_lavanda_1l-01.jpg",
@@ -83,7 +83,7 @@ export const shopLotsForFloor = [
         description05: "Придбайте засіб &#171Ace - Pavimenti Lavanda E Oli Essenziale Senza Candeggina&#187 вже сьогодні і насолоджуйтеся ідеально чистими підлогами та приємним ароматом у домі!"
     },
     {
-        type: "wretail",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_talco_1l.jpg",
         alt: "ace_pavimenti_talco_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_talco_1l-01.jpg",
@@ -133,7 +133,7 @@ export const shopLotsForFloor = [
         description05: "Оберіть &#171Ace - Pavimenti Stop-Germs Senza Candeggina&#187 і переконайтесь у його чудовій дії вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_eco_ricarica_24.jpg",
         alt: "ace_pavimenti_eco_ricarica_24",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_eco_ricarica_24-01.jpg",
@@ -252,7 +252,7 @@ export const shopLotsForFloor = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 75,
-        quantityOnStorage: 9,
+        quantityOnStorage: 1,
         description01: "&#171Clinair - Allesreiniger Lemon&#187 - це універсальний засіб для прибирання з освіжаючим ароматом лимона. Його потужна формула допомагає легко і ефективно видаляти жир, бруд та бактерії з усіх поверхонь у Вашому домі.",
         description02: "Завдяки своїй унікальній формулі, &#171Clinair - Allesreiniger Lemon&#187 гарантує бездоганну чистоту та залишає за собою приємний аромат свіжості.",
         description03: "Він ідеально підходить для кухні, ванної кімнати, підлоги та інших поверхонь.",
@@ -510,7 +510,7 @@ export const shopLotsForFloor = [
         description05: "Зробіть прибирання приємною насолодою разом з &#171K-Classic - Allesreiniger Tropical Flower&#187, який подарує Вашому дому чистоту і аромат тропічного райського саду."
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l.jpg",
         alt: "neo_blanc_lixivia densa_1l",
         url1: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l-01.jpg",
@@ -527,7 +527,7 @@ export const shopLotsForFloor = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 103,
-        priceGRNOpt: 92,
+        quantityOnStorage: 6,
         description01: "Забезпечте бездоганну чистоту своїх білих речей та поверхонь з універсальним відбілювачем &#171Neo Blanc - Lixivia Densa +&#187! Цей продукт перетворить Dаш дім на оазис свіжості та чистоти.",
         description02: "Це потужний відбілювач, який ефективно видаляє плями та відбілює речі та поверхні. Він ідеально підходить для ванни, кухні, підлоги та інших приміщень у вашому домі.",
         description03: "Мрієте про білосніжні речі і бездоганно чисті поверхні? З  &#171Neo Blanc - Lixivia Densa +&#187 це стає реальністю. Ваші речі будуть виглядати як нові, а Ваш дім наповниться свіжістю та чистотою.",

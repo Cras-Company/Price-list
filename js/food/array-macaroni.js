@@ -248,7 +248,7 @@ export const shopLotsMacaroni = [
         description05: "Придбайте &#171Barilla - Tortiglioni №83&#187 вже сьогодні та розкрийте істинний смак Італії на вашіх кухні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/macaroni/combino_farfalle_500.jpg",
         alt: "combino_farfalle_500",
         url1: "./images/shop/food/pasta/macaroni/combino_farfalle_500-01.jpg",
@@ -358,7 +358,7 @@ export const shopLotsMacaroni = [
         description05: "Скуштуйте макарони &#171Combino - Penne Rigate&#187 та насолоджуйтеся смачним обідом разом з вашою родиною!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/macaroni/combino_pipe_rigate_500.jpg",
         alt: "combino_pipe_rigate_500",
         url1: "./images/shop/food/pasta/macaroni/combino_pipe_rigate_500-01.jpg",
@@ -414,7 +414,7 @@ export const shopLotsMacaroni = [
         description05: "Зробіть свій вибір на користь макаронів &#171Combino - Snabbmaccaroni&#187 вже сьогодні! Переконайтеся в їхній смаковій якості та швидкості приготування, зробіть ваші обіди та вечері неперевершеними!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/macaroni/gustobello_farfalle_6_sapori_250.jpg",
         alt: "gustobello_farfalle_6_sapori_250",
         url1: "./images/shop/food/pasta/macaroni/gustobello_farfalle_6_sapori_250-01.jpg",
@@ -439,7 +439,7 @@ export const shopLotsMacaroni = [
         description05: "Замовте &#171GustoBello - Farfalle 6 Sapori&#187 зараз та дозвольте смаку вашого столу стати по-справжньому неповторним!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/macaroni/gustobello_fischietti_6_sapori_250.jpg",
         alt: "gustobello_fischietti_6_sapori_250",
         url1: "./images/shop/food/pasta/macaroni/gustobello_fischietti_6_sapori_250-01.jpg",
@@ -518,7 +518,7 @@ export const shopLotsMacaroni = [
         description05: "Насолоджуйтеся смаком Італії прямо у своєму домі з &#171Italiamo - Trottole Tricolore&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/macaroni/jarmi_rise_500.jpg",
         alt: "jarmi_rise_500",
         url1: "./images/shop/food/pasta/macaroni/jarmi_rise_500-01.jpg",
@@ -712,7 +712,7 @@ export const shopLotsMacaroni = [
         description05: "Насолоджуйтеся безмежністю італійської кухні та створюйте шедеври просто у вашій кухні разом з &#171Pasta Reggia - Tofe №62&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/macaroni/san_fabio_farfalle_500.jpg",
         alt: "san_fabio_farfalle_500",
         url1: "./images/shop/food/pasta/macaroni/san_fabio_farfalle_500-01.jpg",

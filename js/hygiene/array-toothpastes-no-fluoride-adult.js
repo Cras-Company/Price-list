@@ -1,6 +1,6 @@
 export const shopLotsToothpastesNoFluoride = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_90.jpg",
         alt: "dabur_babool_90",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_90-01.jpg",
@@ -27,7 +27,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Замовляйте &#171Dabur - Babool&#187 зараз і насолоджуйтеся здоровою усмішкою щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_100.jpg",
         alt: "dabur_herbl_basil_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_100-01.jpg",
@@ -54,7 +54,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Купуйте &#171Dabur Herb'l - Natural Toothpaste For Oral Protection Basil&#187 з базиліком вже сьогодні і відчуйте справжню турботу про свої зуби!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_100.jpg",
         alt: "dabur_herbl_clove_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_100-01.jpg",
@@ -81,7 +81,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Оберіть &#171Dabur Herb'l - Natural Toothpaste For Cavity Protection Clove&#187 з гвоздикою сьогодні і подбайте про здоров'я своїх зубів природним шляхом!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_100.jpg",
         alt: "dabur_herbl_neem_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_100-01.jpg",
@@ -108,7 +108,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Замовляйте &#171Dabur Herb'l - Natural Toothpaste For Gum Care Neem&#187 з ніімом зараз і насолоджуйтесь здоров'ям Ваших ясен кожен день!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_100.jpg",
         alt: "dabur_herbl_mint_lemon_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_100-01.jpg",
@@ -135,7 +135,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Придбайте &#171Dabur Herb'l - Green Gel Toothpaste Intense Fresh Breath Mint & Lemon&#187 з м'ятою та лимоном зараз і насолоджуйтеся свіжим подихом кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_100.jpg",
         alt: "dabur_herbl_salt_lemon_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_100-01.jpg",
@@ -162,7 +162,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Не вайгайтеся та замовте &#171Dabur Herb'l - Natural Toothpaste For Whitening Salt & Lemon&#187 з сіллю та лимоном зараз і насолоджуйтесь білосніжною усмішкою щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_150.jpg",
         alt: "dabur_herbl_basil_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_150-01.jpg",
@@ -189,7 +189,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Купуйте &#171Dabur Herb'l - Natural Toothpaste For Oral Protection Basil&#187 з базиліком вже сьогодні і відчуйте справжню турботу про свої зуби!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_150.jpg",
         alt: "dabur_herbl_clove_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_150-01.jpg",
@@ -216,7 +216,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Оберіть &#171Dabur Herb'l - Natural Toothpaste For Cavity Protection Clove&#187 з гвоздикою сьогодні і подбайте про здоров'я своїх зубів природним шляхом!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_150.jpg",
         alt: "dabur_herbl_neem_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_150-01.jpg",
@@ -243,7 +243,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Замовляйте &#171Dabur Herb'l - Natural Toothpaste For Gum Care Neem&#187 з ніімом зараз і насолоджуйтесь здоров'ям Ваших ясен кожен день!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_150.jpg",
         alt: "dabur_herbl_mint_lemon_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_150-01.jpg",
@@ -270,7 +270,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Придбайте &#171Dabur Herb'l - Green Gel Toothpaste Intense Fresh Breath Mint & Lemon&#187 з м'ятою та лимоном зараз і насолоджуйтеся свіжим подихом кожного дня!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_150.jpg",
     //     alt: "dabur_herbl_salt_lemon_150",
     //     url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_150-01.jpg",

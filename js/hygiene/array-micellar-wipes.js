@@ -1,6 +1,6 @@
 export const shopLotsMicellarWipes = [
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/micellar_wipes/cynosure_micellar_wipes_25.jpg",
     alt: "cynosure_micellar_wipes_25",
     url1: "./images/shop/gigiena/micellar_wipes/cynosure_micellar_wipes_25-01.jpg",

@@ -200,7 +200,7 @@ export const shopLotsWashingGels = [
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_black_sensation_40.jpg",
         alt: "denkmit_black_sensation_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_black_sensation_40-01.jpg",
@@ -217,7 +217,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 192,
-        priceGRNOpt: 164,
+        quantityOnStorage: 6,
         description01: "Гель &#171Denkmit - Feinwaschmittel Black Sensation&#187 забезпечує Вашим темним та чорним речам глибоку чистоту та яскравість кольору.",
         description02: "Його делікатна формула ефективно видаляє забруднення, зберігаючи інтенсивність кольору і захищаючи тканини від вицвітання.",
         description03: "Використовуючи &#171Denkmit - Feinwaschmittel Black Sensation&#187, Ви продовжите життя своїм улюбленим чорним речам, зберігаючи їх насиченість та елегантний вигляд.",
@@ -225,7 +225,7 @@ export const shopLotsWashingGels = [
         description05: "Додайте &#171Denkmit - Feinwaschmittel Black Sensation&#187 до свого догляду за одягом і відчуйте різницю вже після першого прання!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_white_sensation_40.jpg",
         alt: "denkmit_white_sensation_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_white_sensation_40-01.jpg",
@@ -242,7 +242,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 192,
-        priceGRNOpt: 164,
+        quantityOnStorage: 6,
         description01: "Гель &#171Denkmit - Feinwaschmittel White Sensation&#187 надає Вашим білим речам бездоганну чистоту без використання відбілювача.",
         description02: "Його м'яка формула ретельно видаляє забруднення, зберігаючи ніжність тканин та їх первісну білизну.",
         description03: "Завдяки &#171Denkmit - Feinwaschmittel White Sensation&#187, Ваші улюблені речі залишатимуться свіжими і сяючими, навіть після численних прань.",
@@ -250,7 +250,7 @@ export const shopLotsWashingGels = [
         description05: "Додайте &#171Denkmit - Feinwaschmittel White Sensation&#187 до своєї колекції засобів для прання та збережіть ідеальну білизну своїх речей!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_color_32.jpg",
         alt: "felce_azzurra_color_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_color_32-01.jpg",
@@ -275,7 +275,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте зараз гель для кольорових речей &#171Felce Azzurra - Active Color&#187 та насолоджуйтесь яскравістю та свіжістю вашого одягу протягом тривалого часу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_aleppo_soap_32.jpg",
         alt: "felce_azzurra_aleppo_soap_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_aleppo_soap_32-01.jpg",
@@ -300,7 +300,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте прямо зараз гель &#171Felce Azzurra - Aleppo Soap&#187 та насолоджуйтесь чистотою та захистом, який він надає вашому одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_original_32.jpg",
         alt: "felce_azzurra_original_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_original_32-01.jpg",
@@ -350,7 +350,7 @@ export const shopLotsWashingGels = [
         description05: "Почніть дбати про бездоганність свого білого одягу вже зараз - замовте гель  &#171Formil - Marsiglia&#187 та насолоджуйтеся ідеально чистою білизною кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_black_gel_2l.jpg",
         alt: "gallus_black_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_black_gel_2l-01.jpg",
@@ -375,7 +375,7 @@ export const shopLotsWashingGels = [
         description05: "Відкрийте для себе ідеальний гель для догляду за вашим улюбленим темним та чорним одягом з &#171Gallus - Feinwaschmittel Black Gel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_color_gel_2l.jpg",
         alt: "gallus_color_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_color_gel_2l-01.jpg",
@@ -400,7 +400,7 @@ export const shopLotsWashingGels = [
         description05: "Перетворіть своє прання на миттєвий калейдоскоп яскравих кольорів з &#171Gallus - Colorwaschmittel Color Gel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sensitive_gel_2l.jpg",
         alt: "gallus_sensitive_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sensitive_gel_2l-01.jpg",
@@ -425,7 +425,7 @@ export const shopLotsWashingGels = [
         description05: "Насолоджуйтесь ніжністю та збереженням краси вашого одягу з &#171Gallus - Feinwaschmittel Sensitive Gel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sport_gel_2l.jpg",
         alt: "gallus_sport_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sport_gel_2l-01.jpg",
@@ -450,7 +450,7 @@ export const shopLotsWashingGels = [
         description05: "Збережіть свіжість і бездоганний вигляд свого спортивного одягу з &#171Gallus - Vollwaschmittel Sport Gel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_universal_gel_2l.jpg",
         alt: "gallus_universal_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_universal_gel_2l-01.jpg",
@@ -475,7 +475,7 @@ export const shopLotsWashingGels = [
         description05: "З &#171Gallus - Vollwaschmittel Universal Gel&#187 ваше прання стане бездоганним та комфортним!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_white_gel_2l.jpg",
         alt: "gallus_white_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_white_gel_2l-01.jpg",
@@ -500,7 +500,7 @@ export const shopLotsWashingGels = [
         description05: "Повірте, ваші речі будуть сяяти чистотою після кожного прання! Зробіть вашу білизну бездоганною з &#171Gallus - Weisswaschmittel White Gel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_1.98l.jpg",
         alt: "gallus_colorwaschmittel_1.98l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_1.98l-01.jpg",
@@ -525,7 +525,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_1.98l.jpg",
         alt: "gallus_vollwaschmittel_1.98l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_1.98l-01.jpg",
@@ -550,7 +550,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть перший крок до найкращої якості разом з &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 та забудьте про компроміси у догляді за вашими улюбленими речами!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_4l.jpg",
         alt: "gallus_colorwaschmittel_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_4l-01.jpg",
@@ -575,7 +575,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_4l.jpg",
         alt: "gallus_vollwaschmittel_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_4l-01.jpg",
@@ -600,7 +600,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть перший крок до найкращої якості разом з &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 та забудьте про компроміси у догляді за вашими улюбленими речами!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_color_40.jpg",
         alt: "la_salud_color_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_color_40-01.jpg",
@@ -625,7 +625,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте &#171La Salud - Detergente Color&#187 вже сьогодні та відчуйте різницю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_marsella_40.jpg",
         alt: "la_salud_marsella_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_marsella_40-01.jpg",
@@ -650,7 +650,7 @@ export const shopLotsWashingGels = [
         description05: "Почніть свій шлях до бездоганної чистоти просто зараз - виберіть гель для прання &#171La Salud - Detergente Marsella&#187 і дозвольте Вашому одягу залишатися свіжим та чистим завжди!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_original_40.jpg",
         alt: "la_salud_original_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_original_40-01.jpg",
@@ -675,7 +675,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте &#171La Salud - Detergente Original&#187 зараз і відкрийте для себе новий рівень догляду за одягом!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_ropa_negra_40.jpg",
         alt: "la_salud_ropa_negra_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_ropa_negra_40-01.jpg",
@@ -717,7 +717,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "3 л.",
         priceGRN: 532,
-        quantityOnStorage: 18,
+        quantityOnStorage: 15,
         description01: "Втілюємо елегантність та розкіш у пранні з &#171Lenor - Color Detergent Gold Orchid&#187. Цей неперевершений засіб для кольорового прання з витонченим ароматом золотої орхідеї перенесе вас у світ чуттєвості та краси.",
         description02: "Запатентована формула засобу не лише зберігає яскравість кольорів вашого одягу, але й дарує йому приголомшливий аромат. Кожна крапля проникає у тканини, даруючи їм неймовірну м'якість і запах свіжості.",
         description03: "&#171Lenor - Color Detergent Gold Orchid&#187 поєднує у собі 4 функції: ультра-силу очищення, довготривалу свіжіть одягу, видалення неприємного запаху та захист кольору білизни.",
@@ -750,7 +750,7 @@ export const shopLotsWashingGels = [
     //     description05: "Замовляйте &#171Onyx - Colorwaschmittel Konzentriertes&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі."
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_voll_4l.jpg",
     //     alt: "onyx_voll_4l",
     //     marker: "LDWG604",
@@ -759,7 +759,7 @@ export const shopLotsWashingGels = [
     //     nameUKR: "Гель універсальний, концентрат",
     //     nameEN: "Vollwaschmittel Konzentriertes",
     //     companyName: "Henkel",
-    //     countryName: "Німеччина",
+    //     countryNaоптом me: "Німеччина",
     //     volumeName: "Об'єм",
     //     volume: "4 л.",
     //     priceGRN: 183,
@@ -771,7 +771,7 @@ export const shopLotsWashingGels = [
     //     description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Vollwaschmittel Konzentriertes&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l.jpg",
         alt: "onyx_color_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l-01.jpg",
@@ -796,7 +796,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте прямо зараз гель для кольорових речей &#171Onyx - Color&#187 та насолоджуйтеся яскравістю та свіжістю вашого одягу ще довгий час!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_universal_4l.jpg",
         alt: "onyx_universal_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_universal_4l-01.jpg",
@@ -821,7 +821,7 @@ export const shopLotsWashingGels = [
         description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Universal&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_color_4l.jpg",
         alt: "power_wash_color_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_color_4l-01.jpg",
@@ -846,7 +846,7 @@ export const shopLotsWashingGels = [
         description05: "Збережіть свої улюблені кольори та замовте &#171Power Wash - Gel Colorwaschmittel Color&#187 сьогодні та насолоджуйтесь відновленою яскравістю вашого одягу."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_universal_4l.jpg",
         alt: "power_wash_universal_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_universal_4l-01.jpg",

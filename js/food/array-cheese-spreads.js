@@ -1,6 +1,6 @@
 export const shopLotsCheeseSpreads = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
         alt: "milbona_cream_cheese_classic_300",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
@@ -23,7 +23,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Milbona - Сream Сheese Сlassic&#187 і додайте вишуканість та смак сиру до своїх улюблених страв!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_meksykanski_smak_135.jpg",
         alt: "mlekpol_meksykanski_smak_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_meksykanski_smak_135.jpg",
@@ -46,7 +46,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте гострий сирний крем &#171Mlekpol - Łaciaty Meksykański Smak&#187 вже сьогодні і додайте трохи пікантності до свого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_naruralny_135.jpg",
         alt: "mlekpol_naruralny_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_naruralny_135.jpg",
@@ -69,7 +69,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Mlekpol - Łaciaty Naturalny&#187 і додайте ніжність та смак сиру до своїх улюблених страв!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_cebula_i_szczypiorkiem_135.jpg",
         alt: "mlekpol_z_cebula_i_szczypiorkiem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_cebula_i_szczypiorkiem_135.jpg",
@@ -92,7 +92,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Mlekpol - Łaciaty Z Cebulą I Szczypiorkiem&#187 і додайте неперевершений смак до своїх улюблених страв!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_chrzanem_135.jpg",
         alt: "mlekpol_z_chrzanem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_chrzanem_135.jpg",
@@ -115,7 +115,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Mlekpol - Łaciaty Z Chrzanem&#187 і додайте неперевершений смак гострого хріну до своїх улюблених страв."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_czosnkiem_135.jpg",
         alt: "mlekpol_z_czosnkiem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_czosnkiem_135.jpg",
@@ -138,7 +138,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Не відкладайте спробувати &#171Mlekpol - Łaciaty Z Czosnkiem&#187 і Ви захочете повернутися до нього знову й знову!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_kurkami_135.jpg",
         alt: "mlekpol_z_kurkami_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_kurkami_135.jpg",
@@ -161,7 +161,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Не пропустіть можливість спробувати справжній шедевр - сирний крем з лисисками &#171Mlekpol - Łaciaty Z Kurkami&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_suszonymi_pomidorami_135.jpg",
         alt: "mlekpol_z_suszonymi_pomidorami_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_suszonymi_pomidorami_135.jpg",
@@ -207,7 +207,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Не вагайтесь, спробуйте сирний крем &#171Mlekpol - Norweski Smak&#187 і додайте нотку розкіші до своїх страв. Насолоджуйтеся справжнім смаком Норвегії прямо на вашому столі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_serek_1kg.jpg",
         alt: "mlekpol_serek_1kg",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_serek_1kg-01.jpg",

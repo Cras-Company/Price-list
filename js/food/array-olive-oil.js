@@ -1,6 +1,6 @@
 export const shopLotsOliveOil = [
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/olive_oil/greece_olive_oil_1000.jpg",
     //     alt: "greece_olive_oil_1000",
     //     url1: "./images/shop/food/olives_oil/olive_oil/greece_olive_oil_1000.jpg",
@@ -23,7 +23,7 @@ export const shopLotsOliveOil = [
     //     description05: "Оберіть якість та смак, на які Ви заслуговуєте та замовляйте &#171Gretan Olive - Extra Virgin Cold Extracted Olive Oil&#187!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_250.jpg",
     //     alt: "maestro_garsia_olive_oil_250",
     //     url1: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_250.jpg",
@@ -46,7 +46,7 @@ export const shopLotsOliveOil = [
     //     description05: "Замовте &#171Maestro Garsia - Olive Oil Extra Virgine&#187 вже сьогодні та допоможіть своїм стравам стати справжніми шедеврами смаку!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_500.jpg",
     //     alt: "maestro_garsia_olive_oil_500",
     //     url1: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_500.jpg",
@@ -69,7 +69,7 @@ export const shopLotsOliveOil = [
     //     description05: "Замовте &#171Maestro Garsia - Olive Oil Extra Virgine&#187 вже сьогодні та допоможіть своїм стравам стати справжніми шедеврами смаку!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/olive_oil/monini_classico_olio_extra_1l.jpg",
     //     alt: "monini_classico_olio_extra_1l",
     //     url1: "./images/shop/food/olives_oil/olive_oil/monini_classico_olio_extra_1l.jpg",
@@ -161,7 +161,7 @@ export const shopLotsOliveOil = [
         description05: "Не гайте часу та додайте &#171Vesuvio - Oil Extra Virgin Product&#187 до свого кошика прямо зараз та насолоджуйтеся найкращими смаками вдома, пригощайте родину та друзів чудовими стравами."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_1l.jpg",
         alt: "vesuvio_oil_omega_1l",
         url1: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_1l.jpg",
@@ -184,7 +184,7 @@ export const shopLotsOliveOil = [
         description05: "Придбайте оливкову олію &#171Vesuvio - Oil Extra Virgin Omega-3&#187 вже сьогодні та подаруйте собі та вашій родині радість смаку та користь для організму."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_5l.jpg",
         alt: "vesuvio_oil_omega_5l",
         url1: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_5l.jpg",

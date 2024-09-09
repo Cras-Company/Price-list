@@ -125,7 +125,7 @@ export const shopLotsForFurniture = [
         description05: "Додайте нотку весняної свіжості у свій дім з &#171Brait - Aqua Spray Magic Mist White Flowers&#187 і насолоджуйтесь кожним вдихом!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflegespray_400.jpg",
         alt: "denkmit_mobel_pflegespray_400",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflegespray_400-01.jpg",
@@ -150,7 +150,7 @@ export const shopLotsForFurniture = [
         description05: "Замовте спрей  &#171Denkmit - Möbel-Pflegespray&#187 для ідеальної чистоти Вашого дому вже сьогодні!"
     },
         {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_polster_flecken_burste_400.jpg",
         alt: "dr.beckmann_polster_flecken_burste_400",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_polster_flecken_burste_400-01.jpg",
@@ -167,7 +167,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 203,
-        priceGRNOpt: 182,
+        quantityOnStorage: 3,
         description01: "Засіб &#171Dr. Beckmann - Polster Flecken-Bürste&#187 з активним киснем легко видаляє плями з оббивки меблів, матраців та автосидінь, повертаючи їм бездоганний вигляд.",
         description02: "Свіжі та чисті меблі – це те, що додає Вашому інтер’єру елегантності та комфорту.",
         description03: "Вбудована щітка у &#171Dr. Beckmann - Polster Flecken-Bürste&#187 забезпечує ретельне очищення, проникаючи глибоко у тканину, щоб усунути навіть найскладніші забруднення.",
@@ -175,7 +175,7 @@ export const shopLotsForFurniture = [
         description05: "Подаруйте своїм меблям нове життя з &#171Dr. Beckmann - Polster Flecken-Bürste&#187 – довіртеся силі активного кисню!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_teppich_flecken_burste_650.jpg",
         alt: "dr.beckmann_teppich_flecken_burste_650",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_teppich_flecken_burste_650-01.jpg",
@@ -192,7 +192,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "650 мл.",
         priceGRN: 223,
-        priceGRNOpt: 198,
+        quantityOnStorage: 3,
         description01: "Чисті килими – це основа затишного дому, і засіб для чищення &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 допоможе Вам цього досягти.",
         description02: "Вбудована щітка дозволяє ретельно обробити кожне волокно, забезпечуючи глибоке очищення без зайвих зусиль.",
         description03: "Активний кисень у складі &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 ефективно видаляє навіть найскладніші плями, залишаючи килим свіжим і яскравим.",
@@ -200,7 +200,7 @@ export const shopLotsForFurniture = [
         description05: "Спробуйте &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 і перетворіть свої килими на ідеально чисті та доглянуті!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750.jpg",
         alt: "gallus_mobel_pflege_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750-01.jpg",

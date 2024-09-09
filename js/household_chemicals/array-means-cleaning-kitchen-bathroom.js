@@ -1,6 +1,6 @@
 export const shopLotsMeansCleaningKitchenBathroom = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_bagno_briliante_500.jpg",
         alt: "ace_bagno_briliante_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_bagno_briliante_500-01.jpg",
@@ -17,7 +17,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 55,
-        priceGRNOpt: 42,
+        priceGRNOpt: 49,
         description01: "Зустрічайте засіб для чищення ванної кімнати &#171Ace - Bagno Brilliante Senza Candeggina&#187, який гарантує блискучу чистоту без використання відбілювача.",
         description02: "Цей ефективний засіб забезпечує глибоке очищення та видалення забруднень, залишаючи ванну кімнату сяючою і свіжою без шкідливих хімікатів.",
         description03: "Забудьте про бруд та наліт, насолоджуйтеся бездоганною чистотою та приємним ароматом у Dашій ванній кімнаті завдяки &#171Ace - Bagno Brilliante Senza Candeggina&#187.",
@@ -25,7 +25,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте засіб для чищення ванної кімнати  &#171Ace - Bagno Brilliante Senza Candeggina&#187 вже сьогодні та забезпечте своїй ванній кімнаті ідеальну чистоту без відбілювача!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_bagno_candeggina_750.jpg",
     //     alt: "ace_bagno_candeggina_750",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_bagno_candeggina_750-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Замовте &#171Ace - Bagno Con Candeggina&#187 прямо зараз, щоб насолоджуватися чистотою та свіжістю у Вашій ванні кімнаті кожен день!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_cucina_800.jpg",
         alt: "ace_sgrassatore_cucina_800",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_cucina_800-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Відкрийте новий рівень чистоти у Вашому домі та дізнайтеся, як легко та ефективно здійснити догляд за Вашою кухнею разом з &#171Ace - Sgrassatore Cucuna Limone E Bergamotto Senza Candeggina&#187."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_igienizzante_500.jpg",
         alt: "ace_sgrassatore_igienizzante_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_igienizzante_500-01.jpg",
@@ -92,7 +92,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 55,
-        priceGRNOpt: 42,
+        priceGRNOpt: 49,
         description01: "Зустрічайте знежирювач для поверхонь, що контактують з їжею, &#171Ace - Sgrassatore Igienizzante Senza Candeggina&#187 з ароматом цитрусу, який ефективно очищає без використання відбілювача.",
         description02: "Цей засіб забезпечує глибоке очищення від жиру та забруднень, залишаючи приємний цитрусовий аромат, при цьому будучи безпечним для поверхонь, що контактують з їжею.",
         description03: "Насолоджуйтесь бездоганною чистотою кухні з &#171Ace - Sgrassatore Igienizzante Senza Candeggina&#187, знаючи, що Ваші робочі поверхні не тільки бездоганно чисті, але й безпечні для приготування їжі.",
@@ -100,7 +100,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте знежирювач &#171Ace - Sgrassatore Igienizzante Senza Candeggina&#187 з ароматом цитрусу вже сьогодні та забезпечте своїй кухні ідеальну чистоту і свіжість без відбілювача!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_universale_500.jpg",
         alt: "ace_sgrassatore_universale_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_universale_500-01.jpg",
@@ -117,7 +117,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 55,
-        priceGRNOpt: 42,
+        priceGRNOpt: 49,
         description01: "Відкрийте для себе знежирювач універсальний з ароматом свіжості &#171Ace - Sgrassatore Universale Senza Candeggina&#187, який легко видаляє жир та забруднення без використання відбілювача.",
         description02: "Цей потужний засіб підходить для будь-яких поверхонь, забезпечуючи ефективне очищення та залишаючи приємний свіжий аромат, не пошкоджуючи матеріали.",
         description03: "Забудьте про стійкі забруднення і насолоджуйтесь бездоганною чистотою у всьому домі завдяки універсальній формулі &#171Ace - Sgrassatore Universale Senza Candeggina&#187.",
@@ -125,7 +125,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте знежирювач &#171Ace - Sgrassatore Universale Senza Candeggina&#187 вже сьогодні та забезпечте свій дім ідеальною чистотою і свіжістю без відбілювача!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_cucina_750.jpg",
         alt: "ace_sgrassatore_cucina_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/ace_sgrassatore_cucina_750-01.jpg",
@@ -332,33 +332,33 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description04: "<strong>Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості.</strong>",
         description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
     },
+    // {
+    //     type: "retail",
+    //     url: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600.jpg",
+    //     alt: "ace_candeggina_piu_fresco_profumo_1600",
+    //     url1: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600-01.jpg",
+    //     alt1: "ace_candeggina_piu_fresco_profumo_1600-01",
+    //     url2: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_fresco_profumo_1600-02.jpg",
+    //     alt2: "ace_candeggina_piu_fresco_profumo_1600-02",
+    //     marker: "SALE010",
+    //     brand: "Ace",
+    //     search: "ейс аце эйс плюс засоби видалення пляма пятновыводитель пятновыдодители кольорові речі цветные вещи для цветных вещей делікатні речі с активным кислородом активный кислород дезинфекция дезинфекція дезінфектор дезінфекція відбілювачі отбеливатель отбеливатели piu засоби проти жиру обезжириватель средство средства против жира аромат свежести",
+    //     nameUKR: "Плямовивідник для білих речей, дезінфектор, від плісняви з відбілювачем, знежирювач з ароматом свіжості",
+    //     nameEN: "Candeggina Più Fresco Profumo + Mousse",
+    //     companyName: "Fater S.P.A.",
+    //     countryName: "Італія",
+    //     volumeName: "Об'єм",
+    //     volume: "1600 мл.",
+    //     priceGRN: 169,
+    //     quantityOnStorage: 2,
+    //     description01: "&#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 - Ваш незамінний помічник у догляді за будинком! Цей революційний засіб - справжній чарівник у Вашій руці. Він є плямовивідником для білих речей, дезинфектором та знежирювачем, одночасно надаючи універсальний захист від плям, бруду та плісняви.",
+    //     description02: "Чистота та свіжість поєднуються з неймовірним ароматом, який залишається на поверхнях та у тканинах. Відпочиньте від домашніх завдань та довіртеся магії &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187.",
+    //     description03: "Замовте вже сьогодні і відкрийте безмежні можливості для бездоганності Вашого дому.",
+    //     description04: "<strong>Комплект! Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості.</strong>",
+    //     description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
+    // },
     {
-        type: "retail",
-        url: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600.jpg",
-        alt: "ace_candeggina_piu_fresco_profumo_1600",
-        url1: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600-01.jpg",
-        alt1: "ace_candeggina_piu_fresco_profumo_1600-01",
-        url2: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_fresco_profumo_1600-02.jpg",
-        alt2: "ace_candeggina_piu_fresco_profumo_1600-02",
-        marker: "SALE010",
-        brand: "Ace",
-        search: "ейс аце эйс плюс засоби видалення пляма пятновыводитель пятновыдодители кольорові речі цветные вещи для цветных вещей делікатні речі с активным кислородом активный кислород дезинфекция дезинфекція дезінфектор дезінфекція відбілювачі отбеливатель отбеливатели piu засоби проти жиру обезжириватель средство средства против жира аромат свежести",
-        nameUKR: "Плямовивідник для білих речей, дезінфектор, від плісняви з відбілювачем, знежирювач з ароматом свіжості",
-        nameEN: "Candeggina Più Fresco Profumo + Mousse",
-        companyName: "Fater S.P.A.",
-        countryName: "Італія",
-        volumeName: "Об'єм",
-        volume: "1600 мл.",
-        priceGRN: 169,
-        quantityOnStorage: 2,
-        description01: "&#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 - Ваш незамінний помічник у догляді за будинком! Цей революційний засіб - справжній чарівник у Вашій руці. Він є плямовивідником для білих речей, дезинфектором та знежирювачем, одночасно надаючи універсальний захист від плям, бруду та плісняви.",
-        description02: "Чистота та свіжість поєднуються з неймовірним ароматом, який залишається на поверхнях та у тканинах. Відпочиньте від домашніх завдань та довіртеся магії &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187.",
-        description03: "Замовте вже сьогодні і відкрийте безмежні можливості для бездоганності Вашого дому.",
-        description04: "<strong>Комплект! Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості.</strong>",
-        description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
-    },
-    {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/ace_ultra_gel_lavanda_1l.jpg",
         alt: "ace_ultra_gel_lavanda_1l",
         url1: "./images/shop/household_chemicals/universal_tools/ace_ultra_gel_lavanda_1l-01.jpg",
@@ -435,7 +435,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Зробіть свій будинок чистим і охайним разом з &#171at home Clean - All Purpose Lime & Eucalyptus&#187, який створить атмосферу затишку та чистоти в кожному куточку вашого дому."
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_con_candeggina_450.jpg",
     //     alt: "chanteclair_sgrassatore_con_candeggina_450",
     //     url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_con_candeggina_450-01.jpg",
@@ -485,7 +485,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Покращте своє життя зараз - замовте &#171Chanteclair - Sgrassatore Con Candeggina&#187 та відчуйте ефективність самі. Нехай ваш дім завжди виглядає як новий!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_con_bicarbonato_ricarica_600.jpg",
         alt: "chanteclair_sgrassatore_universale_con_bicarbonato_ricarica_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_con_bicarbonato_ricarica_600-01.jpg",
@@ -510,7 +510,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть свій дім сяючо чистим разом &#171Chanteclair - Sgrassatore Universale Con Bicarbonato&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_600.jpg",
         alt: "chanteclair_sgrassatore_universale_disinfettante_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_600-01.jpg",
@@ -560,7 +560,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Оптимізуйте свою рутину догляду за кольоровим одягом та домівкою зараз - обирайте &#171Chanteclair - Sgrassatore Universale Disinfettante Floral&#187 і насолоджуйтеся бездоганністю кожного дня з приємним ароматом квітів!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_600.jpg",
         alt: "chanteclair_sgrassatore_universale_lavanda_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_600-01.jpg",
@@ -585,7 +585,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Lavanda&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_ricarica_600.jpg",
     //     alt: "chanteclair_sgrassatore_universale_lavanda_ricarica_600",
     //     url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_ricarica_600-01.jpg",
@@ -610,7 +610,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Lavanda&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_600.jpg",
         alt: "chanteclair_sgrassatore_universale_limone_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_600-01.jpg",
@@ -635,7 +635,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Limone&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_ricarica_600.jpg",
         alt: "chanteclair_sgrassatore_universale_limone_ricarica_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_ricarica_600-01.jpg",
@@ -660,7 +660,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Limone&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
         {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_600.jpg",
         alt: "chanteclair_sgrassatore_universale_marsiglia_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_600-01.jpg",
@@ -685,7 +685,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_ricarica_600.jpg",
         alt: "chanteclair_sgrassatore_universale_marsiglia_ricarica_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_ricarica_600-01.jpg",
@@ -710,7 +710,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_aceto_lamponi_625.jpg",
         alt: "chanteclair_vert_aceto_lamponi_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_aceto_lamponi_625-01.jpg",
@@ -735,7 +735,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть свій вибір у кілька кліків - замовте &#171Chanteclair - Vert Ecodetergente Multiuso Acoto Con Aceto Di Lamponi&#187 та насолоджуйтеся чистотою, яка дбає про Вас та навколишнє середовище!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_625.jpg",
         alt: "chanteclair_vert_sgrassatore_universale_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_625-01.jpg",
@@ -760,7 +760,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть свій вибір на користь якості та екології - замовте &#171Chanteclair - Vert Ecodetergente Sgrassatore Universale&#187 вже сьогодні та насолоджуйтеся бездоганною чистотою у своєму домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_arancia_zenzero_625.jpg",
         alt: "chanteclair_vert_sgrassatore_universale_arancia_zenzero_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_arancia_zenzero_625-01.jpg",
@@ -877,7 +877,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 75,
-        quantityOnStorage: 9,
+        quantityOnStorage: 1,
         description01: "&#171Clinair - Allesreiniger Lemon&#187 - це універсальний засіб для прибирання з освіжаючим ароматом лимона. Його потужна формула допомагає легко і ефективно видаляти жир, бруд та бактерії з усіх поверхонь у Вашому домі.",
         description02: "Завдяки своїй унікальній формулі, &#171Clinair - Allesreiniger Lemon&#187 гарантує бездоганну чистоту та залишає за собою приємний аромат свіжості.",
         description03: "Він ідеально підходить для кухні, ванної кімнати, підлоги та інших поверхонь.",
@@ -935,7 +935,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Надай своєму дому аромат весни з &#171Denkmit - Allzweckreiniger Frühlings Moment&#187, і твоя домівка буде пахнути ніжними квітами і випромінювати чистоту та затишок."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_badreiniger_frishe_1l.jpg",
         alt: "denkmit_badreiniger_frishe_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_badreiniger_frishe_1l-01.jpg",
@@ -960,7 +960,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Оновіть свій простір за допомогою &#171Denkmit - Badreiniger Mit Frische-Duft&#187 – найкращого помічника у боротьбі з вапняним нальотом та залишками мила!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_badreiniger_nature_750.jpg",
         alt: "denkmit_badreiniger_nature_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_badreiniger_nature_750-01.jpg",
@@ -985,7 +985,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть свій дім чистішим та безпечнішим для Вас і Вашої родини з  &#171Denkmit - Badreiniger Nature Mit Natürlicher Zitronensäure&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_kalkreiniger_500.jpg",
         alt: "denkmit_kalkreiniger_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_kalkreiniger_500-01.jpg",
@@ -1012,7 +1012,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте &#171Denkmit - Kalkreiniger&#187 зараз і насолоджуйтеся бездоганною чистотою ваших поверхонь!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_rohrreiniger_1l.jpg",
         alt: "denkmit_rohrreiniger_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_rohrreiniger_1l-01.jpg",
@@ -1037,7 +1037,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Скористайтеся можливістю забезпечити безперебійну роботу Ваших труб із засобом &#171Denkmit - Rohrreiniger&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_rohrreiniger_granulat_600.jpg",
         alt: "denkmit_rohrreiniger_granulat_600",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_rohrreiniger_granulat_600-01.jpg",
@@ -1112,7 +1112,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Зробіть свій будинок бездоганно чистим з &#171Der General - Universal Bergfrühling&#187, який надає Вашому дому приємний аромат і надійний захист від бактерій."
     // },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/domestos_anti_spray_750.jpg",
         alt: "domestos_anti_spray_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/domestos_anti_spray_750-01.jpg",
@@ -1129,7 +1129,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 94,
-        priceGRNOpt: 84,
+        quantityOnStorage: 6,
         description01: "Позбудьтеся бактерій та грибків з універсальним антибактеріальним спреєм &#171Domestos - Uniwersalny Spray Antybakteryjny&#187.",
         description02: "Цей спрей не тільки ефективно знищує 99.9% бактерій, але й бореться з грибковими забрудненнями на будь-яких поверхнях. Його потужна формула забезпечує глибоке очищення без зайвих зусиль.",
         description03: "&#171Domestos - Uniwersalny Spray Antybakteryjny&#187 дарує Вам впевненість у бездоганній чистоті Вашого дому. Він підходить для використання на кухні, у ванній кімнаті та інших приміщеннях, забезпечуючи тривалу антибактеріальну дію.",
@@ -1137,7 +1137,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте  &#171Domestos - Uniwersalny Spray Antybakteryjny&#187 сьогодні та захистіть свою родину від небезпечних мікроорганізмів!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_backofen_grill_750.jpg",
         alt: "gallus_backofen_grill_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_backofen_grill_750-01.jpg",
@@ -1161,33 +1161,33 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description04: "<strong>Засіб для чищення духовки, гриля, мангалу та камінів.</strong>",
         description05: "Не зволікайте, спробуйте  &#171Gallus - Backofen & Grill-Reiniger&#187 вже сьогодні та насолоджуйтеся ідеальною чистотою!"
     },
+    // {
+    //     type: "wholesale оптом",
+    //     url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_bad_reiniger_750.jpg",
+    //     alt: "gallus_bad_reiniger_750",
+    //     url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_bad_reiniger_750-01.jpg",
+    //     alt1: "gallus_bad_reiniger_750-01",
+    //     url2: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_bad_reiniger_750-02.jpg",
+    //     alt2: "gallus_bad_reiniger_750-02",
+    //     marker: "MCKB355",
+    //     brand: "Gallus",
+    //     search: "галлус галус хенкель средство для чищення средства средство для чистки ванна для ванной комнаты мило мыло антикальк против калька вапняний нальот проти вапняного нальоту",
+    //     nameUKR: "Засіб для чищення ванної кімнати, залишків мила, антикальк",
+    //     nameEN: "Bad-Reiniger",
+    //     companyName: "Henkel",
+    //     countryName: "Німеччина",
+    //     volumeName: "Об'єм",
+    //     volume: "750 мл.",
+    //     priceGRN: 107,
+    //     priceGRNOpt: 96,
+    //     description01: "Позбавте вашу ванну кімнату від залишків мила та вапняного нальоту за допомогою засобу &#171Gallus - Bad-Reiniger&#187. Це потужне рішення для чистоти, що забезпечить блиск та свіжість без зайвих зусиль.",
+    //     description02: "Розроблено спеціально для ефективного видалення навіть найстійкіших забруднень. Його унікальна формула швидко розчиняє наліт, залишаючи поверхні бездоганно чистими та свіжими.",
+    //     description03: "Уявіть собі ванну кімнату, де немає жодного сліду мила чи вапняку. З &#171Gallus - Bad-Reiniger&#187 це стає реальністю. Ваші плитки, крани та скляні поверхні будуть блищати, немов нові.",
+    //     description04: "<strong>Засіб для чищення ванної кімнати, залишків мила, антикальк.</strong>",
+    //     description05: "Купуйте засіб Gallus - Bad-Reiniger&#171Gallus - Bad-Reiniger&#187 зараз та насолоджуйтесь чистотою Вашої ванної кімнати щодня!"
+    // },
     {
-        type: "wholesale",
-        url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_bad_reiniger_750.jpg",
-        alt: "gallus_bad_reiniger_750",
-        url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_bad_reiniger_750-01.jpg",
-        alt1: "gallus_bad_reiniger_750-01",
-        url2: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_bad_reiniger_750-02.jpg",
-        alt2: "gallus_bad_reiniger_750-02",
-        marker: "MCKB355",
-        brand: "Gallus",
-        search: "галлус галус хенкель средство для чищення средства средство для чистки ванна для ванной комнаты мило мыло антикальк против калька вапняний нальот проти вапняного нальоту",
-        nameUKR: "Засіб для чищення ванної кімнати, залишків мила, антикальк",
-        nameEN: "Bad-Reiniger",
-        companyName: "Henkel",
-        countryName: "Німеччина",
-        volumeName: "Об'єм",
-        volume: "750 мл.",
-        priceGRN: 107,
-        priceGRNOpt: 96,
-        description01: "Позбавте вашу ванну кімнату від залишків мила та вапняного нальоту за допомогою засобу &#171Gallus - Bad-Reiniger&#187. Це потужне рішення для чистоти, що забезпечить блиск та свіжість без зайвих зусиль.",
-        description02: "Розроблено спеціально для ефективного видалення навіть найстійкіших забруднень. Його унікальна формула швидко розчиняє наліт, залишаючи поверхні бездоганно чистими та свіжими.",
-        description03: "Уявіть собі ванну кімнату, де немає жодного сліду мила чи вапняку. З &#171Gallus - Bad-Reiniger&#187 це стає реальністю. Ваші плитки, крани та скляні поверхні будуть блищати, немов нові.",
-        description04: "<strong>Засіб для чищення ванної кімнати, залишків мила, антикальк.</strong>",
-        description05: "Купуйте засіб Gallus - Bad-Reiniger&#171Gallus - Bad-Reiniger&#187 зараз та насолоджуйтесь чистотою Вашої ванної кімнати щодня!"
-    },
-    {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_kalk_reiniger_750.jpg",
         alt: "gallus_kalk_reiniger_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_kalk_reiniger_750-01.jpg",
@@ -1212,7 +1212,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Купуйте G&#171Gallus - Kalk-Reiniger&#187 зараз і насолоджуйтеся ідеально чистими поверхнями без зусиль!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_kuchen_reiniger_750.jpg",
         alt: "gallus_kuchen_reiniger_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_kuchen_reiniger_750-01.jpg",
@@ -1237,7 +1237,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте &#171Gallus - Küchen-Reiniger&#187 зараз і перетворіть прибирання кухні на просте та приємне заняття!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_universal_fettloser_750.jpg",
         alt: "gallus_universal_fettloser_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_universal_fettloser_750-01.jpg",
@@ -1262,7 +1262,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте &#171Gallus - Küchen-Reiniger&#187 зараз і перетворіть прибирання кухні на просте та приємне заняття!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_cream_cleaner_lemon_700.jpg",
         alt: "gallus_cream_cleaner_lemon_700",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_cream_cleaner_lemon_700-01.jpg",
@@ -1287,7 +1287,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Покажіть своїй ванні кімнаті, що вона заслуговує на краще! Замовте &#171Denkmit - WC-Reiniger Ozean Frische&#187 вже сьогодні та даруйте своєму унітазу освіжаючу атмосферу!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_gel_drain_opener_1l.jpg",
     //     alt: "gallus_gel_drain_opener_1l",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_gel_drain_opener_1l-01.jpg",
@@ -1329,7 +1329,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 84,
-        quantityOnStorage: 7,
+        quantityOnStorage: 6,
         description01: "&#171Gut Günstig - Allzweckreiniger Bergfrische&#187 - це універсальний засіб для прибирання, який привносить свіжість гірських вершин у Ваш дім. З його допомогою легко і швидко можна очистити різні поверхні, забезпечивши бездоганну чистоту.",
         description02: "Засіб ефективно бореться з жиром, забрудненням і бактеріями, залишаючи поверхні блискучими і з приємним ароматом. Він має спеціальну формулу, яка забезпечує гігієнічну чистоту і захист від мікробів.",
         description03: "&#171Gut Günstig - Allzweckreiniger Bergfrische&#187 має неповторний аромат свіжості гірських долин, що створює приємну атмосферу у Вашому домі. Він ідеально підходить для прибирання різних поверхонь, включаючи підлоги, столи, ванні кімнати та кухні.",
@@ -1337,7 +1337,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть прибирання легким з &#171Gut Günstig - Allzweckreiniger Bergfrische&#187, який забезпечить Вашому дому бездоганну чистоту і освіжаючий аромат гірських вершин."
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_badreiniger_1l.jpg",
         alt: "gut_gunstig_badreiniger_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_badreiniger_1l-01.jpg",
@@ -1354,7 +1354,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 76,
-        priceGRNOpt: 67,
+        quantityOnStorage: 6,
         description01: "Ваша ванна кімната заслуговує на сяючу чистоту з засобом для чищення &#171Gut & Günstig - Badreiniger&#187.",
         description02: "Потужна формула ефективно бореться з брудом, залишаючи поверхні бездоганно чистими.",
         description03: "&#171Gut & Günstig - Badreiniger&#187 забезпечує блискучу чистоту і свіжий аромат, який триватиме довго.",
@@ -1487,7 +1487,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть прибирання приємною насолодою разом з &#171K-Classic - Allesreiniger Tropical Flower&#187, який подарує Вашому дому чистоту і аромат тропічного райського саду."
     },
     // {
-    //     type: "only-wholesale",
+    //     type: "only-wholesale оптом",
     //     url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_pulver_power.jpg",
     //     alt: "gut_gunstig_pulver_power",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gut_gunstig_pulver_power.jpg",
@@ -1535,7 +1535,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Замовте &#1711Neo Blanc - Lixivia + Desengordurante + Mousse&#187 прямо зараз і відчуйте бездоганний догляд за вашими білими речами та домівкою!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l.jpg",
         alt: "neo_blanc_lixivia densa_1l",
         url1: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l-01.jpg",
@@ -1552,7 +1552,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 103,
-        priceGRNOpt: 92,
+        quantityOnStorage: 6,
         description01: "Забезпечте бездоганну чистоту своїх білих речей та поверхонь з універсальним відбілювачем &#171Neo Blanc - Lixivia Densa +&#187! Цей продукт перетворить Dаш дім на оазис свіжості та чистоти.",
         description02: "Це потужний відбілювач, який ефективно видаляє плями та відбілює речі та поверхні. Він ідеально підходить для ванни, кухні, підлоги та інших приміщень у вашому домі.",
         description03: "Мрієте про білосніжні речі і бездоганно чисті поверхні? З  &#171Neo Blanc - Lixivia Densa +&#187 це стає реальністю. Ваші речі будуть виглядати як нові, а Ваш дім наповниться свіжістю та чистотою.",
@@ -1560,7 +1560,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Придбайте відбілювач &#171Neo Blanc - Lixivia Densa +&#187 вже сьогодні і насолоджуйтесь бездоганною чистотою у Вашому домі!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/power_wash_kalkloser_750.jpg",
         alt: "power_wash_kalkloser_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/power_wash_kalkloser_750-01.jpg",
@@ -1577,7 +1577,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 99,
-        priceGRNOpt: 89,
+        quantityOnStorage: 6,
         description01: "&#171Power Wash - Kalklöser&#187 -  це надійний союзник у боротьбі з вапняними відкладеннями та вапняковим нальотом на Вашій кухні. Засіб спеціально розроблений, щоб легко та ефективно видалити вапно та залишки мила з різних поверхонь, зберігаючи їх бездоганно чистими та блискучими.",
         description02: "Цей вапняковий розчинник має потужну формулу, яка швидко зм'якшує вапняні відкладення, дозволяючи вам легко їх видалити. Він підходить для використання на різних поверхнях, включаючи кухонні зливи, кранівниці, чайники та багато інших.",
         description03: "Не дозвольте вапну засмічувати Вашу кухню. &#171Power Wash - Kalklöser&#187 допоможе зберегти чистоту та приємний вигляд Вашого посуду.",
@@ -1635,7 +1635,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть прибирання легким і приємним разом з &#171Respekt - Allzweckreiniger Sommertraum&#187, який забезпечить Вашому дому бездоганну чистоту і свіжість."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_650.jpg",
         alt: "well_done_zsiroldo_650",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_650-01.jpg",
@@ -1660,7 +1660,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Купуйте &#171Well Done - Hideg Zsíroldó&#187 і відчуйте різницю вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_1000.jpg",
         alt: "well_done_zsiroldo_1000",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_1000-01.jpg",

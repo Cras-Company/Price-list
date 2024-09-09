@@ -1,6 +1,6 @@
 export const shopLotsForWindows = [
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_windows/denkmit_glasreiniger_1l.jpg",
         alt: "denkmit_glasreiniger_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_windows/denkmit_glasreiniger_1l-01.jpg",
@@ -17,7 +17,7 @@ export const shopLotsForWindows = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 86,
-        priceGRNOpt: 74,
+        quantityOnStorage: 4,
         description01: "Засіб для очистки скла &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 з формулою захисту блиску надає Вашим вікнам та дзеркалам кристальну чистоту.",
         description02: "Він ефективно видаляє забруднення, не залишаючи розводів, забезпечуючи довготривале сяйво.",
         description03: "Завдяки спеціальному складу, &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 утворює захисний шар, який допомагає запобігти повторному забрудненню поверхонь.",
@@ -25,7 +25,7 @@ export const shopLotsForWindows = [
         description05: "Додайте &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 до свого арсеналу засобів для прибирання і насолоджуйтесь бездоганною чистотою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_windows/gallus_glas-reineger_green_1l.jpg",
         alt: "gallus_glas-reineger_green_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_windows/gallus_glas-reineger_green_1l-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsForWindows = [
         description05: "Просто розпиліть &#171Gallus - Glas-Reiniger 3 in 1&#187 на поверхню та насолоджуйтесь сяючою чистотою і свіжим ароматом!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_windows/gallus_glas-reineger_blue_1l.jpg",
         alt: "gallus_glas-reineger_blue_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_windows/gallus_glas-reineger_blue_1l-01.jpg",

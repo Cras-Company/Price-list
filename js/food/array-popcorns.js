@@ -1,6 +1,6 @@
 export const shopLotsPopcorns = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_butter_100.jpg",
         alt: "mogyi_popcorn_butter_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_butter_100-01.jpg",
@@ -27,7 +27,7 @@ export const shopLotsPopcorns = [
         description05: "Замовте &#171Micro Pop Butter / Vajízű&#187 прямо зараз та створіть атмосферу кінотеатру вдома, додайте сміх та радість до ваших вечорів."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_cheese_100.jpg",
         alt: "mogyi_popcorn_cheese_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_cheese_100-01.jpg",
@@ -54,7 +54,7 @@ export const shopLotsPopcorns = [
         description05: "Замовте &#171Micro Pop Cheese / Sajtízű&#187 і насолоджуйтеся найкращим смаком попкорну з нотками сиру."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_chili_100.jpg",
         alt: "mogyi_popcorn_chili_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_chili_100-01.jpg",
@@ -81,7 +81,7 @@ export const shopLotsPopcorns = [
         description05: "Не вагайтеся спробувати &#171Micro Pop Chili / Chili Ízű&#187 і пориньте в світ вишуканих смаків та пікантності разом з родиною або друзями."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_salty_100.jpg",
         alt: "mogyi_popcorn_salty_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_salty_100-01.jpg",

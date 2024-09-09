@@ -1,6 +1,6 @@
 export const shopLotsSofteners = [
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/chanteclair_iconcentrati_fiori_50.jpg",
     //     alt: "chanteclair_iconcentrati_fiori_50",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/chanteclair_iconcentrati_fiori_50-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsSofteners = [
         description05: "Насолоджуйтеся неперевершеним ароматом та ніжністю Вашого одягу зараз - купуйте &#171Chanteclair - Muschio Bianco&#187!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/chanteclair_iconcentrati_peonia_magnolia_50.jpg",
     //     alt: "chanteclair_iconcentrati_peonia_magnolia_50",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/chanteclair_iconcentrati_peonia_magnolia_50-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsSofteners = [
     //     description05: "Освіжіть свою білизну та насолоджуйтесь неперевершеним ароматом квітів - купуйте &#171Chanteclair - Peonia E Magnolia&#187 прямо зараз!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/chanteclair_iconcentrati_marini_50.jpg",
     //     alt: "chanteclair_iconcentrati_marini_50",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/chanteclair_iconcentrati_marini_50-01.jpg",
@@ -100,7 +100,7 @@ export const shopLotsSofteners = [
     //     description05: "Зробіть крок до природної свіжості прямо зараз та купуйте &#171Chanteclair - Sali Marini E Fior Di Loto&#187 прямо зараз!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_blue_splash_1700.jpg",
         alt: "coccolino_blue_splash_1700",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_blue_splash_1700-01.jpg",
@@ -127,7 +127,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Coccolino - Blue Splash&#187 вже зараз та дозвольте своїм речам завжди вражати приголомшливим ароматом, який перетворить ваш дім на справжній рай!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_happy_yellow_1700.jpg",
         alt: "coccolino_happy_yellow_1700",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_happy_yellow_1700-01.jpg",
@@ -154,7 +154,7 @@ export const shopLotsSofteners = [
         description05: "Почніть кожен день з посмішки та сонячного настрою - купуйте &#171Coccolino - Happy Yellow&#187 прямо зараз!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_orange_rush_1700.jpg",
         alt: "coccolino_orange_rush_1700",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_orange_rush_1700-01.jpg",
@@ -181,7 +181,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Coccolino - Orange Rush&#187 прямо зараз та перетворіть кожне прання у захопливий та ароматний досвід, який залишить Вас наповненими енергією і свіжістю цілого дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_silk_lily_1700.jpg",
         alt: "coccolino_silk_lily_1700",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_silk_lily_1700-01.jpg",
@@ -208,7 +208,7 @@ export const shopLotsSofteners = [
         description05: "Додайте до вашого прання нотки розкоші з ополіскувачем &#171Coccolino - Silk Lily&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_sensitive_1700.jpg",
         alt: "coccolino_sensitive_1700",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_sensitive_1700-01.jpg",
@@ -235,7 +235,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Coccolino - Sensitive Pure&#187 зараз та насолоджуйтеся кришталево чистими речами, зберігаючи при цьому ваше здоров'я та естетичні відчуття!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_blue_splash_1800.jpg",
     //     alt: "coccolino_blue_splash_1800",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_blue_splash_1800-01.jpg",
@@ -262,7 +262,7 @@ export const shopLotsSofteners = [
     //     description05: "Замовте &#171Coccolino - Blue Splash&#187 вже зараз та дозвольте своїм речам завжди вражати приголомшливим ароматом, який перетворить ваш дім на справжній рай!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_orange_rush_1800.jpg",
     //     alt: "coccolino_orange_rush_1800",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_orange_rush_1800-01.jpg",
@@ -289,7 +289,7 @@ export const shopLotsSofteners = [
     //     description05: "Замовте &#171Coccolino - Orange Rush&#187 прямо зараз та перетворіть кожне прання у захопливий та ароматний досвід, який залишить Вас наповненими енергією і свіжістю цілого дня!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_sensitive_pure_1800.jpg",
     //     alt: "coccolino_sensitive_pure_1800",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_sensitive_pure_1800-01.jpg",
@@ -316,7 +316,7 @@ export const shopLotsSofteners = [
     //     description05: "Замовте &#171Coccolino - Sensitive Pure&#187 зараз та насолоджуйтеся кришталево чистими речами, зберігаючи при цьому ваше здоров'я та естетичні відчуття!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_amber_40.jpg",
         alt: "felce_azzurra_amber_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_amber_40-01.jpg",
@@ -341,7 +341,7 @@ export const shopLotsSofteners = [
         description05: "Освіжіть свою білизну і пориньте в атмосферу розкішного аромату - купуйте &#171Felce Azzurra - Amber And Vanilla&#187 зараз!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_lavender_iris_40.jpg",
         alt: "felce_azzurra_lavender_iris_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_lavender_iris_40-01.jpg",
@@ -366,7 +366,7 @@ export const shopLotsSofteners = [
         description05: "Перетворіть своє прання на справжню насолоду - придбайте &#171Felce Azzurra - Lavender And Iris&#187 вже зараз!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_original_40.jpg",
         alt: "felce_azzurra_original_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_original_40-01.jpg",
@@ -391,7 +391,7 @@ export const shopLotsSofteners = [
         description05: "Відчуйте елегантність та свіжість з ополіскувачем &#171Felce Azzurra - Original&#187 вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_pure_freshness_40.jpg",
         alt: "felce_azzurra_pure_freshness_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_pure_freshness_40-01.jpg",
@@ -416,7 +416,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Felce Azzurra - Pure Freshness&#187 сьогодні, щоб Ваша білизна завжди приваблювала своєю свіжістю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_rose_lotus_40.jpg",
         alt: "felce_azzurra_rose_lotus_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_rose_lotus_40-01.jpg",
@@ -441,7 +441,7 @@ export const shopLotsSofteners = [
         description05: "Замовте ополіскувач &#171Felce Azzurra - Rose And Lotus&#187 прямо зараз, щоб Ваша білизна завжди була сповнена вишуканими ароматами природи!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_amber_45.jpg",
         alt: "felce_azzurra_amber_45",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_amber_45-01.jpg",
@@ -466,7 +466,7 @@ export const shopLotsSofteners = [
         description05: "Освіжіть свою білизну і пориньте в атмосферу розкішного аромату - купуйте &#171Felce Azzurra - Amber & Vanilla&#187 зараз!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_lavanda_iris_45.jpg",
     //     alt: "felce_azzurra_lavanda_iris_45",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_lavanda_iris_45-01.jpg",
@@ -491,7 +491,7 @@ export const shopLotsSofteners = [
     //     description05: "Перетворіть своє прання на справжню насолоду - придбайте &#171Felce Azzurra - Lavenda & Iris&#187 вже зараз!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_original_45.jpg",
         alt: "felce_azzurra_original_45",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_original_45-01.jpg",
@@ -516,7 +516,7 @@ export const shopLotsSofteners = [
         description05: "Відчуйте елегантність та свіжість з ополіскувачем &#171Felce Azzurra - Original&#187 вже сьогодні!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_pura_freschezza_45.jpg",
     //     alt: "felce_azzurra_pura_freschezza_45",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_pura_freschezza_45-01.jpg",
@@ -541,7 +541,7 @@ export const shopLotsSofteners = [
     //     description05: "Придбайте ополіскувач &#171Felce Azzurra - Pura Freschezza&#187 сьогодні, щоб Ваша білизна завжди приваблювала своєю свіжістю!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_rose_lotus_45.jpg",
         alt: "felce_azzurra_rose_lotus_45",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_rose_lotus_45-01.jpg",
@@ -566,7 +566,7 @@ export const shopLotsSofteners = [
         description05: "Замовте ополіскувач &#171Felce Azzurra - Rose & Lotus Flowers&#187 прямо зараз, щоб Ваша білизна завжди була сповнена вишуканими ароматами природи!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/frosch_zero_750.jpg",
         alt: "frosch_zero_750",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/frosch_zero_750-01.jpg",
@@ -591,7 +591,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Frosch - Zero%&#187 зараз та відчуйте на собі найкращі стандарти чистоти, зберігаючи природу для майбутніх поколінь!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_1l.jpg",
         alt: "gallus_frisch_1l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_1l-01.jpg",
@@ -618,7 +618,7 @@ export const shopLotsSofteners = [
         description05: "Нехай ваш одяг говорить за вас! Оберіть &#171Gallus - Frisch Concentrated Softener&#187 для найкращого догляду, який він заслуговує."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_1l.jpg",
         alt: "gallus_orchidee_1l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_1l-01.jpg",
@@ -645,7 +645,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Gallus - Orchidee Concentrated Softener&#187 вже сьогодні та насолоджуйтесь неперевершеною м'якістю та ароматом вашого одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_2l.jpg",
         alt: "gallus_frisch_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_2l-01.jpg",
@@ -670,7 +670,7 @@ export const shopLotsSofteners = [
         description05: "Нехай ваш одяг говорить за вас! Оберіть &#171Gallus - Frisch Concentrated Softener&#187 для найкращого догляду, який він заслуговує."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_2l.jpg",
         alt: "gallus_orchidee_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_2l-01.jpg",
@@ -695,7 +695,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Gallus - Orchidee Concentrated Softener&#187 вже сьогодні та насолоджуйтесь неперевершеною м'якістю та ароматом вашого одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_4l.jpg",
         alt: "gallus_frisch_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_4l-01.jpg",
@@ -720,7 +720,7 @@ export const shopLotsSofteners = [
         description05: "Нехай ваш одяг говорить за вас! Оберіть &#171Gallus - Frisch Concentrated Softener&#187 для найкращого догляду, який він заслуговує."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_4l.jpg",
         alt: "gallus_orchidee_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_4l-01.jpg",
@@ -745,7 +745,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Gallus - Orchidee Concentrated Softener&#187 вже сьогодні та насолоджуйтесь неперевершеною м'якістю та ароматом вашого одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_nature_aloe_1350.jpg",
         alt: "la_salud_nature_aloe_1350",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_nature_aloe_1350-01.jpg",
@@ -772,7 +772,7 @@ export const shopLotsSofteners = [
         description05: "Оберіть &#171La Salud - Nature Aloe Suavizante Concentrado&#187 для бездоганної турботи про Ваш гардероб!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_esencia_azul_1350.jpg",
         alt: "la_salud_esencia_azul_1350",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_esencia_azul_1350-01.jpg",
@@ -799,7 +799,7 @@ export const shopLotsSofteners = [
         description05: "Додайте &#171La Salud - Esencia Azul Suavizante Concentrado&#187 до свого списку прання і перетворіть догляд за одягом на справжню насолоду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_dolce_1350.jpg",
         alt: "la_salud_dolce_1350",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_dolce_1350-01.jpg",
@@ -826,7 +826,7 @@ export const shopLotsSofteners = [
         description05: "Подаруйте своїм речам новий рівень комфорту та аромату з &#171La Salud - Dolce Suavizante Concentrado&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_spa_1350.jpg",
         alt: "la_salud_spa_1350",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_spa_1350-01.jpg",
@@ -853,7 +853,7 @@ export const shopLotsSofteners = [
         description05: "Подаруйте своєму одягу новий рівень догляду і комфорту з &#171La Salud - Spa Suavizante Concentrado&#187!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/molly_weichspuler_springdrop_3200.jpg",
     //     alt: "molly_weichspuler_springdrop_3200",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/molly_weichspuler_springdrop_3200-01.jpg",
@@ -878,7 +878,7 @@ export const shopLotsSofteners = [
     //     description05: "Замовте &#171Molly - Weichspüler Springdrop&#187 вже сьогодні і насолоджуйтеся свіжістю та кольорами у кожному пранні!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/molly_weichspuler_vulcandrop_3200.jpg",
     //     alt: "molly_weichspuler_vulcandrop_3200",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/molly_weichspuler_vulcandrop_3200-01.jpg",
@@ -903,7 +903,7 @@ export const shopLotsSofteners = [
     //     description05: "Замовте &#171Molly - Weichspüler Vulcandrop&#187 вже зараз і насолоджуйтеся кольорами та комфортом у кожному пранні!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_38.jpg",
         alt: "tesori_d'oriente_38",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_38-01.jpg",
@@ -928,7 +928,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Tesori d'Oriente - Muschio Bianco&#187 сьогодні і надайте своїй білизні неповторну елегантність!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_ayurveda_38.jpg",
         alt: "tesori_d'oriente_ayurveda_38",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_ayurveda_38-01.jpg",
@@ -953,7 +953,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Tesori d'Oriente - Ayurveda Amla E Parchouli&#187 вже сьогодні та подаруйте своїй білизні розкіш і комфорт!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_byzantium_38.jpg",
     //     alt: "tesori_d'oriente_byzantium_38",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_byzantium_38-01.jpg",
@@ -978,7 +978,7 @@ export const shopLotsSofteners = [
     //     description05: "Придбайте ополіскувач &#171Tesori d'Oriente - Byzantium Rosa Nera E Labdano&#187 вже сьогодні та надайте своїй білизні вишуканий аромат і неперевершену свіжість!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_hammam_38.jpg",
         alt: "tesori_d'oriente_hammam_38",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_hammam_38-01.jpg",
@@ -1003,7 +1003,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Tesori d'Oriente - Hammam Argan E Fiori D'arancio&#187 вже сьогодні і подаруйте своїй білизні незабутню свіжість та ніжність!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_japanese_rituals_38.jpg",
         alt: "tesori_d'oriente_japanese_rituals_38",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_japanese_rituals_38-01.jpg",
@@ -1028,7 +1028,7 @@ export const shopLotsSofteners = [
         description05: "Замовляйте ополіскувач &#171Tesori d'Oriente - Japanese Rituals Tsubaki E Peonia&#187 вже сьогодні та насолоджуйтесь неповторною свіжістю і красою Ваших речей!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_persian_dream_38.jpg",
         alt: "tesori_d'oriente_persian_dream_38",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_persian_dream_38-01.jpg",
@@ -1053,7 +1053,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Tesori d'Oriente - Persian Dream Melograno E Tè Rosso&#187 вже сьогодні та надайте своїй білизні розкішну свіжість та аромат!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_thalasso_therapy_38.jpg",
         alt: "tesori_d'oriente_thalasso_therapy_38",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/tesori_d'oriente_thalasso_therapy_38-01.jpg",
@@ -1078,7 +1078,7 @@ export const shopLotsSofteners = [
         description05: "Купуйте ополіскувач &#171Tesori d'Oriente - Thalasso Therapy Acqua Delle Figi E Alghe Marine&#187 вже сьогодні та подаруйте своїй білизні свіжість океану!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/vir_magnetisch_37.jpg",
         alt: "vir_magnetisch_37",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/vir_magnetisch_37-01.jpg",
@@ -1103,7 +1103,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Vir - Magnetisch&#187 вже сьогодні і відчуйте магію аромату на своїй білизні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/vir_muse_37.jpg",
         alt: "vir_muse_37",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/vir_muse_37-01.jpg",
@@ -1128,7 +1128,7 @@ export const shopLotsSofteners = [
         description05: "Придбайте ополіскувач &#171Vir - Muse&#187 вже сьогодні і наповніть свій одяг натхненням і неповторною свіжістю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/vir_romantisch_37.jpg",
         alt: "vir_romantisch_37",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/vir_romantisch_37-01.jpg",

@@ -21,7 +21,7 @@ export const shopLotsCacao = [
   //   description05: "Зробіть радість своєму малюкові і подаруйте йому найсмачніше дитяче какао &#171Krüger - MixFix&#187!"
   // },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/food/drinks/cacao/kruger_mixfix_375.jpg",
     alt: "kruger_mixfix_375",
     url1: "./images/shop/food/drinks/cacao/kruger_mixfix_375.jpg",
@@ -44,7 +44,7 @@ export const shopLotsCacao = [
     description05: "Зробіть радість своєму малюкові і подаруйте йому найсмачніше дитяче какао &#171Krüger - MixFix&#187!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/food/drinks/cacao/kruger_mixfix_500.jpg",
     alt: "kruger_mixfix_500",
     url1: "./images/shop/food/drinks/cacao/kruger_mixfix_500-01.jpg",
@@ -69,7 +69,7 @@ export const shopLotsCacao = [
     description05: "Зробіть радість своєму малюкові і подаруйте йому найсмачніше дитяче какао &#171Krüger - MixFix&#187!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/food/drinks/cacao/nesquik_classic_700.jpg",
     alt: "nesquik_classic_700",
     url1: "./images/shop/food/drinks/cacao/nesquik_classic_700.jpg",

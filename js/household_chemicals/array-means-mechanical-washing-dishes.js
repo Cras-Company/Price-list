@@ -1,6 +1,6 @@
 export const shopLotsMeansMechanicalWashingDishes = [
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_pulver_1.5.jpg",
         alt: "denkmit_classic_pulver_1.5",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_pulver_1.5-01.jpg",
@@ -21,7 +21,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         weightName: "Вага",
         weight: "1.5 кг.",
         priceGRN: 229,
-        priceGRNOpt: 200,
+        quantityOnStorage: 4,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 - порошок для посуду розроблений для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Порошок містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Він підходять для різних видів посуду, від столової тарілки до скляних виробів.",
         description03: "Просто додайте одну порцію &#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 у вміст посудомийної машини та запустіть програму. Ваш посуд стане ідеально чистим та без слідів жиру або залишків їжі.",
@@ -29,7 +29,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_tabs_65.jpg",
         alt: "denkmit_classic_tabs_65",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_tabs_65-01.jpg",
@@ -52,7 +52,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         quantityName: "Кількість",
         quantity: "65 шт.",
         priceGRN: 280,
-        qriceGRNOpt: 242,
+        quantityOnStorage: 4,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 - таблетки для посуду розроблені для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Кожна таблетка містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Вони підходять для різних видів посуду, від столової тарілки до скляних виробів.",
         description03: "Просто додайте одну таблетку &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 у вміст посудомийної машини та запустіть програму. Ваш посуд стане ідеально чистим та без слідів жиру або залишків їжі.",
@@ -60,7 +60,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
         {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_klarspuler_1l.jpg",
         alt: "denkmit_klarspuler_1l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_klarspuler_1l-01.jpg",
@@ -77,7 +77,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 84,
-        priceGRNOpt: 75,
+        quantityOnStorage: 4,
         description01: "Ополіскувач &#171Denkmit - Klarspüler&#187 ефективно видаляє залишки миючих засобів та водяні плями, забезпечуючи ідеальний блиск і чистоту кожного предмета.",
         description02: "Забудьте про плями на посуді після миття – ваші тарілки завжди будуть блищати.",
         description03: "Антикальк-компоненти у &#171Denkmit - Klarspüler&#187 захищають Вашу посудомийну машину від накипу, продовжуючи її термін служби.",
@@ -102,7 +102,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         quantityName: "Кількість",
         quantity: "35 шт.",
         priceGRN: 320,
-        quantityOnStorage: 5,
+        quantityOnStorage: 4,
         description01: "&#171Finish - Powerball Quantum Ultimate&#187 - це вищий ступінь догляду за Вашим посудом, який робить його бездоганно чистим та сяючим. Ці таблетки поєднують найсучаснішу технологію для ефективного видалення жиру, плям і засохших залишків їжі, навіть на складних поверхнях.",
         description02: "Інноваційна технологія &#171Active Blue&#187 допомагає підвищити ефективність миття, забезпечуючи бездоганні результати. Таблетки вирішують важкі завдання, такі як видалення застарілих забруднень та особливо жирних слідів.",
         description03: "Покращіть якість свого побутового догляду за посудом вже сьогодні!",
@@ -110,7 +110,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Обирайте &#171Finish - Powerball Quantum Ultimate&#187 з технологією &#171Active Blue&#187 та насолоджуйтеся блискучими результатами миття. Дійте зараз і переконайтеся у його перевагах самі!"
     },
     // {
-    //     type: "only-wholesale",
+    //     type: "only-wholesale оптом",
     //     url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_allin1_40.jpg",
     //     alt: "gut_gunstig_allin1_40",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_allin1_40.jpg",
@@ -133,7 +133,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
     //     description05: "Спростіть своє щоденне миття посуду та отримайте ідеальний результат, оберіть зручність та якість з &#171Gut & Günstig - All in 1 Geschirr-Reiniger Tabs&#187!"
     // },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_classic_60.jpg",
         alt: "gut_gunstig_classic_60",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_classic_60-01.jpg",
@@ -160,7 +160,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Переконайтеся в якості цього продукту самі і насолоджуйтеся часом, який Ви відділите від миття посуду. Ви заслуговуєте найкращого - оберіть &#171Gut & Günstig - Classic Geschirr-Reiniger Tabs&#187 для Вашого посуду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_classic_60.jpg",
         alt: "gut_gunstig_classic_60",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_classic_60-01.jpg",
@@ -186,29 +186,29 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description04: "<strong>Для механічного миття посуду. Не підходить для срібла та алюмінію.</strong>",
         description05: "Переконайтеся в якості цього продукту самі і насолоджуйтеся часом, який ви відділите від миття посуду. Ви заслуговуєте найкращого - оберіть &#171Gut & Günstig - Classic Geschirr-Reiniger Tabs&#187 для Вашого посуду!"
     },
-    {
-        type: "retail",
-        url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l.jpg",
-        alt: "gut_gunstig_klarspuler_1l",
-        url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l-01.jpg",
-        alt1: "gut_gunstig_klarspuler_1l-01",
-        url2: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l-02.jpg",
-        alt2: "gut_gunstig_klarspuler_1l-02",
-        marker: "MMWD350",
-        brand: "Gut & Günstig",
-        search: "klar spuler гут гуд гунстиг гюнстиг гунстіг гюнстіг мытья посуды ополаскиватель машина машину машини машины посудомийка посудомойка посудомоечная посудомийочна посудомийна посудомоечной посудомийної ополаскиватель від вапняного вапно наліту наліт вапняний",
-        nameUKR: "Ополіскувач для посудомийних машин, антикальк",
-        nameEN: "Klar Spüler",
-        companyName: "Edeka",
-        countryName: "Німеччина",
-        volumeName: "Об'єм",
-        volume: "1 л.",
-        priceGRN: 82,
-        quantityOnStorage: 1,
-        description01: "&#171Gut & Günstig - Klar Spüler&#187 - ідеальний ополіскувач для Вашої посудомийної машини, який надає посуду та столовим приладам сяючого блиску.",
-        description02: "Його унікальна формула гарантує блискучий результат, а ефективне видалення залишків миючого засобу робить кожен посуд ідеально чистим.",
-        description03: "&#171Gut & Günstig - Klar Spüler&#187 - забудьте про залишки від водних плям та вапняних відкладень і отримайте бездоганні результати кожного разу.",
-        description04: "<strong>Ополіскувач для механічного миття посуду. Проти вапняного нальоту.</strong>",
-        description05: "Покращте якість свого посуду з &#171Gut & Günstig - Klar Spüler&#187 вже сьогодні!"
-    },
+    // {
+    //     type: "retail",
+    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l.jpg",
+    //     alt: "gut_gunstig_klarspuler_1l",
+    //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l-01.jpg",
+    //     alt1: "gut_gunstig_klarspuler_1l-01",
+    //     url2: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/gut_gunstig_klarspuler_1l-02.jpg",
+    //     alt2: "gut_gunstig_klarspuler_1l-02",
+    //     marker: "MMWD350",
+    //     brand: "Gut & Günstig",
+    //     search: "klar spuler гут гуд гунстиг гюнстиг гунстіг гюнстіг мытья посуды ополаскиватель машина машину машини машины посудомийка посудомойка посудомоечная посудомийочна посудомийна посудомоечной посудомийної ополаскиватель від вапняного вапно наліту наліт вапняний",
+    //     nameUKR: "Ополіскувач для посудомийних машин, антикальк",
+    //     nameEN: "Klar Spüler",
+    //     companyName: "Edeka",
+    //     countryName: "Німеччина",
+    //     volumeName: "Об'єм",
+    //     volume: "1 л.",
+    //     priceGRN: 82,
+    //     quantityOnStorage: 1,
+    //     description01: "&#171Gut & Günstig - Klar Spüler&#187 - ідеальний ополіскувач для Вашої посудомийної машини, який надає посуду та столовим приладам сяючого блиску.",
+    //     description02: "Його унікальна формула гарантує блискучий результат, а ефективне видалення залишків миючого засобу робить кожен посуд ідеально чистим.",
+    //     description03: "&#171Gut & Günstig - Klar Spüler&#187 - забудьте про залишки від водних плям та вапняних відкладень і отримайте бездоганні результати кожного разу.",
+    //     description04: "<strong>Ополіскувач для механічного миття посуду. Проти вапняного нальоту.</strong>",
+    //     description05: "Покращте якість свого посуду з &#171Gut & Günstig - Klar Spüler&#187 вже сьогодні!"
+    // },
 ]

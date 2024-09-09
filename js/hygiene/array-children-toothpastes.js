@@ -1,6 +1,6 @@
 export const shopLotsChildrenToothpastes = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_chocolate_50.jpg",
         alt: "dental_tralala_kids_chocolate_50",
         url1: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_chocolate_50-01.jpg",
@@ -27,7 +27,7 @@ export const shopLotsChildrenToothpastes = [
         description05: "Придбайте &#171Dental - Tra-la-la Kids Chocolate&#187 вже сьогодні і зробіть чищення зубів улюбленою процедурою Вашої дитини!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_cola_50.jpg",
         alt: "dental_tralala_kids_cola_50",
         url1: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_cola_50-01.jpg",

@@ -1,6 +1,6 @@
 export const shopLotsPeanuts = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/peanuts/alesto_peanuts_roasted_salted_500.jpg",
         alt: "alesto_peanuts_roasted_salted_500",
         url1: "./images/shop/food/snacks/peanuts/alesto_peanuts_roasted_salted_500.jpg",
@@ -23,7 +23,7 @@ export const shopLotsPeanuts = [
         description05: "Замовте &#171Alesto - Peanuts Roasted & Salted&#187 прямо зараз та насолоджуйтеся цією неперевершеною закускою!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/snacks/peanuts/ensa_arasidy_100.jpg",
     //     alt: "ensa_arasidy_100",
     //     url1: "./images/shop/food/snacks/peanuts/ensa_arasidy_100.jpg",
@@ -73,7 +73,7 @@ export const shopLotsPeanuts = [
         description05: "Не вагайтеся та замовте &#171Mani King - Tostado sin Piel&#187 вже зараз і розважайте свою родину та друзів цією чудовою закускою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_85.jpg",
         alt: "mogyi_peanuts_roasted_salted_85",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_85.jpg",
@@ -96,7 +96,7 @@ export const shopLotsPeanuts = [
         description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
         alt: "mogyi_peanuts_roasted_salted_150",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
@@ -119,7 +119,7 @@ export const shopLotsPeanuts = [
         description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
         alt: "mogyi_peanuts_roasted_salted_150",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
@@ -142,7 +142,7 @@ export const shopLotsPeanuts = [
         description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_100.jpg",
         alt: "soltino_roasted_salted_peanuts_100",
         url1: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_100.jpg",
@@ -165,7 +165,7 @@ export const shopLotsPeanuts = [
         description05: "Додайте у свій кошик та не пропустіть можливість насолодитися бездоганним смаком солоного арахісу &#171Soltino - Roasted Salted Peanuts&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_500.jpg",
         alt: "soltino_roasted_salted_peanuts_500",
         url1: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_500.jpg",

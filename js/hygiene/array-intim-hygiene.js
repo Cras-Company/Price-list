@@ -1,6 +1,6 @@
 export const shopLotsIntimHygiene = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_250.jpg",
         alt: "dermomed_intime_wash_fiordaliso_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_250-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsIntimHygiene = [
         description05: "Замовляйте &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187 зараз і даруйте собі неперевершений догляд та комфорт щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_250.jpg",
         alt: "dermomed_intime_wash_lichene_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_250-01.jpg",

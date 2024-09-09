@@ -27,7 +27,7 @@ export const shopLotsSprats = [
         description05: "Не вагайтеся та замовляйте &#171EvraFish - Winter Sprats&#187 прямо зараз, щоб зануритися у світ арктичних вод!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_160.jpg",
     //     alt: "king_oscar_szproty_tomato_160",
     //     url1: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_160-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsSprats = [
     //     description05: "Замовляйте &#171King Oscar - Szproty W Sosie Pomidorowym&#187 та відчуйте всю силу морського дару у кожному шматочку."
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_omega_160.jpg",
     //     alt: "king_oscar_szproty_tomato_omega_160",
     //     url1: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_omega_160-01.jpg",
@@ -77,7 +77,7 @@ export const shopLotsSprats = [
     //     description05: "Спробуйте шпроти у томатному соусі &#171King Oscar - Szproty W Sosie Pomidorowym Omega-3&#187 вже сьогодні та насолоджуйтеся вишуканим смаком, підтримуючи своє здоров'я!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_oleju_160.jpg",
     //     alt: "m&k_szprot_podwedzany_w_oleju_160",
     //     marker: "FDST340",
@@ -98,7 +98,7 @@ export const shopLotsSprats = [
     //     description05: "А тепер, дозвольте і собі розкрити секрет цього неймовірного смаку та замовте &#171M & K - Szprot Podwedzany W Oleju&#187 вже сьогодні!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_sosie_pomidorowym_160.jpg",
     //     alt: "m&k_szprot_podwedzany_w_sosie_pomidorowym_160",
     //     url1: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_sosie_pomidorowym_160-01.jpg",
@@ -123,7 +123,7 @@ export const shopLotsSprats = [
     //     description05: "Не відкладайте задоволення на завтра! Замовте &#171M & K - Szprot Podwedzany W Sosie Pomidorowym&#187 вже сьогодні і подаруйте собі смакове св'ято, яке назавжди запам'ятається."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_w_oleju_250.jpg",
         alt: "m&k_szproty_wedzone_w_oleju_250",
         url1: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_w_oleju_250-01.jpg",
@@ -152,7 +152,7 @@ export const shopLotsSprats = [
         description05: "Замовте &#171M & K - Szproty Wedzone W Oleju&#187 та переконайтеся в їх неперевершеній смаковій якості!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_tomato_250.jpg",
         alt: "m&k_szproty_wedzone_tomato_250",
         url1: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_tomato_250-01.jpg",
@@ -181,7 +181,7 @@ export const shopLotsSprats = [
         description05: "Замовте копчені шпроти у томатному соусі &#171M & K - Szproty Wedzone W Sosie Pomidorowym&#187 зараз і відкрийте для себе світ аутентичних смакових вражень!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/sprats/pirat_winter_sprats_160.jpg",
         alt: "pirat_winter_sprats_160",
         url1: "./images/shop/food/canned_food/sprats/pirat_winter_sprats_160-01.jpg",
@@ -208,7 +208,7 @@ export const shopLotsSprats = [
         description05: "Створіть унікальні кулінарні шедеври разом з &#17Pirat - Winter Sprats&#187 та відчуйте ексклюзивність морського смаку у кожному шматочку!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/sprats/posejdon_szprot_300.jpg",
         alt: "posejdon_szprot_300",
         url1: "./images/shop/food/canned_food/sprats/posejdon_szprot_300-01.jpg",

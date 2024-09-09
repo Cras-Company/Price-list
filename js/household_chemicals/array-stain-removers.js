@@ -253,31 +253,31 @@ export const shopLotsStainRemovers = [
         description04: "<strong>Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості.</strong>",
         description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
     },
-    {
-        type: "retail",
-        url: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600.jpg",
-        alt: "ace_candeggina_piu_fresco_profumo_1600",
-        url1: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600-01.jpg",
-        alt1: "ace_candeggina_piu_fresco_profumo_1600-01",
-        url2: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_fresco_profumo_1600-02.jpg",
-        alt2: "ace_candeggina_piu_fresco_profumo_1600-02",
-        marker: "SALE010",
-        brand: "Ace",
-        search: "ейс аце эйс плюс засоби видалення пляма пятновыводитель пятновыдодители кольорові речі цветные вещи для цветных вещей делікатні речі с активным кислородом активный кислород дезинфекция дезинфекція дезінфектор дезінфекція відбілювачі отбеливатель отбеливатели piu засоби проти жиру обезжириватель средство средства против жира аромат свежести",
-        nameUKR: "Плямовивідник для білих речей, дезінфектор, від плісняви з відбілювачем, знежирювач з ароматом свіжості",
-        nameEN: "Candeggina Più Fresco Profumo + Mousse",
-        companyName: "Fater S.P.A.",
-        countryName: "Італія",
-        volumeName: "Об'єм",
-        volume: "1600 мл.",
-        priceGRN: 169,
-        quantityOnStorage: 2,
-        description01: "&#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 - Ваш незамінний помічник у догляді за будинком! Цей революційний засіб - справжній чарівник у Вашій руці. Він є плямовивідником для білих речей, дезинфектором та знежирювачем, одночасно надаючи універсальний захист від плям, бруду та плісняви.",
-        description02: "Чистота та свіжість поєднуються з неймовірним ароматом, який залишається на поверхнях та у тканинах. Відпочиньте від домашніх завдань та довіртеся магії &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187.",
-        description03: "Замовте вже сьогодні і відкрийте безмежні можливості для бездоганності Вашого дому.",
-        description04: "<strong>Комплект! Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості.</strong>",
-        description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
-    },
+    // {
+    //     type: "retail",
+    //     url: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600.jpg",
+    //     alt: "ace_candeggina_piu_fresco_profumo_1600",
+    //     url1: "./images/shop/sale/ace_candeggina_piu_fresco_profumo_1600-01.jpg",
+    //     alt1: "ace_candeggina_piu_fresco_profumo_1600-01",
+    //     url2: "./images/shop/household_chemicals/universal_tools/ace_candeggina_piu_fresco_profumo_1600-02.jpg",
+    //     alt2: "ace_candeggina_piu_fresco_profumo_1600-02",
+    //     marker: "SALE010",
+    //     brand: "Ace",
+    //     search: "ейс аце эйс плюс засоби видалення пляма пятновыводитель пятновыдодители кольорові речі цветные вещи для цветных вещей делікатні речі с активным кислородом активный кислород дезинфекция дезинфекція дезінфектор дезінфекція відбілювачі отбеливатель отбеливатели piu засоби проти жиру обезжириватель средство средства против жира аромат свежести",
+    //     nameUKR: "Плямовивідник для білих речей, дезінфектор, від плісняви з відбілювачем, знежирювач з ароматом свіжості",
+    //     nameEN: "Candeggina Più Fresco Profumo + Mousse",
+    //     companyName: "Fater S.P.A.",
+    //     countryName: "Італія",
+    //     volumeName: "Об'єм",
+    //     volume: "1600 мл.",
+    //     priceGRN: 169,
+    //     quantityOnStorage: 2,
+    //     description01: "&#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 - Ваш незамінний помічник у догляді за будинком! Цей революційний засіб - справжній чарівник у Вашій руці. Він є плямовивідником для білих речей, дезинфектором та знежирювачем, одночасно надаючи універсальний захист від плям, бруду та плісняви.",
+    //     description02: "Чистота та свіжість поєднуються з неймовірним ароматом, який залишається на поверхнях та у тканинах. Відпочиньте від домашніх завдань та довіртеся магії &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187.",
+    //     description03: "Замовте вже сьогодні і відкрийте безмежні можливості для бездоганності Вашого дому.",
+    //     description04: "<strong>Комплект! Засіб для виведення плям для білих речей, дезінфектор, знежирювач, засіб для чищення універсальний з відбілювачем, засіб від плісняви. Аромат свіжості.</strong>",
+    //     description05: "Оберіть &#171Ace - Candeggina Più Fresco Profumo + Mousse&#187 для знищення бруду і насолоджуйтеся чистотою та ароматом у своєму домі!"
+    // },
     {
         type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ariel_fleckenentferner.jpg",
@@ -304,7 +304,7 @@ export const shopLotsStainRemovers = [
         description05: "Пориньте у світ бездоганно чистого одягу з &#171Ariel - Fleckenentferner&#187 і забудьте про плями назавжди!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_color_1kg.jpg",
         alt: "at_home_clean_stain_remover_color_1kg",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_color_1kg-01.jpg",
@@ -331,7 +331,7 @@ export const shopLotsStainRemovers = [
         description05: "Подаруйте своїм речам друге життя з &#171at home Clean - Oxygen Stain Remover Color&#187 – справжнім союзником у боротьбі з плямами!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_white_900.jpg",
         alt: "at_home_clean_stain_remover_white_900",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_white_900-01.jpg",
@@ -358,7 +358,7 @@ export const shopLotsStainRemovers = [
         description05: "Зробіть свою білизну бездоганно чистою за допомогою &#171at home Clean - Oxygen Stain Remover White&#187 – ідеального рішення для боротьби з плямами!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/chanteclair_savon_marseille_250.jpg",
     //     alt: "chanteclair_savon_marseille_250",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/chanteclair_savon_marseille_250-01.jpg",
@@ -385,7 +385,7 @@ export const shopLotsStainRemovers = [
     //     description05: "Придбайте марсельське мило &#171Chanteclair - Savon Marseille&#187 вже сьогодні та подаруйте своїм речам традиційну чистоту і турботу!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_con_bicarbonato_ricarica_600.jpg",
         alt: "chanteclair_sgrassatore_universale_con_bicarbonato_ricarica_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_con_bicarbonato_ricarica_600-01.jpg",
@@ -410,7 +410,7 @@ export const shopLotsStainRemovers = [
         description05: "Зробіть свій дім сяючо чистим разом &#171Chanteclair - Sgrassatore Universale Con Bicarbonato&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_600.jpg",
         alt: "chanteclair_sgrassatore_universale_disinfettante_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_600-01.jpg",
@@ -460,7 +460,7 @@ export const shopLotsStainRemovers = [
     //     description05: "Оптимізуйте свою рутину догляду за кольоровим одягом та домівкою зараз - обирайте &#171Chanteclair - Sgrassatore Universale Disinfettante Floral&#187 і насолоджуйтеся бездоганністю кожного дня з приємним ароматом квітів!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_600.jpg",
         alt: "chanteclair_sgrassatore_universale_lavanda_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_600-01.jpg",
@@ -485,7 +485,7 @@ export const shopLotsStainRemovers = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Lavanda&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_ricarica_600.jpg",
     //     alt: "chanteclair_sgrassatore_universale_lavanda_ricarica_600",
     //     url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_lavanda_ricarica_600-01.jpg",
@@ -510,7 +510,7 @@ export const shopLotsStainRemovers = [
     //     description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Lavanda&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_600.jpg",
         alt: "chanteclair_sgrassatore_universale_limone_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_600-01.jpg",
@@ -535,7 +535,7 @@ export const shopLotsStainRemovers = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Limone&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_ricarica_600.jpg",
         alt: "chanteclair_sgrassatore_universale_limone_ricarica_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_limone_ricarica_600-01.jpg",
@@ -560,7 +560,7 @@ export const shopLotsStainRemovers = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Limone&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
         {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_600.jpg",
         alt: "chanteclair_sgrassatore_universale_marsiglia_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_600-01.jpg",
@@ -585,7 +585,7 @@ export const shopLotsStainRemovers = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_ricarica_600.jpg",
         alt: "chanteclair_sgrassatore_universale_marsiglia_ricarica_600",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_marsiglia_ricarica_600-01.jpg",
@@ -610,7 +610,7 @@ export const shopLotsStainRemovers = [
         description05: "Покращте якість прибирання свого дому просто зараз - замовте &#171Chanteclair - Sgrassatore Universale Profumo Di Marsiglia&#187 та створіть неповторний ароматичний шедевр у кожному куточку Вашого життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_aceto_lamponi_625.jpg",
         alt: "chanteclair_vert_aceto_lamponi_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_aceto_lamponi_625-01.jpg",
@@ -635,7 +635,7 @@ export const shopLotsStainRemovers = [
         description05: "Зробіть свій вибір у кілька кліків - замовте &#171Chanteclair - Vert Ecodetergente Multiuso Acoto Con Aceto Di Lamponi&#187 та насолоджуйтеся чистотою, яка дбає про Вас та навколишнє середовище!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_625.jpg",
         alt: "chanteclair_vert_sgrassatore_universale_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_625-01.jpg",
@@ -660,7 +660,7 @@ export const shopLotsStainRemovers = [
         description05: "Зробіть свій вибір на користь якості та екології - замовте &#171Chanteclair - Vert Ecodetergente Sgrassatore Universale&#187 вже сьогодні та насолоджуйтеся бездоганною чистотою у своєму домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_arancia_zenzero_625.jpg",
         alt: "chanteclair_vert_sgrassatore_universale_arancia_zenzero_625",
         url1: "./images/shop/household_chemicals/universal_tools/chanteclair_vert_sgrassatore_universale_arancia_zenzero_625-01.jpg",
@@ -685,7 +685,7 @@ export const shopLotsStainRemovers = [
         description05: "Зробіть свій вибір на користь якості та екології - замовте &#171Chanteclair - Vert Ecodetergente Sgrassatore Universale&#187 вже сьогодні та насолоджуйтеся бездоганною чистотою та неперевершеним ароматом у своєму домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_gallseife_100.jpg",
         alt: "denkmit_gallseife_100",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_gallseife_100-01.jpg",
@@ -718,7 +718,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте жовчне мило &#171Denkmit - Gallseife&#187 вже сьогодні та забезпечте своїм речам неперевершену чистоту і свіжість!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_color.jpg",
         alt: "gallus_fleckentferner_color",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_color-01.jpg",
@@ -745,7 +745,7 @@ export const shopLotsStainRemovers = [
         description05: "Не витрачайте час на марночинні спроби видалити плями за допомогою звичайних засобів. Замовте вже сьогодні &#171Gallus - Fleckentferner Sauerstoffpulver&#187 та дозвольте вашим речам знову сяяти чистотою та бездоганністю."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_weiss.jpg",
         alt: "gallus_fleckentferner_weiss",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_weiss-01.jpg",
@@ -772,7 +772,7 @@ export const shopLotsStainRemovers = [
         description05: "Не чекайте, поки ваша біла білизна втратить свій первинний блиск, а замовляйте плямовивідник &#171Gallus - Sauerstoffbleiche Pulver&#187 вже зараз та насолоджуйтеся відновленою чистотою та яскравістю вашого одягу."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_poder_dual_16.jpg",
         alt: "la_salud_oxy_poder_dual_16",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_poder_dual_16-01.jpg",
@@ -799,7 +799,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте екологічний кисневий плямовивідник &#171La Salud - Oxy Oxy Poder Dual&#187 вже сьогодні та забезпечте своїм речам ідеальну чистоту і свіжість!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_blanca_16.jpg",
         alt: "la_salud_oxy_ropa_blanca_16",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_blanca_16-01.jpg",
@@ -826,7 +826,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте екологічний кисневий плямовивідник &#171La Salud - Oxy Ropa Blanca&#187 вже сьогодні та подаруйте своїм білим речам неперевершену чистоту і сяйво!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_color_16.jpg",
         alt: "la_salud_oxy_ropa_color_16",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_color_16-01.jpg",
@@ -853,7 +853,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте екологічний кисневий плямовивідник &#171La Salud - Oxy Ropa Color&#187 вже сьогодні та забезпечте своїм кольоровим речам ідеальну чистоту та яскравість!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_blanca_1kg.jpg",
         alt: "la_salud_oxy_ropa_blanca_1kg",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_blanca_1kg-01.jpg",
@@ -880,7 +880,7 @@ export const shopLotsStainRemovers = [
         description05: "Відновіть яскравість своїх білих речей з &#171La Salud - Oxy Ropa Blanca&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_color_1kg.jpg",
         alt: "la_salud_oxy_ropa_color_1kg",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_color_1kg-01.jpg",

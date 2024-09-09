@@ -130,7 +130,7 @@ export const shopLotsMeansHandsWashingDishes = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 63,
-        quantityOnStorage: 6,
+        quantityOnStorage: 5,
         description01: "&#171Denkmit - Spülmittel Ultra Lavendel&#187 - це оксамитова м'якість та надзвичайна сила в одному флаконі. Засіб ідеально підходить для вашої кухні, даруючи миттєву свіжість лавандового поля. Він легко видаляє жир і забруднення, забезпечуючи неперевершений блиск вашому посуду.",
         description02: "Лавандовий аромат створює атмосферу затишку і релаксу, доповнюючи ваші кулінарні приготування із задоволенням миття посуду.",
         description03: "&#171Denkmit - Spülmittel Ultra Lavendel&#187 має унікальну формулу, що дозволяє економити воду і сам миючий засіб. Забудьте про неприємні плями та жирні сліди на посуді, завдяки потужній дії цього засобу.",
@@ -323,7 +323,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Придбайте &#171Fit - Original Spülmittel&#187 і насолоджуйтесь чистотою та блиском свого посуду з легкістю і комфортом."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/frosch_zero_detergente_loica_500.jpg",
         alt: "frosch_zero_detergente_loica_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/frosch_zero_detergente_loica_500-01.jpg",
@@ -348,7 +348,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Frosch - Zero% Detergente Loiça Peles Sensíveis&#187 вже сьогодні і насолоджуйтеся безпечним миттям посуду для вашої шкіри та довкілля!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_minze_aloe_850.jpg",
         alt: "gallus_spulmittel_minze_aloe_850",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_minze_aloe_850-01.jpg",
@@ -373,7 +373,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте засіб для миття посуду &#171Gallus - Spülmittel - Minze Duft Mit Aloe Vera Extract&#187 вже сьогодні і зробіть кожне миття посуду справжнім задоволенням!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_zitornen_aloe_850.jpg",
         alt: "gallus_spulmittel_zitornen_aloe_850",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_zitornen_aloe_850-01.jpg",
@@ -542,7 +542,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Зробіть свою кухню бездоганною і блискучою з &#171K-Classic - Spülmittel Konzentrat Ultra Plus&#187, який подарує вам максимальний комфорт та чистоту."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_450.jpg",
         alt: "morning_fresh_apple_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_450-01.jpg",
@@ -567,7 +567,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовте &#171Morning Fresh - Super Corcentrated Apple&#187 зараз і відчуйте різницю вже після першого використання!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_450.jpg",
         alt: "morning_fresh_lemon_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_450-01.jpg",
@@ -592,7 +592,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Morning Fresh - Super Corcentrated Lemon&#187 сьогодні та насолоджуйтесь ідеально чистим посудом щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_450.jpg",
         alt: "morning_fresh_original_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_450-01.jpg",
@@ -617,7 +617,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовте &#171Morning Fresh - Super Corcentrated Original&#187 зараз і зробіть своє миття посуду максимально ефективним!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_450.jpg",
         alt: "morning_fresh_sensitive_aloe_vera_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_450-01.jpg",
@@ -642,7 +642,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Morning Fresh - Super Corcentrated Sensitive + Aloe Vera&#187 зараз і насолоджуйтесь ніжним доглядом під час кожного миття посуду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_900.jpg",
         alt: "morning_fresh_apple_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_900-01.jpg",
@@ -667,7 +667,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовте &#171Morning Fresh - Super Corcentrated Apple&#187 зараз і відчуйте різницю вже після першого використання!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_900.jpg",
         alt: "morning_fresh_original_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_900-01.jpg",
@@ -692,7 +692,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовте &#171Morning Fresh - Super Corcentrated Original&#187 зараз і зробіть своє миття посуду максимально ефективним!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_raspberry_apple_900.jpg",
         alt: "morning_fresh_raspberry_apple_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_raspberry_apple_900-01.jpg",
@@ -717,7 +717,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовте &#171Morning Fresh - Super Corcentrated Raspberry & Apple&#187 зараз і перетворіть рутинне миття посуду на задоволення!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_900.jpg",
         alt: "morning_fresh_sensitive_aloe_vera_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_900-01.jpg",
@@ -742,7 +742,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Morning Fresh - Super Corcentrated Sensitive + Aloe Vera&#187 зараз і насолоджуйтесь ніжним доглядом під час кожного миття посуду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sweet_pea_freesia_900.jpg",
         alt: "morning_fresh_sweet_pea_freesia_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sweet_pea_freesia_900-01.jpg",
@@ -767,7 +767,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовте &#171Morning Fresh - Super Corcentrated Sweet Pea & Freesia&#187 зараз і відчуйте справжню чистоту з кожним миттям!"
     },
     {
-        type: "only-wholesale",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_apfel_5l.jpg",
         alt: "power_wash_apfel_5l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_apfel_5l.jpg",
@@ -790,7 +790,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовляйте &#171Power Wash - Spülmittel Frische Apfel + Minze&#187 вже сьогодні та насолоджуйтеся чистотою, свіжістю і ароматом у кожній краплинці."
     },
     {
-        type: "only-wholesale",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_original_5l.jpg",
         alt: "power_wash_original_5l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_original_5l.jpg",
@@ -813,7 +813,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Не витрачайте час на марні спроби вивести жир або пригорілу їжу - &#171Power Wash - Spülmittel Original&#187 зробить це за вас. Віддайте перевагу якості та надійності, яку можна відчути!"
     },
     {
-        type: "only-wholesale",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_zitrone_5l.jpg",
         alt: "power_wash_zitrone_5l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_zitrone_5l.jpg",
@@ -884,7 +884,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Зробіть процес миття посуду приємним і результативним з &#171Pril - Original Fettlösekraft Frische Minze&#187, який дарує бездоганну чистоту та свіжість в кожному митті навіть у холодній воді."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_apfel_415.jpg",
         alt: "vir_apfel_415",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_apfel_415-01.jpg",
@@ -909,7 +909,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Vir - Spülmittel Apfel&#187 вже сьогодні і перетворіть миття посуду на справжнє задоволення!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_flieder_415.jpg",
         alt: "vir_flieder_415",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_flieder_415-01.jpg",
@@ -934,7 +934,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовляйте &#171Vir - Spülmittel Flieder&#187 вже сьогодні і насолоджуйтеся миттям посуду з ароматом бузку!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_zitrone_415.jpg",
         alt: "vir_zitrone_415",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_zitrone_415-01.jpg",

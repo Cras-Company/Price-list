@@ -33,7 +33,7 @@ export const shopLotsNoodles = [
     //     description05: "Подаруйте собі смак Італії, замовивши &#171Barilla - Tagliatelle №16&#187 вже сьогодні!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/pasta/noodles/pasta_reggia_fettuce_500.jpg",
         alt: "pasta_reggia_fettuce_500",
         url1: "./images/shop/food/pasta/noodles/pasta_reggia_fettuce_500-01.jpg",

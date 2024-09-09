@@ -1,6 +1,6 @@
 export const shopLotsScentBoosterGranuls = [
     {
-        type: "retaile",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/fairy_scent_booster_almond_manuka_245.jpg",
         alt: "fairy_scent_booster_almond_manuka_245",
         url1: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/fairy_scent_booster_almond_manuka_245-01.jpg",
@@ -17,7 +17,7 @@ export const shopLotsScentBoosterGranuls = [
         weightName: "Вага",
         weight: "245 гр.",
         priceGRN: 260,
-        quantityOnStorage: 8,
+        quantityOnStorage: 5,
         description01: "Відкрийте для себе світ неймовірного аромату та надзвичайної свіжості з дитячим парфумом у гранулах &#171Fairy - Fresh Almond Milk & Manuka Honey Scent&#187.",
         description02: "Цей продукт витончено поєднує аромат мигдального молока та меду Манука, надаючи вашій білизні не лише неперевершену чистоту, але й надзвичайно приємний аромат.",
         description03: "Бажаєте, щоб ваша білизна не лише сяяла, але й пахла чарівно? Ви неодмінно захочете вибрати &#171Fairy - Fresh Almond Milk & Manuka Honey Scent&#187, щоб кожен дотик до одягу вашого малюка приносив насолоду ароматною свіжістю.",
@@ -225,7 +225,7 @@ export const shopLotsScentBoosterGranuls = [
         description05: "Надайте своєму пранню новий стандарт аромату - замовте &#171Lenor - UN Stoppables Fresh&#187 зараз та перетворіть свою білизну на оазис свіжості!"
     },
     {
-        type: "retaile",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_scent_booster_active_264.jpg",
         alt: "lenor_scent_booster_active_264",
         url1: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_scent_booster_active_264-01.jpg",
@@ -250,7 +250,7 @@ export const shopLotsScentBoosterGranuls = [
         description05: "Насолоджуйтеся свіжістю та ароматом кожного прання - замовте &#171Lenor - UN Stoppables Active&#187 прямо зараз та насолоджуйтесь активним спортом!"
     },
     {
-        type: "retaile",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_scent_booster_fresh_264.jpg",
         alt: "lenor_scent_booster_fresh_264",
         url1: "./images/shop/household_chemicals/laundry_detergents/scent_booster_granuls/lenor_scent_booster_fresh_264-01.jpg",

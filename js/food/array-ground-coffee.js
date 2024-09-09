@@ -92,7 +92,7 @@ export const shopLotsGroundCoffee = [
         description05: "Не вагайтеся, додайте &#171Bellarom - Gold&#187 до свого кошика та розкрийте всю розкіш італійського кавового досвіду!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/drinks/ground_coffee/bellarom_viennese_style_250.jpg",
     //     alt: "bellarom_viennese_style_250",
     //     url1: "./images/shop/food/drinks/ground_coffee/bellarom_viennese_style_250-01.jpg",
@@ -121,7 +121,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Спробуйте &#171Bellarom - Viennese Style&#187 і подаруйте собі чарівний аромат Відня кожного дня!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/dallmayr_classic_krafting_500.jpg",
         alt: "dallmayr_classic_krafting_500",
         url1: "./images/shop/food/drinks/ground_coffee/dallmayr_classic_krafting_500-01.jpg",
@@ -152,7 +152,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Dallmayr - Classic Kräftig&#187 вже зараз і зануртеся у світ насиченої кавової експертизи, перетворюючи кожен свій момент у витончену насолоду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/dallmayr_ethiopia_500.jpg",
         alt: "dallmayr_ethiopia_500",
         url1: "./images/shop/food/drinks/ground_coffee/dallmayr_ethiopia_500-01.jpg",
@@ -183,7 +183,7 @@ export const shopLotsGroundCoffee = [
         description05: "Подаруйте собі унікальний досвід кавового задоволення з &#171Dallmayr - Ethiopia&#187. Придбайте його прямо зараз та відчуйте справжню екзотику у кожному ковтку!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/dallmayr_promodo_500.jpg",
         alt: "dallmayr_promodo_500",
         url1: "./images/shop/food/drinks/ground_coffee/dallmayr_promodo_500-01.jpg",
@@ -214,7 +214,7 @@ export const shopLotsGroundCoffee = [
         description05: "Придбайте D&#171Dallmayr - Promodo&#187 прямо зараз і перетворіть кожен свій день на чарівний момент насолоди!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/himmel_gold_500.jpg",
         alt: "himmel_gold_500",
         url1: "./images/shop/food/drinks/ground_coffee/himmel_gold_500-01.jpg",
@@ -243,7 +243,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовляйте &#171Himmel Kaffee - Gold&#187 вже сьогодні і переконайтеся, що найкраще - завжди ближче, ніж Ви думаєте!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/drinks/ground_coffee/himmel_platin_250.jpg",
     //     alt: "himmel_platin_250",
     //     url1: "./images/shop/food/drinks/ground_coffee/himmel_platin_250-01.jpg",
@@ -270,7 +270,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Замовте  &#171Himmel Kaffee - Platin&#187 вже зараз і перетворіть кожен Ваш день у феєричний ритуал насолоди кавовим витонченням!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/drinks/ground_coffee/himmel_silber_500.jpg",
     //     alt: "himmel_silber_500",
     //     url1: "./images/shop/food/drinks/ground_coffee/himmel_silber_500-01.jpg",
@@ -299,7 +299,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Замовте &#171Himmel Kaffee - Silber&#187 прямо зараз та відкрийте для себе вишукану культуру кави, яка робить кожен Ваш день вишуканим та винятковим!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/illy_classico_250.jpg",
         alt: "illy_classico_250",
         url1: "./images/shop/food/drinks/ground_coffee/illy_classico_250-01.jpg",
@@ -326,7 +326,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Illy - Classico&#187 прямо зараз і відчуйте безмежну приємність італійської кавової елегантності!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/illy_espresso_dark_250.jpg",
         alt: "illy_espresso_dark_250",
         url1: "./images/shop/food/drinks/ground_coffee/illy_espresso_dark_250-01.jpg",
@@ -351,7 +351,7 @@ export const shopLotsGroundCoffee = [
         description05: "Зробіть свій ранок чи кавовий перерву вишуканим - замовте &#171Illy - Espresso Dark Roast&#187 вже сьогодні і поглибтеся у світ італійської кавової елегантності!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_crema_gusto_metal_250.jpg",
         alt: "lavazza_crema_gusto_metal_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_crema_gusto_metal_250-01.jpg",
@@ -376,7 +376,7 @@ export const shopLotsGroundCoffee = [
         description05: "Оберіть вищий стандарт і замовте &#171Lavazza - Crema E Aroma&#187 зараз та насолоджуйтеся унікальним італійським смаком прямо вдома!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_crema_gusto_250.jpg",
         alt: "lavazza_crema_gusto_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_crema_gusto_250-01.jpg",
@@ -405,7 +405,7 @@ export const shopLotsGroundCoffee = [
         description05: "Оберіть вищий стандарт і замовте &#171Lavazza - Crema E Aroma&#187 зараз та насолоджуйтеся унікальним італійським смаком прямо вдома!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_oro_mount_metal_250.jpg",
         alt: "lavazza_oro_mount_metal_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_oro_mount_metal_250-01.jpg",
@@ -432,7 +432,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте свою &#171Lavazza - Oro Mountain Grown&#187 прямо зараз та відкрийте для себе вишуканість гірського аромату та насиченого італійського смаку у кожній чашці!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_oro_mount_340.jpg",
         alt: "lavazza_oro_mount_340",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_oro_mount_340-01.jpg",
@@ -459,7 +459,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте свою &#171Lavazza - Oro Mountain Grown&#187 прямо зараз та відкрийте для себе вишуканість гірського аромату та насиченого італійського смаку у кожній чашці!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_oro_perfect_metal_250.jpg",
         alt: "lavazza_oro_perfect_metal_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_oro_perfect_metal_250-01.jpg",
@@ -486,7 +486,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Lavazza - Oro Perfect Symphony&#187 прямо зараз та насолоджуйтеся келихом італійського еспресо, який осяє елегантністю та смаком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_oro_perfect_250.jpg",
         alt: "lavazza_oro_perfect_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_oro_perfect_250-01.jpg",
@@ -517,7 +517,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Lavazza - Oro Perfect Symphony&#187 прямо зараз та насолоджуйтеся келихом італійського еспресо, який осяє елегантністю та смаком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_rossa_metal_250.jpg",
         alt: "lavazza_rossa_metal_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_rossa_metal_250-01.jpg",
@@ -544,7 +544,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовляйте &#171Lavazza - Rossa&#187 вже зараз та дозвольте собі насолодитися неперевершеним смаком італійської кави прямо у вашому домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_rossa_250.jpg",
         alt: "lavazza_rossa_250",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_rossa_250-01.jpg",
@@ -575,7 +575,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовляйте &#171Lavazza - Rossa&#187 вже зараз та дозвольте собі насолодитися неперевершеним смаком італійської кави прямо у вашому домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_tierra_africa_180.jpg",
         alt: "lavazza_tierra_africa_180",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_tierra_africa_180-01.jpg",
@@ -606,7 +606,7 @@ export const shopLotsGroundCoffee = [
         description05: "Почніть свій ранок справжньою якістю - замовте &#171Lavazza - Tierra Bio-Organic For Africa&#187 вже сьогодні та відкрийте для себе світ ексклюзивного кавового досвіду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_tierra_amazonia_180.jpg",
         alt: "lavazza_tierra_amazonia_180",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_tierra_amazonia_180-01.jpg",
@@ -637,7 +637,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Lavazza - Tierra Bio-Organic For Amazonia&#187 прямо зараз і зануртеся у неймовірний світ ароматів Амазонії кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_tierra_planet_180.jpg",
         alt: "lavazza_tierra_planet_180",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_tierra_planet_180-01.jpg",
@@ -668,7 +668,7 @@ export const shopLotsGroundCoffee = [
         description05: "Долучтеся до руху за збереження нашої планети - замовте &#171Lavazza - Tierra Bio-Organic For Planet&#187 прямо зараз і зануртеся у безмежний світ смаку!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_tierre_brasile_180.jpg",
         alt: "lavazza_tierre_brasile_180",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_tierre_brasile_180-01.jpg",
@@ -693,7 +693,7 @@ export const shopLotsGroundCoffee = [
         description05: "Зробіть крок до справжнього смакового відкриття - замовте &#171Lavazza - Tierra Brasile&#187 прямо зараз і дозвольте собі зануритися у безмежний світ бразильської кавової вишуканості!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_tierre_wellness_180.jpg",
         alt: "lavazza_tierre_wellness_180",
         url1: "./images/shop/food/drinks/ground_coffee/lavazza_tierre_wellness_180-01.jpg",
@@ -724,7 +724,7 @@ export const shopLotsGroundCoffee = [
         description05: "Відчуйте вплив здорової насолоди - замовте &#171Lavazza - Tierra Wellness&#187 вже сьогодні і відкрийте для себе елегантний світ смаку та здоров'я!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/movenpick_caffe_crema_500.jpg",
         alt: "movenpick_caffe_crema_500",
         url1: "./images/shop/food/drinks/ground_coffee/movenpick_caffe_crema_500-01.jpg",
@@ -755,7 +755,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте свій &#171Mövenpick - Caffѐ Crema&#187 зараз і зануртесь у світ непередаваної якості та задоволення від вишуканої італійської кави!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/movenpick_classic_500.jpg",
         alt: "movenpick_classic_500",
         url1: "./images/shop/food/drinks/ground_coffee/movenpick_classic_500-01.jpg",
@@ -786,7 +786,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Mövenpick - Classic&#187 прямо зараз і відкрийте для себе елітний світ справжньої кавової естетики!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/movenpick_der_himmlische_500.jpg",
         alt: "movenpick_der_himmlische_500",
         url1: "./images/shop/food/drinks/ground_coffee/movenpick_der_himmlische_500-01.jpg",
@@ -817,7 +817,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте &#171Mövenpick - Der Himmlische&#187 прямо зараз і зануртесь у нирвану неперевершеного смаку, яка залишить незабутні враження!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/movenpick_edle_komposition_500.jpg",
         alt: "movenpick_edle_komposition_500",
         url1: "./images/shop/food/drinks/ground_coffee/movenpick_edle_komposition_500-01.jpg",
@@ -848,7 +848,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте свою упаковку &#171Mövenpick - Edle Komposition&#187 прямо зараз і даруйте собі унікальний кавовий досвід, який надовго залишиться у пам'яті!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/swisso_reich_rosten_500.jpg",
         alt: "swisso_reich_rosten_500",
         url1: "./images/shop/food/drinks/ground_coffee/swisso_reich_rosten_500-01.jpg",

@@ -1,6 +1,6 @@
 export const shopLotsCheese = [
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/dairy/cheese/g_g_gouda_mittelalt_450.jpg",
     //     alt: "g_g_gouda_mittelalt_450",
     //     url1: "./images/shop/food/dairy/cheese/g_g_gouda_mittelalt_450.jpg",
@@ -209,7 +209,7 @@ export const shopLotsCheese = [
     //     description05: "Дозвольте смаку вашого життя піднятися на новий рівень – обирайте сир &#171Mlekpol - Ser Jantar&#187 прямо зараз та даруйте собі непередбачену кулінарну насолоду!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_30_mesi_250.jpg",
         alt: "parmareggio_parmigiano_reggiano_30_mesi_250",
         url1: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_30_mesi_250.jpg",
@@ -232,7 +232,7 @@ export const shopLotsCheese = [
         description05: "Не втрачайте можливості спробувати &#171Parmareggio - Parmigiano Reggiano 30 Mesi&#187 - доторкніться до смакової вишуканості Італії вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_naturale_30_mesi_250.jpg",
         alt: "parmareggio_parmigiano_reggiano_naturale_30_mesi_250",
         url1: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_naturale_30_mesi_250.jpg",

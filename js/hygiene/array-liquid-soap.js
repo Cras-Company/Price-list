@@ -1,6 +1,6 @@
 export const shopLotsLiquidSoap = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_blueberry_1000.jpg",
         alt: "gallus_blueberry_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_blueberry_1000-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте рідке мило &#171Gallus - Handseife Blueberry&#187 прямо зараз і надайте своїй шкірі ніжність, яку вона заслуговує!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_milk_honey_1000.jpg",
         alt: "gallus_milk_honey_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_milk_honey_1000-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsLiquidSoap = [
         description05: "Зробіть перший крок у світ найвищого догляду за шкірою - замовте &#171Gallus - Handseife Milk & Honey&#187 прямо зараз!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_olive_1000.jpg",
         alt: "gallus_olive_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_olive_1000-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте &#171Gallus - Handseife Olive&#187 зараз, щоб відчути ефективність оливкової олії та доторкнутися до найвищого стандарту догляду за шкірою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_white_tea_1000.jpg",
         alt: "gallus_white_tea_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_white_tea_1000-01.jpg",
@@ -100,7 +100,7 @@ export const shopLotsLiquidSoap = [
         description05: "Почніть діяти зараз, замовивши &#171Gallus - Handseife White Tea&#187 - тому що Ви заслуговуєте на розкішний догляд!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250.jpg",
         alt: "lifebuoy_carring_hanwash_anti_250",
         url1: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250-01.jpg",
@@ -125,7 +125,7 @@ export const shopLotsLiquidSoap = [
         description05: "Придбайте антибактеріальне рідке мило &#171Lifebuoy - Caring Handwash Anti-Bacterial Ingridient&#187 з молочним кремом вже сьогодні та надайте Вашим рукам надійний захист і догляд!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400.jpg",
         alt: "luksja_cotton_b5_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400-01.jpg",
@@ -150,7 +150,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте кремове рідке мило &#171Luksja - Cotton Milk & Provitamin B5&#187 вже зараз, і дозвольте своїй шкірі відчути елегантність та неперевершений дотик!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
         alt: "luksja_linseed_rice_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
@@ -173,7 +173,7 @@ export const shopLotsLiquidSoap = [
         description05: "Тільки один крок відокремлює Вас від найбільшого задоволення догляду за шкірою - додайте кремове рідке мило &#171Luksja - Linseed & Rice Milk&#187 у свій кошик!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
     //     alt: "luksja_linseed_rice_400",
     //     marker: "LQSP335",
@@ -194,7 +194,7 @@ export const shopLotsLiquidSoap = [
     //     description05: "Тільки один крок відокремлює Вас від найбільшого задоволення догляду за шкірою - додайте кремове рідке мило &#171Luksja - Linseed & Rice Milk&#187 у свій кошик!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_rose_milk_400.jpg",
         alt: "luksja_rose_milk_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_rose_milk_400-01.jpg",
@@ -219,7 +219,7 @@ export const shopLotsLiquidSoap = [
         description05: "Придбайте &#171Luksja - Rose & Milk Proteins&#187 зараз та вирушайте у подорож ніжності та аромату, що розцвітає у кожній краплинці цього кремового мила!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400.jpg",
         alt: "luksja_cotton_b5_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400-01.jpg",
@@ -244,7 +244,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте кремове рідке мило &#171Luksja - Cotton Milk & Provitamin B5&#187 вже зараз, і дозвольте своїй шкірі відчути елегантність та неперевершений дотик!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_olive_yogurt_400.jpg",
         alt: "luksja_olive_yogurt_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_olive_yogurt_400-01.jpg",
@@ -269,7 +269,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте &#171Luksja - Olive & Yogurt&#187 зараз та насолоджуйтеся витонченим доглядом, який подарує вашій шкірі природну м'якість та бадьорість!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/malizia_liquid_soap_antibacterail_1l.jpg",
         alt: "malizia_liquid_soap_antibacterail_1l",
         url1: "./images/shop/gigiena/soap/liquid_soap/malizia_liquid_soap_antibacterail_1l-01.jpg",
@@ -319,7 +319,7 @@ export const shopLotsLiquidSoap = [
         description05: "Зробіть перший крок до вищого рівня догляду за шкірою – замовте рідке мило &#171Milmil - Sapone Liquido Con Antibatterico Naturale Iris&#187 прямо зараз!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_crema_sapone_orchidea_500.jpg",
         alt: "milmil_crema_sapone_orchidea_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_crema_sapone_orchidea_500-01.jpg",
@@ -344,7 +344,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовляйте &#171Milmil - Crema Sapone Orchidea E Seta&#187 зараз і подаруйте собі незабутні відчуття ніжності та свіжості кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_sapone_liquido_marsiglia_500.jpg",
         alt: "milmil_sapone_liquido_marsiglia_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_sapone_liquido_marsiglia_500-01.jpg",
@@ -369,7 +369,7 @@ export const shopLotsLiquidSoap = [
         description05: "Купуйте &#171Milmil - Sapone Liquido Marsiglia&#187 вже сьогодні і відчуйте істинний догляд з натуральними компонентами кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_aloe_2l.jpg",
         alt: "milmil_aloe_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_aloe_2l-01.jpg",
@@ -394,7 +394,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте &#171Milmil - Sapone Liquido Aloe Vera&#187 прямо зараз і подаруйте своїй шкірі найкращий догляд, який вона заслуговує. Відчуйте ефект заспокійливої свіжості завдяки алое вера!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_argan_miele_2l.jpg",
         alt: "milmil_argan_miele_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_argan_miele_2l-01.jpg",
@@ -419,7 +419,7 @@ export const shopLotsLiquidSoap = [
         description05: "Подаруйте своїй шкірі приховану розкіш разом з &#171Milmil - Sapone Liquido Argan & Miele&#187, яка зачаровує з першого дотику!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l.jpg",
         alt: "milmil_cocco_vaniglia_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l-01.jpg",
@@ -444,7 +444,7 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187 прямо зараз та даруйте своїй шкірі елітний догляд з кокосом та ваніллю, на який вона заслуговує!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_delicatezza_avvolgente_2l.jpg",
         alt: "milmil_delicatezza_avvolgente_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_delicatezza_avvolgente_2l-01.jpg",
@@ -469,7 +469,7 @@ export const shopLotsLiquidSoap = [
         description05: "Надзвичайний аромат і делікатна текстура &#171Milmil - Dermo Sapone Delicatezza Avvolgente&#187 чекають на Вас, щоб зробити кожен момент догляду неповторним та ніжним!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_muschio_bianco_2l.jpg",
         alt: "milmil_muschio_bianco_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_muschio_bianco_2l-01.jpg",
@@ -494,7 +494,7 @@ export const shopLotsLiquidSoap = [
         description05: "Подаруйте своїй шкірі елітний догляд і вражаючий аромат білого мускусу з &#171Milmil - Sapone Liquido Muschio Bianco&#187, щоб кожен день став справжнім святом для вашого тіла!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_talco_iris_2l.jpg",
         alt: "milmil_talco_iris_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_talco_iris_2l-01.jpg",
@@ -519,7 +519,7 @@ export const shopLotsLiquidSoap = [
         description05: "Не вагайтеся та замовте &#171Milmil - Sapone Liquido Talco & Iris&#187, щоб перетворити кожен день в експлозію аромату та ніжності для вашої шкіри!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_yellow_1000.jpg",
         alt: "molly_fluddigseife_yellow_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_yellow_1000-01.jpg",
@@ -544,7 +544,7 @@ export const shopLotsLiquidSoap = [
         description05: "Придбайте антибактеріальне рідке мило &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187 з олією чайного дерева та фруктами вже сьогодні і насолоджуйтеся відчуттям бездоганної чистоти та догляду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_blue_1000.jpg",
         alt: "molly_fluddigseife_blue_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_blue_1000-01.jpg",

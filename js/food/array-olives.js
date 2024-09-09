@@ -1,6 +1,6 @@
 export const shopLotsOlives = [
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/olives/baresa_czarne_oliwki_bez_340.jpg",
     //     alt: "baresa_czarne_oliwki_bez_340",
     //     url1: "./images/shop/food/olives_oil/olives/baresa_czarne_oliwki_bez_340.jpg",
@@ -23,7 +23,7 @@ export const shopLotsOlives = [
     //     description05: "Замовте чорні оливки без кісточки &#171Baresa - Czarne Oliwki Bez Pestek&#187 зараз і дозвольте собі насолоджуватися ексклюзивним смаком кожен день!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/olives_oil/olives/baresa_zielone_oliwki_bez_340.jpg",
     //     alt: "baresa_zielone_oliwki_bez_340",
     //     url1: "./images/shop/food/olives_oil/olives/baresa_zielone_oliwki_bez_340.jpg",
@@ -115,7 +115,7 @@ export const shopLotsOlives = [
     //     description05: "Спробуйте ці витончені оливки &#171El Toro Rojo - Oliwki Zielone&#187 та відчуйте у собі справжню силу сонця Іспанії!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olives/helcom_oliwli_czarne_330.jpg",
         alt: "helcom_oliwli_czarne_330",
         url1: "./images/shop/food/olives_oil/olives/helcom_oliwli_czarne_330-01.jpg",
@@ -142,7 +142,7 @@ export const shopLotsOlives = [
         description05: "Придбайте &#171Helcom - Oliwki Czarne Drylowane&#187 вже сьогодні і підніміть свої кулінарні враження на новий рівень!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olives/helcom_oliwli_zielone_330.jpg",
         alt: "helcom_oliwli_zielone_330",
         url1: "./images/shop/food/olives_oil/olives/helcom_oliwli_zielone_330-01.jpg",
@@ -169,7 +169,7 @@ export const shopLotsOlives = [
         description05: "Замовте зараз &#171Helcom - Oliwki Zielone Drylowane&#187 і насолоджуйтесь ідеальним поєднанням смаку та користі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_350.jpg",
         alt: "hutesa_olives_pitted_black_350",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_350-01.jpg",
@@ -196,7 +196,7 @@ export const shopLotsOlives = [
         description05: "Поглибтеся у світ екзотичних вражень і пройдіть шляхом смакових відкриттів разом з &#171Hutesa - Olive Pitted&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_350.jpg",
         alt: "hutesa_olives_pitted_green_350",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_350-01.jpg",
@@ -223,7 +223,7 @@ export const shopLotsOlives = [
         description05: "Не вагайтеся – замовте зелені оливки без кісточок &#171Hutesa - Olive Pitted&#187 вже зараз і зануртеся у безмежний світ смакових вражень, які Вам принесуть подолання гастрономічних вершин!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_900.jpg",
         alt: "hutesa_olives_pitted_black_900",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_900-01.jpg",
@@ -250,7 +250,7 @@ export const shopLotsOlives = [
         description05: "Поглибтеся у світ екзотичних вражень і пройдіть шляхом смакових відкриттів разом з &#171Hutesa - Olive Pitted&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_900.jpg",
         alt: "hutesa_olives_pitted_green_900",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_900-01.jpg",

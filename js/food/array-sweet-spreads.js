@@ -1,6 +1,6 @@
 export const shopLotsSweetSpreads = [
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
     //     alt: "chocofini_krem_shoko_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
@@ -23,7 +23,7 @@ export const shopLotsSweetSpreads = [
     //     description05: "Пориньте у світ солодких вражень з &#171Chocofini - Krem O Smaku Czekoladowym&#187 та відчуйте справжню радість шоколадного вибуху!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
     //     alt: "chocofini_krem_shoko_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400-01.jpg",
@@ -48,7 +48,7 @@ export const shopLotsSweetSpreads = [
     //     description05: "Пориньте у світ солодких вражень з &#171Chocofini - Krem O Smaku Czekoladowym&#187 та відчуйте справжню радість шоколадного вибуху!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
     //     alt: "chocofini_krem_shoko_nuts_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
@@ -71,7 +71,7 @@ export const shopLotsSweetSpreads = [
     //     description05: "Не втратьте можливість спробувати цей смаковий шедевр та замовте &#171Chocofini - Krem O Smaku Czekoladowo - Orzechowym&#187 прямо зараз!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
     //     alt: "chocofini_krem_shoko_nuts_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400-01.jpg",

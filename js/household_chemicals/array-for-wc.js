@@ -77,7 +77,7 @@ export const shopLotsForWC = [
     //     description05: "Зробіть свій будинок чистим і охайним разом з &#171at home Clean - All Purpose Lime & Eucalyptus&#187, який створить атмосферу затишку та чистоти в кожному куточку вашого дому."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_cistern_block_blue_water_50.jpg",
         alt: "brait_cistern_block_blue_water_50",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_cistern_block_blue_water_50-01.jpg",
@@ -102,7 +102,7 @@ export const shopLotsForWC = [
         description05: "Насолоджуйтеся приємним ароматом та кришталево чистою водою та перетворіть догляд за туалетом у задоволення з &#171Brait - Cistern Block Blue Water Effect&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_cistern_block_green_water_50.jpg",
         alt: "brait_cistern_block_green_water_50",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_cistern_block_green_water_50-01.jpg",
@@ -127,7 +127,7 @@ export const shopLotsForWC = [
         description05: "Ваш туалет буде наповнений приємним ароматом, тому спробуйте &#171Brait - Cistern Block Green Water Effect&#187 для неперевершеної чистоти та свіжості!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_lilac_garden_3x45.jpg",
         alt: "brait_lilac_garden_3x45",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_lilac_garden_3x45-01.jpg",
@@ -152,7 +152,7 @@ export const shopLotsForWC = [
         description05: "Очистіть свій туалет від вапняного нальоту з &#171Brait - Lilac Garden&#187 сьогодні, і насолоджуйтесь чистотою та свіжістю в вашій ванній кімнаті!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_oceanic_3x45.jpg",
         alt: "brait_oceanic_3x45",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_oceanic_3x45-01.jpg",
@@ -177,7 +177,7 @@ export const shopLotsForWC = [
         description05: "Допоможіть Вашому туалету стати місцем чистоти та свіжості, без сліду від вапняного нальоту разом з &#171Brait - Oceanic&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_pine_3x45.jpg",
         alt: "brait_pine_3x45",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_pine_3x45-01.jpg",
@@ -327,7 +327,7 @@ export const shopLotsForWC = [
         description05: "Надай своєму дому аромат весни з &#171Denkmit - Allzweckreiniger Frühlings Moment&#187, і твоя домівка буде пахнути ніжними квітами і випромінювати чистоту та затишок."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc_reineiger_1l.jpg",
         alt: "denkmit_wc_reineiger_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc_reineiger_1l-01.jpg",
@@ -352,7 +352,7 @@ export const shopLotsForWC = [
         description05: "Покажіть своїй ванні кімнаті, що вона заслуговує на краще! Замовте &#171Denkmit - WC-Reiniger Ozean Frische&#187 вже сьогодні та даруйте своєму унітазу освіжаючу атмосферу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-tabs_16.jpg",
         alt: "denkmit_wc-tabs_16",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-tabs_16-01.jpg",
@@ -379,7 +379,7 @@ export const shopLotsForWC = [
         description05: "Замовляйте вже сьогодні та підтримуйте ідеальну чистоту за допомогою таблеток &#171Denkmit - WC-Tabs Mit 3-Phasen-Kraft&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-wasserkasten-tabletten_4.jpg",
         alt: "denkmit_wc-wasserkasten-tabletten_4",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-wasserkasten-tabletten_4-01.jpg",
@@ -483,7 +483,7 @@ export const shopLotsForWC = [
     //     description05: "Зробіть свій будинок бездоганно чистим з &#171Der General - Universal Bergfrühling&#187, який надає Вашому дому приємний аромат і надійний захист від бактерій."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/gallus_oriental_flowers_2x45.jpg",
         alt: "gallus_oriental_flowers_2x45",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/gallus_oriental_flowers_2x45-01.jpg",
@@ -508,7 +508,7 @@ export const shopLotsForWC = [
         description05: "Просто зачепіть блок &#171Gallus - Oriental Flowers&#187 у Вашому туалеті і насолоджуйтеся чистотою та ароматом, які він надає!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/gallus_tropical_flowers_2x45.jpg",
         alt: "gallus_tropical_flowers_2x45",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/gallus_tropical_flowers_2x45-01.jpg",
@@ -683,7 +683,7 @@ export const shopLotsForWC = [
         description05: "Зробіть прибирання приємною насолодою разом з &#171K-Classic - Allesreiniger Tropical Flower&#187, який подарує Вашому дому чистоту і аромат тропічного райського саду."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_cerezo_1l.jpg",
         alt: "la_salud_wc_cerezo_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_cerezo_1l-01.jpg",
@@ -708,7 +708,7 @@ export const shopLotsForWC = [
         description05: "Придбайте La Salud - Gel WC Flor De Cerezo&#171La Salud - Gel WC Flor De Cerezo&#187 вже сьогодні та подаруйте своєму туалету неперевершену чистоту і свіжість!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_ocean_1l.jpg",
         alt: "la_salud_wc_ocean_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_ocean_1l-01.jpg",
@@ -733,7 +733,7 @@ export const shopLotsForWC = [
         description05: "Придбайте  &#171La Salud - Gel WC Ocean& вже сьогодні та насолоджуйтесь бездоганною чистотою і свіжістю вашого туалету!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_oxi_eucalipto_1l.jpg",
         alt: "la_salud_wc_oxi_eucalipto_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_oxi_eucalipto_1l-01.jpg",
@@ -758,7 +758,7 @@ export const shopLotsForWC = [
         description05: "Очистіть свій туалет швидко та ефективно з &#171La Salud - Oxi Active Eucalipto&#187 - Ваш ключ до бездоганної чистоти та свіжості!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_pine_1l.jpg",
         alt: "la_salud_wc_pine_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_pine_1l-01.jpg",

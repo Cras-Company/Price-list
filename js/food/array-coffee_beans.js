@@ -187,7 +187,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Не втрачайте можливості насолоджуватися справжньою кавою. Придбайте &#171Cafe D`Or - Espresso 100% Arabica&#187; і відчуйте магію кавового світу."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/cafe_intencion_crema_aromatico_1kg.jpg",
         alt: "cafe_intencion_crema_aromatico_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/cafe_intencion_crema_aromatico_1kg-01.jpg",
@@ -216,7 +216,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте пристрасть у кожному зерні &#171Café Intención - Crema Aromatico&#187 прямо зараз та даруйте собі унікальний смаковий досвід, який перевершує всі очікування!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_dolce_1kg.jpg",
         alt: "dallmayr_barista_dolce_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_dolce_1kg-01.jpg",
@@ -245,7 +245,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте прямо зараз &#171Dallmayr - Home Barista Caffé Crema Dolce&#187 та відкрийте для себе новий стандарт задоволення у світі кави, дозволяючи своїм смаковим почуттям насолоджуватися неперевершеним смаком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_forte_1kg.jpg",
         alt: "dallmayr_barista_forte_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_forte_1kg-01.jpg",
@@ -274,7 +274,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Dallmayr - Home Barista Caffé Crema Forte&#187 зараз, і дозвольте собі насолоджуватися кожним ковтком цього кавового шедевра, який стане частиною вашого ранку!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/illy_classico_250.jpg",
         alt: "illy_classico_250",
         url1: "./images/shop/food/drinks/coffee_beans/illy_classico_250-01.jpg",
@@ -301,7 +301,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Illy - Classico&#187 прямо зараз і відчуйте безмежну приємність італійської кавової елегантності!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_crema_aroma_1000.jpg",
         alt: "lavazza_crema_aroma_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_crema_aroma_1000-01.jpg",
@@ -332,7 +332,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Оберіть вищий стандарт і замовте &#171Lavazza - Crema E Aroma&#187 зараз та насолоджуйтеся унікальним італійським смаком прямо вдома!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_crema_gusto_1000.jpg",
         alt: "lavazza_crema_gusto_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_crema_gusto_1000-01.jpg",
@@ -361,7 +361,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Оберіть вищий стандарт і замовте &#171Lavazza - Crema E Aroma&#187 зараз та насолоджуйтеся унікальним італійським смаком прямо вдома!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_oro_500.jpg",
         alt: "lavazza_oro_500",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_oro_500-01.jpg",
@@ -390,7 +390,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Lavazza - Oro Perfect Symphony&#187 прямо зараз та насолоджуйтеся келихом італійського еспресо, який осяє елегантністю та смаком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_oro_1000.jpg",
         alt: "lavazza_oro_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_oro_1000-01.jpg",
@@ -419,7 +419,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Lavazza - Oro Perfect Symphony&#187 прямо зараз та насолоджуйтеся келихом італійського еспресо, який осяє елегантністю та смаком!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_rossa_1000.jpg",
         alt: "lavazza_rossa_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_rossa_1000-01.jpg",
@@ -448,7 +448,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовляйте &#171Lavazza - Rossa&#187 вже зараз та дозвольте собі насолодитися неперевершеним смаком італійської кави прямо у вашому домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_suerte_1000.jpg",
         alt: "lavazza_suerte_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_suerte_1000-01.jpg",
@@ -477,7 +477,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Lavazza - Suerte&#187 вже зараз та вкрай приємно здивуйте свій смак, насолоджуючись неперевершеною італійською кавою у кожній чашці!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_500.jpg",
         alt: "movenpick_barista_espresso_500",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_500-01.jpg",
@@ -506,7 +506,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Зробіть вибір на користь вишуканої кави - замовте &#171Mövenpick - Barista Espresso&#187 прямо зараз та дозвольте собі насолоджуватися вишуканою якістю, яка виникає тільки у світі найкращої кави!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_500.jpg",
         alt: "movenpick_crema_autentico_500",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_500-01.jpg",
@@ -535,7 +535,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Mövenpick - Crema Auténtico&#187 вже зараз та відкрийте для себе новий стандарт задоволення у світі кави!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_ital_1kg.jpg",
         alt: "movenpick_crema_ital_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_crema_ital_1kg-01.jpg",
@@ -562,7 +562,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовляйте &#171Mövenpick - Caffѐ Crema Gusto Italiano&#187 прямо зараз та насолоджуйтеся італійською елегантністю, щоб відкрити для себе новий стандарт задоволення у світі кави!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_60_500.jpg",
         alt: "movenpick_der_himmlische_60_500",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_60_500-01.jpg",
@@ -585,7 +585,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Mövenpick - Der Himmlische 60 Jahre&#187 вже зараз, і відкрийте для себе найкращий подарунок - вишуканий смак та аромат, який супроводжує усі ваші найцінніші миті!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_espresso_1kg.jpg",
         alt: "movenpick_espresso_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_espresso_1kg-01.jpg",
@@ -608,7 +608,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Створіть свій кавовий ритуал, замовивши &#171Mövenpick - Espresso&#187 вже зараз, і насолоджуйтеся неперевершеним смаком кави, який розкриє перед Вами світ справжнього італійського еспресо!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_latte_art_1kg.jpg",
         alt: "movenpick_latte_art_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_latte_art_1kg-01.jpg",
@@ -637,7 +637,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Впровадьте у своє життя витонченість &#171Mövenpick - Latte Art&#187, замовивши його прямо зараз та створюючи своє власне мистецтво кави кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/swisso_crema_1kg.jpg",
         alt: "swisso_crema_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/swisso_crema_1kg-01.jpg",
@@ -666,7 +666,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Зробіть перший крок до вишуканого кавового світу - замовте &#171Swisso - Crema&#187 прямо зараз та даруйте собі щоденну порцію задоволення, щоб відчути, як кожен день стає яскравішим!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/swisso_espresso_1kg.jpg",
         alt: "swisso_espresso_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/swisso_espresso_1kg-01.jpg",
@@ -697,7 +697,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Зробіть крок до справжньої кави - замовте &#171Swisso - Espresso&#187 прямо зараз та насолоджуйтеся кожним моментом цього витонченого кавового досвіду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/coffee_beans/swisso_reich_1kg.jpg",
         alt: "swisso_reich_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/swisso_reich_1kg-01.jpg",

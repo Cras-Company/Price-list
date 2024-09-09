@@ -1,6 +1,6 @@
 export const shopLotsFabricFresheners = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425.jpg",
         alt: "brait_exotic_fruits_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsFabricFresheners = [
         description05: "Спробуйте &#171Brait - Aqua Spray Magic Mist Exotic Fruits&#187 і відчуйте магію тропіків у своєму домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425.jpg",
         alt: "brait_ocean_breeze_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsFabricFresheners = [
         description05: "Освіжіть своє повітря разом з &#171Brait - Aqua Spray Magic Mist Ocean Breeze&#187 і насолоджуйтесь кожною миттю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425.jpg",
         alt: "brait_oriental_garden_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте магії східного саду у свій простір разом з &#171Brait - Aqua Spray Magic Mist Oriental Garden&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425.jpg",
         alt: "brait_paradise_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425-01.jpg",
@@ -100,7 +100,7 @@ export const shopLotsFabricFresheners = [
         description05: "Відчуйте чарівність райських квітів з &#171Brait - Aqua Spray Magic Mist Paradise Flowers&#187 і наповніть свій дім неповторною свіжістю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425.jpg",
         alt: "brait_white_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425-01.jpg",

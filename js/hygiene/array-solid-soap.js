@@ -1,6 +1,6 @@
 export const shopLotsSolidSoap = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_care_soap_pure_natural_350.jpg",
         alt: "elsa_beauty_care_soap_pure_natural_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_care_soap_pure_natural_350-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsSolidSoap = [
         description05: "Придбайте натуральне тверде мило &#171Elsa - Beauty Care Soap Pure & Natural&#187 без парфумів вже сьогодні та подаруйте Вашій шкірі турботу, на яку вона заслуговує!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_classic_125.jpg",
         alt: "elsa_beauty_soap_classic_125",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_classic_125-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовляйте &#171Elsa - Beauty Soap Classic&#187 зараз і насолоджуйтеся досконалим очищенням кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125.jpg",
         alt: "elsa_beauty_soap_muguet_125",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsSolidSoap = [
         description05: "Придбайте &#171Elsa - Beauty Soap Muguet&#187 зараз і відчуйте неповторну ніжність кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125.jpg",
         alt: "elsa_beauty_soap_rose_125",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125-01.jpg",
@@ -100,7 +100,7 @@ export const shopLotsSolidSoap = [
         description05: "Купуйте  &#171Elsa - Beauty Soap Rose&#187 зараз і подаруйте собі неперевершений догляд та аромат щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_apple_350.jpg",
         alt: "elsa_creamy_beauty_soap_apple_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_apple_350-01.jpg",
@@ -125,7 +125,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовляйте кремове тверде мило &#171Elsa - Creamy Beauty Soap Apple&#187 з екстрактом яблука вже сьогодні і відчуйте справжню розкіш догляду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_lemon_350.jpg",
         alt: "elsa_creamy_beauty_soap_lemon_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_lemon_350-01.jpg",
@@ -150,7 +150,7 @@ export const shopLotsSolidSoap = [
         description05: "Не зволікайте – придбайте кремове тверде мило &#171Elsa - Creamy Beauty Soap Lemon&#187 з екстрактом лимону вже сьогодні та насолоджуйтесь доглядом преміум-класу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_rose_350.jpg",
         alt: "elsa_creamy_beauty_soap_rose_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_rose_350-01.jpg",
@@ -175,7 +175,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовте кремове тверде мило &#171Elsa - Creamy Beauty Soap Rose&#187 з екстрактом троянди сьогодні та відчуйте справжню ніжність догляду!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_coconut_100.jpg",
         alt: "elsa_bath_soap_coconut_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_coconut_100-01.jpg",
@@ -200,7 +200,7 @@ export const shopLotsSolidSoap = [
         description05: "Придбайте тверде мило &#171Elsa - Bath Soap Coconut&#187 з екстрактом кокоса вже сьогодні та подаруйте собі розкішний догляд за шкірою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_honey_100.jpg",
         alt: "elsa_bath_soap_honey_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_honey_100-01.jpg",
@@ -225,7 +225,7 @@ export const shopLotsSolidSoap = [
         description05: "Оберіть тверде мило &#171Elsa - Bath Soap Honey&#187 з екстрактом меду вже сьогодні та підкресліть Вашу природну красу з доглянутою шкірою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_olive_100.jpg",
         alt: "elsa_bath_soap_olive_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_olive_100-01.jpg",
@@ -250,7 +250,7 @@ export const shopLotsSolidSoap = [
         description05: "Купуйте тверде мило &#171Elsa - Bath Soap Olive&#187 з екстрактом оливок прямо зараз і насолоджуйтеся бездоганним доглядом за Вашою шкірою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_rose_100.jpg",
         alt: "elsa_bath_soap_rose_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_rose_100-01.jpg",
@@ -275,7 +275,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовте тверде мило &#171Elsa - Bath Soap Rose&#187 з екстрактом троянди прямо зараз і насолоджуйтеся ніжним доглядом за Вашою шкірою!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_extra_cream_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90-01.jpg",
@@ -300,7 +300,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовляйте &#171Gallus - Creme Seife Beauty Soap Extra Cream&#187 з екстрактом ромашки зараз і відчуйте справжню ніжність кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_lux_pearl_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_lux_pearl_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_lux_pearl_90-01.jpg",
@@ -325,7 +325,7 @@ export const shopLotsSolidSoap = [
         description05: "Придбайте &#171Gallus - Creme Seife Beauty Soap Lux Pearl&#187 вже сьогодні і подаруйте своїй шкірі справжню розкіш кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_olive_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_olive_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_olive_90-01.jpg",
@@ -350,7 +350,7 @@ export const shopLotsSolidSoap = [
         description05: "Купуйте &#171Gallus - Creme Seife Beauty Soap Olive&#187 зараз і відчуйте справжню ніжність та догляд щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_orange_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_orange_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_orange_90-01.jpg",
@@ -375,7 +375,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовте &#171Gallus - Creme Seife Beauty Soap Orange&#187 зараз і відчуйте справжню насолоду від догляду за шкірою щодня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_strawberry_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_strawberry_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_strawberry_90-01.jpg",

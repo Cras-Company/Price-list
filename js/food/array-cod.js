@@ -23,7 +23,7 @@ export const shopLotsCod = [
         description05: "Замовте цю делікатесну печінку тріски &#171Giana - Trešči játra ve vlasnim oleji&#187 вже сьогодні і розкрийте перед собою справжній світ морських насолод!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/cod/juor_240.jpg",
         alt: "juor_240",
         url1: "./images/shop/food/canned_food/cod/juor_240.jpg",

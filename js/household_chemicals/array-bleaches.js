@@ -274,7 +274,7 @@ export const shopLotsBleaches = [
         description05: "Додайте &#171Ace - Gentile Lavanda E Muschio Blanco Candeggina Per Colorati&#187 до свого прання і відчуйте різницю!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_con_candeggina_450.jpg",
     //     alt: "chanteclair_sgrassatore_con_candeggina_450",
     //     url1: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_con_candeggina_450-01.jpg",
@@ -324,7 +324,7 @@ export const shopLotsBleaches = [
     //     description05: "Покращте своє життя зараз - замовте &#171Chanteclair - Sgrassatore Con Candeggina&#187 та відчуйте ефективність самі. Нехай ваш дім завжди виглядає як новий!"
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_weiss.jpg",
         alt: "gallus_fleckentferner_weiss",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_weiss-01.jpg",
@@ -351,7 +351,7 @@ export const shopLotsBleaches = [
         description05: "Не чекайте, поки ваша біла білизна втратить свій первинний блиск, а замовляйте плямовивідник &#171Gallus - Sauerstoffbleiche Pulver&#187 вже зараз та насолоджуйтеся відновленою чистотою та яскравістю вашого одягу."
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l.jpg",
         alt: "neo_blanc_lixivia densa_1l",
         url1: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l-01.jpg",
@@ -368,7 +368,7 @@ export const shopLotsBleaches = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 103,
-        priceGRNOpt: 92,
+        quantityOnStorage: 6,
         description01: "Забезпечте бездоганну чистоту своїх білих речей та поверхонь з універсальним відбілювачем &#171Neo Blanc - Lixivia Densa +&#187! Цей продукт перетворить Dаш дім на оазис свіжості та чистоти.",
         description02: "Це потужний відбілювач, який ефективно видаляє плями та відбілює речі та поверхні. Він ідеально підходить для ванни, кухні, підлоги та інших приміщень у вашому домі.",
         description03: "Мрієте про білосніжні речі і бездоганно чисті поверхні? З  &#171Neo Blanc - Lixivia Densa +&#187 це стає реальністю. Ваші речі будуть виглядати як нові, а Ваш дім наповниться свіжістю та чистотою.",
@@ -376,7 +376,7 @@ export const shopLotsBleaches = [
         description05: "Придбайте відбілювач &#171Neo Blanc - Lixivia Densa +&#187 вже сьогодні і насолоджуйтесь бездоганною чистотою у Вашому домі!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/power_wash_fleckentferner_color.jpg",
     //     alt: "power_wash_fleckentferner_color",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/power_wash_fleckentferner_color-01.jpg",

@@ -27,31 +27,31 @@ export const shopLotsWashingPowders = [
         description04: "<strong>Порошок для кольорових речей. Розрахований на 40 прань.</strong>",
         description05: "Подаруйте своїм улюбленим речам тривалу свіжість та яскравість з &#171Ariel - Colour & Style&#187 - вірний партнер у догляді за вашим гардеробом."
     },
-    {
-        type: "retail",
-        url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_original_40_2.6.jpg",
-        alt: "ariel_original_40_2.6",
-        url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_original_40_2.6-01.jpg",
-        alt1: "ariel_original_40_2.6-01",
-        url2: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_original_40_2.6-02.jpg",
-        alt2: "ariel_original_40_2.6-02",
-        marker: "LDWP002",
-        brand: "Ariel",
-        search: "ариель арієль арієль проктор гембл стиральный пральний порошок пральні порошки универсальный оригинал оригінал",
-        nameUKR: "Порошок універсальний",
-        nameEN: "Original",
-        companyName: "The Procter & Gamble Company",
-        countryName: "Німеччина",
-        weightName: "Вага",
-        weight: "2.6 кг.",
-        priceGRN: 386,
-        quantityOnStorage: 3,
-        description01: "&#171Ariel - Original&#187 - це відмінний пральний порошок, який забезпечує неймовірну чистоту вашої білизни та одягу. Завдяки потужній формулі з активними засобами відбілювання, він ефективно видаляє навіть найважкіші плями, залишаючи ваш одяг свіжим і сяючим.",
-        description02: "Має приємний аромат, який додає вашим речам нотки свіжості. З &#171Ariel - Original&#187 ви отримуєте надійність і якість від відомого бренду, якому довіряють мільйони людей по всьому світу.",
-        description03: "Цей пральний порошок також підходить для прання при низьких температурах, що допомагає зберегти якість тканини та заощадити енергію.",
-        description04: "<strong>Порошок універсальний. Розрахований на 40 прань.</strong>",
-        description05: "Зробіть свої речі чистими і доглянутими з &#171Ariel - Original&#187 - вибір господинь, які цінують бездоганність і першокласну якість."
-    },
+    // {
+    //     type: "retail",
+    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_original_40_2.6.jpg",
+    //     alt: "ariel_original_40_2.6",
+    //     url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_original_40_2.6-01.jpg",
+    //     alt1: "ariel_original_40_2.6-01",
+    //     url2: "./images/shop/household_chemicals/laundry_detergents/washing_powder/ariel_original_40_2.6-02.jpg",
+    //     alt2: "ariel_original_40_2.6-02",
+    //     marker: "LDWP002",
+    //     brand: "Ariel",
+    //     search: "ариель арієль арієль проктор гембл стиральный пральний порошок пральні порошки универсальный оригинал оригінал",
+    //     nameUKR: "Порошок універсальний",
+    //     nameEN: "Original",
+    //     companyName: "The Procter & Gamble Company",
+    //     countryName: "Німеччина",
+    //     weightName: "Вага",
+    //     weight: "2.6 кг.",
+    //     priceGRN: 386,
+    //     quantityOnStorage: 3,
+    //     description01: "&#171Ariel - Original&#187 - це відмінний пральний порошок, який забезпечує неймовірну чистоту вашої білизни та одягу. Завдяки потужній формулі з активними засобами відбілювання, він ефективно видаляє навіть найважкіші плями, залишаючи ваш одяг свіжим і сяючим.",
+    //     description02: "Має приємний аромат, який додає вашим речам нотки свіжості. З &#171Ariel - Original&#187 ви отримуєте надійність і якість від відомого бренду, якому довіряють мільйони людей по всьому світу.",
+    //     description03: "Цей пральний порошок також підходить для прання при низьких температурах, що допомагає зберегти якість тканини та заощадити енергію.",
+    //     description04: "<strong>Порошок універсальний. Розрахований на 40 прань.</strong>",
+    //     description05: "Зробіть свої речі чистими і доглянутими з &#171Ariel - Original&#187 - вибір господинь, які цінують бездоганність і першокласну якість."
+    // },
     // ===========================================================================
     // БОЛД
     // ===========================================================================
@@ -75,7 +75,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "2.47 кг.",
         priceGRN: 366,
-        quantityOnStorage: 3,
+        quantityOnStorage: 1,
         description01: "&#171Bold - Fast Dissolving Lavender & Camomile&#187 - це інноваційний порошок з технологією швидкого розчинення та анти-залишків. Відчуйте неймовірну свіжість &#171Lenor&#187 та ефективність прання завдяки унікальній формулі, яка швидко розчиняється у воді, забезпечуючи бездоганний результат.",
         description02: "Надзвичайно потужний проти плям та забруднень, він легко справляється навіть з найважчими завданнями. Технологія анти-залишків допомагає уникнути неприємних слідів порошку на вашому одязі, забезпечуючи бездоганний вигляд.",
         description03: "Запах &#171Lenor&#187 лаванди та ромашки забезпечить вашій білизні та одягу надзвичайно приємний аромат, який триватиме протягом довгого часу.",
@@ -86,7 +86,7 @@ export const shopLotsWashingPowders = [
     // ДЕНКМИТ
     // ===========================================================================
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_color_1.35.jpg",
         alt: "denkmit_vollwaschmittel_color_1.35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_color_1.35-01.jpg",
@@ -107,7 +107,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 253,
-        priceGRNOpt: 225,
+        quantityOnStorage: 4,
         description01: "&#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 - це ідеальний пральний порошок для збереження яскравих кольорів вашого одягу. Він має спеціальну формулу, яка захищає кольори від вигорання та вицвітання під час прання. Ефективно видаляє плями і забруднення, залишаючи вашу одежу свіжою та яскравою. ",
         description02: "Видаляє навіть найскладніші плями і забруднення, залишаючи вашу одежу свіжою та яскравою. Він також має приємний аромат, який залишається на вашому одязі після прання.",
         description03: "&#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 - Ваше рішення для бездоганно чистого та яскравого одягу. Забезпечує надійни результат під час кожного прання.",
@@ -115,7 +115,7 @@ export const shopLotsWashingPowders = [
         description05: "Спробуйте пральний порошок &#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 і переконайтеся самі, як ваша одежа стає більш яскравою і свіжою!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_weiss_1.35.jpg",
         alt: "denkmit_vollwaschmittel_weiss_1.35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_weiss_1.35-01.jpg",
@@ -136,7 +136,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 253,
-        priceGRNOpt: 225,
+        quantityOnStorage: 4,
         description01: "&#171Denkmit - Vollwaschmittel Für Strahlendes Weiss&#187 - це секрет білосніжності та яскравості вашого одягу. Цей потужний пральний порошок спеціально розроблений для надання вашим речам бездоганної чистоти та свіжості.",
         description02: "Його унікальна формула забезпечує ефективне видалення навіть найтвердіших плям та забруднень, зберігаючи водостійкість кольорів і довговічність тканини.",
         description03: "&#171Denkmit - Vollwaschmittel Für Strahlendes Weiss&#187 має в складі надійні компоненти, які дбайливо ставляться до вашої шкіри. Цей пральний порошок створений з урахуванням потреб навіть найчутливішої шкіри, забезпечуючи м'який і доглянутий вигляд вашого одягу без ризику виникнення алергічних реакцій.",
@@ -173,7 +173,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Відчуйте свіжість літа в кожному одязі з &#171Denkmit - Vollwaschmittel Summer Rain&#187."
     // },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_colorwaschmittel_ultra_sensitive_1.35.jpg",
         alt: "denkmit_colorwaschmittel_ultra_sensitive_1.35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_colorwaschmittel_ultra_sensitive_1.35-01.jpg",
@@ -194,7 +194,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 284,
-        priceGRNOpt: 255,
+        quantityOnStorage: 4,
         description01: "Відкрийте для себе ідеальний вибір для дбайливого прання - порошок для кольорових речей, для чутливих тканин &#171Denkmit - Colorwaschmittel Ultra Sensitive&#187.",
         description02: "Насолоджуйтеся свіжістю та чистотою вашого одягу завдяки ефективному складу, розробленому спеціально для догляду за чутливими тканинами.",
         description03: "Відчуйте спокій, знаючи, що ваші улюблені речі зберігають яскравість кольору та м'якість кожного прання.",
@@ -202,7 +202,7 @@ export const shopLotsWashingPowders = [
         description05: "Покращте якість свого прання з порошком &#171Denkmit - Colorwaschmittel Ultra Sensitive&#187 вже сьогодні!"
     },
     {
-        type: "wholesale",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_ultra_sensitive_1.35.jpg",
         alt: "denkmit_vollwaschmittel_ultra_sensitive_1.35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_ultra_sensitive_1.35-01.jpg",
@@ -223,7 +223,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 284,
-        priceGRNOpt: 255,
+        quantityOnStorage: 4,
         description01: "Відкрийте для себе порошок &#171Denkmit - Vollwaschmittel Ultra Sensitive&#187, який забезпечує неймовірну чистоту без ризику пошкодження чутливих тканин.",
         description02: "Цей порошок розроблений спеціально для людей із чутливою шкірою та для чутливих тканин, забезпечуючи ефективне видалення бруду та плям, при цьому дбаючи про вашу комфортність і безпеку.",
         description03: "З &#171Denkmit - Vollwaschmittel Ultra Sensitive&#187 Ви отримаєте ідеально чисті речі, які будуть ніжними до вашої шкіри і збережуть м'якість.",
@@ -231,7 +231,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовте прямо зараз &#171Denkmit - Vollwaschmittel Ultra Sensitive&#187 і перетворіть ваше щоденне прання на приємний процес без неприємних сюрпризів!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_color_130.jpg",
         alt: "derr_color_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_color_130-01.jpg",
@@ -256,7 +256,7 @@ export const shopLotsWashingPowders = [
         description05: "Дійте зараз і забезпечте своєму одягу максимальний захист та догляд з порошком для кольорових речей &#171Derr - Color XXL Pack&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_universal_130.jpg",
         alt: "derr_universal_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_universal_130-01.jpg",
@@ -302,7 +302,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "3.9 кг.",
         priceGRN: 612,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Зустрічайте &#171Fairy - Non Bio&#187 - ідеальний пральний порошок для вашої дитини.",
         description02: "З його гіпоалергенною формулою, він подбає про найніжніші тканини та залишає приємний аромат.",
         description03: "Пориньте у світ чистоти та ніжності для вашого малятка - &#171Fairy - Non Bio&#187 надасть йому тендітну доглянутість.",
@@ -313,7 +313,7 @@ export const shopLotsWashingPowders = [
     // ГАЛЛУС
     // ===========================================================================
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_10.jpg",
         alt: "gallus_colorwaschmittel_10",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_10-01.jpg",
@@ -338,7 +338,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_10.jpg",
         alt: "gallus_voll_10",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_10-01.jpg",
@@ -363,7 +363,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_weiss_10.jpg",
         alt: "gallus_weiss_10",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_weiss_10-01.jpg",
@@ -388,7 +388,7 @@ export const shopLotsWashingPowders = [
         description05: "Дійте зараз і зробіть свій вибір на користь найкращого - порошок для білих речей &#171Gallus - Weisswaschmittel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_26.jpg",
         alt: "gallus_colorwaschmittel_26",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_26-01.jpg",
@@ -413,7 +413,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_26.jpg",
         alt: "gallus_vollwaschmittel_26",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_26-01.jpg",
@@ -438,7 +438,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_60.jpg",
         alt: "gallus_colorwaschmittel_60",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_60-01.jpg",
@@ -463,7 +463,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_60.jpg",
         alt: "gallus_vollwaschmittel_60",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_60-01.jpg",
@@ -488,7 +488,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_130.jpg",
         alt: "gallus_colorwaschmittel_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_130-01.jpg",
@@ -513,7 +513,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_130.jpg",
         alt: "gallus_vollwaschmittel_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_130-01.jpg",
@@ -538,7 +538,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_58.jpg",
         alt: "gallus_color_58",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_58-01.jpg",
@@ -563,7 +563,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_58.jpg",
         alt: "gallus_voll_58",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_58-01.jpg",
@@ -588,7 +588,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть перший крок до найкращої якості разом з &#171Gallus - Colorwaschmittel 4 in 1&#187 та забудьте про компроміси у догляді за вашими улюбленими речами!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_120.jpg",
         alt: "gallus_color_120",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_120-01.jpg",
@@ -613,7 +613,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_120.jpg",
         alt: "gallus_voll_120",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_120-01.jpg",
@@ -668,7 +668,7 @@ export const shopLotsWashingPowders = [
     // ОНИКС
     // ===========================================================================
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_20.jpg",
         alt: "onyx_color_20",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_20-01.jpg",
@@ -693,7 +693,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовляйте &#171Onyx - Color&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_20.jpg",
         alt: "onyx_universal_20",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_20-01.jpg",
@@ -718,7 +718,7 @@ export const shopLotsWashingPowders = [
         description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Universal&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     },
     // {
-    //     type: "only-wholesale",
+    //     type: "only-wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_40.jpg",
     //     alt: "onyx_color_40",
     //     marker: "LDWP060",
@@ -727,7 +727,7 @@ export const shopLotsWashingPowders = [
     //     nameUKR: "Порошок для кольорових речей",
     //     nameEN: "Colorwaschmittel Konzentriertes",
     //     companyName: "Henkel",
-    //     countryName: "Німеччина",
+    //     countryName: "оптом Німеччина",
     //     weightName: "Вага",
     //     weight: "3 кг.",
     //     priceGRN: "--",
@@ -739,7 +739,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Замовляйте &#171Onyx - Colorwaschmittel Konzentriertes&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі."
     // },
     // {
-    //     type: "only-wholesale",
+    //     type: "only-wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_voll_40.jpg",
     //     alt: "onyx_voll_40",
     //     marker: "LDWP061",
@@ -748,7 +748,7 @@ export const shopLotsWashingPowders = [
     //     nameUKR: "Порошок універсальний",
     //     nameEN: "Vollwaschmittel Konzentriertes",
     //     companyName: "Henkel",
-    //     countryName: "Німеччина",
+    //     countryName: "оптом Німеччина",
     //     weightName: "Вага",
     //     weight: "3 кг.",
     //     priceGRN: "--",
@@ -760,7 +760,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Vollwaschmittel Konzentriertes&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_40.jpg",
         alt: "onyx_color_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_40-01.jpg",
@@ -785,7 +785,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовляйте &#171Onyx - Color&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_40.jpg",
         alt: "onyx_universal_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_40-01.jpg",
@@ -835,7 +835,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Замовляйте &#171Onyx - Colorwaschmittel Konzentriertes&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_voll_80.jpg",
     //     alt: "onyx_voll_80",
     //     marker: "LDWP063",
@@ -844,7 +844,7 @@ export const shopLotsWashingPowders = [
     //     nameUKR: "Порошок універсальний",
     //     nameEN: "Vollwaschmittel Konzentriertes",
     //     companyName: "Henkel",
-    //     countryName: "Німеччина",
+    //     countryNaоптом me: "Німеччина",
     //     weightName: "Вага",
     //     weight: "6 кг.",
     //     priceGRN: 235,
@@ -856,7 +856,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Vollwaschmittel Konzentriertes&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     // },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_80.jpg",
         alt: "onyx_color_80",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_80-01.jpg",
@@ -881,7 +881,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовляйте &#171Onyx - Color&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_80.jpg",
         alt: "onyx_universal_80",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_80-01.jpg",
@@ -906,7 +906,7 @@ export const shopLotsWashingPowders = [
         description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Universal&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_140.jpg",
         alt: "onyx_color_140",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_140-01.jpg",
@@ -931,7 +931,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовляйте &#171Onyx - Color&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_140.jpg",
         alt: "onyx_universal_140",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_140-01.jpg",
@@ -1007,7 +1007,7 @@ export const shopLotsWashingPowders = [
     // ПАВЕР ВОШ
     // ===========================================================================
     {
-        type: "only-wholesale",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/power_wash_color_130.jpg",
         alt: "power_wash_color_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/power_wash_color_130-01.jpg",
@@ -1016,7 +1016,7 @@ export const shopLotsWashingPowders = [
         brand: "Power Wash",
         search: "хенкель павер вош повер пральний порошок пральні порошки стиральные порошки кольорові речі цветные вещи для цветных вещей",
         nameUKR: "Порошок для кольорових речей",
-        nameEN: "Colorwaschmittel Professional",
+        nameEN: "Color waschmittel Professional",
         companyName: "Henkel",
         countryName: "Німеччина",
         weightName: "Вага",
@@ -1030,7 +1030,7 @@ export const shopLotsWashingPowders = [
         description05: "Не зволікайте з наданням найкращого догляду для вашого одягу та замовляйте &#171Power Wash - Colorwaschmittel Professional&#187 вже сьогодні та дозвольте вашій білизні сяяти на повну!"
     },
     {
-        type: "only-wholesale",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/power_wash_voll_130.jpg",
         alt: "power_wash_voll_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/power_wash_voll_130-01.jpg",

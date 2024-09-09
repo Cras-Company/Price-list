@@ -1,6 +1,6 @@
 export const shopLotsChildrenShampoos = [
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_dschungelbande_230.jpg",
     alt: "bubchen_dschungelbande_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_dschungelbande_230-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Покажіть своєму малюку дивовижний світ джунглів, завдяки чудовому шампуню &#171Bübchen - Shampoo & Duschgel Dschungelbande&#187."
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_prinzessin_rosalea_230.jpg",
     alt: "bubchen_prinzessin_rosalea_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_prinzessin_rosalea_230-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Подаруйте вашій маленькій принцесі цю казкову пригоду з &#171Bübchen - Shampoo & Duschgel Prinzessin Rosalea&#187 та побачте, як вона сяє весь день.."
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sanfte_lieblinge_230.jpg",
     alt: "bubchen_sanfte_lieblinge_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sanfte_lieblinge_230-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Робіть кожен день особливим з &#171Bübchen - Shampoo & Duschgel Sanfte Lieblinge&#187."
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sportsfreund_230.jpg",
     alt: "bubchen_sportsfreund_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sportsfreund_230-01.jpg",
@@ -100,7 +100,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Подбайте про свого малюка разом з &#171Bübchen - Shampoo & Duschgel Sportsfreund&#187."
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_superdusche_230.jpg",
     alt: "bubchen_superdusche_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_superdusche_230-01.jpg",
@@ -125,7 +125,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Насолоджуйтеся миттям разом з вашою дитиною, знаючи, що вона отримує найкращий догляд з &#171Bübchen - Shampoo & Duschgel Superduscher&#187."
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
     alt: "wash_go_micellar_water_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200-01.jpg",
@@ -150,7 +150,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Відкрийте для себе шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187, який забезпечить м'якість і здоров'я волосся всієї родини!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360.jpg",
     alt: "wash_go_micellar_water_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360-01.jpg",

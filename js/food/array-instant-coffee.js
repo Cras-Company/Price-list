@@ -23,7 +23,7 @@ export const shopLotsInstantCoffee = [
         description05: "Не втрачайте нагоди побалувати себе справжнім італійським смаком. Придбайте &#171Bellarom - Exclesive&#187 вже сьогодні та пориньте у світ аромату та насолоди."
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_crema_160.jpg",
         alt: "cafe_d`Or_crema_160",
         url1: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_crema_160.jpg",
@@ -115,7 +115,7 @@ export const shopLotsInstantCoffee = [
         description05: "Спробуйте &#171Cafe D`Or - O Poranku&#187 прямо зараз та насолоджуйтеся вишуканим смаком розчинної кави!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/drinks/instant_coffee/hearts_wiener_melange_1kg.jpg",
         alt: "hearts_wiener_melange_1kg",
         url1: "./images/shop/food/drinks/instant_coffee/hearts_wiener_melange_1kg-01.jpg",

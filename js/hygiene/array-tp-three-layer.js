@@ -1,6 +1,6 @@
 export const shopLotsTPThreeLayer = [
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_camomile_4.jpg",
     alt: "ooops_classic_camomile_4",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_camomile_4-01.jpg",
@@ -27,7 +27,7 @@ export const shopLotsTPThreeLayer = [
     description05: "Придбайте зараз &#171Ooops! - Everyday Peach&#187 і насолоджуйтеся неперевершеною м'якістю та комфортом кожного дня!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_sensitive_4.jpg",
     alt: "ooops_classic_sensitive_4",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_sensitive_4-01.jpg",
@@ -54,7 +54,7 @@ export const shopLotsTPThreeLayer = [
     description05: "Замовляйте &#171Ooops! - Classic Sensitive&#187 сьогодны і подаруйте собі комфорт та ніжність кожного дня!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_everyday_peach_24.jpg",
     alt: "ooops_everyday_peach_24",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_everyday_peach_24-01.jpg",
@@ -81,7 +81,7 @@ export const shopLotsTPThreeLayer = [
     description05: "Придбайте зараз &#171Ooops! - Everyday Peach&#187 і насолоджуйтеся неперевершеною м'якістю та комфортом кожного дня!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_lotion_16.jpg",
     alt: "ooops_exellence_lotion_16",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_lotion_16-01.jpg",
@@ -106,7 +106,7 @@ export const shopLotsTPThreeLayer = [
     description05: "Замовляйте вже сьогодні &#171Ooops! - Exellence Lotion&#187 і насолоджуйтеся розкішною м'якістю та турботою щодня!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_sensitive_16.jpg",
     alt: "ooops_exellence_sensitive_16",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_sensitive_16-01.jpg",
@@ -131,7 +131,7 @@ export const shopLotsTPThreeLayer = [
     description05: "Оберіть &#171Ooops! - Exellence Sensitive&#187 і насолоджуйтеся неперевершеною м'якістю та захистом щодня!"
   },
   {
-    type: "wholesale",
+    type: "wholesale оптом",
     url: "./images/shop/gigiena/toilet_paper/three_layer/star_trio_24.jpg",
     alt: "star_trio_24",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/star_trio_24-01.jpg",

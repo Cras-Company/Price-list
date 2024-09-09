@@ -184,7 +184,7 @@ export const shopLotsWaffles = [
     //     description05: "Замовте &#171Storck - Knoppers&#187 та відчуйте солодку насолоду їх неперевершеного смаку!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/storck_knoppers_125.jpg",
     //     alt: "storck_knoppers_125",
     //     url1: "./images/shop/food/sweets/waffles/storck_knoppers_125.jpg",
@@ -207,7 +207,7 @@ export const shopLotsWaffles = [
     //     description05: "Замовте &#171Storck - Knoppers&#187 та відчуйте солодку насолоду їх неперевершеного смаку!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/storck_knoppers_200.jpg",
     //     alt: "storck_knoppers_200",
     //     url1: "./images/shop/food/sweets/waffles/storck_knoppers_200.jpg",
@@ -253,7 +253,7 @@ export const shopLotsWaffles = [
     //     description05: "Спробуйте &#171Storck - Knoppers Black & White&#187 і насолоджуйтесь піднесеним смаком та неперевершеною якістю!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/storck_knoppers_balck_white_200.jpg",
     //     alt: "storck_knoppers_balck_white_200",
     //     url1: "./images/shop/food/sweets/waffles/storck_knoppers_balck_white_200.jpg",
@@ -299,7 +299,7 @@ export const shopLotsWaffles = [
     //     description05: "Насолоджуйтесь смаком вафель &#171Storck - Knoppers Erdnuss&#187 та додайте енергії своєму дню!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/storck_knoppers_erdnuss_200.jpg",
     //     alt: "storck_knoppers_erdnuss_200",
     //     url1: "./images/shop/food/sweets/waffles/storck_knoppers_erdnuss_200.jpg",
@@ -345,7 +345,7 @@ export const shopLotsWaffles = [
     //     description05: "Замовляйте вже сьогодні &#171Storck - Knoppers Joghurt&#187 і насолоджуйтеся неперевершеним смаком!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/storck_knoppers_joghurt_200.jpg",
     //     alt: "storck_knoppers_joghurt_200",
     //     url1: "./images/shop/food/sweets/waffles/storck_knoppers_joghurt_200.jpg",
@@ -368,7 +368,7 @@ export const shopLotsWaffles = [
     //     description05: "Замовляйте вже сьогодні &#171Storck - Knoppers Joghurt&#187 і насолоджуйтеся неперевершеним смаком!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/tasso_wafelki_kakao_450.jpg",
     //     alt: "tasso_wafelki_kakao_450",
     //     url1: "./images/shop/food/sweets/waffles/tasso_wafelki_kakao_450.jpg",
@@ -391,7 +391,7 @@ export const shopLotsWaffles = [
     //     description05: "Замовляйте &#171Tasso - Wafelki Z Kremem Kakaowym&#187 прямо зараз та насолоджуйтесь бездоганним смаком!"
     // },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/sweets/waffles/tasso_wafelki_orech_450.jpg",
     //     alt: "tasso_wafelki_orech_450",
     //     url1: "./images/shop/food/sweets/waffles/tasso_wafelki_orech_450.jpg",

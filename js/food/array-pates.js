@@ -1,6 +1,6 @@
 export const shopLotsPates = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/pates/fresh_pecenovka_190.jpg",
         alt: "fresh_pecenovka_190",
         url1: "./images/shop/food/canned_food/pates/fresh_pecenovka_190.jpg",
@@ -92,7 +92,7 @@ export const shopLotsPates = [
         description05: "Не втратьте можливість розкрити нові кулінарні горизонти з &#171Freshona - Pastă Vegetală Tartinabilă Cu Măsline&#187. Замовте його вже сьогодні та насолоджуйтеся неперевершеним смаком та ароматом!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/pates/hame_pioner_pork_190.jpg",
         alt: "hame_pioner_pork_190",
         url1: "./images/shop/food/canned_food/pates/hame_pioner_pork_190.jpg",
@@ -115,7 +115,7 @@ export const shopLotsPates = [
         description05: "Не вагайтесь спробувати &#171Hamé - Nátierka Z Bravčového Mäsa&#187 і насолоджуйтесь неперевершеним смаком і ароматом кожного дня!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/pates/hame_tongalas_pastetom_100.jpg",
         alt: "hame_tongalas_pastetom_100",
         url1: "./images/shop/food/canned_food/pates/hame_tongalas_pastetom_100.jpg",
@@ -138,7 +138,7 @@ export const shopLotsPates = [
         description05: "Замовте &#171Hamé - Tonhalas Pástétom Omega-3&#187 вже сьогодні і насолоджуйтесь найкращим, що пропонує Вам море. Ви заслуговуєте на цей неперевершений смак та користь!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/pates/pamapol_pasztet_mazowiecki_wieprzowy_390.jpg",
         alt: "pamapol_pasztet_mazowiecki_wieprzowy_390",
         url1: "./images/shop/food/canned_food/pates/pamapol_pasztet_mazowiecki_wieprzowy_390.jpg",
@@ -161,7 +161,7 @@ export const shopLotsPates = [
         description05: "Не витрачайте час на готування, коли у вас є &#171Pamapol - Pasztet Mazowiecki Wieprzowy&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_drobiem_390.jpg",
         alt: "pamapol_pasztet_z_drobiem_390",
         url1: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_drobiem_390.jpg",
@@ -184,7 +184,7 @@ export const shopLotsPates = [
         description05: "Не втрачайте час на готування, коли у Вас є &#171Pamapol - Pasztet Z Drobiem&#187 та спробуйте його сьогодні і зануртесь у світ польського смаку!"
     },
     // {
-    //     type: "wholesale",
+    //     type: "wholesale оптом",
     //     url: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_indykiem_390.jpg",
     //     alt: "pamapol_pasztet_z_indykiem_390",
     //     url1: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_indykiem_390-01.jpg",
