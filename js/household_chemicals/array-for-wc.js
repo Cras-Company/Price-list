@@ -379,7 +379,7 @@ export const shopLotsForWC = [
         description05: "Замовляйте вже сьогодні та підтримуйте ідеальну чистоту за допомогою таблеток &#171Denkmit - WC-Tabs Mit 3-Phasen-Kraft&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-wasserkasten-tabletten_4.jpg",
         alt: "denkmit_wc-wasserkasten-tabletten_4",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc-wasserkasten-tabletten_4-01.jpg",
@@ -398,7 +398,7 @@ export const shopLotsForWC = [
         quantityName: "Кількість",
         quantity: "4 шт.",
         priceGRN: 132,
-        priceGRNOpt: 114,
+        quantityOnStorage: 4,
         description01: "Таблетки &#171Denkmit - WC-Wasserkasten-Tabletten 2 in 1&#187 для видалення накипу та забруднень у туалетному бачку забезпечують потужну дію з кожним змивом.",
         description02: "Їх інноваційна формула 2 в 1 одночасно бореться з накипом і запобігає утворенню нових забруднень.",
         description03: "Використання цих таблеток дозволяє підтримувати чистоту Вашого туалету без зусиль, забезпечуючи свіжий аромат і гігієну.",
