@@ -20,7 +20,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1.5 кг.",
-        priceGRN: 229,
+        priceGRN: 266,
         quantityOnStorage: 4,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 - порошок для посуду розроблений для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Порошок містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Він підходять для різних видів посуду, від столової тарілки до скляних виробів.",
