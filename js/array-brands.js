@@ -31,10 +31,18 @@ export const brands = [
   //   url: "./images/carusel/asia_gold.jpg",
   //   alt: "asia_gold",
   // },
-  // {
-  //   url: "./images/carusel/at_home_clean.jpg",
-  //   alt: "at_home_clean",
-  // },
+  {
+    url: "./images/carusel/astonish.jpg",
+    alt: "astonish",
+  },
+  {
+    url: "./images/carusel/at_home_clean.jpg",
+    alt: "at_home_clean",
+  },
+  {
+    url: "./images/carusel/at_home_scents.jpg",
+    alt: "at_home_scents",
+  },
   {
     url: "./images/carusel/at_home_wash.jpg",
     alt: "at_home_wash",
@@ -163,7 +171,11 @@ export const brands = [
     url: "./images/carusel/domestos.jpg",
     alt: "domestos",
   },
-    {
+  {
+    url: "./images/carusel/domol.jpg",
+    alt: "domol",
+  },
+  {
     url: "./images/carusel/dr.beckmann.jpg",
     alt: "dr.beckmann",
   },
@@ -563,6 +575,10 @@ export const brands = [
   //   url: "./images/carusel/tiradell.jpg",
   //   alt: "tiradell",
   // },
+  {
+    url: "./images/carusel/twister.jpg",
+    alt: "twister",
+  },
   {
     url: "./images/carusel/univer.jpg",
     alt: "univer",

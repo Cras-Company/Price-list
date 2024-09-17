@@ -519,7 +519,7 @@ export const shopLotsLiquidSoap = [
         description05: "Не вагайтеся та замовте &#171Milmil - Sapone Liquido Talco & Iris&#187, щоб перетворити кожен день в експлозію аромату та ніжності для вашої шкіри!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_yellow_1000.jpg",
         alt: "molly_fluddigseife_yellow_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_yellow_1000-01.jpg",
@@ -536,7 +536,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "1000 мл.",
         priceGRN: 72,
-        priceGRNOpt: 64,
+        quantityOnStorage: 1,
         description01: "Забезпечте своїм рукам надійний захист з антибактеріальним рідким милом &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187 з олією чайного дерева та фруктами.",
         description02: "Завдяки своїм природним компонентам, це мило ефективно знищує бактерії, залишаючи Вашу шкіру свіжою та чистою.",
         description03: "Олія чайного дерева та фруктові екстракти у &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187 не тільки забезпечують захист, але й доглядають за шкірою, надаючи їй ніжність і здоровий вигляд.",
@@ -544,7 +544,7 @@ export const shopLotsLiquidSoap = [
         description05: "Придбайте антибактеріальне рідке мило &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187 з олією чайного дерева та фруктами вже сьогодні і насолоджуйтеся відчуттям бездоганної чистоти та догляду!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_blue_1000.jpg",
         alt: "molly_fluddigseife_blue_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/molly_fluddigseife_blue_1000-01.jpg",
@@ -561,7 +561,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "1000 мл.",
         priceGRN: 72,
-        priceGRNOpt: 64,
+        quantityOnStorage: 3,
         description01: "Відкрийте для себе надзвичайно ефективне екологічне антибактеріальне рідке мило з олією чайного дерева та зеленим яблуком &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187, яке дбає про Вашу шкіру.",
         description02: "Його натуральний склад забезпечує м'яке очищення, знищуючи бактерії та залишаючи шкіру свіжою і зволоженою.",
         description03: "Олія чайного дерева відома своїми антисептичними властивостями, а зеление яблуко у &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187 додає приємного аромату та відчуття свіжості.",
