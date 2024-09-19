@@ -176,6 +176,10 @@ export const brands = [
     alt: "domol",
   },
   {
+    url: "./images/carusel/dontodent.jpg",
+    alt: "dontodent",
+  },
+  {
     url: "./images/carusel/dr.beckmann.jpg",
     alt: "dr.beckmann",
   },
