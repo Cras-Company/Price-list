@@ -50,7 +50,7 @@ export const shopLotsIntimHygiene = [
         description05: "Замовляйте &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187 зараз і даруйте собі неперевершений догляд та комфорт щодня!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_rica_250.jpg",
         alt: "dermomed_intime_wash_lichene_rica_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_rica_250-01.jpg",
@@ -67,7 +67,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 112,
-        priceGRNOpt: 96,
+        quantityOnStorage: 4,
         description01: "Відчуйте неперевершену чистоту та захист з гелем для інтимної гігієни &#171Dermomed - Detergente Intimo Lichene Con Proprietà Antibatteriche&#187 з лишайником та провітаміном В5.",
         description02: "Завдяки антибактеріальним властивостям лишайника, цей гель ефективно знищує шкідливі мікроорганізми, забезпечуючи максимальну гігієну.",
         description03: "Провітамін В5 активно зволожує та заспокоює шкіру, надаючи відчуття свіжості на цілий день з  &#171Dermomed - Detergente Intimo Lichene Con Proprietà Antibatteriche&#187.",
