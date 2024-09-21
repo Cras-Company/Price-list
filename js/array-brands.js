@@ -52,6 +52,10 @@ export const brands = [
   //   alt: "backmit",
   // },
   {
+    url: "./images/carusel/balea.jpg",
+    alt: "balea",
+  },
+  {
     url: "./images/carusel/baresa.jpg",
     alt: "baresa",
   },
