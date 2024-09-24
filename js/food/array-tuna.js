@@ -114,7 +114,7 @@ export const shopLotsTuna = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 57,
+        priceGRN: 70,
         quantityOnStorage: 3,
         description01: "Відкрийте для себе надзвичайно смачний подрібнений тунець у власному соку &#171M & K - Tuńczyk Rozdrobniony&#187.",
         description02: "Цей продукт забезпечить Вам свіжий і насичений смак, який підходить для приготування різноманітних страв.",
