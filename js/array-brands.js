@@ -331,10 +331,10 @@ export const brands = [
     url: "./images/carusel/k-classic.jpg",
     alt: "k-classic",
   },
-  // {
-  //   url: "./images/carusel/king_oscar.jpg",
-  //   alt: "king_oscar",
-  // },
+  {
+    url: "./images/carusel/king_oscar.jpg",
+    alt: "king_oscar",
+  },
   {
     url: "./images/carusel/la_salud.jpg",
     alt: "la_salud",
@@ -471,10 +471,10 @@ export const brands = [
     url: "./images/carusel/pasta_reggia.jpg",
     alt: "pasta_reggia",
   },
-  {
-    url: "./images/carusel/persil.jpg",
-    alt: "persil",
-  },
+  // {
+  //   url: "./images/carusel/persil.jpg",
+  //   alt: "persil",
+  // },
   {
     url: "./images/carusel/pirat.jpg",
     alt: "pirat",
@@ -546,6 +546,10 @@ export const brands = [
   {
     url: "./images/carusel/sensident.jpg",
     alt: "sensident",
+  },
+  {
+    url: "./images/carusel/serical.jpg",
+    alt: "serical",
   },
   {
     url: "./images/carusel/soltino.jpg",

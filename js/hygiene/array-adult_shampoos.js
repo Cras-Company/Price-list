@@ -567,7 +567,7 @@ export const shopLotsAdultShampoos = [
     description05: "Спробуйте шампунь &#171Wash & Go - Shampoo With Anti-Dandruff Technology&#187 з технологією проти лупи для бездоганного вигляду Вашого волосся!"
   },
   {
-    type: "wholesale оптом",
+    type: "retail",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200.jpg",
     alt: "wash_go_herbal_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200-01.jpg",
@@ -584,7 +584,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "200 мл.",
     priceGRN: 67,
-    priceGRNOpt: 60,
+    quantityOnStorage: 1,
     description01: "Ваше волосся швидко втрачає свіжість і виглядає жирним? Шампунь &#171Wash & Go - Shampoo With Herbal Extracts&#187 з екстрактами трав допоможе вирішити цю проблему.",
     description02: "Його унікальна формула м’яко очищує волосся, надаючи йому легкості та свіжості на тривалий час.",
     description03: "Натуральні екстракти трав &#171Wash & Go - Shampoo With Herbal Extracts&#187 піклуються про Ваше волосся, зберігаючи його здоровим і сяючим.",
