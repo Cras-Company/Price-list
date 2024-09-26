@@ -118,7 +118,7 @@ export const shopLotsHairMasks = [
         marker: "HAMA750",
         brand: "Serical",
         search: "серикал серікал маска для волос с экстрактом моркови морковь льняным льняное маслом для жирного волоса жирный волос жирне волосся",
-        nameUKR: "Маска-крем з екстраком морковної та льняної олій для жирного волосся",
+        nameUKR: "Маска-крем з екстрактами морковної та льняної олій для жирного волосся",
         nameEN: "Crema Olio Di Semi Di Lino & Carota",
         companyName: "Pettenon Cosmetics SPA",
         countryName: "Італія",
