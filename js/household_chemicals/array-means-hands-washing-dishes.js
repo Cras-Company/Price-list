@@ -584,7 +584,7 @@ export const shopLotsMeansHandsWashingDishes = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 77,
-        quantityOnStorage: 4,
+        quantityOnStorage: 2,
         description01: "Засіб для миття &#171Just - Dishwashing Premium Silver&#187 забезпечує бездоганну чистоту Вашого посуду.",
         description02: "Завдяки інноваційній формулі, цей засіб ефективно видаляє навіть найстійкіші забруднення, повертаючи блиск та сяйво кожній тарілці та каструлі.",
         description03: "Насолоджуйтесь легкістю миття посуду з преміальним засобом &#171Just - Dishwashing Premium Silver&#187, який дбайливо ставиться до Ваших рук та посуду.",

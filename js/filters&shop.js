@@ -78,6 +78,9 @@ import { shopLotsSolidSoap } from "./hygiene/array-solid-soap.js";
 
 import { shopLotsHandCremes } from "./hygiene/array-hand-cremes.js";
 
+import { shopLotsAntiperspirants } from "./hygiene/array-antiperspirants.js";
+import { shopLotsDeodorants } from "./hygiene/array-deodorants.js";
+
 import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
 import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride-adult.js";
 import { shopLotsMouthwashes } from "./hygiene/array-mouthwashes.js";
@@ -187,6 +190,9 @@ const shopListLiquidSoap = document.querySelector(".js-cras__list--liquid-soap")
 const shopListSolidSoap = document.querySelector(".js-cras__list--solid-soap");
 
 const shopListHandCremes = document.querySelector(".js-cras__list--hand-cremes");
+
+const shopListAntiperspirants = document.querySelector(".js-cras__list--antiperspirants");
+const shopListDeodorants = document.querySelector(".js-cras__list--deodorants");
 
 const shopListToothpastesChildren = document.querySelector(".js-cras__list--toothpastes-children");
 const shopListToothpastesAdult = document.querySelector(".js-cras__list--toothpastes-adult");
@@ -333,6 +339,11 @@ const BlockSolidSoap = document.querySelector(".js-block-solid-soap");
 const SectionAllHandCare = document.querySelector(".js-section-all-hand-care");
 const BlockHandCremes = document.querySelector(".js-block-hand-cremes");
 
+// Дезодоранти и антиперспиранты
+const SectionAllDeoAnti = document.querySelector(".js-section-all-deo-anti");
+const BlockAntiperspirants = document.querySelector(".js-block-antiperspirants");
+const BlockDeodorants = document.querySelector(".js-block-deodorants");
+
 // Сияющая улыбка
 const SectionAllBeamingSmile = document.querySelector(".js-section-all-toothpastes");
 const BlockToothpastesChildren = document.querySelector(".js-block-toothpastes-children");
@@ -463,6 +474,9 @@ const arrayOfProducts = [
   { element: shopListSolidSoap, items: shopLotsSolidSoap, block: BlockSolidSoap, dataTarget: "solid-soap" },
 
   { element: shopListHandCremes, items: shopLotsHandCremes, block: BlockHandCremes, dataTarget: "handcreme" },
+
+  { element: shopListAntiperspirants, items: shopLotsAntiperspirants, block: BlockAntiperspirants, dataTarget: "antiperspirants" },
+  { element: shopListDeodorants, items: shopLotsDeodorants, block: BlockDeodorants, dataTarget: "deodorants" },
 
   { element: shopListToothpastesChildren, items: shopLotsChildrenToothpastes, block: BlockToothpastesChildren, dataTarget: "toothpastes-children" },
   { element: shopListToothpastesAdult, items: shopLotsToothpastesAdult, block: BlockToothpastesAdult, dataTarget: "toothpastes-adult" },
@@ -730,6 +744,9 @@ function handleFormSubmit(event) {
 
   const filteredHandCremes = universalSearch(shopLotsHandCremes, searchItem);
 
+  const filteredAntiperspirants = universalSearch(shopLotsAntiperspirants, searchItem);
+  const filteredDeodorants = universalSearch(shopLotsDeodorants, searchItem);
+
   const filteredToothpastesAdult = universalSearch(shopLotsToothpastesAdult, searchItem);
   const filteredToothpastesNoFluoride = universalSearch(shopLotsToothpastesNoFluoride, searchItem);
   const filteredMouthwashes = universalSearch(shopLotsMouthwashes, searchItem);
@@ -834,6 +851,9 @@ function handleFormSubmit(event) {
     ...filteredSolidSoap,
 
     ...filteredHandCremes,
+
+    ...filteredAntiperspirants,
+    ...filteredDeodorants,
 
     ...filteredToothpastesAdult,
     ...filteredToothpastesNoFluoride,
@@ -1056,6 +1076,14 @@ function handleFormSubmit(event) {
     SectionAllHandCare.style.display = "none";
   }
 
+  if (filteredAntiperspirants.length > 0 ||
+    filteredDeodorants.length > 0) {
+    shopListAntiperspirants.innerHTML = createMobileListItemsMarkup(filteredAntiperspirants);
+    shopListDeodorants.innerHTML = createMobileListItemsMarkup(filteredDeodorants);
+  } else {
+    SectionAllDeoAnti.style.display = "none";
+  }
+
   if (filteredChildrenToothpastes.length > 0 ||
     filteredChildrenToothpastesNoFluorid.length > 0 ||
     filteredToothpastesAdult.length > 0 ||
@@ -1229,6 +1257,9 @@ function handleFormSubmit(event) {
     { element: shopListSolidSoap, items: filteredSolidSoap, block: BlockSolidSoap },
 
     { element: shopListHandCremes, items: filteredHandCremes, block: BlockHandCremes },
+
+    { element: shopListAntiperspirants, items: filteredAntiperspirants, block: BlockAntiperspirants },
+    { element: shopListDeodorants, items: filteredDeodorants, block: BlockDeodorants },
 
     { element: shopListToothpastesChildren, items: filteredChildrenToothpastes, block: BlockToothpastesChildren },
     { element: shopListToothpastesAdult, items: filteredToothpastesAdult, block: BlockToothpastesAdult },
