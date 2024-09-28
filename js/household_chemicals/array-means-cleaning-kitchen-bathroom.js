@@ -1829,7 +1829,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 99,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "&#171Power Wash - Kalklöser&#187 -  це надійний союзник у боротьбі з вапняними відкладеннями та вапняковим нальотом на Вашій кухні. Засіб спеціально розроблений, щоб легко та ефективно видалити вапно та залишки мила з різних поверхонь, зберігаючи їх бездоганно чистими та блискучими.",
         description02: "Цей вапняковий розчинник має потужну формулу, яка швидко зм'якшує вапняні відкладення, дозволяючи вам легко їх видалити. Він підходить для використання на різних поверхнях, включаючи кухонні зливи, кранівниці, чайники та багато інших.",
         description03: "Не дозвольте вапну засмічувати Вашу кухню. &#171Power Wash - Kalklöser&#187 допоможе зберегти чистоту та приємний вигляд Вашого посуду.",
@@ -1887,7 +1887,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть прибирання легким і приємним разом з &#171Respekt - Allzweckreiniger Sommertraum&#187, який забезпечить Вашому дому бездоганну чистоту і свіжість."
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_650.jpg",
         alt: "well_done_zsiroldo_650",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_650-01.jpg",
@@ -1904,7 +1904,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "650 мл.",
         priceGRN: 107,
-        priceGRNOpt: 92,
+        quantityOnStorage: 3,
         description01: "Зустрічайте засіб для чищення та знежирення &#171Well Done - Hideg Zsíroldó&#187, який робить Вашу кухню блискучою без зайвих зусиль!",
         description02: "Інноваційна формула цього засобу дозволяє легко видаляти найстійкіші жирові плями навіть у холодній воді. Забудьте про тривале тертя та витрачений час.",
         description03: "Ваші поверхні будуть сяяти чистотою та свіжістю, а приємний аромат додасть Вашій кухні затишку. &#171Well Done - Hideg Zsíroldó&#187 підходить для різних поверхонь, забезпечуючи ідеальну чистоту.",
@@ -1912,7 +1912,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Купуйте &#171Well Done - Hideg Zsíroldó&#187 і відчуйте різницю вже сьогодні!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_1000.jpg",
         alt: "well_done_zsiroldo_1000",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_1000-01.jpg",
@@ -1929,7 +1929,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "1000 мл.",
         priceGRN: 120,
-        priceGRNOpt: 104,
+        quantityOnStorage: 1,
         description01: "Зустрічайте засіб для чищення та знежирення &#171Well Done - Hideg Zsíroldó&#187, який робить Вашу кухню блискучою без зайвих зусиль!",
         description02: "Інноваційна формула цього засобу дозволяє легко видаляти найстійкіші жирові плями навіть у холодній воді. Забудьте про тривале тертя та витрачений час.",
         description03: "Ваші поверхні будуть сяяти чистотою та свіжістю, а приємний аромат додасть Вашій кухні затишку. &#171Well Done - Hideg Zsíroldó&#187 підходить для різних поверхонь, забезпечуючи ідеальну чистоту.",

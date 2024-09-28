@@ -267,7 +267,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "500 мл.",
     priceGRN: 79,
-    quantityOnStorage: 5,
+    quantityOnStorage: 2,
     description01: "Подаруйте своєму волоссю свіжість і життєву силу з шампунем &#171Elkos - Frucht & Vitamin Shampoo Mit Pro-Vitamin B5&#187 з провітаміном В5.",
     description02: "Завдяки натуральним екстрактам фруктів, цей шампунь глибоко живить та зміцнює волосся від коренів до кінчиків.",
     description03: "Провітамін В5 у &#171Elkos - Frucht & Vitamin Shampoo Mit Pro-Vitamin B5&#187 забезпечує інтенсивне зволоження, роблячи Ваше волосся м'яким, гладеньким та блискучим.",
