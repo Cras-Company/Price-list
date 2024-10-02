@@ -18,7 +18,7 @@ export const shopLotsAntiSmells = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "40 гр.",
-        priceGRN: 132,
+        priceGRN: 145,
         quantityOnStorage: 4,
         description01: "Завдяки екстракту морських водоростей, нейтралізатор запахів &#171Denkmit - Kühlschrank Frische&#187 ефективно бореться з усіма неприємними ароматами.",
         description02: "Цей продукт не тільки усуває запахи, але й створює приємну свіжість, забезпечуючи комфорт кожного разу, коли відкриваєте холодильник.",

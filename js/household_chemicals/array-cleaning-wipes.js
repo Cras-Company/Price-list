@@ -66,7 +66,7 @@ export const shopLotsCleaningWipes = [
     countryName: "Німеччина",
     quantityName: "Кількість",
     quantity: "20 шт.",
-    priceGRN: 127,
+    priceGRN: 145,
     quantityOnStorage: 2,
     description01: "Ваш автомобіль заслуговує на ідеальний догляд, і вологі серветки &#171Denkmit - Cockpit-Pflegetücher Feucht Mit Antistatik-Formel&#187 з антистатичною формулою зроблять це бездоганно.",
     description02: "Вони ефективно видаляють пил і бруд з панелі приладів, залишаючи поверхню чистою і свіжою.",
