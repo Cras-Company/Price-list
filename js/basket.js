@@ -4,6 +4,12 @@ import {
   createBasketOrderMarkup
 } from './markups.js';
 
+import {
+  refs,
+  onOpenModal,
+  onCloseModal
+} from './modal-index.js'
+
 // Акция
 import { shopLotsSale } from "./array-sale.js";
 
@@ -1064,53 +1070,62 @@ function restoreButtonCopy() {
       }, 200);
     }
 
-  buttonCopy.addEventListener("click", function () {
+    buttonCopy.addEventListener("click", () => {
+      setTimeout(() => {
+        onCloseModal(refs.modalBasketMenu);
+      }, 300);
 
-    const quantityItemsJSON = localStorage.getItem('quantityItemsArray');
-    const totalAmountDataJSON = localStorage.getItem("totalAmount");
-    
-    if (totalAmountDataJSON && quantityItemsJSON) {
+      setTimeout(() => {
+        onOpenModal(refs.modalBasketOrder);
+      }, 500);
+    });
 
-      const quantityItems = JSON.parse(quantityItemsJSON);
-      const totalAmountData = JSON.parse(totalAmountDataJSON);
-    
-      let textToCopy = "Доброго дня. Хочу оформити замовлення:\n\n";
-      quantityItems.forEach((item) => {
-        let priceGRN, priceUSDT;
+    buttonCopy.addEventListener("click", function () {
 
-        if ('optPriceGRN' in item) {
-          priceGRN = item.optPriceGRN;
-          priceUSDT = item.optPriceUSDT;
-        } else {
-          priceGRN = item.priceGRN;
-          priceUSDT = item.priceUSDT;
-        }
-        textToCopy += `Маркер: ${item.marker}; Кількість: ${item.quantityItem}; Ціна: ${priceGRN} грн. / ${priceUSDT} USDT;\n\n`;
-      });
+      const quantityItemsJSON = localStorage.getItem('quantityItemsArray');
+      const totalAmountDataJSON = localStorage.getItem("totalAmount");
+      
+      if (totalAmountDataJSON && quantityItemsJSON) {
 
-      const { totalAmountGRN, totalAmountUSDT } = totalAmountData[0];
+        const quantityItems = JSON.parse(quantityItemsJSON);
+        const totalAmountData = JSON.parse(totalAmountDataJSON);
       
-      textToCopy += `Загальна сумма замовлення: ${totalAmountGRN} грн. / ${totalAmountUSDT} USDT.`;
-      
-      // Создаем временный элемент textarea для копирования текста в буфер обмена
-      const textarea = document.createElement("textarea");
-      textarea.value = textToCopy;
-      document.body.appendChild(textarea);
-      
-      // Выделяем текст в textarea
-      textarea.select();
-      
-      // Копируем выделенный текст в буфер обмена
-      document.execCommand("copy");
-      
-      // Удаляем временный элемент textarea
-      document.body.removeChild(textarea);
-      
-      // Оповещаем пользователя о успешном копировании (можно заменить на свою логику)
-      alert("Ваше замовлення збережено! Відправте його нам у Telegram, Instagram або Messenger знизу кошика.");
-    }
-  });
+        let textToCopy = "Доброго дня. Хочу оформити замовлення:\n\n";
+        quantityItems.forEach((item) => {
+          let priceGRN, priceUSDT;
 
+          if ('optPriceGRN' in item) {
+            priceGRN = item.optPriceGRN;
+            priceUSDT = item.optPriceUSDT;
+          } else {
+            priceGRN = item.priceGRN;
+            priceUSDT = item.priceUSDT;
+          }
+          textToCopy += `Маркер: ${item.marker}; Кількість: ${item.quantityItem}; Ціна: ${priceGRN} грн. / ${priceUSDT} USDT;\n\n`;
+        });
+
+        const { totalAmountGRN, totalAmountUSDT } = totalAmountData[0];
+        
+        textToCopy += `Загальна сумма замовлення: ${totalAmountGRN} грн. / ${totalAmountUSDT} USDT.`;
+        
+        // Создаем временный элемент textarea для копирования текста в буфер обмена
+        const textarea = document.createElement("textarea");
+        textarea.value = textToCopy;
+        document.body.appendChild(textarea);
+        
+        // Выделяем текст в textarea
+        textarea.select();
+        
+        // Копируем выделенный текст в буфер обмена
+        document.execCommand("copy");
+        
+        // Удаляем временный элемент textarea
+        document.body.removeChild(textarea);
+        
+        // Оповещаем пользователя о успешном копировании (можно заменить на свою логику)
+        // alert("Ваше замовлення збережено! Відправте його нам у Telegram, Instagram або Messenger знизу кошика.");
+      }
+    });
   }
 }
 

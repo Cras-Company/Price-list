@@ -9,6 +9,7 @@ export const refs = {
 
   openModalBasketBtns: document.querySelectorAll("[data-modal-basket]"),
   modalBasketMenu: document.querySelector("[data-modal-basket-menu]"),
+  modalBasketOrder: document.querySelector("[data-modal-basket-order]"),
 
   openModalMobileMainMenuBtn: document.querySelector("[data-mobile-main-menu]"),
   modalMobileMainMenu: document.querySelector("[data-modal-main-menu]"),
@@ -105,6 +106,7 @@ refs.closeModalBtn.forEach((btn) => {
     onCloseModal(refs.modalMobileMenu);
     onCloseModal(refs.modalMobileMainMenu);
     onCloseModal(refs.modalBasketMenu);
+    onCloseModal(refs.modalBasketOrder);
     onCloseModal(refs.openModalLot);
   });
 });

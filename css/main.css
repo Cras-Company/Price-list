@@ -1469,6 +1469,18 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.contacts__social--order {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__social--order {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 
 .contacts__list--basket-margin {
   margin-right: 40px;
@@ -2167,6 +2179,9 @@ body.modal-open {
     top: -8%;
   }
 }
+.img-modal--order {
+  top: -50px;
+}
 
 @media screen and (min-width: 768px) {
   [data-modal-search-menu],
@@ -2563,13 +2578,52 @@ body.modal-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  display: block;
   padding: 0;
-  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 266px;
+  min-height: 42px;
   border: none;
-  background-color: var(--pure-white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
   cursor: pointer;
+}
+.button__copy::after, .button__copy::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+}
+.button__copy::before {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(-2%, #00c5eb), color-stop(90%, #057198));
+  background-image: linear-gradient(90deg, #00c5eb -2%, #057198 90%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button__copy::after {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: var(--border-radius);
+  background-color: var(--pure-white);
+  opacity: 0;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+.button__copy:hover::after, .button__copy:focus::after, .button__copy:active::after {
+  opacity: 1;
+}
+
+.button__copy .basket__copy-markers:hover,
+.button__copy .basket__copy-markers:focus,
+.button__copy .basket__copy-markers:active {
+  color: var(--link-color);
 }
 
 .img-modal-mobile {
@@ -2947,17 +3001,6 @@ body.modal-open {
   opacity: 1;
 }
 
-@media screen and (min-width: 360px) {
-  .basket__order-case {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 .basket__footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3033,8 +3076,21 @@ body.modal-open {
   width: 100%;
 }
 
+.basket__order-case {
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 360px) {
+  .basket__order-case {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .basket__order-title {
-  margin-bottom: 5px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.14;
@@ -3088,11 +3144,13 @@ body.modal-open {
 }
 
 .basket__copy-markers {
-  margin-right: 10px;
+  position: relative;
+  z-index: 10;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.14;
   text-align: center;
+  color: var(--pure-white);
 }
 @media screen and (min-width: 768px) {
   .basket__copy-markers {
@@ -3131,6 +3189,49 @@ body.modal-open {
 @media screen and (min-width: 1440px) {
   .travolta {
     width: 480px;
+  }
+}
+
+.basker_title-order {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.14;
+  text-align: center;
+  color: var(--link-color);
+}
+@media screen and (min-width: 350px) {
+  .basker_title-order {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 428px) {
+  .basker_title-order {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .basker_title-order {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .basker_title-order {
+    font-size: 26px;
+  }
+}
+
+.basker_title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .basker_title-text {
+    font-size: 22px;
   }
 }
 

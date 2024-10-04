@@ -120,6 +120,16 @@
   &--basket {
     justify-content: center;
   }
+
+  &--order {
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+    @media screen and (min-width: 768px) {
+      justify-content: space-around;
+    }
+  }
 }
 
 .contacts__list--basket-margin {

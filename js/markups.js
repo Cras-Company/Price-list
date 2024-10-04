@@ -474,56 +474,10 @@ export function createBasketOrderMarkup() {
                     <span class="cinzel basket__total-price js-total-priceUSDT"></span></span> usdt
                 </h2>
             </div>
-
+            
             <button class="button__copy js-button__copy" type="button">
 
-                <p class="basket__copy-markers">Скопіювати Ваше замовлення</p>
+                <p class="basket__copy-markers">ОФОРМИТИ ЗАМОВЛЕННЯ</p>
 
-                <svg width="15" height="15">
-                
-                    <use href="./images/icon/sprite.svg#copy"></use>
-                </svg>
-            </button>
-
-            <ul class="contacts__social contacts__social--basket">
-
-                <li class="contacts__list contacts__list--basket-margin">
-                    <a class="socials-link" href="https://m.me/crascompany.ua" target="_blank">
-                        <svg class="social-icon" width="40" height="40">
-                            <use class="social-icon__main" href="./images/icon/sprite.svg#icon-facebook"></use>
-                            <use class="social-icon__hover"
-                                href="./images/icon/sprite.svg#icon-facebook-hovered">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-
-                <li class="contacts__list contacts__list--basket-margin">
-                    <a class="socials-link" href="https://ig.me/m/cras_company" target="_blank">
-                        <svg class="social-icon" width="40" height="40">
-                            <use class="social-icon__main" 
-                                href="./images/icon/sprite.svg#instagram">
-                            </use>
-
-                            <use class="social-icon__hover"
-                                href="./images/icon/sprite.svg#instagram-hovered">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-
-                <li class="contacts__list">
-                    <a class="socials-link" href="https://t.me/Cras_Company" target="_blank">
-
-                        <svg class="social-icon" width="40" height="40">
-
-                            <use class="social-icon__main" href="./images/icon/sprite.svg#telega">
-                            </use>
-                
-                            <use class="social-icon__hover" href="./images/icon/sprite.svg#telega-hovered">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>`;
+            </button>`;
 };

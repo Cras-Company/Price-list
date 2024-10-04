@@ -142,6 +142,10 @@ body.modal-open {
       top: -8%;
     }
   }
+
+  &--order {
+    top: -50px;
+  }
 }
 
 [data-modal-search-menu],
