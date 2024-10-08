@@ -15,7 +15,7 @@ export const shopLotsForWindows = [
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         volumeName: "Об'єм",
-        volume: "750 мл.",
+        volume: "1 л.",
         priceGRN: 86,
         quantityOnStorage: 4,
         description01: "Засіб для очистки скла &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 з формулою захисту блиску надає Вашим вікнам та дзеркалам кристальну чистоту.",
