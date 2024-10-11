@@ -47,6 +47,11 @@ body {
   }
 }
 
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -666,6 +671,9 @@ img {
 }
 .filter__secondary-list--index-65 {
   z-index: 65;
+}
+.filter__secondary-list--index-67 {
+  z-index: 67;
 }
 .filter__secondary-list--index-70 {
   z-index: 70;
