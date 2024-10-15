@@ -101,7 +101,7 @@ export const shopLotsMeansHandsWashingDishes = [
         alt2: "denkmit_spulbalsam_mit_aloe_vera_500-02",
         marker: "MHWD145",
         brand: "Denkmit",
-        search: "денкмит денкміт spulmittel засіб для миття средство мытья мийний мийні забоси стредства посуду посуды посуда с экстрактом алое вера",
+        search: "денкмит денкміт spulmittel засіб для миття средство мытья мийний мийні забоси средства посуду посуды посуда с экстрактом алое вера",
         nameUKR: "Засіб для миття посуду з екстрактом алое вера",
         nameEN: "Spülbalsam Mit Aloe Vera",
         companyName: "dm-drogerie markt GmbH + Co.",
