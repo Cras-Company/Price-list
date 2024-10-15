@@ -1068,7 +1068,7 @@ export const shopLotsWashingPowders = [
         marker: "LDWP800",
         brand: "Tandil",
         search: "танділ тандил стиральный пральний порошок пральні порошки алди алді шовк вовна шелк шерсть для шелка шерсти",
-        nameUKR: "Порошок для вовни та шовку",
+        nameUKR: "Порошок для делікатних тканин, для вовни та шовку",
         nameEN: "Fein",
         companyName: "Aldi",
         countryName: "Німеччина",
