@@ -51,7 +51,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "65 шт.",
-        priceGRN: 280,
+        priceGRN: 305,
         quantityOnStorage: 4,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 - таблетки для посуду розроблені для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Кожна таблетка містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Вони підходять для різних видів посуду, від столової тарілки до скляних виробів.",
