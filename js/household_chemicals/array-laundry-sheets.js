@@ -68,7 +68,7 @@ export const shopLotsLaundrySheets = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "24 шт.",
-        priceGRN: 107,
+        priceGRN: 115,
         quantityOnStorage: 12,
         description01: "Пральні серветки &#171Denkmit - Farb- Und Schmutz-Fangtücher 3 in 1&#187 забезпечують Ваш одяг надійним захистом від вицвітання та змішування кольорів.",
         description02: "Вони ефективно поглинають бруд та барвники, зберігаючи первісний вигляд Ваших улюблених речей.",
