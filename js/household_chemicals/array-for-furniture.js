@@ -1,6 +1,6 @@
 export const shopLotsForFurniture = [
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425.jpg",
         alt: "brait_exotic_fruits_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425-01.jpg",
@@ -25,7 +25,7 @@ export const shopLotsForFurniture = [
         description05: "Спробуйте &#171Brait - Aqua Spray Magic Mist Exotic Fruits&#187 і відчуйте магію тропіків у своєму домі!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425.jpg",
         alt: "brait_ocean_breeze_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425-01.jpg",
@@ -50,7 +50,7 @@ export const shopLotsForFurniture = [
         description05: "Освіжіть своє повітря разом з &#171Brait - Aqua Spray Magic Mist Ocean Breeze&#187 і насолоджуйтесь кожною миттю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425.jpg",
         alt: "brait_oriental_garden_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsForFurniture = [
         description05: "Додайте магії східного саду у свій простір разом з &#171Brait - Aqua Spray Magic Mist Oriental Garden&#187!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425.jpg",
         alt: "brait_paradise_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425-01.jpg",
@@ -100,7 +100,7 @@ export const shopLotsForFurniture = [
         description05: "Відчуйте чарівність райських квітів з &#171Brait - Aqua Spray Magic Mist Paradise Flowers&#187 і наповніть свій дім неповторною свіжістю!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425.jpg",
         alt: "brait_white_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425-01.jpg",
@@ -125,7 +125,7 @@ export const shopLotsForFurniture = [
         description05: "Додайте нотку весняної свіжості у свій дім з &#171Brait - Aqua Spray Magic Mist White Flowers&#187 і насолоджуйтесь кожним вдихом!"
     },
     {
-        type: "wholesale оптом",
+        type: "wholesale оптом оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflegespray_400.jpg",
         alt: "denkmit_mobel_pflegespray_400",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflegespray_400-01.jpg",
@@ -200,7 +200,7 @@ export const shopLotsForFurniture = [
     //     description05: "Спробуйте &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 і перетворіть свої килими на ідеально чисті та доглянуті!"
     // },
     {
-        type: "wholesale оптом",
+        type: "wholesale оптом оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750.jpg",
         alt: "gallus_mobel_pflege_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750-01.jpg",
@@ -225,7 +225,7 @@ export const shopLotsForFurniture = [
         description05: "Не зволікайте, замовляйте &#171Gallus - Möbel-Pflege&#187 вже сьогодні та подаруйте своїм меблям друге життя!"
     },
     {
-        type: "wholesale",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/vir_kraftgel_500.jpg",
         alt: "vir_kraftgel_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/vir_kraftgel_500-01.jpg",
