@@ -127,7 +127,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         quantityName: "Кількість",
         quantity: "60 шт.",
         priceGRN: 521,
-        quantityOnStorage: 4,
+        quantityOnStorage: 3,
         description01: "Засіб для миття посуду &#171Finish - Powerball Ultimate All in 1&#187 з активним киснем гарантує блискучу чистоту навіть у важкодоступних місцях.",
         description02: "Інноваційна технологія &#171Activelift&#187 з активним киснем ефективно видаляє стійкі забруднення, жир і залишки їжі, залишаючи посуд ідеально чистим.",
         description03: "Завдяки таблеткам &#171Finish - Powerball Ultimate All in 1&#187, Ви отримуєте відмінний результат без необхідності попереднього полоскання, що економить час і воду.",

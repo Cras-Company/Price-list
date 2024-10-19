@@ -544,6 +544,10 @@ export const brands = [
     alt: "schauma",
   },
   {
+    url: "./images/carusel/sence.jpg",
+    alt: "sence",
+  },
+  {
     url: "./images/carusel/sensident.jpg",
     alt: "sensident",
   },

@@ -1606,7 +1606,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 76,
-        quantityOnStorage: 6,
+        quantityOnStorage: 2,
         description01: "Ваша ванна кімната заслуговує на сяючу чистоту з засобом для чищення &#171Gut & Günstig - Badreiniger&#187.",
         description02: "Потужна формула ефективно бореться з брудом, залишаючи поверхні бездоганно чистими.",
         description03: "&#171Gut & Günstig - Badreiniger&#187 забезпечує блискучу чистоту і свіжий аромат, який триватиме довго.",

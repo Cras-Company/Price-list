@@ -17,7 +17,7 @@ export const shopLotsHandCremes = [
         volumeName: "Об'єм",
         volume: "75 мл.",
         priceGRN: 35,
-        quantityOnStorage: 5,
+        quantityOnStorage: 4,
         description01: "Відчуйте неперевершену м'якість з базьзамом для рук та нігтів &#171Deba - Hands & Nails Balm Aloe Vera Vitamin E&#187, який забезпечує комплексний догляд.",
         description02: "Екстракт алое вера інтенсивно зволожує та заспокоює шкіру, роблячи її шовковистою та свіжою.",
         description03: "Вітамін E сприяє відновленню шкіри та зміцненню нігтів, забезпечуючи їхній здоровий вигляд разом з &#171Deba - Hands & Nails Balm Aloe Vera Vitamin E&#187.",
