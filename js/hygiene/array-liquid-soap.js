@@ -686,7 +686,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "1000 мл.",
         priceGRN: 72,
-        quantityOnStorage: 4,
+        quantityOnStorage: 2,
         description01: "Відкрийте для себе надзвичайно ефективне екологічне антибактеріальне рідке мило з олією чайного дерева та зеленим яблуком &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187, яке дбає про Вашу шкіру.",
         description02: "Його натуральний склад забезпечує м'яке очищення, знищуючи бактерії та залишаючи шкіру свіжою і зволоженою.",
         description03: "Олія чайного дерева відома своїми антисептичними властивостями, а зеление яблуко у &#171Molly - Flüssigseife Mit Antibaktereill Wirkendem Teebaumöl&#187 додає приємного аромату та відчуття свіжості.",

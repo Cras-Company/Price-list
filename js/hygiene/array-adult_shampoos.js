@@ -217,7 +217,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "300 мл.",
     priceGRN: 65,
-    quantityOnStorage: 6,
+    quantityOnStorage: 1,
     description01: "Підбадьортеся після тренувань з гелем &#171Balea - Sport Duschgel 3 in 1 Mit Wasserminze & Kühlendem Menthol&#187 з водяною м'ятою та охолоджуючим ментолом.",
     description02: "Оновлююча формула гелю м'яко очищає тіло, обличчя та волосся, забезпечуючи свіжість і легкість.",
     description03: "Ментол у &#171Balea - Sport Duschgel 3 in 1 Mit Wasserminze & Kühlendem Menthol&#187 дарує приємне відчуття прохолоди, яке допоможе швидко відновитися після фізичних навантажень.",

@@ -118,6 +118,7 @@ import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipe
 import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
 import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
+import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
@@ -233,6 +234,7 @@ const shopListCleaningWipes = document.querySelector(".js-cras__list--cleaning_w
 const shopListAirFresheners = document.querySelector(".js-cras__list--air-fresheners");
 const shopListFabricFresheners = document.querySelector(".js-cras__list--fabric-fresheners");
 const shopListAntiSmells = document.querySelector(".js-cras__list--anti-smells");
+const shopListBathBombs = document.querySelector(".js-cras__list--bath-bombs");
 // ===========================================================================
 // Секции и блоки
 // ===========================================================================
@@ -398,6 +400,7 @@ const SectionAllSmells = document.querySelector(".js-section-all-smells");
 const BlockAirFresheners = document.querySelector(".js-block-air-fresheners");
 const BlockFabricFresheners = document.querySelector(".js-block-fabric-fresheners");
 const BlockAntiSmells = document.querySelector(".js-block-anti-smells");
+const BlockBathBombs = document.querySelector(".js-block-bath-bombs");
 
 // Скрыть секцию
 const JSSectionOne = document.querySelectorAll(".js-section-none");
@@ -516,6 +519,7 @@ const arrayOfProducts = [
   { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
   { element: shopListFabricFresheners, items: shopLotsFabricFresheners, block: BlockFabricFresheners, dataTarget: "fabric_fresheners" },
   { element: shopListAntiSmells, items: shopLotsAntiSmells, block: BlockAntiSmells, dataTarget: "anti_smells" },
+  { element: shopListBathBombs, items: shopLotsBathBombs, block: BlockBathBombs, dataTarget: "bath_bombs" },
 ];
 
 // arrayOfProducts.forEach(({ element, items }) => {
@@ -784,6 +788,7 @@ function handleFormSubmit(event) {
   const filteredAirFresheners = universalSearch(shopLotsAirFresheners, searchItem);
   const filteredFabricFresheners = universalSearch(shopLotsFabricFresheners, searchItem);
   const filteredAntiSmells = universalSearch(shopLotsAntiSmells, searchItem);
+  const filteredBathBombs = universalSearch(shopLotsBathBombs, searchItem);
 
   const allFilteredItems = [
     // Акция
@@ -892,6 +897,7 @@ function handleFormSubmit(event) {
     ...filteredAirFresheners,
     ...filteredFabricFresheners,
     ...filteredAntiSmells,
+    ...filteredBathBombs,
   ];
 
   if (allFilteredItems.length === 0) {
@@ -1184,10 +1190,12 @@ function handleFormSubmit(event) {
 
   if (filteredAntiSmells.length > 0 ||
     filteredAirFresheners.length > 0 ||
-    filteredFabricFresheners.length > 0 ) {
+    filteredFabricFresheners.length > 0 ||
+    filteredBathBombs.length > 0) {
     shopListAirFresheners.innerHTML = createMobileListItemsMarkup(filteredAirFresheners);
     shopListFabricFresheners.innerHTML = createMobileListItemsMarkup(filteredFabricFresheners);
     shopListAntiSmells.innerHTML = createMobileListItemsMarkup(filteredAntiSmells);
+    shopListBathBombs.innerHTML = createMobileListItemsMarkup(filteredBathBombs);
   } else {
     SectionAllSmells.style.display = "none";
   }
@@ -1299,6 +1307,7 @@ function handleFormSubmit(event) {
     { element: shopListAirFresheners, items: filteredAirFresheners, block: BlockAirFresheners },
     { element: shopListFabricFresheners, items: filteredFabricFresheners, block: BlockFabricFresheners },
     { element: shopListAntiSmells, items: filteredAntiSmells, block: BlockAntiSmells },
+    { element: shopListBathBombs, items: filteredBathBombs, block: BlockBathBombs },
   ];
 
   if (searchItem === "") {
