@@ -41,7 +41,7 @@ export const shopLotsAntiperspirants = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "50 мл.",
-        priceGRN: 65,
+        priceGRN: 69,
         quantityOnStorage: 6,
         description01: "Забудьте про дискомфорт і подразнення — антиперспірант &#171Ombia - Anti-Transpirant Sensitive Mit Calendula-Öl&#187 з олією календули дбає про Вашу шкіру.",
         description02: "Його ніжна формула забезпечує надійний захист від поту, одночасно заспокоюючи чутливу шкіру.",
