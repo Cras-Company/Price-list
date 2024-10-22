@@ -304,6 +304,10 @@ export const brands = [
     alt: "illy",
   },
   {
+    url: "./images/carusel/irge.jpg",
+    alt: "irge",
+  },
+  {
     url: "./images/carusel/italiamo.jpg",
     alt: "italiamo",
   },
