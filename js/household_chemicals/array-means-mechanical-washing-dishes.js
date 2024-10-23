@@ -59,8 +59,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description04: "<strong>Для механічного миття посуду. Активний кисень (15%-30%). Не підходить для срібла та алюмінію.</strong>",
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
-        {
-        type: "retail",
+    {
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_klarspuler_1l.jpg",
         alt: "denkmit_klarspuler_1l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_klarspuler_1l-01.jpg",
@@ -76,8 +76,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 84,
-        quantityOnStorage: 4,
+        priceGRN: 92,
+        priceGRNOpt: 83,
         description01: "Ополіскувач &#171Denkmit - Klarspüler&#187 ефективно видаляє залишки миючих засобів та водяні плями, забезпечуючи ідеальний блиск і чистоту кожного предмета.",
         description02: "Забудьте про плями на посуді після миття – ваші тарілки завжди будуть блищати.",
         description03: "Антикальк-компоненти у &#171Denkmit - Klarspüler&#187 захищають Вашу посудомийну машину від накипу, продовжуючи її термін служби.",
