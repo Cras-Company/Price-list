@@ -115,6 +115,7 @@ import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
 import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
+import { shopLotsMoistureAbsorbers } from "./household_chemicals/array-moisture-absorbers.js";
 import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
 import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
@@ -231,6 +232,7 @@ const shopListForWC = document.querySelector(".js-cras__list--for_wc");
 const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
 const shopListCleaningWipes = document.querySelector(".js-cras__list--cleaning_wipes");
 
+const shopListMoistureAbsorbers = document.querySelector(".js-cras__list--moisture-absorbers");
 const shopListAirFresheners = document.querySelector(".js-cras__list--air-fresheners");
 const shopListFabricFresheners = document.querySelector(".js-cras__list--fabric-fresheners");
 const shopListAntiSmells = document.querySelector(".js-cras__list--anti-smells");
@@ -397,6 +399,7 @@ const BlockCleaningWipes = document.querySelector(".js-block-cleaning_wipes");
 
 // Мир ароматов
 const SectionAllSmells = document.querySelector(".js-section-all-smells");
+const BlockMoistureAbsorbers = document.querySelector(".js-block-moisture-absorbers");
 const BlockAirFresheners = document.querySelector(".js-block-air-fresheners");
 const BlockFabricFresheners = document.querySelector(".js-block-fabric-fresheners");
 const BlockAntiSmells = document.querySelector(".js-block-anti-smells");
@@ -516,6 +519,7 @@ const arrayOfProducts = [
   { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
   { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
 
+  { element: shopListMoistureAbsorbers, items: shopLotsMoistureAbsorbers, block: BlockMoistureAbsorbers, dataTarget: "moisture_absorbers" },
   { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
   { element: shopListFabricFresheners, items: shopLotsFabricFresheners, block: BlockFabricFresheners, dataTarget: "fabric_fresheners" },
   { element: shopListAntiSmells, items: shopLotsAntiSmells, block: BlockAntiSmells, dataTarget: "anti_smells" },
@@ -785,6 +789,7 @@ function handleFormSubmit(event) {
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
   const filteredCleaningWipes = universalSearch(shopLotsCleaningWipes, searchItem);
 
+  const filteredMoistureAbsorbers = universalSearch(shopLotsMoistureAbsorbers, searchItem);
   const filteredAirFresheners = universalSearch(shopLotsAirFresheners, searchItem);
   const filteredFabricFresheners = universalSearch(shopLotsFabricFresheners, searchItem);
   const filteredAntiSmells = universalSearch(shopLotsAntiSmells, searchItem);
@@ -894,6 +899,7 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningDishwashers,
     ...filteredCleaningWipes,
 
+    ...filteredMoistureAbsorbers,
     ...filteredAirFresheners,
     ...filteredFabricFresheners,
     ...filteredAntiSmells,
@@ -1188,10 +1194,12 @@ function handleFormSubmit(event) {
     SectionAllMeansCleaning.style.display = "none";
   }
 
-  if (filteredAntiSmells.length > 0 ||
+  if (filteredMoistureAbsorbers.length > 0 ||
+    filteredAntiSmells.length > 0 ||
     filteredAirFresheners.length > 0 ||
     filteredFabricFresheners.length > 0 ||
     filteredBathBombs.length > 0) {
+    shopListMoistureAbsorbers.innerHTML = createMobileListItemsMarkup(filteredMoistureAbsorbers);
     shopListAirFresheners.innerHTML = createMobileListItemsMarkup(filteredAirFresheners);
     shopListFabricFresheners.innerHTML = createMobileListItemsMarkup(filteredFabricFresheners);
     shopListAntiSmells.innerHTML = createMobileListItemsMarkup(filteredAntiSmells);
@@ -1304,6 +1312,7 @@ function handleFormSubmit(event) {
     { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
     { element: shopListCleaningWipes, items: filteredCleaningWipes, block: BlockCleaningWipes },
 
+    { element: shopListMoistureAbsorbers, items: filteredMoistureAbsorbers, block: BlockMoistureAbsorbers },
     { element: shopListAirFresheners, items: filteredAirFresheners, block: BlockAirFresheners },
     { element: shopListFabricFresheners, items: filteredFabricFresheners, block: BlockFabricFresheners },
     { element: shopListAntiSmells, items: filteredAntiSmells, block: BlockAntiSmells },
