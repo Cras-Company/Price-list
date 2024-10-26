@@ -432,7 +432,7 @@ export const shopLotsAdultShowerGels = [
         alt1: "dermomed_sensualita_argan_1000-01",
         url2: "./images/shop/gigiena/bath_gels/dermomed_sensualita_argan_1000-02.jpg",
         alt2: "dermomed_sensualita_argan_1000-02",
-        marker: "ATBG210",
+        marker: "ATBG225",
         brand: "Dermomed",
         search: "sensualita дермомед гель гелі гели для душа арган арганова олія аргановое масло с арагановым маслом гіалуронова кислота гиалуроновая кислота с гиалуроновой кислотой",
         nameUKR: "Гель для душу з аргановою олією та гіалуроновою кислотою",
