@@ -469,7 +469,7 @@ export const shopLotsLiquidSoap = [
         description05: "Зробіть перший крок до вищого рівня догляду за шкірою – замовте рідке мило &#171Milmil - Sapone Liquido Con Antibatterico Naturale Iris&#187 прямо зараз!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_crema_sapone_orchidea_500.jpg",
         alt: "milmil_crema_sapone_orchidea_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_crema_sapone_orchidea_500-01.jpg",
@@ -486,7 +486,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 69,
-        priceGRNOpt: 59,
+        quantityOnStorage: 2,
         description01: "Відчуйте розкіш догляду з рідким крем-милом &#171Milmil - Crema Sapone Orchidea E Seta&#187 з екстрактом орхідеї та протеїнами шовку.",
         description02: "Його унікальна формула глибоко зволожує та живить шкіру, роблячи її неймовірно м'якою та гладенькою.",
         description03: "Завдяки екстракту орхідеї, мило  &#171Milmil - Crema Sapone Orchidea E Seta&#187 має вишуканий аромат, а протеїни шовку додають відчуття шовковистості.",
