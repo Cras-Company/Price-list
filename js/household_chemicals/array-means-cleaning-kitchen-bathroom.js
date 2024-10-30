@@ -1281,7 +1281,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         weightName: "Вага",
         weight: "320 гр.",
         priceGRN: 219,
-        quantityOnStorage: 6,
+        quantityOnStorage: 3,
         description01: "Універсальна паста для чищення &#171Denkmit - Reinigungs-Paste&#187 забезпечує бездоганну чистоту у будь-якому куточку Вашого дому.",
         description02: "Ефективна формула легко справляється з брудом на кухні, у ванній кімнаті, на підлозі та навіть у саду, залишаючи поверхні свіжими і доглянутими.",
         description03: "Від підлоги до взуття — паста &#171Denkmit - Reinigungs-Paste&#187 працює бездоганно, видаляючи навіть стійкі забруднення і повертаючи речам їхній початковий вигляд.",
