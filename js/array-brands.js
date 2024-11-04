@@ -532,6 +532,10 @@ export const brands = [
     alt: "riscossa",
   },
   {
+    url: "./images/carusel/rmix.jpg",
+    alt: "rmix",
+  },
+  {
     url: "./images/carusel/rosso_gargano.jpg",
     alt: "rosso_gargano",
   },
