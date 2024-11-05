@@ -1253,7 +1253,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 82,
+        priceGRN: 86,
         quantityOnStorage: 9,
         description01: "Позбудьтеся вапняного нальоту, іржі та залишків мила за допомогою засобу &#171Denkmit - Kalkreiniger&#187.",
         description02: "Цей потужний засіб ефективно видаляє навіть найстійкіші забруднення з ванної кімнати та кухні. Його активна формула проникає глибоко, залишаючи поверхні чистими та блискучими.",

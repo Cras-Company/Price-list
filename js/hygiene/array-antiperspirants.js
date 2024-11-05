@@ -16,7 +16,7 @@ export const shopLotsAntiperspirants = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "50 мл.",
-        priceGRN: 54,
+        priceGRN: 57,
         quantityOnStorage: 6,
         description01: "Забудьте про незручності під час активного дня — чоловічий антиперспірант &#171Balea - Men Anti-Transpirant Fresh&#187 забезпечує тривалий захист від поту.",
         description02: "Його ефективна формула блокує надмірну вологість, залишаючи шкіру сухою до 48 годин.",

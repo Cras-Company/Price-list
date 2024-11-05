@@ -41,7 +41,7 @@ export const shopLotsDeodorants = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "50 мл.",
-        priceGRN: 54,
+        priceGRN: 57,
         quantityOnStorage: 6,
         description01: "Чоловічий дезодорант &#171Balea - Men Sensitive Deodorant Für Empfindliche Haut&#187 забезпечує надійний захист для чутливої шкіри.",
         description02: "Завдяки м'якій формулі без спирту, він зменшує подразнення і забезпечує комфорт протягом дня.",
