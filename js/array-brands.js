@@ -412,10 +412,6 @@ export const brands = [
     alt: "mogyi",
   },
   {
-    url: "./images/carusel/molly.jpg",
-    alt: "molly",
-  },
-  {
     url: "./images/carusel/molped.jpg",
     alt: "molped",
   },
