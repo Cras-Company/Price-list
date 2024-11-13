@@ -260,6 +260,10 @@ export const brands = [
     alt: "giana",
   },
   {
+    url: "./images/carusel/green_shield.jpg",
+    alt: "green_shield",
+  },
+  {
     url: "./images/carusel/gustobello.jpg",
     alt: "gustobello",
   },
