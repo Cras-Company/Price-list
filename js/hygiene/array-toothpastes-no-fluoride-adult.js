@@ -1,6 +1,6 @@
 export const shopLotsToothpastesNoFluoride = [
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_60.jpg",
         alt: "dabur_babool_60",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_60-01.jpg",
@@ -19,7 +19,7 @@ export const shopLotsToothpastesNoFluoride = [
         weightName: "Вага",
         weight: "60 гр.",
         priceGRN: 24,
-        priceGRNOpt: 21,
+        quantityOnStorage: 2,
         description01: "Зубна паста без фтору &#171Dabur - Babool&#187 з екстрактом акації, оліями гвоздики та м'яти — це інноваційний продукт для Вашої усмішки.",
         description02: "Натуральні інгредієнти забезпечують надійний захист зубів та ясен, надаючи свіжості та комфорту кожного разу, коли Ви чистите зуби.",
         description03: "Забудьте про шкідливі хімічні добавки — &#171Dabur - Babool&#187 надасть Вам все необхідне для здоров'я порожнини рота, зберігаючи природний баланс.",

@@ -270,7 +270,7 @@ export function createModalListItemsMarkup(items) {
 
                             <div class="cras-block__order">
 
-                                <a class="link__button link__button--mobile" href="./licence.html"><span class="link__button__text">Як замовити?</span></a>
+                                <a class="link__button link__button--mobile" href="./payment.html"><span class="link__button__text">Як замовити?</span></a>
 
                                 <button class="cras-block__button-busket cras-block__button-busket--reset" type="button" data-lot-basket aria-label="Додати у кошик">
                 
@@ -312,7 +312,7 @@ export function createModalListItemsMarkup(items) {
                         <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description04}</p>
                         <p class="cras-item__text cras-mobile-font cras-item__text--margin-sub">${description05}</p>
 
-                        <a class="link__button link__button--description" href="./licence.html"><span class="link__button__text">Як замовити?</span></a>
+                        <a class="link__button link__button--description" href="./payment.html"><span class="link__button__text">Як замовити?</span></a>
 
                     </div>
                 </div>`;
