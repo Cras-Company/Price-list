@@ -93,7 +93,7 @@ export const shopLotsLaundrySheets = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "20 шт.",
-        priceGRN: 148,
+        priceGRN: 167,
         quantityOnStorage: 12,
         description01: "Пральні серветки &#171Denkmit - Wäsche-Weiss-Tücher Mit Power-Weiss-Formel&#187 перетворять Ваші білі речі на справжню перлину чистоти.",
         description02: "Вони глибоко відбілюють тканини, видаляючи навіть найскладніші плями та повертаючи одягу первісну білизну.",
