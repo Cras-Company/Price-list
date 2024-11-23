@@ -770,7 +770,7 @@ export const shopLotsSofteners = [
         description05: "Замовте &#171Gallus - Orchidee Concentrated Softener&#187 вже сьогодні та насолоджуйтесь неперевершеною м'якістю та ароматом Вашого одягу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_2l.jpg",
         alt: "gallus_frisch_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_frisch_2l-01.jpg",
@@ -786,8 +786,8 @@ export const shopLotsSofteners = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2.04 л.",
-        priceGRN: 153,
-        priceGRNOpt: 133,
+        priceGRN: "--",
+        priceGRNOpt: 180,
         description01: "&#171Gallus - Frisch Concentrated Softener&#187 - нова ера ніжності та свіжості для Вашого одягу! Призначений для надання неперевершеної м'якості та незабутнього аромату. Завдяки спеціально розробленій формулі, яка включає в себе концентровані компоненти, засіб набагато ефективніший за стандартні пом'якшувачі або звичайні ополіскувачі.",
         description02: "Проникає глибоко у волокна, надаючи їм м'якість, якої ви ще не відчували. Приємний аромат додає одягу новий рівень вишуканості, створюючи неперевершене почуття комфорту.",
         description03: "Почніть дарувати своєму одягу нову ніжность та аромат вже сьогодні! Дозвольте собі насолодитися кожним моментом, коли ви одягаєте чистий, ніжний та ароматний одяг.",
@@ -795,7 +795,7 @@ export const shopLotsSofteners = [
         description05: "Нехай Ваш одяг говорить за вас! Оберіть &#171Gallus - Frisch Concentrated Softener&#187 для найкращого догляду, який він заслуговує."
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_2l.jpg",
         alt: "gallus_orchidee_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/gallus_orchidee_2l-01.jpg",
@@ -812,7 +812,7 @@ export const shopLotsSofteners = [
         volumeName: "Об'єм",
         volume: "2.04 л.",
         priceGRN: 153,
-        priceGRNOpt: 133,
+        quantityOnStorage: 2,
         description01: "&#171Gallus - Orchidee Concentrated Softener&#187 - ополіскувач об'єднує в собі не лише неймовірну м'якість, але й ніжний аромат орхідеї. Кожна крапля вбирається у тканини, даруючи їм неперевершений шар гладкості та свіжості.",
         description02: "Вишуканий аромат орхідеї створить неповторне відчуття розкоші до Вашого одягу. Навіть після декількох тижнів зберігання у шафі, ви будете насолоджуватися ніжним ароматом.",
         description03: "Дозвольте Вашому одягу бути віддзеркаленням Вашої краси та стилю. Виберіть &#171Gallus - Orchidee Concentrated Softener&#187 для догляду, який ви заслуговуєте.",

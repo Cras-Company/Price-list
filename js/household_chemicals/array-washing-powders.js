@@ -231,7 +231,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовте прямо зараз &#171Denkmit - Vollwaschmittel Ultra Sensitive&#187 і перетворіть ваше щоденне прання на приємний процес без неприємних сюрпризів!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_color_130.jpg",
         alt: "derr_color_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_color_130-01.jpg",
@@ -248,7 +248,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "8.45 кг.",
         priceGRN: 415,
-        priceGRNOpt: 370,
+        quantityOnStorage: 1,
         description01: "Ви шукаєте порошок, який збереже яскравість кольорів вашого одягу? Ознайомтеся з порошком для кольорових речей &#171Derr - Color XXL Pack&#187.",
         description02: "Цей порошок має спеціальну формулу, яка дбає про кольори вашого одягу, запобігаючи їх вигоранню і забезпечуючи яскравість протягом тривалого часу.",
         description03: "Бажаєте, щоб ваша улюблена одежа завжди залишалася такою ж яскравою, як і в перший день? Порошок для кольорових речей &#171Derr - Color XXL Pack&#187 зробить ваше бажання реальністю.",
@@ -256,7 +256,7 @@ export const shopLotsWashingPowders = [
         description05: "Дійте зараз і забезпечте своєму одягу максимальний захист та догляд з порошком для кольорових речей &#171Derr - Color XXL Pack&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_universal_130.jpg",
         alt: "derr_universal_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/derr_universal_130-01.jpg",
@@ -272,8 +272,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "8.45 кг.",
-        priceGRN: 415,
-        priceGRNOpt: 370,
+        priceGRN: "--",
+        priceGRNOpt: 433,
         description01: "Шукаєте порошок, який забезпечить відмінну чистоту для всіх видів тканин? Представляємо Вам універсальний порошок &#171Derr - Universal XXL Pack&#187.",
         description02: "Цей порошок розроблений за унікальною формулою, яка ефективно видаляє навіть найтвердіший бруд, забезпечуючи Вам бездоганну чистоту вашого одягу та білизни.",
         description03: "Бажаєте мати під рукою універсальний засіб, який впорається з будь-яким пранням? Порошок &#171Derr - Universal XXL Pack&#187 стане незамінним помічником у вашій щоденній боротьбі з брудом.",
