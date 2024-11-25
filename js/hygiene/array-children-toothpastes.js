@@ -70,7 +70,7 @@ export const shopLotsChildrenToothpastes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "100 мл.",
-        priceGRN: 54,
+        priceGRN: 57,
         quantityOnStorage: 6,
         description01: "Дитячий зубний гель &#171Dontodent - Junior Zahngel Mit Mildem Minz-Geschmack&#187 зі смаком м'яти зробить щоденну чистку зубів приємною та веселою.",
         description02: "М'яка формула дбайливо очищає зуби, не пошкоджуючи емаль, при цьому забезпечуючи свіжий подих і надійний захист від карієсу.",

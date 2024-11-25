@@ -116,7 +116,7 @@ export const shopLotsAdultShowerGels = [
       countryName: "Німеччина",
       volumeName: "Об'єм",
       volume: "500 мл.",
-      priceGRN: 67,
+      priceGRN: 74,
       quantityOnStorage: 6,
       description01: "Подаруйте своїй родині енергію та свіжість з гелем для душу &#171Balea - Famyly Duschgel Frische Energie Mit Grapefruit Maracuja Und Orange&#187, який поєднує аромати грейпфрута, маракуйї та апельсину.",
       description02: "Легка формула зволожує шкіру, надаючи відчуття свіжості після кожного використання.",
