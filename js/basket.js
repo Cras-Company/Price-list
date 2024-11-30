@@ -1094,7 +1094,41 @@ function restoreButtonCopy() {
         const quantityItems = JSON.parse(quantityItemsJSON);
         const totalAmountData = JSON.parse(totalAmountDataJSON);
       
-        let textToCopy = "Доброго дня. Хочу оформити замовлення:\n\n";
+        let textToCopy = "Доброго дня. Хочу оформити замовлення №";
+
+        // Получаем текущий UNIX TIME
+        const unixTime = Math.floor(Date.now() / 1000);  // текущая метка времени в UNIX TIME
+
+        // Функция для преобразования числа в римские цифры
+        function intToRoman(number) {
+          const romanNumerals = [
+            [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'],
+            [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'],
+            [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']
+          ];
+          let result = '';
+          for (let [value, numeral] of romanNumerals) {
+            while (number >= value) {
+              result += numeral;
+              number -= value;
+            }
+          }
+          return result;
+        }
+
+        // Получаем последние 2 цифры года
+        const year = new Date(unixTime * 1000).getFullYear();  // Конвертируем UNIX TIME в дату и извлекаем год
+        const lastTwoDigits = year % 100;  // Получаем последние 2 цифры года
+
+        // Преобразуем последние 2 цифры года в римские цифры
+        const yearRoman = intToRoman(lastTwoDigits);
+
+        // Получаем последние 6 цифр UNIX TIME
+        const lastSixDigits = String(unixTime).slice(-6);
+
+        // Формируем номер заказа с пробелом после № и только последние 2 цифры года в римских цифрах
+        textToCopy += ` ${yearRoman}-${lastSixDigits}:\n\n`;
+
         quantityItems.forEach((item) => {
           let priceGRN, priceUSDT;
 
@@ -1105,7 +1139,8 @@ function restoreButtonCopy() {
             priceGRN = item.priceGRN;
             priceUSDT = item.priceUSDT;
           }
-          textToCopy += `Маркер: ${item.marker}; Кількість: ${item.quantityItem}; Ціна: ${priceGRN} грн. / ${priceUSDT} USDT;\n\n`;
+
+          textToCopy += `Маркер: ${item.marker};\nКількість: ${item.quantityItem}; Ціна: ${priceGRN} грн. / ${priceUSDT} USDT;\n\n`;
         });
 
         const { totalAmountGRN, totalAmountUSDT } = totalAmountData[0];
