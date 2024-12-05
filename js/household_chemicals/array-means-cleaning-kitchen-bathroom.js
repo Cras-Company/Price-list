@@ -1381,7 +1381,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "300 мл.",
         priceGRN: 86,
-        quantityOnStorage: 3,
+        quantityOnStorage: 1,
         description01: "Засіб для чищення склокераміки та індукційних варильних поверхонь &#171Denkmit - Glaskeramik-Reiniger 3 in 1&#187 дарує бездоганну чистоту та блиск.",
         description02: "Унікальна формула легко видаляє бруд, захищає поверхню від подряпин і створює захисний шар для довготривалого ефекту.",
         description03: "Ваші варильні поверхні виглядатимуть, як нові, зберігаючи свій блиск і привабливий вигляд протягом тривалого часу після &#171Denkmit - Glaskeramik-Reiniger 3 in 1&#187.",
