@@ -128,7 +128,7 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "52 шт.",
-        priceGRN: 408,
+        priceGRN: 448,
         quantityOnStorage: 2,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187, призначеними для малюків вагою від 7 до 14 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
