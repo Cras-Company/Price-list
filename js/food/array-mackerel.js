@@ -1,6 +1,6 @@
 export const shopLotsMackerel = [
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_tomato_170.jpg",
         alt: "marinero_filety_z_makreli_tomato_170",
         url1: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_tomato_170.jpg",
@@ -14,8 +14,8 @@ export const shopLotsMackerel = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 59,
-        quantityOnStorage: 3,
+        priceGRN: 65,
+        priceGRNOpt: 60,
         description01: "Завдяки &#171Marinero - Filety Z Makreli&#187, Ви отримаєте справжнє поєднання вишуканості та вітамінів у кожному шматочку. Вони додають вашому столу аромат та насичений смак, перетворюючи звичайний обід на справжнє задоволення.",
         description02: "Це не тільки джерело смаку, але і користі для вашого здоров'я. Макрель багата Омега-3 кислотами, які сприяють здоров'ю серця та мозку, а томатний соус додає вітамін С та антиоксиданти для підтримки імунітету.",
         description03: "&#171Marinero - Filety Z Makreli&#187 виготовлені з найсвіжіших інгредієнтів, щоб забезпечити Вам справжню якість та неперевершений смак.",
@@ -23,7 +23,7 @@ export const shopLotsMackerel = [
         description05: "Спробуйте &#171Marinero - Filety Z Makreli&#187 у томатному соусі і відкрийте для себе новий рівень смакового задоволення!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_oil_170.jpg",
         alt: "marinero_filety_z_makreli_oil_170",
         url1: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_oil_170.jpg",
@@ -37,8 +37,8 @@ export const shopLotsMackerel = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 59,
-        quantityOnStorage: 1,
+        priceGRN: 72,
+        priceGRNOpt: 66,
         description01: "&#171Marinero - Filety Z Makreli&#187 - це справжній дарунок для гурманів, які цінують елегантність та здоров'я в їжі.",
         description02: "Кожен кусочок філе ніжний і смачний, а рослинна олія додає дотик здоров'я, роблячи цей продукт ідеальним вибором для більш білкового та омега-3 насиченого раціону.",
         description03: "&#171Marinero - Filety Z Makreli&#187 у рослинній олії готуються із застосуванням тільки найсвіжіших інгредієнтів та передових технологій, гарантуючи Вам бездоганний смак та поживні якості.",
