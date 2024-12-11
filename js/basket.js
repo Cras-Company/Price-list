@@ -749,7 +749,7 @@ function basketCheckboxChanger() {
       itemQuantity.textContent = '12';
     }
 
-    if (foundItem.type === "only-wholesale") {
+    if (foundItem.type === "only-wholesale оптом") {
       const marker = foundItem.marker;
       const checkboxesToUpdate = wholesaleCheckboxesArray.filter(checkbox => {
         const item = checkbox.closest('.basket__item');

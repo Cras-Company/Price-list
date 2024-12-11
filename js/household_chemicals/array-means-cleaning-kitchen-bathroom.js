@@ -2066,7 +2066,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Зробіть прибирання легким і приємним разом з &#171Respekt - Allzweckreiniger Sommertraum&#187, який забезпечить Вашому дому бездоганну чистоту і свіжість."
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_650.jpg",
         alt: "well_done_zsiroldo_650",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/well_done_zsiroldo_650-01.jpg",
@@ -2082,8 +2082,8 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Угорщина",
         volumeName: "Об'єм",
         volume: "650 мл.",
-        priceGRN: 115,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 120,
         description01: "Зустрічайте засіб для чищення та знежирення &#171Well Done - Hideg Zsíroldó&#187, який робить Вашу кухню блискучою без зайвих зусиль!",
         description02: "Інноваційна формула цього засобу дозволяє легко видаляти найстійкіші жирові плями навіть у холодній воді. Забудьте про тривале тертя та витрачений час.",
         description03: "Ваші поверхні будуть сяяти чистотою та свіжістю, а приємний аромат додасть Вашій кухні затишку. &#171Well Done - Hideg Zsíroldó&#187 підходить для різних поверхонь, забезпечуючи ідеальну чистоту.",

@@ -25,7 +25,7 @@ export const shopLotsSolidSoap = [
         description05: "Придбайте натуральне тверде мило &#171Elsa - Beauty Care Soap Pure & Natural&#187 без парфумів вже сьогодні та подаруйте Вашій шкірі турботу, на яку вона заслуговує!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_classic_125.jpg",
         alt: "elsa_beauty_soap_classic_125",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_classic_125-01.jpg",
@@ -42,7 +42,7 @@ export const shopLotsSolidSoap = [
         weightName: "Вага",
         weight: "125 гр.",
         priceGRN: 27,
-        priceGRNOpt: 24,
+        quantityOnStorage: 1,
         description01: "Тверде мило &#171Elsa - Beauty Soap Classic&#187 — це класика, яка дарує Вашій шкірі найкращий догляд.",
         description02: "Завдяки своїй традиційній формулі, воно м'яко очищає шкіру, залишаючи її свіжою та здоровою.",
         description03: "Мило &#171Elsa - Beauty Soap Classic&#187 не тільки ефективно видаляє забруднення, але й зберігає природний баланс вологи, роблячи шкіру м'якою і гладенькою.",
@@ -50,7 +50,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовляйте &#171Elsa - Beauty Soap Classic&#187 зараз і насолоджуйтеся досконалим очищенням кожного дня!"
     },
     // {
-    //     type: "wholesale оптом",
+    //     type: "retail",
     //     url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125.jpg",
     //     alt: "elsa_beauty_soap_muguet_125",
     //     url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125-01.jpg",
@@ -75,7 +75,7 @@ export const shopLotsSolidSoap = [
     //     description05: "Придбайте &#171Elsa - Beauty Soap Muguet&#187 зараз і відчуйте неповторну ніжність кожного дня!"
     // },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125.jpg",
         alt: "elsa_beauty_soap_rose_125",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125-01.jpg",
@@ -92,7 +92,7 @@ export const shopLotsSolidSoap = [
         weightName: "Вага",
         weight: "125 гр.",
         priceGRN: 27,
-        priceGRNOpt: 24,
+        quantityOnStorage: 2,
         description01: "Тверде мило &#171Elsa - Beauty Soap Rose&#187 з екстрактом троянди — це справжній витвір мистецтва для Вашої шкіри.",
         description02: "Вишуканий аромат троянди огортає ніжністю та дарує відчуття розкоші кожного разу, коли Ви його використовуєте.",
         description03: "Екстракт троянди глибоко зволожує і живить шкіру, роблячи її м'якою та шовковистою з &#171Elsa - Beauty Soap Rose&#187.",
