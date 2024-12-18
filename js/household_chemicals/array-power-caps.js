@@ -121,7 +121,7 @@ export const shopLotsPowerCaps = [
         nameUKR: "Пральні капсули універсальні з сильним плямовивідником",
         nameEN: "Pods Mit Starker Fleckentfernung",
         companyName: "The Procter & Gamble Company",
-        countryName: "Німеччина",
+        countryName: "Італія",
         quantityName: "Кількість",
         quantity: "50 шт.",
         priceGRN: 735,
