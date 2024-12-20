@@ -250,7 +250,7 @@ export const shopLotsLiquidSoap = [
         description05: "Почніть діяти зараз, замовивши &#171Gallus - Handseife White Tea&#187 - тому що Ви заслуговуєте на розкішний догляд!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250.jpg",
         alt: "lifebuoy_carring_hanwash_anti_250",
         url1: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250-01.jpg",
@@ -267,7 +267,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 50,
-        priceGRNOpt: 44,
+        quantityOnStorage: 1,
         description01: "Забезпечте максимальний захист для ваших рук з антибактеріальним рідким милом &#171Lifebuoy - Caring Handwash Anti-Bacterial Ingridient&#187 з молочним кремом.",
         description02: "Це мило ефективно знищує 99,9% бактерій, дбайливо доглядаючи за Вашою шкірою.",
         description03: "Молочний крем у складі мила &#171Lifebuoy - Caring Handwash Anti-Bacterial Ingridient&#187 глибоко зволожує та пом'якшує руки, залишаючи їх ніжними і здоровими.",
