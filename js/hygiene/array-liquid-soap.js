@@ -275,7 +275,7 @@ export const shopLotsLiquidSoap = [
         description05: "Придбайте антибактеріальне рідке мило &#171Lifebuoy - Caring Handwash Anti-Bacterial Ingridient&#187 з молочним кремом вже сьогодні та надайте Вашим рукам надійний захист і догляд!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400.jpg",
         alt: "luksja_cotton_b5_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400-01.jpg",
@@ -292,7 +292,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 78,
-        priceGRNOpt: 70,
+        quantityOnStorage: 1,
         description01: "Вітаємо у світі розкішного догляду за шкірою з кремовим рідким милом &#171Luksja - Cotton Milk & Provitamin B5&#187. Цей продукт викликає захоплення не лише своїм чудовим ароматом, але і вишуканим складом.",
         description02: "Унікального поєднання молока бавовни та провітаміну B5 у складі мила створюють відчуття неймовірного зволоження та живлення для вашої шкіри, а текстура мила додає невагому комфорту.",
         description03: "&#171Luksja - Cotton Milk & Provitamin B5&#187 пробуджує бажання мати шовковисту, ніжну шкіру, яка виблискує здоров'ям та сяйвом. Дозвольте собі відчути розкіш кожного моменту догляду тільки з натуральними компонентами.",
@@ -300,12 +300,12 @@ export const shopLotsLiquidSoap = [
         description05: "Замовте кремове рідке мило &#171Luksja - Cotton Milk & Provitamin B5&#187 вже зараз, і дозвольте своїй шкірі відчути елегантність та неперевершений дотик!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
         alt: "luksja_linseed_rice_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
         alt1: "luksja_linseed_rice_400",
-        marker: "LQSP330",
+        marker: "LQSP305",
         brand: "Luksja",
         search: "луксия луксія лукся luksia жидкое мыло насіння льону льон семена лена с семенами лена рисове молоко молочко рисовое молоко с рисовым молочком молоком",
         nameUKR: "Кремове рідке мило з насінням льону та рисовим молочком",
@@ -315,7 +315,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 78,
-        priceGRNOpt: 70,
+        quantityOnStorage: 2,
         description01: "Відкрийте для себе новий рівень ніжності з кремовим рідким милом &#171Luksja - Linseed & Rice Milk&#187. Насолоджуйтеся чарівною комбінацією дбайливого льонового насіння та освіжаючого рисового молочка.",
         description02: "Інтенсивно зволожує та залишає шкіру неймовірно м'якою. Відчуйте відданість догляду, яка вибуджує бажання ніжності щоденно.",
         description03: "Відкрийте для себе бездоганний догляд і вирушайте у світ ніжності з &#171Luksja - Linseed & Rice Milk&#187.",
@@ -326,7 +326,7 @@ export const shopLotsLiquidSoap = [
     //     type: "wholesale оптом",
     //     url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
     //     alt: "luksja_linseed_rice_400",
-    //     marker: "LQSP335",
+    //     marker: "LQSP310",
     //     brand: "Luksja",
     //     search: "луксия луксія лукся luksia жидкое мыло насіння льону льон семена лена с семенами лена рисове молоко молочко рисовое молоко с рисовым молочком молоком",
     //     nameUKR: "Кремове рідке мило з насінням льону та рисовим молочком",
@@ -344,7 +344,7 @@ export const shopLotsLiquidSoap = [
     //     description05: "Тільки один крок відокремлює Вас від найбільшого задоволення догляду за шкірою - додайте кремове рідке мило &#171Luksja - Linseed & Rice Milk&#187 у свій кошик!"
     // },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_rose_milk_400.jpg",
         alt: "luksja_rose_milk_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_rose_milk_400-01.jpg",
@@ -361,7 +361,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 78,
-        priceGRNOpt: 70,
+        quantityOnStorage: 1,
         description01: "&#171Luksja - Rose & Milk Proteins&#187 - Це не просто мило, а витончений альянс аромату троянди та корисних молочних протеїнів, який зачаровує з першого дотику. Ваша шкіра заслуговує тільки найкращого, і це мило - ключ до найніжнішого догляду.",
         description02: "Пориньте у світ загадкової троянди та корисних властивостей молочних протеїнів. Формула мила живить та заспокоює шкіру, роблячи її надзвичайно м'якою та шовковистою.",
         description03: "Мило &#171Luksja - Rose & Milk Proteins&#187 створене для вас. Задовольніть своє бажання і даруйте своїй шкірі справжню красу.",

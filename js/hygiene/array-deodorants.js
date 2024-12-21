@@ -17,7 +17,7 @@ export const shopLotsDeodorants = [
         volumeName: "Об'єм",
         volume: "50 мл.",
         priceGRN: 57,
-        quantityOnStorage: 6,
+        quantityOnStorage: 2,
         description01: "Відкрийте для себе свіжість тропіків з дезодорантом &#171Balea - Deodorant Sweet Sunshine Mit Tropesch-Fruchtigem Duft&#187, який дарує неймовірний фруктовий аромат.",
         description02: "Його активна формула ефективно захищає від поту, залишаючи шкіру сухою і доглянутою протягом усього дня.",
         description03: "Завдяки тропічному аромату &#171Balea - Deodorant Sweet Sunshine Mit Tropesch-Fruchtigem Duft&#187, Ви відчуєте легкість і впевненість у будь-яких ситуаціях.",
