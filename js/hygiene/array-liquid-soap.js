@@ -569,7 +569,7 @@ export const shopLotsLiquidSoap = [
         description05: "Подаруйте своїй шкірі приховану розкіш разом з &#171Milmil - Sapone Liquido Argan & Miele&#187, яка зачаровує з першого дотику!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l.jpg",
         alt: "milmil_cocco_vaniglia_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l-01.jpg",
@@ -585,8 +585,8 @@ export const shopLotsLiquidSoap = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 167,
-        priceGRNOpt: 155,
+        priceGRN: "--",
+        priceGRNOpt: 180,
         description01: "Додайте своїй шкірі розкішне відчуття екзотичного догляду за допомогою рідкого мила &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187. Це мило не лише очищає, але і привносить насичений аромат кокосу та ванілі.",
         description02: "Заплутайтеся у світі солодкого аромату ванілі та екзотичного кокоса, які об'єднуються у цьому милі. Його текстура, насичена ароматами, робить кожен душ витонченим ритуалом, а шкіра відчуває неймовірну м'якість та гладкість.",
         description03: "Відчуйте бажання мати шкіру, яка пахне екзотикою та виглядає доглянутою. &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187 обіцяє вашій шкірі не лише розкошний дотик, але й чарівний аромат, який залишається з Вами протягом дня.",
