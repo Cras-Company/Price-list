@@ -48,6 +48,10 @@ export const brands = [
     alt: "at_home_wash",
   },
   {
+    url: "./images/carusel/babybella.jpg",
+    alt: "babybella",
+  },
+  {
     url: "./images/carusel/backmit.jpg",
     alt: "backmit",
   },
