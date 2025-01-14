@@ -808,7 +808,7 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "900 мл.",
-        ppriceGRN: 130,
+        priceGRN: 130,
         priceGRNOpt: 117,
         description01: "Засіб для миття посуду &#171Morning Fresh - Super Corcentrated Sweet Pea & Freesia&#187 привертає увагу своєю унікальною комбінацією ароматів запашного горошку та фрезії.",
         description02: "Вишуканий квітковий аромат перетворює миття посуду на справжнє задоволення.",
