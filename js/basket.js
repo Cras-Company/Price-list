@@ -10,6 +10,8 @@ import {
   onCloseModal
 } from './modal-index.js'
 
+// Новинки
+import { shopLotsNewItems } from "./array-new-items.js";
 // Акция
 import { shopLotsSale } from "./array-sale.js";
 
@@ -121,6 +123,8 @@ import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
 
 const arrayOfProducts = [
+  { items: shopLotsNewItems, },
+
   { items: shopLotsSale, },
 
   { items: shopLotsNoodles, },
