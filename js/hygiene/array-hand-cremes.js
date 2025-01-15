@@ -42,7 +42,7 @@ export const shopLotsHandCremes = [
         volumeName: "Об'єм",
         volume: "75 мл.",
         priceGRN: 39,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Відчуйте розкішний догляд з бальзамом для рук та нігтів &#171Deba - Hands & Nails Balm Q10 & Retinol Vitamin E&#187, який поєднує у собі ретинол та вітамін E для максимального ефекту.",
         description02: "Ретинол сприяє відновленню шкіри, роблячи її гладенькою та пружною, а вітамін E забезпечує інтенсивне зволоження та захист.",
         description03: "Формула &#171Deba - Hands & Nails Balm Q10 & Retinol Vitamin E&#187 з Q10 зміцнює нігті, запобігаючи їх ламкості та розшаруванню.",
