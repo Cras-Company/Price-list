@@ -718,7 +718,7 @@ export const shopLotsAdultShowerGels = [
     //     description05: "Забудьте про сухість Вашої шкіри завдяки натуральному догляду &#171Ombia - Dusch-Creme Soft & Seidig Mit Provitamin B5&#187 і вона буде завжди ніжною і привабливою."
     // },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/bath_gels/queray_avena_miel_705.jpg",
         alt: "queray_avena_miel_705",
         url1: "./images/shop/gigiena/bath_gels/queray_avena_miel_705-01.jpg",
@@ -735,7 +735,7 @@ export const shopLotsAdultShowerGels = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 149,
-        priceGRNOpt: 131,
+        quantityOnStorage: 2,
         description01: "Насолоджуйтесь ніжним доглядом для Вашої шкіри з гелем для душу &#171Queray - Gel De Baño Avena Y Miel&#187, який поєднує екстракти вівса та меду.",
         description02: "Цей гель забезпечує глибоке зволоження та живлення, роблячи шкіру м'якою і гладкою.",
         description03: "Формула &#171Queray - Gel De Baño Avena Y Miel&#187 з вівсом заспокоює і захищає шкіру, а мед додає природного сяйва.",
@@ -743,7 +743,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Подаруйте собі момент насолоди та турботи з гелем для душу &#171Queray - Gel De Baño Avena Y Miel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/bath_gels/queray_leche_algodon_705.jpg",
         alt: "queray_leche_algodon_705",
         url1: "./images/shop/gigiena/bath_gels/queray_leche_algodon_705-01.jpg",
@@ -760,7 +760,7 @@ export const shopLotsAdultShowerGels = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 149,
-        priceGRNOpt: 131,
+        quantityOnStorage: 2,
         description01: "Зробіть Ваш душ особливим з гелем &#171Queray - Gel De Baño Leche Y Algodón&#187, який дарує неперевершену ніжність та турботу.",
         description02: "Комбінація молока та екстракту бавовни забезпечує інтенсивне зволоження та живлення, роблячи шкіру шовковистою та гладенькою.",
         description03: "&#171Queray - Gel De Baño Leche Y Algodón&#187 заспокоює і розслабляє, огортаючи Вас ніжним ароматом, що дарує відчуття комфорту.",
@@ -768,7 +768,7 @@ export const shopLotsAdultShowerGels = [
         description05: "Подаруйте своїй шкірі ніжність і захист з гелем для душу &#171Queray - Gel De Baño Leche Y Algodón&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/gigiena/bath_gels/queray_narure_705.jpg",
         alt: "queray_narure_705",
         url1: "./images/shop/gigiena/bath_gels/queray_narure_705-01.jpg",
@@ -785,7 +785,7 @@ export const shopLotsAdultShowerGels = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 149,
-        priceGRNOpt: 131,
+        quantityOnStorage: 2,
         description01: "Насолоджуйтеся натуральною свіжістю з гелем для душу &#171Queray - Gel De Baño Nature&#187, який дарує Вам найкращий догляд від природи.",
         description02: "Цей гель створений без барвників та мікропластику, забезпечуючи безпечне очищення для Вашої шкіри.",
         description03: "Натуральні інгредієнти &#171Queray - Gel De Baño Nature&#187 зберігають природний баланс, роблячи шкіру м'якою та зволоженою.",
