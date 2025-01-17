@@ -625,7 +625,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_130.jpg",
         alt: "gallus_vollwaschmittel_130",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_130-01.jpg",
@@ -641,8 +641,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "8.45 кг.",
-        priceGRN: 468,
-        priceGRNOpt: 422,
+        priceGRN: "--",
+        priceGRNOpt: 468,
         description01: "&#171Gallus - Vollwaschmittel&#187 - це потужний і ефективний засіб для видалення навіть найскладніших забруднень з вашої білизни. Завдяки своїй унікальній формулі, він забезпечує бездоганну чистоту та догляд за вашим одягом.",
         description02: "Цей пральний порошок зберігає яскравість кольорів і білизни, залишаючи тканини м'якими та приємними на дотик. Він легко видаляє плями та неприємні запахи, забезпечуючи ідеальний результат прання.",
         description03: "&#171Gallus - Vollwaschmittel&#187 має надійну якість та ефективність, що зробить процес прання легким і зручним.",
