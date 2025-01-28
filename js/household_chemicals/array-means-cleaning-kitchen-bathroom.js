@@ -166,7 +166,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 102,
+        priceGRN: 105,
         quantityOnStorage: 4,
         description01: "Хочете, щоб Ваша кухня блищала свіжістю і бездоганною чистотою? &#171Ace - Sgrassatore Con Candeggina&#187 - знежирювач з відбілювечем, який забезпечить Вам миттєвий ефект.",
         description02: "Забудьте про важкі плями та жирні сліди на кухонних поверхнях. Він не лише видаляє жир, а й забезпечує безпечне відбілювання, надаючи Вашій кухні бездоганну чистоту.",
