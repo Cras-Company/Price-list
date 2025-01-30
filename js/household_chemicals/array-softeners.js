@@ -766,7 +766,7 @@ export const shopLotsSofteners = [
         description05: "Замовте ополіскувач &#171Felce Azzurra - Rose & Lotus Flowers&#187 прямо зараз, щоб Ваша білизна завжди була сповнена вишуканими ароматами природи!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/frosch_zero_750.jpg",
         alt: "frosch_zero_750",
         url1: "./images/shop/household_chemicals/laundry_detergents/softeners/frosch_zero_750-01.jpg",
@@ -783,7 +783,7 @@ export const shopLotsSofteners = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 75,
-        priceGRNOpt: 61,
+        quantityOnStorage: 1,
         description01: "&#171Frosch - Zero%&#187 - ополіскувач без фосфатів, спеціально розроблений для чутливої шкіри. Робить не лише Ваші речі м'якими та приємно пахучими, але й зберігає природу у кожній краплі.",
         description02: "Це справжній прорив у світі побутової хімії. Без фосфатів, без шкідливих речовин, цей ополіскувач зберігає якість Вашого прання та додає неперевершеного аромату. Ідеальний для тих, хто цінує ефективність та збереження навколишнього середовища.",
         description03: "Бажаєте відчути ніжність та свіжість у Вашому житті? &#171Frosch - Zero%&#187 робить Ваші речі менше агресивними до шкіри та одночасно додає неперевершений відчуття чистоти. Насолоджуйтеся красою доглянутої шкіри та бездоганно чистих речей.",
