@@ -66,7 +66,7 @@ export const shopLotsForFabrics = [
         marker: "FRFB415",
         brand: "Lenor",
         search: "проктор гембл ленор разглаживатель складок жидкий утюг весеннее пробуждение свежесть",
-        nameUKR: "Розгладжувач складок, весняне продубження, аромат свіжості",
+        nameUKR: "Розгладжувач складок, весняне пробудження, аромат свіжості",
         nameEN: "Crease Releaser Spring Awakening",
         companyName: "The Procter & Gamble Company",
         countryName: "Англія",
