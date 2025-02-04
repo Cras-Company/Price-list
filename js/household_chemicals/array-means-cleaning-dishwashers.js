@@ -1,6 +1,6 @@
 export const shopLotsMeansCleaningDishwashers = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/at_home_clean_dishwasher_cleaner_250.jpg",
         alt: "at_home_clean_dishwasher_cleaner_250",
         url1: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/at_home_clean_dishwasher_cleaner_250-01.jpg",
@@ -16,8 +16,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Нідерланди",
         volumeName: "Об'єм",
         volume: "250 мл.",
-        priceGRN: 67,
-        quantityOnStorage: 8,
+        priceGRN: "--",
+        priceGRNOpt: 76,
         description01: "Забезпечте бездоганну чистоту Вашій посудомийній машині за допомогою засобу &#171at home Clean - Dishwasher Cleaner&#187.",
         description02: "Його потужна формула ефективно усуває жир, вапняний наліт та залишки їжі, забезпечуючи тривалу роботу Вашої машини.",
         description03: "Використання &#171at home Clean - Dishwasher Cleaner&#187 не тільки покращить якість миття посуду, але й продовжить термін служби техніки.",
