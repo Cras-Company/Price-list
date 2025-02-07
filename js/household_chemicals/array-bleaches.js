@@ -324,7 +324,7 @@ export const shopLotsBleaches = [
         description05: "Покращте своє життя зараз - замовте &#171Chanteclair - Sgrassatore Con Candeggina&#187 та відчуйте ефективність самі. Нехай ваш дім завжди виглядає як новий!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_weiss.jpg",
         alt: "gallus_fleckentferner_weiss",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/gallus_fleckentferner_weiss-01.jpg",
@@ -342,8 +342,8 @@ export const shopLotsBleaches = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "600 гр.",
-        priceGRN: 163,
-        priceGRNOpt: 145,
+        priceGRN: "--",
+        priceGRNOpt: 180,
         description01: "&#171Gallus - Sauerstoffbleiche Pulver&#187 - лідер на ринку порошків плямовивідників з активним киснем, створений, щоб зробити ваші білі речі як нові.",
         description02: "Завдяки потужному оксигеновому компоненту, цей засіб здатний змити навіть найважчі плями та відновити яскравість білого кольору на тканинах. Він ефективно видаляє жовтіння не пошкоджуючи волокна тканини.",
         description03: "Просто додайте трошки порошку до свого звичайного прального засобу перед ручним або механічним пранням, і ви побачите, як плями і забруднення зникають, а ваш одяг стає свіжим та неперевершеним.",

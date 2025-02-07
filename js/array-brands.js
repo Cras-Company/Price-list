@@ -1,4 +1,5 @@
 export const brands = [
+
   {
     url: "./images/carusel/ace.jpg",
     alt: "ace",
@@ -46,6 +47,10 @@ export const brands = [
   {
     url: "./images/carusel/at_home_wash.jpg",
     alt: "at_home_wash",
+  },
+  {
+    url: "./images/carusel/axe.jpg",
+    alt: "axe",
   },
   {
     url: "./images/carusel/babybella.jpg",
@@ -570,6 +575,10 @@ export const brands = [
   {
     url: "./images/carusel/serical.jpg",
     alt: "serical",
+  },
+  {
+    url: "./images/carusel/sole_e_napule.jpg",
+    alt: "sole_e_napule",
   },
   {
     url: "./images/carusel/soltino.jpg",
