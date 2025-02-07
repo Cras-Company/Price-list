@@ -95,7 +95,7 @@ export const shopLotsWashingPowders = [
         nameUKR: "Порошок універсальний, з засобом для виведення плям",
         nameEN: "Fast Dissolving Mountain Spring",
         companyName: "The Procter & Gamble Company",
-        countryName: "Німеччина",
+        countryName: "Італія",
         weightName: "Вага",
         weight: "1980 гр.",
         priceGRN: 545,
