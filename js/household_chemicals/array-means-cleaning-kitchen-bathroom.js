@@ -410,7 +410,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
     //     description05: "Замовляйте &#171Ace - Pavimenti Eco-Ricarica Spray Multiuso&#187 зараз і насолоджуйтеся ідеальною чистотою та свіжістю Вашого дому!"
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_the_good_one_500.jpg",
         alt: "astonish_the_good_one_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_the_good_one_500-01.jpg",
@@ -431,7 +431,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         weightName: "Вага",
         weight: "500 гр.",
         priceGRN: 252,
-        quantityOnStorage: 10,
+        priceGRNOpt: 215,
         description01: "Натуральна універсальна паста &#171Astonish - The Good One All Natural Power Cleaning Paste&#187 створена для бездоганної чистоти у кожному куточку Вашого дому!",
         description02: "Із натуральним складом та надзвичайною потужністю, вона ефективно очищає двері, вікна, плитку, скло, раковини та навіть іржу, повертаючи поверхням свіжий вигляд.",
         description03: "&#171Astonish - The Good One All Natural Power Cleaning Paste&#187 не лише видаляє забруднення, а й дбайливо захищає поверхні, зберігаючи їх природний блиск та відновлюючи первозданну красу.",
@@ -439,7 +439,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Додайте до свого прибирання силу природи з &#171Astonish - The Good One All Natural Power Cleaning Paste&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_oven_cookware_cleaner_150.jpg",
         alt: "astonish_oven_cookware_cleaner_150",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_oven_cookware_cleaner_150-01.jpg",
@@ -456,7 +456,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         weightName: "Вага",
         weight: "150 гр.",
         priceGRN: 113,
-        quantityOnStorage: 10,
+        priceGRNOpt: 97,
         description01: "Видаліть найстійкіший жир та нагар з духовки, посуду та скла без зусиль із пастою &#171Astonish - Oven & Cookware Cleaner&#187.",
         description02: "Завдяки потужній формулі цей засіб проникає у найглибші забруднення, повертаючи Вашій техніці та посуду первозданну чистоту та блиск.",
         description03: "Без різких запахів та зайвої хімії, паста &#171Astonish - Oven & Cookware Cleaner&#187 забезпечує дбайливе, але ефективне очищення, навіть для керамічних та скляних поверхонь.",
@@ -464,7 +464,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Відкрийте легкість і зручність прибирання разом з &#171Astonish - Oven & Cookware Cleaner&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_cream_lemon_500.jpg",
         alt: "astonish_cream_lemon_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_cream_lemon_500-01.jpg",
@@ -481,7 +481,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 112,
-        quantityOnStorage: 10,
+        priceGRNOpt: 95,
         description01: "&#171Astonish - Cream Lemon&#187 забезпечує глибоке очищення з приємним ароматом свіжого лимону.",
         description02: "Його потужна формула легко видаляє жир, бруд та плями з різних поверхонь, не залишаючи подряпин.",
         description03: "&#171Astonish - Cream Lemon&#187 ідеально підходить для кухні та ванної кімнати, даруючи їм бездоганну чистоту і свіжість.",
@@ -489,7 +489,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Додайте &#171Astonish - Cream Lemon&#187 до свого арсеналу для ефективного прибирання та приємного аромату!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_antibacterial_surface_cleanser_pomegranate_raspberry_750.jpg",
         alt: "astonish_antibacterial_surface_cleanser_pomegranate_raspberry_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_antibacterial_surface_cleanser_pomegranate_raspberry_750-01.jpg",
@@ -506,7 +506,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "Забезпечте абсолютну чистоту та захист свого дому з антибактеріальним засобом &#171Astonish - Antibacterial Surface Cleanser Pomegranate & Raspberry&#187 з ароматами гранату та малини!",
         description02: "Цей потужний очищувач ефективно бореться з бактеріями, не містить відбілювача та підходить для різноманітних поверхонь, зберігаючи їхню бездоганну свіжість.",
         description03: "Ніжний аромат гранату та малини у &#171Astonish - Antibacterial Surface Cleanser Pomegranate & Raspberry&#187 наповнює простір приємним фруктовим запахом, перетворюючи прибирання на справжнє задоволення.",
@@ -514,7 +514,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Відкрийте для себе поєднання чистоти та аромату з &#171Astonish - Antibacterial Surface Cleanser Pomegranate & Raspberry&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_bathroom_cleaner_jasmine_basil_750.jpg",
         alt: "astonish_bathroom_cleaner_jasmine_basil_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_bathroom_cleaner_jasmine_basil_750-01.jpg",
@@ -531,7 +531,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "Засіб для чищення ванної кімнати &#171Astonish - Bathroom Cleaner White Jasmine & Basil With Natural Oils&#187 створений, щоб Ваша ванна сяяла чистотою та свіжістю.",
         description02: "Поєднання натуральних олій жасміну та базиліку ефективно бореться з вапняним нальотом і забрудненнями, залишаючи приємний аромат.",
         description03: "Ваша ванна кімната виглядатиме бездоганно, а ви відчуєте задоволення від чистоти без зайвих зусиль з &#171Astonish - Bathroom Cleaner White Jasmine & Basil With Natural Oils&#187.",
@@ -539,7 +539,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть свою ванну кімнату ідеально чистою з &#171Astonish - Bathroom Cleaner White Jasmine & Basil With Natural Oils&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_daily_shower_shine_hibiscus_blossom_750.jpg",
         alt: "astonish_daily_shower_shine_hibiscus_blossom_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_daily_shower_shine_hibiscus_blossom_750-01.jpg",
@@ -556,7 +556,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "&#171Astonish - Daily Shower & Shine Hibiscus Blossom&#187 перетворює прибирання душової на легку і приємну задачу.",
         description02: "Завдяки ефірній олії гібіскусу, засіб не тільки ефективно видаляє вапняний наліт, але й надає Вашій ванній кімнаті ніжний квітковий аромат.",
         description03: "Щоденне використання &#171Astonish - Daily Shower & Shine Hibiscus Blossom&#187 дозволить підтримувати душову кабіну у бездоганній чистоті без зайвих зусиль та додаткового миття.",
@@ -564,7 +564,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Оберіть легкість і свіжість кожного дня з &#171Astonish - Daily Shower & Shine Hibiscus Blossom&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_daily_shower_shine_white_lilies_750.jpg",
         alt: "astonish_daily_shower_shine_white_lilies_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_daily_shower_shine_white_lilies_750-01.jpg",
@@ -581,7 +581,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "Засіб для щоденного чищення душа &#171Astonish - Daily Shower & Shine White Lilies&#187 забезпечує свіжість та чистоту без зусиль.",
         description02: "Завдяки ефірній олії лілії він не тільки запобігає утворенню вапняного нальоту, але й залишає ніжний аромат квітів.",
         description03: "Ваш душ завжди буде блищати, а догляд за ним з &#171Astonish - Daily Shower & Shine White Lilies&#187 стане швидким і простим.",
@@ -589,7 +589,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Оберіть &#171Astonish - Daily Shower & Shine White Lilies&#187 для бездоганного догляду за Вашим душем кожен день!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_kitchen_cleaner_zesty_lemon_750.jpg",
         alt: "astonish_kitchen_cleaner_zesty_lemon_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_kitchen_cleaner_zesty_lemon_750-01.jpg",
@@ -606,7 +606,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "Засіб для чищення кухні &#171Astonish - Kitchen Cleaner Zesty Lemon With Natural Oils&#187 — це Ваш секрет до ідеальної чистоти та свіжості на кухні.",
         description02: "Завдяки натуральним оліям та освіжаючому аромату лимона, він ефективно видаляє жир і бруд навіть у важкодоступних місцях.",
         description03: "Ваша кухня сяятиме, а Ви будете насолоджуватися її чистотою без зайвих зусиль, адже &#171Astonish - Kitchen Cleaner Zesty Lemon With Natural Oils&#187 робить процес прибирання приємним і легким.",
@@ -614,7 +614,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Зробіть Вашу кухню бездоганною з &#171Astonish - Kitchen Cleaner Zesty Lemon With Natural Oils&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_lime_blast_limescale_remover_750.jpg",
         alt: "astonish_lime_blast_limescale_remover_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_lime_blast_limescale_remover_750-01.jpg",
@@ -630,8 +630,8 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 157,
-        quantityOnStorage: 8,
+        priceGRN: 162,
+        priceGRNOpt: 138,
         description01: "Засіб для видалення вапняного нальоту, кальцію та іржі &#171Astonish - Lime Blast Limescale Remover&#187 миттєво розчиняє навіть найстійкіші відкладення.",
         description02: "Ефективна формула легко бореться з нальотом і іржею, залишаючи поверхні чистими та блискучими.",
         description03: "Ваші крани, душові та інші металеві поверхні знову будуть сяяти, а догляд за ними стане простим і швидким разом з &#171Astonish - Lime Blast Limescale Remover&#187.",
@@ -639,7 +639,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Обирайте &#171Astonish - Lime Blast Limescale Remover&#187 для глибокого очищення та довготривалого захисту ваших поверхонь!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_mould_mildrew_blaster_apple_burst_750.jpg",
         alt: "astonish_mould_mildrew_blaster_apple_burst_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_mould_mildrew_blaster_apple_burst_750-01.jpg",
@@ -656,7 +656,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "Засіб проти плісняви та іржі &#171Astonish - Mould & Mildew Blaster Apple Burst&#187 ефективно видаляє навіть найстійкіший бруд.",
         description02: "Ваші ванна кімната та інші вологі поверхні виглядатимуть чистими і доглянутими без зайвих зусиль.",
         description03: "Завдяки свіжому аромату яблука, &#171Astonish - Mould & Mildew Blaster Apple Burst&#187 не лише усуває плісняву та іржу, але й залишає приємний запах у приміщенні.",
@@ -664,7 +664,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Надайте своїм поверхням новий рівень чистоти разом із &#171Astonish - Mould & Mildew Blaster Apple Burst&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_multi_purpose_cleaner_bleach_750.jpg",
         alt: "astonish_multi_purpose_cleaner_bleach_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_multi_purpose_cleaner_bleach_750-01.jpg",
@@ -681,7 +681,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 113,
-        quantityOnStorage: 8,
+        priceGRNOpt: 97,
         description01: "Універсальний засіб для чищення з відбілювачем &#171Astonish - Multi-Purpose Cleaner Bleach Peony Bloom&#187 забезпечує блискучу чистоту будь-якої поверхні.",
         description02: "Ваші поверхні виглядатимуть бездоганно, а відчуття свіжості та чистоти триватиме довго.",
         description03: "Потужна формула &#171Astonish - Multi-Purpose Cleaner Bleach Peony Bloom&#187 не лише видаляє бруд, а й плями, залишаючи приємний аромат півонії.",
@@ -689,7 +689,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Виберіть &#171Astonish - Multi-Purpose Cleaner Bleach Peony Bloom&#187 для ідеальної чистоти та свіжості у кожному куточку Вашого дому!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_hob_cleaner_anibacterial_235.jpg",
         alt: "astonish_hob_cleaner_anibacterial_235",
         url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_hob_cleaner_anibacterial_235-01.jpg",
@@ -706,7 +706,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "235 мл.",
         priceGRN: 102,
-        quantityOnStorage: 6,
+        priceGRNOpt: 87,
         description01: "Додайте Вашій кухні сяйво з антибактеріальним засобом для чищення варильної поверхні &#171Astonish - Hob Cleaner Antibacterial Zesty Lemon&#187 з пікантним ароматом лимона!",
         description02: "Цей засіб ефективно усуває жир і забруднення, залишаючи поверхню бездоганно чистою та свіжою, захищеною від бактерій.",
         description03: "Соковитий аромат лимона наповнює кухню енергією, перетворюючи прибирання з &#171Astonish - Hob Cleaner Antibacterial Zesty Lemon&#187 на швидкий і приємний ритуал чистоти.",
