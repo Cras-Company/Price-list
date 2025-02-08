@@ -1,6 +1,6 @@
 export const shopLotsCheeseSpreads = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
         alt: "milbona_cream_cheese_classic_300",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
@@ -14,8 +14,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "300 гр.",
-        priceGRN: 96,
-        priceGRNOpt: 88,
+        priceGRN: "--",
+        priceGRNOpt: 120,
         description01: "&#171Milbona - Сream Сheese Сlassic&#187 - це витонченість та смак, об'єднані в одному продукті. З його ніжною текстурою та багатим смаком, Ви отримуєте справжню насолоду. Цей сирний крем виготовлений з відібраних натуральних інгредієнтів, що гарантує його натуральність та високу якість.",
         description02: "Ідеальний вибір на хліб та у використанні у кулінарних стравах. Він надасть вашим стравам неперевершений смак і аромат, а його м'яка консистенція робить його відмінним додатком до будь-якого столу.",
         description03: "&#171Milbona - Сream Сheese Сlassic&#187 має бездоганний склад і високий вміст білка, що робить його корисним вибором для всієї родини.",
@@ -23,7 +23,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Milbona - Сream Сheese Сlassic&#187 і додайте вишуканість та смак сиру до своїх улюблених страв!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_meksykanski_smak_135.jpg",
         alt: "mlekpol_meksykanski_smak_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_meksykanski_smak_135.jpg",
@@ -37,8 +37,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Meksykański Smak&#187 - це справжня насолода для шанувальників пікантних смаків. Його багата інтенсивна текстура робить його ідеальним додатком до хрусткого хліба чи крекерів.",
         description02: "Високоякісний сир і спеціально підібраний мексиканський перець надають цьому продукту неповторний смак і аромат.",
         description03: "&#171Mlekpol - Łaciaty Meksykański Smak&#187 не тільки смачний, але й корисний для вашого здоров'я. Він містить велику кількість білка, який є необхідним для будівництва м'язів і підтримки здоров'я організму.",
@@ -46,7 +46,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте гострий сирний крем &#171Mlekpol - Łaciaty Meksykański Smak&#187 вже сьогодні і додайте трохи пікантності до свого життя!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_naruralny_135.jpg",
         alt: "mlekpol_naruralny_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_naruralny_135.jpg",
@@ -60,8 +60,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Naturalny&#187 - це поєднання ніжності та багатого смаку в одному продукті. Цей сирний крем вражає своєю ніжною текстурою, що додає особливого шарму вашим стравам. Виготовлений із найкращих інгредієнтів, він гарантує найвищу якість та натуральність.",
         description02: "Цей сирний крем додасть вашим стравам неперевершений смак та аромат, а його ніжна консистенція робить його ідеальним додатком до будь-якого столу.",
         description03: "&#171Mlekpol - Łaciaty Naturalny&#187 не містить шкідливих барвників і консервантів, що робить його здоровим вибором для всієї родини.",
@@ -69,7 +69,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Mlekpol - Łaciaty Naturalny&#187 і додайте ніжність та смак сиру до своїх улюблених страв!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_cebula_i_szczypiorkiem_135.jpg",
         alt: "mlekpol_z_cebula_i_szczypiorkiem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_cebula_i_szczypiorkiem_135.jpg",
@@ -83,8 +83,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Z Cebulą I Szczypiorkiem&#187 - це вишукані поєднання ніжності та аромату свіжої цибулі та часнику в одному продукті. Цей сирний крем вражає своєю ніжною текстурою та виразним смаком, що робить його ідеальним додатком до різних страв.",
         description02: "Ідеальний вибір на хліб, використання у кулінарних стравах або приготування солодощів. Цей сирний крем додасть вашим стравам неперевершений смак та аромат, а його багата консистенція робить його ідеальним додатком до будь-якого столу.",
         description03: "&#171Mlekpol - Łaciaty Z Cebulą I Szczypiorkiem&#187 не містить шкідливих барвників і консервантів, що робить його здоровим вибором для всієї родини.",
@@ -92,7 +92,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Mlekpol - Łaciaty Z Cebulą I Szczypiorkiem&#187 і додайте неперевершений смак до своїх улюблених страв!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_chrzanem_135.jpg",
         alt: "mlekpol_z_chrzanem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_chrzanem_135.jpg",
@@ -106,8 +106,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Z Chrzanem&#187 - це поєднання ніжності та гостроти, яке запам'ятається надовго. Цей сирний крем вражає своєю ніжною текстурою та виразним гострим смаком хріну, що робить його неперевершеним додатком до різних страв.",
         description02: "Ідеальний вибір на хліб, снеків та використання у кулінарних стравах. Цей сирний крем додасть вашим стравам неперевершений смак та гострий аромат хріну, а його багата консистенція робить його ідеальним додатком до будь-якого столу.",
         description03: "Сирний крем &#171Mlekpol - Łaciaty Z Chrzanem&#187 не містить шкідливих барвників і консервантів, що робить його здоровим вибором для всієї родини.",
@@ -115,7 +115,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Спробуйте &#171Mlekpol - Łaciaty Z Chrzanem&#187 і додайте неперевершений смак гострого хріну до своїх улюблених страв."
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_czosnkiem_135.jpg",
         alt: "mlekpol_z_czosnkiem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_czosnkiem_135.jpg",
@@ -129,8 +129,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Z Czosnkiem&#187 - виготовлений з якісного молока та містить високий рівень білка, необхідного для будівництва м'язів та загального благополуччя.",
         description02: "Він може бути використаний як самостійна закуска або як інгредієнт у різних стравах. Ідеальний вибір для тих, хто любить смак і користь.",
         description03: "&#171Mlekpol - Łaciaty Z Czosnkiem&#187 також містить часник, який додає йому аромату та смаку, а також містить вітаміни та антиоксиданти, необхідні для підтримки імунної системи.",
@@ -138,7 +138,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Не відкладайте спробувати &#171Mlekpol - Łaciaty Z Czosnkiem&#187 і Ви захочете повернутися до нього знову й знову!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_kurkami_135.jpg",
         alt: "mlekpol_z_kurkami_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_kurkami_135.jpg",
@@ -152,8 +152,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Z Kurkami&#187 - це справжня насолода для любителів сирних делікатесів. Крем має ніжну, кремову текстуру, яка тане у роті, розкриваючи багатий смак.",
         description02: "Його багатий сирний аромат змагає з апетитними нотками лисичок, що додають цілком новий вимір смаку. Цей сирний крем ідеально підходить як для вживання на сніданок, так і для десерту після вечері.",
         description03: "Унікальний смак і текстура &#171Mlekpol - Łaciaty Z Kurkami&#187 зроблять будь-яку страву неповторною. Завдяки його упаковці зручного формату, ви можете взяти його з собою в дорогу або на пікнік.",
@@ -161,7 +161,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Не пропустіть можливість спробувати справжній шедевр - сирний крем з лисисками &#171Mlekpol - Łaciaty Z Kurkami&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_suszonymi_pomidorami_135.jpg",
         alt: "mlekpol_z_suszonymi_pomidorami_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_suszonymi_pomidorami_135.jpg",
@@ -175,8 +175,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "135 гр.",
-        priceGRN: 43,
-        priceGRNOpt: 39,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Mlekpol - Łaciaty Z Suszonymi Pomidorami&#187 - це сирний крем, який об'єднує у собі ніжність сиру та смак сонячних сушених помідорів. Ніжна текстура роблять його ідеальним вибором для справжніх гурманів. Виготовлений з натуральних інгредієнтів, він гарантує найвищу якість.",
         description02: "Цей сирний крем стане відмінним додатком до сніданків, ланчів чи вечерь. Його смак та аромат сушених помідорів створюють неперевершену насолоду, а його ніжна консистенція робить його ідеальним для різних страв.",
         description03: "&#171Mlekpol - Łaciaty Z Suszonymi Pomidorami&#187 не містить шкідливих барвників і консервантів, що робить його безпечним вибором для всієї родини.",
@@ -184,7 +184,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Збагатіть свої страви неперевершеним смаком сирного крему зі сушеними помідорами &#171Mlekpol - Łaciaty Z Suszonymi Pomidorami&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_norweski_smak_150.jpg",
         alt: "mlekpol_norweski_smak_150",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_norweski_smak_150.jpg",
@@ -198,8 +198,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "150 гр.",
-        priceGRN: 51,
-        quantityOnStorage: 7,
+        priceGRN: "--",
+        priceGRNOpt: 72,
         description01: "&#171Mlekpol - Norweski Smak&#187 - це справжня розкіш для вашого смаку. З ніжною текстурою та насиченим смаком лосося та кропу, цей крем подарує вам неперевершену насолоду. Він виготовлений із найкращих інгредієнтів та вибіркового лосося, що гарантує найвищу якість та натуральність.",
         description02: "Ідеальний вибір для використання на хліб і для приготування страв. Він створить атмосферу розкішного обіду або вечері, де кожний відчує насичений смак скандинавських традицій.",
         description03: "Завдяки своєму унікальному складу та Омега-3 жирним кислотам, &#171Mlekpol - Norweski Smak&#187 не тільки смачний, але і корисний для вашого здоров'я.",
@@ -207,7 +207,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Не вагайтесь, спробуйте сирний крем &#171Mlekpol - Norweski Smak&#187 і додайте нотку розкіші до своїх страв. Насолоджуйтеся справжнім смаком Норвегії прямо на вашому столі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_serek_1kg.jpg",
         alt: "mlekpol_serek_1kg",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_serek_1kg-01.jpg",
@@ -225,8 +225,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 252,
-        priceGRNOpt: 231,
+        priceGRN: "--",
+        priceGRNOpt: 280,
         description01: "Відкрийте для себе неперевершений смак та натуральність разом з &#171Mlekpol - Serek Śmietankowy Naturalny&#187.",
         description02: "Його ніжна текстура робить цей крем-сир ідеальним вибором для справжніх гурманів.",
         description03: "Насолоджуйтеся неповторним поєднанням смаку та кремистості у кожному вкусовому шедеврі &#171Mlekpol - Serek Śmietankowy Naturalny&#187.",
@@ -234,7 +234,7 @@ export const shopLotsCheeseSpreads = [
         description05: "Замовте крем-сир &#171Mlekpol - Serek Śmietankowy Naturalny&#187 прямо зараз та зануртеся у світ справжнього смаку!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cheese_spreads/sovia_queso_natural_300.jpg",
         alt: "sovia_queso_natural_300",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/sovia_queso_natural_300.jpg",
@@ -248,8 +248,8 @@ export const shopLotsCheeseSpreads = [
         countryName: "Іспанія",
         weightName: "Вага",
         weight: "150 гр.",
-        priceGRN: 92,
-        quantityOnStorage: 8,
+        priceGRN: "--",
+        priceGRNOpt: 120,
         description01: "&#171Sovia - Queso Natural&#187 - поєднує у собі ніжну консистенцію сиру та натуральний смак, який робить його неперевершеним вибором для гурманів. Виготовлений із відібраних інгредієнтів, він гарантує Вам якість та смак, які заслуговують на найвищу похвалу.",
         description02: "це більше, ніж просто сирний крем. Це справжній смаковий вибух, який додасть неперевершений аромат та смак вашим страва. Підходить для намазання на хліб.",
         description03: "&#171Sovia - Queso Natural&#187 не тільки смачний, але і здоровий. Він не містить шкідливих домішок і консервантів, що робить його безпечним для всієї сім'ї.",

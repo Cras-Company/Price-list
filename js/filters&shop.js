@@ -38,11 +38,11 @@ import { shopLotsPopcorns } from "./food/array-popcorns.js";
 import { shopLotsPistachios } from "./food/array-pistachios.js";
 import { shopLotsChips } from "./food/array-chips.js";
 
-// import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
-// import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
+import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
+import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
 import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
 
-// import { shopLotsBars } from "./food/array-bars.js";
+import { shopLotsBars } from "./food/array-bars.js";
 import { shopLotsWaffles } from "./food/array-waffles.js";
 import { shopLotsChocolate } from "./food/array-chocolate.js";
 
@@ -57,7 +57,7 @@ import { shopLotsOil } from "./food/array-oil.js";
 import { shopLotsOlives } from "./food/array-olives.js";
 import { shopLotsOliveOil } from "./food/array-olive-oil.js";
 
-// import { shopLotsForBaking } from "./food/array-for-baking.js";
+import { shopLotsForBaking } from "./food/array-for-baking.js";
 import { shopLotsMustard } from "./food/array-mustard.js";
 import { shopLotsSauces } from "./food/array-sauces.js";
 import { shopLotsSeasonings } from "./food/array-seasonings.js";
@@ -154,11 +154,11 @@ const shopListPopcorn = document.querySelector(".js-cras__list--popcorn");
 const shopListPistachios = document.querySelector(".js-cras__list--pistachios");
 const shopListChips = document.querySelector(".js-cras__list--chips");
 
-// const shopListCreamSpreads = document.querySelector(".js-cras__list--cream-spreads");
-// const shopListCheeseSpreads = document.querySelector(".js-cras__list--cheese-spreads");
+const shopListCreamSpreads = document.querySelector(".js-cras__list--cream-spreads");
+const shopListCheeseSpreads = document.querySelector(".js-cras__list--cheese-spreads");
 const shopListSweetSpreads = document.querySelector(".js-cras__list--sweet-spreads");
 
-// const shopListBars = document.querySelector(".js-cras__list--bars");
+const shopListBars = document.querySelector(".js-cras__list--bars");
 const shopListWaffles = document.querySelector(".js-cras__list--waffles");
 const shopListChocolate = document.querySelector(".js-cras__list--chocolate");
 
@@ -173,7 +173,7 @@ const shopListOil = document.querySelector(".js-cras__list--oil");
 const shopListOlives = document.querySelector(".js-cras__list--olives");
 const shopListOliveOil = document.querySelector(".js-cras__list--olive-oil");
 
-// const shopListForBaking = document.querySelector(".js-cras__list--for-baking");
+const shopListForBaking = document.querySelector(".js-cras__list--for-baking");
 const shopListMustard = document.querySelector(".js-cras__list--mustard");
 const shopListSauces = document.querySelector(".js-cras__list--sauces");
 const shopListSeasonings = document.querySelector(".js-cras__list--seasonings");
@@ -291,13 +291,13 @@ const BlockChips = document.querySelector(".js-block-chips");
 
 // Помазанки
 const SectionAllBreadSpreads = document.querySelector(".js-section-all-bread-spreads");
-// const BlockCreamSpreads = document.querySelector(".js-block-cream-spreads");
-// const BlockCheeseSpreads = document.querySelector(".js-block-cheese-spreads");
+const BlockCreamSpreads = document.querySelector(".js-block-cream-spreads");
+const BlockCheeseSpreads = document.querySelector(".js-block-cheese-spreads");
 const BlockSweetSpreads = document.querySelector(".js-block-sweet-spreads");
 
 // Сладости
 const SectionAllSweets = document.querySelector(".js-section-all-sweets");
-// const BlockBars = document.querySelector(".js-block-bars");
+const BlockBars = document.querySelector(".js-block-bars");
 const BlockWaffles = document.querySelector(".js-block-waffles");
 const BlockChocolate = document.querySelector(".js-block-chocolate");
 
@@ -318,7 +318,7 @@ const BlockOliveOil = document.querySelector(".js-block-olive-oil");
 
 // Модификаторы вкуса
 const SectionAllTasteModifiers = document.querySelector(".js-section-all-taste-modifiers");
-// const BlockForBaking = document.querySelector(".js-block-for-baking");
+const BlockForBaking = document.querySelector(".js-block-for-baking");
 const BlockMustard = document.querySelector(".js-block-mustard");
 const BlockSauces = document.querySelector(".js-block-sauces");
 const BlockSeasonings = document.querySelector(".js-block-seasonings");
@@ -430,49 +430,33 @@ const arrayOfProducts = [
 
   { element: shopListSale, items: shopLotsSale, block: BlockSale, dataTarget: "sale" },
 
-  { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
-  { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
-  { element: shopListSpaghetti, items: shopLotsSpaghetti, block: BlockSpaghetti, dataTarget: "spaghetti" },
-  { element: shopListTarhona, items: shopLotsTarhona, block: BlockTarhona, dataTarget: "tarhona" },
+  { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
+  { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
 
-  { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
+  { element: shopListWashingGels, items: shopLotsWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
+  { element: shopListPowerCaps, items: shopLotsPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
+  { element: shopListWashingPowders, items: shopLotsWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
+  { element: shopListLaundrySheets, items: shopLotsLaundrySheets, block: BlockLaundrySheets, dataTarget: "laundry_sheets" },
+  { element: shopListBleaches, items: shopLotsBleaches, block: BlockBleaches, dataTarget: "bleaches" },
+  { element: shopListStainRemovers, items: shopLotsStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
+  { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
+  { element: shopListScentBoosterGranuls, items: shopLotsScentBoosterGranuls, block: BlockScentBoosterGranuls, dataTarget: "scent-booster-granuls" },
 
-  { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
-  { element: shopListSalmon, items: shopLotsSalmon, block: BlockSalmon, dataTarget: "salmon" },
-  { element: shopListMackerel, items: shopLotsMackerel, block: BlockMackerel, dataTarget: "mackerel" },
-  { element: shopListHerring, items: shopLotsHerring, block: BlockHerring, dataTarget: "herring" },
-  { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
-  { element: shopListCod, items: shopLotsCod, block: BlockCod, dataTarget: "cod" },
-  { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
+  { element: shopListForFabrics, items: shopLotsForFabrics, block: BlockForFabrics, dataTarget: "for_fabrics" },
+  { element: shopListForWindows, items: shopLotsForWindows, block: BlockForWindows, dataTarget: "for_windows" },
+  { element: shopListForFurniture, items: shopLotsForFurniture, block: BlockForFurniture, dataTarget: "for_furniture" },
+  { element: shopListForFloor, items: shopLotsForFloor, block: BlockForFloor, dataTarget: "for_floor" },
+  { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
+  { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
+  { element: shopListForWC, items: shopLotsForWC, block: BlockForWC, dataTarget: "for_wc" },
+  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
+  { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
 
-  { element: shopListPeanuts, items: shopLotsPeanuts, block: BlockPeanuts, dataTarget: "peanuts" },
-  { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
-  { element: shopListPistachios, items: shopLotsPistachios, block: BlockPistachios, dataTarget: "pistachios" },
-  { element: shopListChips, items: shopLotsChips, block: BlockChips, dataTarget: "chips" },
-
-  // { element: shopListCreamSpreads, items: shopLotsCreamSpreads, block: BlockCreamSpreads, dataTarget: "cream-spreads" },
-  // { element: shopListCheeseSpreads, items: shopLotsCheeseSpreads, block: BlockCheeseSpreads, dataTarget: "cheese-spreads" },
-  { element: shopListSweetSpreads, items: shopLotsSweetSpreads, block: BlockSweetSpreads, dataTarget: "sweet-spreads" },
-
-  // { element: shopListBars, items: shopLotsBars, block: BlockBars, dataTarget: "bars" },
-  { element: shopListWaffles, items: shopLotsWaffles, block: BlockWaffles, dataTarget: "waffles" },
-  { element: shopListChocolate, items: shopLotsChocolate, block: BlockChocolate, dataTarget: "chocolate" },
-
-  { element: shopListHotChocolate, items: shopLotsHotChocolate, block: BlockHotChocolate, dataTarget: "hot-chocolate" },
-  { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
-  { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
-  { element: shopListInstantCoffee, items: shopLotsInstantCoffee, block: BlockInstantCoffee, dataTarget: "instant-coffee" },
-  { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
-  { element: shopListCappuccino, items: shopLotsCappuccino, block: BlockCappuccino, dataTarget: "cappuccino" },
-
-  { element: shopListOil, items: shopLotsOil, block: BlockOil, dataTarget: "oil" },
-  { element: shopListOlives, items: shopLotsOlives, block: BlockOlives, dataTarget: "olives" },
-  { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
-
-  // { element: shopListForBaking, items: shopLotsForBaking, block: BlockForBaking, dataTarget: "for-baking" },
-  { element: shopListMustard, items: shopLotsMustard, block: BlockMustard, dataTarget: "mustard" },
-  { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
-  { element: shopListSeasonings, items: shopLotsSeasonings, block: BlockSeasonings, dataTarget: "seasonings" },
+  { element: shopListMoistureAbsorbers, items: shopLotsMoistureAbsorbers, block: BlockMoistureAbsorbers, dataTarget: "moisture_absorbers" },
+  { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
+  { element: shopListFabricFresheners, items: shopLotsFabricFresheners, block: BlockFabricFresheners, dataTarget: "fabric_fresheners" },
+  { element: shopListAntiSmells, items: shopLotsAntiSmells, block: BlockAntiSmells, dataTarget: "anti_smells" },
+  { element: shopListBathBombs, items: shopLotsBathBombs, block: BlockBathBombs, dataTarget: "bath_bombs" },
 
   { element: shopListChildrenShampoos, items: shopLotsChildrenShampoos, block: BlockChildrenShampoos, dataTarget: "children-shampoos" },
   { element: shopListChildrenShowerGels, items: shopLotsChildrenShowerGels, block: BlockChildrenShowerGels, dataTarget: "children-shower-gels" },
@@ -510,33 +494,49 @@ const arrayOfProducts = [
 
   { element: shopListTPThreeLayer, items: shopLotsTPThreeLayer, block: BlockTPThreeLayer, dataTarget: "tp-three-layer" },
 
-  { element: shopListMeansHandsWashingDishes, items: shopLotsMeansHandsWashingDishes, block: BlockHandsWashingDishes, dataTarget: "hands_washing_dishes" },
-  { element: shopListMeansMechanicalWashingDishes, items: shopLotsMeansMechanicalWashingDishes, block: BlockMechanicalWashingDishes, dataTarget: "mechanical_washing_dishes" },
+  { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
+  { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
+  { element: shopListSpaghetti, items: shopLotsSpaghetti, block: BlockSpaghetti, dataTarget: "spaghetti" },
+  { element: shopListTarhona, items: shopLotsTarhona, block: BlockTarhona, dataTarget: "tarhona" },
 
-  { element: shopListWashingGels, items: shopLotsWashingGels, block: BlockWashingGels, dataTarget: "washing_gels" },
-  { element: shopListPowerCaps, items: shopLotsPowerCaps, block: BlockPowerCaps, dataTarget: "power_caps" },
-  { element: shopListWashingPowders, items: shopLotsWashingPowders, block: BlockWashingPowders, dataTarget: "washing_powders" },
-  { element: shopListLaundrySheets, items: shopLotsLaundrySheets, block: BlockLaundrySheets, dataTarget: "laundry_sheets" },
-  { element: shopListBleaches, items: shopLotsBleaches, block: BlockBleaches, dataTarget: "bleaches" },
-  { element: shopListStainRemovers, items: shopLotsStainRemovers, block: BlockStainRemovers, dataTarget: "stain_removers" },
-  { element: shopListSofteners, items: shopLotsSofteners, block: BlockSofteners, dataTarget: "softeners" },
-  { element: shopListScentBoosterGranuls, items: shopLotsScentBoosterGranuls, block: BlockScentBoosterGranuls, dataTarget: "scent-booster-granuls" },
+  { element: shopListCheese, items: shopLotsCheese, block: BlockCheese, dataTarget: "cheese" },
 
-  { element: shopListForFabrics, items: shopLotsForFabrics, block: BlockForFabrics, dataTarget: "for_fabrics" },
-  { element: shopListForWindows, items: shopLotsForWindows, block: BlockForWindows, dataTarget: "for_windows" },
-  { element: shopListForFurniture, items: shopLotsForFurniture, block: BlockForFurniture, dataTarget: "for_furniture" },
-  { element: shopListForFloor, items: shopLotsForFloor, block: BlockForFloor, dataTarget: "for_floor" },
-  { element: shopListMeansCleaningUniversal, items: shopLotsMeansCleaningUniversal, block: BlockCleaningUniversal, dataTarget: "means_cleaning_universal" },
-  { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
-  { element: shopListForWC, items: shopLotsForWC, block: BlockForWC, dataTarget: "for_wc" },
-  { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
-  { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
+  { element: shopListPates, items: shopLotsPates, block: BlockPates, dataTarget: "pates" },
+  { element: shopListSalmon, items: shopLotsSalmon, block: BlockSalmon, dataTarget: "salmon" },
+  { element: shopListMackerel, items: shopLotsMackerel, block: BlockMackerel, dataTarget: "mackerel" },
+  { element: shopListHerring, items: shopLotsHerring, block: BlockHerring, dataTarget: "herring" },
+  { element: shopListTuna, items: shopLotsTuna, block: BlockTuna, dataTarget: "tuna" },
+  { element: shopListCod, items: shopLotsCod, block: BlockCod, dataTarget: "cod" },
+  { element: shopListSprats, items: shopLotsSprats, block: BlockSprats, dataTarget: "sprats" },
 
-  { element: shopListMoistureAbsorbers, items: shopLotsMoistureAbsorbers, block: BlockMoistureAbsorbers, dataTarget: "moisture_absorbers" },
-  { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
-  { element: shopListFabricFresheners, items: shopLotsFabricFresheners, block: BlockFabricFresheners, dataTarget: "fabric_fresheners" },
-  { element: shopListAntiSmells, items: shopLotsAntiSmells, block: BlockAntiSmells, dataTarget: "anti_smells" },
-  { element: shopListBathBombs, items: shopLotsBathBombs, block: BlockBathBombs, dataTarget: "bath_bombs" },
+  { element: shopListPeanuts, items: shopLotsPeanuts, block: BlockPeanuts, dataTarget: "peanuts" },
+  { element: shopListPopcorn, items: shopLotsPopcorns, block: BlockPopcorn, dataTarget: "popcorn" },
+  { element: shopListPistachios, items: shopLotsPistachios, block: BlockPistachios, dataTarget: "pistachios" },
+  { element: shopListChips, items: shopLotsChips, block: BlockChips, dataTarget: "chips" },
+
+  { element: shopListCreamSpreads, items: shopLotsCreamSpreads, block: BlockCreamSpreads, dataTarget: "cream-spreads" },
+  { element: shopListCheeseSpreads, items: shopLotsCheeseSpreads, block: BlockCheeseSpreads, dataTarget: "cheese-spreads" },
+  { element: shopListSweetSpreads, items: shopLotsSweetSpreads, block: BlockSweetSpreads, dataTarget: "sweet-spreads" },
+
+  { element: shopListBars, items: shopLotsBars, block: BlockBars, dataTarget: "bars" },
+  { element: shopListWaffles, items: shopLotsWaffles, block: BlockWaffles, dataTarget: "waffles" },
+  { element: shopListChocolate, items: shopLotsChocolate, block: BlockChocolate, dataTarget: "chocolate" },
+
+  { element: shopListHotChocolate, items: shopLotsHotChocolate, block: BlockHotChocolate, dataTarget: "hot-chocolate" },
+  { element: shopListCoffeeBeans, items: shopLotsCoffeeBeans, block: BlockCoffeeBeans, dataTarget: "coffee-beans" },
+  { element: shopListGroundCoffee, items: shopLotsGroundCoffee, block: BlockGroundCoffee, dataTarget: "ground-coffee" },
+  { element: shopListInstantCoffee, items: shopLotsInstantCoffee, block: BlockInstantCoffee, dataTarget: "instant-coffee" },
+  { element: shopListCacao, items: shopLotsCacao, block: BlockCacao, dataTarget: "cacao" },
+  { element: shopListCappuccino, items: shopLotsCappuccino, block: BlockCappuccino, dataTarget: "cappuccino" },
+
+  { element: shopListOil, items: shopLotsOil, block: BlockOil, dataTarget: "oil" },
+  { element: shopListOlives, items: shopLotsOlives, block: BlockOlives, dataTarget: "olives" },
+  { element: shopListOliveOil, items: shopLotsOliveOil, block: BlockOliveOil, dataTarget: "olive-oil" },
+
+  { element: shopListForBaking, items: shopLotsForBaking, block: BlockForBaking, dataTarget: "for-baking" },
+  { element: shopListMustard, items: shopLotsMustard, block: BlockMustard, dataTarget: "mustard" },
+  { element: shopListSauces, items: shopLotsSauces, block: BlockSauces, dataTarget: "sauces" },
+  { element: shopListSeasonings, items: shopLotsSeasonings, block: BlockSeasonings, dataTarget: "seasonings" },
 ];
 
 // arrayOfProducts.forEach(({ element, items }) => {
@@ -725,11 +725,11 @@ function handleFormSubmit(event) {
   const filteredPistachios = universalSearch(shopLotsPistachios, searchItem);
   const filteredChips = universalSearch(shopLotsChips, searchItem);
 
-  // const filteredCreamSpreads = universalSearch(shopLotsCreamSpreads, searchItem);
-  // const filteredCheeseSpreads = universalSearch(shopLotsCheeseSpreads, searchItem);
+  const filteredCreamSpreads = universalSearch(shopLotsCreamSpreads, searchItem);
+  const filteredCheeseSpreads = universalSearch(shopLotsCheeseSpreads, searchItem);
   const filteredSweetSpreads = universalSearch(shopLotsSweetSpreads, searchItem);
 
-  // const filteredBars = universalSearch(shopLotsBars, searchItem);
+  const filteredBars = universalSearch(shopLotsBars, searchItem);
   const filteredWaffles = universalSearch(shopLotsWaffles, searchItem);
   const filteredChocolate = universalSearch(shopLotsChocolate, searchItem);
 
@@ -744,7 +744,7 @@ function handleFormSubmit(event) {
   const filteredOlives = universalSearch(shopLotsOlives, searchItem);
   const filteredOliveOil = universalSearch(shopLotsOliveOil, searchItem);
 
-  // const filteredForBaking = universalSearch(shopLotsForBaking, searchItem);
+  const filteredForBaking = universalSearch(shopLotsForBaking, searchItem);
   const filteredMustard = universalSearch(shopLotsMustard, searchItem);
   const filteredSauces = universalSearch(shopLotsSauces, searchItem);
   const filteredSeasonings = universalSearch(shopLotsSeasonings, searchItem);
@@ -840,11 +840,11 @@ function handleFormSubmit(event) {
     ...filteredPistachios,
     ...filteredChips,
 
-    // ...filteredCreamSpreads,
-    // ...filteredCheeseSpreads,
+    ...filteredCreamSpreads,
+    ...filteredCheeseSpreads,
     ...filteredSweetSpreads,
 
-    // ...filteredBars,
+    ...filteredBars,
     ...filteredWaffles,
     ...filteredChocolate,
 
@@ -859,7 +859,7 @@ function handleFormSubmit(event) {
     ...filteredOlives,
     ...filteredOliveOil,
 
-    // ...filteredForBaking,
+    ...filteredForBaking,
     ...filteredMustard,
     ...filteredSauces,
     ...filteredSeasonings,
@@ -1006,21 +1006,21 @@ function handleFormSubmit(event) {
   }
 
   if (
-    // filteredCreamSpreads.length > 0 ||
-    // filteredCheeseSpreads.length > 0 ||
+    filteredCreamSpreads.length > 0 ||
+    filteredCheeseSpreads.length > 0 ||
     filteredSweetSpreads.length > 0) {
-    // shopListCreamSpreads.innerHTML = createMobileListItemsMarkup(filteredCreamSpreads);
-    // shopListCheeseSpreads.innerHTML = createMobileListItemsMarkup(filteredCheeseSpreads);
+    shopListCreamSpreads.innerHTML = createMobileListItemsMarkup(filteredCreamSpreads);
+    shopListCheeseSpreads.innerHTML = createMobileListItemsMarkup(filteredCheeseSpreads);
     shopListSweetSpreads.innerHTML = createMobileListItemsMarkup(filteredSweetSpreads);
   } else {
     SectionAllBreadSpreads.style.display = "none";
   }
 
   if (
-    // filteredBars.length > 0 ||
+    filteredBars.length > 0 ||
     filteredWaffles.length > 0 ||
     filteredChocolate.length > 0) {
-    // shopListBars.innerHTML = createMobileListItemsMarkup(filteredBars);
+    shopListBars.innerHTML = createMobileListItemsMarkup(filteredBars);
     shopListWaffles.innerHTML = createMobileListItemsMarkup(filteredWaffles);
     shopListChocolate.innerHTML = createMobileListItemsMarkup(filteredChocolate);
   } else {
@@ -1054,11 +1054,11 @@ function handleFormSubmit(event) {
   }
 
   if (
-    // filteredForBaking.length > 0 ||
+    filteredForBaking.length > 0 ||
     filteredMustard.length > 0 ||
     filteredSauces.length > 0 ||
     filteredSeasonings.length > 0) {
-    // shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
+    shopListForBaking.innerHTML = createMobileListItemsMarkup(filteredForBaking);
     shopListMustard.innerHTML = createMobileListItemsMarkup(filteredMustard);
     shopListSauces.innerHTML = createMobileListItemsMarkup(filteredSauces);
     shopListSeasonings.innerHTML = createMobileListItemsMarkup(filteredSeasonings);
@@ -1262,11 +1262,11 @@ function handleFormSubmit(event) {
     { element: shopListPistachios, items: filteredPistachios, block: BlockPistachios },
     { element: shopListChips, items: filteredChips, block: BlockChips },
 
-    // { element: shopListCreamSpreads, items: filteredCreamSpreads, block: BlockCreamSpreads },
-    // { element: shopListCheeseSpreads, items: filteredCheeseSpreads, block: BlockCheeseSpreads },
+    { element: shopListCreamSpreads, items: filteredCreamSpreads, block: BlockCreamSpreads },
+    { element: shopListCheeseSpreads, items: filteredCheeseSpreads, block: BlockCheeseSpreads },
     { element: shopListSweetSpreads, items: filteredSweetSpreads, block: BlockSweetSpreads },
 
-    // { element: shopListBars, items: filteredBars, block: BlockBars },
+    { element: shopListBars, items: filteredBars, block: BlockBars },
     { element: shopListWaffles, items: filteredWaffles, block: BlockWaffles },
     { element: shopListChocolate, items: filteredChocolate, block: BlockChocolate },
     
@@ -1281,7 +1281,7 @@ function handleFormSubmit(event) {
     { element: shopListOlives, items: filteredOlives, block: BlockOlives },
     { element: shopListOliveOil, items: filteredOliveOil, block: BlockOliveOil },
 
-    // { element: shopListForBaking, items: filteredForBaking, block: BlockForBaking },
+    { element: shopListForBaking, items: filteredForBaking, block: BlockForBaking },
     { element: shopListMustard, items: filteredMustard, block: BlockMustard },
     { element: shopListSauces, items: filteredSauces, block: BlockSauces },
     { element: shopListSeasonings, items: filteredSeasonings, block: BlockSeasonings },

@@ -1,6 +1,6 @@
 export const shopLotsCreamSpreads = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250.jpg",
         alt: "aro_natur_vajkrem_250",
         url1: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250-01.jpg",
@@ -14,8 +14,8 @@ export const shopLotsCreamSpreads = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 73,
-        priceGRNOpt: 66,
+        priceGRN: "--",
+        priceGRNOpt: 90,
         description01: "&#171Aro - Natúr Vajkrém&#187 - це справжня нагорода для вашого смаку. З його ніжною текстурою та багатим вершковим смаком, Ви отримуєте справжню вишуканість на вашому столі. Цей крем виробляється з найкращих вершків, що гарантує його натуральність та високу якість.",
         description02: "Ідеальний вибір на хліб, тостів та у використанні у кулінарних стравах. Він надасть вашим стравам неперевершений смак і аромат, а його кремова консистенція робить його чудовим додатком до будь-якого столу.",
         description03: "&#171Aro - Natúr Vajkrém&#187 не містить шкідливих домішок та штучних барвників, що робить його безпечним для всієї родини.",
@@ -23,7 +23,7 @@ export const shopLotsCreamSpreads = [
         description05: "Спробуйте &#171Aro - Natúr Vajkrém&#187 і додайте неперевершений смак вершків до своїх улюблених страв!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_zoldfuszeres_vajkrem_250.jpg",
         alt: "aro_zoldfuszeres_vajkrem_250",
         url1: "./images/shop/food/bread_spreads/cream_spreads/aro_zoldfuszeres_vajkrem_250-01.jpg",
@@ -37,8 +37,8 @@ export const shopLotsCreamSpreads = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 73,
-        priceGRNOpt: 66,
+        priceGRN: "--",
+        priceGRNOpt: 90,
         description01: "Зверніть увагу на новий вершковий крем &#171Aro - Zöldfűszeres Vajkrém&#187, який вражає своєю неповторною ніжністю, ароматом та смаком зелених спецій.",
         description02: "Збагачений вишуканим смаком зелених трав та чарівним відтінком вершків, цей крем створений для тих, хто цінує вишуканий смак і гастрономічне експериментування.",
         description03: "Коли Ви спробуєте &#171Aro - Zöldfűszeres Vajkrém&#187, то більше не зможете уявити свій стіл без цього чарівного додатку.",

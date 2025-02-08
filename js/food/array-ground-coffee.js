@@ -46,7 +46,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Не втрачайте нагоди побалувати себе справжнім італійським смаком. Придбайте &#171Bellarom - Exclesive&#187 вже сьогодні та пориньте у світ аромату та насолоди!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/bellarom_gold_250.jpg",
         alt: "bellarom_gold_250",
         url1: "./images/shop/food/drinks/ground_coffee/bellarom_gold_250.jpg",
@@ -60,8 +60,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 214,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 264,
         description01: "&#171Bellarom - Gold&#187 - це справжній діамант серед кавових сортів. Ця кава створена з найкращих зерен 100% арабіки, які ростуть на найкращих плантаціях світу. Обсмажена з особливою ретельністю, має неперевершений смак та аромат.",
         description02: "Специфічна обсмажка надає цій каві вишуканий відтінок та золотистий колір, що робить її неповторною. З кожним ковзком цієї кави ви відчуєте багатогранність смаку, з нотками карамелі та шоколаду.",
         description03: "&#171Bellarom - Gold&#187 ідеально підходить для приготування еспресо, американо, капучино та інших улюблених напоїв. Зараз ваша можливість насолодитися найкращим, що пропонує світ кави, прямо вдома.",
@@ -69,7 +69,7 @@ export const shopLotsGroundCoffee = [
         description05: "Не вагайтеся, додайте &#171Bellarom - Gold&#187 до свого кошика та розкрийте всю розкіш італійського кавового досвіду!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/drinks/ground_coffee/bellarom_gold_500.jpg",
         alt: "bellarom_gold_500",
         url1: "./images/shop/food/drinks/ground_coffee/bellarom_gold_500.jpg",
@@ -83,8 +83,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 292,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 342,
         description01: "&#171Bellarom - Gold&#187 - це справжній діамант серед кавових сортів. Ця кава створена з найкращих зерен 100% арабіки, які ростуть на найкращих плантаціях світу. Обсмажена з особливою ретельністю, має неперевершений смак та аромат.",
         description02: "Специфічна обсмажка надає цій каві вишуканий відтінок та золотистий колір, що робить її неповторною. З кожним ковзком цієї кави ви відчуєте багатогранність смаку, з нотками карамелі та шоколаду.",
         description03: "&#171Bellarom - Gold&#187 ідеально підходить для приготування еспресо, американо, капучино та інших улюблених напоїв. Зараз ваша можливість насолодитися найкращим, що пропонує світ кави, прямо вдома.",

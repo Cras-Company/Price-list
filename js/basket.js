@@ -36,11 +36,11 @@ import { shopLotsPopcorns } from "./food/array-popcorns.js";
 import { shopLotsPistachios } from "./food/array-pistachios.js";
 import { shopLotsChips } from "./food/array-chips.js";
 
-// import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
-// import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
+import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
+import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
 import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
 
-// import { shopLotsBars } from "./food/array-bars.js";
+import { shopLotsBars } from "./food/array-bars.js";
 import { shopLotsWaffles } from "./food/array-waffles.js";
 import { shopLotsChocolate } from "./food/array-chocolate.js";
 
@@ -55,7 +55,7 @@ import { shopLotsOil } from "./food/array-oil.js";
 import { shopLotsOlives } from "./food/array-olives.js";
 import { shopLotsOliveOil } from "./food/array-olive-oil.js";
 
-// import { shopLotsForBaking } from "./food/array-for-baking.js";
+import { shopLotsForBaking } from "./food/array-for-baking.js";
 import { shopLotsMustard } from "./food/array-mustard.js";
 import { shopLotsSauces } from "./food/array-sauces.js";
 import { shopLotsSeasonings } from "./food/array-seasonings.js";
@@ -147,11 +147,11 @@ const arrayOfProducts = [
   { items: shopLotsPistachios,  },
   { items: shopLotsChips, },
 
-  // { items: shopLotsCreamSpreads, },
-  // { items: shopLotsCheeseSpreads, },
+  { items: shopLotsCreamSpreads, },
+  { items: shopLotsCheeseSpreads, },
   { items: shopLotsSweetSpreads, },
 
-  // { items: shopLotsBars, },
+  { items: shopLotsBars, },
   { items: shopLotsWaffles, },
   { items: shopLotsChocolate, },
 
@@ -166,7 +166,7 @@ const arrayOfProducts = [
   { items: shopLotsOlives, },
   { items: shopLotsOliveOil, },
 
-  // { items: shopLotsForBaking, },
+  { items: shopLotsForBaking, },
   { items: shopLotsMustard, },
   { items: shopLotsSauces, },
   { items: shopLotsSeasonings, },

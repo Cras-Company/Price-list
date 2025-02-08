@@ -1,6 +1,6 @@
 export const shopLotsForBaking = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/taste_modifier/for_baking/backmit_daralt_mak_200.jpg",
         alt: "backmit_daralt_mak_200",
         url1: "./images/shop/food/taste_modifier/for_baking/backmit_daralt_mak_200.jpg",
@@ -14,8 +14,8 @@ export const shopLotsForBaking = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 69,
-        priceGRNOpt: 60,
+        priceGRN: "--",
+        priceGRNOpt: 82,
         description01: "&#171Back Mit - Darált Mák&#187 - це справжній дар природи для гурманів та кухарів. Цей мелений мак вражає своєю неймовірною якістю та свіжістю. Кожна пачка маку містить найкращі насіння, відібрані з великою увагою, щоб забезпечити найкращий смак і аромат.",
         description02: "&#171Back Mit - Darált Mák&#187 подарує вашим стравам неповторний смак і текстуру. Цей мак мелеться так дрібно, що легко інтегрується у будь-яку випічку, роблячи її ще смачнішою і ароматнішою.",
         description03: "Завдяки унікальному процесу обробки, мак зберігає всі корисні властивості і поживні речовини, що робить його чудовим доповненням до здорового харчування.",
@@ -23,7 +23,7 @@ export const shopLotsForBaking = [
         description05: "Не гайте часу, спробуйте цей неперевершений мак &#171Back Mit - Darált Mák&#187 вже сьогодні і переконайтеся в його вишуканому смаку та якості."
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/taste_modifier/for_baking/dr.oetker_zlaty_klas_40.jpg",
         alt: "dr.oetker_zlaty_klas_40",
         url1: "./images/shop/food/taste_modifier/for_baking/dr.oetker_zlaty_klas_40.jpg",
@@ -37,8 +37,8 @@ export const shopLotsForBaking = [
         countryName: "Словаччина",
         weightName: "Вага",
         weight: "40 гр.",
-        priceGRN: 19,
-        priceGRNOpt: 16,
+        priceGRN: "--",
+        priceGRNOpt: 30,
         description01: "&#171Dr. Oetker - Zlatý Klas&#187 - це справжній секрет солодких втіх. Його неймовірно ванільний аромат та ніжна текстура роблять будь-який десерт надзвичайно смачним і апетитним. Цей продукт стане незамінним для всіх любителів випікання та солодких шедеврів.",
         description02: "&#171Dr. Oetker - Zlatý Klas&#187 легко розчиняється у молоці, створюючи гладкий та ароматний ванільний крем. Він ідеально підходить для приготування тортів, пирогів, еклерів та інших солодких делікатесів.",
         description03: "Завдяки упаковці зручній для зберігання, Ви завжди зможете мати цей порошок під рукою. Він також ідеально підходить для приготування холодних десертів, збагачуючи їх ванільним смаком.",
@@ -46,7 +46,7 @@ export const shopLotsForBaking = [
         description05: "Додайте &#171Dr. Oetker - Zlatý Klas&#187 до свого кошика зараз і підкоріть світ десертів з ванільним чарівництвом!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         url: "./images/shop/food/taste_modifier/for_baking/helio_masa_makowa_850.jpg",
         alt: "helio_masa_makowa_850",
         url1: "./images/shop/food/taste_modifier/for_baking/helio_masa_makowa_850.jpg",
@@ -60,8 +60,8 @@ export const shopLotsForBaking = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "850 гр.",
-        priceGRN: 99,
-        priceGRNOpt: 91,
+        priceGRN: "--",
+        priceGRNOpt: 140,
         description01: "&#171Helio - Masa Makowa Z Bakaliami&#187 - це справжнє втілення смаку та користі. Ця унікальна комбінація макових зерен та сушених фруктів завоює ваше серце своєю ароматною та смачною магією. Кожна суміш - це запорука якості та задоволення вашого вибору.",
         description02: "Завдяки великій кількості маку в цій суміші, Ви отримаєте додаткову порцію енергії та корисних мікроелементів. Солодкість сушених фруктів додасть вашим стравам неперевершену смакову глибину, роблячи їх незабутніми. Інгредієнти вищого стандарту гарантують якість і користь для вашого організму.",
         description03: "Не втрачайте можливість вдосконалити своє меню з маковою сумішшю &#171Helio - Masa Makowa Z Bakaliami&#187",
