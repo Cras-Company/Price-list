@@ -141,7 +141,7 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 125,
+        priceGRN: 135,
         quantityOnStorage: 13,
         description01: "&#171Denkmit - Fleckenspray&#187 – потужний засіб для видалення плям без відбілювача, який допоможе врятувати Ваші улюблені речі.",
         description02: "Цей спрей ефективно справляється зі стійкими забрудненнями на білому та кольоровому текстилі, килимах та оббивці, зберігаючи їх яскравість і чистоту.",
