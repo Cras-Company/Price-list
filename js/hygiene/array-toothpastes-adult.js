@@ -1,6 +1,8 @@
 export const shopLotsToothpastesAdult = [
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_paradontit_100.jpg",
         alt: "beauty_smile_anti_paradontit_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_paradontit_100-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_caries_100.jpg",
         alt: "beauty_smile_anti_caries_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_caries_100-01.jpg",
@@ -55,6 +59,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_double_mint_100.jpg",
         alt: "beauty_smile_double_mint_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_double_mint_100-01.jpg",
@@ -82,6 +88,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_for_smokers_100.jpg",
         alt: "beauty_smile_for_smokers_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_for_smokers_100-01.jpg",
@@ -109,6 +117,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_natural_herbs_100.jpg",
         alt: "beauty_smile_natural_herbs_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_natural_herbs_100-01.jpg",
@@ -136,6 +146,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_propolis_100.jpg",
         alt: "beauty_smile_propolis_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_propolis_100-01.jpg",
@@ -163,6 +175,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_whitening_100.jpg",
         alt: "beauty_smile_whitening_100",
         url1: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_whitening_100-01.jpg",
@@ -190,6 +204,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_brillant_weiss_125.jpg",
         alt: "dontodent_brillant_weiss_125",
         url1: "./images/shop/gigiena/beaming_smile/adult/dontodent_brillant_weiss_125-01.jpg",
@@ -215,6 +231,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_clear_fresh_125.jpg",
         alt: "dontodent_clear_fresh_125",
         url1: "./images/shop/gigiena/beaming_smile/adult/dontodent_clear_fresh_125-01.jpg",
@@ -240,6 +258,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_krauter_125.jpg",
         alt: "dontodent_krauter_125",
         url1: "./images/shop/gigiena/beaming_smile/adult/dontodent_krauter_125-01.jpg",
@@ -265,6 +285,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_sensitive_125.jpg",
         alt: "dontodent_sensitive_125",
         url1: "./images/shop/gigiena/beaming_smile/adult/dontodent_sensitive_125-01.jpg",
@@ -290,6 +312,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dentamax_fluor_fresh_125.jpg",
         alt: "dentamax_fluor_fresh_125",
         url1: "./images/shop/gigiena/beaming_smile/adult/dentamax_fluor_fresh_125-01.jpg",
@@ -315,6 +339,8 @@ export const shopLotsToothpastesAdult = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dentamax_krauter_125.jpg",
         alt: "dentamax_krauter_125",
         url1: "./images/shop/gigiena/beaming_smile/adult/dentamax_krauter_125-01.jpg",
@@ -340,7 +366,9 @@ export const shopLotsToothpastesAdult = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/beaming_smile/adult/dentamax_sensitive_125.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "shining-smile",    
+    // url: "./images/shop/gigiena/beaming_smile/adult/dentamax_sensitive_125.jpg",
     //     alt: "dentamax_sensitive_125",
     //     url1: "./images/shop/gigiena/beaming_smile/adult/dentamax_sensitive_125-01.jpg",
     //     alt1: "dentamax_sensitive_125-01",
@@ -365,7 +393,9 @@ export const shopLotsToothpastesAdult = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/beaming_smile/adult/dentamax_zahnweiss_125.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "shining-smile",    
+    // url: "./images/shop/gigiena/beaming_smile/adult/dentamax_zahnweiss_125.jpg",
     //     alt: "dentamax_zahnweiss_125",
     //     url1: "./images/shop/gigiena/beaming_smile/adult/dentamax_zahnweiss_125-01.jpg",
     //     alt1: "dentamax_zahnweiss_125-01",

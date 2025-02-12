@@ -1,6 +1,8 @@
 export const shopLotsMouthwashes = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/mouthwashes/sensident_mundspulung_antibakteriell_junior_500.jpg",
         alt: "sensident_mundspulung_antibakteriell_junior_500",
         url1: "./images/shop/gigiena/beaming_smile/mouthwashes/sensident_mundspulung_antibakteriell_junior_500-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsMouthwashes = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/mouthwashes/sensident_mundspulung_antibakteriell_fresh_500.jpg",
         alt: "sensident_mundspulung_antibakteriell_fresh_500",
         url1: "./images/shop/gigiena/beaming_smile/mouthwashes/sensident_mundspulung_antibakteriell_fresh_500-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsMouthwashes = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/mouthwashes/sensident_mundspulung_complete_8_fach_schutz_500.jpg",
         alt: "sensident_mundspulung_complete_8_fach_schutz_500",
         url1: "./images/shop/gigiena/beaming_smile/mouthwashes/sensident_mundspulung_complete_8_fach_schutz_500-01.jpg",

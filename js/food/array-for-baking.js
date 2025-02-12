@@ -1,6 +1,8 @@
 export const shopLotsForBaking = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/for_baking/backmit_daralt_mak_200.jpg",
         alt: "backmit_daralt_mak_200",
         url1: "./images/shop/food/taste_modifier/for_baking/backmit_daralt_mak_200.jpg",
@@ -24,6 +26,8 @@ export const shopLotsForBaking = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/for_baking/dr.oetker_zlaty_klas_40.jpg",
         alt: "dr.oetker_zlaty_klas_40",
         url1: "./images/shop/food/taste_modifier/for_baking/dr.oetker_zlaty_klas_40.jpg",
@@ -47,6 +51,8 @@ export const shopLotsForBaking = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/for_baking/helio_masa_makowa_850.jpg",
         alt: "helio_masa_makowa_850",
         url1: "./images/shop/food/taste_modifier/for_baking/helio_masa_makowa_850.jpg",

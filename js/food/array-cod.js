@@ -1,6 +1,8 @@
 export const shopLotsCod = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/cod/giana_tresci_jatra_115.jpg",
         alt: "giana_tresci_jatra_115",
         url1: "./images/shop/food/canned_food/cod/giana_tresci_jatra_115.jpg",
@@ -24,7 +26,9 @@ export const shopLotsCod = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/cod/juor_240.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/cod/juor_240.jpg",
     //     alt: "juor_240",
     //     url1: "./images/shop/food/canned_food/cod/juor_240.jpg",
     //     alt1: "juor_240",
@@ -47,6 +51,8 @@ export const shopLotsCod = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/cod/king_oscar_watrobki_z_dorsza_115.jpg",
         alt: "king_oscar_watrobki_z_dorsza_115",
         url1: "./images/shop/food/canned_food/cod/king_oscar_watrobki_z_dorsza_115-01.jpg",

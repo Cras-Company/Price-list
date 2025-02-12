@@ -1,6 +1,8 @@
 export const shopLotsOliveOil = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/goccia_doro_olive_pomace_oil_1l.jpg",
         alt: "goccia_doro_olive_pomace_oil_1l",
         url1: "./images/shop/food/olives_oil/olive_oil/goccia_doro_olive_pomace_oil_1l-01.jpg",
@@ -26,7 +28,9 @@ export const shopLotsOliveOil = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/olive_oil/greece_olive_oil_1000.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olive_oil/greece_olive_oil_1000.jpg",
     //     alt: "greece_olive_oil_1000",
     //     url1: "./images/shop/food/olives_oil/olive_oil/greece_olive_oil_1000.jpg",
     //     alt1: "greece_olive_oil_1000",
@@ -49,7 +53,9 @@ export const shopLotsOliveOil = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_250.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_250.jpg",
     //     alt: "maestro_garsia_olive_oil_250",
     //     url1: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_250.jpg",
     //     alt1: "maestro_garsia_olive_oil_250",
@@ -72,7 +78,9 @@ export const shopLotsOliveOil = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_500.jpg",
     //     alt: "maestro_garsia_olive_oil_500",
     //     url1: "./images/shop/food/olives_oil/olive_oil/maestro_garsia_olive_oil_500.jpg",
     //     alt1: "maestro_garsia_olive_oil_500",
@@ -95,7 +103,9 @@ export const shopLotsOliveOil = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/olive_oil/monini_classico_olio_extra_1l.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olive_oil/monini_classico_olio_extra_1l.jpg",
     //     alt: "monini_classico_olio_extra_1l",
     //     url1: "./images/shop/food/olives_oil/olive_oil/monini_classico_olio_extra_1l.jpg",
     //     alt1: "monini_classico_olio_extra_1l",
@@ -118,6 +128,8 @@ export const shopLotsOliveOil = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_product_1l.jpg",
         alt: "vesuvio_oil_product_1l",
         url1: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_product_1l.jpg",
@@ -141,6 +153,8 @@ export const shopLotsOliveOil = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_product_5l.jpg",
         alt: "vesuvio_oil_product_5l",
         url1: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_product_5l.jpg",
@@ -164,6 +178,8 @@ export const shopLotsOliveOil = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_1l.jpg",
         alt: "vesuvio_oil_omega_1l",
         url1: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_1l.jpg",
@@ -187,6 +203,8 @@ export const shopLotsOliveOil = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_5l.jpg",
         alt: "vesuvio_oil_omega_5l",
         url1: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_5l.jpg",

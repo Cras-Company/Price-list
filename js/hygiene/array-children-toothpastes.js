@@ -1,6 +1,8 @@
 export const shopLotsChildrenToothpastes = [
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile for-children",
         url: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_chocolate_50.jpg",
         alt: "dental_tralala_kids_chocolate_50",
         url1: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_chocolate_50-01.jpg",
@@ -28,7 +30,9 @@ export const shopLotsChildrenToothpastes = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_cola_50.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "shining-smile for-children",    
+    // url: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_cola_50.jpg",
     //     alt: "dental_tralala_kids_cola_50",
     //     url1: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_cola_50-01.jpg",
     //     alt1: "dental_tralala_kids_cola_50-01",
@@ -55,6 +59,8 @@ export const shopLotsChildrenToothpastes = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile for-children",
         url: "./images/shop/gigiena/beaming_smile/children/dontodent_junior_zahngel_mit_minz_geschmack_100.jpg",
         alt: "dontodent_junior_zahngel_mit_minz_geschmack_100",
         url1: "./images/shop/gigiena/beaming_smile/children/dontodent_junior_zahngel_mit_minz_geschmack_100-01.jpg",

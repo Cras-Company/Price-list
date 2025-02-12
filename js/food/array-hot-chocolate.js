@@ -1,6 +1,8 @@
 export const shopLotsHotChocolate = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/hot_chocolate/hearts_trink_schokolade_1kg.jpg",
         alt: "hearts_trink_schokolade_1kg",
         url1: "./images/shop/food/drinks/hot_chocolate/hearts_trink_schokolade_1kg-01.jpg",

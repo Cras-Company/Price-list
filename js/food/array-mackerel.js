@@ -1,6 +1,8 @@
 export const shopLotsMackerel = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_tomato_170.jpg",
         alt: "marinero_filety_z_makreli_tomato_170",
         url1: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_tomato_170.jpg",
@@ -24,6 +26,8 @@ export const shopLotsMackerel = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",       
         url: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_oil_170.jpg",
         alt: "marinero_filety_z_makreli_oil_170",
         url1: "./images/shop/food/canned_food/mackerel/marinero_filety_z_makreli_oil_170.jpg",

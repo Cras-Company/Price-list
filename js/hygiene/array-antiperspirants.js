@@ -1,6 +1,8 @@
 export const shopLotsAntiperspirants = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/antiperspirants/balea_men_fresh_anti_transpirant_50.jpg",
         alt: "balea_men_fresh_anti_transpirant_50",
         url1: "./images/shop/gigiena/deo_anti/antiperspirants/balea_men_fresh_anti_transpirant_50-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsAntiperspirants = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",       
         url: "./images/shop/gigiena/deo_anti/antiperspirants/ombia_anti_transpirant_sensetive_50.jpg",
         alt: "ombia_anti_transpirant_sensetive_50",
         url1: "./images/shop/gigiena/deo_anti/antiperspirants/ombia_anti_transpirant_sensetive_50-01.jpg",

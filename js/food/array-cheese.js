@@ -1,6 +1,8 @@
 export const shopLotsCheese = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/g_g_gouda_mittelalt_450.jpg",
         alt: "g_g_gouda_mittelalt_450",
         url1: "./images/shop/food/dairy/cheese/g_g_gouda_mittelalt_450.jpg",
@@ -24,6 +26,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekivita_brie_classic_125.jpg",
         alt: "mlekivita_brie_classic_125",
         url1: "./images/shop/food/dairy/cheese/mlekivita_brie_classic_125.jpg",
@@ -47,6 +51,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekivita_camembert_classic_120.jpg",
         alt: "mlekivita_camembert_classic_120",
         url1: "./images/shop/food/dairy/cheese/mlekivita_camembert_classic_120.jpg",
@@ -70,6 +76,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekpol_ser_gouda_400.jpg",
         alt: "mlekpol_ser_gouda_400",
         url1: "./images/shop/food/dairy/cheese/mlekpol_ser_gouda_400.jpg",
@@ -93,6 +101,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekpol_ser_krolewski_z_kolna_400.jpg",
         alt: "mlekpol_ser_krolewski_z_kolna_400",
         url1: "./images/shop/food/dairy/cheese/mlekpol_ser_krolewski_z_kolna_400.jpg",
@@ -116,6 +126,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekpol_ser_salami_400.jpg",
         alt: "mlekpol_ser_salami_400",
         url1: "./images/shop/food/dairy/cheese/mlekpol_ser_salami_400.jpg",
@@ -139,6 +151,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekpol_ser_zloty_mazur_400.jpg",
         alt: "mlekpol_ser_zloty_mazur_400",
         url1: "./images/shop/food/dairy/cheese/mlekpol_ser_zloty_mazur_400.jpg",
@@ -162,6 +176,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekpol_ser_gouda_edan_500.jpg",
         alt: "mlekpol_ser_gouda_edan_500",
         url1: "./images/shop/food/dairy/cheese/mlekpol_ser_gouda_edan_500.jpg",
@@ -185,6 +201,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/mlekpol_ser_jantar_200.jpg",
         alt: "mlekpol_ser_jantar_200",
         url1: "./images/shop/food/dairy/cheese/mlekpol_ser_jantar_200-01.jpg",
@@ -210,6 +228,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_30_mesi_250.jpg",
         alt: "parmareggio_parmigiano_reggiano_30_mesi_250",
         url1: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_30_mesi_250.jpg",
@@ -233,6 +253,8 @@ export const shopLotsCheese = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "dairy-products",
         url: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_naturale_30_mesi_250.jpg",
         alt: "parmareggio_parmigiano_reggiano_naturale_30_mesi_250",
         url1: "./images/shop/food/dairy/cheese/parmareggio_parmigiano_reggiano_naturale_30_mesi_250.jpg",

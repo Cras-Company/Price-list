@@ -1,6 +1,8 @@
 export const shopLotsTarhona = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/combino_tarhona_500.jpg",
         alt: "combino_tarhona_500",
         url1: "./images/shop/food/pasta/tarhona/combino_tarhona_500.jpg",
@@ -24,6 +26,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/csaszar_dorzstarhonya_250.jpg",
         alt: "csaszar_dorzstarhonya_250",
         url1: "./images/shop/food/pasta/tarhona/csaszar_dorzstarhonya_250.jpg",
@@ -47,6 +51,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/hedan_plus_tarhona_370.jpg",
         alt: "hedan_plus_tarhona_370",
         url1: "./images/shop/food/pasta/tarhona/hedan_plus_tarhona_370.jpg",
@@ -70,6 +76,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/izsaki_eros_pistas_csipetke_200.jpg",
         alt: "izsaki_eros_pistas_csipetke_200",
         url1: "./images/shop/food/pasta/tarhona/izsaki_eros_pistas_csipetke_200.jpg",
@@ -93,6 +101,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_mini_500.jpg",
         alt: "jarmi_szarazteszta_mini_500",
         url1: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_mini_500.jpg",
@@ -116,6 +126,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_max_500.jpg",
         alt: "jarmi_szarazteszta_max_500",
         url1: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_max_500.jpg",
@@ -139,6 +151,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_cut_500.jpg",
         alt: "jarmi_szarazteszta_cut_500",
         url1: "./images/shop/food/pasta/tarhona/jarmi_szarazteszta_cut_500.jpg",
@@ -162,6 +176,8 @@ export const shopLotsTarhona = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/jarmi_reszeltteszta_250.jpg",
         alt: "jarmi_reszeltteszta_250",
         url1: "./images/shop/food/pasta/tarhona/jarmi_reszeltteszta_250-01.jpg",
@@ -187,7 +203,9 @@ export const shopLotsTarhona = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/pasta/tarhona/tiradell_tarhona_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "pasta",    
+    // url: "./images/shop/food/pasta/tarhona/tiradell_tarhona_500.jpg",
     //     alt: "tiradell_tarhona_500",
     //     url1: "./images/shop/food/pasta/tarhona/tiradell_tarhona_500.jpg",
     //     alt1: "tiradell_tarhona_500",

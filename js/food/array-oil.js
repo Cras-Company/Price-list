@@ -1,6 +1,8 @@
 export const shopLotsOil = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/nordolio_olio_di_semi_di_mais_1l.jpg",
         alt: "nordolio_olio_di_semi_di_mais_1l",
         url1: "./images/shop/food/olives_oil/oil/nordolio_olio_di_semi_di_mais_1l.jpg",
@@ -24,7 +26,9 @@ export const shopLotsOil = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_250.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_250.jpg",
     //     alt: "vesuvio_avocado_oil_250",
     //     url1: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_250.jpg",
     //     alt1: "vesuvio_avocado_oil_250",
@@ -47,6 +51,8 @@ export const shopLotsOil = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_500.jpg",
         alt: "vesuvio_avocado_oil_500",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_avocado_oil_500.jpg",
@@ -70,6 +76,8 @@ export const shopLotsOil = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/vesuvio_corn_oil_1000.jpg",
         alt: "vesuvio_corn_oil_1000",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_corn_oil_1000-01.jpg",
@@ -95,6 +103,8 @@ export const shopLotsOil = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_250.jpg",
         alt: "vesuvio_grapeseed_oil_250",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_250.jpg",
@@ -118,6 +128,8 @@ export const shopLotsOil = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_500.jpg",
         alt: "vesuvio_grapeseed_oil_500",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_500.jpg",
@@ -141,6 +153,8 @@ export const shopLotsOil = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_1000.jpg",
         alt: "vesuvio_grapeseed_oil_1000",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_grapeseed_oil_1000-01.jpg",
@@ -166,6 +180,8 @@ export const shopLotsOil = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/vesuvio_mais_corn_oil_1l.jpg",
         alt: "vesuvio_mais_corn_oil_1l",
         url1: "./images/shop/food/olives_oil/oil/vesuvio_mais_corn_oil_1l.jpg",

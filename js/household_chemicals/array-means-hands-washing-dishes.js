@@ -1,7 +1,9 @@
 export const shopLotsMeansHandsWashingDishes = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
     //     alt: "alio_happy_berry",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_happy_berry.jpg",
     //     alt1: "alio_happy_berry",
@@ -24,7 +26,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_classic.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_classic.jpg",
     //     alt: "alio_ultra_classic",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_classic.jpg",
     //     alt1: "alio_ultra_classic",
@@ -47,7 +51,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_lemon.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_lemon.jpg",
     //     alt: "alio_ultra_lemon",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_ultra_lemon.jpg",
     //     alt1: "alio_ultra_lemon",
@@ -70,7 +76,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_vanile.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_vanile.jpg",
     //     alt: "alio_vanile",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/alio_vanile-01.jpg",
     //     alt1: "alio_vanile-01",
@@ -93,6 +101,8 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulbalsam_mit_aloe_vera_500.jpg",
         alt: "denkmit_spulbalsam_mit_aloe_vera_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulbalsam_mit_aloe_vera_500-01.jpg",
@@ -118,7 +128,9 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_iced_berries.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_iced_berries.jpg",
     //     alt: "denkmit_iced_berries",
     //     marker: "MHWD150",
     //     brand: "Denkmit",
@@ -139,7 +151,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_lavendel_500.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_lavendel_500.jpg",
     //     alt: "denkmit_lavendel_500",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_lavendel_500-01.jpg",
     //     alt1: "denkmit_lavendel_500-01",
@@ -164,7 +178,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_multi_power_5_500.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_multi_power_5_500.jpg",
     //     alt: "denkmit_multi_power_5_500",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_multi_power_5_500-01.jpg",
     //     alt1: "denkmit_multi_power_5_500-01",
@@ -189,7 +205,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_nature.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_nature.jpg",
     //     alt: "denkmit_nature",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_nature.jpg",
     //     alt1: "denkmit_nature",
@@ -212,7 +230,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_nature_lavendel.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_nature_lavendel.jpg",
     //     alt: "denkmit_nature_lavendel",
     //     marker: "MHWD170",
     //     brand: "Denkmit",
@@ -234,6 +254,8 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulmittel_ultra_nature_pro_climate_500.jpg",
         alt: "denkmit_spulmittel_ultra_nature_pro_climate_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulmittel_ultra_nature_pro_climate_500-01.jpg",
@@ -259,6 +281,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulmittel_ultra_nature_pro_climate_lavendel_500.jpg",
         alt: "denkmit_spulmittel_ultra_nature_pro_climate_lavendel_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulmittel_ultra_nature_pro_climate_lavendel_500-01.jpg",
@@ -284,6 +308,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulmittel_zitronen_frische_1l.jpg",
         alt: "denkmit_spulmittel_zitronen_frische_1l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulmittel_zitronen_frische_1l-01.jpg",
@@ -309,7 +335,9 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fairy_ultra_plus_konzentrat_450.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fairy_ultra_plus_konzentrat_450.jpg",
     //     alt: "fairy_ultra_plus_konzentrat_450",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fairy_ultra_plus_konzentrat_450-01.jpg",
     //     alt1: "fairy_ultra_plus_konzentrat_450-01",
@@ -334,7 +362,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_lemon_fan.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_lemon_fan.jpg",
     //     alt: "fit_lemon_fan",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_lemon_fan.jpg",
     //     alt1: "fit_lemon_fan",
@@ -357,7 +387,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_naturals_guave_limette.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_naturals_guave_limette.jpg",
     //     alt: "fit_naturals_guave_limette",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_naturals_guave_limette-01.jpg",
     //     alt1: "fit_naturals_guave_limette-01",
@@ -380,7 +412,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_naturals_mandelblute.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_naturals_mandelblute.jpg",
     //     alt: "fit_naturals_mandelblute",
     //     marker: "MHWD260",
     //     brand: "Fit",
@@ -401,7 +435,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_original.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_original.jpg",
     //     alt: "fit_original",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/fit_original.jpg",
     //     alt1: "fit_original",
@@ -424,6 +460,8 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/frosch_zero_detergente_loica_500.jpg",
         alt: "frosch_zero_detergente_loica_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/frosch_zero_detergente_loica_500-01.jpg",
@@ -449,6 +487,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_minze_aloe_850.jpg",
         alt: "gallus_spulmittel_minze_aloe_850",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_minze_aloe_850-01.jpg",
@@ -474,6 +514,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_zitornen_aloe_850.jpg",
         alt: "gallus_spulmittel_zitornen_aloe_850",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_zitornen_aloe_850-01.jpg",
@@ -499,7 +541,9 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/ja!_geschirrspülmittel_zitrone.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/ja!_geschirrspülmittel_zitrone.jpg",
     //     alt: "ja!_geschirrspülmittel_zitrone",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/ja!_geschirrspülmittel_zitrone-01.jpg",
     //     alt1: "ja!_geschirrspülmittel_zitrone-01",
@@ -522,7 +566,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/k-classic_balsam.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/k-classic_balsam.jpg",
     //     alt: "k-classic_balsam",
     //     marker: "MHWD400",
     //     brand: "K-Classic",
@@ -543,7 +589,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/k-classic_ultra_plus_500.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/k-classic_ultra_plus_500.jpg",
     //     alt: "k-classic_ultra_plus_500",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/k-classic_ultra_plus_500-01.jpg",
     //     alt1: "k-classic_ultra_plus_500-01",
@@ -568,6 +616,8 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/la_salud_washing_up_liquid_lemon_1l.jpg",
         alt: "la_salud_washing_up_liquid_lemon_1l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/la_salud_washing_up_liquid_lemon_1l-01.jpg",
@@ -593,6 +643,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/la_salud_washing_up_liquid_original_1l.jpg",
         alt: "la_salud_washing_up_liquid_original_1l",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/la_salud_washing_up_liquid_original_1l-01.jpg",
@@ -618,6 +670,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_450.jpg",
         alt: "morning_fresh_apple_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_450-01.jpg",
@@ -643,6 +697,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_450.jpg",
         alt: "morning_fresh_lemon_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_450-01.jpg",
@@ -668,6 +724,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_450.jpg",
         alt: "morning_fresh_original_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_450-01.jpg",
@@ -693,6 +751,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_450.jpg",
         alt: "morning_fresh_sensitive_aloe_vera_450",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_450-01.jpg",
@@ -718,6 +778,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_900.jpg",
         alt: "morning_fresh_apple_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_apple_900-01.jpg",
@@ -743,6 +805,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_900.jpg",
         alt: "morning_fresh_lemon_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_900-01.jpg",
@@ -768,6 +832,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_900.jpg",
         alt: "morning_fresh_original_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_original_900-01.jpg",
@@ -793,6 +859,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_raspberry_apple_900.jpg",
         alt: "morning_fresh_raspberry_apple_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_raspberry_apple_900-01.jpg",
@@ -818,7 +886,9 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_900.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_900.jpg",
     //     alt: "morning_fresh_sensitive_aloe_vera_900",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sensitive_aloe_vera_900-01.jpg",
     //     alt1: "morning_fresh_sensitive_aloe_vera_900-01",
@@ -843,6 +913,8 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sweet_pea_freesia_900.jpg",
         alt: "morning_fresh_sweet_pea_freesia_900",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_sweet_pea_freesia_900-01.jpg",
@@ -868,7 +940,9 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     // {
     //     type: "only-wholesale оптом",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_apfel_5l.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_apfel_5l.jpg",
     //     alt: "power_wash_apfel_5l",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_apfel_5l.jpg",
     //     alt1: "power_wash_apfel_5l",
@@ -891,7 +965,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "only-wholesale оптом",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_original_5l.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_original_5l.jpg",
     //     alt: "power_wash_original_5l",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_original_5l.jpg",
     //     alt1: "power_wash_original_5l",
@@ -914,7 +990,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "only-wholesale оптом",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_zitrone_5l.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_zitrone_5l.jpg",
     //     alt: "power_wash_zitrone_5l",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/power_wash_zitrone_5l.jpg",
     //     alt1: "power_wash_zitrone_5l",
@@ -937,7 +1015,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/pril_original_675.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/pril_original_675.jpg",
     //     alt: "pril_original_675",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/pril_original_675-01.jpg",
     //     alt1: "pril_original_675-01",
@@ -962,7 +1042,9 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/pril_original_frische_minze.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "dishwashing-detergents",    
+    // url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/pril_original_frische_minze.jpg",
     //     alt: "pril_original_frische_minze",
     //     url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/pril_original_frische_minze.jpg",
     //     alt1: "pril_original_frische_minze",
@@ -985,6 +1067,8 @@ export const shopLotsMeansHandsWashingDishes = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/tandil_eco_classic_500.jpg",
         alt: "tandil_eco_classic_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/tandil_eco_classic_500-01.jpg",
@@ -1010,6 +1094,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/tandil_eco_sensitive_500.jpg",
         alt: "tandil_eco_sensitive_500",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/tandil_eco_sensitive_500-01.jpg",
@@ -1035,6 +1121,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_apfel_415.jpg",
         alt: "vir_apfel_415",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_apfel_415-01.jpg",
@@ -1060,6 +1148,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_flieder_415.jpg",
         alt: "vir_flieder_415",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_flieder_415-01.jpg",
@@ -1085,6 +1175,8 @@ export const shopLotsMeansHandsWashingDishes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_zitrone_415.jpg",
         alt: "vir_zitrone_415",
         url1: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_zitrone_415-01.jpg",

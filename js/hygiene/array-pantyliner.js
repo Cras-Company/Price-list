@@ -1,6 +1,8 @@
 export const shopLotsPantyliner = [
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_20.jpg",
     alt: "molped_everyday_freshness_20",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_20-01.jpg",
@@ -30,6 +32,8 @@ export const shopLotsPantyliner = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_scent_nature_20.jpg",
     alt: "molped_everyday_freshness_scent_nature_20",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_scent_nature_20-01.jpg",
@@ -59,6 +63,8 @@ export const shopLotsPantyliner = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_normal_8.jpg",
     alt: "molped_organic_cotton_normal_8",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_normal_8-01.jpg",
@@ -90,6 +96,8 @@ export const shopLotsPantyliner = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_normal_24.jpg",
     alt: "molped_organic_cotton_normal_24",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_normal_24-01.jpg",
@@ -121,6 +129,8 @@ export const shopLotsPantyliner = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_long_7.jpg",
     alt: "molped_organic_cotton_long_7",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_long_7-01.jpg",
@@ -152,6 +162,8 @@ export const shopLotsPantyliner = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_ultra_uzun_20.jpg",
     alt: "molped_ultra_uzun_20",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_ultra_uzun_20-01.jpg",
@@ -179,6 +191,8 @@ export const shopLotsPantyliner = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+    subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_ultra_gece_6.jpg",
     alt: "molped_ultra_gece_6",
     url1: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_ultra_gece_6-01.jpg",

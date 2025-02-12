@@ -1,6 +1,8 @@
 export const shopLotsCappuccino = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_amaretto_1kg.jpg",
         alt: "hearts_cappuccino_amaretto_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_amaretto_1kg-01.jpg",
@@ -30,6 +32,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_irish_cream_1kg.jpg",
         alt: "hearts_cappuccino_irish_cream_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_irish_cream_1kg-01.jpg",
@@ -59,6 +63,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_karamell_1kg.jpg",
         alt: "hearts_cappuccino_karamell_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_karamell_1kg-01.jpg",
@@ -88,6 +94,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_kakaonote_1kg.jpg",
         alt: "hearts_cappuccino_kakaonote_1kg",
         url1: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_kakaonote_1kg-01.jpg",
@@ -117,6 +125,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_irish_cream_1kg.jpg",
         alt: "swisso_irish_cream_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_irish_cream_1kg-01.jpg",
@@ -144,6 +154,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_karamell_1kg.jpg",
         alt: "swisso_karamell_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_karamell_1kg-01.jpg",
@@ -171,6 +183,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_white_1kg.jpg",
         alt: "swisso_white_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_white_1kg-01.jpg",
@@ -196,6 +210,8 @@ export const shopLotsCappuccino = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_wiener_melange_1kg.jpg",
         alt: "swisso_wiener_melange_1kg",
         url1: "./images/shop/food/drinks/cappuccino/swisso_wiener_melange_1kg-01.jpg",

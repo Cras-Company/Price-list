@@ -1,6 +1,8 @@
 export const shopLotsCreamSpreads = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250.jpg",
         alt: "aro_natur_vajkrem_250",
         url1: "./images/shop/food/bread_spreads/cream_spreads/aro_natur_vajkrem_250-01.jpg",
@@ -24,6 +26,8 @@ export const shopLotsCreamSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",      
         url: "./images/shop/food/bread_spreads/cream_spreads/aro_zoldfuszeres_vajkrem_250.jpg",
         alt: "aro_zoldfuszeres_vajkrem_250",
         url1: "./images/shop/food/bread_spreads/cream_spreads/aro_zoldfuszeres_vajkrem_250-01.jpg",

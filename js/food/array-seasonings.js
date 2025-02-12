@@ -1,7 +1,9 @@
 export const shopLotsSeasonings = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/seasonings/caneo_przyprawa_uniwersalna.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/seasonings/caneo_przyprawa_uniwersalna.jpg",
     //     alt: "caneo_przyprawa_uniwersalna",
     //     url1: "./images/shop/food/taste_modifier/seasonings/caneo_przyprawa_uniwersalna.jpg",
     //     alt1: "caneo_przyprawa_uniwersalna",
@@ -24,7 +26,9 @@ export const shopLotsSeasonings = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/taste_modifier/seasonings/lucullus_mezes-csipos_48.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/seasonings/lucullus_mezes-csipos_48.jpg",
     //     alt: "lucullus_mezes-csipos_48",
     //     url1: "./images/shop/food/taste_modifier/seasonings/lucullus_mezes-csipos_48.jpg",
     //     alt1: "lucullus_mezes-csipos_48",
@@ -47,6 +51,8 @@ export const shopLotsSeasonings = [
     // },
         {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/rmix_przyprawa_uniwersalna.jpg",
         alt: "rmix_przyprawa_uniwersalna",
         url1: "./images/shop/food/taste_modifier/seasonings/rmix_przyprawa_uniwersalna-01.jpg",
@@ -72,6 +78,8 @@ export const shopLotsSeasonings = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csemege_160.jpg",
         alt: "univer_gulyaskrem_csemege_160",
         url1: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csemege_160.jpg",
@@ -95,6 +103,8 @@ export const shopLotsSeasonings = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csipos_160.jpg",
         alt: "univer_gulyaskrem_csipos_160",
         url1: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csipos_160.jpg",
@@ -118,6 +128,8 @@ export const shopLotsSeasonings = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_piros_arany_csemege_160.jpg",
         alt: "univer_piros_arany_csemege_160",
         url1: "./images/shop/food/taste_modifier/seasonings/univer_piros_arany_csemege_160.jpg",
@@ -141,6 +153,8 @@ export const shopLotsSeasonings = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_piros_arany_csipos_160.jpg",
         alt: "univer_piros_arany_csipos_160",
         url1: "./images/shop/food/taste_modifier/seasonings/univer_piros_arany_csipos_160.jpg",
@@ -164,6 +178,8 @@ export const shopLotsSeasonings = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/vigora_universal_seasoning_200.jpg",
         alt: "vigora_universal_seasoning_200",
         url1: "./images/shop/food/taste_modifier/seasonings/vigora_universal_seasoning_200.jpg",
@@ -187,6 +203,8 @@ export const shopLotsSeasonings = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/vigora_universal_seasoning_1kg.jpg",
         alt: "vigora_universal_seasoning_1kg",
         url1: "./images/shop/food/taste_modifier/seasonings/vigora_universal_seasoning_1kg.jpg",

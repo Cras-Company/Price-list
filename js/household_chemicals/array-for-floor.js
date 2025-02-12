@@ -1,6 +1,8 @@
 export const shopLotsForFloor = [
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/laundry_detergents/bleaches/ace_candeggina_classica_3l.jpg",
         alt: "ace_candeggina_classica_3l",
         url1: "./images/shop/household_chemicals/laundry_detergents/bleaches/ace_candeggina_classica_3l-01.jpg",
@@ -30,6 +32,8 @@ export const shopLotsForFloor = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/laundry_detergents/bleaches/ace_candeggina_classica_5l.jpg",
         alt: "ace_candeggina_classica_5l",
         url1: "./images/shop/household_chemicals/laundry_detergents/bleaches/ace_candeggina_classica_5l-01.jpg",
@@ -59,6 +63,8 @@ export const shopLotsForFloor = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_lavanda_1l.jpg",
         alt: "ace_pavimenti_lavanda_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_lavanda_1l-01.jpg",
@@ -84,6 +90,8 @@ export const shopLotsForFloor = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_talco_1l.jpg",
         alt: "ace_pavimenti_talco_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_talco_1l-01.jpg",
@@ -109,6 +117,8 @@ export const shopLotsForFloor = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_stop_germs_1l.jpg",
         alt: "ace_pavimenti_stop_germs_1l",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_stop_germs_1l-01.jpg",
@@ -134,6 +144,8 @@ export const shopLotsForFloor = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_eco_ricarica_24.jpg",
         alt: "ace_pavimenti_eco_ricarica_24",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_eco_ricarica_24-01.jpg",
@@ -161,7 +173,9 @@ export const shopLotsForFloor = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/at_home_clean_all_purpose_lime_eucalyptus.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/at_home_clean_all_purpose_lime_eucalyptus.jpg",
     //     alt: "at_home_clean_all_purpose_lime_eucalyptus",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/at_home_clean_all_purpose_lime_eucalyptus-01.jpg",
     //     alt1: "at_home_clean_all_purpose_lime_eucalyptus-01",
@@ -186,7 +200,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_arctic.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_arctic.jpg",
     //     alt: "clinair_allesreiniger_arctic",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_arctic-01.jpg",
     //     alt1: "clinair_allesreiniger_arctic-01",
@@ -211,7 +227,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_fresh_green.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_fresh_green.jpg",
     //     alt: "clinair_allesreiniger_fresh_green",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_fresh_green-01.jpg",
     //     alt1: "clinair_allesreiniger_fresh_green-01",
@@ -236,7 +254,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_lemon.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_lemon.jpg",
     //     alt: "clinair_allesreiniger_lemon",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_lemon-01.jpg",
     //     alt1: "clinair_allesreiniger_lemon-01",
@@ -261,7 +281,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_purple_flower.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_purple_flower.jpg",
     //     alt: "clinair_allesreiniger_purple_flower",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/clinair_allesreiniger_purple_flower-01.jpg",
     //     alt1: "clinair_allesreiniger_purple_flower-01",
@@ -286,7 +308,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/denkmit_fruhlings_moment.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/denkmit_fruhlings_moment.jpg",
     //     alt: "denkmit_fruhlings_moment",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/denkmit_fruhlings_moment-01.jpg",
     //     alt1: "denkmit_fruhlings_moment-01",
@@ -311,7 +335,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/denkmit_parkettpflege_1l.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/denkmit_parkettpflege_1l.jpg",
     //     alt: "denkmit_parkettpflege_1l",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/for_floor/denkmit_parkettpflege_1l-01.jpg",
     //     alt1: "denkmit_parkettpflege_1l-01",
@@ -336,7 +362,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_sensitive_aloe_vera.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_sensitive_aloe_vera.jpg",
     //     alt: "der_general_sensitive_aloe_vera",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_sensitive_aloe_vera-01.jpg",
     //     alt1: "der_general_sensitive_aloe_vera-01",
@@ -361,7 +389,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_universal_bergfruhling.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_universal_bergfruhling.jpg",
     //     alt: "der_general_universal_bergfruhling",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/der_general_universal_bergfruhling-01.jpg",
     //     alt1: "der_general_universal_bergfruhling-01",
@@ -386,6 +416,8 @@ export const shopLotsForFloor = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/gut_gunstig_allzweckreiniger_bergfrische.jpg",
         alt: "gut_gunstig_allzweckreiniger_bergfrische",
         url1: "./images/shop/household_chemicals/means_for_cleaning/universal/gut_gunstig_allzweckreiniger_bergfrische-01.jpg",
@@ -411,7 +443,9 @@ export const shopLotsForFloor = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/ja!_allzweckreiniger_lemon.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/ja!_allzweckreiniger_lemon.jpg",
     //     alt: "ja!_allzweckreiniger_lemon",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/ja!_allzweckreiniger_lemon-01.jpg",
     //     alt1: "ja!_allzweckreiniger_lemon-01",
@@ -436,6 +470,8 @@ export const shopLotsForFloor = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/ja!_allzweckreiniger_ocean.jpg",
         alt: "ja!_allzweckreiniger_ocean",
         url1: "./images/shop/household_chemicals/means_for_cleaning/universal/ja!_allzweckreiniger_ocean-01.jpg",
@@ -461,7 +497,9 @@ export const shopLotsForFloor = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_fresh_breeze.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_fresh_breeze.jpg",
     //     alt: "k-classic_allesreiniger_fresh_breeze",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_fresh_breeze-01.jpg",
     //     alt1: "k-classic_allesreiniger_fresh_breeze-01",
@@ -486,7 +524,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_lemon_fresh.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_lemon_fresh.jpg",
     //     alt: "k-classic_allesreiniger_lemon_fresh",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_lemon_fresh-01.jpg",
     //     alt1: "k-classic_allesreiniger_lemon_fresh-01",
@@ -511,7 +551,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_tropical_flower.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_tropical_flower.jpg",
     //     alt: "k-classic_allesreiniger_tropical_flower",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/k-classic_allesreiniger_tropical_flower-01.jpg",
     //     alt1: "k-classic_allesreiniger_tropical_flower-01",
@@ -536,6 +578,8 @@ export const shopLotsForFloor = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l.jpg",
         alt: "neo_blanc_lixivia densa_1l",
         url1: "./images/shop/household_chemicals/universal_tools/neo_blanc_lixivia densa_1l-01.jpg",
@@ -561,7 +605,9 @@ export const shopLotsForFloor = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/reinex_apfel_fresh.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/reinex_apfel_fresh.jpg",
     //     alt: "reinex_apfel_fresh",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/reinex_apfel_fresh-01.jpg",
     //     alt1: "reinex_apfel_fresh-01",
@@ -586,7 +632,9 @@ export const shopLotsForFloor = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/universal/respekt_allzweckreiniger_sommertraum.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/universal/respekt_allzweckreiniger_sommertraum.jpg",
     //     alt: "respekt_allzweckreiniger_sommertraum",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/universal/respekt_allzweckreiniger_sommertraum-01.jpg",
     //     alt1: "respekt_allzweckreiniger_sommertraum-01",

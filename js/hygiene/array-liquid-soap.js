@@ -1,7 +1,9 @@
 export const shopLotsLiquidSoap = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_beeren_vanille_500.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "soap",    
+    // url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_beeren_vanille_500.jpg",
     //     alt: "balea_cremeseife_beeren_vanille_500",
     //     url1: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_beeren_vanille_500-01.jpg",
     //     alt1: "balea_cremeseife_beeren_vanille_500-01",
@@ -26,6 +28,8 @@ export const shopLotsLiquidSoap = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_ginger_lemon_500.jpg",
         alt: "balea_cremeseife_ginger_lemon_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_ginger_lemon_500-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_beeren_vanille_dose_500.jpg",
         alt: "balea_cremeseife_beeren_vanille_dose_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_beeren_vanille_dose_500-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_ginger_lemon_dose_500.jpg",
         alt: "balea_cremeseife_ginger_lemon_dose_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_ginger_lemon_dose_500-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_sensitive_aloe_vera_dose_500.jpg",
         alt: "balea_cremeseife_sensitive_aloe_vera_dose_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_sensitive_aloe_vera_dose_500-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_handseife_summer_vibes_dose_500.jpg",
         alt: "balea_handseife_summer_vibes_dose_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/balea_handseife_summer_vibes_dose_500-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_blueberry_1000.jpg",
         alt: "gallus_blueberry_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_blueberry_1000-01.jpg",
@@ -176,6 +190,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_milk_honey_1000.jpg",
         alt: "gallus_milk_honey_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_milk_honey_1000-01.jpg",
@@ -201,6 +217,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_olive_1000.jpg",
         alt: "gallus_olive_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_olive_1000-01.jpg",
@@ -226,6 +244,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/gallus_white_tea_1000.jpg",
         alt: "gallus_white_tea_1000",
         url1: "./images/shop/gigiena/soap/liquid_soap/gallus_white_tea_1000-01.jpg",
@@ -251,7 +271,9 @@ export const shopLotsLiquidSoap = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "soap",    
+    // url: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250.jpg",
     //     alt: "lifebuoy_carring_hanwash_anti_250",
     //     url1: "./images/shop/gigiena/soap/liquid_soap/lifebuoy_carring_hanwash_anti_250-01.jpg",
     //     alt1: "lifebuoy_carring_hanwash_anti_250-01",
@@ -276,6 +298,8 @@ export const shopLotsLiquidSoap = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400.jpg",
         alt: "luksja_cotton_b5_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400-01.jpg",
@@ -301,6 +325,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
         alt: "luksja_linseed_rice_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
@@ -324,7 +350,9 @@ export const shopLotsLiquidSoap = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "soap",    
+    // url: "./images/shop/gigiena/soap/liquid_soap/luksja_linseed_rice_400.jpg",
     //     alt: "luksja_linseed_rice_400",
     //     marker: "LQSP310",
     //     brand: "Luksja",
@@ -345,6 +373,8 @@ export const shopLotsLiquidSoap = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_rose_milk_400.jpg",
         alt: "luksja_rose_milk_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_rose_milk_400-01.jpg",
@@ -370,6 +400,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400.jpg",
         alt: "luksja_cotton_b5_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_cotton_b5_400-01.jpg",
@@ -395,6 +427,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/luksja_olive_yogurt_400.jpg",
         alt: "luksja_olive_yogurt_400",
         url1: "./images/shop/gigiena/soap/liquid_soap/luksja_olive_yogurt_400-01.jpg",
@@ -420,6 +454,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/malizia_liquid_soap_antibacterail_1l.jpg",
         alt: "malizia_liquid_soap_antibacterail_1l",
         url1: "./images/shop/gigiena/soap/liquid_soap/malizia_liquid_soap_antibacterail_1l-01.jpg",
@@ -445,7 +481,9 @@ export const shopLotsLiquidSoap = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/soap/liquid_soap/milmil_iris_1000.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "soap",    
+    // url: "./images/shop/gigiena/soap/liquid_soap/milmil_iris_1000.jpg",
     //     alt: "milmil_iris_1000",
     //     url1: "./images/shop/gigiena/soap/liquid_soap/milmil_iris_1000-01.jpg",
     //     alt1: "milmil_iris_1000-01",
@@ -470,6 +508,8 @@ export const shopLotsLiquidSoap = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_crema_sapone_orchidea_500.jpg",
         alt: "milmil_crema_sapone_orchidea_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_crema_sapone_orchidea_500-01.jpg",
@@ -495,6 +535,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_sapone_liquido_marsiglia_500.jpg",
         alt: "milmil_sapone_liquido_marsiglia_500",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_sapone_liquido_marsiglia_500-01.jpg",
@@ -520,6 +562,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_aloe_2l.jpg",
         alt: "milmil_aloe_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_aloe_2l-01.jpg",
@@ -545,6 +589,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_argan_miele_2l.jpg",
         alt: "milmil_argan_miele_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_argan_miele_2l-01.jpg",
@@ -570,6 +616,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l.jpg",
         alt: "milmil_cocco_vaniglia_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l-01.jpg",
@@ -595,6 +643,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_delicatezza_avvolgente_2l.jpg",
         alt: "milmil_delicatezza_avvolgente_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_delicatezza_avvolgente_2l-01.jpg",
@@ -620,6 +670,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_muschio_bianco_2l.jpg",
         alt: "milmil_muschio_bianco_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_muschio_bianco_2l-01.jpg",
@@ -645,6 +697,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_talco_iris_2l.jpg",
         alt: "milmil_talco_iris_2l",
         url1: "./images/shop/gigiena/soap/liquid_soap/milmil_talco_iris_2l-01.jpg",
@@ -670,6 +724,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_muschio_bianco_300.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_muschio_bianco_300",
         url1: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_muschio_bianco_300-01.jpg",
@@ -695,6 +751,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_byzantium_300.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_byzantium_300",
         url1: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_byzantium_300-01.jpg",
@@ -720,6 +778,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_fior_di_loto_e_karite_300.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_fior_di_loto_e_karite_300",
         url1: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_fior_di_loto_e_karite_300-01.jpg",
@@ -745,6 +805,8 @@ export const shopLotsLiquidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_hammam_300.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_hammam_300",
         url1: "./images/shop/gigiena/soap/liquid_soap/tesori_d_oriente_sapone_aromatico_hammam_300-01.jpg",

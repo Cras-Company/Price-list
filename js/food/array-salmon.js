@@ -1,6 +1,8 @@
 export const shopLotsSalmon = [
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/salmon/m&k_losos_w_sosie_wlasnym_170.jpg",
         alt: "m&k_losos_w_sosie_wlasnym_170",
         url1: "./images/shop/food/canned_food/salmon/m&k_losos_w_sosie_wlasnym_170.jpg",
@@ -24,6 +26,8 @@ export const shopLotsSalmon = [
     },
         {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",       
         url: "./images/shop/food/canned_food/salmon/marinero_losos_tomato_150.jpg",
         alt: "marinero_losos_tomato_150",
         url1: "./images/shop/food/canned_food/salmon/marinero_losos_tomato_150.jpg",

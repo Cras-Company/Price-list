@@ -1,6 +1,8 @@
 export const shopLotsCoffeeBeans = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/ambassador_crema_euro_1kg.jpg",
         alt: "ambassador_crema_euro_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/ambassador_crema_euro_1kg.jpg",
@@ -24,6 +26,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/bellarom_bio_500.jpg",
         alt: "bellarom_bio_500",
         url1: "./images/shop/food/drinks/coffee_beans/bellarom_bio_500-01.jpg",
@@ -49,6 +53,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/bellarom_caffe_crema_classico_1kg.jpg",
         alt: "bellarom_caffe_crema_classico_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/bellarom_caffe_crema_classico_1kg-01.jpg",
@@ -78,6 +84,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/bellarom_gold_crema_1kg.jpg",
         alt: "bellarom_gold_crema_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/bellarom_gold_crema_1kg-01.jpg",
@@ -105,6 +113,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/cafe_d`Or_bilanciato_1kg.jpg",
         alt: "cafe_d`Or_bilanciato_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/cafe_d`Or_bilanciato_1kg-01.jpg",
@@ -134,6 +144,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/cafe_d`Or_crema_500.jpg",
         alt: "cafe_d`Or_crema_500",
         url1: "./images/shop/food/drinks/coffee_beans/cafe_d`Or_crema_500-01.jpg",
@@ -161,6 +173,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/cafe_d`Or_espresso_500.jpg",
         alt: "cafe_d`Or_espresso_500",
         url1: "./images/shop/food/drinks/coffee_beans/cafe_d`Or_espresso_500-01.jpg",
@@ -188,6 +202,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/cafe_intencion_crema_aromatico_1kg.jpg",
         alt: "cafe_intencion_crema_aromatico_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/cafe_intencion_crema_aromatico_1kg-01.jpg",
@@ -217,6 +233,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_dolce_1kg.jpg",
         alt: "dallmayr_barista_dolce_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_dolce_1kg-01.jpg",
@@ -246,6 +264,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_forte_1kg.jpg",
         alt: "dallmayr_barista_forte_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/dallmayr_barista_forte_1kg-01.jpg",
@@ -275,6 +295,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/illy_classico_250.jpg",
         alt: "illy_classico_250",
         url1: "./images/shop/food/drinks/coffee_beans/illy_classico_250-01.jpg",
@@ -302,6 +324,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_crema_aroma_1000.jpg",
         alt: "lavazza_crema_aroma_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_crema_aroma_1000-01.jpg",
@@ -333,6 +357,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_crema_gusto_250.jpg",
         alt: "lavazza_crema_gusto_250",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_crema_gusto_250-01.jpg",
@@ -362,6 +388,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_crema_gusto_1000.jpg",
         alt: "lavazza_crema_gusto_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_crema_gusto_1000-01.jpg",
@@ -391,6 +419,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_oro_500.jpg",
         alt: "lavazza_oro_500",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_oro_500-01.jpg",
@@ -420,6 +450,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_oro_1000.jpg",
         alt: "lavazza_oro_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_oro_1000-01.jpg",
@@ -449,6 +481,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_rossa_1000.jpg",
         alt: "lavazza_rossa_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_rossa_1000-01.jpg",
@@ -478,6 +512,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/lavazza_suerte_1000.jpg",
         alt: "lavazza_suerte_1000",
         url1: "./images/shop/food/drinks/coffee_beans/lavazza_suerte_1000-01.jpg",
@@ -507,7 +543,9 @@ export const shopLotsCoffeeBeans = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_500.jpg",
     //     alt: "movenpick_barista_espresso_500",
     //     url1: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_500-01.jpg",
     //     alt1: "movenpick_barista_espresso_500-01",
@@ -536,7 +574,9 @@ export const shopLotsCoffeeBeans = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_500.jpg",
     //     alt: "movenpick_crema_autentico_500",
     //     url1: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_500-01.jpg",
     //     alt1: "movenpick_crema_autentico_500-01",
@@ -565,6 +605,8 @@ export const shopLotsCoffeeBeans = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_1kg.jpg",
         alt: "movenpick_barista_espresso_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_1kg-01.jpg",
@@ -592,6 +634,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_caffe_crema_1kg.jpg",
         alt: "movenpick_caffe_crema_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_caffe_crema_1kg-01.jpg",
@@ -619,6 +663,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_1kg.jpg",
         alt: "movenpick_crema_autentico_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_crema_autentico_1kg-01.jpg",
@@ -646,6 +692,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_ital_1kg.jpg",
         alt: "movenpick_crema_ital_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_crema_ital_1kg-01.jpg",
@@ -677,6 +725,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_schumli_1kg.jpg",
         alt: "movenpick_crema_schumli_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_crema_schumli_1kg-01.jpg",
@@ -704,6 +754,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_1kg.jpg",
         alt: "movenpick_der_himmlische_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_1kg-01.jpg",
@@ -731,7 +783,9 @@ export const shopLotsCoffeeBeans = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_60_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_60_500.jpg",
     //     alt: "movenpick_der_himmlische_60_500",
     //     url1: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_60_500-01.jpg",
     //     alt1: "movenpick_der_himmlische_60_500-01",
@@ -754,7 +808,9 @@ export const shopLotsCoffeeBeans = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/drinks/coffee_beans/movenpick_espresso_1kg.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/coffee_beans/movenpick_espresso_1kg.jpg",
     //     alt: "movenpick_espresso_1kg",
     //     url1: "./images/shop/food/drinks/coffee_beans/movenpick_espresso_1kg-01.jpg",
     //     alt1: "movenpick_espresso_1kg-01",
@@ -777,7 +833,9 @@ export const shopLotsCoffeeBeans = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/drinks/coffee_beans/movenpick_latte_art_1kg.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/coffee_beans/movenpick_latte_art_1kg.jpg",
     //     alt: "movenpick_latte_art_1kg",
     //     url1: "./images/shop/food/drinks/coffee_beans/movenpick_latte_art_1kg-01.jpg",
     //     alt1: "movenpick_latte_art_1kg-01",
@@ -806,6 +864,8 @@ export const shopLotsCoffeeBeans = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/swisso_crema_1kg.jpg",
         alt: "swisso_crema_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/swisso_crema_1kg-01.jpg",
@@ -835,6 +895,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/swisso_espresso_1kg.jpg",
         alt: "swisso_espresso_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/swisso_espresso_1kg-01.jpg",
@@ -866,6 +928,8 @@ export const shopLotsCoffeeBeans = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/swisso_reich_1kg.jpg",
         alt: "swisso_reich_1kg",
         url1: "./images/shop/food/drinks/coffee_beans/swisso_reich_1kg-01.jpg",

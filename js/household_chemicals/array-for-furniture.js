@@ -1,6 +1,8 @@
 export const shopLotsForFurniture = [
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425.jpg",
         alt: "brait_exotic_fruits_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425.jpg",
         alt: "brait_ocean_breeze_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425.jpg",
         alt: "brait_oriental_garden_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425.jpg",
         alt: "brait_paradise_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425.jpg",
         alt: "brait_white_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_fleckenspray_500.jpg",
         alt: "denkmit_fleckenspray_500",
         url1: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_fleckenspray_500-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflegespray_400.jpg",
         alt: "denkmit_mobel_pflegespray_400",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflegespray_400-01.jpg",
@@ -176,7 +190,9 @@ export const shopLotsForFurniture = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_reinigungs_paste_320.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "cleaning-care-products",    
+    // url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_reinigungs_paste_320.jpg",
     //     alt: "denkmit_reinigungs_paste_320",
     //     url1: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_reinigungs_paste_320-01.jpg",
     //     alt1: "denkmit_reinigungs_paste_320-01",
@@ -203,6 +219,8 @@ export const shopLotsForFurniture = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_teppich_polsterreiniger_600.jpg",
         alt: "denkmit_teppich_polsterreiniger_600",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_teppich_polsterreiniger_600-01.jpg",
@@ -228,6 +246,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_polster_flecken_burste_400.jpg",
         alt: "dr.beckmann_polster_flecken_burste_400",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_polster_flecken_burste_400-01.jpg",
@@ -253,6 +273,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_teppich_flecken_burste_650.jpg",
         alt: "dr.beckmann_teppich_flecken_burste_650",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_teppich_flecken_burste_650-01.jpg",
@@ -278,6 +300,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750.jpg",
         alt: "gallus_mobel_pflege_750",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750-01.jpg",
@@ -303,6 +327,8 @@ export const shopLotsForFurniture = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/vir_kraftgel_500.jpg",
         alt: "vir_kraftgel_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/vir_kraftgel_500-01.jpg",

@@ -1,7 +1,9 @@
 export const shopLotsSpaghetti = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_3_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "pasta",    
+    // url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_3_500.jpg",
     //     alt: "barilla_spaghetti_3_500",
     //     url1: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_3_500-01.jpg",
     //     alt1: "barilla_spaghetti_3_500-01",
@@ -30,6 +32,8 @@ export const shopLotsSpaghetti = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_5_500.jpg",
         alt: "barilla_spaghetti_5_500",
         url1: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_5_500-01.jpg",
@@ -59,6 +63,8 @@ export const shopLotsSpaghetti = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_7_500.jpg",
         alt: "barilla_spaghetti_7_500",
         url1: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_7_500-01.jpg",
@@ -88,7 +94,9 @@ export const shopLotsSpaghetti = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/pasta/spaghetti/combino_spaghetti_500.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "pasta",    
+    // url: "./images/shop/food/pasta/spaghetti/combino_spaghetti_500.jpg",
     //     alt: "combino_spaghetti_500",
     //     url1: "./images/shop/food/pasta/spaghetti/combino_spaghetti_500-01.jpg",
     //     alt1: "combino_spaghetti_500-01",
@@ -111,6 +119,8 @@ export const shopLotsSpaghetti = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/reggia_linguine_5_500.jpg",
         alt: "reggia_linguine_5_500",
         url1: "./images/shop/food/pasta/spaghetti/reggia_linguine_5_500-01.jpg",
@@ -137,7 +147,7 @@ export const shopLotsSpaghetti = [
         weightName: "Вага",
         weight: "500 гр.",
         priceGRN: 47,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Вітаємо вас у світі справжньої італійської гастрономії з плоскими спагетті &#171Pasta Reggia - Linguine №5&#187. Ця паста завойовує вашу увагу своєю текстурою та властивим смаком, нагадуючи про витонченість італійських страв.",
         description02: "Кожен шматочок - це творіння майстрів пасти, яке втілює найвищі стандарти якості. Інтерес до цієї пасти виникає з кожним кулінарним досвідом, коли Ви відчуваєте тонкість та арому італійської кухні.",
         description03: "Викличте бажання насолоджуватися справжнім смаком Італії вдома, готуючи &#171Pasta Reggia - Linguine №5&#187.",
@@ -146,6 +156,8 @@ export const shopLotsSpaghetti = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/reggia_spaghetti_19_500.jpg",
         alt: "reggia_spaghetti_19_500",
         url1: "./images/shop/food/pasta/spaghetti/reggia_spaghetti_19_500-01.jpg",
@@ -181,6 +193,8 @@ export const shopLotsSpaghetti = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/riscossa_vermicelli_4_500.jpg",
         alt: "riscossa_vermicelli_4_500",
         url1: "./images/shop/food/pasta/spaghetti/riscossa_vermicelli_4_500-01.jpg",

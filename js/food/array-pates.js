@@ -1,7 +1,9 @@
 export const shopLotsPates = [
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/pates/fresh_pecenovka_190.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/pates/fresh_pecenovka_190.jpg",
     //     alt: "fresh_pecenovka_190",
     //     url1: "./images/shop/food/canned_food/pates/fresh_pecenovka_190.jpg",
     //     alt1: "fresh_pecenovka_190",
@@ -24,7 +26,9 @@ export const shopLotsPates = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/canned_food/pates/freshona_pasta_ardei_120.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/pates/freshona_pasta_ardei_120.jpg",
     //     alt: "freshona_pasta_ardei_120",
     //     url1: "./images/shop/food/canned_food/pates/freshona_pasta_ardei_120.jpg",
     //     alt1: "freshona_pasta_ardei_120",
@@ -47,7 +51,9 @@ export const shopLotsPates = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/canned_food/pates/freshona_pasta_ciuperci_120.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/pates/freshona_pasta_ciuperci_120.jpg",
     //     alt: "freshona_pasta_ciuperci_120",
     //     url1: "./images/shop/food/canned_food/pates/freshona_pasta_ciuperci_120.jpg",
     //     alt1: "freshona_pasta_ciuperci_120",
@@ -70,7 +76,9 @@ export const shopLotsPates = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/canned_food/pates/freshona_pasta_masline_120.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/pates/freshona_pasta_masline_120.jpg",
     //     alt: "freshona_pasta_masline_120",
     //     url1: "./images/shop/food/canned_food/pates/freshona_pasta_masline_120-01.jpg",
     //     alt1: "freshona_pasta_masline_120-01",
@@ -93,7 +101,9 @@ export const shopLotsPates = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/pates/hame_pioner_pork_190.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/pates/hame_pioner_pork_190.jpg",
     //     alt: "hame_pioner_pork_190",
     //     url1: "./images/shop/food/canned_food/pates/hame_pioner_pork_190.jpg",
     //     alt1: "hame_pioner_pork_190",
@@ -116,6 +126,8 @@ export const shopLotsPates = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/pates/hame_tongalas_pastetom_100.jpg",
         alt: "hame_tongalas_pastetom_100",
         url1: "./images/shop/food/canned_food/pates/hame_tongalas_pastetom_100.jpg",
@@ -139,6 +151,8 @@ export const shopLotsPates = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/pates/pamapol_pasztet_mazowiecki_wieprzowy_390.jpg",
         alt: "pamapol_pasztet_mazowiecki_wieprzowy_390",
         url1: "./images/shop/food/canned_food/pates/pamapol_pasztet_mazowiecki_wieprzowy_390.jpg",
@@ -162,6 +176,8 @@ export const shopLotsPates = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_drobiem_390.jpg",
         alt: "pamapol_pasztet_z_drobiem_390",
         url1: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_drobiem_390.jpg",
@@ -185,7 +201,9 @@ export const shopLotsPates = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_indykiem_390.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_indykiem_390.jpg",
     //     alt: "pamapol_pasztet_z_indykiem_390",
     //     url1: "./images/shop/food/canned_food/pates/pamapol_pasztet_z_indykiem_390-01.jpg",
     //     alt1: "pamapol_pasztet_z_indykiem_390-01",

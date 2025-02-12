@@ -1,6 +1,8 @@
 export const shopLotsHerring = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/herring/marinero_sledz_w_oleju_roslinnym_170.jpg",
         alt: "marinero_sledz_w_oleju_roslinnym_170",
         url1: "./images/shop/food/canned_food/herring/marinero_sledz_w_oleju_roslinnym_170-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsHerring = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",       
         url: "./images/shop/food/canned_food/herring/marinero_sledz_w_sosie_pomidorowym_170.jpg",
         alt: "marinero_sledz_w_sosie_pomidorowym_170",
         url1: "./images/shop/food/canned_food/herring/marinero_sledz_w_sosie_pomidorowym_170-01.jpg",

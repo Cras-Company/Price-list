@@ -1,6 +1,8 @@
 export const shopLotsChildrenShowerGels = [
     {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "shower-gels for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_dschungelbande_230.jpg",
     alt: "bubchen_dschungelbande_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_dschungelbande_230-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsChildrenShowerGels = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "shower-gels for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_prinzessin_rosalea_230.jpg",
     alt: "bubchen_prinzessin_rosalea_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_prinzessin_rosalea_230-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsChildrenShowerGels = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "shower-gels for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sanfte_lieblinge_230.jpg",
     alt: "bubchen_sanfte_lieblinge_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sanfte_lieblinge_230-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsChildrenShowerGels = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "shower-gels for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sportsfreund_230.jpg",
     alt: "bubchen_sportsfreund_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sportsfreund_230-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsChildrenShowerGels = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "shower-gels for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_superdusche_230.jpg",
     alt: "bubchen_superdusche_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_superdusche_230-01.jpg",

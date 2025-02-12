@@ -1,7 +1,9 @@
 export const shopLotsSauces = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/asia_gold_thai_hot_chili_700.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/asia_gold_thai_hot_chili_700.jpg",
     //     alt: "asia_gold_thai_hot_chili_700",
     //     url1: "./images/shop/food/taste_modifier/sauces/asia_gold_thai_hot_chili_700.jpg",
     //     alt1: "asia_gold_thai_hot_chili_700",
@@ -24,7 +26,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/asia_gold_thai_hot_chili_700.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/asia_gold_thai_hot_chili_700.jpg",
     //     alt: "asia_gold_thai_hot_chili_700",
     //     url1: "./images/shop/food/taste_modifier/sauces/asia_gold_thai_hot_chili_700.jpg",
     //     alt1: "asia_gold_thai_hot_chili_700",
@@ -47,7 +51,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_arrabbiata_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_arrabbiata_400.jpg",
     //     alt: "barilla_arrabbiata_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_arrabbiata_400.jpg",
     //     alt1: "barilla_arrabbiata_400",
@@ -70,7 +76,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_base_per_bolognese_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_base_per_bolognese_400.jpg",
     //     alt: "barilla_base_per_bolognese_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_base_per_bolognese_400.jpg",
     //     alt1: "barilla_base_per_bolognese_400",
@@ -93,7 +101,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_basilico_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_basilico_400.jpg",
     //     alt: "barilla_basilico_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_basilico_400.jpg",
     //     alt1: "barilla_basilico_400",
@@ -116,7 +126,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_basilico_400a.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_basilico_400a.jpg",
     //     alt: "barilla_basilico_400a",
     //     marker: "FDSU031",
     //     brand: "Barilla",
@@ -137,7 +149,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_bolognese_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_bolognese_400.jpg",
     //     alt1: "barilla_bolognese_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_bolognese_400.jpg",
     //     alt: "barilla_bolognese_400",
@@ -160,7 +174,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_napoletana_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_napoletana_400.jpg",
     //     alt: "barilla_napoletana_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_napoletana_400.jpg",
     //     alt1: "barilla_napoletana_400",
@@ -183,7 +199,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_napoletana_400a.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_napoletana_400a.jpg",
     //     alt: "barilla_napoletana_400a",
     //     marker: "FDSU040a",
     //     brand: "Barilla",
@@ -204,7 +222,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_olive_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_olive_400.jpg",
     //     alt: "barilla_olive_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_olive_400.jpg",
     //     alt1: "barilla_olive_400",
@@ -227,7 +247,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_ricotta_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_ricotta_400.jpg",
     //     alt: "barilla_ricotta_400",
     //     url1: "./images/shop/food/taste_modifier/sauces/barilla_ricotta_400.jpg",
     //     alt1: "barilla_ricotta_400",
@@ -250,7 +272,9 @@ export const shopLotsSauces = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/barilla_olive_400a.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/barilla_olive_400a.jpg",
     //     alt: "barilla_olive_400a",
     //     marker: "FDSU045a",
     //     brand: "Barilla",
@@ -271,6 +295,8 @@ export const shopLotsSauces = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/bio_natura_passierte_tomaten_690.jpg",
         alt: "bio_natura_passierte_tomaten_690",
         url1: "./images/shop/food/taste_modifier/sauces/bio_natura_passierte_tomaten_690.jpg",
@@ -294,6 +320,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/combino_arrabbiata_400.jpg",
         alt: "combino_arrabbiata_400",
         url1: "./images/shop/food/taste_modifier/sauces/combino_arrabbiata_400.jpg",
@@ -317,6 +345,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/combino_basil_400.jpg",
         alt: "combino_basil_400",
         url1: "./images/shop/food/taste_modifier/sauces/combino_basil_400.jpg",
@@ -340,7 +370,9 @@ export const shopLotsSauces = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/combino_bolognese_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/combino_bolognese_400.jpg",
     //     alt: "combino_bolognese_400",
     //     marker: "FDSU136",
     //     brand: "Combino",
@@ -361,6 +393,8 @@ export const shopLotsSauces = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/combino_vegetables_400.jpg",
         alt: "combino_vegetables_400",
         url1: "./images/shop/food/taste_modifier/sauces/combino_vegetables_400.jpg",
@@ -384,6 +418,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/mk_przecier_pomidorowy_500.jpg",
         alt: "mk_przecier_pomidorowy_500",
         url1: "./images/shop/food/taste_modifier/sauces/mk_przecier_pomidorowy_500.jpg",
@@ -407,6 +443,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/reggia_passata_di_pomodoro_680.jpg",
         alt: "reggia_passata_di_pomodoro_680",
         url1: "./images/shop/food/taste_modifier/sauces/reggia_passata_di_pomodoro_680-01.jpg",
@@ -434,6 +472,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_690.jpg",
         alt: "rosso_gargano_passata_di_puglia_690",
         url1: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_690.jpg",
@@ -457,6 +497,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_basilico_690.jpg",
         alt: "rosso_gargano_passata_di_puglia_basilico_690",
         url1: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_basilico_690.jpg",
@@ -480,7 +522,9 @@ export const shopLotsSauces = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/taste_modifier/sauces/santa_rosa_pomodorissimo_700.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "taste-modifiers",    
+    // url: "./images/shop/food/taste_modifier/sauces/santa_rosa_pomodorissimo_700.jpg",
     //     alt: "santa_rosa_pomodorissimo_700",
     //     url1: "./images/shop/food/taste_modifier/sauces/santa_rosa_pomodorissimo_700.jpg",
     //     alt1: "santa_rosa_pomodorissimo_700",
@@ -503,6 +547,8 @@ export const shopLotsSauces = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/o_sole_e_napule_la_passata_classica_680.jpg",
         alt: "o_sole_e_napule_la_passata_classica_680",
         url1: "./images/shop/food/taste_modifier/sauces/o_sole_e_napule_la_passata_classica_680-01.jpg",
@@ -528,6 +574,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/univer_anna_200.jpg",
         alt: "univer_anna_200",
         url1: "./images/shop/food/taste_modifier/sauces/univer_anna_200.jpg",
@@ -551,6 +599,8 @@ export const shopLotsSauces = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/univer_eros_pista_200.jpg",
         alt: "univer_eros_pista_200",
         url1: "./images/shop/food/taste_modifier/sauces/univer_eros_pista_200.jpg",

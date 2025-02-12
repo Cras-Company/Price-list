@@ -1,6 +1,8 @@
 export const shopLotsChips = [
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_cheese_onion_165.jpg",
         alt: "pringles_cheese_onion_165",
         url1: "./images/shop/food/snacks/chips/pringles_cheese_onion_165-01.jpg",
@@ -30,6 +32,8 @@ export const shopLotsChips = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_cheesy_cheese_165.jpg",
         alt: "pringles_cheesy_cheese_165",
         url1: "./images/shop/food/snacks/chips/pringles_cheesy_cheese_165-01.jpg",
@@ -59,6 +63,8 @@ export const shopLotsChips = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_hot_spicy_165.jpg",
         alt: "pringles_hot_spicy_165",
         url1: "./images/shop/food/snacks/chips/pringles_hot_spicy_165-01.jpg",
@@ -88,7 +94,9 @@ export const shopLotsChips = [
     },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_original_40.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_original_40.jpg",
     //     alt: "pringles_original_40",
     //     url1: "./images/shop/food/snacks/chips/pringles_original_40-01.jpg",
     //     alt1: "pringles_original_40-01",
@@ -115,7 +123,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_original_165.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_original_165.jpg",
     //     alt: "pringles_original_165",
     //     url1: "./images/shop/food/snacks/chips/pringles_original_165-01.jpg",
     //     alt1: "pringles_original_165-01",
@@ -140,6 +150,8 @@ export const shopLotsChips = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_paprika_165.jpg",
         alt: "pringles_paprika_165",
         url1: "./images/shop/food/snacks/chips/pringles_paprika_165-01.jpg",
@@ -169,6 +181,8 @@ export const shopLotsChips = [
     },
     {
         ttype: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_pizza_flavour_165.jpg",
         alt: "pringles_pizza_flavour_165",
         url1: "./images/shop/food/snacks/chips/pringles_pizza_flavour_165.jpg",
@@ -198,7 +212,9 @@ export const shopLotsChips = [
     },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_original_175.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_original_175.jpg",
     //     alt: "pringles_original_175",
     //     url1: "./images/shop/food/snacks/chips/pringles_original_175-01.jpg",
     //     alt1: "pringles_original_175-01",
@@ -227,7 +243,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_classic_paprika_40.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_classic_paprika_40.jpg",
     //     alt: "pringles_classic_paprika_40",
     //     url1: "./images/shop/food/snacks/chips/pringles_classic_paprika_40.jpg",
     //     alt1: "pringles_classic_paprika_40",
@@ -250,7 +268,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_grilled_paprika_flavour_185.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_grilled_paprika_flavour_185.jpg",
     //     alt: "pringles_grilled_paprika_flavour_185",
     //     url1: "./images/shop/food/snacks/chips/pringles_grilled_paprika_flavour_185-01.jpg",
     //     alt1: "pringles_grilled_paprika_flavour_185-01",
@@ -279,7 +299,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_hot_spicy_40.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_hot_spicy_40.jpg",
     //     alt: "pringles_hot_spicy_40",
     //     url1: "./images/shop/food/snacks/chips/pringles_hot_spicy_40-01.jpg",
     //     alt1: "pringles_hot_spicy_40-01",
@@ -306,7 +328,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_ketchup_175.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_ketchup_175.jpg",
     //     alt: "pringles_ketchup_175",
     //     url1: "./images/shop/food/snacks/chips/pringles_ketchup_175-01.jpg",
     //     alt1: "pringles_ketchup_175-01",
@@ -335,7 +359,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_pizza_flavour_175.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_pizza_flavour_175.jpg",
     //     alt: "pringles_pizza_flavour_175",
     //     url1: "./images/shop/food/snacks/chips/pringles_pizza_flavour_175-01.jpg",
     //     alt1: "pringles_pizza_flavour_175-01",
@@ -364,7 +390,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_prawn_cocktail_165.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_prawn_cocktail_165.jpg",
     //     alt: "pringles_prawn_cocktail_165",
     //     url1: "./images/shop/food/snacks/chips/pringles_prawn_cocktail_165-01.jpg",
     //     alt1: "pringles_prawn_cocktail_165-01",
@@ -393,7 +421,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_salt_vinegar_185.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_salt_vinegar_185.jpg",
     //     alt: "pringles_salt_vinegar_185",
     //     url1: "./images/shop/food/snacks/chips/pringles_salt_vinegar_185-01.jpg",
     //     alt1: "pringles_salt_vinegar_185-01",
@@ -422,7 +452,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_sour_cream_onion_40.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_sour_cream_onion_40.jpg",
     //     alt: "pringles_sour_cream_onion_40",
     //     url1: "./images/shop/food/snacks/chips/pringles_sour_cream_onion_40-01.jpg",
     //     alt1: "pringles_sour_cream_onion_40-01",
@@ -451,7 +483,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_sour_cream_onion_165.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_sour_cream_onion_165.jpg",
     //     alt: "pringles_sour_cream_onion_165",
     //     url1: "./images/shop/food/snacks/chips/pringles_sour_cream_onion_165-01.jpg",
     //     alt1: "pringles_sour_cream_onion_165-01",
@@ -476,7 +510,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_texas_bbq_sauce_40.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_texas_bbq_sauce_40.jpg",
     //     alt: "pringles_texas_bbq_sauce_40",
     //     url1: "./images/shop/food/snacks/chips/pringles_texas_bbq_sauce_40-01.jpg",
     //     alt1: "pringles_texas_bbq_sauce_40-01",
@@ -505,7 +541,9 @@ export const shopLotsChips = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/food/snacks/chips/pringles_texas_bbq_sauce_175.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/chips/pringles_texas_bbq_sauce_175.jpg",
     //     alt: "pringles_texas_bbq_sauce_175",
     //     url1: "./images/shop/food/snacks/chips/pringles_texas_bbq_sauce_175-01.jpg",
     //     alt1: "pringles_texas_bbq_sauce_175-01",

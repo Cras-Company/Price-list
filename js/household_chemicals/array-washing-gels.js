@@ -1,6 +1,8 @@
 export const shopLotsWashingGels = [
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_bicarbonato_35.jpg",
         alt: "chanteclair_bicarbonato_35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_bicarbonato_35-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_colorati_35.jpg",
         alt: "chanteclair_colorati_35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_colorati_35-01.jpg",
@@ -51,7 +55,9 @@ export const shopLotsWashingGels = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_color_35.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_color_35.jpg",
     //     alt: "chanteclair_color_35",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_color_35-01.jpg",
     //     alt1: "chanteclair_color_35-01",
@@ -76,7 +82,9 @@ export const shopLotsWashingGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_lavanda_35.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_lavanda_35.jpg",
     //     alt: "chanteclair_lavanda_35",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_lavanda_35-01.jpg",
     //     alt1: "chanteclair_lavanda_35-01",
@@ -101,6 +109,8 @@ export const shopLotsWashingGels = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_profumato_35.jpg",
         alt: "chanteclair_marsiglia_profumato_35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_profumato_35-01.jpg",
@@ -126,7 +136,9 @@ export const shopLotsWashingGels = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_35.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_35.jpg",
     //     alt: "chanteclair_marsiglia_35",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_35-01.jpg",
     //     alt1: "chanteclair_marsiglia_35-01",
@@ -151,6 +163,8 @@ export const shopLotsWashingGels = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_muschio_blanco_35.jpg",
         alt: "chanteclair_muschio_blanco_35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_muschio_blanco_35-01.jpg",
@@ -176,6 +190,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_35.jpg",
         alt: "chanteclair_pulito_profondo_35",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_35-01.jpg",
@@ -201,6 +217,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_black_sensation_40.jpg",
         alt: "denkmit_black_sensation_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_black_sensation_40-01.jpg",
@@ -226,6 +244,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_white_sensation_40.jpg",
         alt: "denkmit_white_sensation_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_white_sensation_40-01.jpg",
@@ -251,6 +271,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/fairy_non_bio_liquid_57.jpg",
         alt: "fairy_non_bio_liquid_57",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/fairy_non_bio_liquid_57-01.jpg",
@@ -276,6 +298,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_color_32.jpg",
         alt: "felce_azzurra_color_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_color_32-01.jpg",
@@ -301,6 +325,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_aleppo_soap_32.jpg",
         alt: "felce_azzurra_aleppo_soap_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_aleppo_soap_32-01.jpg",
@@ -326,6 +352,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_original_32.jpg",
         alt: "felce_azzurra_original_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_original_32-01.jpg",
@@ -351,7 +379,9 @@ export const shopLotsWashingGels = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/formil_marsiglia_28.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/formil_marsiglia_28.jpg",
     //     alt: "formil_marsiglia_28",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/formil_marsiglia_28-01.jpg",
     //     alt1: "formil_marsiglia_28-01",
@@ -376,6 +406,8 @@ export const shopLotsWashingGels = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_black_gel_2l.jpg",
         alt: "gallus_black_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_black_gel_2l-01.jpg",
@@ -401,6 +433,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_color_gel_2l.jpg",
         alt: "gallus_color_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_color_gel_2l-01.jpg",
@@ -426,6 +460,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sensitive_gel_2l.jpg",
         alt: "gallus_sensitive_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sensitive_gel_2l-01.jpg",
@@ -451,6 +487,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sport_gel_2l.jpg",
         alt: "gallus_sport_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sport_gel_2l-01.jpg",
@@ -476,6 +514,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_universal_gel_2l.jpg",
         alt: "gallus_universal_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_universal_gel_2l-01.jpg",
@@ -501,6 +541,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_white_gel_2l.jpg",
         alt: "gallus_white_gel_2l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_white_gel_2l-01.jpg",
@@ -526,6 +568,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_1.98l.jpg",
         alt: "gallus_colorwaschmittel_1.98l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_1.98l-01.jpg",
@@ -551,6 +595,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_1.98l.jpg",
         alt: "gallus_vollwaschmittel_1.98l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_1.98l-01.jpg",
@@ -576,6 +622,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_4l.jpg",
         alt: "gallus_colorwaschmittel_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_4l-01.jpg",
@@ -601,6 +649,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_4l.jpg",
         alt: "gallus_vollwaschmittel_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_4l-01.jpg",
@@ -626,6 +676,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_color_40.jpg",
         alt: "la_salud_color_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_color_40-01.jpg",
@@ -651,6 +703,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_marsella_40.jpg",
         alt: "la_salud_marsella_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_marsella_40-01.jpg",
@@ -676,6 +730,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_original_40.jpg",
         alt: "la_salud_original_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_original_40-01.jpg",
@@ -701,6 +757,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_ropa_negra_40.jpg",
         alt: "la_salud_ropa_negra_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_ropa_negra_40-01.jpg",
@@ -726,6 +784,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_amethyst_60.jpg",
         alt: "lenor_color_derergent_amethyst_60",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_amethyst_60-01.jpg",
@@ -751,6 +811,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_orchid_60.jpg",
         alt: "lenor_color_derergent_orchid_60",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_orchid_60-01.jpg",
@@ -776,6 +838,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_uneversal_derergent_peony_hibiscus_60.jpg",
         alt: "lenor_uneversal_derergent_peony_hibiscus_60",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_uneversal_derergent_peony_hibiscus_60-01.jpg",
@@ -801,7 +865,9 @@ export const shopLotsWashingGels = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_old_4l.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_old_4l.jpg",
     //     alt: "onyx_color_old_4l",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_old_4l-01.jpg",
     //     alt1: "onyx_color_old_4l-01",
@@ -826,7 +892,9 @@ export const shopLotsWashingGels = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_voll_4l.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_voll_4l.jpg",
     //     alt: "onyx_voll_4l",
     //     marker: "LDWG604",
     //     brand: "Onyx",
@@ -847,6 +915,8 @@ export const shopLotsWashingGels = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l.jpg",
         alt: "onyx_color_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l-01.jpg",
@@ -872,6 +942,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_universal_4l.jpg",
         alt: "onyx_universal_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_universal_4l-01.jpg",
@@ -897,6 +969,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l.jpg",
         alt: "onyx_color_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l-01.jpg",
@@ -922,6 +996,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_universal_4l.jpg",
         alt: "onyx_universal_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_universal_4l-01.jpg",
@@ -947,6 +1023,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_color_4l.jpg",
         alt: "power_wash_color_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_color_4l-01.jpg",
@@ -972,6 +1050,8 @@ export const shopLotsWashingGels = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_universal_4l.jpg",
         alt: "power_wash_universal_4l",
         url1: "./images/shop/household_chemicals/laundry_detergents/washing_gels/power_wash_universal_4l-01.jpg",

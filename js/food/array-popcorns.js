@@ -1,6 +1,8 @@
 export const shopLotsPopcorns = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_butter_100.jpg",
         alt: "mogyi_popcorn_butter_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_butter_100-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsPopcorns = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_cheese_100.jpg",
         alt: "mogyi_popcorn_cheese_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_cheese_100-01.jpg",
@@ -55,7 +59,9 @@ export const shopLotsPopcorns = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_chili_100.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_chili_100.jpg",
     //     alt: "mogyi_popcorn_chili_100",
     //     url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_chili_100-01.jpg",
     //     alt1: "mogyi_popcorn_chili_100-01",
@@ -82,6 +88,8 @@ export const shopLotsPopcorns = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/popcorn/mogyi_popcorn_salty_100.jpg",
         alt: "mogyi_popcorn_salty_100",
         url1: "./images/shop/food/snacks/popcorn/mogyi_popcorn_salty_100-01.jpg",

@@ -1,7 +1,9 @@
 export const shopLotsLaundrySheets = [
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/at_home_wash_laundry_sheets_color.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/at_home_wash_laundry_sheets_color.jpg",
     //     alt: "at_home_wash_laundry_sheets_color",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/at_home_wash_laundry_sheets_color-01.jpg",
     //     alt1: "at_home_wash_laundry_sheets_color-01",
@@ -26,7 +28,9 @@ export const shopLotsLaundrySheets = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/at_home_wash_laundry_sheets_white.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/at_home_wash_laundry_sheets_white.jpg",
     //     alt: "at_home_wash_laundry_sheets_white",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/at_home_wash_laundry_sheets_white-01.jpg",
     //     alt1: "at_home_wash_laundry_sheets_white-01",
@@ -51,6 +55,8 @@ export const shopLotsLaundrySheets = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/denkmit_farb_schmutzfangtucher_24.jpg",
         alt: "denkmit_farb_schmutzfangtucher_24",
         url1: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/denkmit_farb_schmutzfangtucher_24-01.jpg",
@@ -78,6 +84,8 @@ export const shopLotsLaundrySheets = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/denkmit_wasche_weiss_tucher_20.jpg",
         alt: "denkmit_wasche_weiss_tucher_20",
         url1: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/denkmit_wasche_weiss_tucher_20-01.jpg",
@@ -103,6 +111,8 @@ export const shopLotsLaundrySheets = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/dr.bechmann_farb_schmutzfanger_all_in_1.jpg",
         alt: "dr.bechmann_farb_schmutzfanger_all_in_1",
         url1: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/dr.bechmann_farb_schmutzfanger_all_in_1-01.jpg",
@@ -130,6 +140,8 @@ export const shopLotsLaundrySheets = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/dr.bechmann_intensiv_schwarz_tucher_3in1_6.jpg",
         alt: "dr.bechmann_intensiv_schwarz_tucher_3in1_6",
         url1: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/dr.bechmann_intensiv_schwarz_tucher_3in1_6-01.jpg",

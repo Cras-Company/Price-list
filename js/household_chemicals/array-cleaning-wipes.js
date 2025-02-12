@@ -1,7 +1,9 @@
 export const shopLotsCleaningWipes = [
   // {
   //   type: "retail",
-  //   url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_bildschirm-reinigungstucher_feucht_20.jpg",
+  // mainCategory: "household-chemicals",
+    // subcategory: "cleaning-care-products",  
+  // url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_bildschirm-reinigungstucher_feucht_20.jpg",
   //   alt: "denkmit_bildschirm-reinigungstucher_feucht_20",
   //   url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_bildschirm-reinigungstucher_feucht_20-01.jpg",
   //   alt1: "denkmit_bildschirm-reinigungstucher_feucht_20-01",
@@ -26,6 +28,8 @@ export const shopLotsCleaningWipes = [
   // },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_bodentucher_feucht_15.jpg",
     alt: "denkmit_bodentucher_feucht_15",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_bodentucher_feucht_15-01.jpg",
@@ -51,7 +55,9 @@ export const shopLotsCleaningWipes = [
   },
   // {
   //   type: "retail",
-  //   url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_cockpit-pflegetucher_feucht_20.jpg",
+  // mainCategory: "household-chemicals",
+    // subcategory: "cleaning-care-products",  
+  // url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_cockpit-pflegetucher_feucht_20.jpg",
   //   alt: "denkmit_cockpit-pflegetucher_feucht_20",
   //   url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_cockpit-pflegetucher_feucht_20-01.jpg",
   //   alt1: "denkmit_cockpit-pflegetucher_feucht_20-01",
@@ -76,6 +82,8 @@ export const shopLotsCleaningWipes = [
   // },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_parkett_laminat_bodentucher_fuecht_15.jpg",
     alt: "denkmit_parkett_laminat_bodentucher_fuecht_15",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/denkmit_parkett_laminat_bodentucher_fuecht_15-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_anti_bacterial_foodsurface_wipes_70.jpg",
     alt: "green_shield_anti_bacterial_foodsurface_wipes_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_anti_bacterial_foodsurface_wipes_70-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_anti_bacterial_household_surface_wipes_lemon_70.jpg",
     alt: "green_shield_anti_bacterial_household_surface_wipes_lemon_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_anti_bacterial_household_surface_wipes_lemon_70-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_bathroom_surface_wipes_70.jpg",
     alt: "green_shield_bathroom_surface_wipes_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_bathroom_surface_wipes_70-01.jpg",
@@ -176,6 +190,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_conditioning_leather_surface_wipes_70.jpg",
     alt: "green_shield_conditioning_leather_surface_wipes_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_conditioning_leather_surface_wipes_70-01.jpg",
@@ -201,6 +217,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_microwace_fridge_freezer_wipes_70.jpg",
     alt: "green_shield_microwace_fridge_freezer_wipes_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_microwace_fridge_freezer_wipes_70-01.jpg",
@@ -226,6 +244,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_stainless_steel_wipes_70.jpg",
     alt: "green_shield_stainless_steel_wipes_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_stainless_steel_wipes_70-01.jpg",
@@ -251,6 +271,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_wood_laminate_surface_wipes_70.jpg",
     alt: "green_shield_wood_laminate_surface_wipes_70",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/green_shield_wood_laminate_surface_wipes_70-01.jpg",
@@ -276,7 +298,9 @@ export const shopLotsCleaningWipes = [
   },
   // {
   //   type: "retail",
-  //   url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_bathroom_36.jpg",
+  // mainCategory: "household-chemicals",
+    // subcategory: "cleaning-care-products",  
+  // url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_bathroom_36.jpg",
   //   alt: "presto_wet_wipes_bathroom_36",
   //   url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_bathroom_36-01.jpg",
   //   alt1: "presto_wet_wipes_bathroom_36-01",
@@ -301,6 +325,8 @@ export const shopLotsCleaningWipes = [
   // },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_kitchen_36.jpg",
     alt: "presto_wet_wipes_kitchen_36",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_kitchen_36-01.jpg",
@@ -326,6 +352,8 @@ export const shopLotsCleaningWipes = [
   },
   {
     type: "retail",
+    mainCategory: "household-chemicals",
+    subcategory: "cleaning-care-products",
     url: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_various_surfaces_36.jpg",
     alt: "presto_wet_wipes_various_surfaces_36",
     url1: "./images/shop/household_chemicals/means_for_cleaning/cleaning_wipes/presto_wet_wipes_various_surfaces_36-01.jpg",

@@ -1,7 +1,9 @@
 export const shopLotsAirFresheners = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/at_home_scents_gel_crystals_lavender_retreat_150.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "world-of-fragrances",    
+    // url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/at_home_scents_gel_crystals_lavender_retreat_150.jpg",
     //     alt: "at_home_scents_gel_crystals_lavender_retreat_150",
     //     url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/at_home_scents_gel_crystals_lavender_retreat_150-01.jpg",
     //     alt1: "at_home_scents_gel_crystals_lavender_retreat_150-01",
@@ -26,6 +28,8 @@ export const shopLotsAirFresheners = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/at_home_scents_gel_crystals_spring_flowers_150.jpg",
         alt: "at_home_scents_gel_crystals_spring_flowers_150",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/at_home_scents_gel_crystals_spring_flowers_150-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsAirFresheners = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425.jpg",
         alt: "brait_exotic_fruits_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_exotic_fruits_425-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsAirFresheners = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425.jpg",
         alt: "brait_ocean_breeze_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_ocean_breeze_425-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsAirFresheners = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425.jpg",
         alt: "brait_oriental_garden_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsAirFresheners = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425.jpg",
         alt: "brait_paradise_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_paradise_flowers_425-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsAirFresheners = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425.jpg",
         alt: "brait_white_flowers_425",
         url1: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425-01.jpg",

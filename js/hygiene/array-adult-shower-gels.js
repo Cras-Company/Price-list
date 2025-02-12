@@ -1,6 +1,8 @@
 export const shopLotsAdultShowerGels = [
     {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_duschgel_flower_shower_300.jpg",
       alt: "balea_duschgel_flower_shower_300",
       url1: "./images/shop/gigiena/bath_gels/balea_duschgel_flower_shower_300-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_duschgel_summer_joy_300.jpg",
       alt: "balea_duschgel_summer_joy_300",
       url1: "./images/shop/gigiena/bath_gels/balea_duschgel_summer_joy_300-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_duschgel_totes_meer_salz_300.jpg",
       alt: "balea_duschgel_totes_meer_salz_300",
       url1: "./images/shop/gigiena/bath_gels/balea_duschgel_totes_meer_salz_300-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_verwohndesche_lovely_flowers_300.jpg",
       alt: "balea_verwohndesche_lovely_flowers_300",
       url1: "./images/shop/gigiena/bath_gels/balea_verwohndesche_lovely_flowers_300-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_family_duschgel_frische_energie_500.jpg",
       alt: "balea_family_duschgel_frische_energie_500",
       url1: "./images/shop/gigiena/bath_gels/balea_family_duschgel_frische_energie_500-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_men_active_carbon_duschgel_300.jpg",
       alt: "balea_men_active_carbon_duschgel_300",
       url1: "./images/shop/gigiena/bath_gels/balea_men_active_carbon_duschgel_300-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsAdultShowerGels = [
    },
    {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/balea_men_sport_duschgel_300.jpg",
       alt: "balea_men_sport_duschgel_300",
       url1: "./images/shop/gigiena/bath_gels/balea_men_sport_duschgel_300-01.jpg",
@@ -176,7 +190,9 @@ export const shopLotsAdultShowerGels = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/dermomed_almond_1000.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/dermomed_almond_1000.jpg",
     //     alt: "dermomed_almond_1000",
     //     url1: "./images/shop/gigiena/bath_gels/dermomed_almond_1000-01.jpg",
     //     alt1: "dermomed_almond_1000-01",
@@ -201,7 +217,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/dermomed_aloe_1000.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/dermomed_aloe_1000.jpg",
     //     alt: "dermomed_aloe_1000",
     //     url1: "./images/shop/gigiena/bath_gels/dermomed_aloe_1000-01.jpg",
     //     alt1: "dermomed_aloe_1000-01",
@@ -226,7 +244,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/dermomed_argan_1000.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/dermomed_argan_1000.jpg",
     //     alt: "dermomed_argan_1000",
     //     url1: "./images/shop/gigiena/bath_gels/dermomed_argan_1000-01.jpg",
     //     alt1: "dermomed_argan_1000-01",
@@ -251,7 +271,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/dermomed_frangipane_1000.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/dermomed_frangipane_1000.jpg",
     //     alt: "dermomed_frangipane_1000",
     //     url1: "./images/shop/gigiena/bath_gels/dermomed_frangipane_1000-01.jpg",
     //     alt1: "dermomed_frangipane_1000-01",
@@ -276,7 +298,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/dermomed_iris_1000.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/dermomed_iris_1000.jpg",
     //     alt: "dermomed_iris_1000",
     //     url1: "./images/shop/gigiena/bath_gels/dermomed_iris_1000-01.jpg",
     //     alt1: "dermomed_iris_1000-01",
@@ -301,6 +325,8 @@ export const shopLotsAdultShowerGels = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/dermomed_beauty_white_flower_1000.jpg",
         alt: "dermomed_beauty_white_flower_1000",
         url1: "./images/shop/gigiena/bath_gels/dermomed_beauty_white_flower_1000-01.jpg",
@@ -326,6 +352,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/dermomed_carezza_mandoria_almond_1000.jpg",
         alt: "dermomed_carezza_mandoria_almond_1000",
         url1: "./images/shop/gigiena/bath_gels/dermomed_carezza_mandoria_almond_1000-01.jpg",
@@ -351,6 +379,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/dermomed_energia_mango_1000.jpg",
         alt: "dermomed_energia_mango_1000",
         url1: "./images/shop/gigiena/bath_gels/dermomed_energia_mango_1000-01.jpg",
@@ -376,6 +406,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/dermomed_relax_iris_1000.jpg",
         alt: "dermomed_relax_iris_1000",
         url1: "./images/shop/gigiena/bath_gels/dermomed_relax_iris_1000-01.jpg",
@@ -401,6 +433,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/dermomed_vitalita_lime_1000.jpg",
         alt: "dermomed_vitalita_lime_1000",
         url1: "./images/shop/gigiena/bath_gels/dermomed_vitalita_lime_1000-01.jpg",
@@ -426,6 +460,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/dermomed_sensualita_argan_1000.jpg",
         alt: "dermomed_sensualita_argan_1000",
         url1: "./images/shop/gigiena/bath_gels/dermomed_sensualita_argan_1000-01.jpg",
@@ -451,7 +487,9 @@ export const shopLotsAdultShowerGels = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/nivea_creme_care_500.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/nivea_creme_care_500.jpg",
     //     alt: "nivea_creme_care_500",
     //     url1: "./images/shop/gigiena/bath_gels/nivea_creme_care_500-01.jpg",
     //     alt1: "nivea_creme_care_500-01",
@@ -476,7 +514,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/nivea_diamond_argan_500.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/nivea_diamond_argan_500.jpg",
     //     alt: "nivea_diamond_argan_500",
     //     url1: "./images/shop/gigiena/bath_gels/nivea_diamond_argan_500-01.jpg",
     //     alt1: "nivea_diamond_argan_500-01",
@@ -501,6 +541,8 @@ export const shopLotsAdultShowerGels = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/nivea_orange_500.jpg",
         alt: "nivea_orange_500",
         url1: "./images/shop/gigiena/bath_gels/nivea_orange_500-01.jpg",
@@ -526,6 +568,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/nivea_hawaii_flower_500.jpg",
         alt: "nivea_hawaii_flower_500",
         url1: "./images/shop/gigiena/bath_gels/nivea_hawaii_flower_500-01.jpg",
@@ -551,7 +595,9 @@ export const shopLotsAdultShowerGels = [
     },
     // {
     //   type: "retail",
-    //   url: "./images/shop/gigiena/shampoos/ombia_men_3_in_1.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",  
+    // url: "./images/shop/gigiena/shampoos/ombia_men_3_in_1.jpg",
     //   alt: "ombia_men_3_in_1",
     //   marker: "ATBG005",
     //   brand: "Ombia",
@@ -571,7 +617,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/ombia_pure_nature.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/ombia_pure_nature.jpg",
     //     alt: "ombia_pure_nature",
     //     url1: "./images/shop/gigiena/bath_gels/ombia_pure_nature.jpg",
     //     alt1: "ombia_pure_nature",
@@ -594,7 +642,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/ombia_sensitive_300.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/ombia_sensitive_300.jpg",
     //     alt: "ombia_sensitive_300",
     //     url1: "./images/shop/gigiena/bath_gels/ombia_sensitive_300-01.jpg",
     //     alt1: "ombia_sensitive_300-01",
@@ -619,7 +669,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/ombia_milch_honig_300.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/ombia_milch_honig_300.jpg",
     //     alt: "ombia_milch_honig_300",
     //     url1: "./images/shop/gigiena/bath_gels/ombia_milch_honig_300-01.jpg",
     //     alt1: "ombia_milch_honig_300-01",
@@ -644,7 +696,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/ombia_mild_cremig_300.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/ombia_mild_cremig_300.jpg",
     //     alt: "ombia_mild_cremig_300",
     //     url1: "./images/shop/gigiena/bath_gels/ombia_mild_cremig_300-01.jpg",
     //     alt1: "ombia_mild_cremig_300-01",
@@ -669,7 +723,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/ombia_sensitiv_mild_300.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/ombia_sensitiv_mild_300.jpg",
     //     alt: "ombia_sensitiv_mild_300",
     //     url1: "./images/shop/gigiena/bath_gels/ombia_sensitiv_mild_300-01.jpg",
     //     alt1: "ombia_sensitiv_mild_300-01",
@@ -694,7 +750,9 @@ export const shopLotsAdultShowerGels = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/bath_gels/ombia_soft_seidig_300.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/ombia_soft_seidig_300.jpg",
     //     alt: "ombia_soft_seidig_300",
     //     url1: "./images/shop/gigiena/bath_gels/ombia_soft_seidig_300-01.jpg",
     //     alt1: "ombia_soft_seidig_300-01",
@@ -719,6 +777,8 @@ export const shopLotsAdultShowerGels = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/queray_avena_miel_705.jpg",
         alt: "queray_avena_miel_705",
         url1: "./images/shop/gigiena/bath_gels/queray_avena_miel_705-01.jpg",
@@ -744,6 +804,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/queray_leche_algodon_705.jpg",
         alt: "queray_leche_algodon_705",
         url1: "./images/shop/gigiena/bath_gels/queray_leche_algodon_705-01.jpg",
@@ -769,6 +831,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/queray_narure_705.jpg",
         alt: "queray_narure_705",
         url1: "./images/shop/gigiena/bath_gels/queray_narure_705-01.jpg",
@@ -794,7 +858,9 @@ export const shopLotsAdultShowerGels = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/gigiena/bath_gels/queray_relax_705.jpg",
+    // mainCategory: "hygiene-products",
+    //   subcategory: "shower-gels",    
+    // url: "./images/shop/gigiena/bath_gels/queray_relax_705.jpg",
     //     alt: "queray_relax_705",
     //     url1: "./images/shop/gigiena/bath_gels/queray_relax_705-01.jpg",
     //     alt1: "queray_relax_705-01",
@@ -819,6 +885,8 @@ export const shopLotsAdultShowerGels = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/right_guard_sensual_300.jpg",
         alt: "right_guard_sensual_300",
         url1: "./images/shop/gigiena/bath_gels/right_guard_sensual_300-01.jpg",
@@ -844,6 +912,8 @@ export const shopLotsAdultShowerGels = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+      subcategory: "shower-gels",
         url: "./images/shop/gigiena/bath_gels/right_guard_sport_300.jpg",
         alt: "right_guard_sport_300",
         url1: "./images/shop/gigiena/bath_gels/right_guard_sport_300-01.jpg",

@@ -1,6 +1,8 @@
 export const shopLotsPistachios = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
         alt: "alesto_pistazien_250",
         url1: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -24,6 +26,8 @@ export const shopLotsPistachios = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
         alt: "alesto_pistazien_250",
         url1: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -47,7 +51,9 @@ export const shopLotsPistachios = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/snacks/pistachios/mogyi_pisztacia_60.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/pistachios/mogyi_pisztacia_60.jpg",
     //     alt: "mogyi_pisztacia_60",
     //     marker: "FDPH400",
     //     brand: "Mogyi",

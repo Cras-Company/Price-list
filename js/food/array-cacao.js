@@ -1,6 +1,8 @@
 export const shopLotsCacao = [
   {
     type: "only-wholesale оптом",
+    mainCategory: "foodstuffs",
+    subcategory: "drinks",
     url: "./images/shop/food/drinks/cacao/kruger_mixfix_150.jpg",
     alt: "kruger_mixfix_150",
     marker: "FDCC040",
@@ -22,6 +24,8 @@ export const shopLotsCacao = [
   },
   {
     type: "retail",
+    mainCategory: "foodstuffs",
+    subcategory: "drinks",
     url: "./images/shop/food/drinks/cacao/kruger_mixfix_375.jpg",
     alt: "kruger_mixfix_375",
     url1: "./images/shop/food/drinks/cacao/kruger_mixfix_375-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsCacao = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "foodstuffs",
+    subcategory: "drinks",
     url: "./images/shop/food/drinks/cacao/kruger_mixfix_500.jpg",
     alt: "kruger_mixfix_500",
     url1: "./images/shop/food/drinks/cacao/kruger_mixfix_500-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsCacao = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "foodstuffs",
+    subcategory: "drinks",
     url: "./images/shop/food/drinks/cacao/nesquik_classic_500.jpg",
     alt: "nesquik_classic_500",
     url1: "./images/shop/food/drinks/cacao/nesquik_classic_500-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsCacao = [
   },
   {
     type: "only-wholesale оптом",
+    mainCategory: "foodstuffs",
+    subcategory: "drinks",
     url: "./images/shop/food/drinks/cacao/nesquik_classic_700.jpg",
     alt: "nesquik_classic_700",
     url1: "./images/shop/food/drinks/cacao/nesquik_classic_700.jpg",

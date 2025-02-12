@@ -1,6 +1,8 @@
 export const shopLotsSprats = [
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/evrafish_winter_sprats_170.jpg",
         alt: "evrafish_winter_sprats_170",
         url1: "./images/shop/food/canned_food/sprats/evrafish_winter_sprats_170-01.jpg",
@@ -28,7 +30,9 @@ export const shopLotsSprats = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_160.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_160.jpg",
     //     alt: "king_oscar_szproty_tomato_160",
     //     url1: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_160-01.jpg",
     //     alt1: "king_oscar_szproty_tomato_160-01",
@@ -51,7 +55,9 @@ export const shopLotsSprats = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_omega_160.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_omega_160.jpg",
     //     alt: "king_oscar_szproty_tomato_omega_160",
     //     url1: "./images/shop/food/canned_food/sprats/king_oscar_szproty_tomato_omega_160-01.jpg",
     //     alt1: "king_oscar_szproty_tomato_omega_160-01",
@@ -78,7 +84,9 @@ export const shopLotsSprats = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_oleju_160.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_oleju_160.jpg",
     //     alt: "m&k_szprot_podwedzany_w_oleju_160",
     //     marker: "FDST340",
     //     brand: "M & K",
@@ -99,7 +107,9 @@ export const shopLotsSprats = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_sosie_pomidorowym_160.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_sosie_pomidorowym_160.jpg",
     //     alt: "m&k_szprot_podwedzany_w_sosie_pomidorowym_160",
     //     url1: "./images/shop/food/canned_food/sprats/m&k_szprot_podwedzany_w_sosie_pomidorowym_160-01.jpg",
     //     alt1: "m&k_szprot_podwedzany_w_sosie_pomidorowym_160-01",
@@ -124,6 +134,8 @@ export const shopLotsSprats = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_w_oleju_250.jpg",
         alt: "m&k_szproty_wedzone_w_oleju_250",
         url1: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_w_oleju_250-01.jpg",
@@ -153,6 +165,8 @@ export const shopLotsSprats = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_tomato_250.jpg",
         alt: "m&k_szproty_wedzone_tomato_250",
         url1: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_tomato_250-01.jpg",
@@ -182,6 +196,8 @@ export const shopLotsSprats = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/pirat_winter_sprats_160.jpg",
         alt: "pirat_winter_sprats_160",
         url1: "./images/shop/food/canned_food/sprats/pirat_winter_sprats_160-01.jpg",
@@ -209,6 +225,8 @@ export const shopLotsSprats = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/posejdon_szprot_300.jpg",
         alt: "posejdon_szprot_300",
         url1: "./images/shop/food/canned_food/sprats/posejdon_szprot_300-01.jpg",

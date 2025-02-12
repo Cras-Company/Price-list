@@ -1,7 +1,9 @@
 export const shopLotsSweetSpreads = [
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
     //     alt: "chocofini_krem_shoko_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
     //     alt1: "chocofini_krem_shoko_400",
@@ -24,7 +26,9 @@ export const shopLotsSweetSpreads = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400.jpg",
     //     alt: "chocofini_krem_shoko_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_400-01.jpg",
     //     alt1: "chocofini_krem_shoko_400-01",
@@ -49,7 +53,9 @@ export const shopLotsSweetSpreads = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
     //     alt: "chocofini_krem_shoko_nuts_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
     //     alt1: "chocofini_krem_shoko_nuts_400",
@@ -72,7 +78,9 @@ export const shopLotsSweetSpreads = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400.jpg",
     //     alt: "chocofini_krem_shoko_nuts_400",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/chocofini_krem_shoko_nuts_400-01.jpg",
     //     alt1: "chocofini_krem_shoko_nuts_400-01",
@@ -97,6 +105,8 @@ export const shopLotsSweetSpreads = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_200.jpg",
         alt: "ferrero_nutella_200",
         url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_200.jpg",
@@ -120,6 +130,8 @@ export const shopLotsSweetSpreads = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_350.jpg",
         alt: "ferrero_nutella_350",
         url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_350.jpg",
@@ -143,7 +155,9 @@ export const shopLotsSweetSpreads = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_630.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_630.jpg",
     //     alt: "ferrero_nutella_630",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_630.jpg",
     //     alt1: "ferrero_nutella_630",
@@ -166,6 +180,8 @@ export const shopLotsSweetSpreads = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_350.jpg",
         alt: "ferrero_nutella_350",
         url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_350.jpg",
@@ -189,7 +205,9 @@ export const shopLotsSweetSpreads = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_825.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_825.jpg",
     //     alt: "ferrero_nutella_825",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_825.jpg",
     //     alt1: "ferrero_nutella_825",
@@ -212,7 +230,9 @@ export const shopLotsSweetSpreads = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_1kg.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_1kg.jpg",
     //     alt: "ferrero_nutella_1kg",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_1kg.jpg",
     //     alt1: "ferrero_nutella_1kg",
@@ -235,6 +255,8 @@ export const shopLotsSweetSpreads = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_3kg.jpg",
         alt: "ferrero_nutella_3kg",
         url1: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_3kg-01.jpg",
@@ -266,7 +288,9 @@ export const shopLotsSweetSpreads = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/k-classic_chocremo_750.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/k-classic_chocremo_750.jpg",
     //     alt: "k-classic_chocremo_750",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/k-classic_chocremo_750.jpg",
     //     alt1: "k-classic_chocremo_750",
@@ -289,7 +313,9 @@ export const shopLotsSweetSpreads = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/bread_spreads/sweet_spreads/schokoladen_meister_schoko_duett_750.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "spreads",    
+    // url: "./images/shop/food/bread_spreads/sweet_spreads/schokoladen_meister_schoko_duett_750.jpg",
     //     alt: "schokoladen_meister_schoko_duett_750",
     //     url1: "./images/shop/food/bread_spreads/sweet_spreads/schokoladen_meister_schoko_duett_750.jpg",
     //     alt1: "schokoladen_meister_schoko_duett_750",

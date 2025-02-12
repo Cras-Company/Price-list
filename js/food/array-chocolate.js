@@ -1,6 +1,8 @@
 export const shopLotsChocolate = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/chocolate/fin_care_milk_orzechami_100.jpg",
         alt: "fin_care_milk_orzechami_100",
         url1: "./images/shop/food/sweets/chocolate/fin_care_milk_orzechami_100.jpg",
@@ -24,6 +26,8 @@ export const shopLotsChocolate = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/chocolate/fin_care_dark_nuts_100a.jpg",
         alt: "fin_care_dark_nuts_100a",
         url1: "./images/shop/food/sweets/chocolate/fin_care_dark_nuts_100a.jpg",
@@ -47,6 +51,8 @@ export const shopLotsChocolate = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/chocolate/fin_care_dark_nuts_100.jpg",
         alt: "fin_care_dark_nuts_100",
         url1: "./images/shop/food/sweets/chocolate/fin_care_dark_nuts_100-01.jpg",
@@ -70,6 +76,8 @@ export const shopLotsChocolate = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/chocolate/fin_care_milk_nuts_100.jpg",
         alt: "fin_care_milk_nuts_100",
         url1: "./images/shop/food/sweets/chocolate/fin_care_milk_nuts_100.jpg",

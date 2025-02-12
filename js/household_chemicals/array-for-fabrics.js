@@ -1,6 +1,8 @@
 export const shopLotsForFabrics = [
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_exotic_bloom_500.jpg",
         alt: "lenor_crease_releaser_exotic_bloom_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_exotic_bloom_500-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsForFabrics = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_ruby_jasmine_500.jpg",
         alt: "lenor_crease_releaser_ruby_jasmine_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_ruby_jasmine_500-01.jpg",
@@ -55,6 +59,8 @@ export const shopLotsForFabrics = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_sping_awakening_500.jpg",
         alt: "lenor_crease_releaser_sping_awakening_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_sping_awakening_500-01.jpg",
@@ -82,6 +88,8 @@ export const shopLotsForFabrics = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_summer_breeze_500.jpg",
         alt: "lenor_crease_releaser_summer_breeze_500",
         url1: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_summer_breeze_500-01.jpg",

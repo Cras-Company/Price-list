@@ -1,6 +1,8 @@
 export const shopLotsHairMasks = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_burro_karite_1000.jpg",
         alt: "milmil_crema_rigenerante_burro_karite_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_burro_karite_1000-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_olio_argan_1000.jpg",
         alt: "milmil_crema_rigenerante_olio_argan_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_olio_argan_1000-01.jpg",
@@ -55,6 +59,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_olio_cocco_1000.jpg",
         alt: "milmil_crema_rigenerante_olio_cocco_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_olio_cocco_1000-01.jpg",
@@ -82,6 +88,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_mela_verde_1000.jpg",
         alt: "milmil_crema_rigenerante_mela_verde_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_mela_verde_1000-01.jpg",
@@ -109,6 +117,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_olio_carota_1000.jpg",
         alt: "serical_crema_olio_carota_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_olio_carota_1000-01.jpg",
@@ -134,6 +144,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_al_latte_1000.jpg",
         alt: "serical_crema_al_latte_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_al_latte_1000-01.jpg",
@@ -159,6 +171,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_agli_acidi_delicati_della_frutta_1000.jpg",
         alt: "serical_crema_agli_acidi_delicati_della_frutta_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_agli_acidi_delicati_della_frutta_1000-01.jpg",
@@ -184,6 +198,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_alla_cheratina_keratin_1000.jpg",
         alt: "serical_crema_alla_cheratina_keratin_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_alla_cheratina_keratin_1000-01.jpg",
@@ -209,6 +225,8 @@ export const shopLotsHairMasks = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_midollo_placenta_1000.jpg",
         alt: "serical_crema_midollo_placenta_1000",
         url1: "./images/shop/gigiena/hair_care/hair_masks/serical_crema_midollo_placenta_1000-01.jpg",

@@ -1,6 +1,8 @@
 export const shopLotsTPThreeLayer = [
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "toilet-papers",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_camomile_4.jpg",
     alt: "ooops_classic_camomile_4",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_camomile_4-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsTPThreeLayer = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "toilet-papers",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_sensitive_4.jpg",
     alt: "ooops_classic_sensitive_4",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_classic_sensitive_4-01.jpg",
@@ -55,6 +59,8 @@ export const shopLotsTPThreeLayer = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "toilet-papers",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_everyday_peach_24.jpg",
     alt: "ooops_everyday_peach_24",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_everyday_peach_24-01.jpg",
@@ -82,6 +88,8 @@ export const shopLotsTPThreeLayer = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "toilet-papers",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_lotion_16.jpg",
     alt: "ooops_exellence_lotion_16",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_lotion_16-01.jpg",
@@ -107,6 +115,8 @@ export const shopLotsTPThreeLayer = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "toilet-papers",
     url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_sensitive_16.jpg",
     alt: "ooops_exellence_sensitive_16",
     url1: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_sensitive_16-01.jpg",
@@ -132,7 +142,9 @@ export const shopLotsTPThreeLayer = [
   },
   // {
   //   type: "wholesale оптом",
-  //   url: "./images/shop/gigiena/toilet_paper/three_layer/star_trio_24.jpg",
+  // mainCategory: "hygiene-products",
+    // subcategory: "toilet-papers",  
+  // url: "./images/shop/gigiena/toilet_paper/three_layer/star_trio_24.jpg",
   //   alt: "star_trio_24",
   //   url1: "./images/shop/gigiena/toilet_paper/three_layer/star_trio_24-01.jpg",
   //   alt1: "star_trio_24-01",

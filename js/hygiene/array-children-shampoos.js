@@ -1,6 +1,8 @@
 export const shopLotsChildrenShampoos = [
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_dschungelbande_230.jpg",
     alt: "bubchen_dschungelbande_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_dschungelbande_230-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsChildrenShampoos = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_prinzessin_rosalea_230.jpg",
     alt: "bubchen_prinzessin_rosalea_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_prinzessin_rosalea_230-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsChildrenShampoos = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sanfte_lieblinge_230.jpg",
     alt: "bubchen_sanfte_lieblinge_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sanfte_lieblinge_230-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsChildrenShampoos = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sportsfreund_230.jpg",
     alt: "bubchen_sportsfreund_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_sportsfreund_230-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsChildrenShampoos = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_superdusche_230.jpg",
     alt: "bubchen_superdusche_230",
     url1: "./images/shop/gigiena/hair_care/baby_shampoos/bubchen_superdusche_230-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsChildrenShampoos = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
     alt: "wash_go_micellar_water_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsChildrenShampoos = [
   },
   {
     type: "wholesale оптом",
+    mainCategory: "hygiene-products",
+    subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360.jpg",
     alt: "wash_go_micellar_water_360",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360-01.jpg",

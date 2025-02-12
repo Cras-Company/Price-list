@@ -1,7 +1,9 @@
 export const shopLotsTuna = [
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/tuna/albo_atun_clato_oliva_195.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/tuna/albo_atun_clato_oliva_195.jpg",
     //     alt: "albo_atun_clato_oliva_195",
     //     url1: "./images/shop/food/canned_food/tuna/albo_atun_clato_oliva_195-01.jpg",
     //     alt1: "albo_atun_clato_oliva_195-01",
@@ -26,7 +28,9 @@ export const shopLotsTuna = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/tuna/helcom_tunczyk_z_olejem_roslynnym_170.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/tuna/helcom_tunczyk_z_olejem_roslynnym_170.jpg",
     //     alt: "helcom_tunczyk_z_olejem_roslynnym_170",
     //     url1: "./images/shop/food/canned_food/tuna/helcom_tunczyk_z_olejem_roslynnym_170.jpg",
     //     alt1: "helcom_tunczyk_z_olejem_roslynnym_170",
@@ -49,6 +53,8 @@ export const shopLotsTuna = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/mk_tunczyk_olej_roslin_170.jpg",
         alt: "mk_tunczyk_olej_roslin_170",
         url1: "./images/shop/food/canned_food/tuna/mk_tunczyk_olej_roslin_170-01.jpg",
@@ -74,6 +80,8 @@ export const shopLotsTuna = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/mk_tunczyk_kawalki_wodzie_170.jpg",
         alt: "mk_tunczyk_kawalki_wodzie_170",
         url1: "./images/shop/food/canned_food/tuna/mk_tunczyk_kawalki_wodzie_170-01.jpg",
@@ -99,6 +107,8 @@ export const shopLotsTuna = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/mk_tunczyk_rozdrobniony_170.jpg",
         alt: "mk_tunczyk_rozdrobniony_170",
         url1: "./images/shop/food/canned_food/tuna/mk_tunczyk_rozdrobniony_170-01.jpg",
@@ -124,6 +134,8 @@ export const shopLotsTuna = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_80.jpg",
         alt: "rio_mare_tonno_al_naturale_80",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_80.jpg",
@@ -147,6 +159,8 @@ export const shopLotsTuna = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_240.jpg",
         alt: "rio_mare_tonno_al_naturale_240",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_240-01.jpg",
@@ -170,7 +184,9 @@ export const shopLotsTuna = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_320.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_320.jpg",
     //     alt: "rio_mare_tonno_al_naturale_320",
     //     url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_320.jpg",
     //     alt1: "rio_mare_tonno_al_naturale_320",
@@ -193,7 +209,9 @@ export const shopLotsTuna = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_480.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "conservation",    
+    // url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_480.jpg",
     //     alt: "rio_mare_tonno_al_naturale_480",
     //     url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_480.jpg",
     //     alt1: "rio_mare_tonno_al_naturale_480",
@@ -216,6 +234,8 @@ export const shopLotsTuna = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al'Olio_di_oliva_80.jpg",
         alt: "rio_mare_tonno_al'Olio_di_oliva_80",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al'Olio_di_oliva_80.jpg",
@@ -239,6 +259,8 @@ export const shopLotsTuna = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al'Olio_di_oliva_390.jpg",
         alt: "rio_mare_tonno_al'Olio_di_oliva_390",
         url1: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al'Olio_di_oliva_390-01.jpg",

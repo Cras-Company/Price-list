@@ -1,6 +1,8 @@
 export const shopLotsChildrenDiapers = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_mini_42.jpg",
         alt: "beben_natural_mini_42",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_mini_42-01.jpg",
@@ -30,6 +32,8 @@ export const shopLotsChildrenDiapers = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_mini_68.jpg",
         alt: "beben_natural_mini_68",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_mini_68-01.jpg",
@@ -57,6 +61,8 @@ export const shopLotsChildrenDiapers = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_midi_56.jpg",
         alt: "beben_natural_midi_56",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_midi_56-01.jpg",
@@ -84,6 +90,8 @@ export const shopLotsChildrenDiapers = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_maxi_30.jpg",
         alt: "beben_natural_maxi_30",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_maxi_30-01.jpg",
@@ -111,6 +119,8 @@ export const shopLotsChildrenDiapers = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_maxi_52.jpg",
         alt: "beben_natural_maxi_52",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_maxi_52-01.jpg",
@@ -138,6 +148,8 @@ export const shopLotsChildrenDiapers = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_junior_40.jpg",
         alt: "beben_natural_junior_40",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_junior_40-01.jpg",
@@ -165,6 +177,8 @@ export const shopLotsChildrenDiapers = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_extra_large_40.jpg",
         alt: "beben_natural_extra_large_40",
         url1: "./images/shop/gigiena/for_children/diapers/beben_natural_extra_large_40-01.jpg",

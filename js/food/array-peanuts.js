@@ -1,6 +1,8 @@
 export const shopLotsPeanuts = [
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/alesto_peanuts_roasted_salted_500.jpg",
         alt: "alesto_peanuts_roasted_salted_500",
         url1: "./images/shop/food/snacks/peanuts/alesto_peanuts_roasted_salted_500.jpg",
@@ -24,7 +26,9 @@ export const shopLotsPeanuts = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/snacks/peanuts/ensa_arasidy_100.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/peanuts/ensa_arasidy_100.jpg",
     //     alt: "ensa_arasidy_100",
     //     url1: "./images/shop/food/snacks/peanuts/ensa_arasidy_100.jpg",
     //     alt1: "ensa_arasidy_100",
@@ -47,7 +51,9 @@ export const shopLotsPeanuts = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/snacks/peanuts/mani_king_tostado_sin_piel_120.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "snacks",    
+    // url: "./images/shop/food/snacks/peanuts/mani_king_tostado_sin_piel_120.jpg",
     //     alt: "mani_king_tostado_sin_piel_120",
     //     url1: "./images/shop/food/snacks/peanuts/mani_king_tostado_sin_piel_120-01.jpg",
     //     alt1: "mani_king_tostado_sin_piel_120-01",
@@ -74,6 +80,8 @@ export const shopLotsPeanuts = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_85.jpg",
         alt: "mogyi_peanuts_roasted_salted_85",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_85.jpg",
@@ -97,6 +105,8 @@ export const shopLotsPeanuts = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
         alt: "mogyi_peanuts_roasted_salted_150",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
@@ -120,6 +130,8 @@ export const shopLotsPeanuts = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
         alt: "mogyi_peanuts_roasted_salted_150",
         url1: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
@@ -143,6 +155,8 @@ export const shopLotsPeanuts = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_100.jpg",
         alt: "soltino_roasted_salted_peanuts_100",
         url1: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_100.jpg",
@@ -166,6 +180,8 @@ export const shopLotsPeanuts = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_500.jpg",
         alt: "soltino_roasted_salted_peanuts_500",
         url1: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_500.jpg",

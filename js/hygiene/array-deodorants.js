@@ -1,6 +1,8 @@
 export const shopLotsDeodorants = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/axe_black_deodorant_body_spray_48_fresh_150.jpg",
         alt: "axe_black_deodorant_body_spray_48_fresh_150",
         url1: "./images/shop/gigiena/deo_anti/deodorants/axe_black_deodorant_body_spray_48_fresh_150-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsDeodorants = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/balea_deodorant_sweet_sunshine_50.jpg",
         alt: "balea_deodorant_sweet_sunshine_50",
         url1: "./images/shop/gigiena/deo_anti/deodorants/balea_deodorant_sweet_sunshine_50-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsDeodorants = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/balea_men_sensitive_deodorant_50.jpg",
         alt: "balea_men_sensitive_deodorant_50",
         url1: "./images/shop/gigiena/deo_anti/deodorants/balea_men_sensitive_deodorant_50-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsDeodorants = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/ombia_deodorant_feeling_fresh_50.jpg",
         alt: "ombia_deodorant_feeling_fresh_50",
         url1: "./images/shop/gigiena/deo_anti/deodorants/ombia_deodorant_feeling_fresh_50-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsDeodorants = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/ombia_deodorant_pure_basic_50.jpg",
         alt: "ombia_deodorant_pure_basic_50",
         url1: "./images/shop/gigiena/deo_anti/deodorants/ombia_deodorant_pure_basic_50-01.jpg",

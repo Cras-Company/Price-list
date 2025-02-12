@@ -1,6 +1,8 @@
 export const shopLotsPowerCaps = [
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_color.jpg",
         alt: "ariel_allin1_color",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_color-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_mountain_spring.jpg",
         alt: "ariel_allin1_mountain_spring",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_mountain_spring-01.jpg",
@@ -55,6 +59,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "wholesale",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_color_63.jpg",
         alt: "ariel_allin1_color_63",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_color_63-01.jpg",
@@ -82,6 +88,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "wholesale",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_mountain_spring_63.jpg",
         alt: "ariel_allin1_mountain_spring_63",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_mountain_spring_63-01.jpg",
@@ -109,6 +117,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_mit_starker_fleckentfernung_50.jpg",
         alt: "ariel_mit_starker_fleckentfernung_50",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_mit_starker_fleckentfernung_50-01.jpg",
@@ -134,6 +144,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_pods_frescor_sensaciones_40.jpg",
         alt: "ariel_pods_frescor_sensaciones_40",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_pods_frescor_sensaciones_40-01.jpg",
@@ -163,7 +175,9 @@ export const shopLotsPowerCaps = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/bio_presto_classico_40.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/bio_presto_classico_40.jpg",
     //     alt: "bio_presto_classico_40",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/bio_presto_classico_40-01.jpg",
     //     alt1: "bio_presto_classico_40-01",
@@ -186,7 +200,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/bio_presto_color_40.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/bio_presto_color_40.jpg",
     //     alt: "bio_presto_color_40",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/bio_presto_color_40-01.jpg",
     //     alt1: "bio_presto_color_40-01",
@@ -209,6 +225,8 @@ export const shopLotsPowerCaps = [
     // },
         {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/coccolino_care_cleaning_capsules_black_dark_45.jpg",
         alt: "coccolino_care_cleaning_capsules_black_dark_45",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/coccolino_care_cleaning_capsules_black_dark_45-01.jpg",
@@ -236,6 +254,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/coccolino_care_cleaning_capsules_color_45.jpg",
         alt: "coccolino_care_cleaning_capsules_color_45",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/coccolino_care_cleaning_capsules_color_45-01.jpg",
@@ -263,6 +283,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/denkmit_colorwaschmittel_aktiv_caps_22.jpg",
         alt: "denkmit_colorwaschmittel_aktiv_caps_22",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/denkmit_colorwaschmittel_aktiv_caps_22-01.jpg",
@@ -292,6 +314,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/denkmit_vollwaschmittel_aktiv_caps_22.jpg",
         alt: "denkmit_vollwaschmittel_aktiv_caps_22",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/denkmit_vollwaschmittel_aktiv_caps_22-01.jpg",
@@ -321,7 +345,9 @@ export const shopLotsPowerCaps = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/faity_non_bio_54.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/faity_non_bio_54.jpg",
     //     alt: "faity_non_bio_54",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/faity_non_bio_54-01.jpg",
     //     alt1: "faity_non_bio_54_63-01",
@@ -348,6 +374,8 @@ export const shopLotsPowerCaps = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/fairy_non_bio_61.jpg",
         alt: "fairy_non_bio_61",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/fairy_non_bio_61-01.jpg",
@@ -375,7 +403,9 @@ export const shopLotsPowerCaps = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gain_original_35.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gain_original_35.jpg",
     //     alt: "gain_original_35",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gain_original_35-01.jpg",
     //     alt1: "gain_original_35_63-01",
@@ -400,7 +430,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color.jpg",
     //     alt: "gallus_color",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color-01.jpg",
     //     alt1: "gallus_color_63-01",
@@ -427,7 +459,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal.jpg",
     //     alt: "gallus_universal",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal-01.jpg",
     //     alt1: "gallus_universal_63-01",
@@ -454,7 +488,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "wholesale",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color_18.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color_18.jpg",
     //     alt: "gallus_color_18",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color_18-01.jpg",
     //     alt1: "gallus_color_18_63-01",
@@ -481,6 +517,8 @@ export const shopLotsPowerCaps = [
     // },
     {
         type: "only-wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal_18.jpg",
         alt: "gallus_universal_18",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal_18-01.jpg",
@@ -508,6 +546,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color_30.jpg",
         alt: "gallus_color_30",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_color_30-01.jpg",
@@ -535,6 +575,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal_30.jpg",
         alt: "gallus_universal_30",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/gallus_universal_30-01.jpg",
@@ -562,7 +604,9 @@ export const shopLotsPowerCaps = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/lenor_allin1_pods_38.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/lenor_allin1_pods_38.jpg",
     //     alt: "lenor_allin1_pods_38",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/lenor_allin1_pods_38-01.jpg",
     //     alt1: "lenor_allin1_pods_38-01",
@@ -593,7 +637,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_discs_color_4in1.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_discs_color_4in1.jpg",
     //     alt: "persil_discs_color_4in1_41",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_discs_color_4in1-01.jpg",
     //     alt1: "persil_discs_color_4in1_41-01",
@@ -620,7 +666,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_discs_color_4in1_41.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_discs_color_4in1_41.jpg",
     //     alt: "persil_discs_color_4in1_41",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_discs_color_4in1_41-01.jpg",
     //     alt1: "persil_discs_color_4in1_41-01",
@@ -647,6 +695,8 @@ export const shopLotsPowerCaps = [
     // },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_bio_3_in_1_32.jpg",
         alt: "persil_bio_3_in_1_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_bio_3_in_1_32-01.jpg",
@@ -676,6 +726,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_colour_protect_3_in_1_32.jpg",
         alt: "persil_colour_protect_3_in_1_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_colour_protect_3_in_1_32-01.jpg",
@@ -705,6 +757,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_non_bio_3_in_1_32.jpg",
         alt: "persil_non_bio_3_in_1_32",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/persil_non_bio_3_in_1_32-01.jpg",
@@ -734,6 +788,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color.jpg",
         alt: "power_wash_color_150",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color-01.jpg",
@@ -759,6 +815,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll.jpg",
         alt: "power_wash_voll_150",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll-01.jpg",
@@ -784,6 +842,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "wholesale",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color_150.jpg",
         alt: "power_wash_color_150",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_color_150-01.jpg",
@@ -809,6 +869,8 @@ export const shopLotsPowerCaps = [
     },
     {
         type: "wholesale",
+        mainCategory: "household-chemicals",
+        subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll_150.jpg",
         alt: "power_wash_voll_150",
         url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/power_wash_voll_150-01.jpg",
@@ -834,7 +896,9 @@ export const shopLotsPowerCaps = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/spee_power_caps_color_3in1_18.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/spee_power_caps_color_3in1_18.jpg",
     //     alt: "spee_power_caps_color_3in1_18",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/spee_power_caps_color_3in1_18-01.jpg",
     //     alt1: "spee_power_caps_color_3in1_18-01",
@@ -857,7 +921,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/spee_power_caps_universal_3in1_18.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/spee_power_caps_universal_3in1_18.jpg",
     //     alt: "spee_power_caps_universal_3in1_18",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/spee_power_caps_universal_3in1_18-01.jpg",
     //     alt1: "spee_power_caps_universal_3in1_18-01",
@@ -880,7 +946,9 @@ export const shopLotsPowerCaps = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/household_chemicals/laundry_detergents/power_caps/weisser_riese_color_trio_40.jpg",
+    // mainCategory: "household-chemicals",
+        // subcategory: "detergents",    
+    // url: "./images/shop/household_chemicals/laundry_detergents/power_caps/weisser_riese_color_trio_40.jpg",
     //     alt: "weisser_riese_color_trio_40",
     //     url1: "./images/shop/household_chemicals/laundry_detergents/power_caps/weisser_riese_color_trio_40-01.jpg",
     //     alt1: "weisser_riese_color_trio_40-01",

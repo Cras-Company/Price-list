@@ -1,7 +1,9 @@
 export const shopLotsInstantCoffee = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/drinks/instant_coffee/bellarom_exclusive_200.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/instant_coffee/bellarom_exclusive_200.jpg",
     //     alt: "bellarom_exclusive_200",
     //     url1: "./images/shop/food/drinks/instant_coffee/bellarom_exclusive_200.jpg",
     //     alt1: "bellarom_exclusive_200",
@@ -24,7 +26,9 @@ export const shopLotsInstantCoffee = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_crema_160.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "drinks",    
+    // url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_crema_160.jpg",
     //     alt: "cafe_d`Or_crema_160",
     //     url1: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_crema_160.jpg",
     //     alt1: "cafe_d`Or_crema_160",
@@ -47,6 +51,8 @@ export const shopLotsInstantCoffee = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_gold_200.jpg",
         alt: "cafe_d`Or_gold_200",
         url1: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_gold_200.jpg",
@@ -70,6 +76,8 @@ export const shopLotsInstantCoffee = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_gold_export_200.jpg",
         alt: "cafe_d`Or_gold_export_200",
         url1: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_gold_export_200.jpg",
@@ -93,6 +101,8 @@ export const shopLotsInstantCoffee = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_o_poranku_300.jpg",
         alt: "cafe_d`Or_o_poranku_300",
         url1: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_o_poranku_300.jpg",
@@ -116,6 +126,8 @@ export const shopLotsInstantCoffee = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "drinks",
         url: "./images/shop/food/drinks/instant_coffee/hearts_wiener_melange_1kg.jpg",
         alt: "hearts_wiener_melange_1kg",
         url1: "./images/shop/food/drinks/instant_coffee/hearts_wiener_melange_1kg-01.jpg",

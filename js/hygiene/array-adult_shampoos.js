@@ -1,6 +1,8 @@
 export const shopLotsAdultShampoos = [
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_anti_schuppen_300.jpg",
       alt: "balea_shampoo_anti_schuppen_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_anti_schuppen_300-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_feuchtigkeit_300.jpg",
       alt: "balea_shampoo_feuchtigkeit_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_feuchtigkeit_300-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_intensiv_pflege_300.jpg",
       alt: "balea_shampoo_intensiv_pflege_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_intensiv_pflege_300-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_pure_frische_300.jpg",
       alt: "balea_shampoo_pure_frische_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_pure_frische_300-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_sensitive_300.jpg",
       alt: "balea_shampoo_sensitive_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_sensitive_300-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_volumen_300.jpg",
       alt: "balea_shampoo_volumen_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_volumen_300-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_family_shampoo_fruchte_traum_500.jpg",
       alt: "balea_family_shampoo_fruchte_traum_500",
       url1: "./images/shop/gigiena/hair_care/shampoos/balea_family_shampoo_fruchte_traum_500-01.jpg",
@@ -176,6 +190,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/bath_gels/balea_men_active_carbon_duschgel_300.jpg",
       alt: "balea_men_active_carbon_duschgel_300",
       url1: "./images/shop/gigiena/bath_gels/balea_men_active_carbon_duschgel_300-01.jpg",
@@ -201,6 +217,8 @@ export const shopLotsAdultShampoos = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+      subcategory: "hair-care",
     url: "./images/shop/gigiena/bath_gels/balea_men_sport_duschgel_300.jpg",
     alt: "balea_men_sport_duschgel_300",
     url1: "./images/shop/gigiena/bath_gels/balea_men_sport_duschgel_300-01.jpg",
@@ -226,6 +244,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/cien_provitamin_2in1_300.jpg",
       alt: "cien_provitamin_2in1_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/cien_provitamin_2in1_300-01.jpg",
@@ -251,6 +271,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/cien_shampoo_aufbau_pflege_300.jpg",
       alt: "cien_shampoo_aufbau_pflege_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/cien_shampoo_aufbau_pflege_300-01.jpg",
@@ -276,6 +298,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/cien_shampoo_feuchtig_keit_300.jpg",
       alt: "cien_shampoo_feuchtig_keit_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/cien_shampoo_feuchtig_keit_300-01.jpg",
@@ -301,6 +325,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/cien_shampoo_glanz_volumen_300.jpg",
       alt: "cien_shampoo_glanz_volumen_300",
       url1: "./images/shop/gigiena/hair_care/shampoos/cien_shampoo_glanz_volumen_300-01.jpg",
@@ -326,7 +352,9 @@ export const shopLotsAdultShampoos = [
   },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/elkos_frucht_vitamin_500.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/elkos_frucht_vitamin_500.jpg",
   //   alt: "elkos_frucht_vitamin_500",
   //   url1: "./images/shop/gigiena/hair_care/shampoos/elkos_frucht_vitamin_500-01.jpg",
   //   alt1: "elkos_frucht_vitamin_500-01",
@@ -351,7 +379,9 @@ export const shopLotsAdultShampoos = [
   // },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/elkos_krauter_500.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/elkos_krauter_500.jpg",
   //   alt: "elkos_krauter_500",
   //   url1: "./images/shop/gigiena/hair_care/shampoos/elkos_krauter_500-01.jpg",
   //   alt1: "elkos_krauter_500-01",
@@ -376,6 +406,8 @@ export const shopLotsAdultShampoos = [
   // },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+      subcategory: "hair-care",
     url: "./images/shop/gigiena/hair_care/shampoos/elkos_hopfen_for_man_500.jpg",
     alt: "elkos_hopfen_for_man_500",
     url1: "./images/shop/gigiena/hair_care/shampoos/elkos_hopfen_for_man_500-01.jpg",
@@ -401,7 +433,9 @@ export const shopLotsAdultShampoos = [
   },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/ombia_men_3_in_1.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/ombia_men_3_in_1.jpg",
   //   alt: "ombia_men_3_in_1",
   //   marker: "ASDG001",
   //   brand: "Ombia",
@@ -422,6 +456,8 @@ export const shopLotsAdultShampoos = [
   // },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/bath_gels/right_guard_sport_300.jpg",
       alt: "right_guard_sport_300",
       url1: "./images/shop/gigiena/bath_gels/right_guard_sport_300-01.jpg",
@@ -447,7 +483,9 @@ export const shopLotsAdultShampoos = [
   },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/schauma_for_man_400.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/schauma_for_man_400.jpg",
   //   alt: "schauma_for_man_400",
   //   url1: "./images/shop/gigiena/hair_care/shampoos/schauma_for_man_400-01.jpg",
   //   alt1: "schauma_for_man_400-01",
@@ -472,7 +510,9 @@ export const shopLotsAdultShampoos = [
   // },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/schauma_7_krauter_400.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/schauma_7_krauter_400.jpg",
   //   alt: "schauma_7_krauter_400",
   //   url1: "./images/shop/gigiena/hair_care/shampoos/schauma_7_krauter_400-01.jpg",
   //   alt1: "schauma_7_krauter_400-01",
@@ -495,7 +535,9 @@ export const shopLotsAdultShampoos = [
   // },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/schauma_repair_pflege_400.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/schauma_repair_pflege_400.jpg",
   //   alt: "schauma_repair_pflege_400",
   //   url1: "./images/shop/gigiena/hair_care/shampoos/schauma_repair_pflege_400-01.jpg",
   //   alt1: "schauma_repair_pflege_400-01",
@@ -518,7 +560,9 @@ export const shopLotsAdultShampoos = [
   // },
   // {
   //   type: "retail",
-  //   url: "./images/shop/gigiena/hair_care/shampoos/schauma_fresh_volume_400.jpg",
+  // mainCategory: "hygiene-products",
+    //   subcategory: "hair-care",  
+  // url: "./images/shop/gigiena/hair_care/shampoos/schauma_fresh_volume_400.jpg",
   //   alt: "schauma_fresh_volume_400",
   //   url1: "./images/shop/gigiena/hair_care/shampoos/schauma_fresh_volume_400-01.jpg",
   //   alt1: "schauma_fresh_volume_400-01",
@@ -543,6 +587,8 @@ export const shopLotsAdultShampoos = [
   // },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/schauma_coconut_water_400.jpg",
       alt: "schauma_coconut_water_400",
       url1: "./images/shop/gigiena/hair_care/shampoos/schauma_coconut_water_400-01.jpg",
@@ -568,6 +614,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/schauma_honey_elixir_400.jpg",
       alt: "schauma_honey_elixir_400",
       url1: "./images/shop/gigiena/hair_care/shampoos/schauma_honey_elixir_400-01.jpg",
@@ -593,6 +641,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_200.jpg",
       alt: "wash_go_aloe_200",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_200-01.jpg",
@@ -618,6 +668,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_200.jpg",
       alt: "wash_go_anti_dandruff_200",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_200-01.jpg",
@@ -643,6 +695,8 @@ export const shopLotsAdultShampoos = [
   },
   {
     type: "retail",
+    mainCategory: "hygiene-products",
+      subcategory: "hair-care",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200.jpg",
     alt: "wash_go_herbal_200",
     url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200-01.jpg",
@@ -668,6 +722,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "retail",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
       alt: "wash_go_micellar_water_200",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200-01.jpg",
@@ -693,6 +749,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_360.jpg",
       alt: "wash_go_aloe_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_aloe_360-01.jpg",
@@ -718,6 +776,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_360.jpg",
       alt: "wash_go_anti_dandruff_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_360-01.jpg",
@@ -743,6 +803,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_oats_360.jpg",
       alt: "wash_go_anti_dandruff_oats_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_anti_dandruff_oats_360-01.jpg",
@@ -768,6 +830,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_nettle_360.jpg",
       alt: "wash_go_nettle_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_nettle_360-01.jpg",
@@ -793,6 +857,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_menthol_men_360.jpg",
       alt: "wash_go_menthol_men_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_menthol_men_360-01.jpg",
@@ -818,6 +884,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
       alt: "wash_go_micellar_water_200",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200-01.jpg",
@@ -843,6 +911,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_honey_extract_360.jpg",
       alt: "wash_go_honey_extract_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_honey_extract_360-01.jpg",
@@ -868,6 +938,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_jasmine_extract_360.jpg",
       alt: "wash_go_jasmine_extract_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_jasmine_extract_360-01.jpg",
@@ -893,6 +965,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360.jpg",
       alt: "wash_go_micellar_water_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360-01.jpg",
@@ -918,6 +992,8 @@ export const shopLotsAdultShampoos = [
   },
   {
       type: "wholesale оптом",
+      mainCategory: "hygiene-products",
+      subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/wash_go_pomegranate_extract_360.jpg",
       alt: "wash_go_pomegranate_extract_360",
       url1: "./images/shop/gigiena/hair_care/shampoos/wash_go_pomegranate_extract_360-01.jpg",

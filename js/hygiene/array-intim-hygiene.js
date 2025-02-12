@@ -1,6 +1,8 @@
 export const shopLotsIntimHygiene = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_calendula_rica_250.jpg",
         alt: "dermomed_intime_wash_calendula_rica_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_calendula_rica_250-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsIntimHygiene = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_rica_250.jpg",
         alt: "dermomed_intime_wash_fiordaliso_rica_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_rica_250-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsIntimHygiene = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_rica_250.jpg",
         alt: "dermomed_intime_wash_lichene_rica_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_rica_250-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsIntimHygiene = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_250.jpg",
         alt: "dermomed_intime_wash_fiordaliso_250",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_250-01.jpg",
@@ -101,7 +109,9 @@ export const shopLotsIntimHygiene = [
     },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_250.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "feminine-hygiene",    
+    // url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_250.jpg",
     //     alt: "dermomed_intime_wash_lichene_250",
     //     url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_250-01.jpg",
     //     alt1: "dermomed_intime_wash_lichene_250-01",
@@ -126,6 +136,8 @@ export const shopLotsIntimHygiene = [
     // },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200.jpg",
         alt: "lactacyd_classic_zilnica_200",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200-01.jpg",
@@ -159,6 +171,8 @@ export const shopLotsIntimHygiene = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_sensitive_200.jpg",
         alt: "lactacyd_sensitive_200",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_sensitive_200-01.jpg",
@@ -192,6 +206,8 @@ export const shopLotsIntimHygiene = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_soothing_calmanta_200.jpg",
         alt: "lactacyd_soothing_calmanta_200",
         url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_soothing_calmanta_200-01.jpg",
@@ -225,7 +241,9 @@ export const shopLotsIntimHygiene = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "feminine-hygiene",    
+    // url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200.jpg",
     //     alt: "lactacyd_classic_zilnica_200",
     //     url1: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200-01.jpg",
     //     alt1: "lactacyd_classic_zilnica_200-01",

@@ -1,6 +1,8 @@
 export const shopLotsAntiSmells = [
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_kuhlschrank_frische_40.jpg",
         alt: "denkmit_kuhlschrank_frische_40",
         url1: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_kuhlschrank_frische_40-01.jpg",
@@ -28,6 +30,8 @@ export const shopLotsAntiSmells = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/irge_assorbiodori_per_frigorifero_60.jpg",
         alt: "irge_assorbiodori_per_frigorifero_60",
         url1: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/irge_assorbiodori_per_frigorifero_60-01.jpg",
@@ -53,6 +57,8 @@ export const shopLotsAntiSmells = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/irge_assorbiodori_deodorante_per_frigorifero_35.jpg",
         alt: "irge_assorbiodori_deodorante_per_frigorifero_35",
         url1: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/irge_assorbiodori_deodorante_per_frigorifero_35-01.jpg",
@@ -78,6 +84,8 @@ export const shopLotsAntiSmells = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_carboni_attive_di_bamboo_400.jpg",
         alt: "irge_deumidificatore_carboni_attive_di_bamboo_400",
         url1: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_carboni_attive_di_bamboo_400-01.jpg",
@@ -105,6 +113,8 @@ export const shopLotsAntiSmells = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_inodore_400.jpg",
         alt: "irge_deumidificatore_inodore_400",
         url1: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_inodore_400-01.jpg",
@@ -132,6 +142,8 @@ export const shopLotsAntiSmells = [
     },
     {
         type: "retail",
+        mainCategory: "household-chemicals",
+        subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_vaniglia_400.jpg",
         alt: "irge_deumidificatore_vaniglia_400",
         url1: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_vaniglia_400-01.jpg",

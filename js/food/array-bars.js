@@ -1,6 +1,8 @@
 export const shopLotsBars = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_22.jpg",
         alt: "ferrero_nutella_b_ready_22",
         url1: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_22.jpg",
@@ -24,6 +26,8 @@ export const shopLotsBars = [
     },    
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_44.jpg",
         alt: "ferrero_nutella_b_ready_44",
         url1: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_44.jpg",
@@ -47,6 +51,8 @@ export const shopLotsBars = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_132.jpg",
         alt: "ferrero_nutella_b_ready_132",
         url1: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_132-01.jpg",
@@ -74,6 +80,8 @@ export const shopLotsBars = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_10.jpg",
         alt: "ferrero_nutella_b_ready_10",
         url1: "./images/shop/food/sweets/bars/ferrero_nutella_b_ready_10.jpg",
@@ -97,6 +105,8 @@ export const shopLotsBars = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/bars/pottyos_turo_rudi_30.jpg",
         alt: "pottyos_turo_rudi_30",
         url1: "./images/shop/food/sweets/bars/pottyos_turo_rudi_30.jpg",
@@ -120,6 +130,8 @@ export const shopLotsBars = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "sweets",
         url: "./images/shop/food/sweets/bars/pottyos_turo_rudi_180.jpg",
         alt: "pottyos_turo_rudi_180",
         url1: "./images/shop/food/sweets/bars/pottyos_turo_rudi_180.jpg",

@@ -1,7 +1,9 @@
 export const shopLotsOlives = [
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/olives/baresa_czarne_oliwki_bez_340.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olives/baresa_czarne_oliwki_bez_340.jpg",
     //     alt: "baresa_czarne_oliwki_bez_340",
     //     url1: "./images/shop/food/olives_oil/olives/baresa_czarne_oliwki_bez_340.jpg",
     //     alt1: "baresa_czarne_oliwki_bez_340",
@@ -24,7 +26,9 @@ export const shopLotsOlives = [
     // },
     // {
     //     type: "wholesale оптом",
-    //     url: "./images/shop/food/olives_oil/olives/baresa_zielone_oliwki_bez_340.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olives/baresa_zielone_oliwki_bez_340.jpg",
     //     alt: "baresa_zielone_oliwki_bez_340",
     //     url1: "./images/shop/food/olives_oil/olives/baresa_zielone_oliwki_bez_340.jpg",
     //     alt1: "baresa_zielone_oliwki_bez_340",
@@ -47,7 +51,9 @@ export const shopLotsOlives = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/food/olives_oil/olives/corbi_green_big_700.jpg",
+    // mainCategory: "foodstuffs",
+        // subcategory: "olives-oils",    
+    // url: "./images/shop/food/olives_oil/olives/corbi_green_big_700.jpg",
     //     alt: "corbi_green_big_700",
     //     url1: "./images/shop/food/olives_oil/olives/corbi_green_big_700.jpg",
     //     alt1: "corbi_green_big_700",
@@ -70,6 +76,8 @@ export const shopLotsOlives = [
     // },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/el_toro_rojo_ oliwki_czarne_340.jpg",
         alt: "el_toro_rojo_ oliwki_czarne_340",
         url1: "./images/shop/food/olives_oil/olives/el_toro_rojo_ oliwki_czarne_340.jpg",
@@ -93,6 +101,8 @@ export const shopLotsOlives = [
     },
     {
         type: "retail",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/el_toro_rojo_ oliwki_zielone_340.jpg",
         alt: "el_toro_rojo_ oliwki_zielone_340",
         url1: "./images/shop/food/olives_oil/olives/el_toro_rojo_ oliwki_zielone_340.jpg",
@@ -116,6 +126,8 @@ export const shopLotsOlives = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/helcom_oliwli_czarne_330.jpg",
         alt: "helcom_oliwli_czarne_330",
         url1: "./images/shop/food/olives_oil/olives/helcom_oliwli_czarne_330-01.jpg",
@@ -143,6 +155,8 @@ export const shopLotsOlives = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/helcom_oliwli_zielone_330.jpg",
         alt: "helcom_oliwli_zielone_330",
         url1: "./images/shop/food/olives_oil/olives/helcom_oliwli_zielone_330-01.jpg",
@@ -170,6 +184,8 @@ export const shopLotsOlives = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_350.jpg",
         alt: "hutesa_olives_pitted_black_350",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_350-01.jpg",
@@ -197,6 +213,8 @@ export const shopLotsOlives = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_350.jpg",
         alt: "hutesa_olives_pitted_green_350",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_350-01.jpg",
@@ -224,6 +242,8 @@ export const shopLotsOlives = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_900.jpg",
         alt: "hutesa_olives_pitted_black_900",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_900-01.jpg",
@@ -251,6 +271,8 @@ export const shopLotsOlives = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_900.jpg",
         alt: "hutesa_olives_pitted_green_900",
         url1: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_900-01.jpg",

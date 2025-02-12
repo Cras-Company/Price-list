@@ -1,6 +1,8 @@
 export const shopLotsHairConditioners = [
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/balea_spulung_farbglanz_300.jpg",
         alt: "balea_spulung_farbglanz_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/balea_spulung_farbglanz_300-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/balea_spulung_intensiv_pflege_300.jpg",
         alt: "balea_spulung_intensiv_pflege_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/balea_spulung_intensiv_pflege_300-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/balea_spulung_seidenglanz_300.jpg",
         alt: "balea_spulung_seidenglanz_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/balea_spulung_seidenglanz_300-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/cien_conditioner_volume_style_300.jpg",
         alt: "cien_conditioner_volume_style_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/cien_conditioner_volume_style_300-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/cien_spulung_aufbau_pflege_300.jpg",
         alt: "cien_spulung_aufbau_pflege_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/cien_spulung_aufbau_pflege_300-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/cien_spulung_feuchtig_keit_300.jpg",
         alt: "cien_spulung_feuchtig_keit_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/cien_spulung_feuchtig_keit_300-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_conditioners/cien_glanz_volumen_300.jpg",
         alt: "cien_glanz_volumen_300",
         url1: "./images/shop/gigiena/hair_care/hair_conditioners/cien_glanz_volumen_300-01.jpg",
@@ -176,6 +190,8 @@ export const shopLotsHairConditioners = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/shampoos/cien_provitamin_2in1_300.jpg",
         alt: "cien_provitamin_2in1_300",
         url1: "./images/shop/gigiena/hair_care/shampoos/cien_provitamin_2in1_300-01.jpg",

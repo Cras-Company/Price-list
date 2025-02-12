@@ -1,6 +1,8 @@
 export const shopLotsWetWipes = [
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_bodrum_mandarin_120.jpg",
         alt: "babybella_wet_wipes_bodrum_mandarin_120",
         url1: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_bodrum_mandarin_120-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsWetWipes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_green_apple_120.jpg",
         alt: "babybella_wet_wipes_green_apple_120",
         url1: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_green_apple_120-01.jpg",
@@ -51,6 +55,8 @@ export const shopLotsWetWipes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_sensitive_120.jpg",
         alt: "babybella_wet_wipes_sensitive_120",
         url1: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_sensitive_120-01.jpg",
@@ -76,6 +82,8 @@ export const shopLotsWetWipes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_premium_wet_wipes_ultra_soft_120.jpg",
         alt: "babybella_premium_wet_wipes_ultra_soft_120",
         url1: "./images/shop/gigiena/wipes/wet_wipes/babybella_premium_wet_wipes_ultra_soft_120-01.jpg",
@@ -101,6 +109,8 @@ export const shopLotsWetWipes = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_wild_strawberry_120.jpg",
         alt: "babybella_wet_wipes_wild_strawberry_120",
         url1: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_wild_strawberry_120-01.jpg",

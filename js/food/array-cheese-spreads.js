@@ -1,6 +1,8 @@
 export const shopLotsCheeseSpreads = [
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
         alt: "milbona_cream_cheese_classic_300",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/milbona_cream_cheese_classic_300.jpg",
@@ -24,6 +26,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_meksykanski_smak_135.jpg",
         alt: "mlekpol_meksykanski_smak_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_meksykanski_smak_135.jpg",
@@ -47,6 +51,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_naruralny_135.jpg",
         alt: "mlekpol_naruralny_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_naruralny_135.jpg",
@@ -70,6 +76,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_cebula_i_szczypiorkiem_135.jpg",
         alt: "mlekpol_z_cebula_i_szczypiorkiem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_cebula_i_szczypiorkiem_135.jpg",
@@ -93,6 +101,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_chrzanem_135.jpg",
         alt: "mlekpol_z_chrzanem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_chrzanem_135.jpg",
@@ -116,6 +126,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_czosnkiem_135.jpg",
         alt: "mlekpol_z_czosnkiem_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_czosnkiem_135.jpg",
@@ -139,6 +151,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_kurkami_135.jpg",
         alt: "mlekpol_z_kurkami_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_kurkami_135.jpg",
@@ -162,6 +176,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_suszonymi_pomidorami_135.jpg",
         alt: "mlekpol_z_suszonymi_pomidorami_135",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_z_suszonymi_pomidorami_135.jpg",
@@ -185,6 +201,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_norweski_smak_150.jpg",
         alt: "mlekpol_norweski_smak_150",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_norweski_smak_150.jpg",
@@ -208,6 +226,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_serek_1kg.jpg",
         alt: "mlekpol_serek_1kg",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/mlekpol_serek_1kg-01.jpg",
@@ -235,6 +255,8 @@ export const shopLotsCheeseSpreads = [
     },
     {
         type: "only-wholesale оптом",
+        mainCategory: "foodstuffs",
+        subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/cheese_spreads/sovia_queso_natural_300.jpg",
         alt: "sovia_queso_natural_300",
         url1: "./images/shop/food/bread_spreads/cheese_spreads/sovia_queso_natural_300.jpg",

@@ -1,6 +1,8 @@
 export const shopLotsSolidSoap = [
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_care_soap_pure_natural_350.jpg",
         alt: "elsa_beauty_care_soap_pure_natural_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_care_soap_pure_natural_350-01.jpg",
@@ -26,6 +28,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "retail",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_classic_125.jpg",
         alt: "elsa_beauty_soap_classic_125",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_classic_125-01.jpg",
@@ -51,7 +55,9 @@ export const shopLotsSolidSoap = [
     },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "soap",    
+    // url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125.jpg",
     //     alt: "elsa_beauty_soap_muguet_125",
     //     url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_muguet_125-01.jpg",
     //     alt1: "elsa_beauty_soap_muguet_125-01",
@@ -76,7 +82,9 @@ export const shopLotsSolidSoap = [
     // },
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "soap",    
+    // url: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125.jpg",
     //     alt: "elsa_beauty_soap_rose_125",
     //     url1: "./images/shop/gigiena/soap/solid_soap/elsa_beauty_soap_rose_125-01.jpg",
     //     alt1: "elsa_beauty_soap_rose_125-01",
@@ -101,6 +109,8 @@ export const shopLotsSolidSoap = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_apple_350.jpg",
         alt: "elsa_creamy_beauty_soap_apple_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_apple_350-01.jpg",
@@ -126,6 +136,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_lemon_350.jpg",
         alt: "elsa_creamy_beauty_soap_lemon_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_lemon_350-01.jpg",
@@ -151,6 +163,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_rose_350.jpg",
         alt: "elsa_creamy_beauty_soap_rose_350",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_creamy_beauty_soap_rose_350-01.jpg",
@@ -176,6 +190,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_coconut_100.jpg",
         alt: "elsa_bath_soap_coconut_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_coconut_100-01.jpg",
@@ -201,6 +217,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_honey_100.jpg",
         alt: "elsa_bath_soap_honey_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_honey_100-01.jpg",
@@ -226,6 +244,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_olive_100.jpg",
         alt: "elsa_bath_soap_olive_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_olive_100-01.jpg",
@@ -251,6 +271,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_rose_100.jpg",
         alt: "elsa_bath_soap_rose_100",
         url1: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_rose_100-01.jpg",
@@ -276,6 +298,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_extra_cream_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_extra_cream_90-01.jpg",
@@ -301,6 +325,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_lux_pearl_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_lux_pearl_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_lux_pearl_90-01.jpg",
@@ -326,6 +352,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_olive_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_olive_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_olive_90-01.jpg",
@@ -351,6 +379,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_orange_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_orange_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_orange_90-01.jpg",
@@ -376,6 +406,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_strawberry_90.jpg",
         alt: "gallus_creme_seife_beauty_soap_strawberry_90",
         url1: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_strawberry_90-01.jpg",
@@ -401,6 +433,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_mirra_125.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_mirra_125",
         url1: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_mirra_125-01.jpg",
@@ -426,6 +460,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_muschio_bianco_125.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_muschio_bianco_125",
         url1: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_muschio_bianco_125-01.jpg",
@@ -451,6 +487,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_hammam_125.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_hammam_125",
         url1: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_hammam_125-01.jpg",
@@ -476,6 +514,8 @@ export const shopLotsSolidSoap = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_orchidea_imperiale_125.jpg",
         alt: "tesori_d_oriente_sapone_aromatico_orchidea_imperiale_125",
         url1: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_orchidea_imperiale_125-01.jpg",

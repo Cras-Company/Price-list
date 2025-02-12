@@ -1,7 +1,9 @@
 export const shopLotsToothpastesNoFluoride = [
     // {
     //     type: "retail",
-    //     url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_60.jpg",
+    // mainCategory: "hygiene-products",
+        // subcategory: "shining-smile",    
+    // url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_60.jpg",
     //     alt: "dabur_babool_60",
     //     url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_60-01.jpg",
     //     alt1: "dabur_babool_60-01",
@@ -28,6 +30,8 @@ export const shopLotsToothpastesNoFluoride = [
     // },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_90.jpg",
         alt: "dabur_babool_90",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_babool_90-01.jpg",
@@ -55,6 +59,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_100.jpg",
         alt: "dabur_herbl_basil_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_100-01.jpg",
@@ -82,6 +88,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_100.jpg",
         alt: "dabur_herbl_clove_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_100-01.jpg",
@@ -109,6 +117,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_100.jpg",
         alt: "dabur_herbl_neem_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_100-01.jpg",
@@ -136,6 +146,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_100.jpg",
         alt: "dabur_herbl_mint_lemon_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_100-01.jpg",
@@ -163,6 +175,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_100.jpg",
         alt: "dabur_herbl_salt_lemon_100",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_100-01.jpg",
@@ -190,6 +204,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_150.jpg",
         alt: "dabur_herbl_basil_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_basil_150-01.jpg",
@@ -217,6 +233,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_150.jpg",
         alt: "dabur_herbl_clove_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_150-01.jpg",
@@ -244,6 +262,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_150.jpg",
         alt: "dabur_herbl_neem_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_150-01.jpg",
@@ -271,6 +291,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_150.jpg",
         alt: "dabur_herbl_mint_lemon_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_150-01.jpg",
@@ -298,6 +320,8 @@ export const shopLotsToothpastesNoFluoride = [
     },
     {
         type: "wholesale оптом",
+        mainCategory: "hygiene-products",
+        subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_150.jpg",
         alt: "dabur_herbl_salt_lemon_150",
         url1: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_salt_lemon_150-01.jpg",
