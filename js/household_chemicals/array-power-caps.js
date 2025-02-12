@@ -219,7 +219,7 @@ export const shopLotsPowerCaps = [
         alt3: "coccolino_care_cleaning_capsules_color_45-03",
         marker: "LDPC100",
         brand: "Coccolino",
-        search: "коколино кокколино коколіно кокколіно капсула капсулы для прання стирки черных вещей черного черный чорний чорні речі черные вещи",
+        search: "коколино кокколино коколіно кокколіно капсула капсулы для прання чорного стирки черных вещей черного черный чорний чорні речі черные вещи",
         nameUKR: "Пральні капсули для чорних та темних речей",
         nameEN: "Care Cleaning Capsules Black & Dark 3 in 1",
         companyName: "Unilever",
