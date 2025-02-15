@@ -1,6 +1,6 @@
 export const shopLotsMustard = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/mustard/madero_dijon_original_270.jpg",
@@ -16,8 +16,8 @@ export const shopLotsMustard = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "270 гр.",
-        priceGRN: 70,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 110,
         description01: "&#171Madero - Musztarda Dijon&#187 - це витончений дарунок для тих, хто цінує якість та смак у кожному приготуванні. Ця гірчиця без глютену розкриває справжній смак, додаючи неповторну пікантність та аромат вашим стравам.",
         description02: "Це синтез класичної рецептури та високоякісних інгредієнтів. Гладка текстура та насичений смак гірчиці створять ідеальний баланс для ваших улюблених страв.",
         description03: "&#171Madero - Musztarda Dijon&#187 - ідеальне рішення для людей з певними дієтичними обмеженнями, які не хочуть компромітувати смак.",
@@ -25,7 +25,7 @@ export const shopLotsMustard = [
         description05: "Запрошуємо Вас відкрити для себе світ гірчиці &#171Madero - Musztarda Dijon&#187, яка відзначається вишуканістю та смаковим багатством!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",      
         url: "./images/shop/food/taste_modifier/mustard/madero_francuska_270.jpg",
@@ -41,8 +41,8 @@ export const shopLotsMustard = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "270 гр.",
-        priceGRN: 70,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 110,
         description01: "&#171Madero - Musztarda Francuska&#187 - справжній епіцентр неперевершеного смаку та вишуканості. Ця гірчиця без глютену розкриває перед Вами багатий аромат та характер класичної французької гірчиці, зберігаючи всі традиційні якості цього чудового продукту.",
         description02: "Вражає не тільки своїм вишуканим смаком, але й гладкістю консистенції. Тонка пікантність робить її ідеальним доповненням до різноманітних страв.",
         description03: "Щоб задовольнити потреби сучасного споживача, &#171Madero - Musztarda Francuska&#187 пропонує гірчицю без глютену, що особливо актуально для тих, хто дотримується специфічних дієтичних обмежень.",
