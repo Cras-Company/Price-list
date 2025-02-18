@@ -8,9 +8,17 @@ import {
 
 import { restoreIcons, lotBasketHandler, restoreStoregeIcons } from './basket.js';
 
-import { refs, onOpenModal } from './modal-index.js';
+import { refs, onOpenModal, onCloseModal } from './modal.js';
 
-import { lazyLoadImagesAnimation, jumpSearch, iconsDescriptionAnimation } from './supporting_functions.js'
+import {
+  loadMoreButton,
+  resetMarkup,
+  loadItems,
+  hideAllSectionsAndProducts,
+  lazyLoadImagesAnimation,
+  jumpOnMainPage,
+  iconsDescriptionAnimation
+} from './supporting_functions.js'
 
 // Новинки
 import { shopLotsNewItems } from "./array-new-items.js";
@@ -248,11 +256,8 @@ const shopListBathBombs = document.querySelector(".js-cras__list--bath-bombs");
 // ===========================================================================
 
 // Форма поиска
-const inputSearchMobile = document.querySelector("#search-mobile");
-const filterFormMobile = document.querySelector(".js-filter__form-mobile");
-
 const inputSearch = document.querySelector("#search");
-const filterForm = document.querySelector(".js-filter__form");
+const searchForm = document.querySelector(".js-search__form");
 
 // Новинки
 const SectionAllNewItems = document.querySelector(".js-section-all-new-items");
@@ -425,7 +430,7 @@ const outputError = document.querySelector(".js-output-error");
 // Массив товаров
 // ===========================================================================
 
-const arrayOfProducts = [
+export const arrayOfProducts = [
   { element: shopListNewItems, items: shopLotsNewItems, block: BlockNewItems, dataTarget: "new-items" },
 
   { element: shopListSale, items: shopLotsSale, block: BlockSale, dataTarget: "sale" },
@@ -545,123 +550,16 @@ const arrayOfProducts = [
 
 // lazyLoadImagesAnimation();
 
-const initialLoadCount = 1;
-const loadCountOnScroll = 5;
-let itemsLoaded = 0;
-let isFirstLoad = true;
-
-function loadItems() {
-  const countToLoad = isFirstLoad ? initialLoadCount : loadCountOnScroll;
-  const visibleItems = arrayOfProducts.slice(itemsLoaded, itemsLoaded + countToLoad);
-
-  visibleItems.forEach(({ element, items, block }) => {
-    element.style.display = "flex";
-
-    const section = element.closest(".js-section-none");
-
-    if (section) {
-      section.style.display = "block";
-    }
-
-    if (block) {
-      block.style.display = "block";
-      element.innerHTML = createMobileListItemsMarkup(items);
-      lazyLoadImagesAnimation();
-    }
-  });
-
-  itemsLoaded += countToLoad;
-  isFirstLoad = false;
-}
-
 hideAllSectionsAndProducts();
 loadItems();
-
-function handleScroll() {
-  const contentHeight = document.documentElement.scrollHeight;
-  const scrollPosition = window.scrollY + window.innerHeight;
-
-  if (scrollPosition >= contentHeight - 500) {
-    loadItems();
-  }
-  restoreIcons();
-}
-
-window.addEventListener('scroll', handleScroll);
-
-// ===========================================================================
-// Анимация иконок в разделе товаров
-// ===========================================================================
-const filterMenus = document.querySelectorAll(".js-filter__menu");
-const filterSecondaryMenus = document.querySelectorAll(".js-filter__secondary-menu");
-
-const filterLists = document.querySelectorAll(".js-filter__list");
-const filterSecondaryLists = document.querySelectorAll(".js-filter__secondary-list");
-
-const filterIconsOpen = document.querySelectorAll(".js-filter__icon-open");
-const filterIconsClose = document.querySelectorAll(".js-filter__icon-close");
-
-const filterSecondaryIconsOpen = document.querySelectorAll(".js-filter__secondary-icon-open");
-const filterSecondaryIconsClose = document.querySelectorAll(".js-filter__secondary-icon-close");
-
-const filterIconHandler = (menuIndex) => {
-  const iconClose = filterIconsClose[menuIndex];
-  const iconOpen = filterIconsOpen[menuIndex];
-  const list = filterLists[menuIndex];
-
-  iconClose.classList.toggle("js-icon-close");
-  iconOpen.classList.toggle("js-icon-open");
-  list.classList.toggle("js-filter-list-open");
-};
-
-const filterSecondaryIconHandler = (menuIndex) => {
-  const secondaryIconClose = filterSecondaryIconsClose[menuIndex];
-  const secondaryIconOpen = filterSecondaryIconsOpen[menuIndex];
-  const secondaryList = filterSecondaryLists[menuIndex];
-
-  secondaryIconClose.classList.toggle("js-icon-close");
-  secondaryIconOpen.classList.toggle("js-icon-open");
-  secondaryList.classList.toggle("js-filter-list-open");
-};
-
-filterMenus.forEach((menu, index) => {
-  menu.addEventListener("click", (event) => {
-    event.stopPropagation();
-    filterIconHandler(index);
-  });
-});
-
-filterSecondaryMenus.forEach((menu, index) => {
-  menu.addEventListener("click", (event) => {
-    event.stopPropagation();
-    filterSecondaryIconHandler(index);
-  });
-});
-
-// ===========================================================================
-// Сброс разметки
-// ===========================================================================
-
-function resetMarkup() {
-  arrayOfProducts.forEach(product => {
-    product.element.style.display = "block";
-    product.block.style.display = "block";
-  });
-
-  JSSectionOne.forEach(section => {
-    section.style.display = "block";
-  });
-}
 
 // ===========================================================================
 // Поиск в фильтре
 // ===========================================================================
 
-inputSearchMobile.value = "";
 inputSearch.value = "";
 
-filterFormMobile.addEventListener("submit", handleFormSubmit);
-filterForm.addEventListener("submit", handleFormSubmit);
+searchForm.addEventListener("submit", handleFormSubmit);
 
 function universalSearch(items, searchItem) {
   const searchWords = searchItem.split(" ").filter(word => word.trim() !== "");
@@ -689,18 +587,19 @@ function handleFormSubmit(event) {
 
   event.preventDefault();
 
-  const searchItem = event.target === filterForm ? inputSearch.value.trim().toLowerCase() : inputSearchMobile.value.trim().toLowerCase();
+  const searchItem = event.target === searchForm ? inputSearch.value.trim().toLowerCase() : inputSearchMobile.value.trim().toLowerCase();
 
   resetMarkup();
 
-  if (event.target === filterForm) {
+  loadMoreButton.style.display = 'none';
+
+  if (event.target === searchForm) {
     inputSearch.value = "";
-  } else if (event.target === filterFormMobile) {
-    inputSearchMobile.value = "";
   }
 
   // Новинки
   const filteredNewItems = universalSearch(shopLotsNewItems, searchItem);
+
   // Акция
   const filteredSale = universalSearch(shopLotsSale, searchItem);
 
@@ -933,7 +832,6 @@ function handleFormSubmit(event) {
         outputError.style.marginBottom = "60px";
         JSSectionOne.forEach((section) => {
           section.style.display = "none";
-          window.removeEventListener('scroll', handleScroll);
         });
         return;
     } else {
@@ -1359,7 +1257,6 @@ function handleFormSubmit(event) {
       });
     
     lazyLoadImagesAnimation();
-    window.removeEventListener('scroll', handleScroll);
         
     return;
   }
@@ -1373,284 +1270,9 @@ function handleFormSubmit(event) {
     }
   });
 
-  jumpSearch();
+  jumpOnMainPage();
   lazyLoadImagesAnimation();
   restoreIcons();
-  window.removeEventListener('scroll', handleScroll);
-}
-
-// ===========================================================================
-// Обработчик кликов для фильтров
-// ===========================================================================
-
-function handleFilterClick(filterList, targetType) {
-  filterList.forEach(filterItem => {
-    filterItem.addEventListener('click', function (event) {
-      outputError.textContent = "";
-      outputError.style.marginTop = "0px";
-      outputError.style.marginBottom = "0px";
-
-      const target = event.currentTarget;
-
-      if (target.tagName === "LI") {
-        const dataTarget = target.getAttribute("data-target");
-
-        if (dataTarget) {
-          hideAllSectionsAndProducts();
-
-          arrayOfProducts.forEach(({ element, dataTarget: productDataTarget, block }) => {
-            if (productDataTarget === dataTarget) {
-              element.style.display = "flex";
-
-              const section = element.closest(".js-section-none");
-
-              if (section) {
-                section.style.display = "block";
-              }
-
-              if (block) {
-                block.style.display = "block";
-
-                arrayOfProducts.forEach(product => {
-                  if (productDataTarget === dataTarget) {
-                    product.element.innerHTML = createMobileListItemsMarkup(product.items);
-                  }
-                });
-              }
-            }
-          });
-
-          jumpSearch();
-          restoreIcons();
-          lazyLoadImagesAnimation();
-        }
-      }
-    });
-  });
-}
-
-// ===========================================================================
-// Инициализация обработчиков
-// ===========================================================================
-
-const filterListNewItems = document.querySelectorAll('.filter__menu[data-target="new-items"]');
-const filterListSale = document.querySelectorAll('.filter__menu[data-target="sale"]');
-
-handleFilterClick(filterListNewItems, "new-items");
-handleFilterClick(filterListSale, "sale");
-
-// ===========================================================================
-// Навигация по товарам
-// ===========================================================================
-
-[...filterLists, ...filterSecondaryLists].forEach(list => {
-  list.addEventListener("click", filterClickHandler);
-});
-
-function hideAllSectionsAndProducts() {
-  JSSectionOne.forEach(section => {
-    section.style.display = "none";
-  });
-
-  arrayOfProducts.forEach(product => {
-    product.element.style.display = "none";
-    if (product.block) {
-      product.block.style.display = "none";
-    }
-  });
-
-  window.removeEventListener('scroll', handleScroll);
-}
-
-function filterClickHandler(event) {
-  outputError.textContent = "";
-  outputError.style.marginTop = "0px";
-  outputError.style.marginBottom = "0px";
-  
-  const target = event.target;
-
-  if (target.tagName === "LI") {
-    const dataTarget = target.getAttribute("data-target");
-
-    if (dataTarget) {
-      hideAllSectionsAndProducts();
-
-      arrayOfProducts.forEach(({ element, dataTarget: productDataTarget, block }) => {
-        if (productDataTarget === dataTarget) {
-          element.style.display = "flex";
-
-          const section = element.closest(".js-section-none");
-
-          if (section) {
-            section.style.display = "block";
-          }
-
-          if (block) {
-            block.style.display = "block";
-
-            arrayOfProducts.forEach(product => {
-              if (productDataTarget === dataTarget) {
-                product.element.innerHTML = createMobileListItemsMarkup(product.items);
-              }
-            })
-          }
-        }
-      });
-
-      jumpSearch();
-      lazyLoadImagesAnimation();
-      restoreIcons();
-    }  
-  }
-}
-
-// ===========================================================================
-// Навигация брендам
-// ===========================================================================
-
-// Разметка
-const crasBrands = document.querySelectorAll('.js-cras__list--brends');
-
-const arrayCrasBrands = new Set();
-
-arrayOfProducts.forEach(product => {
-  const brands = product.items.flatMap(item => item.brand);
-  
-  brands.forEach(brand => {
-    arrayCrasBrands.add(brand);
-  });
-});
-
-const arrayCrasBrandsMarkup = [...arrayCrasBrands];
-
-arrayCrasBrandsMarkup.sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'base' }));
-
-function createListCrasBrandsMarkup() {
-    return arrayCrasBrandsMarkup.map(brand => {
-      return `<li>${brand}</li>`;
-    }).join("");
-}
-
-crasBrands.forEach(brandList => {
-  brandList.innerHTML = createListCrasBrandsMarkup();
-  brandList.addEventListener("click", brandClickHandler);
-});
-
-function brandClickHandler(event) {
-  outputError.textContent = "";
-  outputError.style.marginTop = "0px";
-  outputError.style.marginBottom = "0px";
-  
-  const target = event.target;
-
-  if (target.tagName === "LI") {
-    const dataBrand = target.textContent;
-
-    if (dataBrand) {
-      hideAllSectionsAndProducts();
-
-      arrayOfProducts.forEach(({ element, items, block }) => {
-        if (items.some(item => item.brand === dataBrand)) {
-          element.style.display = "flex";
-
-          const section = element.closest(".js-section-none");
-
-          if (section) {
-            section.style.display = "block";
-          }
-
-          if (block) {
-            block.style.display = "block";
-
-            arrayOfProducts.forEach(product => {
-              const foundItems = product.items.filter(item => item.brand === dataBrand);
-              if (foundItems.length > 0) {
-                product.element.innerHTML = createMobileListItemsMarkup(foundItems);
-              }
-            });
-          }
-        }
-      });
-
-      jumpSearch();
-      lazyLoadImagesAnimation();
-      restoreIcons();
-    }
-  }
-}
-
-// ===========================================================================
-// Навигация по странам
-// ===========================================================================
-
-// Разметка
-const producingCountrys = document.querySelectorAll('.js-cras__list--producing-countrys');
-
-const arrayProducingCountrys = new Set();
-
-arrayOfProducts.forEach(product => {
-  const countries = product.items.flatMap(item => item.countryName);
-  
-  countries.forEach(country => {
-    arrayProducingCountrys.add(country);
-  });
-});
-
-const arrayProducingCountrysMarkup = [...arrayProducingCountrys];
-
-arrayProducingCountrysMarkup.sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'base' }));
-
-function createListProducingCountrysMarkup() {
-    return arrayProducingCountrysMarkup.map(country => {
-      return `<li>${country}</li>`;
-    }).join("");
-}
-
-producingCountrys.forEach(countryList => {
-  countryList.innerHTML = createListProducingCountrysMarkup();
-  countryList.addEventListener("click", countryClickHandler);
-});
-
-function countryClickHandler(event) {
-  outputError.textContent = "";
-  outputError.style.marginTop = "0px";
-  outputError.style.marginBottom = "0px";
-  
-  const target = event.target;
-
-  if (target.tagName === "LI") {
-    const dataCountry = target.textContent;
-
-    if (dataCountry) {
-      hideAllSectionsAndProducts();
-
-        arrayOfProducts.forEach(({ element, items, block }) => {
-          if (items.some(item => item.countryName === dataCountry)) {
-            element.style.display = "flex";
-
-            const section = element.closest(".js-section-none");
-            if (section) {
-              section.style.display = "block";
-            }
-
-            if (block) {
-              block.style.display = "block";
-
-              arrayOfProducts.forEach(product => {
-                const foundItems = product.items.filter(item => item.countryName === dataCountry);
-                if (foundItems.length > 0) {
-                  product.element.innerHTML = createMobileListItemsMarkup(foundItems);
-                }
-              });
-            }
-          }
-        });
-
-      jumpSearch();
-      lazyLoadImagesAnimation();
-      restoreIcons();
-    }
-  }
 }
 
 // ===========================================================================
@@ -1781,6 +1403,6 @@ function lotModalOpenHandler(event) {
 
     // Обновляем иконки в модальном окне
     const lotModalElements = document.querySelectorAll(".js-cras-item");
-    restoreStoregeIcons(lotModalElements); // Добавили вызов сюда
+    restoreStoregeIcons(lotModalElements);
   }
 }
