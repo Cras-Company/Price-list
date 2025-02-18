@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Про компанію Крас">
-    <title>Про компанію &#171;Cras&#187;</title>
+    <meta name="description" content="Угода користувача компанії Крас">
+    <title>Угода користувача компанії &#171;Cras&#187;</title>
 
     <meta http-equiv="Cache-Control" content="public, max-age=86400">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./fonts.css" defer>
@@ -23,404 +23,421 @@
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="icon" href="./fav.ico" type="image/x-icon">
-
-    <!-- Код Google -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2494400058059770"
-        crossorigin="anonymous"></script>
-    <meta name="google-site-verification" content="n7DIEGeqF5F1R3JOO_ItHR6tewfpLugpm2hmcR6tq_I">
-
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '844343674090688');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=844343674090688&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
 </head>
-
 
 <body>
 
-<!-- Хедер -->
-    <header class="header">
-
-        <div class="container section section--reset">
-
-            <nav class="nav">
-
-                <button class="mobile-button" type="button" data-modal-mobile-menu-open>
-                    <img aria-label="Перемикач мобільного меню" src="./images/logo.jpg" alt="логотип" width="78" height="78">
-
-                    <span class="logo logo--mobile" lang="en">Cras</span>
-
-                    <span class="point">.</span>
-
-                    <span class="logo logo--head" lang="en">Company</span>
-                </button>
-
-                <ul class="nav__list">
-
-                    <li class="nav__item">
-                    
-                        <a class="nav__link nav__link--padding-logo" href="index.html">
-                    
-                            <img src="./images/logo.jpg" alt="логотип" width="78" height="78">
-                    
-                            <div class="logo--flex">
-                    
-                                <span class="logo">Компанія &#171<span lang="en">Cras</span>&#187</span>
-                    
-                                <span class="logo logo--head">товари з Європи</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- <li class="nav__item">
-                            
-                            <a class="nav__link" href="./profile.html">Мій профіль</a>
-                        </li> -->
-                    
-                    <li class="nav__item">
-                        <a class="nav__link nav__link--active nav__link--padding" href="./about_us.html">Про нас</a>
-                    </li>
-                    
-                    <li class="nav__item">
-                        <a class="nav__link nav__link--padding" href="./payment.html">Оплата і доставка</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a class="nav__link nav__link--padding" href="./license.html">Угода користувача</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
-
-<!-- Модальное окно мобилки -->
-    <div class="backdrop is-hidden" data-modal-mobile-menu>
-
-        <div class="modal modal--mobile-menu">
-
-            <img class="img-modal-mobile" src="./images/logo-bg.png" alt="Логотип" width="125px">
-
+    <!-- Модальное окно мобилки -->
+    <div class="backdrop is-hidden" data-modal-burger-menu>
+    
+        <div class="modal modal--burger modal--burger--secondary">
+    
+            <img class="img-modal" src="./images/logo.png" alt="Логотип" width="100" height="100">
+    
             <button class="modal__button-close" type="button" data-modal-close>
+    
                 <svg width="50" height="50">
-                    <use href="./images/icon/sprite.svg#logoblack"></use>
+    
+                    <use href="./images/icon/sprite.svg#logo-black"></use>
                 </svg>
             </button>
-
-            <ul class="modal__nav-list">
-
-                <li class="modal__nav-item">
-                    <a class="modal__nav-link" href="./index.html">Головна сторінка</a>
-                </li>
-
-                <!-- <li class="nav__item">
-                    
-                                    <a class="nav__link" href="./profile.html">Мій профіль</a>
-                                </li> -->
-
-                <li class="modal__nav-item">
-                    <a class="modal__nav-link modal__nav-link--active" href="./about_us.html">Про нас</a>
-                </li>
-
-                <li class="modal__nav-item">
-                    <a class="modal__nav-link" href="./payment.html">Оплата і доставка</a>
-                </li>
-
-                <li class="modal__nav-item">
-                    <a class="modal__nav-link" href="./license.html">Угода користувача</a>
-                </li>
-            </ul>
+    
+            <div class="modal-secondary-over js-modal--overflow modal-content">
+    
+                <!-- <div class="reg-login__button--burger-menu">
+            
+                            <button class="reg-login__button reg-login__button--burger" type="button" data-btn-register-open="">
+            
+                                <span class="reg-login__button__text">Приєднатися</span>
+                            </button>
+            
+                            <button class="reg-login__button reg-login__button--burger" type="button" data-btn-login-open="">
+            
+                                <span class="reg-login__button__text">Вхід</span>
+                            </button>
+                        </div> -->
+    
+                <ul class="modal__burger-list">
+    
+                    <li class="modal__burger-nav-item">
+    
+                        <a class="modal__burger-nav-link" href="./index.html">
+    
+                            <svg class="burger__icon" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#home-page"></use>
+                            </svg>
+    
+                            Головна сторінка
+                        </a>
+                    </li>
+    
+                    <!-- <li class="nav__item">
+                                                                                    
+                                <a class="nav__link" href="./profile.html">Мій профіль</a>
+                            </li> -->
+    
+                    <li class="modal__burger-nav-item">
+    
+                        <a class="modal__burger-nav-link" href="./about_us.html">
+    
+                            <svg class="burger__icon" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#about_us"></use>
+                            </svg>
+    
+                            Про нас
+                        </a>
+                    </li>
+    
+                    <li class="modal__burger-nav-item">
+    
+                        <a class="modal__burger-nav-link" href="./payment.html">
+    
+                            <svg class="burger__icon" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#payment"></use>
+                            </svg>
+    
+                            Оплата і доставка
+                        </a>
+                    </li>
+    
+                    <li class="modal__burger-nav-item">
+    
+                        <a class="modal__burger-nav-link modal__burger-nav-link--active" href="./license.html">
+    
+                            <svg class="burger__icon burger__icon--active" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#privacy_notice"></use>
+                            </svg>
+    
+                            Угода користувача
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-
-<!-- Основной раздел -->
-    <main>
-
-        <div class="container">
-
-        <section class="section section--padding-about-us">
-        
-            <h1 class="title">Про компанію <span lang="en" class="cinzel">&#171;CRAS&#187;</span></h1>
-        
-            <ul class="about-us">
-        
-                <li>
-        
-                    <div class="about-us--flex-1280">
-
-                        <div class="about-us--width">
-                        
-                            <div class="about-us--flex">
-                        
-                                <div>
-                        
-                                    <p>Вас вітає компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span>! Дякуємо, що до
-                                        нас приєдналися.
-                                    </p>
-                        
-                                    <p>У наш час ми відчуваємо бажання менше витрачати, але при цьому мати можливість придбати за приємними цінами
-                                    те, що нам потрібно щодня у побуті. І це не має значення, якщо йдеться про продукти харчування або, наприклад, різні предмети для побуту.
-                                    </p>
-                        
-                                    <p>Проте, важливо, щоб ці товари були високої якості та, головне - це був оригінальний товар.</p>
-                                </div>
-                        
-                                <img class="about-us__img about-us__img--display-max" src="./images/about_us/cras-coin.jpg" alt="cras coin" width="200">
-                            </div>
-                        
-                            <h2 class="about-us__title">Хто ми</h2>
-                        
-                            <p class="text"><span lang="en" class="cinzel">&#171;CRAS&#187;</span> - це сучасна компанія нового покоління, яка спеціалізується на постачанні товарів, які завжди потрібні у
-                            повсякденному житті. До
-                                нашого асортименту входять
-                                добре знайомі всім товари відомих марок: продукти харчування, побутова хімія та засоби гігієни. А у найближчому майбутньому ми плануємо розширити нашу пропозицію і для інших товарів. Важливо відзначити, що все відповідає європейським стандартам якості.</p>
-                        
-                            <p class="text">Крім того, наш асортимент також включає у себе різні бренди господарчих товарів, які широко популярні в Європі і тільки
-                            зараз входять на український ринок.</p>
-                        
-                            <p class="text">І найкраще в цьому те, що ми можемо запропонувати найнижчі ціни на ці товари, забезпечуючи при цьому той самий
-                            рівень якості, який ви очікуєте. І це все стосується речей, які ви використовуєте щодня.</p>
-                        </div>
-                    
-                        <img class="about-us__img about-us__img--display-min about-us__img--1280" src="./images/about_us/cras-coin.jpg" alt="cras coin" width="200">
-
-                    </div>
-
-                    <h2 class="about-us__slogan">Компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span> -
-                        перший крок у майбутнє!</h2>
-                </li>
-
-                <li class="about-us__item__only">
-
-                    <h2 class="about-us__slogan">Тільки з нами Ви отримаєте:</h2>
-
-                    <ul class="about-us__list-only">
-
-                        <li class="about-us__item-only">
-
-                            <img class="about-us__img-only" src="./images/about_us/products.jpg" alt="products" width="150">
-
-                            <p class="about-us__text-only">якісні товари з Європи<br>за приємними цінами</p>
-                        </li>
-
-                        <li class="about-us__item-only">
-                        
-                            <img class="about-us__img-only" src="./images/about_us/delivery.jpg" alt="delivery" width="150">
-                        
-                            <p class="about-us__text-only">швидка доставка у будь-який куточок України:<br>"Нова пошта", "Укрпошта" та <span lang="en">"Meest Expres"</span></p>
-                        </li>
-
-                        <li class="about-us__item-only">
-                        
-                            <img class="about-us__img-only" src="./images/about_us/support.jpg" alt="support" width="150">
-                        
-                            <p class="about-us__text-only">індивідуальний підхід<br>до кожного клієнта</p>
-                        </li>
-                    </ul>
-                </li>
-        
-                <li>
-
-                    <div class="about-us--flex-1280">
-
-                        <img class="about-us__img about-us__img--usdt-block" src="./images/about_us/usdt.jpg" alt="тизер" width="300">
-
-
-                        <div class="about-us--flex-usdt">
-
-                            <img class="about-us__img about-us__img--usdt-none" src="./images/about_us/usdt.jpg" alt="тизер" width="300">
-                            
-                            <div>
-                            
-                                <p class="text">Компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span> є новою на українському
-                                    ринку, але наші цілі спрямовані на майбутнє.</p>
-                            
-                                <p class="text">Вже зараз частина світового ринку переходить до розрахунків у криптовалюті. Ми першими
-                                    запроваджуємо на українському ринку діючий світовий досвід, та використовуємо додатково саме
-                                    такі
-                                    розрахунки за товари, а саме криптовалюту <span lang="en" class="cinzel">USDT</span>. Ця
-                                    криптовалюта не прив'язується до банківської системи,
-                                    вона захищена від коливань курсу, політичних подій та супутніх цьому фінансових ризиків. І
-                                    саме дозволяє зробити ціни значно доступними для кінцевого споживача.</p>
-                                
-                                <p class="text usdt-text-block">Не хвилюйтесь: це насправді дуже легко, і Ви дуже швидко розберетеся, як це працює. Просто
-                                    зареєструйтесь у системи, та за декілька хвилин, користуючись підказками, Ви зрозумієте, як
-                                    генерувати такі електронні гроші, та як значно дешевше купувати за них те, що Вам потрібно.
-                                    Всі розрахунки у криптовалюті проводяться через захищений особистий кабінет.</p>
-                            </div>
-                        </div>
-
-                        <p class="text usdt-text-none">Не хвилюйтесь: це насправді дуже легко, і Ви дуже швидко розберетеся, як це працює. Просто
-                            зареєструйтесь у системи, та за декілька хвилин, користуючись підказками, Ви зрозумієте, як
-                            генерувати такі електронні гроші, та як значно дешевше купувати за них те, що Вам потрібно.
-                            Всі розрахунки у криптовалюті проводяться через захищений особистий кабінет.</p>                          
-                    </div>
-
-                    <h2 class="about-us__title">Основні переваги розрахунків у криптовалюті:</h2>
-                    
-                    <ul class="about-us__edge">
-                    
-                        <li>доступність електронних грошей у будь який час, у будь якому куточку світу;</li>
-                    
-                        <li>повна анонімність розрахунків;</li>
-                    
-                        <li>взламати, підробити або здійснити інші неправомірні операції над криптовалютою неможливо
-                            - вона надійно захищена;</li>
-                    
-                        <li>миттєвий переказ коштів з мінімальною комісією;</li>
-                    
-                        <li>незалежність від банківської системи!</li>
-                    </ul>
     
-                    <p class="text">Та найголовніше - це оригінальні товари європейських брендів та європейської якості, які ми
-                        першими в Україні змогли зробити більш доступними по цінам, завдяки технології розрахунків у
-                        криптовалюті. Без зайвих націнок - все те, чим ви користуєтесь щодня.</p>
+    <!-- Модальное окно корзины -->
+    <!-- <div class="backdrop is-hidden" data-modal-basket-menu>
     
-                    <p class="text">Дивіться, пробуйте, користуйтесь, заробляйте та рекомендуйте. Ця технологія - вже наше діюче
-                        майбутнє.</p>
-                </li>
-            </ul>
-        
-            <h2 class="about-us__slogan">Компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span> - зроблено у майбутньому!</h2>
-        </section>
-            
-        <!-- SLIDER -->
-        <section class="container section">
-        
-            <div class="swiper js-swiper">
-            
-                <div class="swiper-wrapper"></div>
+        <div class="modal modal--basket">
+    
+            <button class="basket-clear-all" type="button" data-modal-busket-clear>
+    
+                <span class="basket-clear-all__text">Очистити кошик</span>
+            </button>
+    
+            <img class="img-modal" src="./images/logo.png" alt="Логотип" width="100">
+    
+            <button class="modal__button-close modal__button-close--login" type="button" data-modal-close>
+    
+                <svg width="40" height="40">
+    
+                    <use href="./images/icon/sprite.svg#logo-black"></use>
+                </svg>
+            </button>
+    
+            <p class="title title--basket">
+                <span class="title--main-color">Мій</span>
+                <span class="title--secondary-color">кошик</span>
+            </p>
+    
+            <div class="basket__box-list">
+    
+                <video class="travolta js-travolta" autoplay loop muted>
+    
+                    <source src="./images/travolta.mp4" type="video/mp4">
+                </video>
+    
+                <ul class="basket__list js-modal-basket"></ul>
             </div>
-            
-            <h2 class="slider__slogan slider__slogan--about-us unselectable">Бренди у нашому асортименті</h2>
-        </section>
+    
+            <div class="basket__order-box js-basket__order-box"></div>
+        </div>
+    </div> -->
+    
+    <!-- Хедер -->
+    <header class="header js-header">
+    
+        <div class="container">
+    
+            <div class="section-header header--flex">
+    
+                <button class="header__button header__button--burger header__button--size" type="button"
+                    data-modal-burger-menu-btn aria-label="Відкрити головне меню">
+    
+                    <svg class="icon">
+    
+                        <use href="./images/icon/sprite.svg#burger-menu"></use>
+                    </svg>
+                </button>
+    
+                <a class="logo-link logo-link--margin-left" href="./index.html">
+    
+                    <img class="logo-link__img" src="./images/logo.png" alt="логотип" width="82" height="82">
+    
+                    <div class="logo-link-secondary">
+    
+                        <span class="logo logo--secondary-font">Компанія &#171<span lang="en">Cras</span>&#187</span>
+    
+                        <span class="logo logo--head logo--secondary-font">товари з Європи</span>
+                    </div>
+                </a>
+    
+                <div class="header__login-basket js-header__login-basket">
+    
+                    <!-- <div class="reg-login__button--header">
+        
+                            <button class="reg-login__button" type="button" data-btn-register-open="">
+    
+                                <span class="reg-login__button__text">Приєднатися</span>
+                            </button>
+    
+                            <button class="reg-login__button reg-login__button--margin" type="button" data-btn-login-open="">
+    
+                                <span class="reg-login__button__text">Вхід</span>
+                            </button>
+                        </div> -->
+    
+                    <!-- <button class="header__button header__button-basket header__button--header-margin header__button--size"
+                        type="button" data-modal-basket aria-label="Відкрити кошик">
+    
+                        <svg class="icon">
+    
+                            <use href="./images/icon/sprite.svg#basket"></use>
+                        </svg>
+    
+                        <span class="header__basket-number js-header__basket-number"></span>
+                    </button> -->
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Основной раздел -->
+    <main>
+    
+        <div class="container">
+    
+            <section class="section section--padding-about-us">
+    
+                <h1 class="title title--license">Про компанію <span lang="en" class="cinzel">&#171;CRAS&#187;</span></h1>
+    
+                <ul class="about-us">
+    
+                    <li>
+    
+                        <div class="about-us--flex-1280">
+    
+                            <div class="about-us--width">
+    
+                                <div class="about-us--flex">
+    
+                                    <div>
+    
+                                        <p>Вас вітає компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span>!
+                                            Дякуємо, що до
+                                            нас приєдналися.
+                                        </p>
+    
+                                        <p>У наш час ми відчуваємо бажання менше витрачати, але при цьому мати можливість
+                                            придбати за приємними цінами
+                                            те, що нам потрібно щодня у побуті. І це не має значення, якщо йдеться про
+                                            продукти харчування або, наприклад, різні предмети для побуту.
+                                        </p>
+    
+                                        <p>Проте, важливо, щоб ці товари були високої якості та, головне - це був
+                                            оригінальний товар.</p>
+                                    </div>
+    
+                                    <img class="about-us__img about-us__img--display-max"
+                                        src="./images/about_us/cras-coin.jpg" alt="cras coin" width="200">
+                                </div>
+    
+                                <h2 class="about-us__title">Хто ми</h2>
+    
+                                <p class="text"><span lang="en" class="cinzel">&#171;CRAS&#187;</span> - це сучасна компанія
+                                    нового покоління, яка спеціалізується на постачанні товарів, які завжди потрібні у
+                                    повсякденному житті. До
+                                    нашого асортименту входять
+                                    добре знайомі всім товари відомих марок: продукти харчування, побутова хімія та засоби
+                                    гігієни. А у найближчому майбутньому ми плануємо розширити нашу пропозицію і для інших
+                                    товарів. Важливо відзначити, що все відповідає європейським стандартам якості.</p>
+    
+                                <p class="text">Крім того, наш асортимент також включає у себе різні бренди господарчих
+                                    товарів, які широко популярні в Європі і тільки
+                                    зараз входять на український ринок.</p>
+    
+                                <p class="text">І найкраще в цьому те, що ми можемо запропонувати найнижчі ціни на ці
+                                    товари, забезпечуючи при цьому той самий
+                                    рівень якості, який ви очікуєте. І це все стосується речей, які ви використовуєте щодня.
+                                </p>
+                            </div>
+    
+                            <img class="about-us__img about-us__img--display-min about-us__img--1280"
+                                src="./images/about_us/cras-coin.jpg" alt="cras coin" width="200">
+    
+                        </div>
+    
+                        <h2 class="about-us__slogan">Компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span> -
+                            перший крок у майбутнє!</h2>
+                    </li>
+    
+                    <li class="about-us__item__only">
+    
+                        <h2 class="about-us__slogan">Тільки з нами Ви отримаєте:</h2>
+    
+                        <ul class="about-us__list-only">
+    
+                            <li class="about-us__item-only">
+    
+                                <img class="about-us__img-only" src="./images/about_us/products.jpg" alt="products"
+                                    width="150">
+    
+                                <p class="about-us__text-only">якісні товари з Європи<br>за приємними цінами</p>
+                            </li>
+    
+                            <li class="about-us__item-only">
+    
+                                <img class="about-us__img-only" src="./images/about_us/delivery.jpg" alt="delivery"
+                                    width="150">
+    
+                                <p class="about-us__text-only">швидка доставка у будь-який куточок України:<br>"Нова пошта",
+                                    "Укрпошта" та <span lang="en">"Meest Expres"</span></p>
+                            </li>
+    
+                            <li class="about-us__item-only">
+    
+                                <img class="about-us__img-only" src="./images/about_us/support.jpg" alt="support"
+                                    width="150">
+    
+                                <p class="about-us__text-only">індивідуальний підхід<br>до кожного клієнта</p>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li>
+    
+                        <div class="about-us--flex-1280">
+    
+                            <img class="about-us__img about-us__img--usdt-block" src="./images/about_us/usdt.jpg"
+                                alt="тизер" width="300">
+    
+    
+                            <div class="about-us--flex-usdt">
+    
+                                <img class="about-us__img about-us__img--usdt-none" src="./images/about_us/usdt.jpg"
+                                    alt="тизер" width="300">
+    
+                                <div>
+    
+                                    <p class="text">Компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span> є новою
+                                        на українському
+                                        ринку, але наші цілі спрямовані на майбутнє.</p>
+    
+                                    <p class="text">Вже зараз частина світового ринку переходить до розрахунків у
+                                        криптовалюті. Ми першими
+                                        запроваджуємо на українському ринку діючий світовий досвід, та використовуємо
+                                        додатково саме
+                                        такі
+                                        розрахунки за товари, а саме криптовалюту <span lang="en"
+                                            class="cinzel">USDT</span>. Ця
+                                        криптовалюта не прив'язується до банківської системи,
+                                        вона захищена від коливань курсу, політичних подій та супутніх цьому фінансових
+                                        ризиків. І
+                                        саме дозволяє зробити ціни значно доступними для кінцевого споживача.</p>
+    
+                                    <p class="text usdt-text-block">Не хвилюйтесь: це насправді дуже легко, і Ви дуже швидко
+                                        розберетеся, як це працює. Просто
+                                        зареєструйтесь у системи, та за декілька хвилин, користуючись підказками, Ви
+                                        зрозумієте, як
+                                        генерувати такі електронні гроші, та як значно дешевше купувати за них те, що Вам
+                                        потрібно.
+                                        Всі розрахунки у криптовалюті проводяться через захищений особистий кабінет.</p>
+                                </div>
+                            </div>
+    
+                            <p class="text usdt-text-none">Не хвилюйтесь: це насправді дуже легко, і Ви дуже швидко
+                                розберетеся, як це працює. Просто
+                                зареєструйтесь у системи, та за декілька хвилин, користуючись підказками, Ви зрозумієте, як
+                                генерувати такі електронні гроші, та як значно дешевше купувати за них те, що Вам потрібно.
+                                Всі розрахунки у криптовалюті проводяться через захищений особистий кабінет.</p>
+                        </div>
+    
+                        <h2 class="about-us__title">Основні переваги розрахунків у криптовалюті:</h2>
+    
+                        <ul class="about-us__edge">
+    
+                            <li>доступність електронних грошей у будь який час, у будь якому куточку світу;</li>
+    
+                            <li>повна анонімність розрахунків;</li>
+    
+                            <li>взламати, підробити або здійснити інші неправомірні операції над криптовалютою неможливо
+                                - вона надійно захищена;</li>
+    
+                            <li>миттєвий переказ коштів з мінімальною комісією;</li>
+    
+                            <li>незалежність від банківської системи!</li>
+                        </ul>
+    
+                        <p class="text">Та найголовніше - це оригінальні товари європейських брендів та європейської якості,
+                            які ми
+                            першими в Україні змогли зробити більш доступними по цінам, завдяки технології розрахунків у
+                            криптовалюті. Без зайвих націнок - все те, чим ви користуєтесь щодня.</p>
+    
+                        <p class="text">Дивіться, пробуйте, користуйтесь, заробляйте та рекомендуйте. Ця технологія - вже
+                            наше діюче
+                            майбутнє.</p>
+                    </li>
+                </ul>
+    
+                <h2 class="about-us__slogan">Компанія <span lang="en" class="cinzel">&#171;CRAS&#187;</span> - зроблено у
+                    майбутньому!</h2>
+            </section>
+            
+            <!-- Слайдер -->
+            <section class="container section">
+            
+            
+                <div class="swiper js-swiper js-jump-marker">
+            
+                    <div class="swiper-wrapper"></div>
+                </div>
+
+                <h2 class="slider__slogan slider__slogan--about-us unselectable">Бренди у нашому асортименті</h2>
+            </section>   
         </div>
     </main>
 
-<!-- Футер -->
+    <!-- Футер -->
     <section class="contacts section">
     
         <div class="container contacts--flex">
     
             <div class="contacts__case">
     
-                <nav class="nav nav--contacts">
+                <a href="./index.html">
     
-                    <ul class="nav__list nav__list--visible">
+                    <div class="logo-link logo-link--footer-margin">
     
-                        <li class="nav__item">
+                        <img class="logo-link__img" src="./images/logo.png" alt="логотип" width="82" height="82">
     
-                            <a class="nav__link" href="index.html">
+                        <div class="logo-link--footer">
     
-                                <span class="logo logo--reset" lang="en">Cras</span>
+                            <span class="logo logo-link--footer-color">Компанія &#171<span lang="en">Cras</span>&#187</span>
     
-                                <span class="point">.</span>
+                            <span class="logo logo--footer ">товари з Європи</span>
+                        </div>
+                    </div>
+                </a>
     
-                                <span class="logo logo--footer" lang="en">Company</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-    
-                <h2 class="cinzel footer-cinzel" lang="en">Made in future</h2>
+                <h2 class="cinzel footer-cinzel" lang="en">Made <span class="footer-color-slogan">in</span> future</h2>
             </div>
     
-            <div class="contacts--new-flex">
-    
-                <div class="contacts__case">
-    
-                    <h3 class="contacts__title">Контакти</h3>
-    
-                    <ul class="contacts__list">
-    
-                        <li class="contacts__item">
-    
-                            <a class="contacts__link" href="mailto:support@cras.company">
-    
-                                <svg class="contacts__icon" width="20" height="20">
-    
-                                    <use href="./images/icon/sprite.svg#envelope"></use>
-                                </svg>
-                                support@cras.company
-                            </a>
-                        </li>
-    
-                        <li class="contacts__item">
-    
-                            <a class="contacts__link" href="tel:+380958294440">
-    
-                                <svg class="contacts__icon" width="20" height="20">
-    
-                                    <use href="./images/icon/sprite.svg#cell"></use>
-                                </svg>
-                                +38 095 829 44 40
-                            </a>
-                        </li>
-    
-                        <li class="contacts__item">
-    
-                            <p class="contacts-town">м.Ужгород</p>
-    
-                            <a class="contacts__link" target="_blank"
-                                href="https://www.google.com.ua/maps/place/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F%C2%ABCras%C2%BB/@48.6022235,22.2803967,19z/data=!4m15!1m8!3m7!1s0x47391903f130c775:0xb51bd9ff778e2564!2z0YPQuy4g0JPRgNGD0YjQtdCy0YHQutC-0LPQviwgNjYsINCj0LbQs9C-0YDQvtC0LCDQl9Cw0LrQsNGA0L_QsNGC0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDg4MDAw!3b1!8m2!3d48.6050414!4d22.281794!16s%2Fg%2F1thqfjg4!3m5!1s0x473919a82a5ed9db:0x7d59ec4a1e8eaca2!8m2!3d48.6023687!4d22.2813666!16s%2Fg%2F11vx4yxkm7?hl=ru&entry=ttu">
-    
-                                <svg class="contacts__icon" width="20" height="20">
-    
-                                    <use href="./images/icon/sprite.svg#location"></use>
-                                </svg>
-                                вул. Академіка Корольова, 4<br>(ТЦ &#171;ФЛАМІНГО&#187;)
-                            </a>
-    
-                            <a class="contacts__link" target="_blank"
-                                href="https://www.google.com.ua/maps/place/Cras+-+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B8+%D0%B7+%D0%84%D0%B2%D1%80%D0%BE%D0%BF%D0%B8/@48.6107775,22.2778685,18z/data=!4m15!1m8!3m7!1s0x47391856982f9513:0x385119705d13ce6f!2z0YPQuy4g0KDQsNC00LjRidC10LLQsCwgN9CwLCDQo9C20LPQvtGA0L7QtCwg0JfQsNC60LDRgNC_0LDRgtGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA4ODAwMg!3b1!8m2!3d48.6165633!4d22.2748676!16s%2Fg%2F11ldj15fr6!3m5!1s0x473919006181a709:0xddb688b4e4e9f616!8m2!3d48.6105626!4d22.2785947!16s%2Fg%2F11w9678lgq?hl=ru&entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D">
-    
-                                <svg class="contacts__icon" width="20" height="20">
-    
-                                    <use href="./images/icon/sprite.svg#location"></use>
-                                </svg>
-                                вул. Грушевського, 27/29<br>(колишня автобусна зупинка)
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="contacts__case">
-    
-                    <h3 class="contacts__title">Компанія</h3>
-    
-                    <ul>
-                        <li class="contacts__item">
-                            <a class="contacts__link" href="./about_us.html">Про нас</a>
-                        </li>
-    
-                        <li class="contacts__item">
-                            <a class="contacts__link" href="./payment.html">Оплата і доставка</a>
-                        </li>
-    
-                        <li class="contacts__item">
-                            <a class="contacts__link" href="./license.html">Угода користувача</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="contacts__case contacts__case--none">
+            <div class="contacts__case">
     
                 <h3 class="contacts__title">Контакти</h3>
     
@@ -477,21 +494,47 @@
                 </ul>
             </div>
     
-            <div class="contacts__case contacts__case--none">
+            <div class="contacts__case">
     
                 <h3 class="contacts__title">Компанія</h3>
     
                 <ul>
                     <li class="contacts__item">
-                        <a class="contacts__link" href="./about_us.html">Про нас</a>
+    
+                        <a class="contacts__link" href="./about_us.html">
+    
+                            <svg class="contacts__icon" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#about_us"></use>
+                            </svg>
+    
+                            Про нас
+                        </a>
                     </li>
     
                     <li class="contacts__item">
-                        <a class="contacts__link" href="./payment.html">Оплата і доставка</a>
+    
+                        <a class="contacts__link" href="./payment.html">
+    
+                            <svg class="contacts__icon" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#payment"></use>
+                            </svg>
+    
+                            Оплата і доставка</a>
                     </li>
     
                     <li class="contacts__item">
-                        <a class="contacts__link" href="./license.html">Угода користувача</a>
+    
+                        <a class="contacts__link" href="./license.html">
+    
+                            <svg class="contacts__icon" width="20" height="20">
+    
+                                <use href="./images/icon/sprite.svg#privacy_notice"></use>
+                            </svg>
+    
+                            Угода користувача
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -511,7 +554,8 @@
     
                                 <use class="social-icon__main" href="./images/icon/sprite.svg#icon-facebook"></use>
     
-                                <use class="social-icon__hover" href="./images/icon/sprite.svg#icon-facebook-hovered"></use>
+                                <use class="social-icon__hover" href="./images/icon/sprite.svg#icon-facebook-hovered">
+                                </use>
                             </svg>
                         </a>
                     </li>
@@ -562,10 +606,11 @@
             </div>
         </div>
     </section>
-
+    
     <footer class="footer section">
+    
         <div class="container">
-
+    
             <p class="footer__text cinzel" lang="en">&#169; &#171;CRAS&#187; company. All rights reserved. <br
                     class="br-footer"> Різні торгові марки належать відповідним власникам.</p>
         </div>
@@ -575,9 +620,8 @@
         integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-    <script type="module" src="./js/modal-about-us.js"></script>
+    <script type="module" src="./js/modal.js"></script>
     <script src="./js/swiper-slider.js"></script>
     <script type="module" src="./js/slider.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,178 @@
+// .modal__reg-login-title {
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.5;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+
+//     color: var(--secondary-link-color);
+
+//     @media screen and (min-width: 480px) {
+//         margin-bottom: 5px;
+//         font-size: 24px;
+//     }
+// }
+
+// .modal__reg-login-form {
+//     display: flex;
+//     flex-direction: column;
+
+//     & input {
+//         border: 2px solid var(--secondary-link-color);
+//         border-radius: var(--border-radius);
+
+//         transition: border-color 250ms var(--timing-function);
+//     }
+
+//     & input:hover,
+//     & input:focus,
+//     & input:active {
+//         border-color: var(--link-color);
+//         outline: 0;
+//     }
+
+//     & ::placeholder {
+//         font-weight: 400;
+//         font-size: 12px;
+//         line-height: 1.67;
+//         letter-spacing: 0.01em;
+
+//         color: rgba(117, 117, 117, 0.5);
+//     }
+// }
+
+// .modal__reg-login-label-title {
+//     font-weight: 400;
+//     font-size: 12px;
+//     line-height: 1.67;
+//     letter-spacing: 0.01em;
+// }
+
+// .modal__reg-login-case {
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 7px;
+// }
+
+// .modal__reg-login-icon {
+//     position: absolute;
+//     display: inline-block;
+//     top: 11px;
+//     left: 12px;
+//     fill: var(--secondary-link-color);
+
+//     transition: fill 250ms var(--timing-function);
+
+//     cursor: pointer;
+// }
+
+// .login-eye-open {
+//     position: absolute;
+// }
+
+// .modal__reg-login-input {
+//     padding-left: 42px;
+//     height: 40px;
+
+//     &:hover+.modal__reg-login-icon,
+//     &:focus+.modal__reg-login-icon,
+//     &:active+.modal__reg-login-icon {
+//         fill: var(--link-color);
+//     }
+
+//     &:not(:placeholder-shown):required:valid {
+//         border-color: yellowgreen;
+//     }
+
+//     &:not(:placeholder-shown):required:invalid {
+//         border-color: red;
+//     }
+// }
+
+// .link-recovery {
+//     margin-top: 20px;
+
+//     text-align: center;
+//     color: var(--secondary-link-color);
+
+//     &:hover,
+//     &:focus,
+//     &:active {
+//         color: var(--link-color)
+//     }
+// }
+
+// .modal__license {
+//     display: flex;
+//     justify-content: center;
+
+//     font-weight: 400;
+//     font-size: 12px;
+//     line-height: 1.17;
+//     letter-spacing: 0.03em;
+
+//     margin-bottom: 20px;
+
+//     @media screen and (min-width: 480px) {
+//         margin-bottom: 30px;
+//     }
+
+//     @media screen and (min-width: 1024px) {
+//         font-size: 16px;
+//         line-height: 1.71;
+//     }
+// }
+
+// .modal__license-label {
+//     display: flex;
+//     align-items: center;
+//     margin-right: 4px;
+//     user-select: none;
+// }
+
+// .modal__checkbox {
+//     position: absolute;
+
+//     opacity: 0;
+//     transform: scale(0);
+// }
+
+// .modal__checkbox-icon {
+//     margin-right: 20px;
+
+//     cursor: pointer;
+
+//     & .modal__icon-unchecked {
+//         fill: var(--main-text-color);
+
+//         transition: opacity 250ms;
+//     }
+
+//     & .modal__icon-checked {
+//         opacity: 0;
+
+//         transition: opacity 250ms;
+//     }
+// }
+
+// .modal__checkbox:checked+.modal__checkbox-icon .modal__icon-checked {
+//     opacity: 1;
+// }
+
+// .licence-style {
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 1.17;
+//     letter-spacing: 0.03em;
+
+//     @media screen and (min-width: 480px) {
+//         font-size: 18px;
+//     }
+// }
+
+// .br-license {
+//     @media screen and (min-width: 480px) {
+//         display: none;
+//     }
+// }

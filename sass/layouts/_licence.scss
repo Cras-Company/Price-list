@@ -1,82 +1,88 @@
 .licence {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
 
-  @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
+        font-size: 16px;
+    }
+}
+
+.licence>p,
+.licence>h2 {
+    margin-bottom: 10px;
+
+    text-align: justify;
+}
+
+.licence>h2 {
+    margin: 25px 0;
+
+    font-weight: 700;
     font-size: 16px;
-  }
-}
+    line-height: 1.14;
 
-.licence > p,
-.licence > h2 {
-  margin-bottom: 10px;
+    text-align: center;
 
-  text-align: justify;
-}
+    @media screen and (min-width: 1024px) {
+        font-size: 24px;
 
-.licence > h2 {
-  margin: 25px 0;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.14;
-
-  text-align: center;
-
-  @media screen and (min-width: 1024px) {
-    font-size: 24px;
-
-      text-align:left;
-  }
+        text-align: left;
+    }
 }
 
 .licence a {
-  color: var(--link-color);
+    color: var(--link-color);
 
-  text-decoration: underline;
+    text-decoration: underline;
 
-  font-family: Cinzel, serif;
+    font-family: Cinzel, serif;
 }
 
 .licence li {
-  list-style: disc;
+    list-style: disc;
 
-  margin-bottom: 10px;
-  margin-left: 34px;
+    margin-bottom: 10px;
+    margin-left: 34px;
 }
 
 .licence-margin {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .video-order {
-  padding: 5px;
+    padding: 5px;
 
-  width: 672px;
-  height: 378px;
+    width: 672px;
+    height: 378px;
 
-  border: 5px solid var(--link-color);
-  border-radius: var(--border-radius);
+    border: 5px solid var(--link-color);
+    border-radius: var(--border-radius);
 }
 
 .unselectable {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Chrome/Safari/Opera */
-  -khtml-user-select: none; /* Konqueror */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently */
 }
 
 .cras-company {
-  font-family: Cinzel, serif;
+    font-family: Cinzel, serif;
 }

@@ -10,9 +10,12 @@ body.modal-open {
   left: 0;
   right: 0;
 
+  width: 100%;
+  height: 100%;
+
   z-index: 999;
 
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
 
   opacity: 1;
   transition: opacity 250ms var(--timing-function);
@@ -28,130 +31,199 @@ body.modal-open {
 
 .modal {
   position: absolute;
-  left: 2.5%;
-
-  padding: 60px 20px 20px 20px;
-
-  transform: scale(0.5);
-  transition: transform 250ms linear 50ms;
 
   background-color: var(--pure-white);
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: var(--border-radius);
-
-  @media screen and (min-width: 480px) {
-    padding: 75px 40px 30px 40px;
-
-    background-size: contain;
-  }
-
-  &--search-padding {
-    padding-top: 50px;
-  }
-
-  &--mobile-menu {
-    width: 95vw;
-    min-height: 230px;
-
-    top: 30%;
-  }
 }
 
-.modal-open .modal {
-  transform: scale(1);
-}
+.modal--burger {
+  margin-top: 52px;
 
-.modal--mobile-footer {
-  padding: 60px 0 0 0;
-}
+  padding: 60px 5px 10px 0px;
 
-.modal--menu {
-  position: fixed;
-  top: 13%;
+  width: 80vw;
+  height: 80vh;
 
-  width: 95vw;
-  min-height: 250px;
+  left: -100%;
+  
+  transition: left 0.5s var(--timing-function);
+
+  @media (min-width: 480px) {
+    margin-top: 62px;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 72px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-top: 100px;
+
+    width: 50vw;
+  }
+
+  @media (min-width: 1280px) {
+    width: 40vw;
+    height: 80vh;
+  }
+
+  @media (min-width: 1500px) {
+    height: 85vh;
+  }
 }
 
 .modal--lot {
-  position: fixed;
-  top: 13%;
+  padding: 60px 20px 20px 20px;
+  
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 250ms linear 50ms;
 
   width: 95vw;
   min-height: 250px;
 
   @media screen and (min-width: 480px) {
-    top: 10%;
-
     padding-top: 60px;
   }
 
-  @media screen and (min-width: 768px) {
-    top: 10%;
-  }
-
   @media screen and (min-width: 1024px) {
-    left: 15%;
     width: 70vw;
   }
 
   @media screen and (min-width: 1280px) {
-    top: 9%;
-    left: 20%;
     width: 60vw;
   }
 }
 
-// .modal__form input::placeholder {
-//   font-size: 13px;
-//   font-weight: 600;
+.modal--burger--secondary {
+  height: 35vh;
 
-//   @media screen and (min-width: 480px) {
-//     font-size: 16px;
-//     font-weight: 600;
-//   }
-// }
+  // @media (min-width: 780px) {
+  //   width: 40vw;
+  // }
+}
+
+.modal--overflow {
+  height: 70vh;
+  overflow-y: auto;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media (min-width: 480px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1280px) {
+    height: 65vh;
+  }
+
+  @media (min-width: 1500px) {
+    height: 75vh;
+
+    overflow-y: scroll;
+  }
+}
+
+.modal-secondary-over {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media (min-width: 480px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.modal-open .modal--burger {
+  left: 0;
+}
+
+.modal--register,
+.modal--login {
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 250ms linear 50ms;
+
+  padding: 60px 20px 20px 20px;
+
+  width: 90vw;
+  min-height: 333px;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 80px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 70vw;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 40vw;
+  }
+}
+
+.modal--basket {
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 250ms linear 50ms;
+
+  padding-top: 35px;
+  padding-bottom: 115px;
+  padding-left: 15px;
+  padding-right: 5px;
+
+  width: 90vw;
+  min-height: 333px;
+  
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+    padding-bottom: 135px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 70vw;
+
+    padding-bottom: 125px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 60vw;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 130px;
+  }
+}
+
+.modal-open .modal--register,
+.modal-open .modal--login,
+.modal-open .modal--basket,
+.modal-open .modal--lot {
+  transform: translate(-50%, -50%) scale(1);
+}
 
 .img-modal {
   position: absolute;
 
   height: auto;
 
-  top: -11%;
+  top: -50px;
   left: 50%;
 
   transform: translateX(-50%);
-
-  &--menu {
-    top: -50px;
-  }
-
-  &--lot {
-    top: -50px;
-
-    @media screen and (min-width: 768px) {
-      top: -6%;
-    }
-
-    @media screen and (min-width: 1024px) {
-      top: -8.5%;
-    }
-
-    @media screen and (min-width: 1024px) {
-      top: -8%;
-    }
-  }
-
-  &--order {
-    top: -50px;
-  }
-}
-
-[data-modal-search-menu],
-[data-modal-mobile-menu],
-[data-modal-main-menu] {
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
 }

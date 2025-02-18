@@ -1,13 +1,17 @@
 :root {
   --pure-white: #ffffff;
   --primary-text-color: #2a2a2a;
+  --hero-text-color: #f7dc6f;
 
-  --link-color: #057198;
+  --link-color: #2ca1b1;
+  --secondary-link-color: #0f6083;
+
   --bg-color: #f5f4fa;
+  --bg-color-footer: #06071b;
 
   --icon-color: #afb1b8;
 
-  --buttons-gradient: linear-gradient(90.03deg, #00c5eb -1.97%, #057198 89.43%);
+  --buttons-gradient: linear-gradient(90deg, var(--link-color) -1.97%, var(--secondary-link-color) 90%);
 
   --border-radius: 4px;
 

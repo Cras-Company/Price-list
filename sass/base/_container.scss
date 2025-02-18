@@ -36,22 +36,15 @@
   }
 }
 
-.section--reset {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
+.section-header {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.section--padding {
-  padding-top: 64px;
-
-  @media screen and (min-width: 768px) {
-    padding-top: 132px;
+.section-shop {
+  @media screen and (min-width: 1280px) {
+    padding-left: 105px;
+    padding-right: 105px;
   }
 }
 

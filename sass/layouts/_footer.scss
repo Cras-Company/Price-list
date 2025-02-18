@@ -1,69 +1,89 @@
 .contacts {
   color: var(--pure-white);
-  background-color: #06071b;
+  background-color: var(--bg-color-footer);
 
   &--color {
     padding: 15px;
-    background-color: #06071b;
+    background-color: var(--bg-color-footer);
   }
 }
 
 .contacts--flex {
-  @media screen and (min-width: 1024px) {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+  .contacts--flex {
+    grid-template-columns: 1fr 1fr;
+    /* Два столбца */
+  }
+
+  .contacts--flex .contacts__case:nth-child(1) {
+    grid-column: 1 / span 2;
+    /* Первый элемент занимает всю ширину */
+  }
+
+  .contacts--flex .contacts__case:nth-child(4) {
+    grid-column: 1 / span 2;
+    /* Первый элемент занимает всю ширину */
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts--flex {
+    grid-template-columns: 1fr 1fr;
+    /* Два столбца */
+    grid-template-rows: auto auto;
+    /* Два ряда */
+  }
+
+  .contacts--flex .contacts__case:nth-child(1) {
+    grid-column: 1;
+    /* Первый элемент в первом столбце первого ряда */
+    grid-row: 1;
+  }
+
+  .contacts--flex .contacts__case:nth-child(4) {
+    grid-column: 2;
+    /* Четвертый элемент во втором столбце первого ряда */
+    grid-row: 1;
+  }
+
+  .contacts--flex .contacts__case:nth-child(2) {
+    grid-column: 1;
+    /* Второй элемент в первом столбце второго ряда */
+    grid-row: 2;
+  }
+
+  .contacts--flex .contacts__case:nth-child(3) {
+    grid-column: 2;
+    /* Третий элемент во втором столбце второго ряда */
+    grid-row: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contacts--flex {
     display: flex;
     justify-content: space-between;
   }
-}
-
-.contacts--new-flex {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  @media screen and (min-width: 1024px) {
-    display: none;
-  }
-}
-
-.contacts__case {
-  @media screen and (max-width: 1023px) {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  &--mobile-footer {
-    margin-bottom: 0;
-
-  }
-}
-
-.contacts__case--none {
-  @media screen and (max-width: 1023px) {
-      display: none;
-    }
-}
-
-.nav__list {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nav--contacts {
-  margin-bottom: 18px;
 }
 
 .contacts__title {
   color: var(--link-color);
 
   font-weight: 500;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 1.21;
+  text-align: center;
+}
 
-  @media screen and (min-width: 1280px) {
-    font-size: 20px;
-    line-height: 1.18;
-  }
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contacts__item {
@@ -155,14 +175,14 @@
   }
 }
 
-.contacts-town{
+.contacts-town {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.21;
 
   text-align: center;
 
-  color: #eea91e;
+  color: var(--hero-text-color);
 }
 
 // -----------------------------------
@@ -201,7 +221,7 @@
 
   border-top: 1px solid var(--pure-white);
 
-  background-color: #06071b;
+  background-color: var(--bg-color-footer);
 }
 
 .footer__text {
