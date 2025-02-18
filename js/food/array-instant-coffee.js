@@ -75,7 +75,7 @@ export const shopLotsInstantCoffee = [
         description05: "Спробуйте справжню елітну каву &#171Cafe D`Or - Gold&#187 і відкрийте для себе безмежний світ смаку та насолоди."
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_gold_export_200.jpg",
@@ -91,8 +91,8 @@ export const shopLotsInstantCoffee = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 255,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "&#171Cafe D`Or - Gold Export&#187 - це вища якість розчинної кави, яка подарує вам справжній смак та аромат зерен робусти. Кожна ковзка цієї кави дарує неперевершений досвід, завдяки вибірковому використанню зерен та ретельному обсмажуванню.",
         description02: "Смак &#171Cafe D`Or - Gold Export&#187 насичений та виразний, з глибокими нотками шоколаду та горіхів. Ця кава ідеально підходить для тих, хто цінує сильний та насичений напій.",
         description03: "Завдяки зручному пакуванню, Ви завжди зможете насолоджуватися цією кавою, де б Ви не були. Спробуйте і відчуйте смак інтенсивності та багатства.",

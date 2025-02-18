@@ -98,7 +98,7 @@ export const shopLotsTuna = [
         weightName: "Вага",
         weight: "170 гр.",
         priceGRN: 76,
-        quantityOnStorage: 7,
+        quantityOnStorage: 1,
         description01: "Відкрийте для себе свіжий і соковитий тунець у власному соку &#171M & K - Tuńczyk Kawałki W Wodzie&#187.",
         description02: "Цей тунець відрізняється ніжним смаком і високою якістю, що робить його ідеальним доповненням до будь-якої страви.",
         description03: "Завдяки низькому вмісту жиру та високому вмісту білка, &#171M & K - Tuńczyk Kawałki W Wodzie&#187 стане незамінним для Вашого здорового раціону.",
