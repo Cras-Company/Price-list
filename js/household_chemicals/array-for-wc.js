@@ -46,7 +46,7 @@ export const shopLotsForWC = [
         volumeName: "Об'єм",
         volume: "700 мл.",
         priceGRN: 105,
-        quantityOnStorage: 2,
+        quantityOnStorage: 6,
         description01: "Засіб для чищення туалету &#171Ace - WC Gel Candeggina Lavanda&#187 – це поєднання потужної дезінфекції, відбілювача та освіжаючого аромату лаванди.",
         description02: "Густа гелева формула ефективно видаляє вапняний наліт, іржу та стійкі забруднення, забезпечуючи бездоганну чистоту.",
         description03: "Відбілюючий компонент &#171Ace - WC Gel Candeggina Lavanda&#187 усуває бактерії та мікроби, дезінфікуючи поверхні та залишаючи їх гігієнічно чистими.",

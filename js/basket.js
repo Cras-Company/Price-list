@@ -607,19 +607,25 @@ function totalItemsAmount() {
   let totalGRN = 0;
   let totalUSDT = 0;
 
+  console.log("Текущее состояние basketArray:", basketArray); // Проверка данных
+
   basketArray.forEach(({ marker, quantityItem, isChecked }) => {
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
 
     let priceGRN = 0; // Объявляем переменную перед использованием
 
     if (foundItem) {
+      // Проверяем, существует ли `priceGRNOpt`, чтобы избежать `NaN`
+      let optPrice = foundItem.priceGRNOpt && !isNaN(parseFloat(foundItem.priceGRNOpt)) ? parseFloat(foundItem.priceGRNOpt) : 0;
+      let retailPrice = foundItem.priceGRN && !isNaN(parseFloat(foundItem.priceGRN)) ? parseFloat(foundItem.priceGRN) : 0;
+
       if (isChecked || foundItem.priceGRN === "--") {
-        priceGRN = parseFloat(foundItem.priceGRNOpt);
+        priceGRN = optPrice > 0 ? optPrice : retailPrice;
       } else {
-        priceGRN = parseFloat(foundItem.priceGRN);
+        priceGRN = retailPrice;
       }
 
-      // Если priceGRN не является числом (NaN), присваиваем 0
+      // Если priceGRN все еще NaN, заменяем на 0
       priceGRN = isNaN(priceGRN) ? 0 : priceGRN;
 
       const itemTotalGRN = priceGRN * quantityItem;
@@ -629,12 +635,12 @@ function totalItemsAmount() {
 
   totalUSDT = totalGRN / USDTRate;
 
-  // Отображаем корректную сумму заказа
   if (totalAmountGRN && totalAmountUSDT) {
     totalAmountGRN.textContent = totalGRN.toFixed(2);
     totalAmountUSDT.textContent = totalUSDT.toFixed(2);
   }
 }
+
 
 // Отображение оптовой цены
 function updatePriceWholesales(foundItem) {
@@ -758,14 +764,6 @@ function initializeBasket() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  initializeBasket();
-  setupRemoveButtons();
-});
-
-// Восстановление числа товаров в корзине после перезагрузки
-updateHeaderBasketNumber();
-
 // Восстановление состояния иконок из хранилища
 export function restoreStoregeIcons(lotElements) {
 
@@ -803,8 +801,6 @@ export function restoreIcons() {
   // clearBasketButton.addEventListener("click", clearBasket);
 }
 
-document.addEventListener("DOMContentLoaded", restoreIcons);
-
 // Восстановление суммы и количества товаров
 function restoreBasketItemsAmount() {
   const basketArrayJSON = localStorage.getItem("basketArray");
@@ -817,23 +813,24 @@ function restoreBasketItemsAmount() {
   let totalUSDT = 0;
 
   basketArray.forEach(({ marker, quantityItem, isChecked }) => {
-    // Находим товар в массиве arrayOfProducts
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
-    
-    if (foundItem) {
-      // Если чекбокс активен, используем оптовую цену, иначе обычную
-      const priceGRN = isChecked ? parseFloat(foundItem.priceGRNOpt) : parseFloat(foundItem.priceGRN);
-      const itemTotalGRN = priceGRN * quantityItem;
-      totalGRN += itemTotalGRN;
 
+    if (foundItem) {
+      let priceGRNOpt = foundItem.priceGRNOpt && !isNaN(parseFloat(foundItem.priceGRNOpt)) ? parseFloat(foundItem.priceGRNOpt) : 0;
+      let priceGRN = foundItem.priceGRN && !isNaN(parseFloat(foundItem.priceGRN)) ? parseFloat(foundItem.priceGRN) : 0;
+
+      let finalPriceGRN = isChecked ? priceGRNOpt : priceGRN;
+      finalPriceGRN = isNaN(finalPriceGRN) ? 0 : finalPriceGRN;
+
+      const itemTotalGRN = finalPriceGRN * quantityItem;
+      totalGRN += itemTotalGRN;
       const itemTotalUSDT = (itemTotalGRN / USDTRate).toFixed(2);
 
-      // Находим элемент товара на странице
       const itemElement = document.querySelector(`[data-basket-marker="${marker}"]`);
-      
+
       if (itemElement) {
         const itemQuantityElement = itemElement.querySelector('.js-item-quantity');
-        const priceGRNElement = itemElement.querySelector('.js-priceGRN'); 
+        const priceGRNElement = itemElement.querySelector('.js-priceGRN');
         const priceUSDTElement = itemElement.querySelector('.js-priceUSDT');
         const priceOptGRNElement = itemElement.querySelector('.js-priceOptGRN');
         const priceOptUSDTElement = itemElement.querySelector('.js-priceOptUSDT');
@@ -845,23 +842,25 @@ function restoreBasketItemsAmount() {
         if (priceGRNElement) priceGRNElement.textContent = itemTotalGRN.toFixed(2);
         if (priceUSDTElement) priceUSDTElement.textContent = itemTotalUSDT;
 
-        // Восстанавливаем чекбокс, если он был активен
-        if (isChecked && wholesaleCheckbox) {
-          wholesaleCheckbox.checked = true;
+        if (wholesaleCheckbox) {
+          wholesaleCheckbox.checked = isChecked ? true : false;
+        }
+
+        // Отображение цен в зависимости от наличия оптовой цены и чекбокса
+        if (isChecked && priceGRNOpt > 0) {
           priceRetail.style.display = 'none';
           priceWholesale.style.display = 'block';
-          if (priceOptGRNElement) priceOptGRNElement.textContent = (parseFloat(foundItem.priceGRNOpt) * quantityItem).toFixed(2);
-          if (priceOptUSDTElement) priceOptUSDTElement.textContent = ((parseFloat(foundItem.priceGRNOpt) * quantityItem) / USDTRate).toFixed(2);
+
+          if (priceOptGRNElement) priceOptGRNElement.textContent = (priceGRNOpt * quantityItem).toFixed(2);
+          if (priceOptUSDTElement) priceOptUSDTElement.textContent = ((priceGRNOpt * quantityItem) / USDTRate).toFixed(2);
         } else {
-          wholesaleCheckbox.checked = false;
           priceRetail.style.display = 'block';
-          priceWholesale.style.display = 'none';
+          priceWholesale.style.display = priceGRNOpt > 0 ? 'block' : 'none'; // Скрываем, если оптовой цены нет
         }
       }
     }
   });
 
-  // Обновляем общие суммы корзины
   totalUSDT = (totalGRN / USDTRate).toFixed(2);
 
   if (totalAmountGRN && totalAmountUSDT) {
@@ -869,15 +868,10 @@ function restoreBasketItemsAmount() {
     totalAmountUSDT.textContent = totalUSDT;
   }
 
-  // Вызов функций для обновления состояния интерфейса
   setupQuantityButtons();
   basketCheckboxChanger();
   handleClearBasketButton();
 }
-
-// Вызываем восстановление корзины после загрузки страницы
-document.addEventListener("DOMContentLoaded", restoreBasketItemsAmount);
-
 
 function restoreButtonCopy() {
   const buttonCopy = document.querySelector(".js-button__copy");
@@ -980,4 +974,13 @@ function restoreButtonCopy() {
   }
 }
 
-restoreButtonCopy();
+document.addEventListener("DOMContentLoaded", () => {
+  initializeBasket();
+  setupRemoveButtons();
+  updateHeaderBasketNumber();
+  restoreBasketItemsAmount();
+  setupQuantityButtons();
+  totalItemsAmount();
+  restoreButtonCopy();
+  restoreIcons();
+});
