@@ -1,6 +1,6 @@
 export const shopLotsCappuccino = [
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_amaretto_1kg.jpg",
@@ -23,7 +23,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 263,
-        priceGRNOpt: 242,
+        quantityOnStorage: 1,
         description01: "Запрошуємо Вас на смакову подорож із капучино &#171Hearts - Cappuccino Amaretto&#187. Насолоджуйтесь неповторною комбінацією ароматного кавового напою та ніжного амаретто.",
         description02: "Унікальна рецептура забезпечить Вам насичений смак та неповторні відчуття. Амаретто додає відтінки мигдалю, роблячи цей капучино справжньою витонченістю.",
         description03: "Спогади про смак італійського амаретто розцвітають у кожному ковтку &#171Hearts - Cappuccino Amaretto&#187, роблячи Вас прагнучими пережити це знову та знову.",
@@ -31,7 +31,7 @@ export const shopLotsCappuccino = [
         description05: "Не відкладайте своє задоволення та замовте капучино &#171Hearts - Cappuccino Amaretto&#187 вже зараз і дозвольте смаковому екстазу заволодіти Вами!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_irish_cream_1kg.jpg",
@@ -54,7 +54,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 263,
-        priceGRNOpt: 242,
+        quantityOnStorage: 3,
         description01: "&#171Hearts - Cappuccino Irish Cream&#187 - світ неперевершеного смаку, справжній витвір мистецтва, що вразить ваші смакові почуття.",
         description02: "Почніть свій день із чарівним поєднанням ароматної кави та ніжного ірландського крему у капучино. Кожен ковток – це магія, що розкривається в унікальній гармонії смаків.",
         description03: "Закохайтесь у багатий смак &#171Hearts - Cappuccino Irish Cream&#187. Бажайте цього неперевершеного досвіду, який Ви захочете повторити знову та знову, віддавати йому перевагу завжди.",
@@ -62,7 +62,7 @@ export const shopLotsCappuccino = [
         description05: "Приготуйте власні миті насолоди – замовте зараз &#171Hearts - Cappuccino Irish Cream&#187 і дозвольте собі насолодитися бездоганним смаком!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_karamell_1kg.jpg",
@@ -85,7 +85,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 263,
-        priceGRNOpt: 242,
+        quantityOnStorage: 1,
         description01: "Спробуйте неперевершений &#171Hearts - Cappuccino Karamell&#187 - ідеальний напій для тих, хто цінує справжній смак.",
         description02: "Цей ароматний капучино вражає не лише своєю кавовою основою, але і ніжною карамельною нотою, яка робить його неперевершеним.",
         description03: "Пориньте у світ задоволення, де кожен ковток &#171Hearts - Cappuccino Karamell&#187 викликає бажання відкривати нові смакові грані.",
@@ -93,7 +93,7 @@ export const shopLotsCappuccino = [
         description05: "Спробуйте &#171Hearts - Cappuccino Karamell&#187 вже сьогодні і відчуйте екстаз смаку на який Ви завжди заслуговували!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_kakaonote_1kg.jpg",
@@ -115,8 +115,8 @@ export const shopLotsCappuccino = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 263,
-        priceGRNOpt: 242,
+        priceGRN: "--",
+        priceGRNOpt: 263,
         description01: "&#171Hearts - Cappuccino Mit Feiner Kakaonote&#187 - справжнє втілення насолоди кавовими враженнями.",
         description02: "Цей напій вражає вишуканим поєднанням ніжності капучино та насиченого смаку і аромату вишуканого какао.",
         description03: "Призначений для тих, хто цінує елегантність смаку, &#171Hearts - Cappuccino Mit Feiner Kakaonote&#187 розкриває бажання насолоджуватися кожним ковтком.",
@@ -124,7 +124,7 @@ export const shopLotsCappuccino = [
         description05: "Замовте собі цей ексклюзивний капучино &#171Hearts - Cappuccino Mit Feiner Kakaonote&#187 прямо зараз і відчуйте неперевершений смак з нотками какао!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_irish_cream_1kg.jpg",
@@ -145,7 +145,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 270,
-        priceGRNOpt: 243,
+        quantityOnStorage: 1,
         description01: "Відкрийте для себе чарівний світ смаку з капучино &#171Swisso - Cappuccino Irish Cream&#187. Цей напій вражає своєю ексклюзивною комбінацією ніжного кавового аромату та вишуканого кремового смаку.",
         description02: "Вибір для любителів теплих та затишних моментів. Золотиста піна ірландського крему вирізняється на фоні багатого аромату кави, створюючи неповторний смак.",
         description03: "Бажаєте побалувати себе? Капучино &#171Swisso - Cappuccino Irish Cream&#187 робить це магічним чином, вкладаючи у Вас бажання насолоджуватися кожним ковтком цього чудового напою.",
@@ -153,7 +153,7 @@ export const shopLotsCappuccino = [
         description05: "Замовте капучино &#171Swisso - Cappuccino Irish Cream&#187 вже зараз і дозвольте собі перенестися в атмосферу задоволення та розкоші, насолоджуючись келихом ірландського комфорту прямо вдома!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_karamell_1kg.jpg",
@@ -174,7 +174,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 270,
-        priceGRNOpt: 243,
+        quantityOnStorage: 2,
         description01: "Запрошуємо Вас на захоплюючу подорож з капучино &#171Swisso - Cappuccino Karamell&#187. Цей напій вражає не лише своїм неймовірним ароматом карамелі, але й неперевершеним поєднанням кремовості та насиченості смаку.",
         description02: "Карамельне капучино - це шедевр, створений для цінителів гармонії смаків. Ідеальна рівновага між карамельним витонченням та ароматом свіжої кави робить його неперевершеним джерелом задоволення.",
         description03: "Мрієте про коктейль смаків, що розкривається у кожній чашці? Капучино &#171Swisso - Cappuccino Karamell&#187 - це бажання, яке наповнить Вас теплом і вишуканістю.",
@@ -182,7 +182,7 @@ export const shopLotsCappuccino = [
         description05: "Замовте капучино &#171Swisso - Cappuccino Karamell&#187 вже зараз і перетворіть звичайні миті у часи насолоди, дозволяючи цьому чарівному напою вписатися у Ваш кожен день!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_white_1kg.jpg",
@@ -200,8 +200,8 @@ export const shopLotsCappuccino = [
         countryName: "Швейцарія",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 270,
-        priceGRNOpt: 243,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Ось ваш ключ до неперевершеного смаку – капучино &#171Swisso - Cappuccino White&#187.",
         description02: "Насолоджуйтеся витонченим поєднанням ароматного кавового напою та ніжності молока у кожній краплі.",
         description03: "Вирушайте у подорож найсмачніших відчуттів, завдяки гармонійному смаку та неперевершеній текстурі капучино &#171Swisso - Cappuccino White&#187.",
@@ -209,7 +209,7 @@ export const shopLotsCappuccino = [
         description05: "Відчуйте смак італійської розкоші, замовивши капучино &#171Swisso - Cappuccino White&#187 вже зараз!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_wiener_melange_1kg.jpg",
@@ -230,7 +230,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 270,
-        priceGRNOpt: 243,
+        quantityOnStorage: 2,
         description01: "Відчуйте неповторний смак Віденського вечора з капучино &#171Swisso - Cappuccino Wiener Melange&#187. Цей чарівний напій об'єднує у собі ніжний аромат свіжої кави та теплу молочну кремовість, надаючи Вам новий рівень задоволення.",
         description02: "Вирізняючись серед інших, це капучино приваблює своєю унікальною сполученістю м'якості та аромату. Теплий відтінок молочної піни ідеально поєднується із збалансованою кавовою основою, виправдовуючи Ваш інтерес до цього неперевершеного напою.",
         description03: "Бажаєте подарувати своєму дню ніжний дотик австрійської елегантності? Капучино &#171Swisso - Cappuccino Wiener Melange&#187 - це бажання, що втілюється у дивовижному поєднанні аромату і смаку, доповненому молочною ніжністю.",

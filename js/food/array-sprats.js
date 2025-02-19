@@ -21,7 +21,7 @@ export const shopLotsSprats = [
         weightName: "Вага",
         weight: "170 гр.",
         priceGRN: 49,
-        quantityOnStorage: "23",
+        quantityOnStorage: 4,
         description01: "&#171EvraFish - Winter Sprats&#187 - це справжній дарунок природи, який переносить нас у світ арктичних вод. Кожен шпрот незвичайно ніжний та смачний завдяки холодним водам, в яких вони зростають.",
         description02: "Смак &#171EvraFish - Winter Sprats&#187 - це поєднання ніжності та м'якості м'яса з багатим ароматом моря. Ці шпроти - ідеальний вибір для тих, хто цінує якість та натуральний смак риби.",
         description03: "Бренд &#171EvraFish&#187 завжди гарантує свіжість та смакову насолоду у кожному ковзку завдяки своєму досвіду та відповідальному відношенню до виробництва.",
@@ -133,7 +133,7 @@ export const shopLotsSprats = [
     //     description05: "Не відкладайте задоволення на завтра! Замовте &#171M & K - Szprot Podwedzany W Sosie Pomidorowym&#187 вже сьогодні і подаруйте собі смакове св'ято, яке назавжди запам'ятається."
     // },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_w_oleju_250.jpg",
@@ -156,7 +156,7 @@ export const shopLotsSprats = [
         weightName: "Вага",
         weight: "250 гр.",
         priceGRN: 124,
-        priceGRNOpt: 113,
+        quantityOnStorage: 3,
         description01: "&#171M & K - Szproty Wedzone W Oleju&#187 - це справжній шедевр серед морських смаколиків. Кожен шпрот у цій неймовірно смачній олії - це витвір мистецтва та смакова розкіш. Вони виготовлені з найсвіжіших рибних уловів і володіють неперевершеним смаком та ароматом.",
         description02: "Олія, в якій знаходяться ці шпроти, надає їм неймовірну м'якість та ніжність. Кожен шматочок риби пропитаний багатогранним смаком диму та олії, що робить їх неперевершеними. Це ідеальний вибір для вишуканих гурманів і тих, хто цінує справжню якість.",
         description03: "Спробуйте &#171M & K - Szproty Wedzone W Oleju&#187 та відчуйте смакову розкіш, яка вас приголомшить. Дозвольте собі насолоджуватися найкращими смаками моря у кожному шматочку.",
@@ -164,7 +164,7 @@ export const shopLotsSprats = [
         description05: "Замовте &#171M & K - Szproty Wedzone W Oleju&#187 та переконайтеся в їх неперевершеній смаковій якості!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_tomato_250.jpg",
@@ -187,7 +187,7 @@ export const shopLotsSprats = [
         weightName: "Вага",
         weight: "250 гр.",
         priceGRN: 124,
-        priceGRNOpt: 113,
+        quantityOnStorage: 2,
         description01: "&#171M & K - Szproty Wedzone W Sosie Pomidorowym&#187 - це справжній кулінарний шедевр, який викликає захоплення з першого дотику.",
         description02: "Ці шпроти вирізняються неперевершеним поєднанням копченого смаку і аромату томатного соусу. Вони - ідеальний вибір для тих, хто цінує вишуканість та гастрономічні насолоди.",
         description03: "Відчуйте ексклюзивність копчених шпротів &#171M & K - Szproty Wedzone W Sosie Pomidorowym&#187, які роблять будь-який стіл вишуканим. Їхній насичений смак залишає незабутнє враження, викликаючи бажання повертатися до цього неперевершеного смаку знову й знову.",
@@ -195,7 +195,7 @@ export const shopLotsSprats = [
         description05: "Замовте копчені шпроти у томатному соусі &#171M & K - Szproty Wedzone W Sosie Pomidorowym&#187 зараз і відкрийте для себе світ аутентичних смакових вражень!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/pirat_winter_sprats_160.jpg",
@@ -216,7 +216,7 @@ export const shopLotsSprats = [
         weightName: "Вага",
         weight: "160 гр.",
         priceGRN: 56,
-        priceGRNOpt: 51,
+        quantityOnStorage: 3,
         description01: "Кожен шматочок &#17Pirat - Winter Sprats&#187 - це джерело білка та вітамінів, які роблять цей продукт не тільки смачним, але і корисним для вашого здоров'я.",
         description02: "Ці шпроти - це справжній дегустаційний діамант. Їх димчастий смак і неповторний аромат подарують Вам враження від подорожі на захоплюючий світ морських смаків.",
         description03: "&#17Pirat - Winter Sprats&#187 виробляються з найкращих інгредієнтів, щоб подарувати Вам смак природи і морської свободи.",

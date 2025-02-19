@@ -1,6 +1,6 @@
 export const shopLotsPistachios = [
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -17,7 +17,7 @@ export const shopLotsPistachios = [
         weightName: "Вага",
         weight: "250 гр.",
         priceGRN: 163,
-        priceGRNOpt: 150,
+        quantityOnStorage: 4,
         description01: "&#171Alesto - Pistazien Geröstet & Gesalzen&#187 - це справжня родзинка для гурманів і цінителів закусок. Ці фісташки обсмажені та підсолені майстрами вишуканого смаку, щоб кожен гризунець був найсмачнішим.",
         description02: "Ці фісташки - джерело корисних жирів, білків та вітамінів. Вони підходять для перекусу, а також чудово доповнюють аперитив під час зустрічі гостей.",
         description03: "Зробіть свої вечірні посиденьки особливими, подаруйте собі і близьким миті задоволення смаку разом з &#171Alesto - Pistazien Geröstet & Gesalzen&#187.",
@@ -25,7 +25,7 @@ export const shopLotsPistachios = [
         description05: "Замовте ці чудові фісташки &#171Alesto - Pistazien Geröstet & Gesalzen&#187 та відкрийте для себе справжню насолоду!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/pistachios/alesto_pistazien_250.jpg",
@@ -42,7 +42,7 @@ export const shopLotsPistachios = [
         weightName: "Вага",
         weight: "500 гр.",
         priceGRN: 378,
-        priceGRNOpt: 341,
+        quantityOnStorage: 1,
         description01: "&#171Alesto - Pistazien Geröstet & Gesalzen&#187 - це справжня родзинка для гурманів і цінителів закусок. Ці фісташки обсмажені та підсолені майстрами вишуканого смаку, щоб кожен гризунець був найсмачнішим.",
         description02: "Ці фісташки - джерело корисних жирів, білків та вітамінів. Вони підходять для перекусу, а також чудово доповнюють аперитив під час зустрічі гостей.",
         description03: "Зробіть свої вечірні посиденьки особливими, подаруйте собі і близьким миті задоволення смаку разом з &#171Alesto - Pistazien Geröstet & Gesalzen&#187.",
