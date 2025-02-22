@@ -50,7 +50,7 @@ export const shopLotsTarhona = [
         description05: "Варіть &#171Császár - Dörzstarhonya&#187 з улюбленими соусами та насолоджуйтеся якістю і смаковим багатством!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/hedan_plus_tarhona_370.jpg",
@@ -66,8 +66,8 @@ export const shopLotsTarhona = [
         countryName: "Словаччина",
         weightName: "Вага",
         weight: "370 гр.",
-        priceGRN: 49,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 51,
         description01: "&#171Hedan Plus - Tarhoňa&#187 - це вишукане доповнення до вашого кулінарного арсеналу. Ці тістечка виробляються з високоякісного борошна, що гарантує їхню ідеальну текстуру та вишуканий смак, який додасть ексклюзивності будь-якій страві.",
         description02: "Вони не лише легко готуються, але і будуть основою для найсмачніших страв. Їх унікальна форма виглядає не лише привабливо, але й утримує соуси та смак.",
         description03: "&#171Hedan Plus - Tarhoňa&#187 зберігає всі корисні властивості пшениці, а висока якість засвідчена традиціями та кваліфікацією майстрів.",
