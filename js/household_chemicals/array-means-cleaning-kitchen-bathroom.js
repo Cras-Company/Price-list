@@ -100,7 +100,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 55,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Зустрічайте знежирювач для поверхонь, що контактують з їжею, &#171Ace - Sgrassatore Igienizzante Senza Candeggina&#187 з ароматом цитрусу, який ефективно очищає без використання відбілювача.",
         description02: "Цей засіб забезпечує глибоке очищення від жиру та забруднень, залишаючи приємний цитрусовий аромат, при цьому будучи безпечним для поверхонь, що контактують з їжею.",
         description03: "Насолоджуйтесь бездоганною чистотою кухні з &#171Ace - Sgrassatore Igienizzante Senza Candeggina&#187, знаючи, що Ваші робочі поверхні не тільки бездоганно чисті, але й безпечні для приготування їжі.",
