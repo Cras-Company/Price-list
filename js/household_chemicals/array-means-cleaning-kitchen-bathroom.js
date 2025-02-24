@@ -1543,7 +1543,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         volumeName: "Об'єм",
-        volume: "750 мл.",
+        volume: "500 мл.",
         priceGRN: 152,
         priceGRNOpt: 137,
         description01: "Засіб для чищення духовок та гриллів &#171Denkmit - Backofen- Und Grillreiniger Mit Aktiv-Schaum&#187 – це потужне рішення для видалення стійкого жиру та нагару.",
