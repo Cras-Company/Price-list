@@ -1,6 +1,6 @@
 export const shopLotsChips = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_cheese_onion_165.jpg",
@@ -22,8 +22,8 @@ export const shopLotsChips = [
         countryName: "Англія",
         weightName: "Вага",
         weight: "165 гр.",
-        priceGRN: 106,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 106,
         description01: "&#171Pringles - Cheese & Onion&#187 - це справжня симфонія смаку, яка підкорює серця гурманів по всьому світу. Кожен чіпс має неймовірно насичений смак сиру та цибулі.",
         description02: "Смак &#171Pringles - Cheese & Onion&#187 - це ідеальний баланс між солодкістю цибулі та багатим смаком сиру. Ці чіпси чудово підходять як закуска до фільму, на вечірку з друзями або просто для задоволення свого апетиту у будь-який час.",
         description03: "Вони завжди гарантують свіжість та смакове задоволення завдяки своєму унікальному трубчастому пакуванню. Спробуйте ці чіпси і вперше відчуйте справжню якість та смак в одному.",
@@ -31,7 +31,7 @@ export const shopLotsChips = [
         description05: "Не вагайтеся, спробуйте &#171Pringles - Cheese & Onion&#187 вже сьогодні та переконайтесь, які чудові можуть бути закуски. Вас чекає справжнє кулінарне задоволення!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_cheesy_cheese_165.jpg",
@@ -53,8 +53,8 @@ export const shopLotsChips = [
         countryName: "Англія",
         weightName: "Вага",
         weight: "165 гр.",
-        priceGRN: 106,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 106,
         description01: "&#171Pringles - Cheesy Cheese&#187 - це справжня кулінарна вишуканість, яка додасть смаку Вашому життю. Кожен чіпс пропитаний ароматом справжнього сиру, створюючи букет смакових відчуттів, які не мають собі рівних.",
         description02: "Смак &#171Pringles - Cheesy Cheese&#187 - це ідеальне поєднання нот солодкої плавкої текстури сиру, яка залишає вас бажати більше. Ці чіпси чудово пасують до будь-якого виду вечірки.",
         description03: "Завжди гарантують свіжість та смакову насолоду завдяки своєму унікальному трубчастому пакуванню. Спробуйте ці чіпси і Ви отримаєте найкращий смак у кожному ковзку.",
@@ -62,7 +62,7 @@ export const shopLotsChips = [
         description05: "Вирушайте у смачну подорож з &#171Pringles - Cheesy Cheese&#187 даруючи радість собі та Вашим друзям!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/chips/pringles_hot_spicy_165.jpg",
@@ -84,8 +84,8 @@ export const shopLotsChips = [
         countryName: "Англія",
         weightName: "Вага",
         weight: "165 гр.",
-        priceGRN: 106,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 106,
         description01: "&#171Pringles - Hot & Spicy&#187 - це справжній кулінарний вогонь, який принесе неймовірну гостроту у кожен ковзок. Їх виразний смак поєднує пікантні нотки спецій та гострої паприки, створюючи справжню експлозію смаку.",
         description02: "Смак &#171Pringles - Hot & Spicy&#187 - це захоплюючий мікс паприки та спецій, який піднімає адреналін і додає гостроти у Ваше життя. Ці чіпси - ідеальний вибір для сміливих і впертих гурманів, які шукають нові смакові враження.",
         description03: "Вони завжди гарантують свіжість та смакове задоволення завдяки своєму унікальному трубчастому пакуванню. Спробуйте ці чіпси і відчуйте, як вони розпалюють Ваші смакові рецептори.",
