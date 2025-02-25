@@ -424,7 +424,7 @@ export const shopLotsAdultShampoos = [
     volumeName: "Об'єм",
     volume: "500 мл.",
     priceGRN: 91,
-    quantityOnStorage: 2,
+    quantityOnStorage: 1,
     description01: "Шампунь &#171Elkos - For Men Hopfen Shampoo Mit Meersalz & Pro-Vitamin B5&#187 з екстрактом хмелю миттєво привертає увагу своїм потужним складом.",
     description02: "Вміст морської солі e поєднанні з провітаміном В5 забезпечує глибоке очищення та зміцнення волосся.",
     description03: "&#171Elkos - For Men Hopfen Shampoo Mit Meersalz & Pro-Vitamin B5&#187 cпеціально розроблений для чоловіків, надає волоссю здоровий вигляд та свіжість.",
