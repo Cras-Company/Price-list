@@ -116,7 +116,7 @@ export const shopLotsBleaches = [
         volumeName: "Об'єм",
         volume: "2.5 л.",
         priceGRN: 193,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "&#171Ace - Candeggina Più Fresco Profumo&#187 - відбілювач із чарівним ароматом, що наповнить ваш одяг свіжістю та чистотою.",
         description02: "Цей відбілювач не лише подолає найбрудніші плями, але і подарує вашому одягу аромат свіжості.",
         description03: "Мрієте про неймовірну свіжість? &#171Ace - Candeggina Più Fresco Profumo&#187 здійснить ваші бажання, даруючи не лише вибілені речі, але і неповторний аромат у вашому будинку.",
