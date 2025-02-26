@@ -197,7 +197,7 @@ export const shopLotsGroundCoffee = [
         description05: "Подаруйте собі унікальний досвід кавового задоволення з &#171Dallmayr - Ethiopia&#187. Придбайте його прямо зараз та відчуйте справжню екзотику у кожному ковтку!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/dallmayr_promodo_500.jpg",
@@ -222,7 +222,7 @@ export const shopLotsGroundCoffee = [
         weightName: "Вага",
         weight: "500 гр.",
         priceGRN: 319,
-        priceGRNOpt: 288,
+        quantityOnStorage: 1,
         description01: "Підніміть свій настрій з кавою &#171Dallmayr - Promodo&#187. Цей неперевершений аромат та смак не залишать Вас байдужими з першого дотику.",
         description02: "Вибір кави - це вибір стилю, тому ця кава розкриває перед Вами вишуканість справжнього європейського досвіду. Унікальне поєднання зерен з найкращих плантацій надає цій каві багатий та насичений смак.",
         description03: "Почуття бажання насолоджуватися кожним ковтком &#171Dallmayr - Promodo&#187 не залишить Вас ще довго. Відчуйте глибину аромату та неповторність смакового букету, які створюють неповторний дотик розкоші у вашому келиху.",
