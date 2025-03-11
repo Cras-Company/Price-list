@@ -334,7 +334,7 @@ export const shopLotsForFloor = [
         description05: "Придбайте &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 – чистота, догляд та натуральна свіжість у кожному митті!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/chanteclair_sgrassatore_pavimenti_muschio_bianco_750.jpg",
@@ -352,8 +352,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 123,
-        priceGRNOpt: 105,
+        priceGRN: "--",
+        priceGRNOpt: 123,
         description01: "Засіб для миття підлоги &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 - поєднання потужного очищення та вишуканої свіжості.",
         description02: "Формула знежирювача ефективно видаляє бруд, плями та жир, забезпечуючи ідеальну чистоту без зайвих зусиль.",
         description03: "Аромат білого мускусу у &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 дарує ніжну та довготривалу свіжість, створюючи атмосферу чистоти та комфорту у домі.",

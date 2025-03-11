@@ -44,7 +44,7 @@ export const shopLotsMeansCleaningDishwashers = [
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         volumeName: "Об'єм",
-        volume: "250 мл.",
+        volume: "1 л.",
         priceGRN: 92,
         quantityOnStorage: 6,
         description01: "Вода для прасування &#171Denkmit - Bügelwasser Frischer Duft&#187 з ароматом свіжості робить одяг ідеально гладким, наповнюючи його ніжним ароматом.",
