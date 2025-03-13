@@ -127,7 +127,7 @@ export const shopLotsLiquidSoap = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 65,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "Чутлива шкіра потребує особливого догляду, і крем-мило &#171Balea - Cremeseife Sensitive Mit Alot Vera&#187 з алое вера створене саме для Вас.",
         description02: "Ніжна формула з екстрактом алое делікатно очищує шкіру, зберігаючи її природний баланс зволоження.",
         description03: "Після кожного миття рук з &#171Balea - Cremeseife Sensitive Mit Alot Vera&#187 Ви відчуєте комфорт і захист, ніби Ваша шкіра огорнута невидимим щитом.",
