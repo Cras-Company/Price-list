@@ -822,7 +822,7 @@ export const shopLotsAdultShowerGels = [
       volumeName: "Об'єм",
       volume: "750 мл.",
       priceGRN: 149,
-      quantityOnStorage: 2,
+      quantityOnStorage: 1,
       description01: "Зробіть Ваш душ особливим з гелем &#171Queray - Gel De Baño Leche Y Algodón&#187, який дарує неперевершену ніжність та турботу.",
       description02: "Комбінація молока та екстракту бавовни забезпечує інтенсивне зволоження та живлення, роблячи шкіру шовковистою та гладенькою.",
       description03: "&#171Queray - Gel De Baño Leche Y Algodón&#187 заспокоює і розслабляє, огортаючи Вас ніжним ароматом, що дарує відчуття комфорту.",
