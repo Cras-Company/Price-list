@@ -328,7 +328,7 @@ export const shopLotsStainRemovers = [
     //     description05: "Пориньте у світ бездоганно чистого одягу з &#171Ariel - Fleckenentferner&#187 і забудьте про плями назавжди!"
     // },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_color_1kg.jpg",
@@ -349,7 +349,7 @@ export const shopLotsStainRemovers = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 129,
-        priceGRNOpt: 112,
+        quantityOnStorage: 1,
         description01: "Забруднені речі більше не проблема з кисневим плямовивідником для кольорових речей &#171at home Wash - Oxygen Stain Remover Color&#187.",
         description02: "Цей потужний засіб дбайливо видаляє навіть найскладніші плями, зберігаючи яскравість кольорів.",
         description03: "Активна формула &#171at home Wash - Oxygen Stain Remover Color&#187 забезпечує глибоке очищення, не пошкоджуючи тканину.",
@@ -357,7 +357,7 @@ export const shopLotsStainRemovers = [
         description05: "Подаруйте своїм речам друге життя з &#171at home Wash - Oxygen Stain Remover Color&#187 – справжнім союзником у боротьбі з плямами!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_white_900.jpg",
@@ -378,7 +378,7 @@ export const shopLotsStainRemovers = [
         weightName: "Вага",
         weight: "900 гр.",
         priceGRN: 129,
-        priceGRNOpt: 112,
+        quantityOnStorage: 2,
         description01: "Ваша білизна завжди сяятиме білизною з кисневим плямовивідником для білих речей &#171at home Wash - Oxygen Stain Remover White&#187.",
         description02: "Ефективна формула засобу глибоко проникає у тканину, видаляючи навіть найстійкіші плями.",
         description03: "&#171at home Wash - Oxygen Stain Remover White&#187 забезпечує дбайливе очищення, зберігаючи тканини свіжими та яскравими.",
