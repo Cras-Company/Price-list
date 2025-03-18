@@ -75,7 +75,7 @@ export const shopLotsChocolate = [
         description05: "Зробіть смакову подорож зараз і замовте &#171Fin Carrе́ - Czekolada Gorka Z Całymi Orzechami&#187, щоб насолоджуватися чудовим поєднанням чорного шоколаду та цілих горіхів!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "sweets",
         url: "./images/shop/food/sweets/chocolate/fin_care_milk_nuts_100.jpg",
@@ -91,8 +91,8 @@ export const shopLotsChocolate = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "100 гр.",
-        priceGRN: 55,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 75,
         description01: "&#171Fin Carrе́ - Whole Nuts Milk Chocolate&#187 - цей шедевр солодкого мистецтва не залишить Вас байдужими. Кожен шматочок - це поєднання ніжного молочного шоколаду та хрустких горіхів.",
         description02: "Що робить цей шоколад таким неперевершеним? Його формула - це не лише розкішний молочний шоколад, але і величезні цілі горіхи, які додають смаку текстурну глибину. Чудове поєднання ніжного і хрусткого створює неперевершений досвід.",
         description03: "Прагнете виразного задоволення? Насичений смак і хрустка начинка &#171Fin Carrе́ - Whole Nuts Milk Chocolate&#187 будуть ідеальним вибором для Вас.",
