@@ -404,7 +404,7 @@ export const shopLotsGroundCoffee = [
         description05: "Оберіть вищий стандарт і замовте &#171Lavazza - Crema E Aroma&#187 зараз та насолоджуйтеся унікальним італійським смаком прямо вдома!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_crema_gusto_250.jpg",
@@ -426,8 +426,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 169,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 169,
         description01: "Відкрийте для себе італійську каву нового рівня &#171Lavazza - Crema E Gusto Classico&#187 - справжнє втілення традицій і смаку Італії.",
         description02: "Кожне зерно вибране з особливою увагою, щоб створити насичений смак і густий крем. Це поєднання арабіки і робусти забезпечить Вам неперевершену кавову якість.",
         description03: "Мрієте про ідеальний старт дня? Бажаєте насолоджуватися кожним ковтком справжнього італійського еспресо? &#171Lavazza - Crema E Gusto Classico&#187 втілює це бажанням, привносячи у ваше життя тепло та задоволення.",
