@@ -230,7 +230,7 @@ export const shopLotsGroundCoffee = [
         description05: "Придбайте D&#171Dallmayr - Promodo&#187 прямо зараз і перетворіть кожен свій день на чарівний момент насолоди!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/himmel_gold_500.jpg",
@@ -252,8 +252,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 230,
-        priceGRNOpt: 207,
+        priceGRN: "--",
+        priceGRNOpt: 237,
         description01: "Зануртесь у світ неповторної атмосфери з ароматом кави від &#171Himmel Kaffee - Gold&#187. Насичений смак і ексклюзивна карамельна нотка роблять її неперевершеною.",
         description02: "Ця мелена кава вражає не лише своїм смаком, але і якістю - кожене зерно відібране з найкращих плантацій Африки.",
         description03: "Відчуйте, як &#171Himmel Kaffee - Gold&#187 дарує вам енергію та насолоду кожного ранку.",
