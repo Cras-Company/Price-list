@@ -85,7 +85,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте плямовивідник  &#171Ace - Gentile&#187 вже сьогодні і забезпечте своїм кольоровим речам бездоганну чистоту і яскравість!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_gentile_fresco_profumo_2.3.jpg",
@@ -103,8 +103,8 @@ export const shopLotsStainRemovers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2.3 л.",
-        priceGRN: 188,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 266,
         description01: "&#171Ace - Gentile Fresco Profumo Candeggina Per Colorati&#187 – це Ваш надійний помічник у боротьбі з плямами на кольорових речах.",
         description02: "Завдяки активному кисню, цей засіб ефективно видаляє навіть найстійкіші забруднення, зберігаючи яскравість Ваших улюблених речей.",
         description03: "Насичений аромат свіжості &#171Ace - Gentile Fresco Profumo Candeggina Per Colorati&#187 робить процес прання приємнішим, залишаючи Ваш одяг свіжим та чистим.",
