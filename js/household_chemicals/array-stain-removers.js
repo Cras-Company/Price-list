@@ -357,7 +357,7 @@ export const shopLotsStainRemovers = [
         description05: "Подаруйте своїм речам друге життя з &#171at home Wash - Oxygen Stain Remover Color&#187 – справжнім союзником у боротьбі з плямами!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_white_900.jpg",
@@ -377,8 +377,8 @@ export const shopLotsStainRemovers = [
         countryName: "Нідерланди",
         weightName: "Вага",
         weight: "900 гр.",
-        priceGRN: 129,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 133,
         description01: "Ваша білизна завжди сяятиме білизною з кисневим плямовивідником для білих речей &#171at home Wash - Oxygen Stain Remover White&#187.",
         description02: "Ефективна формула засобу глибоко проникає у тканину, видаляючи навіть найстійкіші плями.",
         description03: "&#171at home Wash - Oxygen Stain Remover White&#187 забезпечує дбайливе очищення, зберігаючи тканини свіжими та яскравими.",

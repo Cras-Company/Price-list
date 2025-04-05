@@ -307,7 +307,7 @@ export const shopLotsForFloor = [
     //     description05: "Насолоджуйтеся легким та приємним прибиранням з &#171Clinair - Allesreiniger Purple Flower&#187, який не лише дарує чистоту, але і підносить настрій своїм неповторним ароматом."
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/chanteclair_sgrassatore_pavimenti_marsiglia_e_limone_750.jpg",
@@ -325,8 +325,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 123,
-        priceGRNOpt: 105,
+        priceGRN: "--",
+        priceGRNOpt: 123,
         description01: "Засіб для миття підлоги &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 - ідеальне поєднання ефективного знежирення та свіжості.",
         description02: "Формула з натуральним марсельським милом глибоко очищає поверхні, видаляючи бруд, жир і плями без зусиль.",
         description03: "Аромат лимона у &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 надає приємну свіжість, а безпечний склад підходить для всіх типів підлог, зберігаючи їхній природний блиск.",

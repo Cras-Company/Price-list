@@ -166,7 +166,7 @@ export const shopLotsPowerCaps = [
         quantityName: "Кількість",
         quantity: "40 шт.",
         priceGRN: 595,
-        quantityOnStorage: 4,
+        quantityOnStorage: 1,
         description01: "Пральні капсули &#171Ariel - Pods Frescor Sensaciones&#187 забезпечують Вашому одягу неймовірну свіжість, яка залишається з Вами на довго.",
         description02: "Завдяки інноваційній формулі, вони ефективно видаляють навіть найскладніші плями, зберігаючи кольори яскравими.",
         description03: "Кожна капсула &#171Ariel - Pods Frescor Sensaciones&#187 створена для глибокого очищення тканин, одночасно даруючи відчуття свіжості після кожного прання.",
