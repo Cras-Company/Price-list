@@ -294,7 +294,7 @@ export const shopLotsSauces = [
     //     description05: "Спробуйте &#171Barilla - Olive&#187 і додайте італійського смаку своїм стравам!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/bio_natura_passierte_tomaten_690.jpg",
@@ -310,8 +310,8 @@ export const shopLotsSauces = [
         countryName: "Швейцарія",
         weightName: "Вага",
         weight: "690 гр.",
-        priceGRN: 89,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 103,
         description01: "&#171Bio Natura - Passierte Tomaten&#187 - томатний соус, який зберігає смак природи та багатство корисних речовин. Він завоював серця гурманів та тих, хто цінує найвищу якість без зайвих добавок.",
         description02: "Цей соус виготовлений з найсоковитіших томатів, вирощених без хімічних добрив та пестицидів. Він стане відмінним вибором для тих, хто цінує смак і дбає про здоров'я.",
         description03: "&#171Bio Natura - Passierte Tomaten&#187 - це чистий та смачний продукт, який робить ваші страви неперевершеними, додаючи нотку екологічної чистоти.",
@@ -442,7 +442,7 @@ export const shopLotsSauces = [
         description05: "Насолоджуйтеся природним смаком сонця з &#171M & K - Przecier Pomidorowy&#187 та пориньте у світ справжньої італійської кухні!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/reggia_passata_di_pomodoro_680.jpg",
@@ -462,8 +462,8 @@ export const shopLotsSauces = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "680 гр.",
-        priceGRN: 88,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 99,
         description01: "Знайомтеся з італійським витвором - томатним соусом &#171Reggia - Passata Di Pomodoro&#187, який перенесе Вас у сонячну Італію.",
         description02: "Цей соус виробляється з найсоковитіших помідорів, ніжно подрібнених для створення ароматного та насиченого смаку, який ідеально підходить для приготування різноманітних страв.",
         description03: "Бажаєте відчути смак італійських страв у Ваших кулінарних творіннях? Обирайте &#171Reggia - Passata Di Pomodoro&#187 для створення справжніх шедеврів на Вашій кухні.",
@@ -471,7 +471,7 @@ export const shopLotsSauces = [
         description05: "Замовте томатний соус &#171Reggia - Passata Di Pomodoro&#187 прямо зараз і додайте італійського смаку своїм стравам, перетворивши звичайний обід у справжню подорож!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_690.jpg",
@@ -487,8 +487,8 @@ export const shopLotsSauces = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "690 гр.",
-        priceGRN: 81,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 95,
         description01: "&#171Rosso Gargano - Passata Di Puglia&#187 - це справжній діамант серед томатних соусів, який вразить Вас своєю яскравістю та смаковою насиченістю. Приготований з відбирних помідорів, які вирощені на сонці Італії, не містить штучних добавок, що робить його натуральним та корисним.",
         description02: "Ідеально підходить для приготування паст, супів, піцци та інших італійських страв. Він має гладку консистенцію та неперевершений томатний смак, який розкриє перед вами багатство смаків італійської кухні.",
         description03: "Завдяки високій якості і свіжості інгредієнтів, &#171Rosso Gargano - Passata Di Puglia&#187 гарантує Вам італійський смак прямо вдома.",
@@ -496,7 +496,7 @@ export const shopLotsSauces = [
         description05: "Замовте томатний соус &#171Rosso Gargano - Passata Di Puglia&#187 та насолоджуйтеся найкращими смаками Італії. Погрузьтеся в атмосферу справжньої італійської кухні та даруйте собі насолоду!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_basilico_690.jpg",
@@ -512,8 +512,8 @@ export const shopLotsSauces = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "690 гр.",
-        priceGRN: 81,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 95,
         description01: "Зупиніться на мить і відчуйте томатний соус з базиліком &#171Rosso Gargano - Passata Di Puglia Basilico&#187, який вражає своєю неперевершеною якістю та аутентичним італійським смаком.",
         description02: "Цей соус створений з найсвіжіших томатів Пульї, доповнений ароматним базиліком. Збережений у скляній банці, він готовий додати смак італійського сонця до вашого столу.",
         description03: "Бажаєте насолоджуватися справжньою італійською кулінарією вдома? &#171Rosso Gargano - Passata Di Puglia Basilico&#187 робить кожну страву неперевершеною, розкриваючи вишуканість італійського смаку.",
@@ -546,7 +546,7 @@ export const shopLotsSauces = [
     //     description05: "Приготуйте смачні італійські страви та пориньте у смаковий світ Італії разом з томатним соусом &#171Santa Rosa - Pomodorissimo La Passata&#187!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/o_sole_e_napule_la_passata_classica_680.jpg",
@@ -564,8 +564,8 @@ export const shopLotsSauces = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "680 гр.",
-        priceGRN: 95,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 96,
         description01: "Томатний соус &#171O Sole E Napule - La Passata Classica&#187 - це справжня італійська класика на Вашій кухні.",
         description02: "Виготовлений з добірних стиглих томатів, він має ніжну текстуру та насичений природний смак без зайвих добавок.",
         description03: "&#171O Sole E Napule - La Passata Classica&#187 ідеально підходить для приготування соусів, пасти, піци та інших традиційних страв, зберігаючи автентичний італійський аромат.",
