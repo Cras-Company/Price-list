@@ -50,7 +50,7 @@ export const shopLotsSeasonings = [
     //     description05: "Спробуйте &#171Lucullus - Mézes-Csípős Csirkeszárny Fűszersó&#187 вже сьогодні і дайте своїм стравам справжній аромат та смак!"
     // },
         {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/rmix_przyprawa_uniwersalna.jpg",
@@ -68,8 +68,8 @@ export const shopLotsSeasonings = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "850 гр.",
-        priceGRN: 64,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 72,
         description01: "&#171Rmix - Przyprawa Uniwersalna&#187 - це незамінна приправа для всіх любителів вишуканого смаку. Вона стане вашим найкращим помічником на кухні та додасть особливий аромат і смак вашим стравам. Ця універсальна приправа включає у себе ідеально збалансовану суміш спецій та сушених овочів, які підкреслять смак будь-якої страви.",
         description02: "З &#171Rmix - Przyprawa Uniwersalna&#187 Ви зможете легко приготувати смачні супи, гарніри, м'ясні та рибні страви, а також салати. Її використання додасть гармонійний смак і аромат вашим улюбленим стравам, зробивши кожен прийом їжі особливим.",
         description03: "Не втрачайте можливості розширити свій кулінарний арсенал!",
@@ -102,7 +102,7 @@ export const shopLotsSeasonings = [
         description05: "Спробуйте неперевершену солодку приправу &#171Univer - Gulyáskrém Сsemege&#187 вже сьогодні та пориньте у світ смаку та ароматів Угорщини!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csipos_160.jpg",
@@ -118,8 +118,8 @@ export const shopLotsSeasonings = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "160 гр.",
-        priceGRN: 63,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 66,
         description01: "&#171Univer - Gulyáskrém Сsípős&#187 - це справжня насолода для шанувальників гострого смаку. Ця приправа перетворить ваші страви в справжні шедеври з глибоким ароматом та додатковою гостротою.",
         description02: "Склад цієї приправи включає у себі найкращі інгредієнти: паприка, гострий перець, червона цибуля, помідори, кмин та спеції. Вона ідеально підходить для приготування гуляшу, бограчу, страв з м'яса та супів.",
         description03: "Зручний тюбік дозволяє додавати приправу з легкістю. Інтенсивний смак гострої приправи &#171Univer - Gulyáskrém Сsípős&#187 подарує вам незабутній смаковий досвід.",
