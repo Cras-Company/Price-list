@@ -1,6 +1,6 @@
 export const shopLotsMoistureAbsorbers = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_carboni_attive_di_bamboo_400.jpg",
@@ -20,8 +20,8 @@ export const shopLotsMoistureAbsorbers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 88,
         description01: "Ефективний поглинач вологи з активованим бамбуковим вугіллям &#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187 створений, щоб боротися з надмірною вологістю та усувати неприємні запахи.",
         description02: "Завдяки природним властивостям бамбукового вугілля, він швидко абсорбує зайву вологу, запобігаючи утворенню плісняви та конденсату.",
         description03: "&#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187 легкий у використанні та безпечний для будь-яких приміщень, зберігає свіжість у шафах, коморах та автомобілях, даруючи приємний мікроклімат.",
@@ -79,7 +79,7 @@ export const shopLotsMoistureAbsorbers = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 109,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Inodore 2 in 1&#187 забезпечує свіжість і комфорт у Вашому домі.",
         description02: "Він ефективно бореться з підвищеною вологістю, запобігаючи утворенню конденсату та затхлого запаху.",
         description03: "Компактний і без ароматизаторів, &#171Irge - Deumidificatore Inodore 2 in 1&#187 підходить для будь-яких приміщень, не порушуючи природного мікроклімату.",
