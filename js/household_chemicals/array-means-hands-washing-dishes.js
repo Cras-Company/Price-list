@@ -513,7 +513,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте засіб для миття посуду &#171Gallus - Spülmittel - Minze Duft Mit Aloe Vera Extract&#187 вже сьогодні і зробіть кожне миття посуду справжнім задоволенням!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/gallus_spulmittel_zitornen_aloe_850.jpg",
@@ -531,8 +531,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "850 мл.",
-        priceGRN: 92,
-        priceGRNOpt: 82,
+        priceGRN: "--",
+        priceGRNOpt: 92,
         description01: "Ваш посуд сяятиме чистотою, як ніколи раніше, завдяки засобу &#171Gallus - Spülmittel - Zitronen Duft Mit Aloe Vera Extract&#187 з ароматом лимона та екстрактом алое вера.",
         description02: "Цей унікальний продукт не тільки ефективно видаляє жир і забруднення, але й наповнює Вашу кухню свіжим лимонним ароматом, залишаючи Ваші руки зволоженими та доглянутими завдяки алое вера.",
         description03: "Насолоджуйтесь миттям посуду, знаючи, що Ваші тарілки, чашки та каструлі завжди будуть бездоганно чистими та блискучими завдяки &#171Gallus - Spülmittel - Zitronen Duft Mit Aloe Vera Extract&#187.",
