@@ -328,7 +328,7 @@ export const shopLotsStainRemovers = [
     //     description05: "Пориньте у світ бездоганно чистого одягу з &#171Ariel - Fleckenentferner&#187 і забудьте про плями назавжди!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/at_home_clean_stain_remover_color_1kg.jpg",
@@ -348,8 +348,8 @@ export const shopLotsStainRemovers = [
         countryName: "Нідерланди",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 129,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 133,
         description01: "Забруднені речі більше не проблема з кисневим плямовивідником для кольорових речей &#171at home Wash - Oxygen Stain Remover Color&#187.",
         description02: "Цей потужний засіб дбайливо видаляє навіть найскладніші плями, зберігаючи яскравість кольорів.",
         description03: "Активна формула &#171at home Wash - Oxygen Stain Remover Color&#187 забезпечує глибоке очищення, не пошкоджуючи тканину.",
