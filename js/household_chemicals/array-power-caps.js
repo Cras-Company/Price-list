@@ -87,7 +87,7 @@ export const shopLotsPowerCaps = [
         description05: "Виберіть &#171Ariel - All in 1 PODS Color&#187 прямо зараз і відкрийте для себе бездоганну якість прання, яка збереже кольори вашого одягу на довгі роки!"
     },
     {
-        type: "wholesale",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_mountain_spring_63.jpg",
@@ -107,8 +107,8 @@ export const shopLotsPowerCaps = [
         countryName: "Італія",
         quantityName: "Кількість",
         quantity: "63 шт.",
-        priceGRN: 825,
-        priceGRNOpt: 735,
+        priceGRN: "--",
+        priceGRNOpt: 825,
         description01: "Капсули для прання &#171Ariel - All in 1 PODS Mountain Spring&#187 дарують вашому одягу неймовірну свіжість гірської весни.",
         description02: "Їх потужна формула ефективно видаляє бруд та плями, забезпечуючи бездоганну чистоту після кожного прання.",
         description03: "Крім того, капсули &#171Ariel - All in 1 PODS Mountain Spring&#187 дбайливо зберігають структуру тканин і кольори, роблячи речі м'якими та приємними на дотик.",
@@ -143,7 +143,7 @@ export const shopLotsPowerCaps = [
         description05: "Зробіть вибір на користь універсального рішення &#171Ariel - Pods Mit Starker Fleckentfernung&#187, яке забезпечує професійний результат вдома!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_pods_frescor_sensaciones_40.jpg",
@@ -165,8 +165,8 @@ export const shopLotsPowerCaps = [
         countryName: "Італія",
         quantityName: "Кількість",
         quantity: "40 шт.",
-        priceGRN: 595,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 595,
         description01: "Пральні капсули &#171Ariel - Pods Frescor Sensaciones&#187 забезпечують Вашому одягу неймовірну свіжість, яка залишається з Вами на довго.",
         description02: "Завдяки інноваційній формулі, вони ефективно видаляють навіть найскладніші плями, зберігаючи кольори яскравими.",
         description03: "Кожна капсула &#171Ariel - Pods Frescor Sensaciones&#187 створена для глибокого очищення тканин, одночасно даруючи відчуття свіжості після кожного прання.",
