@@ -1989,7 +1989,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Купуйте G&#171Gallus - Kalk-Reiniger&#187 зараз і насолоджуйтеся ідеально чистими поверхнями без зусиль!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/gallus_kuchen_reiniger_750.jpg",
@@ -2007,8 +2007,8 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 124,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 124,
         description01: "Забезпечте ідеальну чистоту на вашій кухні з &#171Gallus - Küchen-Reiniger&#187 - універсальний засіб для чищення, який ефективно видаляє жир та бруд з будь-яких поверхонь.",
         description02: "Має потужну формулу, яка легко розчиняє навіть найстійкіший жир. Безпечно використовуйте його на плитах, витяжках, стільницях та інших кухонних поверхнях.",
         description03: "Уявіть собі кухню, де немає жирних плям і бруду. З  &#171Gallus - Küchen-Reiniger&#187 Ваша кухня завжди буде чистою та свіжою, готовою до приготування смачних страв.",
