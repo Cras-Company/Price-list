@@ -551,7 +551,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Замовте &#171Lavazza - Oro Perfect Symphony&#187 прямо зараз та насолоджуйтеся келихом італійського еспресо, який осяє елегантністю та смаком!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_oro_perfect_250.jpg",
@@ -575,8 +575,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 219,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 219,
         description01: "Відкрийте перлину італійського смаку з кавою &#171Lavazza - Oro Perfect Symphony&#187. Це не просто напій, а подорож у світ вишуканості та вишуканого смаку.",
         description02: "Розкрийте багатий аромат та насичений смак зерен - це танець ароматів та насолоди. Спробуджуючи Ваші смакові почуття, кава розкриває неповторний букет смакових відтінків.",
         description03: "Бажаєте витонченої кавової естетики? &#171Lavazza - Oro Perfect Symphony&#187 створена для тих, хто цінує вишуканий смак та глибокий аромат у кожній краплі.",

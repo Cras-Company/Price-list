@@ -25,7 +25,7 @@ export const shopLotsTarhona = [
         description05: "Створіть на своїй кухні справжні кулінарні шедеври з &#171Combino - Tarhoňa&#187 та пориньте у світ угорської кухні!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/csaszar_dorzstarhonya_250.jpg",
@@ -41,8 +41,8 @@ export const shopLotsTarhona = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 49,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 55,
         description01: "&#171Császár - Dörzstarhonya&#187 - це справжній шедевр кулінарії. Кожен шматочок виготовлений із відбірного борошна, що гарантує Вам неймовірну текстуру та чудовий смак.",
         description02: "Стане відмінним доповненням до будь-якої страви. Її рвана структура не лише приваблює погляд, але і відмінно утримує будь-який соус, даруючи кожному кушту вишуканість та насиченість.",
         description03: "&#171Császár - Dörzstarhonya&#187 виготовляється за старовинними рецептами та з використанням передових технологій для забезпечення Вам продукту вищого стандарту.",

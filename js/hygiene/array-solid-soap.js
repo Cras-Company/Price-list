@@ -351,7 +351,7 @@ export const shopLotsSolidSoap = [
         description05: "Придбайте &#171Gallus - Creme Seife Beauty Soap Lux Pearl&#187 вже сьогодні і подаруйте своїй шкірі справжню розкіш кожного дня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_olive_90.jpg",
@@ -369,8 +369,8 @@ export const shopLotsSolidSoap = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "90 гр.",
-        priceGRN: 27,
-        priceGRNOpt: 24,
+        priceGRN: "--",
+        priceGRNOpt: 35,
         description01: "Тверде мило &#171Gallus - Creme Seife Beauty Soap Olive&#187 з оливковою олією — це Ваш ідеальний вибір для м'якого і ніжного очищення шкіри.",
         description02: "Його унікальна формула з оливковою олією живить і зволожує шкіру, роблячи її шовковистою і гладенькою.",
         description03: "Мило &#171Gallus - Creme Seife Beauty Soap Olive&#187 ефективно видаляє забруднення, зберігаючи природний баланс вологості та захищаючи шкіру від сухості.",

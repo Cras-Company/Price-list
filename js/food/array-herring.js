@@ -27,7 +27,7 @@ export const shopLotsHerring = [
         description05: "Створіть витончені страви з філе оселедця &#171Marinero - Filety Śledziowe W Oleju Roślinnym&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",       
         url: "./images/shop/food/canned_food/herring/marinero_sledz_w_sosie_pomidorowym_170.jpg",
@@ -45,8 +45,8 @@ export const shopLotsHerring = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 59,
-        priceGRNOpt: 53,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171Marinero - Śledź W Sosie Pomidorowym&#187 - це справжня експлозія смаку і багатства корисних речовин. Кожен шматочок оселедця насичений ароматом і ніжністю, а томатний соус додає пікантності, роблячи цей продукт ідеальним додатком до вашого столу.",
         description02: "Оселедець - відоме джерело білка, Омега-3 кислот та вітаміну D. Тому це високоякісний продукт, який надає Вам можливість насолоджуватися не тільки смаком, але й користью для вашого здоров'я.",
         description03: "У &#171Marinero - Śledź W Sosie Pomidorowym&#187 використовуються тільки найсвіжіші оселедці та відібрані інгредієнти для створення неповторного смаку. Цей продукт - втілення якості та гастрономічного задоволення.",

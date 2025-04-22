@@ -125,7 +125,7 @@ export const shopLotsPates = [
         description05: "Не вагайтесь спробувати &#171Hamé - Nátierka Z Bravčového Mäsa&#187 і насолоджуйтесь неперевершеним смаком і ароматом кожного дня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/pates/hame_tongalas_pastetom_100.jpg",
@@ -141,8 +141,8 @@ export const shopLotsPates = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "100 гр.",
-        priceGRN: 55,
-        priceGRNOpt: 50,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Hamé - Tonhalas Pástétom Omega-3&#187 - це чудовий взірець поєднання смаку та користі для здоров'я. Він виготовлений з найкращого тунця, що забезпечує яскравий і неперевершений смак, який одразу Вас вразить.",
         description02: "Цей паштет чудово підходить для сендвічів, крекерів та страв як солодкого, так і солоного смаку. Однією з ключових переваг цього продукту є вміст Omega-3 жирних кислот, які відомі своєю користю для серця та судин, а також сприяють загальному зміцненню здоров'я.",
         description03: "Завдяки &#171Hamé - Tonhalas Pástétom Omega-3&#187, Ви можете насолоджуватися не тільки вишуканим смаком, але і піклуватися про себе. Ідеальний вибір для тих, хто прагне поєднати смак та здоров'я в одному продукті.",
