@@ -1,6 +1,6 @@
 export const shopLotsPeanuts = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/alesto_peanuts_roasted_salted_500.jpg",
@@ -16,8 +16,8 @@ export const shopLotsPeanuts = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 107,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 116,
         description01: "&#171Alesto - Peanuts Roasted & Salted&#187 - це вишукана закуска, що вражає вас своєю смаковою глибиною. Кожен арахіс ретельно обсмажується для досягнення ідеальної хрусткої текстури і надзвичайно смаку.",
         description02: "&#171Alesto&#187 виводить арахіс на новий рівень, роблячи його відмінним смаковим додатком до вашого дня. Ці обсмажені і посолені арахіси - це ідеальна закуска для вечірнього відпочинку, спортивних заходів або просто задоволення своїх смакових прагнень.",
         description03: "Коли Ви обираєте &#171Alesto - Peanuts Roasted & Salted&#187, Ви обираєте якість та справжню природню насолоду. Завдяки їх багатому смаку та корисним властивостям, Ви можете насолоджуватися  арахісом з повним переконанням у їхній якості.",
@@ -196,7 +196,7 @@ export const shopLotsPeanuts = [
         weightName: "Вага",
         weight: "500 гр.",
         priceGRN: 107,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "&#171Soltino - Roasted Salted Peanuts&#187 - це вишукане джерело задоволення для справжніх гурманів. Кожний горішок обпалений до досконалості та приправлений натуральною сіллю, що надає йому виразного смаку та аромату. Цей арахіс - ідеальний вибір для ваших вечірок.",
         description02: "Він не лише вражає смаком, але і має велику користь для здоров'я: багатий білком, важливими мінералами та вітамінами.",
         description03: "&#171Soltino - Roasted Salted Peanuts&#187 виготовляється із найкращих якісних інгредієнтів, що гарантують безпеку та якість кожного горішка.",
