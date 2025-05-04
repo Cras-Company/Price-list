@@ -54,7 +54,7 @@ export const shopLotsForWindows = [
         description05: "Додайте &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 до свого арсеналу засобів для прибирання і насолоджуйтесь бездоганною чистотою!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_windows/gallus_glas-reineger_green_1l.jpg",
@@ -73,7 +73,7 @@ export const shopLotsForWindows = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 102,
-        priceGRNOpt: 91,
+        quantityOnStorage: 5,
         description01: "Представляємо &#171Gallus - Glas-Reiniger 3 in 1&#187, який робить вікна та дзеркала блискучими.",
         description02: "Його потужна формула ефективно видаляє бруд, пил і відбитки пальців, залишаючи приємний аромат свіжого зеленого яблука.",
         description03: "Хочете, щоб Ваші вікна та дзеркала завжди були кришталево чистими і приємно пахли? &#171Gallus - Glas-Reiniger 3 in 1&#187 здійснить це бажання, забезпечуючи ідеальну чистоту та аромат.",
@@ -81,7 +81,7 @@ export const shopLotsForWindows = [
         description05: "Просто розпиліть &#171Gallus - Glas-Reiniger 3 in 1&#187 на поверхню та насолоджуйтесь сяючою чистотою і свіжим ароматом!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_windows/gallus_glas-reineger_blue_1l.jpg",
@@ -99,8 +99,8 @@ export const shopLotsForWindows = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 102,
-        priceGRNOpt: 91,
+        priceGRN: "--",
+        priceGRNOpt: 124,
         description01: "Представляємо засіб для вікон та дзеркал &#171Gallus - Glas-Reiniger 3 in 1&#187 з неперевершеним ароматом морського бризу. Ваші вікна та дзеркала сяятимуть чистотою та свіжістю!",
         description02: "Цей засіб не лише ефективно видаляє забруднення, але й захищає поверхні від нових плям та пилу. Його унікальна формула гарантує довготривалу чистоту та блиск.",
         description03: "Уявіть, як Ваші вікна та дзеркала будуть виглядати ідеально чистими, а у Вашому домі пануватиме приємний аромат свіжого морського бризу. З  &#171Gallus - Glas-Reiniger 3 in 1&#187 це можливо!",
