@@ -326,7 +326,7 @@ export const shopLotsForFurniture = [
         description05: "Спробуйте &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 і перетворіть свої килими на ідеально чисті та доглянуті!"
     },
     {
-        type: "wholesale оптом оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/gallus_mobel_pflege_750.jpg",
@@ -345,7 +345,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 124,
-        priceGRNOpt: 113,
+        quantityOnStorage: 1,
         description01: "Представляємо засіб для меблів &#171Gallus - Möbel-Pflege&#187, який перетворить меблі на справжні шедеври. Забудьте про пил та плями!",
         description02: "Цей засіб не лише очищує, але й доглядає за поверхнями, відновлюючи їхній природний блиск та захищаючи від подальших забруднень. Ідеально підходить для всіх типів деревини.",
         description03: "Уявіть собі Ваші меблі, які виглядають як нові, з природним блиском та захистом від пилу. &#171Gallus - Möbel-Pflege&#187 зробить Ваш дім ще затишнішим та привабливішим.",

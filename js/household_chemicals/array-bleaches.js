@@ -267,7 +267,7 @@ export const shopLotsBleaches = [
         description05: "Обирайте &#171Ace - Gentile Fresco Profumo Candeggina Per Colorati&#187 для бездоганної чистоти та приємного аромату!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/ace_gentile_lavanda_e_muschio_bianco_2.3.jpg",
@@ -285,8 +285,8 @@ export const shopLotsBleaches = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2.3 л.",
-        priceGRN: 188,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 266,
         description01: "&#171Ace - Gentile Lavanda E Muschio Blanco Candeggina Per Colorati&#187 – Ваш секрет чистого та яскравого одягу без компромісів.",
         description02: "Активний кисень у складі цього засобу ефективно видаляє плями, зберігаючи насиченість кольорів, а аромат лаванди і білого мускусу дарує відчуття свіжості з кожним пранням.",
         description03: "З &#171Ace - Gentile Lavanda E Muschio Blanco Candeggina Per Colorati&#187 Ваш одяг завжди виглядатиме, як новий, а легкий аромат залишатиметься з Вами надовго.",
