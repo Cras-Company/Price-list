@@ -637,7 +637,7 @@ export const shopLotsSofteners = [
         description05: "Відчуйте елегантність та свіжість з ополіскувачем &#171Felce Azzurra - Original&#187 вже сьогодні!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_pure_freshness_40.jpg",
@@ -656,7 +656,7 @@ export const shopLotsSofteners = [
         volumeName: "Об'єм",
         volume: "2 л.",
         priceGRN: 264,
-        priceGRNOpt: 225,
+        quantityOnStorage: 1,
         description01: "Ополіскувач з ароматом свіжості &#171Felce Azzurra - Pure Freshness&#187 - Ваш новий засіб для створення атмосфери чистоти та комфорту у Вашому домі.",
         description02: "Його особлива формула забезпечить білизну не тільки чудовим ароматом свіжості, але й захистить тканини від пошкоджень та забруднень.",
         description03: "Подаруйте своїй білизні ніжний аромат і бездоганну чистоту, якою вона заслуговує, завдяки ополіскувачу &#171Felce Azzurra - Pure Freshness&#187.",
