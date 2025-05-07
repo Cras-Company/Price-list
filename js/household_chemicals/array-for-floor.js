@@ -54,7 +54,7 @@ export const shopLotsForFloor = [
         volumeName: "Об'єм",
         volume: "5 л.",
         priceGRN: 323,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "&#171Ace - Candeggina Classica&#187 – це класичний вибір для бездоганної білизни та гігієни у Вашому домі. ",
         description02: "Цей відбілювач не тільки ефективно видаляє плями, але й дезінфікує Ваші речі, забезпечуючи максимальну чистоту та безпеку.",
         description03: "Завдяки потужній формулі &#171Ace - Candeggina Classica&#187, навіть найстійкіші забруднення зникають, залишаючи Ваші речі сяючими білизною.",
