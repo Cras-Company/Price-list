@@ -313,7 +313,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Додайте кульки &#171Irge - Palla Magica Cattura Capelli E Pelucchi&#187 до кожного прання чи сушіння для бездоганної чистоти Вашого одягу."
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/w5_washing_machine_cleaner_4_in_1_250.jpg",
@@ -334,7 +334,7 @@ export const shopLotsMeansCleaningDishwashers = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 90,
-        priceGRNOpt: 81,
+        quantityOnStorage: 2,
         description01: "Спробуйте новий засіб для чищення пральної машини з цитрусовим ароматом &#171W5 - Washing Machine Cleaner 4 in 1 Fresh Citrus Fragrance&#187.",
         description02: "Ефективна формула дезінфікуючого засобу забезпечує глибоке очищення, видаляючи залишки миючих засобів та накип.",
         description03: "Цитрусовий аромат &#171W5 - Washing Machine Cleaner 4 in 1 Fresh Citrus Fragrance&#187 залишає приємний запах свіжості, а Ваша пральна машина працює ефективніше та довше.",
