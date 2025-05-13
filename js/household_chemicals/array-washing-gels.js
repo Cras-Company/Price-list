@@ -621,7 +621,7 @@ export const shopLotsWashingGels = [
         description05: "Збережіть свіжість і бездоганний вигляд свого спортивного одягу з &#171Gallus - Vollwaschmittel Sport Gel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_universal_gel_2l.jpg",
@@ -639,8 +639,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 192,
-        priceGRNOpt: 176,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "&#171Gallus - Vollwaschmittel Universal Gel&#187 - це концентрований гель для універсального прання, ідеальний вибір для всіх типів тканин та різних кольорів. Цей потужний інноваційний засіб має активні ферменти, які ефективно борються зі всіма видами забруднень, навіть з найскладнішими плямами.",
         description02: "Спеціальна формула гелю зберігає інтенсивність кольорів та забезпечує бездоганну чистоту вашого одягу. Ви зможете насолоджуватись чистотою та свіжістю вашого одягу після кожного прання.",
         description03: "&#171Gallus - Vollwaschmittel Universal Gel&#187 зробить прання легким та ефективним. Ваш одяг буде надовго виглядати новим та залишатиметься м'яким та приємним на дотик.",
