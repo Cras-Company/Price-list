@@ -181,7 +181,7 @@ export const shopLotsHandCremes = [
         volumeName: "Об'єм",
         volume: "50 мл.",
         priceGRN: 69,
-        quantityOnStorage: 5,
+        quantityOnStorage: 1,
         description01: "Концентрат для рук &#171Ombia - Hand Concentrate For Dry & Heavily Stressed Hands&#187 забезпечує миттєве зволоження і захист для сухих та напружених рук.",
         description02: "Його інтенсивна формула проникає глибоко, пом'якшуючи шкіру та відновлюючи її природний бар’єр.",
         description03: "Завдяки активним компонентам, концентрат &#171Ombia - Hand Concentrate For Dry & Heavily Stressed Hands&#187 знімає відчуття стягнутості та дискомфорту, повертаючи шкірі м'якість та еластичність.",
