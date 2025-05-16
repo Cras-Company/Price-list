@@ -1,6 +1,6 @@
 export const shopLotsCappuccino = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_amaretto_1kg.jpg",
@@ -22,8 +22,8 @@ export const shopLotsCappuccino = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 263,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 283,
         description01: "Запрошуємо Вас на смакову подорож із капучино &#171Hearts - Cappuccino Amaretto&#187. Насолоджуйтесь неповторною комбінацією ароматного кавового напою та ніжного амаретто.",
         description02: "Унікальна рецептура забезпечить Вам насичений смак та неповторні відчуття. Амаретто додає відтінки мигдалю, роблячи цей капучино справжньою витонченістю.",
         description03: "Спогади про смак італійського амаретто розцвітають у кожному ковтку &#171Hearts - Cappuccino Amaretto&#187, роблячи Вас прагнучими пережити це знову та знову.",
@@ -62,7 +62,7 @@ export const shopLotsCappuccino = [
         description05: "Приготуйте власні миті насолоди – замовте зараз &#171Hearts - Cappuccino Irish Cream&#187 і дозвольте собі насолодитися бездоганним смаком!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_karamell_1kg.jpg",
@@ -84,8 +84,8 @@ export const shopLotsCappuccino = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 263,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 283,
         description01: "Спробуйте неперевершений &#171Hearts - Cappuccino Karamell&#187 - ідеальний напій для тих, хто цінує справжній смак.",
         description02: "Цей ароматний капучино вражає не лише своєю кавовою основою, але і ніжною карамельною нотою, яка робить його неперевершеним.",
         description03: "Пориньте у світ задоволення, де кожен ковток &#171Hearts - Cappuccino Karamell&#187 викликає бажання відкривати нові смакові грані.",
@@ -116,7 +116,7 @@ export const shopLotsCappuccino = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: "--",
-        priceGRNOpt: 263,
+        priceGRNOpt: 283,
         description01: "&#171Hearts - Cappuccino Mit Feiner Kakaonote&#187 - справжнє втілення насолоди кавовими враженнями.",
         description02: "Цей напій вражає вишуканим поєднанням ніжності капучино та насиченого смаку і аромату вишуканого какао.",
         description03: "Призначений для тих, хто цінує елегантність смаку, &#171Hearts - Cappuccino Mit Feiner Kakaonote&#187 розкриває бажання насолоджуватися кожним ковтком.",

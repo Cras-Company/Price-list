@@ -183,7 +183,7 @@ export const shopLotsOlives = [
         description05: "Замовте зараз &#171Helcom - Oliwki Zielone Drylowane&#187 і насолоджуйтесь ідеальним поєднанням смаку та користі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_black_350.jpg",
@@ -203,8 +203,8 @@ export const shopLotsOlives = [
         countryName: "Іспанія",
         weightName: "Вага",
         weight: "350 гр.",
-        priceGRN: 75,
-        priceGRNOpt: 69,
+        priceGRN: "--",
+        priceGRNOpt: 85,
         description01: "&#171Hutesa - Olive Pitted&#187 - це чиста екзотика, яка стане справжньою прикрасою вашого столу і часу для вишуканого смаку.",
         description02: "Ці оливки вражають своєю насиченістю та вишуканістю смаку, виносячи ваші кулінарні експерименти на новий рівень. Вони ідеально підходять для закусок, салатів чи просто як додаток до ваших улюблених страв.",
         description03: "Бажаєте відчути той справжній іспанський аромат і смак? Чорні оливки &#171Hutesa - Olive Pitted&#187 гарантують Вам неперевершену якість і надзвичайний гастрономічний досвід, щоб ваші кулінарні фантазії стали реальністю.",

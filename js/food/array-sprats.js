@@ -195,7 +195,7 @@ export const shopLotsSprats = [
         description05: "Замовте копчені шпроти у томатному соусі &#171M & K - Szproty Wedzone W Sosie Pomidorowym&#187 зараз і відкрийте для себе світ аутентичних смакових вражень!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/pirat_winter_sprats_160.jpg",
@@ -215,8 +215,8 @@ export const shopLotsSprats = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "160 гр.",
-        priceGRN: 56,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 76,
         description01: "Кожен шматочок &#17Pirat - Winter Sprats&#187 - це джерело білка та вітамінів, які роблять цей продукт не тільки смачним, але і корисним для вашого здоров'я.",
         description02: "Ці шпроти - це справжній дегустаційний діамант. Їх димчастий смак і неповторний аромат подарують Вам враження від подорожі на захоплюючий світ морських смаків.",
         description03: "&#17Pirat - Winter Sprats&#187 виробляються з найкращих інгредієнтів, щоб подарувати Вам смак природи і морської свободи.",

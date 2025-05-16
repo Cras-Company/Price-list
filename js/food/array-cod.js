@@ -50,7 +50,7 @@ export const shopLotsCod = [
         description05: "Насолоджуйтеся кулінарною магією морського смаку не виходячи зі свого дому разом з &#171Juor - Wątróbka Dorszowa W Tłuszczu Własnym&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/cod/king_oscar_watrobki_z_dorsza_115.jpg",
@@ -68,8 +68,8 @@ export const shopLotsCod = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "115 гр.",
-        priceGRN: 77,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 87,
         description01: "Печінка тріски &#171King Oscar - Wątróbki Z Dorsza W Tłuszczu Własnym OMEGA-3&#187 – це натуральний продукт, збагачений цінними жирними кислотами ОМЕГА-3, що підтримують здоров'я серця і мозку.",
         description02: "Ця печінка у власному соку, що зберігає її природний смак і текстуру, роблячи її ідеальним інгредієнтом для вишуканих страв.",
         description03: "Корисні властивості печінки тріски &#171King Oscar - Wątróbki Z Dorsza W Tłuszczu Własnym OMEGA-3&#187 сприяють загальному зміцненню організму, надаючи необхідні поживні речовини та вітаміни.",
