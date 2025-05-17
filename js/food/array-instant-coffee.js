@@ -100,7 +100,7 @@ export const shopLotsInstantCoffee = [
         description05: "Не вагайтеся, замовте &#171Cafe D`Or - Gold Export&#187 прямо зараз та пориньте у світ аромату та смаку цієї видатної розчинної кави."
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/instant_coffee/cafe_d`Or_o_poranku_300.jpg",
@@ -116,8 +116,8 @@ export const shopLotsInstantCoffee = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "300 гр.",
-        priceGRN: 215,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "&#171Cafe D`Or - O Poranku&#187 - це розчинна кава, створена, щоб розпочати ранок зі смаком і насолодою. Ця унікальна суміш складається з 30% кави, 70% цільнозернових зерен та цикорію, які підбираються з особливою увагою до якості.",
         description02: "Кава має виразний та насичений букет ароматів, з яскравими нотками шоколаду та горіхів, які доповнюють цитрусові відтінки цикорію. Миттєво підніме ваш настрій і зарядить енергією на цілий день.",
         description03: "Завдяки зручному пакуванню, Ви завжди зможете насолоджуватися смаком &#171Cafe D`Or - O Poranku&#187 у будь-який час і у будь-якому місці. Почніть свій день зі справжньою радістю та смаком.",
