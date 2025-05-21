@@ -162,7 +162,7 @@ export const shopLotsWashingGels = [
     //     description05: "Замовте прямо зараз &#171Chanteclair - Lavatrice Lavanda&#187 та насолоджуйтесь чистотою та свіжістю вашого одягу, даруючи йому неповторний аромат лаванди!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_profumato_35.jpg",
@@ -180,8 +180,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1575 мл.",
-        priceGRN: 329,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 329,
         description01: "Гель &#171Chanteclair - Lavatrice Marsiglia Extra Profumato Con Sgrassatore&#187 з ароматом марсельського мила наповнює Ваш одяг неповторною свіжістю та чистотою.",
         description02: "Його універсальна формула ефективно видаляє жир і бруд, залишаючи речі бездоганно чистими навіть при низьких температурах.",
         description03: "&#171Chanteclair - Lavatrice Marsiglia Extra Profumato Con Sgrassatore&#187 забезпечує тривалу свіжість та делікатний аромат, який залишається на одязі надовго.",
