@@ -837,7 +837,7 @@ export const shopLotsWashingGels = [
         description05: "Повірте, ваші речі будуть сяяти чистотою після кожного прання! Зробіть вашу білизну бездоганною з &#171Gallus - Weisswaschmittel White Gel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_1.98l.jpg",
@@ -856,7 +856,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1.98 л.",
         priceGRN: 192,
-        priceGRNOpt: 173,
+        quantityOnStorage: 1,
         description01: "Представляємо вам засіб для кольорового прання - &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187. Цей концентрований продукт поєднує у собі чотири функції одночасно: технологія глибокого очищення, комплекс активних компонентів, свіжість та безфосфатність.",
         description02: "Його потужна формула проникає глибоко у тканини, забезпечуючи ефективний догляд і неймовірний результат. Зберігайте яскравість вашого одягу вже сьогодні!",
         description03: "Спробуйте &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 та відчуйте різницю у догляді за своїми речами. Насолоджуйтеся заощадженним часом, та впевненістю у якості вашого одягу навіть при низьких температурах прання.",
@@ -864,7 +864,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_1.98l.jpg",
@@ -882,8 +882,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1.98 л.",
-        priceGRN: 192,
-        priceGRNOpt: 173,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "Познайомтеся з інноваційним рішенням - &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187! Цей концентрований засіб перетворює процес прання у незабутній досвід. Він об'єднує чотири функції: технологія глибокого очищення, комплекс активних компонентів, свіжість та безфосфатність.",
         description02: "Його унікальна формула допомагає зберегти кольори та тканини у найкращому стані, навіть після багатьох прань. Чистота вашого одягу відчутно покращиться завдяки високоактивним компонентам, які дбайливо долають забруднення.",
         description03: "Замовте його вже сьогодні і отримайте дивовижну якість прання, яка залишить ваш одяг сяючим та свіжим навіть при низьких температурах.",
