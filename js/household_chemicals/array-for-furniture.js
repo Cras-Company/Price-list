@@ -290,7 +290,7 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 237,
+        priceGRN: 240,
         quantityOnStorage: 6,
         description01: "Засіб &#171Dr. Beckmann - Polster Flecken-Bürste&#187 з активним киснем легко видаляє плями з оббивки меблів, матраців та автосидінь, повертаючи їм бездоганний вигляд.",
         description02: "Свіжі та чисті меблі – це те, що додає Вашому інтер’єру елегантності та комфорту.",
