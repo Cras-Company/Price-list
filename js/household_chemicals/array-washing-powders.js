@@ -509,7 +509,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_weiss_10.jpg",
@@ -527,8 +527,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "650 гр.",
-        priceGRN: 55,
-        priceGRNOpt: 49,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "Вам потрібен порошок, щоб зберегти білість вашого одягу? Представляємо ідеальне рішення - &#171Gallus - Weisswaschmittel&#187.",
         description02: "Цей порошок має спеціальну формулу, яка ефективно видаляє навіть найскладніші плями і зберігає білість вашого одягу, забезпечуючи йому довговічність.",
         description03: "Завдяки порошку &#171Gallus - Weisswaschmittel&#187 ваш одяг завжди буде виглядати як новий.",

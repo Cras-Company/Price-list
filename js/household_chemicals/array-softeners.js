@@ -386,7 +386,7 @@ export const shopLotsSofteners = [
         description05: "Додайте до Вашого прання нотки розкоші з ополіскувачем &#171Coccolino - Silk Lily&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_sensitive_1700.jpg",
@@ -406,7 +406,7 @@ export const shopLotsSofteners = [
         countryName: "Нідерланди",
         volumeName: "Об'єм",
         volume: "1700 мл.",
-        priceGRN: 210,
+        priceGRN: "--",
         priceGRNOpt: 180,
         description01: "&#171Coccolino - Sensitive & Soft&#187 - гіпоалергенний ополіскувач для найбільш чутливих та ніжних відчуттів, який дбає про Ваші речі та шкіру.",
         description02: "Ідеальне поєднання ефективності та ніжності. Спеціально створений для тих, хто стежить за своїм здоров'ям, ополіскувач робить Ваші речі неймовірно м'якими, при цьому бережучи чутливу шкіру.",
