@@ -159,7 +159,7 @@ export const shopLotsLaundrySheets = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "6 шт.",
-        priceGRN: 135,
+        priceGRN: 143,
         quantityOnStorage: 12,
         description01: "Відкрийте для себе пральні серветки &#171Dr. Beckmann - Intensiv-Schwarz Tücher 3 in 1&#187, які відновлюють інтенсивний чорний колір Вашого одягу!",
         description02: "Ці серветки спеціально розроблені для збереження насиченості чорного кольору, запобігаючи вицвітанню та зберігаючи первинну глибину відтінку.",

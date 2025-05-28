@@ -1335,7 +1335,7 @@ export const shopLotsForWC = [
         description05: "Насолодіться чистотою і легкістю догляду з гелем &#171W5 - WC Gel With Applicator Lemon 3X Power&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/w5_wc_gel_with_applicator_ocean_75.jpg",
@@ -1353,8 +1353,8 @@ export const shopLotsForWC = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "75 мл.",
-        priceGRN: 168,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 150,
         description01: "Гель для туалету &#171W5 - WC Gel With Applicator Ocean 3X Power&#187 із свіжістю океану перетворить Ваш туалет на оазис чистоти та приємного аромату.",
         description02: "Завдяки унікальній формулі з потрійною дією він ефективно видаляє вапняний наліт, знищує бактерії та запобігає повторним забрудненням.",
         description03: "Зручний аплікатор у &#171W5 - WC Gel With Applicator Ocean 3X Power&#187 забезпечує легке нанесення навіть у важкодоступних місцях, гарантуючи бездоганну гігієну з тривалим свіжим ефектом.",
