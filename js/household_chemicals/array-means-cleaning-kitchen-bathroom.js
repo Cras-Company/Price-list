@@ -527,7 +527,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Додайте &#171Astonish - Cream Lemon&#187 до свого арсеналу для ефективного прибирання та приємного аромату!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_cream_cleaner_with_bleach_500.jpg",
@@ -546,7 +546,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 149,
-        priceGRNOpt: 127,
+        quantityOnStorage: 1,
         description01: "Чистота без зайвих зусиль – це можливо, якщо обрати засіб &#171Astonish - Cream Cleaner Whith Bleach&#187, який працює за Вас.",
         description02: "Крем для чищення ефективно видаляє навіть найстійкіші забруднення, включаючи мильний наліт, водяні сліди та жир.",
         description03: "Формула &#171Astonish - Cream Cleaner Whith Bleach&#187 з відбілювачем глибоко очищає поверхні, повертаючи їм сяйво та бездоганну білизну без подряпин.",
