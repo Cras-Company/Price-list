@@ -694,7 +694,7 @@ export const shopLotsAdultShampoos = [
       description05: "Спробуйте шампунь &#171Wash & Go - Shampoo With Anti-Dandruff Technology&#187 з технологією проти лупи для бездоганного вигляду Вашого волосся!"
   },
   {
-    type: "retail",
+    type: "only-wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "hair-care",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_herbal_200.jpg",
@@ -712,8 +712,8 @@ export const shopLotsAdultShampoos = [
     countryName: "Італія",
     volumeName: "Об'єм",
     volume: "200 мл.",
-    priceGRN: 75,
-    quantityOnStorage: 2,
+    priceGRN: "--",
+    priceGRNOpt: 75,
     description01: "Ваше волосся швидко втрачає свіжість і виглядає жирним? Шампунь &#171Wash & Go - Shampoo With Herbal Extracts&#187 з екстрактами трав допоможе вирішити цю проблему.",
     description02: "Його унікальна формула м’яко очищує волосся, надаючи йому легкості та свіжості на тривалий час.",
     description03: "Натуральні екстракти трав &#171Wash & Go - Shampoo With Herbal Extracts&#187 піклуються про Ваше волосся, зберігаючи його здоровим і сяючим.",
@@ -740,7 +740,7 @@ export const shopLotsAdultShampoos = [
       volumeName: "Об'єм",
       volume: "200 мл.",
       priceGRN: 75,
-      quantityOnStorage: 2,
+      quantityOnStorage: 10,
       description01: "Втомилися від пошуків шампуню, який підійде всій родині? Ультра делікатний шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187 з міцелярною водою створений для ніжного догляду за волоссям дітей і дорослих.",
       description02: "Його м'яка формула ефективно очищує, зберігаючи природний баланс шкіри голови та волосся.",
       description03: "&#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187 не викликає подразнень і підходить навіть для найчутливішої шкіри.",

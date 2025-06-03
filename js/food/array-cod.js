@@ -1,6 +1,6 @@
 export const shopLotsCod = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/cod/giana_tresci_jatra_115.jpg",
@@ -16,8 +16,8 @@ export const shopLotsCod = [
         countryName: "Чехія",
         weightName: "Вага",
         weight: "115 гр.",
-        priceGRN: 104,
-        quantityOnStorage: 10,
+        priceGRN: "--",
+        priceGRNOpt: 104,
         description01: "&#171Giana - Trešči játra ve vlasnim oleji&#187 - це дійсно вишукана делікатесна страва для справжніх гурманів. Ця консервована печінка тріски має неперевершений смак та текстуру, які роблять її неповторною.",
         description02: "Тріска у власному соку створює справжнє смакове відкриття. Ця страва - це джерело корисних жирів та білків, які підтримують ваше здоров'я. Вона ідеально підходить для сніданку, ланчу або вечері.",
         description03: "Забудьте про звичайні консерви - &#171Giana - Trešči játra ve vlasnim oleji&#187 варта спроби. Додайте її до вашого щоденного меню та насолоджуйтеся унікальним смаком та користью для здоров'я.",
@@ -69,7 +69,7 @@ export const shopLotsCod = [
         weightName: "Вага",
         weight: "115 гр.",
         priceGRN: "--",
-        priceGRNOpt: 87,
+        priceGRNOpt: 97,
         description01: "Печінка тріски &#171King Oscar - Wątróbki Z Dorsza W Tłuszczu Własnym OMEGA-3&#187 – це натуральний продукт, збагачений цінними жирними кислотами ОМЕГА-3, що підтримують здоров'я серця і мозку.",
         description02: "Ця печінка у власному соку, що зберігає її природний смак і текстуру, роблячи її ідеальним інгредієнтом для вишуканих страв.",
         description03: "Корисні властивості печінки тріски &#171King Oscar - Wątróbki Z Dorsza W Tłuszczu Własnym OMEGA-3&#187 сприяють загальному зміцненню організму, надаючи необхідні поживні речовини та вітаміни.",
