@@ -678,7 +678,7 @@ export const shopLotsForWC = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 133,
+        priceGRN: 144,
         quantityOnStorage: 6,
         description01: "Піна для чистки туалету з ароматом лимону &#171Denkmit - WC-Reinigungsschaum Zitrone&#187 забезпечує миттєву свіжість та ефективне видалення забруднень.",
         description02: "Спеціальна формула піни проникає навіть у важкодоступні місця, забезпечуючи ретельну чистку.",
