@@ -132,7 +132,7 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "60 шт.",
-        priceGRN: 282,
+        priceGRN: 332,
         quantityOnStorage: 4,
         description01: "Таблетки &#171Denkmit - Anti-Kalk-Tabs Multi-Power 2&#187 надійно захищає Вашу пральну машину від утворення вапняного нальоту.",
         description02: "Завдяки спеціальній формулі вони запобігають накопиченню нальоту, зберігаючи техніку у відмінному стані протягом тривалого часу.",

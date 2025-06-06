@@ -489,6 +489,10 @@ export const brands = [
     alt: "pasta_reggia",
   },
   {
+    url: "./images/carusel/perfex.jpg",
+    alt: "perfex",
+  },
+  {
     url: "./images/carusel/persil.jpg",
     alt: "persil",
   },

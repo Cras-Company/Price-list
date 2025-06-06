@@ -138,7 +138,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 92,
+        priceGRN: 96,
         priceGRNOpt: 83,
         description01: "Ополіскувач &#171Denkmit - Klarspüler&#187 ефективно видаляє залишки миючих засобів та водяні плями, забезпечуючи ідеальний блиск і чистоту кожного предмета.",
         description02: "Забудьте про плями на посуді після миття – ваші тарілки завжди будуть блищати.",

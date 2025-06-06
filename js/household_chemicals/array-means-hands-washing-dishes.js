@@ -118,7 +118,7 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 84,
+        priceGRN: 87,
         quantityOnStorage: 6,
         description01: "Засіб для миття посуду &#171Denkmit - Spülbalsam Mit Aloe Vera&#187 з екстрактом алое вера забезпечує блискучу чистоту та дбайливий догляд за руками.",
         description02: "Ваш посуд сяятиме чистотою, а миття стане приємним процесом завдяки м'якій текстурі бальзаму.",

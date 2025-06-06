@@ -346,7 +346,7 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "650 мл.",
-        priceGRN: 255,
+        priceGRN: 260,
         quantityOnStorage: 6,
         description01: "Чисті килими – це основа затишного дому, і засіб для чищення &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 допоможе Вам цього досягти.",
         description02: "Вбудована щітка дозволяє ретельно обробити кожне волокно, забезпечуючи глибоке очищення без зайвих зусиль.",
