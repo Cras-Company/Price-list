@@ -133,7 +133,7 @@ export const shopLotsSprats = [
     //     description05: "Не відкладайте задоволення на завтра! Замовте &#171M & K - Szprot Podwedzany W Sosie Pomidorowym&#187 вже сьогодні і подаруйте собі смакове св'ято, яке назавжди запам'ятається."
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/sprats/m&k_szproty_wedzone_w_oleju_250.jpg",
@@ -155,8 +155,8 @@ export const shopLotsSprats = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 124,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 134,
         description01: "&#171M & K - Szproty Wedzone W Oleju&#187 - це справжній шедевр серед морських смаколиків. Кожен шпрот у цій неймовірно смачній олії - це витвір мистецтва та смакова розкіш. Вони виготовлені з найсвіжіших рибних уловів і володіють неперевершеним смаком та ароматом.",
         description02: "Олія, в якій знаходяться ці шпроти, надає їм неймовірну м'якість та ніжність. Кожен шматочок риби пропитаний багатогранним смаком диму та олії, що робить їх неперевершеними. Це ідеальний вибір для вишуканих гурманів і тих, хто цінує справжню якість.",
         description03: "Спробуйте &#171M & K - Szproty Wedzone W Oleju&#187 та відчуйте смакову розкіш, яка вас приголомшить. Дозвольте собі насолоджуватися найкращими смаками моря у кожному шматочку.",
