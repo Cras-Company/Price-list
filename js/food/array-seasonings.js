@@ -177,7 +177,7 @@ export const shopLotsSeasonings = [
         description05: "Не вагайтеся - спробуйте цю неперевершену гостру приправу &#171Univer - Piros Arany Сsípős&#187 вже сьогодні та почніть насолоджуватися яскравим смаком та ароматом, які вона подарує вашим стравам."
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/vigora_universal_seasoning_200.jpg",
@@ -193,8 +193,8 @@ export const shopLotsSeasonings = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 46,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 46,
         description01: "&#171;Vigora - Universal Seasoning&#187; - це чарівний акцент для будь-якої кулінарної творчості. Ця універсальна приправа додає смак і аромат до різних страв, надаючи їм вишуканості і неперевершеного смаку. Складається з відібраних спецій, трав та сушених овочів, що допомагають створити справжню симфонію смаку у будь-якому блюді.",
         description02: "З цією приправою Ви зможете експериментувати на кухні, приготовлюючи супи, салати, м'ясні та рибні страви, а також гарніри.",
         description03: "&#171;Vigora - Universal Seasoning&#187; чудово поєднується з різними інгредієнтами, роблячи ваші страви незабутніми.",

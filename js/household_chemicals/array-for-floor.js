@@ -62,7 +62,7 @@ export const shopLotsForFloor = [
     //     description05: "Довіртеся &#171Ace - Candeggina Classica&#187 для безкомпромісної чистоти вашого одягу та дому!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_lavanda_1l.jpg",
@@ -80,8 +80,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 119,
-        uantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 119,
         description01: "Забезпечте вашому дому неперевершену чистоту та аромат з засобом для миття підлоги &#171Ace - Pavimenti Lavanda E Oli Essenziale Senza Candeggina&#187.",
         description02: "Ефективно очищає підлоги без використання відбілювача, роблячи їх безпечними для всієї родини. Формула з ефірними оліями та лавандой додає приємний аромат, створюючи затишну атмосферу.",
         description03: "Уявіть собі підлоги, які не тільки блищать чистотою, але й наповнюють дім приємними ароматами. З &#171Ace - Pavimenti Lavanda E Oli Essenziale Senza Candeggina&#187 Ваш дім стане справжнім оазисом свіжості та затишку.",

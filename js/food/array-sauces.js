@@ -417,7 +417,7 @@ export const shopLotsSauces = [
         description05: "Насолоджуйтеся вишуканим смаком італійської кухні просто вдома та пориньте у світ ароматних страв з &#171Combino - Pasta Sauce With Vegetales&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/mk_przecier_pomidorowy_500.jpg",
@@ -433,8 +433,8 @@ export const shopLotsSauces = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 65,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171M & K - Przecier Pomidorowy&#187 - це справжня скарбниця природного смаку та аромату. Цей соус виготовлений з найкращих сонячних томатів, що надають йому яскравий, неперевершений смак та природну солодкість.",
         description02: "Підходить для приготування супів, піцци, паст та багатьох інших страв. Він має гладку текстуру та насичений томатний смак, який робить ваші страви особливими.",
         description03: "Завдяки високій якості та натуральності інгредієнтів, &#171M & K - Przecier Pomidorowy&#187 гарантує Вам смак італійської кухні. Спробуйте цей соус і переконайтесь, що він додасть вашим стравам особливого шарму та смаку.",
