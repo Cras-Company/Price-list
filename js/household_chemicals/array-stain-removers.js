@@ -1145,7 +1145,7 @@ export const shopLotsStainRemovers = [
         description05: "Придбайте екологічний кисневий плямовивідник &#171La Salud - Oxy Ropa Color&#187 вже сьогодні та забезпечте своїм кольоровим речам ідеальну чистоту та яскравість!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/la_salud_oxy_ropa_blanca_1kg.jpg",
@@ -1165,8 +1165,8 @@ export const shopLotsStainRemovers = [
         countryName: "Іспанія",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 293,
-        priceGRNOpt: 263,
+        priceGRN: "--",
+        priceGRNOpt: 293,
         description01: "Плями на білих речах більше не проблема з екологічним кисневим плямовивідником &#171La Salud - Oxy Ropa Blanca&#187.",
         description02: "Завдяки унікальній формулі на основі активного кисню, він ефективно видаляє навіть найстійкіші забруднення, зберігаючи білизну вашого одягу.",
         description03: "Екологічно чистий склад &#171La Salud - Oxy Ropa Blanca&#187 без агресивних хімікатів забезпечує безпечне використання для Вас і навколишнього середовища.",

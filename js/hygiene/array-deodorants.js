@@ -100,7 +100,7 @@ export const shopLotsDeodorants = [
         volumeName: "Об'єм",
         volume: "50 мл.",
         priceGRN: 69,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "Дезодорант &#171Ombia - Deodorant Feeling Fresh&#187 створений для тих, хто прагне свіжості протягом усього дня.",
         description02: "Його формула ефективно бореться з потовиділенням і неприємним запахом, забезпечуючи надійний захист.",
         description03: "Ніжний аромат &#171Ombia - Deodorant Feeling Fresh&#187 підкреслює відчуття чистоти, даруючи комфорт і впевненість у кожному русі.",
