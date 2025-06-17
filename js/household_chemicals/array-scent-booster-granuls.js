@@ -288,7 +288,7 @@ export const shopLotsScentBoosterGranuls = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "264 гр.",
-        priceGRN: 247,
+        priceGRN: 286,
         uantityOnStorage: 6,
         description01: "Відкрийте для себе новий рівень аромату з парфумом у гранулах &#171Lenor - UN Stoppables Active&#187.",
         description02: "Цей продукт не лише забезпечить Вашу білизну витонченим ароматом, але й додасть енергії та свіжості завдяки технології збереження запаху.",
