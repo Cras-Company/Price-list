@@ -79,7 +79,7 @@ export const shopLotsPeanuts = [
     //     description05: "Не вагайтеся та замовте &#171Mani King - Tostado sin Piel&#187 вже зараз і розважайте свою родину та друзів цією чудовою закускою!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_85.jpg",
@@ -95,8 +95,8 @@ export const shopLotsPeanuts = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "85 гр.",
-        priceGRN: 24,
-        priceGRNOpt: 21,
+        priceGRN: "--",
+        priceGRNOpt: 34,
         description01: "&#171Mogyi - Peanuts Roasted, Salted&#187 - це закуска, яка підкорить Вас з першого разу. Кожен арахіс обсмажується з особливою увагою, щоб досягти ідеальної хрусткої текстури та солоного смаку. Цей арахіс поєднує у собі неперевершений солодкий смак з гармонійною солоністю, створюючи справжню насолоду.",
         description02: "Ця закуска ідеально підходить для перекусу у будь-який час дня. Вона стане відмінним супутником під час вечірки, спортивних змагань або просто для задоволення вашого апетиту.",
         description03: "&#171Mogyi - Peanuts Roasted, Salted&#187 - найкраща якість та неперевершений смак арахісу. Ця закуска додасть смаку вашим дням і зробить кожен момент особливим.",
@@ -104,7 +104,7 @@ export const shopLotsPeanuts = [
         description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
@@ -120,8 +120,8 @@ export const shopLotsPeanuts = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "150 гр.",
-        priceGRN: 41,
-        priceGRNOpt: 36,
+        priceGRN: "--",
+        priceGRNOpt: 51,
         description01: "&#171Mogyi - Peanuts Roasted, Salted&#187 - це закуска, яка підкорить Вас з першого разу. Кожен арахіс обсмажується з особливою увагою, щоб досягти ідеальної хрусткої текстури та солоного смаку. Цей арахіс поєднує у собі неперевершений солодкий смак з гармонійною солоністю, створюючи справжню насолоду.",
         description02: "Ця закуска ідеально підходить для перекусу у будь-який час дня. Вона стане відмінним супутником під час вечірки, спортивних змагань або просто для задоволення вашого апетиту.",
         description03: "&#171Mogyi - Peanuts Roasted, Salted&#187 - найкраща якість та неперевершений смак арахісу. Ця закуска додасть смаку вашим дням і зробить кожен момент особливим.",
@@ -129,7 +129,7 @@ export const shopLotsPeanuts = [
         description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/mogyi_peanuts_roasted_salted_150.jpg",
@@ -145,8 +145,8 @@ export const shopLotsPeanuts = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "300 гр.",
-        priceGRN: 72,
-        priceGRNOpt: 66,
+        priceGRN: "--",
+        priceGRNOpt: 82,
         description01: "&#171Mogyi - Peanuts Roasted, Salted&#187 - це закуска, яка підкорить Вас з першого разу. Кожен арахіс обсмажується з особливою увагою, щоб досягти ідеальної хрусткої текстури та солоного смаку. Цей арахіс поєднує у собі неперевершений солодкий смак з гармонійною солоністю, створюючи справжню насолоду.",
         description02: "Ця закуска ідеально підходить для перекусу у будь-який час дня. Вона стане відмінним супутником під час вечірки, спортивних змагань або просто для задоволення вашого апетиту.",
         description03: "&#171Mogyi - Peanuts Roasted, Salted&#187 - найкраща якість та неперевершений смак арахісу. Ця закуска додасть смаку вашим дням і зробить кожен момент особливим.",
@@ -154,7 +154,7 @@ export const shopLotsPeanuts = [
         description05: "Замовляйте та спробуйте &#171Mogyi - Peanuts Roasted, Salted&#187 вже сьогодня і насолоджуйтеся смаком справжньої арахісової насолоди!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_100.jpg",
@@ -170,8 +170,8 @@ export const shopLotsPeanuts = [
         countryName: "Чехія",
         weightName: "Вага",
         weight: "100 гр.",
-        priceGRN: 28,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 38,
         description01: "&#171Soltino - Roasted Salted Peanuts&#187 - це вишукане джерело задоволення для справжніх гурманів. Кожний горішок обпалений до досконалості та приправлений натуральною сіллю, що надає йому виразного смаку та аромату. Цей арахіс - ідеальний вибір для ваших вечірок.",
         description02: "Він не лише вражає смаком, але і має велику користь для здоров'я: багатий білком, важливими мінералами та вітамінами.",
         description03: "&#171Soltino - Roasted Salted Peanuts&#187 виготовляється із найкращих якісних інгредієнтів, що гарантують безпеку та якість кожного горішка.",
@@ -179,7 +179,7 @@ export const shopLotsPeanuts = [
         description05: "Додайте у свій кошик та не пропустіть можливість насолодитися бездоганним смаком солоного арахісу &#171Soltino - Roasted Salted Peanuts&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "snacks",
         url: "./images/shop/food/snacks/peanuts/soltino_roasted_salted_peanuts_500.jpg",
@@ -195,8 +195,8 @@ export const shopLotsPeanuts = [
         countryName: "Чехія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 107,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 117,
         description01: "&#171Soltino - Roasted Salted Peanuts&#187 - це вишукане джерело задоволення для справжніх гурманів. Кожний горішок обпалений до досконалості та приправлений натуральною сіллю, що надає йому виразного смаку та аромату. Цей арахіс - ідеальний вибір для ваших вечірок.",
         description02: "Він не лише вражає смаком, але і має велику користь для здоров'я: багатий білком, важливими мінералами та вітамінами.",
         description03: "&#171Soltino - Roasted Salted Peanuts&#187 виготовляється із найкращих якісних інгредієнтів, що гарантують безпеку та якість кожного горішка.",
