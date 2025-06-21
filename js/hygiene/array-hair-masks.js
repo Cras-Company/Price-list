@@ -1,6 +1,6 @@
 export const shopLotsHairMasks = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_burro_karite_1000.jpg",
@@ -20,8 +20,8 @@ export const shopLotsHairMasks = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1000 мл.",
-        priceGRN: 206,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 230,
         description01: "Поверніть своєму волоссю життя з регенеруючою маскою &#171Milmil - Crema Rigenerante Al Burro Di Karítè&#187, спеціально розробленою для сухого та пошкодженого волосся.",
         description02: "Олія Ши глибоко живить і відновлює волосся, роблячи його м'яким і шовковистим.",
         description03: "&#171Milmil - Crema Rigenerante Al Burro Di Karítè&#187 проникає у структуру волосся, відновлюючи його від коренів до кінчиків і захищаючи від подальших пошкоджень.",
@@ -29,7 +29,7 @@ export const shopLotsHairMasks = [
         description05: "Придбайте зараз &#171Milmil - Crema Rigenerante Al Burro Di Karítè&#187 і насолоджуйтесь здоровим і сяючим волоссям кожного дня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_olio_argan_1000.jpg",
@@ -49,8 +49,8 @@ export const shopLotsHairMasks = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1000 мл.",
-        priceGRN: 206,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 230,
         description01: "Зробіть своє волосся блискучим і здоровим з регенеруючою маскою &#171Milmil - Crema Rigenerante All' Olio Di Argan&#187, ідеальною для всіх типів волосся.",
         description02: "Арганова олія, що входить до складу маски, глибоко живить і відновлює волосся, додаючи йому шовковистості та блиску.",
         description03: "&#171Milmil - Crema Rigenerante All' Olio Di Argan&#187 проникає у структуру волосся, зміцнюючи його від коренів до кінчиків і захищаючи від пошкоджень.",
@@ -58,7 +58,7 @@ export const shopLotsHairMasks = [
         description05: "Придбайте вже сьогодні &#171Milmil - Crema Rigenerante Al Burro Di Karítè&#187 і подаруйте своєму волоссю розкішний догляд кожного дня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_olio_cocco_1000.jpg",
@@ -78,8 +78,8 @@ export const shopLotsHairMasks = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1000 мл.",
-        priceGRN: 206,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 230,
         description01: "Забезпечте своєму волоссю максимальний догляд з регенеруючою маскою &#171Milmil - Crema Rigenerante All' Olio Di Cocco&#187, спеціально створеною для середнього та довгого волосся.",
         description02: "Кокосова олія глибоко живить і зволожує, роблячи волосся м'яким, гладеньким і блискучим.",
         description03: "&#171Milmil - Crema Rigenerante All' Olio Di Cocco&#187 відновлює пошкоджену структуру волосся, забезпечуючи його міцність та еластичність.",
@@ -87,7 +87,7 @@ export const shopLotsHairMasks = [
         description05: "Замовляйте вже сьогодні &#171Milmil - Crema Rigenerante All' Olio Di Cocco&#187 і насолоджуйтесь здоровим та красивим волоссям кожного дня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "hair-care",
         url: "./images/shop/gigiena/hair_care/hair_masks/milmil_crema_rigenerante_mela_verde_1000.jpg",
@@ -107,8 +107,8 @@ export const shopLotsHairMasks = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1000 мл.",
-        priceGRN: 206,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 230,
         description01: "Відкрийте новий рівень догляду за волоссям з регенеруючою маскою &#171Milmil - Crema Rigenerante Alla Mela Verde&#187, яка підходить для всіх типів волосся.",
         description02: "Екстракт зеленого яблука збагачує волосся вітамінами, роблячи його м'яким, блискучим та здоровим.",
         description03: "&#171Milmil - Crema Rigenerante Alla Mela Verde&#187 глибоко проникає в структуру волосся, зміцнюючи його від коренів до кінчиків і відновлюючи природний баланс.",

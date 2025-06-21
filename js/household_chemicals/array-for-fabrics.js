@@ -18,7 +18,7 @@ export const shopLotsForFabrics = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 147,
+        priceGRN: 155,
         quantityOnStorage: 6,
         description01: "&#171Denkmit - Textilerfrischer 3 in 1&#187 – ваш надійний помічник у боротьбі з неприємними запахами!",
         description02: "Цей розгладжувач складок і дезінфектор ідеально підходить для текстилю, взуття та меблів, даруючи їм свіжість на довгий час.",
