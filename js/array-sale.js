@@ -199,7 +199,7 @@ export const shopLotsSale = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "1500 мл.",
-        priceGRN: 204,
+        priceGRN: 218,
         quantityOnStorage: 6,
         description01: "Набір засобів для чищення &#171Astonish - Mould & Mildew Blaster Apple Burst & Multi-Purpose Cleaner Bleach Peony Bloom&#187 об'єднав силу проти плісняви та іржі з ароматом яблука та універсальний відбілювач із ніжною півонією.",
         description02: "Формули глибоко очищують навіть найскладніші забруднення, даруючи свіжість та доглянутість кожній поверхні.",
