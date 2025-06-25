@@ -1,6 +1,6 @@
 export const shopLotsAntiSmells = [
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_kuhlschrank_frische_40.jpg",
@@ -20,8 +20,8 @@ export const shopLotsAntiSmells = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "40 гр.",
-        priceGRN: 155,
-        quantityOnStorage: 4,
+        priceGRN: 175,
+        priceGRNOpt: 149,
         description01: "Завдяки екстракту морських водоростей, нейтралізатор запахів &#171Denkmit - Kühlschrank Frische&#187 ефективно бореться з усіма неприємними ароматами.",
         description02: "Цей продукт не тільки усуває запахи, але й створює приємну свіжість, забезпечуючи комфорт кожного разу, коли відкриваєте холодильник.",
         description03: "&#171Denkmit - Kühlschrank Frische&#187 дуже простий у використанні, але при цьому зберігає смакові якості всіх продуктів.",
@@ -29,7 +29,7 @@ export const shopLotsAntiSmells = [
         description05: "Забезпечте своєму холодильнику тривалу свіжість та чистоту з нейтралізатором запахів &#171Denkmit - Kühlschrank Frische&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_textilerfrischer_3_in_1_500.jpg",
@@ -47,8 +47,8 @@ export const shopLotsAntiSmells = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 147,
-        quantityOnStorage: 6,
+        priceGRN: 155,
+        priceGRNOpt: 132,
         description01: "&#171Denkmit - Textilerfrischer 3 in 1&#187 – ваш надійний помічник у боротьбі з неприємними запахами!",
         description02: "Цей розгладжувач складок і дезінфектор ідеально підходить для текстилю, взуття та меблів, даруючи їм свіжість на довгий час.",
         description03: "&#171Denkmit - Textilerfrischer 3 in 1&#187 не тільки нейтралізує запахи, але й дезінфікує, позбавляючи від шкідливих бактерій, що накопичуються в тканинах.",
@@ -56,7 +56,7 @@ export const shopLotsAntiSmells = [
         description05: "Покращте атмосферу у своєму домі та надайте речам новий вигляд з &#171Denkmit - Textilerfrischer 3 in 1&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/irge_assorbiodori_per_frigorifero_60.jpg",
@@ -74,8 +74,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 99,
-        quantityOnStorage: 10,
+        priceGRN: "--",
+        priceGRNOpt: 109,
         description01: "Нейтралізатор запахів &#171Irge - Assorbiodori Per Frigorifero&#187 з активним вугіллям забезпечує свіжість Вашого холодильника без зайвих зусиль.",
         description02: "Його спеціальна формула активно поглинає неприємні аромати, залишаючи продукти зі збереженим природним запахом і смаком.",
         description03: "Завдяки компактному дизайну та тривалому ефекту &#171Irge - Assorbiodori Per Frigorifero&#187 стане Вашим надійним помічником у підтримці чистоти та свіжості.",
@@ -83,7 +83,7 @@ export const shopLotsAntiSmells = [
         description05: "Забезпечте свій холодильник ідеальною атмосферою зі свіжістю на кожен день разом з &#171Irge - Assorbiodori Per Frigorifero&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/irge_assorbiodori_deodorante_per_frigorifero_35.jpg",
@@ -101,8 +101,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "35 гр.",
-        priceGRN: 105,
-        quantityOnStorage: 10,
+        priceGRN: "--",
+        priceGRNOpt: 115,
         description01: "Дезодорант для холодильника &#171Irge - Assorbiodori Deodorante Per Frigorifero&#187 з ароматом лимону дарує свіжість та усуває неприємні запахи.",
         description02: "Завдяки натуральному лимонному аромату Ваш холодильник завжди наповнений відчуттям чистоти та легкості.",
         description03: "Активні компоненти &#171Irge - Assorbiodori Deodorante Per Frigorifero&#187 не тільки освіжають, а й зберігають аромат продуктів незмінним протягом тривалого часу.",
@@ -110,7 +110,7 @@ export const shopLotsAntiSmells = [
         description05: "Додайте лимонної свіжості у кожен куточок холодильника з &#171Irge - Assorbiodori Deodorante Per Frigorifero&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_carboni_attive_di_bamboo_400.jpg",
@@ -130,8 +130,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 132,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 109,
         description01: "Ефективний поглинач вологи з активованим бамбуковим вугіллям &#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187 створений, щоб боротися з надмірною вологістю та усувати неприємні запахи.",
         description02: "Завдяки природним властивостям бамбукового вугілля, він швидко абсорбує зайву вологу, запобігаючи утворенню плісняви та конденсату.",
         description03: "&#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187 легкий у використанні та безпечний для будь-яких приміщень, зберігає свіжість у шафах, коморах та автомобілях, даруючи приємний мікроклімат.",
@@ -139,7 +139,7 @@ export const shopLotsAntiSmells = [
         description05: "Забезпечте чисте та сухе середовище з надійним захистом від зайвої вологи &#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_inodore_400.jpg",
@@ -159,8 +159,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 132,
-        quantityOnStorage: 6,
+        priceGRN: 109,
+        priceGRNOpt: 93,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Inodore 2 in 1&#187 забезпечує свіжість і комфорт у Вашому домі.",
         description02: "Він ефективно бореться з підвищеною вологістю, запобігаючи утворенню конденсату та затхлого запаху.",
         description03: "Компактний і без ароматизаторів, &#171Irge - Deumidificatore Inodore 2 in 1&#187 підходить для будь-яких приміщень, не порушуючи природного мікроклімату.",
@@ -168,7 +168,7 @@ export const shopLotsAntiSmells = [
         description05: "Захистіть свій простір від вологи та неприємних запахів із подвійним ефектом &#171Irge - Deumidificatore Inodore 2 in 1&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_vaniglia_400.jpg",
@@ -188,8 +188,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 132,
-        quantityOnStorage: 6,
+        priceGRN: 109,
+        priceGRNOpt: 93,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Profumato Vaniglia 2 in 1&#187 з ніжним ароматом ванілі створить у Вашому домі приємну атмосферу.",
         description02: "Він ефективно контролює рівень вологості та запобігає появі цвілі та затхлих запахів.",
         description03: "Завдяки легкому аромату ванілі у &#171Irge - Deumidificatore Profumato Vaniglia 2 in 1&#187 приміщення наповнюється відчуттям затишку, а свіже повітря зберігається надовго.",

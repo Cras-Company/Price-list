@@ -1,6 +1,6 @@
 export const shopLotsMeansMechanicalWashingDishes = [
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_pulver_1.5.jpg",
@@ -23,7 +23,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         weightName: "Вага",
         weight: "1.5 кг.",
         priceGRN: 296,
-        quantityOnStorage: 6,
+        priceGRNOpt: 252,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 - порошок для посуду розроблений для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Порошок містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Він підходять для різних видів посуду, від столової тарілки до скляних виробів.",
         description03: "Просто додайте одну порцію &#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 у вміст посудомийної машини та запустіть програму. Ваш посуд стане ідеально чистим та без слідів жиру або залишків їжі.",
@@ -31,7 +31,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_tabs_65.jpg",
@@ -56,7 +56,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         quantityName: "Кількість",
         quantity: "65 шт.",
         priceGRN: 329,
-        quantityOnStorage: 6,
+        priceGRNOpt: 280,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 - таблетки для посуду розроблені для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Кожна таблетка містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Вони підходять для різних видів посуду, від столової тарілки до скляних виробів.",
         description03: "Просто додайте одну таблетку &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 у вміст посудомийної машини та запустіть програму. Ваш посуд стане ідеально чистим та без слідів жиру або залишків їжі.",
@@ -64,7 +64,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_geschirr_reiniger_40.jpg",
@@ -85,7 +85,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         quantityName: "Кількість",
         quantity: "40 шт.",
         priceGRN: 396,
-        quantityOnStorage: 6,
+        priceGRNOpt: 337,
         description01: "&#171Denkmit - Geschirr-Reiniger Multi-Power Revolution&#187 — це таблетки для миття посуду нового покоління!",
         description02: "Завдяки унікальній формулі, вони захищають ваше скло, нержавіючу сталь, а також ефективно борються з чайними плямами і запахами.",
         description03: "&#171Denkmit - Geschirr-Reiniger Multi-Power Revolution&#187 працюють навіть при низьких температурах, забезпечуючи ідеальну чистоту без цинку і без шкоди для вашого посуду.",

@@ -104,7 +104,7 @@ export const shopLotsSweetSpreads = [
     //     description05: "Не втратьте можливість спробувати цей смаковий шедевр та замовте &#171Chocofini - Krem O Smaku Czekoladowo - Orzechowym&#187 прямо зараз!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_200.jpg",
@@ -120,8 +120,8 @@ export const shopLotsSweetSpreads = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 130,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 145,
         description01: "&#171Ferrero - Nutella&#187 - це вираз справжнього задоволення для вашого смаку. Ця неймовірна шоколадна крем-паста поєднує у собі найкращі якості молочного шоколаду та горіхової начинки.",
         description02: "Завдяки унікальному поєднанню смаків, вона стала справжньою класикою у світі гастрономії. Ви можете використовувати її на хліб, горіхових оладок, вафель або просто вживати її з ложки. Цей смак додасть особливої атмосфери у будь-яку страву.",
         description03: "&#171Ferrero - Nutella&#187 - це не лише смак, це частина вашого щоденного життя. Вона надає енергії та позитиву, будуючи зв'язок між сім'єю і друзями.",

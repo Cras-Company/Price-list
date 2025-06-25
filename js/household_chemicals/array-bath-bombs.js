@@ -116,7 +116,7 @@ export const shopLotsBathBombs = [
         description05: "Дозвольте тропікам увійти у ваш день та насолодіться митью спокою й задоволення разом з &#171Sence - Bath Bomb Bubble To Bloom Tropical Joy & Coconut&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/bath_bombs/sence_bath_bombs_bubble_to_bloom_16.jpg",
@@ -137,7 +137,7 @@ export const shopLotsBathBombs = [
         quantityName: "Кількість",
         quantity: "16 шт.",
         priceGRN: 759,
-        quantityOnStorage: 2,
+        priceGRNOpt: 646,
         description01: "Набір бомбочок для ванни &#171Sence - Bath Bomb Bubble To Bloom&#187 наповнює Вашу ванну кімнату різноманіттям вишуканих ароматів.",
         description02: "Поєднання нот орхідеї, сливи, грейпфрута, яблука та кокоса створює атмосферу повного розслаблення та насолоди.",
         description03: "Кожна бомбочка з &#171Sence - Bath Bomb Bubble To Bloom&#187 перетворює звичайне купання на ритуал догляду, зволожуючи шкіру та даруючи ніжний аромат на весь день.",
@@ -261,7 +261,7 @@ export const shopLotsBathBombs = [
         description05: "Пориньте у світ бульбашок та солодкого аромату разом з &#171Sence - Bath Bomb Wild And Bubble On With Bubble Gum Scent&#187, що додасть позитиву навіть у найбуденніший день!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/bath_bombs/sence_pretty_wild_bath_bombs_16.jpg",
@@ -282,7 +282,7 @@ export const shopLotsBathBombs = [
         quantityName: "Кількість",
         quantity: "16 шт.",
         priceGRN: 759,
-        quantityOnStorage: 2,
+        priceGRNOpt: 646,
         description01: "Набір бомбочок для ванни &#171Sence - Pretty Wild Bath Bombs&#187 перетворить Вашу ванну на фестиваль яскравих ароматів.",
         description02: "Кокос, лимон, банан та жувальна гумка створюють унікальне поєднання свіжості, екзотики та солодкої ностальгії.",
         description03: "Кожна бомбочка у &#171Sence - Pretty Wild Bath Bombs&#187 дарує момент релаксу, пом’якшує шкіру та огортає тіло ніжним ароматним серпанком.",

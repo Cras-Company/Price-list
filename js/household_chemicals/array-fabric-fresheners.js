@@ -1,6 +1,6 @@
 export const shopLotsFabricFresheners = [
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/astonish_fabric_refresher_cotton_fresh_750.jpg",
@@ -19,7 +19,7 @@ export const shopLotsFabricFresheners = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 154,
-        quantityOnStorage: 6,
+        priceGRNOpt: 131,
         description01: "&#171Astonish - Fabric Refresher Cotton Fresh&#187 миттєво оновлює тканини, даруючи легкий аромат чистої бавовни.",
         description02: "Засіб підходить не лише для одягу, а й для штор, м’яких меблів та килимів, усуваючи запахи без прання.",
         description03: "Формула &#171Astonish - Fabric Refresher Cotton Fresh&#187 не залишає плям і додає відчуття свіжості у кожен куточок дому.",
@@ -162,7 +162,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте нотку весняної свіжості у свій дім з &#171Brait - Aqua Spray Magic Mist White Flowers&#187 і насолоджуйтесь кожним вдихом!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/coccolino_fiore_della_passione_e_ylang_ylang_3.jpg",
@@ -181,7 +181,7 @@ export const shopLotsFabricFresheners = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 138,
-        quantityOnStorage: 5,
+        priceGRNOpt: 118,
         description01: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiore Della Passione E Ylang Ylang)&#187 перетворюють Ваші шафи на оазу свіжості та ніжного аромату.",
         description02: "Завдяки вишуканому поєднанню ароматів пасифлори та Іланг-Ілангу, ці саше надають Вашим речам тривалий і приємний аромат.",
         description03: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiore Della Passione E Ylang Ylang)&#187 ефективно усувають неприємні запахи, наповнюючи кожен куточок шафи або ящика легким, але насиченим ароматом.",
@@ -189,7 +189,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте &#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiore Della Passione E Ylang Ylang) до своєї шафи та насолоджуйтесь приємною свіжістю щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/coccolino_fiori_di_tiare_e_frutti_rossi_3.jpg",
@@ -208,7 +208,7 @@ export const shopLotsFabricFresheners = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 138,
-        quantityOnStorage: 5,
+        priceGRNOpt: 118,
         description01: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiori Di Tiarè E Frutti Rossi)&#187 – це досконала гармонія аромату квітів тіаре та соковитих червоних фруктів.",
         description02: "Ці ароматизовані саше надають Вашим речам ніжний і свіжий аромат, який триває довгий час.",
         description03: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiori Di Tiarè E Frutti Rossi) не тільки створюють атмосферу затишку у Вашій шафі, але й захищають одяг від неприємних запахів.",
@@ -216,7 +216,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте &#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiori Di Tiarè E Frutti Rossi)&#187 у свої ящики та шафи для неперевершеного аромату кожен день!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/coccolino_profumo_di_primavera_3.jpg",
@@ -235,7 +235,7 @@ export const shopLotsFabricFresheners = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 138,
-        quantityOnStorage: 5,
+        priceGRNOpt: 118,
         description01: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Profumo Di Primavera)&#187 наповнюють Ваші речі легким весняним ароматом, що дарує відчуття свіжості.",
         description02: "Поєднання ніжних квіткових нот створює атмосферу весняного пробудження, роблячи кожен відкритий ящик приємним сюрпризом.",
         description03: "Саше &#171Coccolino - Scented Sachets For Drawers And Wardrobes (Profumo Di Primavera)&#187 ефективно усувають неприємні запахи, підтримуючи чистоту та свіжість Вашого одягу.",
@@ -262,7 +262,7 @@ export const shopLotsFabricFresheners = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 82,
-        quantityOnStorage: 10,
+        quantityOnStorage: 2,
         description01: "Ароматизовані саше &#171Irge - Bustine Profumate Armadi E Cassetti Muschio Bianco&#187 з ароматом білого мускусу огорнуть Ваш одяг ніжним шлейфом витонченої свіжості.",
         description02: "Завдяки компактному формату ці саше легко помістити у шафу чи ящик, зберігаючи речі свіжими надовго.",
         description03: "Тонкий аромат &#171Irge - Bustine Profumate Armadi E Cassetti Muschio Bianco&#187 білого мускусу додає Вашим речам елегантності, роблячи кожне відкриття шафи приємним ритуалом.",
@@ -289,7 +289,7 @@ export const shopLotsFabricFresheners = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 82,
-        quantityOnStorage: 10,
+        quantityOnStorage: 2,
         description01: "Ароматизовані саше &#171Irge - Bustine Profumate Armadi E Cassetti Talco&#187 з ніжним ароматом тальку перетворять Ваш одяг на втілення свіжості та затишку.",
         description02: "Ці саше легко розміщуються в шафах та ящиках, захищаючи речі від неприємних запахів і вологи.",
         description03: "Легкий та витончений аромат тальку у &#171Irge - Bustine Profumate Armadi E Cassetti Talco&#187 наповнює кожен куточок гардеробу атмосферою турботи та чистоти.",

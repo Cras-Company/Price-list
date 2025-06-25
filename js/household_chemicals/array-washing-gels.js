@@ -270,7 +270,7 @@ export const shopLotsWashingGels = [
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_bicarbonato_46.jpg",
@@ -289,7 +289,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "2070 мл.",
         priceGRN: 406,
-        quantityOnStorage: 6,
+        priceGRNOpt: 345,
         description01: "Універсальний гель з бікарбонатом &#171Chanteclair - Lavatrice Bicarbonato Brillantezza Attiva&#187 забезпечує бездоганну чистоту Вашого одягу.",
         description02: "Його унікальна формула ефективно видаляє навіть найстійкіші плями, не пошкоджуючи тканини.",
         description03: "Завдяки додатковим компонентам для блиску, Ваші речі виглядатимуть як нові після кожного прання з &#171Chanteclair - Lavatrice Bicarbonato Brillantezza Attiva&#187.",
@@ -297,7 +297,7 @@ export const shopLotsWashingGels = [
         description05: "Замовляйте гель &#171Chanteclair - Lavatrice Bicarbonato Brillantezza Attiva&#187 зараз і відчуйте різницю з першого використання!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_colorati_46.jpg",
@@ -316,7 +316,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "2070 мл.",
         priceGRN: 406,
-        quantityOnStorage: 6,
+        priceGRNOpt: 345,
         description01: "&#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187 створений, щоб зберегти кольори Вашого одягу яскравими та насиченими навіть після численних прань. Його унікальна формула дбайливо очищає тканини, не пошкоджуючи їхніх відтінків.",
         description02: "Чи хотіли би Ви зберігати свої улюблені речі завжди новими? Потужна дія гелю не тільки видаляє бруд, але і підтримує насиченість кольорів, забезпечуючи тривалий захист.",
         description03: "Придбавши &#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187, Ви отримаєте не просто засіб для прання, але і ключ до збереження краси вашого одягу. Ви будете вражені, як легко і ефективно він доглядає за тканинами, роблячи кожне прання приємним процесом.",
@@ -324,7 +324,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте зараз гель &#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187 та насолоджуйтесь яскравими кольорами вашого одягу протягом тривалого часу!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_igienizzante_rimuove_germi_e_batteri_46.jpg",
@@ -343,7 +343,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "2070 мл.",
         priceGRN: 406,
-        quantityOnStorage: 6,
+        priceGRNOpt: 345,
         description01: "&#171Chanteclair - Igienizzante Rimuove Germi E Batteri&#187 — універсальний гель-дезінфектор, який забезпечує гігієнічну чистоту у будь-яких умовах.",
         description02: "Його потужна формула знищує бактерії та мікроби, ефективно нейтралізує запахи навіть у холодній воді.",
         description03: "&#171Chanteclair - Igienizzante Rimuove Germi E Batteri&#187 ідеально підходить для різних тканин, де важлива безпека та свіжість.",
@@ -351,7 +351,7 @@ export const shopLotsWashingGels = [
         description05: "Обирайте &#171Chanteclair - Igienizzante Rimuove Germi E Batteri&#187 для щоденного комфорту та впевненості у чистоті навколо Вас!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",    
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_46.jpg",
@@ -370,7 +370,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "2070 мл.",
         priceGRN: 406,
-        quantityOnStorage: 6,
+        priceGRNOpt: 345,
         description01: "Знайомтеся з універсальним гелем &#171Chanteclair - Lavatrice Marsiglia&#187, який перетворить Вашу щоденну рутину на чисту насолоду.",
         description02: "Він не просто засіб для прання, а витончений дотик марсельського мила, яке дбає про Ваш одяг та надає йому бездоганну чистоту.",
         description03: "З гелем &#171Chanteclair - Lavatrice Marsiglia&#187 Ваші бажання здійсняться. Його унікальна формула зберігає якість тканин, роблячи їх м'якими та зберігаючи неперевершений аромат марсельського мила.",
@@ -378,7 +378,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте вже зараз гель &#171Chanteclair - Lavatrice Marsiglia&#187 та насолоджуйтесь бездоганно чистим та ароматним одягом, який буде Вас радувати кожен день!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_muschio_blanco_46.jpg",
@@ -397,7 +397,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "2070 мл.",
         priceGRN: 406,
-        quantityOnStorage: 6,
+        priceGRNOpt: 345,
         description01: "Насолоджуйтесь бездоганною чистотою з універсальним гелем &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187, який дарує Вашому одягу аромат білого мускусу.",
         description02: "Завдяки унікальній формулі з потужним знежирювачем, цей гель ефективно видаляє навіть найважчі плями, забезпечуючи свіжість та гігієну Вашого одягу.",
         description03: "Відчуйте, як кожне прання перетворюється на справжнє задоволення, наповнене неперевершеним ароматом білого мускусу  &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187, який залишається на одязі надовго.",
@@ -405,7 +405,7 @@ export const shopLotsWashingGels = [
         description05: "Купуйте гель &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187 зараз і насолоджуйтеся досконалою чистотою та свіжістю кожного дня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_46.jpg",
@@ -424,7 +424,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "2070 мл.",
         priceGRN: 406,
-        quantityOnStorage: 1,
+        priceGRNOpt: 345,
         description01: "Відкрийте новий рівень чистоти з універсальним гелем &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, що забезпечує глибоке очищення та бездоганну свіжість Вашого одягу.",
         description02: "Завдяки потужному засобу для виведення плям та знежирювачу, цей гель ефективно бореться навіть з найстійкішими забрудненнями, залишаючи тканини чистими та свіжими.",
         description03: "Подаруйте собі задоволення від використання засобу &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, який не тільки видаляє плями, але й зберігає яскравість кольорів та ніжність тканин.",
@@ -432,7 +432,7 @@ export const shopLotsWashingGels = [
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_74.jpg",
@@ -451,15 +451,15 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "3330 мл.",
         priceGRN: 613,
-        quantityOnStorage: 6,
+        priceGRNOpt: 522,
         description01: "Відкрийте новий рівень чистоти з універсальним гелем &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, що забезпечує глибоке очищення та бездоганну свіжість Вашого одягу.",
         description02: "Завдяки потужному засобу для виведення плям та знежирювачу, цей гель ефективно бореться навіть з найстійкішими забрудненнями, залишаючи тканини чистими та свіжими.",
         description03: "Подаруйте собі задоволення від використання засобу &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, який не тільки видаляє плями, але й зберігає яскравість кольорів та ніжність тканин.",
-        description04: "<strong>Гель універсальний. Містить плямовивідник та знежирювач. Діє навіть у холодній воді. Розрахований на 74 прань.</strong>",
+        description04: "<strong>Гель універсальний. Містить плямовивідник та знежирювач. Діє навіть у холодній воді. Розрахований на 74 прання.</strong>",
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/coccolino_wonder_wash_37.jpg",
@@ -478,7 +478,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1480 мл.",
         priceGRN: 525,
-        quantityOnStorage: 4,
+        priceGRNOpt: 447,
         description01: "&#171Coccolino - Washing Gel Wonder Wash&#187 — універсальний гель для прання з нейтралізатором запахів і сучасною технологією PRO-S.",
         description02: "Його формула глибоко очищує тканини та ефективно усуває навіть стійкі аромати, не залишаючи слідів.",
         description03: "&#171Coccolino - Washing Gel Wonder Wash&#187 Забезпечує догляд і свіжість для всіх типів білизни, зберігаючи м’якість і яскравість кольору.",
@@ -486,7 +486,7 @@ export const shopLotsWashingGels = [
         description05: "Спробуйте &#171Coccolino - Washing Gel Wonder Wash&#187 для чистоти, яку видно та відчувається!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_black_sensation_40.jpg",
@@ -505,7 +505,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 218,
-        quantityOnStorage: 6,
+        priceGRNOpt: 186,
         description01: "Гель &#171Denkmit - Feinwaschmittel Black Sensation&#187 забезпечує Вашим темним та чорним речам глибоку чистоту та яскравість кольору.",
         description02: "Його делікатна формула ефективно видаляє забруднення, зберігаючи інтенсивність кольору і захищаючи тканини від вицвітання.",
         description03: "Використовуючи &#171Denkmit - Feinwaschmittel Black Sensation&#187, Ви продовжите життя своїм улюбленим чорним речам, зберігаючи їх насиченість та елегантний вигляд.",
@@ -513,7 +513,7 @@ export const shopLotsWashingGels = [
         description05: "Додайте &#171Denkmit - Feinwaschmittel Black Sensation&#187 до свого догляду за одягом і відчуйте різницю вже після першого прання!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_white_sensation_40.jpg",
@@ -532,7 +532,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 218,
-        quantityOnStorage: 6,
+        priceGRNOpt: 186,
         description01: "Гель &#171Denkmit - Feinwaschmittel White Sensation&#187 надає Вашим білим речам бездоганну чистоту без використання відбілювача.",
         description02: "Його м'яка формула ретельно видаляє забруднення, зберігаючи ніжність тканин та їх первісну білизну.",
         description03: "Завдяки &#171Denkmit - Feinwaschmittel White Sensation&#187, Ваші улюблені речі залишатимуться свіжими і сяючими, навіть після численних прань.",
@@ -540,7 +540,7 @@ export const shopLotsWashingGels = [
         description05: "Додайте &#171Denkmit - Feinwaschmittel White Sensation&#187 до своєї колекції засобів для прання та збережіть ідеальну білизну своїх речей!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_colorwaschmittel_konzentrat_nature_pro_climate_33.jpg",
@@ -559,7 +559,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 315,
-        quantityOnStorage: 6,
+        priceGRNOpt: 268,
         description01: "Ваші улюблені кольорові речі заслуговують на дбайливий догляд з &#171Denkmit - Colorwaschmittel Konzentrat Nature Pro Climate&#187, який збереже їхню яскравість і чистоту.",
         description02: "Гель має екологічно чистий склад з інгредієнтів натурального походження, що ефективно видаляє забруднення без шкоди для тканин.",
         description03: "Вбудований плямовивідник у &#171Denkmit - Colorwaschmittel Konzentrat Nature Pro Climate&#187 працює навіть у холодній воді, проникаючи у волокна та усуваючи плями без необхідності попереднього замочування.",
@@ -567,7 +567,7 @@ export const shopLotsWashingGels = [
         description05: "Додайте &#171Denkmit - Colorwaschmittel Konzentrat Nature Pro Climate&#187 до свого прання, щоб зберегти свіжість і насиченість кольорів надовго!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_vollwaschmittel_konzentrat_nature_pro_climate_33.jpg",
@@ -586,7 +586,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 315,
-        quantityOnStorage: 6,
+        priceGRNOpt: 268,
         description01: "Гель &#171Denkmit - Vollwaschmittel Konzentrat Nature Pro Climate&#187 містить екологічно чисті інгредієнти натурального походження, які дбайливо очищають тканини без барвників і агресивних компонентів.",
         description02: "Білі речі мають залишатися білосніжними, а не тьмяніти після кожного прання.",
         description03: "Потужний плямовивідник у &#171Denkmit - Vollwaschmittel Konzentrat Nature Pro Climate&#187 ефективно бореться із забрудненнями навіть у холодній воді, а спеціальна формула запобігає посірінню та зберігає яскраву білизну Ваших речей.",
@@ -621,7 +621,7 @@ export const shopLotsWashingGels = [
     //     description05: "Оберіть гель &#171Fairy - Non Bio Liquid&#187 для делікатного догляду за дитячими речами та чистоти без компромісів!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/felce_azzurra_color_32.jpg",
@@ -639,8 +639,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1.595 л.",
-        priceGRN: 443,
-        priceGRNOpt: 377,
+        priceGRN: "--",
+        priceGRNOpt: 443,
         description01: "Зустрічайте новий гель для кольорових речей &#171Felce Azzurra - Active Color&#187, який збереже яскравість вашого одягу навіть після безлічі прань.",
         description02: "Його інноваційна формула дбає про кольори та тканини, забезпечуючи тривалий, а також запобігає переходу кольору з одного одягу на інший.",
         description03: "Виберіть  &#171Felce Azzurra - Active Color&#187 для захисту та збереження кольорів вашого улюбленого одягу, і Ви будете вражені результатом.",
@@ -729,7 +729,7 @@ export const shopLotsWashingGels = [
     //     description05: "Почніть дбати про бездоганність свого білого одягу вже зараз - замовте гель  &#171Formil - Marsiglia&#187 та насолоджуйтеся ідеально чистою білизною кожного дня!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_black_gel_2l.jpg",
@@ -747,8 +747,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 192,
-        priceGRNOpt: 176,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "&#171Gallus - Feinwaschmittel Black Gel&#187 - це засіб, створений спеціально для ніжного та дбайливого прання темного та чорного одягу. Його інноваційна формула забезпечує максимальний захист кольору, запобігаючи вигоранню і зміні насиченості тканин.",
         description02: "Це концентрований гель, який легко розчиняється у воді та ефективно видаляє плями, залишаючи тканини бездоганно чистими. Він забезпечує глибоку інтенсивну чистоту, не пошкоджуючи волокна, та залишає тканини м'якими та приємними на дотик.",
         description03: "Активні ферменти діють на молекули бруду, розщеплюючи їх на мікроскопічні частинки, які потім легко змиваються водою. Це дозволяє забезпечити глибоке проникнення засобу у тканини, а також забезпечити їх дбайливе прання.",
@@ -756,7 +756,7 @@ export const shopLotsWashingGels = [
         description05: "Відкрийте для себе ідеальний гель для догляду за вашим улюбленим темним та чорним одягом з &#171Gallus - Feinwaschmittel Black Gel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_color_gel_2l.jpg",
@@ -774,8 +774,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 192,
-        priceGRNOpt: 176,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "&#171Gallus - Colorwaschmittel Color Gel&#187 - це концентрований гель для прання кольорових білизни і тканин. Цей продукт втілює передові технології і активні ферменти, що забезпечують ефективне видалення плям і бруду, зберігаючи яскравість кольорів.",
         description02: "Спеціальна формула гелю дбайливо впливає на волокна тканин, захищаючи їх від пошкоджень та зберігає яскравість кольорів протягом тривалого часу. Ви зможете насолоджуватися яскравими та чистими речами після кожного прання.",
         description03: "Він дозволить вам піклуватися про ваші улюблені кольорові речі з неймовірною легкістю та результатами, які перевершують всі очікування.",
@@ -783,7 +783,7 @@ export const shopLotsWashingGels = [
         description05: "Перетворіть своє прання на миттєвий калейдоскоп яскравих кольорів з &#171Gallus - Colorwaschmittel Color Gel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sensitive_gel_2l.jpg",
@@ -801,8 +801,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 192,
-        priceGRNOpt: 176,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "&#171Gallus - Feinwaschmittel Sensitive Gel&#187 - це концентрований гель для дбайливого прання делікатних тканин. Завдяки передовим технологіям і активним ферментам, цей засіб забезпечує ефективне видалення плям і бруду, зберігаючи ніжність і м'якість волокон.",
         description02: "Спеціально розроблена формула гелю забезпечує дбайливе прання тканин, не пошкоджуючи їх структуру і кольори. Ваші улюблені речі зберегуть свіжість і природний вигляд протягом довгого часу.",
         description03: "&#171Gallus - Feinwaschmittel Sensitive Gel&#187 піклується про ваші найцінніші тканини і забезпечить ніжний дотик і якість, яку ви заслуговуєте.",
@@ -810,7 +810,7 @@ export const shopLotsWashingGels = [
         description05: "Насолоджуйтесь ніжністю та збереженням краси вашого одягу з &#171Gallus - Feinwaschmittel Sensitive Gel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_sport_gel_2l.jpg",
@@ -828,8 +828,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 192,
-        priceGRNOpt: 176,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "&#171Gallus - Vollwaschmittel Sport Gel&#187 - це концентрований гель, створений спеціально для дбайливого і ефективного прання вашого спортивного одягу. Цей унікальний гель має активні ферменти, які легко видаляють навіть найважчі плями, які часто зустрічаються на спортивних речах.",
         description02: "Спеціальна формула гелю дозволяє зберігати яскравість кольорів та дбати про тканини, забезпечуючи довговічність вашого спортивного одягу. Ви будете вражені свіжістю і чистотою після кожного прання.",
         description03: "З &#171Gallus - Vollwaschmittel Sport Gel&#187 ви зможете насолоджуватись комфортом та зберігати відмінний вигляд спортивного одягу навіть після інтенсивних тренувань.",
@@ -864,7 +864,7 @@ export const shopLotsWashingGels = [
         description05: "З &#171Gallus - Vollwaschmittel Universal Gel&#187 ваше прання стане бездоганним та комфортним!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_white_gel_2l.jpg",
@@ -882,8 +882,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 192,
-        priceGRNOpt: 176,
+        priceGRN: "--",
+        priceGRNOpt: 192,
         description01: "&#171Gallus - Weisswaschmittel White Gel&#187 - це концентрований гель для прання білої білизни, ідеальне рішення для того, щоб ваш одяг завжди сяяв чистотою і блиском. Цей потужний засіб має активні ферменти, які допомагають ефективно видалити навіть найскладніші плями та забруднення.",
         description02: "Спеціальна формула гелю зберігає білизну яскравою та бездоганною, не пошкоджуючи тканини. Ваші улюблені речі залишаться ніжними і м'якими, як нові.",
         description03: "&#171Gallus - Weisswaschmittel White Gel&#187 забезпечуює високу якість прання. З його допомогою ви зможете легко та ефективно доглядати за білизною, забезпечуючи довговічність і яскравість кольорів.",
@@ -945,7 +945,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть перший крок до найкращої якості разом з &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 та забудьте про компроміси у догляді за вашими улюбленими речами!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_colorwaschmittel_4l.jpg",
@@ -963,8 +963,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "4.05 л.",
-        priceGRN: 293,
-        priceGRNOpt: 264,
+        priceGRN: "--",
+        priceGRNOpt: 293,
         description01: "Представляємо вам засіб для кольорового прання - &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187. Цей концентрований продукт поєднує у собі чотири функції одночасно: технологія глибокого очищення, комплекс активних компонентів, свіжість та безфосфатність.",
         description02: "Його потужна формула проникає глибоко у тканини, забезпечуючи ефективний догляд і неймовірний результат. Зберігайте яскравість вашого одягу вже сьогодні!",
         description03: "Спробуйте &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 та відчуйте різницю у догляді за своїми речами. Насолоджуйтеся заощадженним часом, та впевненістю у якості вашого одягу навіть при низьких температурах.",
@@ -972,7 +972,7 @@ export const shopLotsWashingGels = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/gallus_vollwaschmittel_4l.jpg",
@@ -990,8 +990,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "4.05 л.",
-        priceGRN: 293,
-        priceGRNOpt: 264,
+        priceGRN: "--",
+        priceGRNOpt: 293,
         description01: "Познайомтеся з інноваційним рішенням - &#171Gallus - Concentrated Colorwaschmittel 4 in 1&#187! Цей концентрований засіб перетворює процес прання у незабутній досвід. Він об'єднує чотири функції: технологія глибокого очищення, комплекс активних компонентів, свіжість та безфосфатність.",
         description02: "Його унікальна формула допомагає зберегти кольори та тканини у найкращому стані, навіть після багатьох прань. Чистота вашого одягу відчутно покращиться завдяки високоактивним компонентам, які дбайливо долають забруднення.",
         description03: "Замовте його вже сьогодні і отримайте дивовижну якість прання, яка залишить ваш одяг сяючим та свіжим навіть при низьких температурах.",
@@ -1107,7 +1107,7 @@ export const shopLotsWashingGels = [
         description05: "Обирайте якість та надійність, які надає &#171La Salud - Detergente Ropa Negra&#187, і дозвольте Вашому гардеробу завжди виглядати бездоганно!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_amethyst_60.jpg",
@@ -1126,7 +1126,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "3 л.",
         priceGRN: 653,
-        quantityOnStorage: 15,
+        priceGRNOpt: 556,
         description01: "&#171Lenor - Color Detergent Amethyst & Floral Bouquet&#187 наповнює Ваш одяг яскравістю барв та вишуканим ароматом аметисту та квіткового букета.",
         description02: "Одяг залишатиметься свіжим протягом дня, даруючи легкий аромат розкішних квітів та нот аметисту при кожному русі.",
         description03: "Завдяки спеціальній формулі, &#171Lenor - Color Detergent Amethyst & Floral Bouquet&#187 не лише піклується про насиченість кольорів, але й ефективно нейтралізує неприємні запахи.",
@@ -1134,7 +1134,7 @@ export const shopLotsWashingGels = [
         description05: "Дозвольте своїм речам сяяти яскраво і пахнути неперевершено з кожним пранням &#171Lenor - Color Detergent Amethyst & Floral Bouquet&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_orchid_60.jpg",
@@ -1153,7 +1153,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "3 л.",
         priceGRN: 653,
-        quantityOnStorage: 15,
+        priceGRNOpt: 556,
         description01: "Втілюємо елегантність та розкіш у пранні з &#171Lenor - Color Detergent Gold Orchid&#187. Цей неперевершений засіб для кольорового прання з витонченим ароматом золотої орхідеї перенесе вас у світ чуттєвості та краси.",
         description02: "Запатентована формула засобу не лише зберігає яскравість кольорів вашого одягу, але й дарує йому приголомшливий аромат. Кожна крапля проникає у тканини, даруючи їм неймовірну м'якість і запах свіжості.",
         description03: "&#171Lenor - Color Detergent Gold Orchid&#187 поєднує у собі 4 функції: ультра-силу очищення, довготривалу свіжіть одягу, видалення неприємного запаху та захист кольору білизни.",
@@ -1161,7 +1161,7 @@ export const shopLotsWashingGels = [
         description05: "Нехай ваш одяг говорить за вас! Замовляйте &#171Lenor - Color Detergent Gold Orchid&#187 вже сьогодні та даруйте своїм речам неперевершену чистоту та вишуканість!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_uneversal_derergent_peony_hibiscus_60.jpg",
@@ -1180,7 +1180,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "3 л.",
         priceGRN: 653,
-        quantityOnStorage: 15,
+        priceGRNOpt: 556,
         description01: "Гель &#171Lenor - Uneversal Detergent Peony & Hibiscus&#187 наповнює кожне прання ніжними ароматами півонії та гібіскусу.",
         description02: "Його універсальна формула підходить для всіх типів тканин і забезпечує ефективне видалення забруднень, зберігаючи м’якість речей.",
         description03: "Завдяки нейтралізатору запаху у &#171Lenor - Uneversal Detergent Peony & Hibiscus&#187, Ваш одяг залишатиметься свіжим надовго, навіть після насиченого дня.",
@@ -1365,7 +1365,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "4 л.",
         priceGRN: "--",
-        priceGRNOpt: 389,
+        priceGRNOpt: 410,
         description01: "Ласкаво просимо у світ інноваційного догляду за вашими кольоровими речами разом з &#171Power Wash - Gel Colorwaschmittel Color&#187. Цей гель для прання надає неперевершений захист від вицвітання та забезпечує яскравість кольорів, яку ви заслуговуєте.",
         description02: "Його продуктивна формула допомагає зберегти інтенсивність кольорів під час прання, навіть при низьких температурах. Проникає глибоко в тканини, видаляючи плями та забруднення без шкоди для кольору.",
         description03: "Нехай ваш одяг зберігає свою яскравість та вишуканість навіть після численних прань. Спробуйте &#171Power Wash - Gel Colorwaschmittel Color&#187 і відчуйте різницю у догляді за кольоровими речами.",
@@ -1392,7 +1392,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "4 л.",
         priceGRN: "--",
-        priceGRNOpt: 389,
+        priceGRNOpt: 410,
         description01: "Відкрийте для себе найсучасніший засіб для універсального прання - &#171Power Wash - Gel Vollwaschmittel Universal&#187. Цей гель містить активні ферменти, які розкладають плями та забруднення до найменших часточок, забезпечуючи неймовірно чистий результат.",
         description02: "Завдяки спеціальній формулі, цей гель працює на будь-яких видах тканин, від бавовни до синтетичних матеріалів.",
         description03: "Він ефективний навіть при низьких температурах і допомагає зберегти якість вашого одягу.",

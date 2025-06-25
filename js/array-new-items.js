@@ -116,7 +116,7 @@ export const shopLotsNewItems = [
         description05: "Виберіть капсули &#171Ariel - All in 1 PODS Mountain Spring&#187, щоб Ваш одяг залишався свіжим та чистим тривалий час!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/astonish_fabric_refresher_cotton_fresh_750.jpg",
@@ -135,7 +135,7 @@ export const shopLotsNewItems = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 154,
-        quantityOnStorage: 6,
+        priceGRNOpt: 131,
         description01: "&#171Astonish - Fabric Refresher Cotton Fresh&#187 миттєво оновлює тканини, даруючи легкий аромат чистої бавовни.",
         description02: "Засіб підходить не лише для одягу, а й для штор, м’яких меблів та килимів, усуваючи запахи без прання.",
         description03: "Формула &#171Astonish - Fabric Refresher Cotton Fresh&#187 не залишає плям і додає відчуття свіжості у кожен куточок дому.",
@@ -143,7 +143,7 @@ export const shopLotsNewItems = [
         description05: "Скористайтесь &#171Astonish - Fabric Refresher Cotton Fresh&#187, щоб тканини довше залишались приємно пахучими та доглянутими!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_74.jpg",
@@ -152,7 +152,7 @@ export const shopLotsNewItems = [
         alt1: "chanteclair_pulito_profondo_74-01",
         url2: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_74-02.jpg",
         alt2: "chanteclair_pulito_profondo_74-02",
-        marker: "LDWG148",
+        marker: "LDWG138",
         brand: "Chanteclair",
         search: "шантеклер півник півень петух петушок гели гелі для прання стирки универсальный з плямовивідником пятновыводитель с пятновыводителем со средство средством для удаления выведения пятен глубокое очищение обезжириватель с обезжиривателем",
         nameUKR: "Гель універсальний з засобом для виведення плям, глибоке очищення",
@@ -162,15 +162,15 @@ export const shopLotsNewItems = [
         volumeName: "Об'єм",
         volume: "3330 мл.",
         priceGRN: 613,
-        quantityOnStorage: 6,
+        priceGRNOpt: 522,
         description01: "Відкрийте новий рівень чистоти з універсальним гелем &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, що забезпечує глибоке очищення та бездоганну свіжість Вашого одягу.",
         description02: "Завдяки потужному засобу для виведення плям та знежирювачу, цей гель ефективно бореться навіть з найстійкішими забрудненнями, залишаючи тканини чистими та свіжими.",
         description03: "Подаруйте собі задоволення від використання засобу &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, який не тільки видаляє плями, але й зберігає яскравість кольорів та ніжність тканин.",
-        description04: "<strong>Гель універсальний. Містить плямовивідник та знежирювач. Діє навіть у холодній воді. Розрахований на 74 прань.</strong>",
+        description04: "<strong>Гель універсальний. Містить плямовивідник та знежирювач. Діє навіть у холодній воді. Розрахований на 74 прання.</strong>",
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/coccolino_wonder_wash_37.jpg",
@@ -189,7 +189,7 @@ export const shopLotsNewItems = [
         volumeName: "Об'єм",
         volume: "1480 мл.",
         priceGRN: 525,
-        quantityOnStorage: 4,
+        priceGRNOpt: 447,
         description01: "&#171Coccolino - Washing Gel Wonder Wash&#187 — універсальний гель для прання з нейтралізатором запахів і сучасною технологією PRO-S.",
         description02: "Його формула глибоко очищує тканини та ефективно усуває навіть стійкі аромати, не залишаючи слідів.",
         description03: "&#171Coccolino - Washing Gel Wonder Wash&#187 Забезпечує догляд і свіжість для всіх типів білизни, зберігаючи м’якість і яскравість кольору.",
@@ -197,7 +197,7 @@ export const shopLotsNewItems = [
         description05: "Спробуйте &#171Coccolino - Washing Gel Wonder Wash&#187 для чистоти, яку видно та відчувається!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",    
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_gallseife_250.jpg",
@@ -216,7 +216,7 @@ export const shopLotsNewItems = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 145,
-        quantityOnStorage: 6,
+        priceGRNOpt: 124,
         description01: "Жовчне мило &#171Denkmit - Gallseife Mit Softbürste&#187 з м’яким пензликом ефективно видаляє складні плями — від крові до макіяжу.",
         description02: "Формула підходить для білих і кольорових тканин, не пошкоджуючи волокон і не залишаючи слідів.",
         description03: "Зручна щіточка допомагає точно нанести &#171Denkmit - Gallseife Mit Softbürste&#187 і глибше проникнути у структуру тканини.",

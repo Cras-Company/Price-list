@@ -135,7 +135,7 @@ export const shopLotsForFurniture = [
         description05: "Додайте нотку весняної свіжості у свій дім з &#171Brait - Aqua Spray Magic Mist White Flowers&#187 і насолоджуйтесь кожним вдихом!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_fleckenspray_500.jpg",
@@ -154,7 +154,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "500 мл.",
         priceGRN: 135,
-        quantityOnStorage: 13,
+        priceGRNOpt: 115,
         description01: "&#171Denkmit - Fleckenspray&#187 – потужний засіб для видалення плям без відбілювача, який допоможе врятувати Ваші улюблені речі.",
         description02: "Цей спрей ефективно справляється зі стійкими забрудненнями на білому та кольоровому текстилі, килимах та оббивці, зберігаючи їх яскравість і чистоту.",
         description03: "Забудьте про плями і насолоджуйтеся свіжим виглядом кожної речі – з &#171Denkmit - Fleckenspray&#187 Ви легко досягнете бездоганної чистоти без зайвих зусиль.",
@@ -189,7 +189,7 @@ export const shopLotsForFurniture = [
     //     description05: "Замовте спрей  &#171Denkmit - Möbel-Pflegespray&#187 для ідеальної чистоти Вашого дому вже сьогодні!"
     // },
     {
-        type: "wholesale оптом оптом",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_mobel_pflege_staub_stopp_300.jpg",
@@ -247,7 +247,7 @@ export const shopLotsForFurniture = [
     //     description05: "Надайте своїм речам друге життя з універсальною пастою &#171Denkmit - Reinigungs-Paste&#187!"
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_teppich_polsterreiniger_600.jpg",
@@ -266,7 +266,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "600 мл.",
         priceGRN: 155,
-        quantityOnStorage: 4,
+        priceGRNOpt: 132,
         description01: "Засіб &#171Denkmit - Tepppich - Und Polsterreiniger&#187 для чистки килимів та оббивки швидко повертає свіжість навіть найскладнішим поверхням.",
         description02: "Його спеціальна формула проникає глибоко у тканину, видаляючи бруд і неприємні запахи, залишаючи тільки чистоту та свіжий аромат.",
         description03: "Нехай Ваш дім та авто завжди радують ідеально чистими килимами й оббивкою без зайвих зусиль з &#171Denkmit - Tepppich - Und Polsterreiniger&#187, наче після професійної хімчистки.",
@@ -274,7 +274,7 @@ export const shopLotsForFurniture = [
         description05: "Додайте &#171Denkmit - Tepppich - Und Polsterreiniger&#187 до свого арсеналу и та дбайте про чистоту навколо Вас легко!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_textilerfrischer_3_in_1_500.jpg",
@@ -292,8 +292,8 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 147,
-        quantityOnStorage: 6,
+        priceGRN: 155,
+        priceGRNOpt: 132,
         description01: "&#171Denkmit - Textilerfrischer 3 in 1&#187 – ваш надійний помічник у боротьбі з неприємними запахами!",
         description02: "Цей розгладжувач складок і дезінфектор ідеально підходить для текстилю, взуття та меблів, даруючи їм свіжість на довгий час.",
         description03: "&#171Denkmit - Textilerfrischer 3 in 1&#187 не тільки нейтралізує запахи, але й дезінфікує, позбавляючи від шкідливих бактерій, що накопичуються в тканинах.",
@@ -301,7 +301,7 @@ export const shopLotsForFurniture = [
         description05: "Покращте атмосферу у своєму домі та надайте речам новий вигляд з &#171Denkmit - Textilerfrischer 3 in 1&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_polster_flecken_burste_400.jpg",
@@ -320,7 +320,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 245,
-        quantityOnStorage: 6,
+        priceGRNOpt: 209,
         description01: "Засіб &#171Dr. Beckmann - Polster Flecken-Bürste&#187 з активним киснем легко видаляє плями з оббивки меблів, матраців та автосидінь, повертаючи їм бездоганний вигляд.",
         description02: "Свіжі та чисті меблі – це те, що додає Вашому інтер’єру елегантності та комфорту.",
         description03: "Вбудована щітка у &#171Dr. Beckmann - Polster Flecken-Bürste&#187 забезпечує ретельне очищення, проникаючи глибоко у тканину, щоб усунути навіть найскладніші забруднення.",
@@ -328,7 +328,7 @@ export const shopLotsForFurniture = [
         description05: "Подаруйте своїм меблям нове життя з &#171Dr. Beckmann - Polster Flecken-Bürste&#187 – довіртеся силі активного кисню!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_teppich_flecken_burste_650.jpg",
@@ -347,7 +347,7 @@ export const shopLotsForFurniture = [
         volumeName: "Об'єм",
         volume: "650 мл.",
         priceGRN: 260,
-        quantityOnStorage: 6,
+        priceGRNOpt: 221,
         description01: "Чисті килими – це основа затишного дому, і засіб для чищення &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 допоможе Вам цього досягти.",
         description02: "Вбудована щітка дозволяє ретельно обробити кожне волокно, забезпечуючи глибоке очищення без зайвих зусиль.",
         description03: "Активний кисень у складі &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 ефективно видаляє навіть найскладніші плями, залишаючи килим свіжим і яскравим.",
@@ -382,7 +382,7 @@ export const shopLotsForFurniture = [
         description05: "Не зволікайте, замовляйте &#171Gallus - Möbel-Pflege&#187 вже сьогодні та подаруйте своїм меблям друге життя!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/vir_kraftgel_500.jpg",
@@ -400,8 +400,8 @@ export const shopLotsForFurniture = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 87,
-        priceGRNOpt: 79,
+        priceGRN: "--",
+        priceGRNOpt: 107,
         description01: "Представляємо гель для чистки килимів та меблевої тканини &#171Vir - Teppich & Polster Kraftgel&#187. Забудьте про плями та бруд на Ваших улюблених поверхнях!",
         description02: "Цей потужний гель ефективно видаляє навіть найскладніші забруднення, глибоко проникаючи в тканини та килими. Його спеціальна формула зберігає колір та структуру матеріалів.",
         description03: "Ваші килими та меблі знову виглядатимуть як нові, без плям та з неперевершеною свіжістю. &#171Vir - Teppich & Polster Kraftgel&#187 поверне їм первозданний вигляд.",

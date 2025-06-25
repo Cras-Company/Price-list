@@ -54,7 +54,7 @@ export const shopLotsMeansCleaningDishwashers = [
     //     description05: "Додайте до свого догляду за одягом аромат і захист із водою для прасування &#171Denkmit - Bügelwasser Frischer Duft&#187!"
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_bio_entkalker_nature_250.jpg",
@@ -73,7 +73,7 @@ export const shopLotsMeansCleaningDishwashers = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 107,
-        quantityOnStorage: 6,
+        priceGRNOpt: 91,
         description01: "Екологічний засіб для видалення накипу та вапняного нальоту &#171Denkmit - Bio-Entkalker Nature&#187 забезпечує ефективне очищення без шкоди для природи.",
         description02: "Формула на основі натуральних інгредієнтів швидко розчиняє навіть стійкі відкладення накипу, залишаючи техніку чистиою.",
         description03: "Ваші прилади будуть надійно захищені від накипу, що подовжить їх термін служби та підвищить ефективність роботи.",
@@ -81,7 +81,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Доглядайте за своїми приладами з турботою про довкілля за допомогою &#171Denkmit - Bio-Entkalker Nature&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_anti_kalk_pulver_multi_power_2_1.5kg.jpg",
@@ -102,7 +102,7 @@ export const shopLotsMeansCleaningDishwashers = [
         weightName: "Вага",
         weight: "1.5 кг.",
         priceGRN: 224,
-        quantityOnStorage: 4,
+        priceGRNOpt: 191,
         description01: "Порошок &#171Denkmit - Anti-Kalk-Pulver Multi-Power 2&#187 надійно захищає Вашу пральну машину від утворення вапняного нальоту.",
         description02: "Завдяки спеціальній формулі він запобігає накопиченню нальоту, зберігаючи техніку у відмінному стані протягом тривалого часу.",
         description03: "Ваша пральна машина працюватиме ефективніше, залишаючись захищеними від пошкоджень з &#171Denkmit - Anti-Kalk-Pulver Multi-Power 2&#187.",
@@ -110,7 +110,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Подбайте про довговічність своїх приладів з &#171Denkmit - Anti-Kalk-Pulver Multi-Power 2&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_anti_kalk_tabs_multi_power_2_60.jpg",
@@ -133,7 +133,7 @@ export const shopLotsMeansCleaningDishwashers = [
         quantityName: "Кількість",
         quantity: "60 шт.",
         priceGRN: 332,
-        quantityOnStorage: 4,
+        priceGRNOpt: 283,
         description01: "Таблетки &#171Denkmit - Anti-Kalk-Tabs Multi-Power 2&#187 надійно захищає Вашу пральну машину від утворення вапняного нальоту.",
         description02: "Завдяки спеціальній формулі вони запобігають накопиченню нальоту, зберігаючи техніку у відмінному стані протягом тривалого часу.",
         description03: "Ваша пральна машина працюватиме ефективніше, залишаючись захищеними від пошкоджень з &#171Denkmit - Anti-Kalk-Tabs Multi-Power 2&#187.",
@@ -201,7 +201,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Обирайте &#171Denkmit - Maschinenpfleger&#187 – надійний захист та ефективне очищення для бездоганної роботи Вашої посудомийної машини!!"
     },
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_hygiene_waschmaschinen_pflege_reiniger_250.jpg",
@@ -228,7 +228,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Спробуйте &#171Denkmit - Hygiene Waschmaschinen-Pflege-Reiniger&#187 і подаруйте своїй машинці нове дихання на довгі роки!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/domol_schnell_entkalker_30.jpg",
@@ -247,7 +247,7 @@ export const shopLotsMeansCleaningDishwashers = [
         weightName: "Вага",
         weight: "30 гр.",
         priceGRN: 33,
-        quantityOnStorage: 8,
+        priceGRNOpt: 29,
         description01: "&#171Domol - Schnell-Entkalker&#187 ефективно вирішує проблему накипу у кавових машинах та чайниках.",
         description02: "Його потужна формула швидко розчиняє вапняні відкладення, продовжуючи термін служби Ваших приладів.",
         description03: "&#171Domol - Schnell-Entkalker&#187 не залишає слідів і забезпечує чистоту, що сприяє збереженню якості напоїв.",
@@ -332,7 +332,7 @@ export const shopLotsMeansCleaningDishwashers = [
         quantityName: "Кількість",
         quantity: "4 шт.",
         priceGRN: 169,
-        quantityOnStorage: 10,
+        quantityOnStorage: 4,
         description01: "Чарівні кульки &#171Irge - Palla Magica Cattura Capelli E Pelucchi&#187 ефективно захоплюють волосся, ворс та шерсть під час прання та сушіння.",
         description02: "Спеціальна поверхня кульок зменшує ризик забивання фільтрів, зберігаючи Вашу техніку у чистоті та безпеці.",
         description03: "&#171Irge - Palla Magica Cattura Capelli E Pelucchi&#187 допомагають зробити одяг ідеально чистим, не залишаючи слідів ворсу чи шерсті на улюблених речах.",

@@ -150,7 +150,7 @@ export const shopLotsWashingPowders = [
     // ДЕНКМИТ
     // ===========================================================================
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_color_1.35.jpg",
@@ -173,7 +173,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 318,
-        quantityOnStorage: 4,
+        priceGRNOpt: 271,
         description01: "&#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 - це ідеальний пральний порошок для збереження яскравих кольорів вашого одягу. Він має спеціальну формулу, яка захищає кольори від вигорання та вицвітання під час прання. Ефективно видаляє плями і забруднення, залишаючи вашу одежу свіжою та яскравою.",
         description02: "Видаляє навіть найскладніші плями і забруднення, залишаючи вашу одежу свіжою та яскравою. Він також має приємний аромат, який залишається на вашому одязі після прання.",
         description03: "&#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 - Ваше рішення для бездоганно чистого та яскравого одягу. Забезпечує надійни результат під час кожного прання.",
@@ -181,7 +181,7 @@ export const shopLotsWashingPowders = [
         description05: "Спробуйте пральний порошок &#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 і переконайтеся самі, як ваша одежа стає більш яскравою і свіжою!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_weiss_1.35.jpg",
@@ -204,7 +204,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 318,
-        quantityOnStorage: 4,
+        priceGRNOpt: 271,
         description01: "&#171Denkmit - Vollwaschmittel Für Strahlendes Weiss&#187 - це секрет білосніжності та яскравості вашого одягу. Цей потужний пральний порошок спеціально розроблений для надання вашим речам бездоганної чистоти та свіжості.",
         description02: "Його унікальна формула забезпечує ефективне видалення навіть найтвердіших плям та забруднень, зберігаючи водостійкість кольорів і довговічність тканини.",
         description03: "&#171Denkmit - Vollwaschmittel Für Strahlendes Weiss&#187 має в складі надійні компоненти, які дбайливо ставляться до вашої шкіри. Цей пральний порошок створений з урахуванням потреб навіть найчутливішої шкіри, забезпечуючи м'який і доглянутий вигляд вашого одягу без ризику виникнення алергічних реакцій.",
@@ -243,7 +243,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Відчуйте свіжість літа в кожному одязі з &#171Denkmit - Vollwaschmittel Summer Rain&#187."
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_colorwaschmittel_sunny_fresh_1.3.jpg",
@@ -266,7 +266,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.3 кг.",
         priceGRN: 288,
-        quantityOnStorage: 4,
+        priceGRNOpt: 245,
         description01: "Порошок для кольорових речей &#171Denkmit - Colorwaschmittel Für Leuchtende Farben Sunny Fresh&#187 забезпечує яскравість кольорів навіть після багаторазового прання!",
         description02: "Формула з засобом для виведення плям ефективно видаляє забруднення, залишаючи одяг бездоганно чистим і свіжим.",
         description03: "Насолоджуйтеся сонячною свіжістю кожного прання, яка огортає речі приємним ароматом &#171Denkmit - Colorwaschmittel Für Leuchtende Farben Sunny Fresh&#187 та дарує комфорт.",
@@ -274,7 +274,7 @@ export const shopLotsWashingPowders = [
         description05: "Дбайте про яскравість вашого гардеробу з &#171Denkmit - Colorwaschmittel Für Leuchtende Farben Sunny Fresh&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_dreamy_breeze_1.3.jpg",
@@ -297,7 +297,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.3 кг.",
         priceGRN: 288,
-        quantityOnStorage: 4,
+        priceGRNOpt: 245,
         description01: "Універсальний порошок &#171Denkmit - Vollwaschmittel Für Strahlendes Weiss Dreamy Breeze&#187 робить білі речі ідеально чистими та сяючими.",
         description02: "Засіб для виведення плям у складі порошку ефективно видаляє навіть стійкі забруднення, не пошкоджуючи тканину.",
         description03: "Насолоджуйтесь легким і свіжим ароматом &#171Denkmit - Vollwaschmittel Für Strahlendes Weiss Dreamy Breeze&#187, який огортає одяг та додає йому ніжності.",
@@ -305,7 +305,7 @@ export const shopLotsWashingPowders = [
         description05: "Довірте білизну якості &#171Denkmit - Vollwaschmittel Für Strahlendes Weiss Dreamy Breeze&#187, яка дарує бездоганну чистоту та аромат!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_colorwaschmittel_ultra_sensitive_1.35.jpg",
@@ -328,7 +328,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 285,
-        quantityOnStorage: 4,
+        priceGRNOpt: 243,
         description01: "Відкрийте для себе ідеальний вибір для дбайливого прання - порошок для кольорових речей, для чутливих тканин &#171Denkmit - Colorwaschmittel Ultra Sensitive&#187.",
         description02: "Насолоджуйтеся свіжістю та чистотою вашого одягу завдяки ефективному складу, розробленому спеціально для догляду за чутливими тканинами.",
         description03: "Відчуйте спокій, знаючи, що ваші улюблені речі зберігають яскравість кольору та м'якість кожного прання.",
@@ -336,7 +336,7 @@ export const shopLotsWashingPowders = [
         description05: "Покращте якість свого прання з порошком &#171Denkmit - Colorwaschmittel Ultra Sensitive&#187 вже сьогодні!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_ultra_sensitive_1.35.jpg",
@@ -359,7 +359,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.35 кг.",
         priceGRN: 285,
-        quantityOnStorage: 4,
+        priceGRNOpt: 243,
         description01: "Відкрийте для себе порошок &#171Denkmit - Vollwaschmittel Ultra Sensitive&#187, який забезпечує неймовірну чистоту без ризику пошкодження чутливих тканин.",
         description02: "Цей порошок розроблений спеціально для людей із чутливою шкірою та для чутливих тканин, забезпечуючи ефективне видалення бруду та плям, при цьому дбаючи про вашу комфортність і безпеку.",
         description03: "З &#171Denkmit - Vollwaschmittel Ultra Sensitive&#187 Ви отримаєте ідеально чисті речі, які будуть ніжними до вашої шкіри і збережуть м'якість.",
@@ -455,7 +455,7 @@ export const shopLotsWashingPowders = [
     // ГАЛЛУС
     // ===========================================================================
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_10.jpg",
@@ -473,8 +473,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "650 гр.",
-        priceGRN: 55,
-        priceGRNOpt: 49,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171Gallus - Colorwaschmittel&#187 - це ідеальний вибір для дбайливого прання кольорового одягу. Завдяки новій активній формулі, він зберігає яскравість кольорів та запобігає старінню фарби, забезпечуючи бездоганну свіжість та якість тканини.",
         description02: "Цей порошок дбайливо видаляє навіть найскладніші плями та забруднення, залишаючи вашу білизну і одяг чистими та ароматними. Готуйтеся до чарівного шоу кольорів, де ваші улюблені речі залишаться яскравими та неперевершеними!",
         description03: "&#171Gallus - Colorwaschmittel&#187 - це гарантія якості та надійності від відомого виробника. Подаруйте своєму одягу витончений догляд і збережіть красу на довгий час.",
@@ -482,7 +482,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_10.jpg",
@@ -500,8 +500,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "650 гр.",
-        priceGRN: 55,
-        priceGRNOpt: 49,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171Gallus - Vollwaschmittel&#187 - це потужний і ефективний засіб для видалення навіть найскладніших забруднень з вашої білизни. Завдяки своїй унікальній формулі, він забезпечує бездоганну чистоту та догляд за вашим одягом.",
         description02: "Цей пральний порошок зберігає яскравість кольорів і білизни, залишаючи тканини м'якими та приємними на дотик. Він легко видаляє плями та неприємні запахи, забезпечуючи ідеальний результат прання.",
         description03: "&#171Gallus - Vollwaschmittel&#187 має надійну якість та ефективність, що зробить процес прання легким і зручним.",
@@ -528,7 +528,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "650 гр.",
         priceGRN: "--",
-        priceGRNOpt: 60,
+        priceGRNOpt: 65,
         description01: "Вам потрібен порошок, щоб зберегти білість вашого одягу? Представляємо ідеальне рішення - &#171Gallus - Weisswaschmittel&#187.",
         description02: "Цей порошок має спеціальну формулу, яка ефективно видаляє навіть найскладніші плями і зберігає білість вашого одягу, забезпечуючи йому довговічність.",
         description03: "Завдяки порошку &#171Gallus - Weisswaschmittel&#187 ваш одяг завжди буде виглядати як новий.",
@@ -536,7 +536,7 @@ export const shopLotsWashingPowders = [
         description05: "Дійте зараз і зробіть свій вибір на користь найкращого - порошок для білих речей &#171Gallus - Weisswaschmittel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_26.jpg",
@@ -554,8 +554,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1.7 кг.",
-        priceGRN: 133,
-        priceGRNOpt: 119,
+        priceGRN: "--",
+        priceGRNOpt: 143,
         description01: "&#171Gallus - Colorwaschmittel&#187 - це ідеальний вибір для дбайливого прання кольорового одягу. Завдяки новій активній формулі, він зберігає яскравість кольорів та запобігає старінню фарби, забезпечуючи бездоганну свіжість та якість тканини.",
         description02: "Цей порошок дбайливо видаляє навіть найскладніші плями та забруднення, залишаючи вашу білизну і одяг чистими та ароматними. Готуйтеся до чарівного шоу кольорів, де ваші улюблені речі залишаться яскравими та неперевершеними!",
         description03: "&#171Gallus - Colorwaschmittel&#187 - це гарантія якості та надійності від відомого виробника. Подаруйте своєму одягу витончений догляд і збережіть красу на довгий час.",
@@ -563,7 +563,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_26.jpg",
@@ -581,8 +581,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1.7 кг.",
-        priceGRN: 133,
-        priceGRNOpt: 119,
+        priceGRN: "--",
+        priceGRNOpt: 143,
         description01: "&#171Gallus - Vollwaschmittel&#187 - це потужний і ефективний засіб для видалення навіть найскладніших забруднень з вашої білизни. Завдяки своїй унікальній формулі, він забезпечує бездоганну чистоту та догляд за вашим одягом.",
         description02: "Цей пральний порошок зберігає яскравість кольорів і білизни, залишаючи тканини м'якими та приємними на дотик. Він легко видаляє плями та неприємні запахи, забезпечуючи ідеальний результат прання.",
         description03: "&#171Gallus - Vollwaschmittel&#187 має надійну якість та ефективність, що зробить процес прання легким і зручним.",
@@ -590,7 +590,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_colorwaschmittel_60.jpg",
@@ -608,8 +608,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "3.9 кг.",
-        priceGRN: 279,
-        priceGRNOpt: 252,
+        priceGRN: "--",
+        priceGRNOpt: 289,
         description01: "&#171Gallus - Colorwaschmittel&#187 - це ідеальний вибір для дбайливого прання кольорового одягу. Завдяки новій активній формулі, він зберігає яскравість кольорів та запобігає старінню фарби, забезпечуючи бездоганну свіжість та якість тканини.",
         description02: "Цей порошок дбайливо видаляє навіть найскладніші плями та забруднення, залишаючи вашу білизну і одяг чистими та ароматними. Готуйтеся до чарівного шоу кольорів, де ваші улюблені речі залишаться яскравими та неперевершеними!",
         description03: "&#171Gallus - Colorwaschmittel&#187 - це гарантія якості та надійності від відомого виробника. Подаруйте своєму одягу витончений догляд і збережіть красу на довгий час.",
@@ -617,7 +617,7 @@ export const shopLotsWashingPowders = [
         description05: "Насолоджуйтеся барвистими моментами разом з &#171Gallus - Colorwaschmittel&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_vollwaschmittel_60.jpg",
@@ -635,8 +635,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "3.9 кг.",
-        priceGRN: 279,
-        priceGRNOpt: 252,
+        priceGRN: "--",
+        priceGRNOpt: 289,
         description01: "&#171Gallus - Vollwaschmittel&#187 - це потужний і ефективний засіб для видалення навіть найскладніших забруднень з вашої білизни. Завдяки своїй унікальній формулі, він забезпечує бездоганну чистоту та догляд за вашим одягом.",
         description02: "Цей пральний порошок зберігає яскравість кольорів і білизни, залишаючи тканини м'якими та приємними на дотик. Він легко видаляє плями та неприємні запахи, забезпечуючи ідеальний результат прання.",
         description03: "&#171Gallus - Vollwaschmittel&#187 має надійну якість та ефективність, що зробить процес прання легким і зручним.",
@@ -698,7 +698,7 @@ export const shopLotsWashingPowders = [
         description05: "Відчуйте свіжість та комфорт, забудьте про турботи щодо чистоти вашого одягу - віддайте цю роботу в надійні руки &#171Gallus - Vollwaschmittel&#187."
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_color_58.jpg",
@@ -716,8 +716,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "3.2 кг.",
-        priceGRN: 285,
-        priceGRNOpt: 257,
+        priceGRN: "--",
+        priceGRNOpt: 295,
         description01: "Представляємо вам засіб для кольорового прання - &#171Gallus - Colorwaschmittel 4 in 1&#187. Цей порошок поєднує у собі чотири функції одночасно: технологія глибокого очищення, комплекс активних компонентів, свіжість та безфосфатність.",
         description02: "Його потужна формула проникає глибоко у тканини, забезпечуючи ефективний догляд і неймовірний результат. Зберігайте яскравість вашого одягу вже сьогодні!",
         description03: "Спробуйте &#171Gallus - Colorwaschmittel 4 in 1&#187 та відчуйте різницю у догляді за своїми речами. Насолоджуйтеся заощадженним часом, та впевненістю у якості вашого одягу навіть при низьких температурах прання.",
@@ -725,7 +725,7 @@ export const shopLotsWashingPowders = [
         description05: "Зробіть правильний вибір для вашого одягу і замовте &#171Gallus - Colorwaschmittel 4 in 1&#187 вже сьогодні та перетворіть прання на приємний процес, що дарує блиск і тривалість вашому улюбленому одягу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/gallus_voll_58.jpg",
@@ -743,8 +743,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "3.2 кг.",
-        priceGRN: 285,
-        priceGRNOpt: 257,
+        priceGRN: "--",
+        priceGRNOpt: 295,
         description01: "Познайомтеся з інноваційним рішенням - &#171Gallus - Colorwaschmittel 4 in 1&#187! Цей порошок перетворює процес прання у незабутній досвід. Він об'єднує чотири функції: технологія глибокого очищення, комплекс активних компонентів, свіжість та безфосфатність.",
         description02: "Його унікальна формула допомагає зберегти кольори та тканини у найкращому стані, навіть після багатьох прань. Чистота вашого одягу відчутно покращиться завдяки високоактивним компонентам, які дбайливо долають забруднення.",
         description03: "Замовте його вже сьогодні і отримайте дивовижну якість прання, яка залишить ваш одяг сяючим та свіжим навіть при низьких температурах.",
@@ -1251,7 +1251,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "7.8 кг.",
         priceGRN: "--",
-        priceGRNOpt: 480,
+        priceGRNOpt: 510,
         description01: "&#171Power Wash - Colorwaschmittel Professional&#187 - це надійний помічник у догляді за вашим одягом. Цей професійний засіб розроблений, щоб зберегти яскравість та насиченість кольорів на вашій білизні та текстильних виробах.",
         description02: "Інноваційна формула допомагає підтримувати якість кольорів під час прання. Він легко видаляє плями та забруднення, зберігаючи якість тканини незмінною.",
         description03: "Просто додайте необхідну кількість &#171Power Wash - Colorwaschmittel Professional&#187 до вашої пральної машини і запустіть програму. Ваш одяг знову стане яскравим та неперевершеним.",
@@ -1276,7 +1276,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "7.8 кг.",
         priceGRN: "--",
-        priceGRNOpt: 480,
+        priceGRNOpt: 510,
         description01: "&#171Power Wash - Vollwaschmittel Professional&#187 - це вища якість догляду за вашим одягом! Цей професійний засіб створений, щоб забезпечити максимально ефективне прання та видалення найскладніших забруднень з будь-яких типів тканин.",
         description02: "Інтенсивна формула забезпечує глибоке проникнення у тканини, видаляючи плями, жир і бруд з перших циклів прання. Ваш одяг буде неймовірно чистим та свіжим, як після першого використання.",
         description03: "Додайте необхідну кількість &#171Power Wash - Vollwaschmittel Professional&#187 до вашої пральної машини, і ви отримаєте результат, який перевершить ваші очікування. Насолоджуйтеся бездоганними результатами при кожному пранні.",
