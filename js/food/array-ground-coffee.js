@@ -485,7 +485,7 @@ export const shopLotsGroundCoffee = [
         weightName: "Вага",
         weight: "250 гр.",
         priceGRN: 267,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Запрошуємо Вас у подорож по Італії з меленою кавою &#171Lavazza - Oro Mountain Grown&#187. Це не просто напій, а справжнє витончення смаку, яке привертає погляди своєю ексклюзивністю та витонченістю.",
         description02: "Зерна цієї кави ростуть на гірських вершинах, що надає їй неповторний аромат та багатий смак. Вишукане поєднання традиції та вишуканості у кожному ковтку.",
         description03: "&#171Lavazza - Oro Mountain Grown&#187 вкрай ніжна та елітна, створена для тих, хто прагне вишуканості у кожному дегустованому келиху.",
@@ -613,7 +613,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Замовляйте &#171Lavazza - Rossa&#187 вже зараз та дозвольте собі насолодитися неперевершеним смаком італійської кави прямо у вашому домі!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_rossa_250.jpg",
@@ -637,8 +637,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 176,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 204,
         description01: "Очаруйте свій смак із &#171Lavazza - Rossa&#187, неперевершеною італійською кавою. Завдяки унікальній суміші арабіки та робусти, кава створює неперевершений букет смакових відтінків.",
         description02: "Зерна витончено відібрані, щоб забезпечити ідеальну рівновагу смаку та аромату. Кожен ковток подарує Вам яскравий та насичений смак, що стане справжньою кавовою насолодою.",
         description03: "Мрієте про аутентичну італійську каву кожен день? &#171Lavazza - Rossa&#187 - це те, що потрібно для задоволення вашого вишуканого бажання насолоджуватися кожним моментом.",
