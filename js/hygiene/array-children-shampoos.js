@@ -135,7 +135,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Насолоджуйтеся миттям разом з вашою дитиною, знаючи, що вона отримує найкращий догляд з &#171Bübchen - Shampoo & Duschgel Superduscher&#187."
   },
   {
-    type: "wholesale оптом",
+    type: "only-wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_200.jpg",
@@ -153,8 +153,8 @@ export const shopLotsChildrenShampoos = [
     countryName: "Італія",
     volumeName: "Об'єм",
     volume: "200 мл.",
-    priceGRN: 67,
-    priceGRNOpt: 60,
+    priceGRN: "--",
+    priceGRNOpt: 85,
     description01: "Втомилися від пошуків шампуню, який підійде всій родині? Ультра делікатний шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187 з міцелярною водою створений для ніжного догляду за волоссям дітей і дорослих.",
     description02: "Його м'яка формула ефективно очищує, зберігаючи природний баланс шкіри голови та волосся.",
     description03: "&#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187 не викликає подразнень і підходить навіть для найчутливішої шкіри.",
@@ -162,7 +162,7 @@ export const shopLotsChildrenShampoos = [
     description05: "Відкрийте для себе шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187, який забезпечить м'якість і здоров'я волосся всієї родини!"
   },
   {
-    type: "wholesale оптом",
+    type: "only-wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "hair-care for-children",
     url: "./images/shop/gigiena/hair_care/shampoos/wash_go_micellar_water_360.jpg",
@@ -180,8 +180,8 @@ export const shopLotsChildrenShampoos = [
     countryName: "Італія",
     volumeName: "Об'єм",
     volume: "360 мл.",
-    priceGRN: 120,
-    priceGRNOpt: 108,
+    priceGRN: "--",
+    priceGRNOpt: 120,
     description01: "Втомилися від пошуків шампуню, який підійде всій родині? Ультра делікатний шампунь &#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187 з міцелярною водою створений для ніжного догляду за волоссям дітей і дорослих.",
     description02: "Його м'яка формула ефективно очищує, зберігаючи природний баланс шкіри голови та волосся.",
     description03: "&#171Wash & Go - Ultra Delicate Shampoo With Micellar Water&#187 не викликає подразнень і підходить навіть для найчутливішої шкіри.",

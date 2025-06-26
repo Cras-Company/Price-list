@@ -177,7 +177,7 @@ export const shopLotsOliveOil = [
         description05: "Не гайте часу та додайте &#171Vesuvio - Oil Extra Virgin Product&#187 до свого кошика прямо зараз та насолоджуйтеся найкращими смаками вдома, пригощайте родину та друзів чудовими стравами."
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/vesuvio_oil_omega_1l.jpg",
@@ -193,8 +193,8 @@ export const shopLotsOliveOil = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 185,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 205,
         description01: "&#171Vesuvio - Oil Extra Virgin Omega-3&#187 - це справжнє джерело здоров'я та неймовірного смаку. Виготовлена з найкращих оливок, має неперевершений фруктовий аромат та насичений смак. Олія є ідеальним доповненням до салатів, супів та страв з риби та м'яса.",
         description02: "Але головне багатство цієї олії - Omega-3 жирні кислоти, які корисні для серцево-судинної системи та мозку. Це ідеальний вибір для тих, хто береже своє здоров'я та прагне смачного харчування.",
         description03: "",
@@ -219,7 +219,7 @@ export const shopLotsOliveOil = [
         volumeName: "Об'єм",
         volume: "5 л.",
         priceGRN: 602,
-        quantityOnStorage: 3,
+        quantityOnStorage: 1,
         description01: "&#171Vesuvio - Oil Extra Virgin Omega-3&#187 - це справжнє джерело здоров'я та неймовірного смаку. Виготовлена з найкращих оливок, має неперевершений фруктовий аромат та насичений смак. Олія є ідеальним доповненням до салатів, супів та страв з риби та м'яса.",
         description02: "Але головне багатство цієї олії - Omega-3 жирні кислоти, які корисні для серцево-судинної системи та мозку. Це ідеальний вибір для тих, хто береже своє здоров'я та прагне смачного харчування.",
         description03: "",

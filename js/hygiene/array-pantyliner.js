@@ -1,6 +1,6 @@
 export const shopLotsPantyliner = [
   // {
-  //   type: "retail",
+  //   type: "wholesale оптом",
   //   mainCategory: "hygiene-products",
   //   subcategory: "feminine-hygiene",
   //   url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_20.jpg",
@@ -31,7 +31,7 @@ export const shopLotsPantyliner = [
   //   description05: "Придбайте &#171Molped - Pantyliner Everyday Freshness Thin&#187 зараз і насолоджуйтеся впевненістю та свіжістю щодня!"
   // },
   // {
-  //   type: "retail",
+  //   type: "wholesale оптом",
   //   mainCategory: "hygiene-products",
   //   subcategory: "feminine-hygiene",
   //   url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_everyday_freshness_scent_nature_20.jpg",
@@ -62,7 +62,7 @@ export const shopLotsPantyliner = [
   //   description05: "Замовляйте &#171Molped - Pantyliner Everyday Freshness Thin Scent Of Nature&#187 вже сьогодні і насолоджуйтеся природною свіжістю та впевненістю кожного дня!"
   // },
   {
-    type: "retail",
+    type: "wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_normal_8.jpg",
@@ -87,7 +87,7 @@ export const shopLotsPantyliner = [
     quantityName: "Кількість",
     quantity: "8 шт.",
     priceGRN: 52,
-    quantityOnStorage: 6,
+    priceGRNOpt: 45,
     description01: "Відкрийте для себе неймовірний комфорт з прокладками &#171Molped - Pure & Soft Organic Cotton Normal&#187, створеними з органічної бавовни.",
     description02: "Завдяки високій здатності до поглинання, вони забезпечують надійний захист і свіжість протягом усього дня.",
     description03: "Натуральні матеріали та м'яка текстура прокладок &#171Molped - Pure & Soft Organic Cotton Normal&#187 дарують відчуття ніжності та турботи про Вашу шкіру.",
@@ -95,7 +95,7 @@ export const shopLotsPantyliner = [
     description05: "Купуйте &#171Molped - Pure & Soft Organic Cotton Normal&#187 і насолоджуйтеся природною ніжністю та захистом кожного дня!"
   },
   {
-    type: "retail",
+    type: "wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_normal_24.jpg",
@@ -120,7 +120,7 @@ export const shopLotsPantyliner = [
     quantityName: "Кількість",
     quantity: "24 шт.",
     priceGRN: 118,
-    quantityOnStorage: 5,
+    priceGRNOpt: 101,
     description01: "Відкрийте для себе неймовірний комфорт з прокладками &#171Molped - Pure & Soft Organic Cotton Normal&#187, створеними з органічної бавовни.",
     description02: "Завдяки високій здатності до поглинання, вони забезпечують надійний захист і свіжість протягом усього дня.",
     description03: "Натуральні матеріали та м'яка текстура прокладок &#171Molped - Pure & Soft Organic Cotton Normal&#187 дарують відчуття ніжності та турботи про Вашу шкіру.",
@@ -128,7 +128,7 @@ export const shopLotsPantyliner = [
     description05: "Купуйте &#171Molped - Pure & Soft Organic Cotton Normal&#187 і насолоджуйтеся природною ніжністю та захистом кожного дня!"
   },
   {
-    type: "retail",
+    type: "wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_organic_cotton_long_7.jpg",
@@ -153,7 +153,7 @@ export const shopLotsPantyliner = [
     quantityName: "Кількість",
     quantity: "7 шт.",
     priceGRN: 52,
-    quantityOnStorage: 6,
+    priceGRNOpt: 45,
     description01: "Відчуйте максимальний комфорт та надійний захист з прокладками &#171Molped - Pure & Soft Organic Cotton Long&#187, створеними з органічної бавовни.",
     description02: "Їхня здатність до поглинання забезпечує тривалу свіжість і сухість навіть у найактивніші дні.",
     description03: "Довга форма та м'яка текстура  &#171Molped - Pure & Soft Organic Cotton Long&#187 дарують відчуття безпеки та турботи про Вашу шкіру, не викликаючи подразнень.",
@@ -161,7 +161,7 @@ export const shopLotsPantyliner = [
     description05: "Придбайте &#171Molped - Pure & Soft Organic Cotton Long&#187 і насолоджуйтеся природною ніжністю та впевненістю кожного дня!"
   },
   {
-    type: "retail",
+    type: "wholesale оптом",
     mainCategory: "hygiene-products",
     subcategory: "feminine-hygiene",
     url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_ultra_uzun_20.jpg",
@@ -182,7 +182,7 @@ export const shopLotsPantyliner = [
     quantityName: "Кількість",
     quantity: "20 шт.",
     priceGRN: 115,
-    quantityOnStorage: 6,
+    priceGRNOpt: 98,
     description01: "Відчуйте комфорт і безпеку на кожному кроці з прокладками &#171Molped - Ultra Maximum Kapasite & Incelik Uzun&#187 з органічної бавовни, створеними для надійного захисту.",
     description02: "Їх ніжна текстура з натуральних волокон забезпечує максимальну поглинальність та вентиляцію, не викликаючи подразнень навіть на чутливій шкірі.",
     description03: "Довжина &#171Molped - Ultra Maximum Kapasite & Incelik Uzun&#187 і здатність поглинати гарантують впевненість і сухість, куди б Ви не йшли та що б не робили.",
@@ -190,7 +190,7 @@ export const shopLotsPantyliner = [
     description05: "Оберіть &#171Molped - Ultra Maximum Kapasite & Incelik Uzun&#187 для природного захисту і неперевершеного комфорту!"
   },
   // {
-  //   type: "retail",
+  //   type: "wholesale оптом",
   //   mainCategory: "hygiene-products",
   //   subcategory: "feminine-hygiene",
   //   url: "./images/shop/gigiena/feminine_hygiene/pantyliner/molped_ultra_gece_6.jpg",

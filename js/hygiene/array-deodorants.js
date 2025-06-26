@@ -27,7 +27,7 @@ export const shopLotsDeodorants = [
         description05: "Замовляйте вже сьогодні &#171Axe - Deodorant Body Spray 48H Fresh&#187 – динамічну енергію та бездоганну свіжість у будь-якій ситуації!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/balea_deodorant_sweet_sunshine_50.jpg",
@@ -45,8 +45,8 @@ export const shopLotsDeodorants = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "50 мл.",
-        priceGRN: 72,
-        quantityOnStorage: 6,
+        priceGRN: 57,
+        priceGRNOpt: 49,
         description01: "Відкрийте для себе свіжість тропіків з дезодорантом &#171Balea - Deodorant Sweet Sunshine Mit Tropesch-Fruchtigem Duft&#187, який дарує неймовірний фруктовий аромат.",
         description02: "Його активна формула ефективно захищає від поту, залишаючи шкіру сухою і доглянутою протягом усього дня.",
         description03: "Завдяки тропічному аромату &#171Balea - Deodorant Sweet Sunshine Mit Tropesch-Fruchtigem Duft&#187, Ви відчуєте легкість і впевненість у будь-яких ситуаціях.",
@@ -54,7 +54,7 @@ export const shopLotsDeodorants = [
         description05: "Додайте до свого догляду яскравий акцент з дезодорантом &#171Balea - Deodorant Sweet Sunshine Mit Tropesch-Fruchtigem Duft&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/deodorants/balea_men_sensitive_deodorant_50.jpg",
@@ -73,7 +73,7 @@ export const shopLotsDeodorants = [
         volumeName: "Об'єм",
         volume: "50 мл.",
         priceGRN: 57,
-        quantityOnStorage: 6,
+        priceGRNOpt: 49,
         description01: "Чоловічий дезодорант &#171Balea - Men Sensitive Deodorant Für Empfindliche Haut&#187 забезпечує надійний захист для чутливої шкіри.",
         description02: "Завдяки м'якій формулі без спирту, він зменшує подразнення і забезпечує комфорт протягом дня.",
         description03: "Свіжий аромат &#171Balea - Men Sensitive Deodorant Für Empfindliche Haut&#187 підтримує відчуття чистоти, не викликаючи сухості чи стягнутості шкіри.",

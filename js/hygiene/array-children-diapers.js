@@ -1,6 +1,6 @@
 export const shopLotsChildrenDiapers = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_mini_42.jpg",
@@ -22,8 +22,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "42 шт.",
-        priceGRN: 282,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 302,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 2 Mini 3 - 6 kg.&#187, призначеними для малюків вагою від 3 до 6 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 2 Mini 3 - 6 kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",
@@ -31,7 +31,7 @@ export const shopLotsChildrenDiapers = [
         description05: "Придбайте зараз &#171Bebem Natural - 2 Mini 3 - 6 kg.&#187 і подаруйте своєму малюку природний догляд і максимальний захист щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_mini_68.jpg",
@@ -51,8 +51,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "68 шт.",
-        priceGRN: 408,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 428,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 2 Mini 3 - 6 kg.&#187, призначеними для малюків вагою від 3 до 6 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 2 Mini 3 - 6 kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",
@@ -60,7 +60,7 @@ export const shopLotsChildrenDiapers = [
         description05: "Придбайте зараз &#171Bebem Natural - 2 Mini 3 - 6 kg.&#187 і подаруйте своєму малюку природний догляд і максимальний захист щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_midi_56.jpg",
@@ -80,8 +80,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "56 шт.",
-        priceGRN: 408,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 428,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 3 Midi 4 - 9 kg.&#187, призначеними для малюків вагою від 4 до 9 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 3 Midi 4 - 9 kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",
@@ -89,7 +89,7 @@ export const shopLotsChildrenDiapers = [
         description05: "Придбайте зараз &#171Bebem Natural - 3 Midi 4 - 9 kg.&#187 і подаруйте своєму малюку природний догляд і максимальний захист щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_maxi_30.jpg",
@@ -109,8 +109,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "30 шт.",
-        priceGRN: 276,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 296,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187, призначеними для малюків вагою від 7 до 14 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",
@@ -118,7 +118,7 @@ export const shopLotsChildrenDiapers = [
         description05: "Придбайте зараз &#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187 і подаруйте своєму малюку природний догляд і максимальний захист щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_maxi_52.jpg",
@@ -138,8 +138,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "52 шт.",
-        priceGRN: 448,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 468,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187, призначеними для малюків вагою від 7 до 14 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",
@@ -147,7 +147,7 @@ export const shopLotsChildrenDiapers = [
         description05: "Придбайте зараз &#171Bebem Natural - 4 Maxi 7 - 14 kg.&#187 і подаруйте своєму малюку природний догляд і максимальний захист щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_junior_40.jpg",
@@ -167,8 +167,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "40 шт.",
-        priceGRN: 408,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 428,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 5 Junior 11 - 18 kg.&#187, призначеними для малюків вагою від 11 до 18 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 5 Junior 11 - 18 kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",
@@ -176,7 +176,7 @@ export const shopLotsChildrenDiapers = [
         description05: "Придбайте зараз &#171Bebem Natural - 5 Junior 11 - 18 kg.&#187 і подаруйте своєму малюку природний догляд і максимальний захист щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "for-children",
         url: "./images/shop/gigiena/for_children/diapers/beben_natural_extra_large_40.jpg",
@@ -196,8 +196,8 @@ export const shopLotsChildrenDiapers = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "40 шт.",
-        priceGRN: 413,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 433,
         description01: "Забезпечте Вашому малюку найкращий догляд з екологічними дитячими підгузками &#171Bebem Natural - 6 Extra Large 15 + kg.&#187, призначеними для малюків вагою від 15 кг.",
         description02: "Ці підгузки виготовлені з натуральних матеріалів, що не викликають подразнень і забезпечують комфорт і захист.",
         description03: "&#171Bebem Natural - 6 Extra Large 15 + kg.&#187 мають високу поглинальну здатність, яка гарантує тривалу сухість і комфорт Вашого малюка.",

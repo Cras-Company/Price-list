@@ -1,6 +1,6 @@
 export const shopLotsIntimHygiene = [
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_calendula_rica_250.jpg",
@@ -19,7 +19,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 112,
-        quantityOnStorage: 4,
+        priceGRNOpt: 96,
         description01: "Гель для інтимної гігієни &#171Dermomed - Detergente Intimo Calendula Con Proprietà Lenitive&#187 з календулою дбайливо доглядає за Вашою шкірою, забезпечуючи свіжість і комфорт.",
         description02: "Екстракт календули має заспокійливі властивості, які зменшують подразнення і дарують ніжний догляд.",
         description03: "Формула гелю &#171Dermomed - Detergente Intimo Calendula Con Proprietà Lenitive&#187 підтримує природний баланс pH, забезпечуючи захист і відчуття чистоти на весь день.",
@@ -27,7 +27,7 @@ export const shopLotsIntimHygiene = [
         description05: "Оберіть &#171Dermomed - Detergente Intimo Calendula Con Proprietà Lenitive&#187 для делікатного догляду та комфорту в кожен момент!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_rica_250.jpg",
@@ -46,7 +46,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 112,
-        quantityOnStorage: 4,
+        priceGRNOpt: 96,
         description01: "Відчуйте абсолютний комфорт та свіжість з гелем для інтимної гігієни &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187 з волошкою та провітаміном В5.",
         description02: "Завдяки натуральним властивостям волошки, цей гель забезпечує делікатне очищення та освіжає шкіру.",
         description03: "Провітамін В5 сприяє зволоженню та відновленню природного балансу, залишаючи відчуття свіжості протягом дня після &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187.",
@@ -54,7 +54,7 @@ export const shopLotsIntimHygiene = [
         description05: "Замовляйте &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187 зараз і даруйте собі неперевершений догляд та комфорт щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_lichene_rica_250.jpg",
@@ -73,7 +73,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "250 мл.",
         priceGRN: 112,
-        quantityOnStorage: 4,
+        priceGRNOpt: 96,
         description01: "Відчуйте неперевершену чистоту та захист з гелем для інтимної гігієни &#171Dermomed - Detergente Intimo Lichene Con Proprietà Antibatteriche&#187 з лишайником та провітаміном В5.",
         description02: "Завдяки антибактеріальним властивостям лишайника, цей гель ефективно знищує шкідливі мікроорганізми, забезпечуючи максимальну гігієну.",
         description03: "Провітамін В5 активно зволожує та заспокоює шкіру, надаючи відчуття свіжості на цілий день з  &#171Dermomed - Detergente Intimo Lichene Con Proprietà Antibatteriche&#187.",
@@ -81,7 +81,7 @@ export const shopLotsIntimHygiene = [
         description05: "Придбайте &#171Dermomed - Detergente Intimo Lichene Con Proprietà Antibatteriche&#187 вже сьогодні і забезпечте собі надійний захист та комфорт кожного дня!"
     },
     // {
-    //     type: "retail",
+    //     type: "wholesale оптом",
     //     mainCategory: "hygiene-products",
     //     subcategory: "feminine-hygiene",
     //     url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_250.jpg",
@@ -135,7 +135,7 @@ export const shopLotsIntimHygiene = [
     //     description05: "Придбайте &#171Dermomed - Detergente Intimo Lichene Con Proprietà Antibatteriche&#187 вже сьогодні і забезпечте собі надійний захист та комфорт кожного дня!"
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200.jpg",
@@ -162,7 +162,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "200 мл.",
         priceGRN: 162,
-        quantityOnStorage: 8,
+        priceGRNOpt: 138,
         description01: "Забезпечте собі відчуття свіжості та чистоти з щоденним гелем для інтимної гігієни &#171Lactacyd - Classic Intim Mosakodó Mindennapi Használatra&#187, який піклується про Вашу делікатну зону.",
         description02: "Його формула з L-молочною кислотою підтримує природний баланс мікрофлори, запобігаючи дискомфорту та подразненням.",
         description03: "&#171Lactacyd - Classic Intim Mosakodó Mindennapi Használatra&#187 підходить для щоденного використання, надаючи відчуття чистоти та комфорту на весь день.",
@@ -170,7 +170,7 @@ export const shopLotsIntimHygiene = [
         description05: "Купуйте &#171Lactacyd - Classic Intim Mosakodó Mindennapi Használatra&#187 і насолоджуйтеся відчуттям свіжості та турботи щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_sensitive_200.jpg",
@@ -197,7 +197,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "200 мл.",
         priceGRN: 162,
-        quantityOnStorage: 8,
+        priceGRNOpt: 138,
         description01: "Гель для інтимної гігієни &#171Lactacyd - Sensitive Extra Lágy Intim Mosakodó&#187 з екстрактом бавовни створений для дбайливого догляду за чутливою шкірою.",
         description02: "Його м'яка формула підтримує природний баланс рН, зменшуючи ризик подразнень і відчуття дискомфорту.",
         description03: "Екстракт бавовни у &#171Lactacyd - Sensitive Extra Lágy Intim Mosakodó&#187 заспокоює шкіру, надаючи відчуття свіжості та захищеності протягом дня.",
@@ -205,7 +205,7 @@ export const shopLotsIntimHygiene = [
         description05: "Забезпечте максимальний комфорт та ніжний догляд з &#171Lactacyd - Sensitive Extra Lágy Intim Mosakodó&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_soothing_calmanta_200.jpg",
@@ -232,7 +232,7 @@ export const shopLotsIntimHygiene = [
         volumeName: "Об'єм",
         volume: "200 мл.",
         priceGRN: 162,
-        quantityOnStorage: 8,
+        priceGRNOpt: 138,
         description01: "Гель для інтимної гігієни &#171Lactacyd - Soothing Nyugtató Hatású Intim Mosakodó&#187 з екстрактом арніки та протеїном рису забезпечує м'який заспокійливий догляд для подразненої шкіри.",
         description02: "Формула з натуральними компонентами допомагає зменшити подразнення і забезпечує тривале відчуття комфорту протягом дня.",
         description03: "Екстракт арніки у &#171Lactacyd - Soothing Nyugtató Hatású Intim Mosakodó&#187 заспокоює подразнену шкіру, а протеїн рису відновлює природний захисний бар'єр.",
@@ -240,7 +240,7 @@ export const shopLotsIntimHygiene = [
         description05: "Насолоджуйтесь ніжним доглядом та комфортом щодня з &#171Lactacyd - Soothing Nyugtató Hatású Intim Mosakodó&#187!"
     },
     // {
-    //     type: "retail",
+    //     type: "wholesale оптом",
     // mainCategory: "hygiene-products",
         // subcategory: "feminine-hygiene",    
     // url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/lactacyd_classic_zilnica_200.jpg",

@@ -1,6 +1,6 @@
 export const shopLotsToothpastesChildren = [
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile for-children",
         url: "./images/shop/gigiena/beaming_smile/children/dental_tralala_kids_chocolate_50.jpg",
@@ -21,7 +21,7 @@ export const shopLotsToothpastesChildren = [
         volumeName: "Об'єм",
         volume: "50 мл.",
         priceGRN: 36,
-        priceGRNOpt: 33,
+        quantityOnStorage: 2,
         description01: "Дитяча зубна паста &#171Dental - Tra-la-la Kids Chocolate&#187 перетворює догляд за зубами на справжнє задоволення.",
         description02: "Завдяки неперевершеному смаку шоколаду, Ваша дитина із задоволенням буде чистити зуби кожного дня.",
         description03: "Паста &#171Dental - Tra-la-la Kids Chocolate&#187 забезпечує ефективний захист від карієсу, м'яко доглядаючи за дитячими зубами та яснами.",
@@ -58,7 +58,7 @@ export const shopLotsToothpastesChildren = [
     //     description05: "Замовляйте &#171Dental - Tra-la-la Kids Chocolate&#187 вже сьогодні і зробіть догляд за зубами радісним та корисним для Вашої дитини!"
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile for-children",
         url: "./images/shop/gigiena/beaming_smile/children/dontodent_junior_zahngel_mit_minz_geschmack_100.jpg",
@@ -77,7 +77,7 @@ export const shopLotsToothpastesChildren = [
         volumeName: "Об'єм",
         volume: "100 мл.",
         priceGRN: 57,
-        quantityOnStorage: 6,
+        priceGRNOpt: 49,
         description01: "Дитячий зубний гель &#171Dontodent - Junior Zahngel Mit Mildem Minz-Geschmack&#187 зі смаком м'яти зробить щоденну чистку зубів приємною та веселою.",
         description02: "М'яка формула дбайливо очищає зуби, не пошкоджуючи емаль, при цьому забезпечуючи свіжий подих і надійний захист від карієсу.",
         description03: "Легкий м'ятний смак &#171Dontodent - Junior Zahngel Mit Mildem Minz-Geschmack&#187 подобається дітям, заохочуючи їх до регулярної гігієни ротової порожнини.",

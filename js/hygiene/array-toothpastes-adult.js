@@ -203,7 +203,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подаруйте собі посмішку Вашої мрії та спробуйте зубну пасту &#171Beauty Smile - Whitening&#187 вже сьогодні!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_brillant_weiss_125.jpg",
@@ -222,7 +222,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 78,
-        quantityOnStorage: 6,
+        priceGRNOpt: 67,
         description01: "Зубна паста &#171Dontodent - Brillant Weiss&#187 допоможе повернути природну білизну Ваших зубів.",
         description02: "Спеціальна формула ефективно видаляє наліт та плями від кави, чаю та інших напоїв, при цьому дбайливо очищаючи емаль.",
         description03: "Відчуйте свіжість після кожного чищення, адже паста &#171Dontodent - Brillant Weiss&#187 також захищає від карієсу і зміцнює зуби.",
@@ -230,7 +230,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Оберіть &#171Dontodent - Brillant Weiss&#187 і насолоджуйтеся білосніжною посмішкою щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_clear_fresh_125.jpg",
@@ -249,7 +249,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 78,
-        quantityOnStorage: 6,
+        priceGRNOpt: 67,
         description01: "Зубна паста &#171Dontodent - Clear Fresh&#187 забезпечує тривалу свіжість подиху та дбайливий догляд за порожниною рота.",
         description02: "Антибактеріальна формула ефективно бореться з бактеріями, що спричиняють неприємний запах, та запобігає їхньому повторному утворенню.",
         description03: "Завдяки ніжній текстурі &#171Dontodent - Clear Fresh&#187 дарує відчуття чистоти й свіжості протягом усього дня.",
@@ -257,7 +257,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подбайте про здоров'я ротової порожнини з надійним захистом від &#171Dontodent - Clear Fresh&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_krauter_125.jpg",
@@ -276,7 +276,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 78,
-        quantityOnStorage: 6,
+        priceGRNOpt: 67,
         description01: "Зубна паста &#171Dontodent - Kräuter&#187 з натуральними екстрактами трав забезпечить Вашій усмішці природну свіжість.",
         description02: "Завдяки поєднанню цілющих трав, вона дбайливо очищає зуби, зміцнюючи емаль і захищаючи від карієсу.",
         description03: "Екстракти м’яти, ромашки та шавлії у &#171Dontodent - Kräuter&#187 забезпечують не тільки ефективне чищення, але й природний догляд за ротовою порожниною.",
@@ -284,7 +284,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Оновіть свою щоденну гігієну за допомогою &#171Dontodent - Kräuter&#187 для здорової та свіжої усмішки!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_sensitive_125.jpg",
@@ -303,7 +303,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 78,
-        quantityOnStorage: 6,
+        priceGRNOpt: 67,
         description01: "Зубна паста &#171Dontodent - Sensitive&#187 створена для дбайливого догляду за чутливими зубами.",
         description02: "Спеціальна формула захищає Ваші зуби від болю, який виникає через холодне, гаряче або солодке.",
         description03: "&#171Dontodent - Sensitive&#187 не лише м'яко очищає, але й зміцнює емаль, допомагаючи знизити чутливість з кожним використанням.",
@@ -311,7 +311,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Оберіть &#171Dontodent - Sensitive&#187, щоб забезпечити своїм зубам комфорт і надійний захист щодня!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dentamax_fluor_fresh_125.jpg",
@@ -330,7 +330,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 63,
-        quantityOnStorage: 6,
+        priceGRNOpt: 54,
         description01: "Шукаєте зубний гель, який забезпечить не лише свіжість дихання, але й комплексний догляд за Вашими зубами та яснами? &#171Elkos - Dentamax Fluor Fresh Zanhgel&#187 - свіжість та здоров'я Ваших зубів.",
         description02: "Гель з натуральною олією м'яти, який не лише дарує відчуття свіжості на весь день, але й ефективно бореться з бактеріями, що викликають карієс та пародонтит. Завдяки фтору у складі він зміцнює емаль зубів та запобігає утворенню зубного каменю.",
         description03: "&#171Elkos - Dentamax Fluor Fresh Zanhgel&#187 - не лише ефективна, але й безпечний зубний гель. Натуральний склад робить його ідеальною для щоденного використання всією родиною.",
@@ -338,7 +338,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подаруйте собі здорову та сяючу посмішку і спробуйте зубний гель &#171Elkos - Dentamax Fluor Fresh Zanhgel&#187 вже сьогодні!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dentamax_krauter_125.jpg",
@@ -357,7 +357,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 63,
-        quantityOnStorage: 6,
+        priceGRNOpt: 54,
         description01: "Втомились від тьмяного й нездорового вигляду зубів? Зубний крем з травами &#171Elkos - Dentamax Kräuter Zahncreme&#187 - це Ваш шанс на сяючу та здорову посмішку!",
         description02: "Завдяки унікальній формулі з натуральних трав, він не лише дбайливо очищає зуби, але й бореться з бактеріями, що викликають карієс та неприємний запах.",
         description03: "&#171Elkos - Dentamax Kräuter Zahncreme&#187 – це не просто зубний крем, а секрет Вашої бездоганної посмішки. Насолоджуйтесь свіжістю та впевненістю протягом дня!",
@@ -365,7 +365,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Відкрийте для себе &#171Elkos - Dentamax Kräuter Zahncreme&#187 вже сьогодні та подаруйте своїм зубам справжню турботу!"
     },
     // {
-    //     type: "retail",
+    //     type: "wholesale оптом",
     // mainCategory: "hygiene-products",
         // subcategory: "shining-smile",    
     // url: "./images/shop/gigiena/beaming_smile/adult/dentamax_sensitive_125.jpg",
@@ -392,7 +392,7 @@ export const shopLotsToothpastesAdult = [
     //     description05: "Замовляйте для себе &#171Elkos - Dentamax Sensitive Zahncreme&#187 вже сьогодні й подаруйте собі надійний захист!"
     // },
     // {
-    //     type: "retail",
+    //     type: "wholesale оптом",
     // mainCategory: "hygiene-products",
         // subcategory: "shining-smile",    
     // url: "./images/shop/gigiena/beaming_smile/adult/dentamax_zahnweiss_125.jpg",

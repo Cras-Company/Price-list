@@ -405,7 +405,7 @@ export const shopLotsSolidSoap = [
         description05: "Замовте &#171Gallus - Creme Seife Beauty Soap Orange&#187 зараз і відчуйте справжню насолоду від догляду за шкірою щодня!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/gallus_creme_seife_beauty_soap_strawberry_90.jpg",
@@ -423,8 +423,8 @@ export const shopLotsSolidSoap = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "90 гр.",
-        priceGRN: 27,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 35,
         description01: "Тверде мило &#171Gallus - Creme Seife Beauty Soap Strawberry&#187 з екстрактами полуниці та ромашки — це справжня знахідка для Вашої шкіри.",
         description02: "Завдяки свіжому аромату полуниці, воно дарує приємні відчуття і настрій на весь день.",
         description03: "Екстракт ромашки у &#171Gallus - Creme Seife Beauty Soap Strawberry&#187 заспокоює і зволожує шкіру, забезпечуючи їй ніжний догляд і м'якість. ",
