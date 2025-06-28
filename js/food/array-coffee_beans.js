@@ -691,7 +691,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовте &#171Mövenpick - Crema Auténtico&#187 вже зараз та відкрийте для себе новий стандарт задоволення у світі кави!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_ital_1kg.jpg",
@@ -715,8 +715,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 770,
-        priceGRNOpt: 693,
+        priceGRN: "--",
+        priceGRNOpt: 770,
         description01: "Приголомшлива кава в зернах &#171Mövenpick - Crema Intensa Gusto Italiano&#187 - запрошення у світ витонченості та справжнього італійського смаку. Ця кава несе у собі щось особливе, що заставляє зупинитися та відкривати для себе нові враження.",
         description02: "Завдяки своєму балансу вражає насиченістю та вишуканістю. Кожен ковток - це мандрівка в італійську кавову культуру, де глибокий аромат і багатий смак стають невід'ємною частиною кожного дня.",
         description03: "Відчуйте бажання розпочинати свій ранок чашкою &#171Mövenpick - Crema Intensa Gusto Italiano&#187, дозволяючи собі занурюватися в атмосферу справжнього італійського кафе. Його насичений смак і м'яка консистенція пробуджують бажання насолоджуватися кожним моментом.",
