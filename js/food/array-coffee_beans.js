@@ -633,7 +633,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Зробіть вибір на користь вишуканої кави - замовте &#171Mövenpick - Barista Espresso&#187 прямо зараз та дозвольте собі насолоджуватися вишуканою якістю, яка виникає тільки у світі найкращої кави!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_caffe_crema_1kg.jpg",
@@ -653,8 +653,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 770,
-        priceGRNOpt: 693,
+        priceGRN: "--",
+        priceGRNOpt: 770,
         description01: "Кава в зернах &#171Mövenpick - Caffè Crema&#187 – це досконалість швейцарської якості у кожній чашці.",
         description02: "Вишуканий смаковий букет із ніжною кремовою пінкою дарує незабутнє задоволення та енергію на цілий день.",
         description03: "Ідеально збалансований аромат і делікатна кислинка &#171Mövenpick - Caffè Crema&#187 підкреслюють багатство обсмажених зерен преміального класу.",
@@ -753,7 +753,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовляйте &#171Mövenpick - Crema Schümli&#187 та даруйте собі момент досконалої кавової насолоди!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_der_himmlische_1kg.jpg",
@@ -773,8 +773,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 770,
-        priceGRNOpt: 693,
+        priceGRN: "--",
+        priceGRNOpt: 770,
         description01: "Кава в зернах &#171Mövenpick - Der Himmlische&#187 – це справжній небесний смак для гурманів кави.",
         description02: "Збалансований аромат з насиченими шоколадними нотами та легкою кислинкою створює унікальну композицію смаку.",
         description03: "Зерна &#171Mövenpick - Der Himmlische&#187 ретельно відібрані та дбайливо обсмажені для досягнення досконалості у кожній чашці.",
@@ -863,7 +863,7 @@ export const shopLotsCoffeeBeans = [
     //     description05: "Впровадьте у своє життя витонченість &#171Mövenpick - Latte Art&#187, замовивши його прямо зараз та створюючи своє власне мистецтво кави кожного дня!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/swisso_crema_1kg.jpg",
@@ -885,8 +885,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Швейцарія",
         weightName: "Вага", 
         weight: "1 кг.",
-        priceGRN: 608,
-        priceGRNOpt: 548,
+        priceGRN: "--",
+        priceGRNOpt: 700,
         description01: "Відкрийте для себе неперевершеність смаку з &#171Swisso - Crema&#187. Її аромат і текстура створять для Вас незабутній кавовий досвід.",
         description02: "Баланс кавових зерен вражає своєю гармонією та насиченістю. Його обжарювання відбувається з особливою турботою, щоб кожен ковток поринув Вас у світ вишуканих ароматів.",
         description03: "Розпочніть кожний ранок із чашкою &#171Swisso - Crema&#187, насолоджуючись його оксамитовою консистенцією та витонченим смаком. Дозвольте собі відчути елегантність кавового ритуалу.",
@@ -894,7 +894,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Зробіть перший крок до вишуканого кавового світу - замовте &#171Swisso - Crema&#187 прямо зараз та даруйте собі щоденну порцію задоволення, щоб відчути, як кожен день стає яскравішим!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/swisso_espresso_1kg.jpg",
@@ -918,8 +918,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Швейцарія",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 608,
-        priceGRNOpt: 548,
+        priceGRN: "--",
+        priceGRNOpt: 700,
         description01: "Зануртеся у світ вишуканої кави з &#171Swisso - Espresso&#187 – новий стандарт еспресо, що вразить своєю глибиною та насиченістю. Його виражений аромат та ексклюзивний смак привертають увагу навіть вибагливих любителів кави.",
         description02: "Ця кава втілює у собі гармонійне поєднання кавових зерен високої якості, надаючи напою виразність та різкість. Це не лише кава, а неперевершений танець ароматів та смакових відтінків.",
         description03: "Відчуйте бажання насолоджуватися кожним ковтком &#171Swisso - Espresso&#187, яке дарує енергію та задоволення. Створіть атмосферу італійської кав'ярні прямо у вашому домі.",
@@ -927,7 +927,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Зробіть крок до справжньої кави - замовте &#171Swisso - Espresso&#187 прямо зараз та насолоджуйтеся кожним моментом цього витонченого кавового досвіду!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/swisso_reich_1kg.jpg",
@@ -949,8 +949,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Швейцарія",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 608,
-        priceGRNOpt: 548,
+        priceGRN: "--",
+        priceGRNOpt: 700,
         description01: "Виражений аромат і насичений смак &#171Swisso - Reich Rösten&#187 не залишать байдужими справжніх цінителів кави.",
         description02: "Ця вишукана кава представляє собою вміле поєднання зерен високої якості, які вирощуються в екологічно чистих регіонах. Це не просто кава, це творіння майстрів обсмажування, яке створює справжню симфонію ароматів.",
         description03: "Відчуйте бажання кожного дня починати із чашки цього кавового шедевру. Насичений, глибокий смак і витончений аромат роблять &#171Swisso - Reich Rösten&#187 неперевершеним вибором для тих, хто цінує справжню кавову естетику.",

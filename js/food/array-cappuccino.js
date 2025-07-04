@@ -31,7 +31,7 @@ export const shopLotsCappuccino = [
         description05: "Не відкладайте своє задоволення та замовте капучино &#171Hearts - Cappuccino Amaretto&#187 вже зараз і дозвольте смаковому екстазу заволодіти Вами!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/hearts_cappuccino_irish_cream_1kg.jpg",
@@ -53,8 +53,8 @@ export const shopLotsCappuccino = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 263,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 283,
         description01: "&#171Hearts - Cappuccino Irish Cream&#187 - світ неперевершеного смаку, справжній витвір мистецтва, що вразить ваші смакові почуття.",
         description02: "Почніть свій день із чарівним поєднанням ароматної кави та ніжного ірландського крему у капучино. Кожен ковток – це магія, що розкривається в унікальній гармонії смаків.",
         description03: "Закохайтесь у багатий смак &#171Hearts - Cappuccino Irish Cream&#187. Бажайте цього неперевершеного досвіду, який Ви захочете повторити знову та знову, віддавати йому перевагу завжди.",
