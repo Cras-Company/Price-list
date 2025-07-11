@@ -58,7 +58,7 @@ export const shopLotsMoistureAbsorbers = [
         description05: "Додайте &#171Irge - Deumidificatore Profumato Gelsomino 2 in 1&#187 до свого арсеналу домашнього затишку!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_inodore_400.jpg",
@@ -78,8 +78,8 @@ export const shopLotsMoistureAbsorbers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        priceGRNOpt: 93,
+        priceGRN: "--",
+        priceGRNOpt: 109,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Inodore 2 in 1&#187 забезпечує свіжість і комфорт у Вашому домі.",
         description02: "Він ефективно бореться з підвищеною вологістю, запобігаючи утворенню конденсату та затхлого запаху.",
         description03: "Компактний і без ароматизаторів, &#171Irge - Deumidificatore Inodore 2 in 1&#187 підходить для будь-яких приміщень, не порушуючи природного мікроклімату.",
