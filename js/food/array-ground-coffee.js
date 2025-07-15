@@ -164,7 +164,7 @@ export const shopLotsGroundCoffee = [
     //     description05: "Замовте &#171Dallmayr - Classic Kräftig&#187 вже зараз і зануртеся у світ насиченої кавової експертизи, перетворюючи кожен свій момент у витончену насолоду!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/dallmayr_ethiopia_500.jpg",
@@ -188,8 +188,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 423,
-        priceGRNOpt: 382,
+        priceGRN: "--",
+        priceGRNOpt: 470,
         description01: "Відчуйте неповторний смак у кожній краплі кави &#171Dallmayr - Ethiopia&#187. Цей напій привертає увагу своєю ароматною симфонією, яка розкривається вже при першому контакті.",
         description02: "Екзотичний привабливий смак кави, зібраний на найвищих плантаціях Ефіопії, вражає своєю інтенсивністю та виразністю. Злегка відчуйте ванільні нотки, що доповнюються легкими шоколадними відтінками.",
         description03: "Насолоджуйтеся миттєвими емоціями справжнього гурманського витончення. Ви не зможете встояти перед чарівливою гармонією ефіопської кави та нот шоколаду.",
@@ -464,7 +464,7 @@ export const shopLotsGroundCoffee = [
         description05: "Замовте свою &#171Lavazza - Oro Mountain Grown&#187 прямо зараз та відкрийте для себе вишуканість гірського аромату та насиченого італійського смаку у кожній чашці!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/ground_coffee/lavazza_oro_mount_250.jpg",
@@ -484,8 +484,8 @@ export const shopLotsGroundCoffee = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "250 гр.",
-        priceGRN: 267,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 300,
         description01: "Запрошуємо Вас у подорож по Італії з меленою кавою &#171Lavazza - Oro Mountain Grown&#187. Це не просто напій, а справжнє витончення смаку, яке привертає погляди своєю ексклюзивністю та витонченістю.",
         description02: "Зерна цієї кави ростуть на гірських вершинах, що надає їй неповторний аромат та багатий смак. Вишукане поєднання традиції та вишуканості у кожному ковтку.",
         description03: "&#171Lavazza - Oro Mountain Grown&#187 вкрай ніжна та елітна, створена для тих, хто прагне вишуканості у кожному дегустованому келиху.",
