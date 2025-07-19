@@ -386,7 +386,7 @@ export const shopLotsForWC = [
         description05: "Довірте чистоту Вашого туалету &#171Chanteclair - WC Schiumattiva Disincrostante&#187!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_750.jpg",
@@ -404,8 +404,8 @@ export const shopLotsForWC = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 138,
-        quantityOnStorage: 2,
+        priceGRN: 143,
+        priceGRNOpt: 122,
         description01: "Універсальний знежирювач &#171Chanteclair - Sgrassatore Universale Disinfettante&#187 – потужне рішення для бездоганної чистоти та гігієни.",
         description02: "Ефективна формула миттєво розчиняє жир, бруд і стійкі забруднення, підходячи для кухні, ванної та будь-яких поверхонь.",
         description03: "Дезінфікуючі компоненти &#171Chanteclair - Sgrassatore Universale Disinfettante&#187 знищують бактерії та мікроби, забезпечуючи ідеальну гігієну та свіжість у Вашому домі.",
@@ -413,7 +413,7 @@ export const shopLotsForWC = [
         description05: "Обирайте &#171Chanteclair - Sgrassatore Universale Disinfettante&#187 – максимальну чистоту, захист і бездоганний результат у кожному застосуванні!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_fresh_750.jpg",
@@ -431,8 +431,8 @@ export const shopLotsForWC = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 138,
-        quantityOnStorage: 6,
+        priceGRN: 143,
+        priceGRNOpt: 122,
         description01: "Універсальний знежирювач &#171Chanteclair - Sgrassatore Universale Disinfettante Fresh&#187 – потужне рішення для бездоганної чистоти та гігієни.",
         description02: "Ефективна формула миттєво розчиняє жир, бруд і стійкі забруднення, підходячи для кухні, ванної та будь-яких поверхонь та надає приємний аромат свіжості.",
         description03: "Дезінфікуючі компоненти &#171Chanteclair - Sgrassatore Universale Disinfettante Fresh&#187 знищують бактерії та мікроби, забезпечуючи ідеальну гігієну та свіжість у Вашому домі.",

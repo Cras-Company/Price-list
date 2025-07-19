@@ -334,7 +334,7 @@ export const shopLotsForFloor = [
     //     description05: "Насолоджуйтеся легким та приємним прибиранням з &#171Clinair - Allesreiniger Purple Flower&#187, який не лише дарує чистоту, але і підносить настрій своїм неповторним ароматом."
     // },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/chanteclair_sgrassatore_pavimenti_marsiglia_e_limone_750.jpg",
@@ -352,8 +352,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 138,
-        quantityOnStorage: 6,
+        priceGRN: 143,
+        priceGRNOpt: 122,
         description01: "Засіб для миття підлоги &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 - ідеальне поєднання ефективного знежирення та свіжості.",
         description02: "Формула з натуральним марсельським милом глибоко очищає поверхні, видаляючи бруд, жир і плями без зусиль.",
         description03: "Аромат лимона у &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 надає приємну свіжість, а безпечний склад підходить для всіх типів підлог, зберігаючи їхній природний блиск.",
@@ -361,7 +361,7 @@ export const shopLotsForFloor = [
         description05: "Придбайте &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 – чистота, догляд та натуральна свіжість у кожному митті!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/chanteclair_sgrassatore_pavimenti_muschio_bianco_750.jpg",
@@ -379,8 +379,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 138,
-        quantityOnStorage: 6,
+        priceGRN: 143,
+        priceGRNOpt: 122,
         description01: "Засіб для миття підлоги &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 - поєднання потужного очищення та вишуканої свіжості.",
         description02: "Формула знежирювача ефективно видаляє бруд, плями та жир, забезпечуючи ідеальну чистоту без зайвих зусиль.",
         description03: "Аромат білого мускусу у &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 дарує ніжну та довготривалу свіжість, створюючи атмосферу чистоти та комфорту у домі.",
@@ -388,7 +388,7 @@ export const shopLotsForFloor = [
         description05: "Замовляйте &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 – бездоганне миття підлоги з приємним ароматом та турботою про Ваш простір!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_750.jpg",
@@ -406,8 +406,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 138,
-        quantityOnStorage: 2,
+        priceGRN: 143,
+        priceGRNOpt: 122,
         description01: "Універсальний знежирювач &#171Chanteclair - Sgrassatore Universale Disinfettante&#187 – потужне рішення для бездоганної чистоти та гігієни.",
         description02: "Ефективна формула миттєво розчиняє жир, бруд і стійкі забруднення, підходячи для кухні, ванної та будь-яких поверхонь.",
         description03: "Дезінфікуючі компоненти &#171Chanteclair - Sgrassatore Universale Disinfettante&#187 знищують бактерії та мікроби, забезпечуючи ідеальну гігієну та свіжість у Вашому домі.",
@@ -415,7 +415,7 @@ export const shopLotsForFloor = [
         description05: "Обирайте &#171Chanteclair - Sgrassatore Universale Disinfettante&#187 – максимальну чистоту, захист і бездоганний результат у кожному застосуванні!"
     },
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/universal_tools/chanteclair_sgrassatore_universale_disinfettante_fresh_750.jpg",
@@ -433,8 +433,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 138,
-        quantityOnStorage: 6,
+        priceGRN: 143,
+        priceGRNOpt: 122,
         description01: "Універсальний знежирювач &#171Chanteclair - Sgrassatore Universale Disinfettante Fresh&#187 – потужне рішення для бездоганної чистоти та гігієни.",
         description02: "Ефективна формула миттєво розчиняє жир, бруд і стійкі забруднення, підходячи для кухні, ванної та будь-яких поверхонь та надає приємний аромат свіжості.",
         description03: "Дезінфікуючі компоненти &#171Chanteclair - Sgrassatore Universale Disinfettante Fresh&#187 знищують бактерії та мікроби, забезпечуючи ідеальну гігієну та свіжість у Вашому домі.",
