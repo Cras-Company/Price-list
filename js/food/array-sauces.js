@@ -471,7 +471,7 @@ export const shopLotsSauces = [
         description05: "Замовте томатний соус &#171Reggia - Passata Di Pomodoro&#187 прямо зараз і додайте італійського смаку своїм стравам, перетворивши звичайний обід у справжню подорож!"
     },
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/sauces/rosso_gargano_passata_di_puglia_690.jpg",
@@ -487,8 +487,8 @@ export const shopLotsSauces = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "690 гр.",
-        priceGRN: "--",
-        priceGRNOpt: 95,
+        priceGRN: 119,
+        priceGRNOpt: 108,
         description01: "&#171Rosso Gargano - Passata Di Puglia&#187 - це справжній діамант серед томатних соусів, який вразить Вас своєю яскравістю та смаковою насиченістю. Приготований з відбирних помідорів, які вирощені на сонці Італії, не містить штучних добавок, що робить його натуральним та корисним.",
         description02: "Ідеально підходить для приготування паст, супів, піцци та інших італійських страв. Він має гладку консистенцію та неперевершений томатний смак, який розкриє перед вами багатство смаків італійської кухні.",
         description03: "Завдяки високій якості і свіжості інгредієнтів, &#171Rosso Gargano - Passata Di Puglia&#187 гарантує Вам італійський смак прямо вдома.",

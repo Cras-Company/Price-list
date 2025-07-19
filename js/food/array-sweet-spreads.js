@@ -254,7 +254,7 @@ export const shopLotsSweetSpreads = [
         description05: "Не відкладайте задоволення на потім, а поспішайте придбати &#171Ferrero - Nutella&#187 прямо зараз і насолоджуйтеся безмежною солодкістю, яку вона принесе у ваше життя!"
     },
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "spreads",
         url: "./images/shop/food/bread_spreads/sweet_spreads/ferrero_nutella_3kg.jpg",
@@ -278,8 +278,8 @@ export const shopLotsSweetSpreads = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "3 кг.",
-        priceGRN: "--",
-        priceGRNOpt: 1235,
+        priceGRN: 1400,
+        priceGRNOpt: 1260,
         description01: "&#171Ferrero - Nutella&#187 - це вираз справжнього задоволення для вашого смаку. Ця неймовірна шоколадна крем-паста поєднує у собі найкращі якості молочного шоколаду та горіхової начинки.",
         description02: "Завдяки унікальному поєднанню смаків, вона стала справжньою класикою у світі гастрономії. Ви можете використовувати її на хліб, горіхових оладок, вафель або просто вживати її з ложки. Цей смак додасть особливої атмосфери у будь-яку страву.",
         description03: "&#171Ferrero - Nutella&#187 - це не лише смак, це частина вашого щоденного життя. Вона надає енергії та позитиву, будуючи зв'язок між сім'єю і друзями.",

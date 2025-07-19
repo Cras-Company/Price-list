@@ -1,6 +1,6 @@
 export const shopLotsCod = [
     {
-        type: "retail",
+        type: "wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/cod/giana_tresci_jatra_115.jpg",
@@ -16,8 +16,8 @@ export const shopLotsCod = [
         countryName: "Чехія",
         weightName: "Вага",
         weight: "115 гр.",
-        priceGRN: 110,
-        quantityOnStorage: 6,
+        priceGRN: 119,
+        priceGRNOpt: 108,
         description01: "&#171Giana - Trešči játra ve vlasnim oleji&#187 - це дійсно вишукана делікатесна страва для справжніх гурманів. Ця консервована печінка тріски має неперевершений смак та текстуру, які роблять її неповторною.",
         description02: "Тріска у власному соку створює справжнє смакове відкриття. Ця страва - це джерело корисних жирів та білків, які підтримують ваше здоров'я. Вона ідеально підходить для сніданку, ланчу або вечері.",
         description03: "Забудьте про звичайні консерви - &#171Giana - Trešči játra ve vlasnim oleji&#187 варта спроби. Додайте її до вашого щоденного меню та насолоджуйтеся унікальним смаком та користью для здоров'я.",
