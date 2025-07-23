@@ -365,6 +365,10 @@ export const brands = [
     alt: "lactacyd",
   },
   {
+    url: "./images/carusel/lacura.jpg",
+    alt: "lacura",
+  },
+  {
     url: "./images/carusel/lavazza.jpg",
     alt: "lavazza",
   },
