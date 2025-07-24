@@ -313,7 +313,7 @@ export const shopLotsMeansCleaningDishwashers = [
     //     description05: "Забудьте про вапняні відкладення, які можуть погіршити якість миття посуду або прання білизни. &#171Gut Günstig - Anti-Kalk Enthärter-Tabs&#187 і ваші посудомийна та пральна машини працють на повну потужність!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/igre_palla_magica_cattura_capelli_e_pelucchi_4.jpg",
@@ -331,8 +331,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Італія",
         quantityName: "Кількість",
         quantity: "4 шт.",
-        priceGRN: 169,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 169,
         description01: "Чарівні кульки &#171Irge - Palla Magica Cattura Capelli E Pelucchi&#187 ефективно захоплюють волосся, ворс та шерсть під час прання та сушіння.",
         description02: "Спеціальна поверхня кульок зменшує ризик забивання фільтрів, зберігаючи Вашу техніку у чистоті та безпеці.",
         description03: "&#171Irge - Palla Magica Cattura Capelli E Pelucchi&#187 допомагають зробити одяг ідеально чистим, не залишаючи слідів ворсу чи шерсті на улюблених речах.",

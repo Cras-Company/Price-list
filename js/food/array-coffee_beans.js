@@ -604,7 +604,7 @@ export const shopLotsCoffeeBeans = [
     //     description05: "Замовте &#171Mövenpick - Crema Auténtico&#187 вже зараз та відкрийте для себе новий стандарт задоволення у світі кави!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_barista_espresso_1kg.jpg",
@@ -624,8 +624,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 770,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 863,
         description01: "Запрошуємо Вас у дивовижний світ кави з &#171Mövenpick - Barista Espresso&#187. Вона створена для тих, хто шукає витонченість та насолоду у кожному ковтку. Вона привертає увагу своїм насиченим ароматом та вражає з першого дотику.",
         description02: "Це не лише кава, але шедевр майстерності. Високоякісні кавові зерна ретельно відібрані для створення ідеального еспресо. Його неповторний смак та глибина аромату гарантують кавовий досвід, який залишає Вас зацікавленими.",
         description03: "Хочете відчути справжню енергію та задоволення кожного ранку? Бажайте собі кожного дня починати з чашки &#171Mövenpick - Barista Espresso&#187, насолоджуючись багатим, інтенсивним смаком, що робить кожен момент особливим.",
