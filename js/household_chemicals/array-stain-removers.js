@@ -822,7 +822,7 @@ export const shopLotsStainRemovers = [
         description05: "Забезпечте ідеальну чистоту на кухні, у ванній та в будь-якому куточку дому з &#171Chanteclair - Vert Ecodetergente Sgrassatore Universale Limone E Basilico&#187!"
     },
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",    
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_gallseife_100.jpg",
@@ -848,8 +848,8 @@ export const shopLotsStainRemovers = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "100 гр.",
-        priceGRN: "--",
-        priceGRNOpt: 69,
+        priceGRN: 72,
+        priceGRNOpt: 62,
         description01: "Зустрічайте жовчне мило для виведення плям &#171Denkmit - Gallseife&#187, яке ефективно бореться з найстійкішими забрудненнями.",
         description02: "Це мило створене на основі натуральної жовчі, що надає йому надзвичайну здатність видаляти плями від жиру, масла, крові та інших важких забруднень, не пошкоджуючи тканину.",
         description03: "Відчуйте впевненість у бездоганній чистоті Вашого одягу, незалежно від типу забруднень, завдяки потужній формулі &#171Denkmit - Gallseife&#187.",

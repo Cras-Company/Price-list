@@ -180,7 +180,7 @@ export const shopLotsAdultShampoos = [
       countryName: "Німеччина",
       volumeName: "Об'єм",
       volume: "500 мл.",
-      priceGRN: 87,
+      priceGRN: 104,
       quantityOnStorage: 6,
       description01: "Сімейний шампунь &#171Balea - Family Shampoo Früchte Traum Mit Fruchtigem Duft&#187 з фруктовим ароматом маракуї дарує свіжість і ніжний догляд для всіх типів волосся.",
       description02: "Його збалансована формула з вітаміном B3 дбайливо очищує, зміцнюючи волосся від коренів до кінчиків.",
