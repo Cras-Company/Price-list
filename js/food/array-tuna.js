@@ -52,7 +52,7 @@ export const shopLotsTuna = [
         description05: "Оберіть якість і користь для вашого організму та придбайте &#171Helcom - Tuńczyk Z Olejem Roślynnym&#187, насолоджуйтесь смаком та вигідними властивостями цього вишуканого продукту!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/mk_tunczyk_olej_roslin_170.jpg",
@@ -70,8 +70,8 @@ export const shopLotsTuna = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 76,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 86,
         description01: "Кожен шматочок тунця &#171M & K - Tuńczyk Kawałki W Oleju Roślynnym&#187 насичений свіжістю морського бризу, а рослинна олія робить цей продукт легким і дієтичним, даруючи Вам справжній океанський смак.",
         description02: "Виготовлений з високоякісного тунця, багатого вітамінами та Омега-3 кислотами. Цей продукт не тільки додасть есклюзивності вашим стравам, але й забезпечить ваше тіло корисними речовинами, необхідними для здоров'я.",
         description03: "&#171M & K - Tuńczyk Kawałki W Oleju Roślynnym&#187 виготовляється за унікальним рецептом, що гарантує насичений смак і дотримання найвищих стандартів якості. Кожен шматочок тунця - це поєднання смаку та здоров'я в одному блюді.",

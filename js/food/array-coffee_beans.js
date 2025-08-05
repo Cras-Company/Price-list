@@ -724,7 +724,7 @@ export const shopLotsCoffeeBeans = [
         description05: "Замовляйте &#171Mövenpick - Crema Intensa Gusto Italiano&#187 прямо зараз та насолоджуйтеся італійською елегантністю, щоб відкрити для себе новий стандарт задоволення у світі кави!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/coffee_beans/movenpick_crema_schumli_1kg.jpg",
@@ -744,8 +744,8 @@ export const shopLotsCoffeeBeans = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 770,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 863,
         description01: "Кава в зернах &#171Mövenpick - Crema Schümli&#187 - це гармонія смаку та аромату для справжніх поціновувачів кави.",
         description02: "Ніжна кремова текстура та багатий смаковий профіль створюють ідеальний баланс для насолоди кожним ковтком.",
         description03: "Зерна преміального обсмаження розкривають вишукані ноти з легкою кислинкою, залишаючи приємний післясмак &#171Mövenpick - Crema Schümli&#187.",
