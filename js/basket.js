@@ -113,13 +113,17 @@ import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-mean
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
 import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
-import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
 import { shopLotsMoistureAbsorbers } from "./household_chemicals/array-moisture-absorbers.js";
 import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
 import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
+
+// Хозяйственные товары
+import { shopLotsCleaningWetWipes } from "./household_products/array-cleaning-wet-wipes.js";
+import { shopLotsPaperTowelsTwoLayer } from "./household_products/array-paper-towels-two-layer.js";
+import { shopLotsPaperTowelsThreeLayer } from "./household_products/array-paper-towels-three-layer.js";
 
 const arrayOfProducts = [
   { items: shopLotsNewItems, },
@@ -222,13 +226,16 @@ const arrayOfProducts = [
   { items: shopLotsMeansCleaningKitchenBathroom, },
   { items: shopLotsForWC, },
   { items: shopLotsMeansCleaningDishwashers, },
-  { items: shopLotsCleaningWipes, },
 
   { items: shopLotsMoistureAbsorbers, },
   { items: shopLotsAirFresheners, },
   { items: shopLotsFabricFresheners, },
   { items: shopLotsAntiSmells, },
   { items: shopLotsBathBombs, },
+
+  { items: shopLotsCleaningWetWipes, },
+  { items: shopLotsPaperTowelsTwoLayer, },
+  { items: shopLotsPaperTowelsThreeLayer, },
 ];
 
 // ===========================================================================
@@ -606,8 +613,6 @@ function totalItemsAmount() {
 
   let totalGRN = 0;
   let totalUSDT = 0;
-
-  console.log("Текущее состояние basketArray:", basketArray); // Проверка данных
 
   basketArray.forEach(({ marker, quantityItem, isChecked }) => {
     const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);

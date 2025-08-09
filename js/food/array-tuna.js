@@ -79,7 +79,7 @@ export const shopLotsTuna = [
         description05: "Створіть вишукані страви легко та швидко, дозволяючи собі насолоджуватися неперевершеним смаком тунця &#171M & K - Tuńczyk Kawałki W Oleju Roślynnym&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/mk_tunczyk_kawalki_wodzie_170.jpg",
@@ -97,8 +97,8 @@ export const shopLotsTuna = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 76,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 86,
         description01: "Відкрийте для себе свіжий і соковитий тунець у власному соку &#171M & K - Tuńczyk Kawałki W Wodzie&#187.",
         description02: "Цей тунець відрізняється ніжним смаком і високою якістю, що робить його ідеальним доповненням до будь-якої страви.",
         description03: "Завдяки низькому вмісту жиру та високому вмісту білка, &#171M & K - Tuńczyk Kawałki W Wodzie&#187 стане незамінним для Вашого здорового раціону.",

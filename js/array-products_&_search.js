@@ -124,13 +124,17 @@ import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-mean
 import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
 import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
 import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
-import { shopLotsCleaningWipes } from "./household_chemicals/array-cleaning-wipes.js";
 
 import { shopLotsMoistureAbsorbers } from "./household_chemicals/array-moisture-absorbers.js";
 import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
 import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
 import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
+
+// Хозяйственные товары
+import { shopLotsCleaningWetWipes } from "./household_products/array-cleaning-wet-wipes.js";
+import { shopLotsPaperTowelsTwoLayer } from "./household_products/array-paper-towels-two-layer.js";
+import { shopLotsPaperTowelsThreeLayer } from "./household_products/array-paper-towels-three-layer.js";
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
@@ -244,13 +248,17 @@ const shopListMeansCleaningUniversal = document.querySelector(".js-cras__list--u
 const shopListMeansCleaningKitchenBathroom = document.querySelector(".js-cras__list--kitchen_bathroom");
 const shopListForWC = document.querySelector(".js-cras__list--for_wc");
 const shopListMeansCleaningDishwashers = document.querySelector(".js-cras__list--dishwashers");
-const shopListCleaningWipes = document.querySelector(".js-cras__list--cleaning_wipes");
 
 const shopListMoistureAbsorbers = document.querySelector(".js-cras__list--moisture-absorbers");
 const shopListAirFresheners = document.querySelector(".js-cras__list--air-fresheners");
 const shopListFabricFresheners = document.querySelector(".js-cras__list--fabric-fresheners");
 const shopListAntiSmells = document.querySelector(".js-cras__list--anti-smells");
 const shopListBathBombs = document.querySelector(".js-cras__list--bath-bombs");
+
+// Хозяйственные товары
+const shopListCleaningWetWipes = document.querySelector(".js-cras__list--cleaning-wet-wipes");
+const shopListPaperTowelsTwoLayer = document.querySelector(".js-cras__list--paper-towels-two-layer");
+const shopListPaperTowelsThreeLayer = document.querySelector(".js-cras__list--paper-towels-three-layer");
 // ===========================================================================
 // Секции и блоки
 // ===========================================================================
@@ -410,7 +418,6 @@ const BlockCleaningUniversal = document.querySelector(".js-block-universal");
 const BlockCleaningKitchenBathroom = document.querySelector(".js-block-kitchen_bathroom");
 const BlockForWC = document.querySelector(".js-block-for_wc");
 const BlockCleaningDishwashers = document.querySelector(".js-block-dishwashers");
-const BlockCleaningWipes = document.querySelector(".js-block-cleaning_wipes");
 
 // Мир ароматов
 const SectionAllSmells = document.querySelector(".js-section-all-smells");
@@ -419,6 +426,15 @@ const BlockAirFresheners = document.querySelector(".js-block-air-fresheners");
 const BlockFabricFresheners = document.querySelector(".js-block-fabric-fresheners");
 const BlockAntiSmells = document.querySelector(".js-block-anti-smells");
 const BlockBathBombs = document.querySelector(".js-block-bath-bombs");
+
+// Влажные салфетки
+const SectionAllCleaningWipes = document.querySelector(".js-section-all-cleaning-wipes");
+const BlockCleaningWetWipes = document.querySelector(".js-block-cleaning-wet-wipes");
+
+// Бумажные полотенца
+const SectionAllPaperTowels = document.querySelector(".js-section-all-paper-towels");
+const BlockPaperTowelsTwoLayer = document.querySelector(".js-block-paper-towels-two-layer");
+const BlockPaperTowelsThreeLayer = document.querySelector(".js-block-paper-towels-three-layer");
 
 // Скрыть секцию
 const JSSectionOne = document.querySelectorAll(".js-section-none");
@@ -455,7 +471,6 @@ export const arrayOfProducts = [
   { element: shopListMeansCleaningKitchenBathroom, items: shopLotsMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom, dataTarget: "means_cleaning_kitchen_bathroom" },
   { element: shopListForWC, items: shopLotsForWC, block: BlockForWC, dataTarget: "for_wc" },
   { element: shopListMeansCleaningDishwashers, items: shopLotsMeansCleaningDishwashers, block: BlockCleaningDishwashers, dataTarget: "means_cleaning_dishwashers" },
-  { element: shopListCleaningWipes, items: shopLotsCleaningWipes, block: BlockCleaningWipes, dataTarget: "cleaning_wipes" },
 
   { element: shopListMoistureAbsorbers, items: shopLotsMoistureAbsorbers, block: BlockMoistureAbsorbers, dataTarget: "moisture_absorbers" },
   { element: shopListAirFresheners, items: shopLotsAirFresheners, block: BlockAirFresheners, dataTarget: "air_fresheners" },
@@ -498,6 +513,10 @@ export const arrayOfProducts = [
   { element: shopListPantyliner, items: shopLotsPantyliner, block: BlockPantyliner, dataTarget: "pantyliner" },
 
   { element: shopListTPThreeLayer, items: shopLotsTPThreeLayer, block: BlockTPThreeLayer, dataTarget: "tp-three-layer" },
+
+  { element: shopListCleaningWetWipes, items: shopLotsCleaningWetWipes, block: BlockCleaningWetWipes, dataTarget: "cleaning-wet-wipes" },
+  { element: shopListPaperTowelsTwoLayer, items: shopLotsPaperTowelsTwoLayer, block: BlockPaperTowelsTwoLayer, dataTarget: "paper-towels-two-layer" },
+  { element: shopListPaperTowelsThreeLayer, items: shopLotsPaperTowelsThreeLayer, block: BlockPaperTowelsThreeLayer, dataTarget: "paper-towels-three-layer" },
 
   { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
   { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
@@ -702,13 +721,16 @@ function handleFormSubmit(event) {
   const filteredMeansCleaningKitchenBathroom = universalSearch(shopLotsMeansCleaningKitchenBathroom, searchItem);
   const filteredForWC = universalSearch(shopLotsForWC, searchItem);
   const filteredMeansCleaningDishwashers = universalSearch(shopLotsMeansCleaningDishwashers, searchItem);
-  const filteredCleaningWipes = universalSearch(shopLotsCleaningWipes, searchItem);
 
   const filteredMoistureAbsorbers = universalSearch(shopLotsMoistureAbsorbers, searchItem);
   const filteredAirFresheners = universalSearch(shopLotsAirFresheners, searchItem);
   const filteredFabricFresheners = universalSearch(shopLotsFabricFresheners, searchItem);
   const filteredAntiSmells = universalSearch(shopLotsAntiSmells, searchItem);
   const filteredBathBombs = universalSearch(shopLotsBathBombs, searchItem);
+
+  const filteredCleaningWetWipes = universalSearch(shopLotsCleaningWetWipes, searchItem);
+  const filteredPaperTowelsTwoLayer = universalSearch(shopLotsPaperTowelsTwoLayer, searchItem);
+  const filteredPaperTowelsThreeLayer = universalSearch(shopLotsPaperTowelsTwoLayer, searchItem);
 
   const allFilteredItems = [
 
@@ -817,13 +839,16 @@ function handleFormSubmit(event) {
     ...filteredMeansCleaningKitchenBathroom,
     ...filteredForWC,
     ...filteredMeansCleaningDishwashers,
-    ...filteredCleaningWipes,
 
     ...filteredMoistureAbsorbers,
     ...filteredAirFresheners,
     ...filteredFabricFresheners,
     ...filteredAntiSmells,
     ...filteredBathBombs,
+
+    ...filteredCleaningWetWipes,
+    ...filteredPaperTowelsTwoLayer,
+    ...filteredPaperTowelsThreeLayer,
   ];
 
   if (allFilteredItems.length === 0) {
@@ -1106,8 +1131,7 @@ function handleFormSubmit(event) {
     filteredMeansCleaningUniversal.length > 0 ||
     filteredMeansCleaningKitchenBathroom.length > 0 ||
     filteredForWC.length > 0 ||
-    filteredMeansCleaningDishwashers.length > 0 ||
-    filteredCleaningWipes.length > 0) {
+    filteredMeansCleaningDishwashers.length > 0) {
     shopListForFabrics.innerHTML = createMobileListItemsMarkup(filteredForFabrics);
     shopListForWindows.innerHTML = createMobileListItemsMarkup(filteredForWindows);
     shopListForFurniture.innerHTML = createMobileListItemsMarkup(filteredForFurniture);
@@ -1116,7 +1140,6 @@ function handleFormSubmit(event) {
     shopListMeansCleaningKitchenBathroom.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningKitchenBathroom);
     shopListForWC.innerHTML = createMobileListItemsMarkup(filteredForWC);
     shopListMeansCleaningDishwashers.innerHTML = createMobileListItemsMarkup(filteredMeansCleaningDishwashers);
-    shopListCleaningWipes.innerHTML = createMobileListItemsMarkup(filteredCleaningWipes);
   } else {
     SectionAllMeansCleaning.style.display = "none";
   }
@@ -1133,6 +1156,20 @@ function handleFormSubmit(event) {
     shopListBathBombs.innerHTML = createMobileListItemsMarkup(filteredBathBombs);
   } else {
     SectionAllSmells.style.display = "none";
+  }
+
+  if (filteredCleaningWetWipes.length > 0) {
+    shopListCleaningWetWipes.innerHTML = createMobileListItemsMarkup(filteredCleaningWetWipes);
+  } else {
+    SectionAllCleaningWipes.style.display = "none";
+  }
+
+  if (filteredPaperTowelsTwoLayer.length > 0 ||
+    filteredPaperTowelsThreeLayer.length > 0 ) {
+    shopListPaperTowelsTwoLayer.innerHTML = createMobileListItemsMarkup(filteredPaperTowelsTwoLayer);
+    shopListPaperTowelsThreeLayer.innerHTML = createMobileListItemsMarkup(filteredPaperTowelsThreeLayer);
+  } else {
+    SectionAllPaperTowels.style.display = "none";
   }
   
   const shopblocks = [
@@ -1240,13 +1277,16 @@ function handleFormSubmit(event) {
     { element: shopListMeansCleaningKitchenBathroom, items: filteredMeansCleaningKitchenBathroom, block: BlockCleaningKitchenBathroom },
     { element: shopListForWC, items: filteredForWC, block: BlockForWC },
     { element: shopListMeansCleaningDishwashers, items: filteredMeansCleaningDishwashers, block: BlockCleaningDishwashers },
-    { element: shopListCleaningWipes, items: filteredCleaningWipes, block: BlockCleaningWipes },
 
     { element: shopListMoistureAbsorbers, items: filteredMoistureAbsorbers, block: BlockMoistureAbsorbers },
     { element: shopListAirFresheners, items: filteredAirFresheners, block: BlockAirFresheners },
     { element: shopListFabricFresheners, items: filteredFabricFresheners, block: BlockFabricFresheners },
     { element: shopListAntiSmells, items: filteredAntiSmells, block: BlockAntiSmells },
     { element: shopListBathBombs, items: filteredBathBombs, block: BlockBathBombs },
+
+    { element: shopListCleaningWetWipes, items: filteredCleaningWetWipes, block: BlockCleaningWetWipes },
+    { element: shopListPaperTowelsTwoLayer, items: filteredPaperTowelsTwoLayer, block: BlockPaperTowelsTwoLayer },
+    { element: shopListPaperTowelsThreeLayer, items: filteredPaperTowelsThreeLayer, block: BlockPaperTowelsThreeLayer },
   ];
 
   if (searchItem === "") {

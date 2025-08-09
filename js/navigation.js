@@ -213,7 +213,7 @@ function burgerHandleClickMainCategory(event, attribute, filterKey) {
   onCloseModal(refs.openModalBurgerMenu);
 }
 
-["foodstuffs", "hygiene-products", "household-chemicals"].forEach(target => {
+["foodstuffs", "hygiene-products", "household-chemicals", "household-products"].forEach(target => {
   const element = document.querySelector(`.js-modal__burger-item[data-target="${target}"]`);
   if (element) {
     element.addEventListener("click", event => burgerHandleClickMainCategory(event, "data-target", "mainCategory"));
@@ -226,6 +226,10 @@ function burgerHandleClickMainCategory(event, attribute, filterKey) {
   "for-children", "hair-care", "shower-gels", "soap", "limbs-care", "deo-anti", "shining-smile", "wipes", "feminine-hygiene", "toilet-papers",
 
   "dishwashing-detergents", "detergents", "cleaning-care-products", "world-of-fragrances",
+
+  "cleaning-wipes",
+
+  "paper-towels",
 ].forEach(target => {
   const element = document.querySelector(`.js-modal__burger-subcategory[data-target="${target}"], .burger__secondary-item[data-target="${target}"]`);
   if (element) {
