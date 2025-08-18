@@ -313,7 +313,7 @@ export const shopLotsTPThreeLayer = [
     countryName: "Сербія",
     quantityName: "Кількість",
     quantity: "10 шт.",
-    priceGRN: 151,
+    priceGRN: 153,
     priceGRNOpt: 129,
     description01: "&#171Perfex - Cotton Like Premium White Neven&#187 — натуральний тришаровий туалетний папір для чутливої шкіри з додаванням бавовни.",
     description02: "Склад із 100% чистої целюлози забезпечує надзвичайну м’якість і ніжне очищення без подразнень.",
