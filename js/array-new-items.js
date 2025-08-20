@@ -153,7 +153,7 @@ export const shopLotsNewItems = [
         marker: "DRNT050",
         brand: "Balea",
         search: "балея балеа для чувствительной кожи чувствительная кожа чутлива шкіра",
-        nameUKR: "Дезодорант для чутливоЇ шкріи",
+        nameUKR: "Дезодорант для чутливоЇ шкіри",
         nameEN: "Deodorant Sensetive",
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
