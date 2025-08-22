@@ -950,8 +950,6 @@ export const shopLotsGroundCoffee = [
         alt3: "swisso_reich_rosten_500-03",
         url4: "./images/shop/food/drinks/ground_coffee/swisso_reich_rosten_500-04.jpg",
         alt4: "swisso_reich_rosten_500-04",
-        url5: "./images/shop/food/drinks/ground_coffee/swisso_reich_rosten_500-05.jpg",
-        alt5: "swisso_reich_rosten_500-05",
         marker: "FDGC860",
         brand: "Swisso",
         search: "свисо свиссо свісо свіссо кава кофе молотый кофе reich rosten",
@@ -966,7 +964,7 @@ export const shopLotsGroundCoffee = [
         description01: "Виражений аромат і насичений смак &#171Swisso - Reich Rösten&#187 не залишать байдужими справжніх цінителів кави.",
         description02: "Ця вишукана кава представляє собою вміле поєднання зерен високої якості, які вирощуються в екологічно чистих регіонах. Це не просто кава, це творіння майстрів обсмажування, яке створює справжню симфонію ароматів.",
         description03: "Відчуйте бажання кожного дня починати із чашки цього кавового шедевру. Насичений, глибокий смак і витончений аромат роблять &#171Swisso - Reich Rösten&#187 неперевершеним вибором для тих, хто цінує справжню кавову естетику.",
-        description04: "<strong>Арабіка: 100%. Ступінь обсмажування: темно-середня.</strong>",
+        description04: "<strong>Арабіка: 100%. Ступінь обсмажування: середня.</strong>",
         description05: "Відчуйте новий рівень кави - замовте &#171Swisso - Reich Rösten&#187 прямо зараз та насолоджуйтеся кожним ковтком цього вишуканого напою, щоб відкрити для себе справжній смак кавової перфекції!"
     },
 ]
