@@ -162,7 +162,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте нотку весняної свіжості у свій дім з &#171Brait - Aqua Spray Magic Mist White Flowers&#187 і насолоджуйтесь кожним вдихом!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/coccolino_fiore_della_passione_e_ylang_ylang_3.jpg",
@@ -180,8 +180,8 @@ export const shopLotsFabricFresheners = [
         countryName: "Нідерланди",
         quantityName: "Кількість",
         quantity: "3 шт.",
-        priceGRN: 138,
-        priceGRNOpt: 118,
+        priceGRN: 142,
+        quantityOnStorage: 6,
         description01: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiore Della Passione E Ylang Ylang)&#187 перетворюють Ваші шафи на оазу свіжості та ніжного аромату.",
         description02: "Завдяки вишуканому поєднанню ароматів пасифлори та Іланг-Ілангу, ці саше надають Вашим речам тривалий і приємний аромат.",
         description03: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiore Della Passione E Ylang Ylang)&#187 ефективно усувають неприємні запахи, наповнюючи кожен куточок шафи або ящика легким, але насиченим ароматом.",
@@ -189,7 +189,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте &#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiore Della Passione E Ylang Ylang) до своєї шафи та насолоджуйтесь приємною свіжістю щодня!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/coccolino_fiori_di_tiare_e_frutti_rossi_3.jpg",
@@ -207,8 +207,8 @@ export const shopLotsFabricFresheners = [
         countryName: "Нідерланди",
         quantityName: "Кількість",
         quantity: "3 шт.",
-        priceGRN: 138,
-        priceGRNOpt: 118,
+        priceGRN: 142,
+        quantityOnStorage: 15,
         description01: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiori Di Tiarè E Frutti Rossi)&#187 – це досконала гармонія аромату квітів тіаре та соковитих червоних фруктів.",
         description02: "Ці ароматизовані саше надають Вашим речам ніжний і свіжий аромат, який триває довгий час.",
         description03: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiori Di Tiarè E Frutti Rossi) не тільки створюють атмосферу затишку у Вашій шафі, але й захищають одяг від неприємних запахів.",
@@ -216,7 +216,7 @@ export const shopLotsFabricFresheners = [
         description05: "Додайте &#171Coccolino - Scented Sachets For Drawers And Wardrobes (Fiori Di Tiarè E Frutti Rossi)&#187 у свої ящики та шафи для неперевершеного аромату кожен день!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/fabrics_fresheners/coccolino_profumo_di_primavera_3.jpg",
@@ -234,8 +234,8 @@ export const shopLotsFabricFresheners = [
         countryName: "Нідерланди",
         quantityName: "Кількість",
         quantity: "3 шт.",
-        priceGRN: 138,
-        priceGRNOpt: 118,
+        priceGRN: 142,
+        quantityOnStorage: 4,
         description01: "&#171Coccolino - Scented Sachets For Drawers And Wardrobes (Profumo Di Primavera)&#187 наповнюють Ваші речі легким весняним ароматом, що дарує відчуття свіжості.",
         description02: "Поєднання ніжних квіткових нот створює атмосферу весняного пробудження, роблячи кожен відкритий ящик приємним сюрпризом.",
         description03: "Саше &#171Coccolino - Scented Sachets For Drawers And Wardrobes (Profumo Di Primavera)&#187 ефективно усувають неприємні запахи, підтримуючи чистоту та свіжість Вашого одягу.",
@@ -262,7 +262,7 @@ export const shopLotsFabricFresheners = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 82,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Ароматизовані саше &#171Irge - Bustine Profumate Armadi E Cassetti Muschio Bianco&#187 з ароматом білого мускусу огорнуть Ваш одяг ніжним шлейфом витонченої свіжості.",
         description02: "Завдяки компактному формату ці саше легко помістити у шафу чи ящик, зберігаючи речі свіжими надовго.",
         description03: "Тонкий аромат &#171Irge - Bustine Profumate Armadi E Cassetti Muschio Bianco&#187 білого мускусу додає Вашим речам елегантності, роблячи кожне відкриття шафи приємним ритуалом.",
