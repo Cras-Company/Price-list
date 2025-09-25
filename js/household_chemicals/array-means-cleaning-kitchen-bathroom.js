@@ -1786,7 +1786,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         companyName: "dm-drogerie markt GmbH + Co.",
         countryName: "Німеччина",
         volumeName: "Об'єм",
-        volume: "500 мл.",
+        volume: "750 мл.",
         priceGRN: 213,
         priceGRNOpt: 182,
         description01: "Засіб &#171Denkmit - Hygienereineger Küche & Kühlschrank&#187 спеціально створений для ретельного очищення кухонних поверхонь і холодильників від щоденних забруднень.",
