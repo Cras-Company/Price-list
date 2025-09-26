@@ -1,6 +1,6 @@
 export const shopLotsForWC = [
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/ace_wc_gel_candeggina_700.jpg",
@@ -19,7 +19,7 @@ export const shopLotsForWC = [
         volumeName: "Об'єм",
         volume: "700 мл.",
         priceGRN: 115,
-        priceGRNOpt: 98,
+        quantityOnStorage: 6,
         description01: "Забезпечте ідеальну чистоту та свіжість Вашого туалету за допомогою &#171Ace - WC Gel Candeggina&#187.",
         description02: "Цей гель з відбілювачем ефективно видаляє бруд, наліт та бактерії, залишаючи Ваш туалет бездоганно чистим. Активні компоненти проникають у важкодоступні місця, забезпечуючи глибоке очищення.",
         description03: "&#171Ace - WC Gel Candeggina&#187 не тільки очищує, але й відбілює поверхні, даруючи їм новий вигляд. Забудьте про неприємні запахи та насолоджуйтесь свіжістю кожного дня.",
