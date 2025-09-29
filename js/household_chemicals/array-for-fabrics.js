@@ -54,7 +54,7 @@ export const shopLotsForFabrics = [
         description05: "Додайте &#171La Salud - Planchado Fа́cil 2 en 1&#187 у свою рутину — і прасування стане легшим, ніж будь-коли!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_confidence_500.jpg",
@@ -74,8 +74,8 @@ export const shopLotsForFabrics = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 248,
-        priceGRNOpt: 211,
+        priceGRN: "--",
+        priceGRNOpt: 248,
         description01: "&#171Lenor - Crease Releaser Confidence Jasmine & Red Berries&#187 з ароматом жасміну та червоних ягід миттєво розгладжує складки на одязі та білизні без праски.",
         description02: "Його антистатична формула полегшує догляд за тканинами та освіжає текстиль при кожному розпиленні.",
         description03: "Делікатний аромат &#171Lenor - Crease Releaser Confidence Jasmine & Red Berries&#187 створює атмосферу чистоти та впевненості у кожному русі.",
@@ -83,7 +83,7 @@ export const shopLotsForFabrics = [
         description05: "Скористайтесь &#171Lenor - Crease Releaser Confidence Jasmine & Red Berries&#187 для догляду, який заощаджує час і дарує комфорт!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_exotic_bloom_500.jpg",
@@ -103,8 +103,8 @@ export const shopLotsForFabrics = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 248,
-        priceGRNOpt: 211,
+        priceGRN: "--",
+        priceGRNOpt: 248,
         description01: "Розгладжувач складок &#171Lenor - Crease Releaser Love Exotic Bloom&#187 наповнює Ваш одяг свіжістю тропічних квітів та фруктовими нотками.",
         description02: "Він миттєво розгладжує складки, роблячи Ваш одяг бездоганно охайним і приємним на дотик.",
         description03: "Використовуючи &#171Lenor - Crease Releaser Love Exotic Bloom&#187, Ви зекономите час на прасуванні та насолоджуватиметесь легкістю догляду за речами.",
@@ -112,7 +112,7 @@ export const shopLotsForFabrics = [
         description05: "Додайте &#171Lenor - Crease Releaser Love Exotic Bloom&#187 у свою щоденну рутину догляду за одягом та відчуйте різницю!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_ruby_jasmine_500.jpg",
@@ -132,8 +132,8 @@ export const shopLotsForFabrics = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 248,
-        priceGRNOpt: 211,
+        priceGRN: "--",
+        priceGRNOpt: 248,
         description01: "Розгладжувач складок &#171Lenor - Crease Releaser Divine Ruby Jasmine&#187 дарує Вашому одягу витончений аромат рубінового жасмину.",
         description02: "Його потужна формула швидко усуває складки, надаючи одягу ідеально гладкий вигляд без зайвих зусиль.",
         description03: "Завдяки стійкому аромату &#171Lenor - Crease Releaser Divine Ruby Jasmine&#187, Ваші речі будуть випромінювати свіжість та елегантність протягом усього дня.",
@@ -141,7 +141,7 @@ export const shopLotsForFabrics = [
         description05: "Додайте &#171Lenor - Crease Releaser Divine Ruby Jasmine&#187 у свій догляд за одягом і насолоджуйтесь розкішною свіжістю!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_sping_awakening_500.jpg",
@@ -161,8 +161,8 @@ export const shopLotsForFabrics = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 248,
-        priceGRNOpt: 211,
+        priceGRN: "--",
+        priceGRNOpt: 248,
         description01: "Розгладжувач складок &#171Lenor - Crease Releaser Spring Awakening&#187 надає Вашому одягу свіжість весняного ранку.",
         description02: "Його спеціальна формула швидко розгладжує навіть найскладніші складки, роблячи одяг гладким та охайним.",
         description03: "Завдяки насиченому аромату &#171Lenor - Crease Releaser Spring Awakening&#187, речі залишаються свіжими та приємними на дотик протягом усього дня.",
@@ -170,7 +170,7 @@ export const shopLotsForFabrics = [
         description05: "Додайте &#171Lenor - Crease Releaser Spring Awakening&#187 до свого ритуалу догляду за одягом і насолоджуйтесь бездоганністю кожного дня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/lenor_crease_releaser_summer_breeze_500.jpg",
@@ -190,8 +190,8 @@ export const shopLotsForFabrics = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 248,
-        priceGRNOpt: 211,
+        priceGRN: "--",
+        priceGRNOpt: 248,
         description01: "Розгладжувач складок &#171Lenor - Crease Releaser Summer Breeze&#187 дарує Вашому одягу свіжий аромат літнього бризу",
         description02: "Його ефективна формула миттєво усуває складки, надаючи речам бездоганний вигляд та приємний аромат.",
         description03: "Використовуючи &#171Lenor - Crease Releaser Summer Breeze&#187, Ви забезпечите своїм речам тривалу свіжість, яка залишиться з Вами протягом усього дня.",
