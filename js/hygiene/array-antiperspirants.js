@@ -54,7 +54,7 @@ export const shopLotsAntiperspirants = [
         description05: "Обери &#171Balea - Anti-Transpirant Extra Dry&#187 для впевненості у будь-якій ситуації!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/antiperspirants/balea_men_fresh_anti_transpirant_50.jpg",
@@ -72,8 +72,8 @@ export const shopLotsAntiperspirants = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "50 мл.",
-        priceGRN: 57,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 57,
         description01: "Забудьте про незручності під час активного дня — чоловічий антиперспірант &#171Balea - Men Anti-Transpirant Fresh&#187 забезпечує тривалий захист від поту.",
         description02: "Його ефективна формула блокує надмірну вологість, залишаючи шкіру сухою до 48 годин.",
         description03: "Свіжий аромат &#171Balea - Men Anti-Transpirant Fresh&#187 створює відчуття чистоти, яке залишається з Вами навіть у найбільш напружені моменти.",
