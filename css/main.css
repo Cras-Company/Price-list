@@ -21,8 +21,7 @@
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -161,6 +160,9 @@ button {
   text-align: center;
   color: var(--primary-text-color);
   width: 100%;
+}
+.title--happy {
+  color: #002147;
 }
 
 @media screen and (min-width: 480px) {
@@ -302,8 +304,7 @@ img {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -368,7 +369,7 @@ img {
 }
 @media (max-width: 767px) {
   .hero-img {
-    content: url("../images/hero/hero-img-mobile.jpg");
+    content: url("../images/hero/hero-img-mobile_1.jpg");
   }
 }
 
