@@ -633,10 +633,6 @@ export const brands = [
     alt: "univer",
   },
   {
-    url: "./images/carusel/vesuvio.jpg",
-    alt: "vesuvio",
-  },
-  {
     url: "./images/carusel/vigora.jpg",
     alt: "vigora",
   },
