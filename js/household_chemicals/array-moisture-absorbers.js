@@ -29,7 +29,7 @@ export const shopLotsMoistureAbsorbers = [
         description05: "Забезпечте чисте та сухе середовище з надійним захистом від зайвої вологи &#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_gelsomino_400.jpg",
@@ -49,8 +49,8 @@ export const shopLotsMoistureAbsorbers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        priceGRNOpt: 93,
+        priceGRN: "--",
+        priceGRNOpt: 109,
         description01: "Забудьте про вологу та неприємні запахи з інноваційним поглиначем &#171Irge - Deumidificatore Profumato Gelsomino 2 in 1&#187 з ароматом жасміну!",
         description02: "Цей унікальний засіб не лише ефективно зменшує вологість, а й наповнює простір витонченим жасминовим ароматом.",
         description03: "Зробіть свій дім затишним і свіжим, забезпечивши комфортну атмосферу у будь-якому куточку тільки з &#171Irge - Deumidificatore Profumato Gelsomino 2 in 1&#187.",
@@ -87,7 +87,7 @@ export const shopLotsMoistureAbsorbers = [
         description05: "Захистіть свій простір від вологи та неприємних запахів із подвійним ефектом &#171Irge - Deumidificatore Inodore 2 in 1&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_lavanda_400.jpg",
@@ -107,8 +107,8 @@ export const shopLotsMoistureAbsorbers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        priceGRNOpt: 93,
+        priceGRN: "--",
+        priceGRNOpt: 109,
         description01: "Забудьте про вологість та неприємні запахи завдяки &#171Irge - Deumidificatore Profumato Lavanda 2 in 1&#187 з ніжним ароматом лаванди!",
         description02: "Цей інноваційний засіб поглинає надлишок вологи та ефективно нейтралізує неприємні запахи, створюючи затишок у Вашому домі.",
         description03: "Наповніть свій простір розслаблюючим лавандовим ароматом у &#171Irge - Deumidificatore Profumato Lavanda 2 in 1&#187, що сприяє гармонії та комфорту у кожній кімнаті.",
@@ -116,7 +116,7 @@ export const shopLotsMoistureAbsorbers = [
         description05: "Оберіть &#171Irge - Deumidificatore Profumato Lavanda 2 in 1&#187 для свіжості та затишку Вашого дому!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_ocean_400.jpg",
@@ -137,7 +137,7 @@ export const shopLotsMoistureAbsorbers = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: 109,
-        priceGRNOpt: 93,
+        quantityOnStorage: 1,
         description01: "Забезпечте свіжість у Вашому домі з &#171Irge - Deumidificatore Profumato Ocean 2 in 1&#187, який наповнює простір легким ароматом океану!",
         description02: "Унікальний засіб ефективно поглинає вологу та нейтралізує небажані запахи, підтримуючи комфортну атмосферу.",
         description03: "Відчуйте свіжість океанського бризу кожного дня, створюючи ідеальний клімат у будь-якому приміщенні разом з &#171Irge - Deumidificatore Profumato Ocean 2 in 1&#187.",
@@ -145,7 +145,7 @@ export const shopLotsMoistureAbsorbers = [
         description05: "Обирайте &#171Irge - Deumidificatore Profumato Ocean 2 in 1&#187 для чистоти та легкості у Вашому просторі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_vaniglia_400.jpg",
@@ -165,8 +165,8 @@ export const shopLotsMoistureAbsorbers = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        priceGRNOpt: 93,
+        priceGRN: "--",
+        priceGRNOpt: 109,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Profumato Vaniglia 2 in 1&#187 з ніжним ароматом ванілі створить у Вашому домі приємну атмосферу.",
         description02: "Він ефективно контролює рівень вологості та запобігає появі цвілі та затхлих запахів.",
         description03: "Завдяки легкому аромату ванілі у &#171Irge - Deumidificatore Profumato Vaniglia 2 in 1&#187 приміщення наповнюється відчуттям затишку, а свіже повітря зберігається надовго.",
