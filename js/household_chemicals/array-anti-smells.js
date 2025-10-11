@@ -158,7 +158,7 @@ export const shopLotsAntiSmells = [
         volumeName: "Об'єм",
         volume: "400 мл.",
         priceGRN: "--",
-        priceGRNOpt: 109,
+        priceGRNOpt: 86,
         description01: "Ефективний поглинач вологи з активованим бамбуковим вугіллям &#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187 створений, щоб боротися з надмірною вологістю та усувати неприємні запахи.",
         description02: "Завдяки природним властивостям бамбукового вугілля, він швидко абсорбує зайву вологу, запобігаючи утворенню плісняви та конденсату.",
         description03: "&#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187 легкий у використанні та безпечний для будь-яких приміщень, зберігає свіжість у шафах, коморах та автомобілях, даруючи приємний мікроклімат.",
@@ -166,7 +166,7 @@ export const shopLotsAntiSmells = [
         description05: "Забезпечте чисте та сухе середовище з надійним захистом від зайвої вологи &#171Irge - Deumidificatore Carboni Attive Di Bamboo 2 in 1&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_inodore_400.jpg",
@@ -186,8 +186,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        priceGRNOpt: 93,
+        priceGRN: "--",
+        priceGRNOpt: 86,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Inodore 2 in 1&#187 забезпечує свіжість і комфорт у Вашому домі.",
         description02: "Він ефективно бореться з підвищеною вологістю, запобігаючи утворенню конденсату та затхлого запаху.",
         description03: "Компактний і без ароматизаторів, &#171Irge - Deumidificatore Inodore 2 in 1&#187 підходить для будь-яких приміщень, не порушуючи природного мікроклімату.",
@@ -195,7 +195,7 @@ export const shopLotsAntiSmells = [
         description05: "Захистіть свій простір від вологи та неприємних запахів із подвійним ефектом &#171Irge - Deumidificatore Inodore 2 in 1&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/moisture_absorbers/irge_deumidificatore_vaniglia_400.jpg",
@@ -215,8 +215,8 @@ export const shopLotsAntiSmells = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 109,
-        priceGRNOpt: 93,
+        priceGRN: "--",
+        priceGRNOpt: 86,
         description01: "Поглинач вологи та нейтралізатор запахів &#171Irge - Deumidificatore Profumato Vaniglia 2 in 1&#187 з ніжним ароматом ванілі створить у Вашому домі приємну атмосферу.",
         description02: "Він ефективно контролює рівень вологості та запобігає появі цвілі та затхлих запахів.",
         description03: "Завдяки легкому аромату ванілі у &#171Irge - Deumidificatore Profumato Vaniglia 2 in 1&#187 приміщення наповнюється відчуттям затишку, а свіже повітря зберігається надовго.",
