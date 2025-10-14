@@ -696,7 +696,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Замовте &#171Morning Fresh - Super Corcentrated Apple&#187 зараз і відчуйте різницю вже після першого використання!"
     // },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_lemon_450.jpg",
@@ -714,8 +714,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "450 мл.",
-        priceGRN: 82,
-        priceGRNOpt: 74,
+        priceGRN: 96,
+        quantityOnStorage: 13,
         description01: "Засіб для миття посуду &#171Morning Fresh - Super Corcentrated Lemon&#187 змінить Ваше уявлення про чистоту на кухні.",
         description02: "Яскравий аромат лимона дарує відчуття свіжості та натхнення під час миття посуду.",
         description03: "Висококонцентрована формула &#171Morning Fresh - Super Corcentrated Lemon&#187 ефективно розчиняє жир та залишки їжі, забезпечуючи бездоганну чистоту з мінімальним зусиллям.",
