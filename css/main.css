@@ -164,6 +164,14 @@ button {
 .title--happy {
   color: #002147;
 }
+.title--crasoria {
+  text-align: center;
+  color: var(--primary-text-color);
+  width: 100%;
+}
+.title--crasoria-text {
+  color: #FFC107;
+}
 
 @media screen and (min-width: 480px) {
   .title {
@@ -350,6 +358,19 @@ img {
     padding-top: 100px;
   }
 }
+.section-hero--crasoria {
+  padding-top: 40px;
+}
+@media (min-width: 768px) {
+  .section-hero--crasoria {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-hero--crasoria {
+    padding-top: 80px;
+  }
+}
 
 .hero-index {
   position: relative;
@@ -370,6 +391,11 @@ img {
 @media (max-width: 767px) {
   .hero-img {
     content: url("../images/hero/hero-img-mobile_1.jpg");
+  }
+}
+@media (max-width: 767px) {
+  .hero-img--crasoria {
+    content: url("../images/hero/hero-img-mobile-crasoria_1.jpg");
   }
 }
 
@@ -882,6 +908,41 @@ img {
 
 .icon-search {
   fill: var(--link-color);
+}
+
+.key-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.key-form input {
+  padding: 0 13px;
+  width: 61vw;
+  border: 2px solid var(--link-color);
+  border-radius: var(--border-radius);
+}
+@media screen and (min-width: 1024px) {
+  .key-form input {
+    width: 40vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .key-form input {
+    width: 30vw;
+  }
+}
+
+.key-form-text {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  text-align: center;
+  color: var(--secondary-link-color);
 }
 
 .contacts {
@@ -1651,6 +1712,53 @@ img {
   }
 }
 
+.modal__button-close--crasoria {
+  position: absolute;
+  top: 3px;
+  left: -20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background-color: var(--pure-white);
+  border: none;
+  border-radius: 50px;
+  -webkit-transition: fill 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
+  cursor: pointer;
+}
+.modal__button-close--crasoria:hover, .modal__button-close--crasoria:focus {
+  fill: var(--link-color);
+}
+@media (min-width: 480px) {
+  .modal__button-close--crasoria {
+    left: -15%;
+  }
+}
+@media (min-width: 768px) {
+  .modal__button-close--crasoria {
+    left: -10%;
+  }
+}
+@media (min-width: 1024px) {
+  .modal__button-close--crasoria {
+    left: -13%;
+  }
+}
+@media (min-width: 1500px) {
+  .modal__button-close--crasoria {
+    left: -10%;
+  }
+}
+
 .search__button {
   padding: 5px;
   border: none;
@@ -2177,6 +2285,43 @@ img {
   color: var(--link-color);
 }
 
+.button__key__search {
+  padding: 5px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--pure-white);
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .button__key__search {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .button__key__search {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .button__key__search {
+    border: 2px solid var(--link-color);
+    border-radius: var(--border-radius);
+  }
+}
+.button__key__search:hover, .button__key__search:focus {
+  border: 2px solid var(--link-color);
+  border-radius: var(--border-radius);
+}
+
 .logo {
   font-family: Cinzel, serif;
   font-weight: 700;
@@ -2408,6 +2553,43 @@ body.modal-open {
   }
 }
 
+.modal--crasoria {
+  margin-top: 52px;
+  padding: 60px 5px 10px 0px;
+  width: 80vw;
+  height: 80vh;
+  right: -100%;
+  -webkit-transition: right 0.5s var(--timing-function);
+  transition: right 0.5s var(--timing-function);
+}
+@media (min-width: 480px) {
+  .modal--crasoria {
+    margin-top: 62px;
+  }
+}
+@media (min-width: 768px) {
+  .modal--crasoria {
+    margin-top: 72px;
+  }
+}
+@media (min-width: 1024px) {
+  .modal--crasoria {
+    margin-top: 100px;
+    width: 50vw;
+  }
+}
+@media (min-width: 1280px) {
+  .modal--crasoria {
+    width: 40vw;
+    height: 80vh;
+  }
+}
+@media (min-width: 1500px) {
+  .modal--crasoria {
+    height: 85vh;
+  }
+}
+
 .modal--lot {
   padding: 60px 20px 20px 20px;
   top: 50%;
@@ -2438,6 +2620,10 @@ body.modal-open {
 }
 
 .modal--burger--secondary {
+  height: 40vh;
+}
+
+.modal--crasoria--secondary {
   height: 35vh;
 }
 
@@ -2480,8 +2666,11 @@ body.modal-open {
   left: 0;
 }
 
-.modal--register,
-.modal--login {
+.modal-open .modal--crasoria {
+  right: 0;
+}
+
+.modal--crasoria-key {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(0.5);
@@ -2490,25 +2679,20 @@ body.modal-open {
   transition: -webkit-transform 250ms linear 50ms;
   transition: transform 250ms linear 50ms;
   transition: transform 250ms linear 50ms, -webkit-transform 250ms linear 50ms;
-  padding: 60px 20px 20px 20px;
+  padding-top: 66px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 5px;
   width: 90vw;
   min-height: 333px;
 }
-@media screen and (min-width: 480px) {
-  .modal--register,
-  .modal--login {
-    padding-top: 80px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .modal--register,
-  .modal--login {
+@media screen and (min-width: 1024px) {
+  .modal--crasoria-key {
     width: 70vw;
   }
 }
-@media screen and (min-width: 1024px) {
-  .modal--register,
-  .modal--login {
+@media screen and (min-width: 1280px) {
+  .modal--crasoria-key {
     width: 40vw;
   }
 }
@@ -2560,7 +2744,8 @@ body.modal-open {
 .modal-open .modal--register,
 .modal-open .modal--login,
 .modal-open .modal--basket,
-.modal-open .modal--lot {
+.modal-open .modal--lot,
+.modal-open .modal--crasoria-key {
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
 }
@@ -2572,6 +2757,17 @@ body.modal-open {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.crasoria-item {
+  margin-top: 15px;
+  height: 33vh;
+  overflow: auto;
+}
+
+.travolta-crasoria {
+  margin-top: 25px;
+  height: 25vh;
 }
 
 .modal__burger-list {

@@ -75,6 +75,42 @@ body.modal-open {
   }
 }
 
+.modal--crasoria {
+  margin-top: 52px;
+
+  padding: 60px 5px 10px 0px;
+
+  width: 80vw;
+  height: 80vh;
+
+  right: -100%;
+  
+  transition: right 0.5s var(--timing-function);
+
+  @media (min-width: 480px) {
+    margin-top: 62px;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 72px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-top: 100px;
+
+    width: 50vw;
+  }
+
+  @media (min-width: 1280px) {
+    width: 40vw;
+    height: 80vh;
+  }
+
+  @media (min-width: 1500px) {
+    height: 85vh;
+  }
+}
+
 .modal--lot {
   padding: 60px 20px 20px 20px;
   
@@ -101,11 +137,11 @@ body.modal-open {
 }
 
 .modal--burger--secondary {
-  height: 35vh;
+  height: 40vh;
+}
 
-  // @media (min-width: 780px) {
-  //   width: 40vw;
-  // }
+.modal--crasoria--secondary {
+  height: 35vh;
 }
 
 .modal--overflow {
@@ -145,31 +181,67 @@ body.modal-open {
   left: 0;
 }
 
-.modal--register,
-.modal--login {
+.modal-open .modal--crasoria {
+  right: 0;
+}
+
+.modal--crasoria-key {
   top: 50%;
   left: 50%;
 
   transform: translate(-50%, -50%) scale(0.5);
   transition: transform 250ms linear 50ms;
 
-  padding: 60px 20px 20px 20px;
+  padding-top: 66px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 5px;
 
   width: 90vw;
   min-height: 333px;
 
-  @media screen and (min-width: 480px) {
-    padding-top: 80px;
-  }
+  // @media screen and (min-width: 480px) {
+  //   padding-top: 60px;
+  // }
 
-  @media screen and (min-width: 768px) {
+  // @media screen and (min-width: 768px) {
+  //   padding-top: 25px;
+  // }
+
+  @media screen and (min-width: 1024px) {
     width: 70vw;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1280px) {
     width: 40vw;
   }
 }
+
+// .modal--register,
+// .modal--login {
+//   top: 50%;
+//   left: 50%;
+
+//   transform: translate(-50%, -50%) scale(0.5);
+//   transition: transform 250ms linear 50ms;
+
+//   padding: 60px 20px 20px 20px;
+
+//   width: 90vw;
+//   min-height: 333px;
+
+//   @media screen and (min-width: 480px) {
+//     padding-top: 80px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     width: 70vw;
+//   }
+
+//   @media screen and (min-width: 1024px) {
+//     width: 40vw;
+//   }
+// }
 
 .modal--basket {
   top: 50%;
@@ -213,7 +285,8 @@ body.modal-open {
 .modal-open .modal--register,
 .modal-open .modal--login,
 .modal-open .modal--basket,
-.modal-open .modal--lot {
+.modal-open .modal--lot,
+.modal-open .modal--crasoria-key {
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -227,3 +300,14 @@ body.modal-open {
 
   transform: translateX(-50%);
 }
+
+.crasoria-item {
+    margin-top: 15px;
+    height: 33vh;
+    overflow: auto;
+  }
+
+  .travolta-crasoria {
+    margin-top: 25px;
+    height: 25vh;
+  }

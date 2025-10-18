@@ -109,6 +109,17 @@
     &--happy {
         color: #002147;
     }
+
+    &--crasoria {
+        text-align: center;
+        color: var(--primary-text-color);
+
+        width: 100%;
+    }
+
+    &--crasoria-text {
+        color: #FFC107;
+    }
 }
 
 @media screen and (min-width: 480px) {

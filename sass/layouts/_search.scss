@@ -39,3 +39,39 @@
 .icon-search {
   fill: var(--link-color);
 }
+
+// Поиск ключа
+.key-form {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 20px;
+}
+
+.key-form input {
+  padding: 0 13px;
+
+  width: 61vw;
+
+  @media screen and (min-width: 1024px) {
+    width: 40vw;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 30vw;
+  }
+
+  border: 2px solid var(--link-color);
+  border-radius: var(--border-radius);
+}
+
+.key-form-text {
+  margin: 20px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.14;
+
+    text-align: center;
+
+    color: var(--secondary-link-color);
+}

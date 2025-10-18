@@ -454,3 +454,59 @@ export function createBasketListItemsMarkup(items) {
                 </li>`;
     }).join("");
 }
+
+// ===========================================================================
+// Динамическая разметка на ключ Сrosoria
+// ===========================================================================
+
+export function createCrasoriaKeyMarkup(items) {    
+
+    return items.map(({  personal_key, status, number_of_referrals,
+                        discount, wallet_balance, total_amount, parent_key
+                    }) => {
+
+        const formattedKey =
+                            personal_key.slice(0, 3).toUpperCase() + personal_key.slice(3);
+
+        return `<div class="crasoria-item js-cras-item" data-crasoria-key="${personal_key}">
+
+                    <div class="cras-item__description">
+
+                            <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font">Особистий ключ:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font js-marker">${formattedKey};</p>
+                            </div>
+
+                            <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font">Статус:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">&#171;${status}&#187;;</p>
+                            </div>
+
+                           <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Кількість рефералів:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${number_of_referrals};</p>
+                            </div>
+
+                           <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Знижка:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${discount};</p>
+                            </div>
+
+                           <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Гаманець:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${wallet_balance};</p>
+                            </div>
+
+                           <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Баланс команди:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${total_amount};</p>
+                            </div>
+
+                            <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font">Батьківський ключ:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${parent_key};</p>
+                            </div>
+                    </div>
+                </div>`;
+    }).join("");
+}

@@ -11,6 +11,18 @@
       padding-top: 100px;
     }
   }
+
+  &--crasoria {
+    padding-top: 40px;
+
+    @media (min-width: 768px) {
+      padding-top: 60px;
+    }
+
+    @media (min-width: 1024px) {
+      padding-top: 80px;
+    }
+  }
 }
 
 .hero-index {
@@ -30,6 +42,12 @@
 
   @media (max-width: 767px) {
     content: url('../images/hero/hero-img-mobile_1.jpg');
+  }
+
+  &--crasoria {
+    @media (max-width: 767px) {
+    content: url('../images/hero/hero-img-mobile-crasoria_1.jpg');
+  }
   }
 
   // @media (min-width: 1024px) {

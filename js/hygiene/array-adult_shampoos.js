@@ -54,7 +54,7 @@ export const shopLotsAdultShampoos = [
       description05: "Забезпечте своєму волоссю здоровий вигляд і природний блиск з &#171Balea - Shampoo Feuchtigkeit Mit Kokos- Und Papaya-Duft&#187!"
   },
   {
-      type: "only-wholesale оптом",
+      type: "retail",
       mainCategory: "hygiene-products",
       subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_intensiv_pflege_300.jpg",
@@ -72,8 +72,8 @@ export const shopLotsAdultShampoos = [
       countryName: "Німеччина",
       volumeName: "Об'єм",
       volume: "300 мл.",
-      priceGRN: "--",
-      priceGRNOpt: 72,
+      priceGRN: 72,
+      quantityOnStorage: 6,
       description01: "Пошкоджене волосся більше не проблема з шампунем &#171Balea - Shampoo Intensiv Pflege Mit Vanille-Duft Und Mandelöl&#187, який містить аромат ванілі та мигдалеву олію.",
       description02: "Завдяки вітаміну B3 і провітаміну B5, Ваше волосся отримує інтенсивне відновлення та зміцнення по всій довжині.",
       description03: "Мигдалева олія зволожує, а ніжний аромат ванілі додає нотку розслаблення під час кожного миття з &#171Balea - Shampoo Intensiv Pflege Mit Vanille-Duft Und Mandelöl&#187.",
@@ -81,7 +81,7 @@ export const shopLotsAdultShampoos = [
       description05: "Дозвольте своєму волоссю засяяти здоровим блиском і природною красою після &#171Balea - Shampoo Intensiv Pflege Mit Vanille-Duft Und Mandelöl&#187!"
   },
   {
-      type: "retail",
+      type: "only-wholesale оптом",
       mainCategory: "hygiene-products",
       subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_pure_frische_300.jpg",
@@ -99,8 +99,8 @@ export const shopLotsAdultShampoos = [
       countryName: "Німеччина",
       volumeName: "Об'єм",
       volume: "300 мл.",
-      priceGRN: 72,
-      quantityOnStorage: 6,
+      priceGRN: "--",
+      priceGRNOpt: 72,
       description01: "Відчуйте справжню свіжість із шампунем для жирного волосся &#171Balea - Shampoo Pure Frische Mit Grünem Apfel-Duft&#187 з ароматом зеленого яблука.",
       description02: "Його інноваційна формула з вітаміном B3 і провітаміном B5 ніжно очищує волосся, даруючи йому об'єм та легкість.",
       description03: "Щоденне використання шампуню &#171Balea - Shampoo Pure Frische Mit Grünem Apfel-Duft&#187 допоможе відновити природний баланс шкіри голови та зробить Ваше волосся шовковистим.",

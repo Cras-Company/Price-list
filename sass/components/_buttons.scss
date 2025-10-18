@@ -133,6 +133,49 @@
   }
 }
 
+.modal__button-close--crasoria {
+  position: absolute;
+  top: 3px;
+  left: -20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  padding: 0;
+
+  background-color: var(--pure-white);
+  border: none;
+  border-radius: 50px;
+
+  transition: fill 250ms var(--timing-function);
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    fill: var(--link-color);
+  }
+
+  @media (min-width: 480px) {
+    left: -15%;
+  }
+
+  @media (min-width: 768px) {
+    left: -10%;
+  }
+
+  @media (min-width: 1024px) {
+    left: -13%;
+  }
+
+  @media (min-width: 1500px) {
+    left: -10%;
+  }
+}
+
 // Кнопка поиска
 .search__button {
   padding: 5px;
@@ -682,4 +725,41 @@
 .button__copy .basket__copy-text:focus,
 .button__copy .basket__copy-text:active {
   color: var(--link-color);
+}
+
+.button__key__search {
+  padding: 5px;
+
+  border: none;
+
+  display: flex;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+
+  @media screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 50px;
+    height: 50px;
+  }
+
+  background-color: var(--pure-white);
+
+  cursor: pointer;
+
+  @media screen and (max-width: 1023px) {
+    border: 2px solid var(--link-color);
+    border-radius: var(--border-radius);
+  }
+
+  &:hover,
+  &:focus {
+    border: 2px solid var(--link-color);
+    border-radius: var(--border-radius);
+  }
 }

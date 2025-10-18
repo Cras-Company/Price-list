@@ -2,6 +2,12 @@ export const refs = {
   openModalBurgerMenuBtn: document.querySelector("[data-modal-burger-menu-btn]"),
   openModalBurgerMenu: document.querySelector("[data-modal-burger-menu]"),
 
+  openModalCrasoriaMenuBtn: document.querySelector("[data-modal-crasoria-menu-btn]"),
+  openModalCrasoriaMenu: document.querySelector("[data-modal-crasoria-menu]"),
+
+  openModalCrasoriaKeyBtn: document.querySelector("[data-modal-crasoria-key-btn]"),
+  openModalCrasoriaKey: document.querySelector("[data-modal-crasoria-key]"),
+
   // openModalRegisterBtns: document.querySelectorAll("[data-btn-register-open]"),
   // modalRegisterMenu: document.querySelector("[data-modal-register]"),
 
@@ -17,8 +23,8 @@ export const refs = {
   closeModalBtn: document.querySelectorAll('[data-modal-close]'),
 };
 
-const filterSale = document.querySelectorAll('.filter__menu[data-target="sale"]');
-const categoryItems = document.querySelectorAll(".js-category-items");
+// const filterSale = document.querySelectorAll('.filter__menu[data-target="sale"]');
+// const categoryItems = document.querySelectorAll(".js-category-items");
 
 const html = document.documentElement;
 
@@ -115,16 +121,38 @@ refs.openModalBasketBtns.forEach(button => {
 // Открытие главного бургер-меню
 refs.openModalBurgerMenuBtn.addEventListener("click", () => onOpenModal(refs.openModalBurgerMenu));
 
-refs.closeModalBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    onCloseModal(refs.openModalBurgerMenu);
-    // onCloseModal(refs.modalRegisterMenu);
-    // onCloseModal(refs.modalLoginMenu);
-    onCloseModal(refs.modalBasketMenu);
-    onCloseModal(refs.modalBasketOrder);
-    onCloseModal(refs.openModalLot);
+// Открытие меню Crasoria
+if (refs.openModalCrasoriaMenuBtn) {
+  refs.openModalCrasoriaMenuBtn.addEventListener("click", () =>
+    onOpenModal(refs.openModalCrasoriaMenu)
+  );
+}
+
+// Открытие меню ключа Crasoria
+if (refs.openModalCrasoriaKeyBtn) {
+  refs.openModalCrasoriaKeyBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    if (refs.openModalCrasoriaMenu) onCloseModal(refs.openModalCrasoriaMenu);
+
+    onOpenModal(refs.openModalCrasoriaKey);
   });
-});
+}
+
+if (refs.closeModalBtn && refs.closeModalBtn.length) {
+  refs.closeModalBtn.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (refs.openModalBurgerMenu) onCloseModal(refs.openModalBurgerMenu);
+      if (refs.openModalCrasoriaMenu) onCloseModal(refs.openModalCrasoriaMenu);
+      if (refs.openModalCrasoriaKey) onCloseModal(refs.openModalCrasoriaKey);
+      // if (refs.modalRegisterMenu) onCloseModal(refs.modalRegisterMenu);
+      // if (refs.modalLoginMenu) onCloseModal(refs.modalLoginMenu);
+      if (refs.modalBasketMenu) onCloseModal(refs.modalBasketMenu);
+      if (refs.modalBasketOrder) onCloseModal(refs.modalBasketOrder);
+      if (refs.openModalLot) onCloseModal(refs.openModalLot);
+    });
+  });
+}
 
 // filterSale.forEach(item => {
 //   item.addEventListener('click', () => {
