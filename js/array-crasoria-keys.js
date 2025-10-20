@@ -1,12 +1,12 @@
 export const crasoriaKeys = [
     {
-        personal_key: "mmm001",
-        status: "Ambasador",
-        number_of_referrals: 66,
-        discount: "25 %",
-        wallet_balance: 300,
-        total_amount: 10000,
-        parent_key: "AAA000",
+        personal_key: "MEL861",
+        status: "СРІБЛО",
+        number_of_referrals: 0,
+        discount: "5 %",
+        wallet_balance: 0,
+        total_amount: 0,
+        parent_key: "CRAS",
     },
     {
         personal_key: "mmm002",
