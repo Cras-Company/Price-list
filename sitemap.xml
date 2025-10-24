@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Главная страница -->
   <url>
-    <loc>https://cras-company.github.io/Price-list/</loc>
+    <loc>https://www.cras.company/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Основные страницы -->
+  <url>
+    <loc>https://www.cras.company/about_us.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cras-company.github.io/Price-list/about_us.html</loc>
+    <loc>https://www.cras.company/crasoria.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cras-company.github.io/Price-list/licence.html</loc>
+    <loc>https://www.cras.company/payment.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.cras.company/license.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

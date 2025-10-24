@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
-Sitemap: https://cras-company.github.io/Price-list/sitemap.xml
+
+# Block common system folders (uncomment if they exist on your site)
+# Disallow: /admin/
+# Disallow: /wp-admin/
+# Disallow: /cart/
+# Disallow: /checkout/
+
+Sitemap: https://www.cras.company/sitemap.xml
