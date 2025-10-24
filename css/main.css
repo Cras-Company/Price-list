@@ -1759,6 +1759,10 @@ img {
   }
 }
 
+.icon-crasoria {
+  fill: var(--secondary-link-color);
+}
+
 .search__button {
   padding: 5px;
   border: none;
@@ -2264,6 +2268,12 @@ img {
   opacity: 1;
 }
 
+.button__copy.is-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 .basket__copy-text {
   position: relative;
   z-index: 10;
@@ -2707,7 +2717,7 @@ body.modal-open {
   transition: transform 250ms linear 50ms;
   transition: transform 250ms linear 50ms, -webkit-transform 250ms linear 50ms;
   padding-top: 35px;
-  padding-bottom: 115px;
+  padding-bottom: 130px;
   padding-left: 15px;
   padding-right: 5px;
   width: 90vw;
@@ -2727,17 +2737,11 @@ body.modal-open {
 @media screen and (min-width: 1024px) {
   .modal--basket {
     width: 70vw;
-    padding-bottom: 125px;
   }
 }
 @media screen and (min-width: 1280px) {
   .modal--basket {
     width: 60vw;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .modal--basket {
-    padding-bottom: 130px;
   }
 }
 
@@ -2761,7 +2765,7 @@ body.modal-open {
 
 .crasoria-item {
   margin-top: 15px;
-  height: 33vh;
+  height: 40vh;
   overflow: auto;
 }
 
@@ -3364,9 +3368,6 @@ body.modal-open {
   opacity: 1;
 }
 
-.basket__order-case {
-  margin-bottom: 10px;
-}
 @media screen and (min-width: 360px) {
   .basket__order-case {
     display: -webkit-box;
@@ -3376,6 +3377,10 @@ body.modal-open {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.basket__order--margin {
+  margin-bottom: 10px;
 }
 
 .basket__footer {
@@ -3451,6 +3456,20 @@ body.modal-open {
   bottom: 3%;
   left: 0;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .basket__order-title {
@@ -3464,10 +3483,8 @@ body.modal-open {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 768px) {
-  .basket__order-title--margin {
-    margin-left: 15px;
-  }
+.basket__order-title--margin {
+  margin-left: 15px;
 }
 .basket__order-title--color {
   color: var(--link-color);
@@ -3581,6 +3598,25 @@ body.modal-open {
   .basker_title-text {
     font-size: 22px;
   }
+}
+
+.basket__order-crasoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.basket-key-form input {
+  width: 115px;
+  padding: 0 13px;
+  border: 2px solid var(--link-color);
+  border-radius: var(--border-radius);
 }
 
 .tranding-slide {

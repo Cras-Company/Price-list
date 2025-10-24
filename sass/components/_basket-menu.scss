@@ -224,12 +224,14 @@
 }
 
 .basket__order-case {
-    margin-bottom: 10px;
-
     @media screen and (min-width: 360px) {
         display: flex;
         justify-content: center;
     }
+}
+
+.basket__order--margin {
+    margin-bottom: 10px;
 }
 
 .basket__footer {
@@ -294,6 +296,12 @@
     bottom: 3%;
     left: 0;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .basket__order-title {
@@ -308,10 +316,7 @@
     }
 
     &--margin {
-
-        @media screen and (min-width: 768px) {
-            margin-left: 15px;
-        }
+        margin-left: 15px;
     }
 
     &--color {
@@ -414,4 +419,17 @@
     @media screen and (min-width: 768px) {
         font-size: 22px;
     }
+}
+
+.basket__order-crasoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket-key-form input {
+    width: 115px;
+    padding: 0 13px;
+    border: 2px solid var(--link-color);
+    border-radius: var(--border-radius);
 }

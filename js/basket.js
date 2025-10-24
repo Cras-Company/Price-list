@@ -9,6 +9,9 @@ import {
   onCloseModal
 } from './modal.js'
 
+// Ключи Craroria
+import { crasoriaKeys } from './array-crasoria-keys.js';
+
 // Новинки
 import { shopLotsNewItems } from "./array-new-items.js";
 // Акция
@@ -646,7 +649,6 @@ function totalItemsAmount() {
   }
 }
 
-
 // Отображение оптовой цены
 function updatePriceWholesales(foundItem) {
   const priceWholesales = document.querySelectorAll(".js-basket-price-wholesale");
@@ -880,25 +882,19 @@ function restoreBasketItemsAmount() {
 
 function restoreButtonCopy() {
   const buttonCopy = document.querySelector(".js-button__copy");
+  const CRASORIA_KEY = 'crasoria-personal-key';
 
   if (buttonCopy) {
     buttonCopy.addEventListener("click", scaleButton);
 
     function scaleButton() {
       buttonCopy.style.transform = 'scale(0.8)';
-      setTimeout(() => {
-        buttonCopy.style.transform = 'scale(1)';
-      }, 200);
+      setTimeout(() => { buttonCopy.style.transform = 'scale(1)'; }, 200);
     }
 
     buttonCopy.addEventListener("click", () => {
-      setTimeout(() => {
-        onCloseModal(refs.modalBasketMenu);
-      }, 300);
-
-      setTimeout(() => {
-        onOpenModal(refs.modalBasketOrder);
-      }, 500);
+      setTimeout(() => { onCloseModal(refs.modalBasketMenu); }, 300);
+      setTimeout(() => { onOpenModal(refs.modalBasketOrder); }, 500);
     });
 
     buttonCopy.addEventListener("click", function () {
@@ -908,10 +904,10 @@ function restoreButtonCopy() {
       if (basketArray.length > 0) {
         let textToCopy = "Доброго дня. Хочу оформити замовлення №";
 
-        // Получаем текущий UNIX TIME
+        // UNIX time
         const unixTime = Math.floor(Date.now() / 1000);
 
-        // Функция преобразования числа в римские цифры
+        // арабські -> римські
         function intToRoman(number) {
           const romanNumerals = [
             [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'],
@@ -928,46 +924,48 @@ function restoreButtonCopy() {
           return result;
         }
 
-        // Последние 2 цифры года в римских цифрах
         const year = new Date(unixTime * 1000).getFullYear();
         const yearRoman = intToRoman(year % 100);
-
-        // Последние 6 цифр UNIX TIME
         const lastSixDigits = String(unixTime).slice(-6);
 
-        // Формируем номер заказа
         textToCopy += ` ${yearRoman}-${lastSixDigits}:\n\n`;
 
-        let totalQuantity = 0; // Общее количество товаров
+        let totalQuantity = 0;
 
         basketArray.forEach(({ marker, quantityItem, isChecked }) => {
-          const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+          const foundItem = arrayOfProducts.flatMap(({ items }) => items)
+            .find((item) => item.marker === marker);
 
           if (foundItem) {
-            let priceGRN = isChecked ? parseFloat(foundItem.priceGRNOpt) : parseFloat(foundItem.priceGRN);
-            let priceUSDT = (priceGRN / USDTRate).toFixed(2);
+            const priceGRN = isChecked ? parseFloat(foundItem.priceGRNOpt) : parseFloat(foundItem.priceGRN);
+            const priceUSDT = (priceGRN / USDTRate).toFixed(2);
 
             textToCopy += `Маркер: ${marker};\nКількість: ${quantityItem}; Ціна: ${priceGRN} грн. / ${priceUSDT} USDT;\n\n`;
-
-            totalQuantity += quantityItem; // Считаем общее количество товаров
+            totalQuantity += quantityItem;
           }
         });
 
-        // Считаем общую сумму заказа
-        let totalAmountGRN = basketArray.reduce((sum, { marker, quantityItem, isChecked }) => {
-          const foundItem = arrayOfProducts.flatMap(({ items }) => items).find((item) => item.marker === marker);
+        const totalAmountGRN = basketArray.reduce((sum, { marker, quantityItem, isChecked }) => {
+          const foundItem = arrayOfProducts.flatMap(({ items }) => items)
+            .find((item) => item.marker === marker);
           if (!foundItem) return sum;
-
-          let priceGRN = isChecked ? parseFloat(foundItem.priceGRNOpt) : parseFloat(foundItem.priceGRN);
+          const priceGRN = isChecked ? parseFloat(foundItem.priceGRNOpt) : parseFloat(foundItem.priceGRN);
           return sum + priceGRN * quantityItem;
         }, 0);
 
-        let totalAmountUSDT = (totalAmountGRN / USDTRate).toFixed(2);
+        const totalAmountUSDT = (totalAmountGRN / USDTRate).toFixed(2);
 
-        // Добавляем итоговое количество и сумму заказа
         textToCopy += `Загальна сума замовлення: ${totalAmountGRN.toFixed(2)} грн. / ${totalAmountUSDT} USDT.`;
 
-        // Копируем текст в буфер обмена
+        // ➕ Додаємо особистий ключ, лише якщо є у localStorage
+        const storedKey = (localStorage.getItem(CRASORIA_KEY) || '').trim();
+        if (storedKey) {
+          // перші 3 символи у верхній регістр (як ти просила раніше)
+          const formattedKey = storedKey.slice(0,3).toUpperCase() + storedKey.slice(3);
+          textToCopy += `\n\nОсобистий ключ: ${formattedKey}.`;
+        }
+
+        // копіюємо
         const textarea = document.createElement("textarea");
         textarea.value = textToCopy;
         document.body.appendChild(textarea);
@@ -988,4 +986,79 @@ document.addEventListener("DOMContentLoaded", () => {
   totalItemsAmount();
   restoreButtonCopy();
   restoreIcons();
+});
+
+// Ключ Crasoria
+
+const inputBasketKey = document.querySelector('.js-input-basket--key-search');
+const CRASORIA_KEY = 'crasoria-personal-key';
+const buttonCopy = document.querySelector(".js-button__copy");
+
+// Проверка ключа в массиве
+function validateKey(key) {
+  const found = crasoriaKeys.some(
+    (item) => item.personal_key.toUpperCase() === key.toUpperCase()
+  );
+
+  if (found) {
+    // Если ключ найден — кнопка активна
+    buttonCopy.removeAttribute('disabled');
+    buttonCopy.classList.remove('is-disabled');
+  } else {
+    // Если ключ не найден — кнопка неактивна
+    buttonCopy.setAttribute('disabled', true);
+    buttonCopy.classList.add('is-disabled');
+  }
+}
+
+// Проверка при загрузке страницы
+const savedKey = localStorage.getItem(CRASORIA_KEY);
+
+if (savedKey && inputBasketKey) {
+  inputBasketKey.value = savedKey;
+  validateKey(savedKey);
+} else {
+  // Если ключа в localStorage нет — кнопка активна
+  buttonCopy.removeAttribute('disabled');
+  buttonCopy.classList.remove('is-disabled');
+}
+
+// Обработка ввода
+inputBasketKey?.addEventListener('input', (e) => {
+  let value = e.target.value.toUpperCase();
+
+  // Разрешаем только латинские буквы и цифры
+  value = value.replace(/[^A-Z0-9]/g, '');
+
+  // Первые 3 символа — только буквы
+  const letters = value.match(/^[A-Z]{0,3}/)?.[0] || '';
+  const numbers = value.slice(letters.length).replace(/\D/g, '').slice(0, 3);
+
+  // Разрешаем цифры только после 3 букв
+  let finalValue = letters;
+  if (letters.length === 3) {
+    finalValue += numbers;
+  }
+
+  e.target.value = finalValue;
+
+  // Сохраняем или удаляем значение в localStorage
+  if (finalValue) {
+    localStorage.setItem(CRASORIA_KEY, finalValue);
+  } else {
+    localStorage.removeItem(CRASORIA_KEY);
+    // Если поле очищено — кнопка снова активна
+    buttonCopy.removeAttribute('disabled');
+    buttonCopy.classList.remove('is-disabled');
+    return;
+  }
+
+  // Проверяем наличие ключа только если введено 6 символов
+  if (finalValue.length === 6) {
+    validateKey(finalValue);
+  } else {
+    // Если не полный ввод — кнопка неактивна
+    buttonCopy.setAttribute('disabled', true);
+    buttonCopy.classList.add('is-disabled');
+  }
 });

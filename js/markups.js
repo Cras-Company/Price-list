@@ -462,7 +462,7 @@ export function createBasketListItemsMarkup(items) {
 export function createCrasoriaKeyMarkup(items) {    
 
     return items.map(({  personal_key, status, number_of_referrals,
-                        discount, wallet_balance, total_amount, parent_key
+                        discount, wallet_balance, total_amount, order_date, parent_key
                     }) => {
 
         const formattedKey =
@@ -500,6 +500,11 @@ export function createCrasoriaKeyMarkup(items) {
                            <div class="cras-item__element cras-item__element--left">
                                 <p class="cras-item__title cras-mobile-font cras-item__name--margin">Баланс команди:</p>
                                 <p class="cras-item__text cras-item__text--margin cras-mobile-font">${total_amount};</p>
+                            </div>
+
+                            <div class="cras-item__element cras-item__element--left">
+                                <p class="cras-item__title cras-mobile-font cras-item__name--margin">Останне замовлення:</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${order_date};</p>
                             </div>
 
                             <div class="cras-item__element cras-item__element--left">

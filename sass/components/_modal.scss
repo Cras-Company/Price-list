@@ -251,7 +251,7 @@ body.modal-open {
   transition: transform 250ms linear 50ms;
 
   padding-top: 35px;
-  padding-bottom: 115px;
+  padding-bottom: 130px;
   padding-left: 15px;
   padding-right: 5px;
 
@@ -269,17 +269,12 @@ body.modal-open {
 
   @media screen and (min-width: 1024px) {
     width: 70vw;
-
-    padding-bottom: 125px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 60vw;
   }
-  
-  @media screen and (min-width: 1440px) {
-    padding-bottom: 130px;
-  }
+
 }
 
 .modal-open .modal--register,
@@ -303,7 +298,7 @@ body.modal-open {
 
 .crasoria-item {
     margin-top: 15px;
-    height: 33vh;
+    height: 40vh;
     overflow: auto;
   }
 
