@@ -385,18 +385,13 @@ img {
 }
 
 .hero-img {
+  display: block;
   width: 100%;
   height: auto;
-}
-@media (max-width: 767px) {
-  .hero-img {
-    content: url("../images/hero/hero-img-mobile_1.jpg");
-  }
-}
-@media (max-width: 767px) {
-  .hero-img--crasoria {
-    content: url("../images/hero/hero-img-mobile-crasoria_1.jpg");
-  }
+  /* Если не уверена в width/height выше — можно подстраховаться: */
+  aspect-ratio: 1898/750; /* подставь реальное соотношение сторон desktop */
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .cras-list {

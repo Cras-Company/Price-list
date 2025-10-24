@@ -37,22 +37,12 @@
 }
 
 .hero-img {
+  display: block;
   width: 100%;
   height: auto;
-
-  @media (max-width: 767px) {
-    content: url('../images/hero/hero-img-mobile_1.jpg');
-  }
-
-  &--crasoria {
-    @media (max-width: 767px) {
-    content: url('../images/hero/hero-img-mobile-crasoria_1.jpg');
-  }
-  }
-
-  // @media (min-width: 1024px) {
-  //   content: url('../images/hero/hero-img.jpg');
-  // }
+  /* Если не уверена в width/height выше — можно подстраховаться: */
+  aspect-ratio: 1898 / 750; /* подставь реальное соотношение сторон desktop */
+  object-fit: cover;
 }
 
 // @media screen and (min-width: 320px) and (max-width: 767px) {

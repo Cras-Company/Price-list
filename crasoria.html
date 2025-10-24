@@ -8,6 +8,23 @@
     <meta name="description" content="Crasoria (Красорія) — партнерський мережевий MLM-проєкт компанії Cras (Крас), де кожен покупець може отримати додатковий дохід, запрошуючи нових клієнтів і розвиваючи власну команду.">
     <title>Проект &#171;Crasoria&#187;</title>
 
+    <!-- Desktop -->
+    <link rel="preload" as="image"
+        href="/images/hero/hero-img-main-crasoria_1.webp"
+        imagesrcset="/images/hero/hero-img-main-crasoria_1.webp 1898w"
+        imagesizes="100vw"
+        media="(min-width: 768px)"
+        fetchpriority="high">
+
+    <!-- Mobile -->
+    <link rel="preload" as="image"
+        href="/images/hero/hero-img-mobile-crasoria_1.webp"
+        imagesrcset="/images/hero/hero-img-mobile-crasoria_1.webp 926w"
+        imagesizes="100vw"
+        media="(max-width: 767px)"
+        fetchpriority="high">
+
+
     <meta http-equiv="Cache-Control" content="public, max-age=86400">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -382,21 +399,41 @@
     <main>
 
         <section class="section-hero section-hero--padding">
-
             <div class="hero-index">
+                
+                <picture>
+                <!-- Desktop -->
+                <source media="(min-width: 768px)" type="image/webp"
+                        srcset="/images/hero/hero-img-main-crasoria_1.webp">
+                <source media="(min-width: 768px)"
+                        srcset="/images/hero/hero-img-main-crasoria_1.jpg">
 
-                <img class="hero-img hero-img--crasoria" src="./images/hero/hero-img-main-crasoria_1.jpg" alt="hero-img-main-crasoria"
-                    width="1023" height="538">
+                <!-- Mobile -->
+                <source media="(max-width: 767px)" type="image/webp"
+                        srcset="/images/hero/hero-img-mobile-crasoria_1.webp">
+                <source media="(max-width: 767px)"
+                        srcset="/images/hero/hero-img-mobile-crasoria_1.jpg">
+
+                <!-- Fallback + ключевые атрибуты для LCP/CLS -->
+                <img class="hero-img"
+                    src="/images/hero/hero-img-main-crasoria_1.jpg"
+                    alt="CRAS — Crasoria: створи команду та отримуй власний прибуток"
+                    width="1898" height="750"
+                    decoding="async"
+                    fetchpriority="high"
+                    loading="eager">
+                </picture>
 
                 <h1 class="title title--crasoria-text">
-                    Проект<br>
-                    &#171Crasoria&#187 -<br>
-                    Створи команду<br>
-                    та отримуй<br>
-                    власний прибуток!
+                Проект<br>
+                &#171;Crasoria&#187; —<br>
+                Створи команду<br>
+                та отримуй<br>
+                власний прибуток!
                 </h1>
             </div>
         </section>
+
     
         <div class="container section licence unselectable">
     
