@@ -1,6 +1,6 @@
 export const shopLotsHerring = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/herring/marinero_sledz_w_oleju_roslinnym_170.jpg",
@@ -18,7 +18,7 @@ export const shopLotsHerring = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 65,
+        priceGRN: "--",
         priceGRNOpt: 59,
         description01: "Соковите філе оселедця &#171Marinero - Filety Śledziowe W Oleju Roślinnym&#187 у рослинній олії — ідеальне поєднання смаку та користі для Вашого столу!",
         description02: "Виготовлене зі свіжої риби, воно зберігає природну ніжність текстури та насичений аромат.",

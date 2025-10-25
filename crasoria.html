@@ -8,21 +8,20 @@
     <meta name="description" content="Crasoria (Красорія) — партнерський мережевий MLM-проєкт компанії Cras (Крас), де кожен покупець може отримати додатковий дохід, запрошуючи нових клієнтів і розвиваючи власну команду.">
     <title>Проект &#171;Crasoria&#187;</title>
 
-    <!-- Desktop -->
-    <link rel="preload" as="image"
-        href="/images/hero/hero-img-main-crasoria_1.webp"
-        imagesrcset="/images/hero/hero-img-main-crasoria_1.webp 1898w"
-        imagesizes="100vw"
-        media="(min-width: 768px)"
-        fetchpriority="high">
-
-    <!-- Mobile -->
-    <link rel="preload" as="image"
-        href="/images/hero/hero-img-mobile-crasoria_1.webp"
-        imagesrcset="/images/hero/hero-img-mobile-crasoria_1.webp 926w"
-        imagesizes="100vw"
-        media="(max-width: 767px)"
-        fetchpriority="high">
+    <script>
+        (function () {
+            var m = window.matchMedia('(max-width: 767px)').matches;
+            var link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'image';
+            link.href = m
+            ? '/images/hero/hero-img-mobile-crasoria_1.webp'
+            : '/images/hero/hero-img-main-crasoria_1.webp';
+            link.type = 'image/webp';
+            link.fetchPriority = 'high';
+            document.head.appendChild(link);
+        })();
+    </script>
 
 
     <meta http-equiv="Cache-Control" content="public, max-age=86400">
@@ -434,7 +433,6 @@
             </div>
         </section>
 
-    
         <div class="container section licence unselectable">
     
             <h2>Вступ</h2>

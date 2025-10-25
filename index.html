@@ -9,19 +9,22 @@
         content="Компанія Крас пропонує купити якісні товари з Європи за приємними цінами. Широкий асортимент і швидка доставка.">
     <title>Компанія &#171;Cras&#187;</title>
 
-    <link rel="preload" as="image"
-      href="/images/hero/hero-img-main_1.webp"
-      imagesrcset="/images/hero/hero-img-main_1.webp 1280w"
-      imagesizes="100vw"
-      media="(min-width: 768px)"
-      fetchpriority="high">
-
-    <link rel="preload" as="image"
-        href="/images/hero/hero-img-mobile_1.webp"
-        imagesrcset="/images/hero/hero-img-mobile_1.webp 767w"
-        imagesizes="100vw"
-        media="(max-width: 767px)"
-        fetchpriority="high">
+    <!-- Предзагрузка hero-изображений -->
+    <script>
+        (function () {
+            var m = window.matchMedia('(max-width: 767px)').matches;
+            var link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'image';
+            link.href = m
+            ? '/images/hero/hero-img-mobile_1.webp'
+            : '/images/hero/hero-img-main_1.webp';
+            link.type = 'image/webp';
+            // В Chrome свойство — с маленькой буквы:
+            link.fetchPriority = 'high';
+            document.head.appendChild(link);
+        })();
+    </script>
 
     <meta http-equiv="Cache-Control" content="public, max-age=86400">
 
@@ -69,7 +72,6 @@
     </script>
     <!-- Конец кода Pixel от TikTok -->
     
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-48VFQ6KDMV"></script>
     
