@@ -1255,7 +1255,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Довірте миття посуду &#171Tandil - Eco Sensitive&#187 і насолоджуйтеся комфортом після кожного використання!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_apfel_415.jpg",
@@ -1273,8 +1273,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "415 мл.",
-        priceGRN: 56,
-        priceGRNOpt: 50,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Відчуйте справжню свіжість з засобом для миття посуду &#171Vir - Spülmittel Apfel&#187. Цей продукт подарує Вашій кухні неповторний аромат яблука.",
         description02: "Ефективно видаляє жир і бруд, залишаючи посуд чистим і блискучим. Його ніжний яблучний аромат створює приємну атмосферу під час миття посуду.",
         description03: "&#171Vir - Spülmittel Apfel&#187 не тільки забезпечує ідеальну чистоту, але й дарує відчуття свіжості кожного разу, коли Ви миєте посуд. Ваші тарілки, склянки та столові прибори будуть сяяти чистотою.",
@@ -1282,7 +1282,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Vir - Spülmittel Apfel&#187 вже сьогодні і перетворіть миття посуду на справжнє задоволення!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_flieder_415.jpg",
@@ -1301,7 +1301,7 @@ export const shopLotsMeansHandsWashingDishes = [
         volumeName: "Об'єм",
         volume: "415 мл.",
         priceGRN: 56,
-        priceGRNOpt: 50,
+        quantityOnStorage: 4,
         description01: "Внесіть весняну свіжість у вашу кухню з засобом для миття посуду &#171Vir - Spülmittel Flieder&#187. Цей продукт дарує посуду ніжний аромат бузку.",
         description02: "Ефективно видаляє жир і бруд, забезпечуючи блискучу чистоту вашого посуду. Його унікальний аромат бузку наповнює кухню приємною свіжістю.",
         description03: "&#171Vir - Spülmittel Flieder&#187 забезпечує не тільки бездоганну чистоту, але й приносить задоволення від миття посуду завдяки своєму легкому, квітковому аромату. Ваша кухня стане затишним місцем з ароматом весни.",
@@ -1309,7 +1309,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Замовляйте &#171Vir - Spülmittel Flieder&#187 вже сьогодні і насолоджуйтеся миттям посуду з ароматом бузку!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_zitrone_415.jpg",
@@ -1327,8 +1327,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "415 мл.",
-        priceGRN: 56,
-        priceGRNOpt: 50,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Новий засіб для миття посуду з ароматом лимону &#171Vir - Spülmittel Zitrone&#187 забезпечить Вашій кухні неперевершену чистоту та свіжість.",
         description02: "Завдяки своїй потужній формулі, цей засіб легко видаляє навіть найстійкіші жири та забруднення, залишаючи посуд бездоганно чистим.",
         description03: "Соковитий лимонний аромат &#171Vir - Spülmittel Zitrone&#187 дарує відчуття свіжості та чистоти, роблячи миття посуду приємним ритуалом.",

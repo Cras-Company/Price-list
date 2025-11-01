@@ -494,12 +494,12 @@ export function createCrasoriaKeyMarkup(items) {
 
                            <div class="cras-item__element cras-item__element--left">
                                 <p class="cras-item__title cras-mobile-font cras-item__name--margin">Гаманець:</p>
-                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${wallet_balance};</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${wallet_balance} грн.;</p>
                             </div>
 
                            <div class="cras-item__element cras-item__element--left">
                                 <p class="cras-item__title cras-mobile-font cras-item__name--margin">Баланс команди:</p>
-                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${total_amount};</p>
+                                <p class="cras-item__text cras-item__text--margin cras-mobile-font">${total_amount} грн.;</p>
                             </div>
 
                             <div class="cras-item__element cras-item__element--left">
