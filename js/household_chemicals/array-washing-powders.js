@@ -1108,7 +1108,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Vollwaschmittel Konzentriertes&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу."
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_color_40.jpg",
@@ -1126,7 +1126,7 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "2.4 кг.",
-        priceGRN: 221,
+        priceGRN: "--",
         priceGRNOpt: 188,
         description01: "&#171Onyx - Color&#187 відзначається не лише своєю унікальною формулою, але й застосуванням передових технологій для довершеності кольору вашого одягу. Він буде сяяти насиченими відтінками навіть після численних прань.",
         description02: "Завдяки активним ферментам, засіб здатний захистити кольори вашого одягу, навіть при пранні у холодній воді. Він глибоко проникає в тканини, зберігаючи інтенсивність кольорів, як після першого використання.",
