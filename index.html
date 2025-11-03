@@ -17,10 +17,9 @@
             link.rel = 'preload';
             link.as = 'image';
             link.href = m
-            ? '/images/hero/hero-img-mobile_1.webp'
-            : '/images/hero/hero-img-main_1.webp';
+            ? '/images/hero/hero-img-mobile-crasoria_1.webp'
+            : '/images/hero/hero-img-main-crasoria_1.webp';
             link.type = 'image/webp';
-            // В Chrome свойство — с маленькой буквы:
             link.fetchPriority = 'high';
             document.head.appendChild(link);
         })();
@@ -2468,38 +2467,37 @@
 
         <!-- Hero -->
         <section class="section-hero section-hero--padding">
-
             <div class="hero-index">
-
+                
                 <picture>
                 <!-- Desktop -->
                 <source media="(min-width: 768px)" type="image/webp"
-                        srcset="/images/hero/hero-img-main_1.webp">
+                        srcset="/images/hero/hero-img-main-crasoria_1.webp">
                 <source media="(min-width: 768px)"
-                        srcset="/images/hero/hero-img-main_1.jpg">
+                        srcset="/images/hero/hero-img-main-crasoria_1.jpg">
 
                 <!-- Mobile -->
                 <source media="(max-width: 767px)" type="image/webp"
-                        srcset="/images/hero/hero-img-mobile_1.webp">
+                        srcset="/images/hero/hero-img-mobile-crasoria_1.webp">
                 <source media="(max-width: 767px)"
-                        srcset="/images/hero/hero-img-mobile_1.jpg">
+                        srcset="/images/hero/hero-img-mobile-crasoria_1.jpg">
 
-                <!-- Fallback + атрибуты для LCP -->
+                <!-- Fallback + ключевые атрибуты для LCP/CLS -->
                 <img class="hero-img"
-                    src="/images/hero/hero-img-main_1.jpg"
-                    alt="Головний банер CRAS — рік разом, знижки"
+                    src="/images/hero/hero-img-main-crasoria_1.jpg"
+                    alt="CRAS — Crasoria: створи команду та отримуй власний прибуток"
                     width="1898" height="750"
                     decoding="async"
                     fetchpriority="high"
                     loading="eager">
                 </picture>
 
-                <h1 class="title title--happy">
-                Нам 1 рік!<br>
-                Св'яткуймо разом!<br>
-                <span style="color: var(--hero-text-color);">10%</span> знижки<br>
-                у магазині<br>
-                або на сайті!
+                <h1 class="title title--crasoria-text">
+                Проект<br>
+                &#171;Crasoria&#187; —<br>
+                Створи команду<br>
+                та отримуй<br>
+                власний прибуток!
                 </h1>
             </div>
         </section>
