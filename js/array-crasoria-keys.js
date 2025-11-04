@@ -80,7 +80,7 @@ export const crasoriaKeys = [
         discount: "3 %",
         wallet_balance: 13,
         total_amount: 463,
-        order_date: "2025.11.01",
+        order_date: "2025.11.04",
         parent_key: "CRAS",
     },
     {
@@ -92,7 +92,7 @@ export const crasoriaKeys = [
         discount: "3 %",
         wallet_balance: 10,
         total_amount: 361,
-        order_date: "2025.11.01",
+        order_date: "2025.11.04",
         parent_key: "CRAS",
     },
     {
@@ -104,7 +104,19 @@ export const crasoriaKeys = [
         discount: "3 %",
         wallet_balance: 8,
         total_amount: 288,
-        order_date: "2025.11.01",
+        order_date: "2025.11.04",
+        parent_key: "CRAS",
+    },
+    {
+        personal_key: "TET199",
+        status: "БРОНЗА",
+        name: "Татьяна",
+        tel:"+380684160393",
+        number_of_referrals: 0,
+        discount: "3 %",
+        wallet_balance: 41,
+        total_amount: 1394,
+        order_date: "2025.11.04",
         parent_key: "CRAS",
     },
 ]
