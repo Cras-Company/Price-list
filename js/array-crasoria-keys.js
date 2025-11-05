@@ -1,5 +1,6 @@
 export const crasoriaKeys = [
     {
+        number: "00001",
         personal_key: "MEL861",
         status: "СРІБЛО",
         name: "Таран Ірина Василівна",
@@ -12,6 +13,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00002",
         personal_key: "CUM150",
         status: "БРОНЗА",
         name: "Єврій Йосип Йосипович",
@@ -24,6 +26,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00003",
         personal_key: "VIK195",
         status: "БРОНЗА",
         name: "Єврій Вікторія Володимирівна",
@@ -36,6 +39,7 @@ export const crasoriaKeys = [
         parent_key: "CUM150",
     },
     {
+        number: "00004",
         personal_key: "SDI333",
         status: "БРОНЗА",
         name: "Блондинка Шантеклер",
@@ -48,6 +52,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00005",
         personal_key: "NQP482",
         status: "БРОНЗА",
         name: "2 подружки",
@@ -60,6 +65,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00006",
         personal_key: "NPQ482",
         status: "БРОНЗА",
         name: "2 подружки",
@@ -72,6 +78,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00007",
         personal_key: "SVR903",
         status: "БРОНЗА",
         name: "Діана",
@@ -84,6 +91,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00008",
         personal_key: "YUL888",
         status: "БРОНЗА",
         name: "Юлия",
@@ -96,6 +104,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00009",
         personal_key: "SEV124",
         status: "БРОНЗА",
         name: "Євгенія",
@@ -108,6 +117,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00010",
         personal_key: "TET199",
         status: "БРОНЗА",
         name: "Татьяна",
@@ -120,6 +130,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00011",
         personal_key: "NVV123",
         status: "БРОНЗА",
         name: "Наталья",
@@ -132,6 +143,7 @@ export const crasoriaKeys = [
         parent_key: "CRAS",
     },
     {
+        number: "00012",
         personal_key: "WQM478",
         status: "БРОНЗА",
         name: "Анастасія",
@@ -140,6 +152,19 @@ export const crasoriaKeys = [
         discount: "3 %",
         wallet_balance: 0,
         total_amount: 404,
+        order_date: "2025.11.05",
+        parent_key: "CRAS",
+    },
+    {
+        number: "00013",
+        personal_key: "HBN653",
+        status: "БРОНЗА",
+        name: "Крістіна",
+        tel:"+380505109210",
+        number_of_referrals: 0,
+        discount: "3 %",
+        wallet_balance: 0,
+        total_amount: 449,
         order_date: "2025.11.05",
         parent_key: "CRAS",
     },
