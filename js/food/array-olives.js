@@ -237,7 +237,7 @@ export const shopLotsOlives = [
         description05: "Замовте зараз &#171Helcom - Oliwki Zielone Drylowane&#187 і насолоджуйтесь ідеальним поєднанням смаку та користі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/helcom_oliwki_czarne_935.jpg",
@@ -257,7 +257,7 @@ export const shopLotsOlives = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "935 гр.",
-        priceGRN: 218,
+        priceGRN: "--",
         priceGRNOpt: 186,
         description01: "Відкрийте для себе вишуканий смак чорних оливок без кісточок &#171Helcom - Oliwki Czarne Drylowane&#187, які стануть справжньою окрасою Вашого столу.",
         description02: "Ці оливки вирізняються своєю м'якою текстурою та насиченим ароматом, що робить їх ідеальними для різноманітних кулінарних шедеврів.",
