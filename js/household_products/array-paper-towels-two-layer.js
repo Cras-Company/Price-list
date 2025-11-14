@@ -2,12 +2,12 @@ export const shopLotsPaperTowelsTwoLayer = [
   {
     type: "wholesale оптом",
     mainCategory: "household-products",
-    subcategory: "paper-towels",  
-    url: "./images/shop/household_products/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500.jpg",
+    subcategory: "towels",  
+    url: "./images/shop/household_products/towels/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500.jpg",
     alt: "perfex_deluxe_towel_2_500",
-    url1: "./images/shop/household_products/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500-01.jpg",
+    url1: "./images/shop/household_products/towels/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500-01.jpg",
     alt1: "perfex_deluxe_towel_2_500-01",
-    url2: "./images/shop/household_products/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500-02.jpg",
+    url2: "./images/shop/household_products/towels/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500-02.jpg",
     alt2: "perfex_deluxe_towel_2_500-02",
     marker: "PTTW550",
     brand: "Perfex",
@@ -23,7 +23,7 @@ export const shopLotsPaperTowelsTwoLayer = [
     description01: "&#171Perfex - Deluxe Towel Multi-Purpose Cleaning&#187 — двошарові паперові рушники з 100% целюлози для універсального прибирання.",
     description02: "Вони відзначаються високою міцністю та чудово вбирають вологу, допомагаючи швидко впоратися з будь-яким завданням.",
     description03: "М’яка текстура та зручний формат роблять &#171Perfex - Deluxe Towel Multi-Purpose Cleaning&#187 незамінними на кухні та у домі.",
-    description04: "<strong>Рушники паперові. 100% целюлоза. Два шари. 500 відривів. </strong>",
+    description04: "<strong>Рушники паперові. 100% целюлоза. Два шари. 500 відривів.</strong>",
     description05: "Скористайтесь &#171Perfex - Deluxe Towel Multi-Purpose Cleaning&#187 для чистоти та порядку щодня!"
   },
 ]

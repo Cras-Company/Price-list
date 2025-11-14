@@ -132,9 +132,15 @@ import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
 
 // Хозяйственные товары
+import { shopLotsDishSponges } from "./household_products/array-dish-sponges.js";
+import { shopLotsCleaningSponges } from "./household_products/array-cleaning-sponges.js";
+import { shopLotsUniversalSponges } from "./household_products/array-universal-sponges.js";
+
 import { shopLotsCleaningWetWipes } from "./household_products/array-cleaning-wet-wipes.js";
+
 import { shopLotsPaperTowelsTwoLayer } from "./household_products/array-paper-towels-two-layer.js";
 import { shopLotsPaperTowelsThreeLayer } from "./household_products/array-paper-towels-three-layer.js";
+import { shopLotsUniversalTowels } from "./household_products/array-universal-towels.js";
 // ===========================================================================
 // Создание разметки
 // ===========================================================================
@@ -256,9 +262,15 @@ const shopListAntiSmells = document.querySelector(".js-cras__list--anti-smells")
 const shopListBathBombs = document.querySelector(".js-cras__list--bath-bombs");
 
 // Хозяйственные товары
+const shopListDishSponges = document.querySelector(".js-cras__list--dish-sponges");
+const shopListCleaningSponges = document.querySelector(".js-cras__list--cleaning-sponges");
+const shopListUniversalSponges = document.querySelector(".js-cras__list--universal-sponges");
+
 const shopListCleaningWetWipes = document.querySelector(".js-cras__list--cleaning-wet-wipes");
+
 const shopListPaperTowelsTwoLayer = document.querySelector(".js-cras__list--paper-towels-two-layer");
 const shopListPaperTowelsThreeLayer = document.querySelector(".js-cras__list--paper-towels-three-layer");
+const shopListUniversalTowels = document.querySelector(".js-cras__list--universal-towels");
 // ===========================================================================
 // Секции и блоки
 // ===========================================================================
@@ -427,14 +439,21 @@ const BlockFabricFresheners = document.querySelector(".js-block-fabric-freshener
 const BlockAntiSmells = document.querySelector(".js-block-anti-smells");
 const BlockBathBombs = document.querySelector(".js-block-bath-bombs");
 
+// Губки
+const SectionAllSponges = document.querySelector(".js-section-all-sponges");
+const BlockDishSponges = document.querySelector(".js-block-dish-sponges");
+const BlockCleaningSponges = document.querySelector(".js-block-cleaning-sponges");
+const BlockUniversalSponges = document.querySelector(".js-block-universal-sponges");
+
 // Влажные салфетки
 const SectionAllCleaningWipes = document.querySelector(".js-section-all-cleaning-wipes");
 const BlockCleaningWetWipes = document.querySelector(".js-block-cleaning-wet-wipes");
 
-// Бумажные полотенца
-const SectionAllPaperTowels = document.querySelector(".js-section-all-paper-towels");
+// Полотенца
+const SectionAllTowels = document.querySelector(".js-section-all-towels");
 const BlockPaperTowelsTwoLayer = document.querySelector(".js-block-paper-towels-two-layer");
 const BlockPaperTowelsThreeLayer = document.querySelector(".js-block-paper-towels-three-layer");
+const BlockUniversalTowels = document.querySelector(".js-block-universal-towels");
 
 // Скрыть секцию
 const JSSectionOne = document.querySelectorAll(".js-section-none");
@@ -514,9 +533,14 @@ export const arrayOfProducts = [
 
   { element: shopListTPThreeLayer, items: shopLotsTPThreeLayer, block: BlockTPThreeLayer, dataTarget: "tp-three-layer" },
 
+  { element: shopListDishSponges, items: shopLotsDishSponges, block: BlockDishSponges, dataTarget: "dish-sponges" },
+  { element: shopListCleaningSponges, items: shopLotsCleaningSponges, block: BlockCleaningSponges, dataTarget: "cleaning-sponges" },
+  { element: shopListUniversalSponges, items: shopLotsUniversalSponges, block: BlockUniversalSponges, dataTarget: "universal-sponges" },
+
   { element: shopListCleaningWetWipes, items: shopLotsCleaningWetWipes, block: BlockCleaningWetWipes, dataTarget: "cleaning-wet-wipes" },
   { element: shopListPaperTowelsTwoLayer, items: shopLotsPaperTowelsTwoLayer, block: BlockPaperTowelsTwoLayer, dataTarget: "paper-towels-two-layer" },
   { element: shopListPaperTowelsThreeLayer, items: shopLotsPaperTowelsThreeLayer, block: BlockPaperTowelsThreeLayer, dataTarget: "paper-towels-three-layer" },
+  { element: shopListUniversalTowels, items: shopLotsUniversalTowels, block: BlockUniversalTowels, dataTarget: "universal-towels" },
 
   { element: shopListNoodles, items: shopLotsNoodles, block: BlockNoodles, dataTarget: "noodles" },
   { element: shopListMacaroni, items: shopLotsMacaroni, block: BlockMacaroni, dataTarget: "macaroni" },
@@ -728,9 +752,15 @@ function handleFormSubmit(event) {
   const filteredAntiSmells = universalSearch(shopLotsAntiSmells, searchItem);
   const filteredBathBombs = universalSearch(shopLotsBathBombs, searchItem);
 
+  const filteredDishSponges = universalSearch(shopLotsDishSponges, searchItem);
+  const filteredCleaningSponges = universalSearch(shopLotsCleaningSponges, searchItem);
+  const filteredUniversalSponges = universalSearch(shopLotsUniversalSponges, searchItem);
+
   const filteredCleaningWetWipes = universalSearch(shopLotsCleaningWetWipes, searchItem);
+
   const filteredPaperTowelsTwoLayer = universalSearch(shopLotsPaperTowelsTwoLayer, searchItem);
   const filteredPaperTowelsThreeLayer = universalSearch(shopLotsPaperTowelsTwoLayer, searchItem);
+  const filteredUniversalTowels = universalSearch(shopLotsUniversalTowels, searchItem);
 
   const allFilteredItems = [
 
@@ -846,9 +876,15 @@ function handleFormSubmit(event) {
     ...filteredAntiSmells,
     ...filteredBathBombs,
 
+    ...filteredDishSponges,
+    ...filteredCleaningSponges,
+    ...filteredUniversalSponges,
+
     ...filteredCleaningWetWipes,
+
     ...filteredPaperTowelsTwoLayer,
     ...filteredPaperTowelsThreeLayer,
+    ...filteredUniversalTowels,
   ];
 
   if (allFilteredItems.length === 0) {
@@ -858,6 +894,7 @@ function handleFormSubmit(event) {
         JSSectionOne.forEach((section) => {
           section.style.display = "none";
         });
+        jumpOnMainPage();
         return;
     } else {
         outputError.textContent = "";
@@ -1158,6 +1195,16 @@ function handleFormSubmit(event) {
     SectionAllSmells.style.display = "none";
   }
 
+  if (filteredDishSponges.length > 0 ||
+      filteredCleaningSponges.length > 0 ||
+      filteredUniversalSponges.length > 0 ) {
+    shopListDishSponges.innerHTML = createMobileListItemsMarkup(filteredDishSponges);
+    shopListCleaningSponges.innerHTML = createMobileListItemsMarkup(filteredCleaningSponges);
+    shopListUniversalSponges.innerHTML = createMobileListItemsMarkup(filteredUniversalSponges);
+  } else {
+    SectionAllSponges.style.display = "none";
+  }
+
   if (filteredCleaningWetWipes.length > 0) {
     shopListCleaningWetWipes.innerHTML = createMobileListItemsMarkup(filteredCleaningWetWipes);
   } else {
@@ -1165,11 +1212,13 @@ function handleFormSubmit(event) {
   }
 
   if (filteredPaperTowelsTwoLayer.length > 0 ||
-    filteredPaperTowelsThreeLayer.length > 0 ) {
+    filteredPaperTowelsThreeLayer.length > 0 ||
+    filteredUniversalTowels.length > 0 ) {
     shopListPaperTowelsTwoLayer.innerHTML = createMobileListItemsMarkup(filteredPaperTowelsTwoLayer);
     shopListPaperTowelsThreeLayer.innerHTML = createMobileListItemsMarkup(filteredPaperTowelsThreeLayer);
+    shopListUniversalTowels.innerHTML = createMobileListItemsMarkup(filteredUniversalTowels);
   } else {
-    SectionAllPaperTowels.style.display = "none";
+    SectionAllTowels.style.display = "none";
   }
   
   const shopblocks = [
@@ -1284,9 +1333,15 @@ function handleFormSubmit(event) {
     { element: shopListAntiSmells, items: filteredAntiSmells, block: BlockAntiSmells },
     { element: shopListBathBombs, items: filteredBathBombs, block: BlockBathBombs },
 
+    { element: shopListDishSponges, items: filteredDishSponges, block: BlockDishSponges },
+    { element: shopListCleaningSponges, items: filteredCleaningSponges, block: BlockCleaningSponges },
+    { element: shopListUniversalSponges, items: filteredUniversalSponges, block: BlockUniversalSponges },
+
     { element: shopListCleaningWetWipes, items: filteredCleaningWetWipes, block: BlockCleaningWetWipes },
+
     { element: shopListPaperTowelsTwoLayer, items: filteredPaperTowelsTwoLayer, block: BlockPaperTowelsTwoLayer },
     { element: shopListPaperTowelsThreeLayer, items: filteredPaperTowelsThreeLayer, block: BlockPaperTowelsThreeLayer },
+    { element: shopListUniversalTowels, items: filteredUniversalTowels, block: BlockUniversalTowels },
   ];
 
   if (searchItem === "") {

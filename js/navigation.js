@@ -229,7 +229,7 @@ function burgerHandleClickMainCategory(event, attribute, filterKey) {
 
   "cleaning-wipes",
 
-  "paper-towels",
+  "sponges", "towels",
 ].forEach(target => {
   const element = document.querySelector(`.js-modal__burger-subcategory[data-target="${target}"], .burger__secondary-item[data-target="${target}"]`);
   if (element) {

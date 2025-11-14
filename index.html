@@ -25,9 +25,9 @@
         })();
     </script>
 
-    <meta name="robots" content="noindex,follow">
     <meta http-equiv="Cache-Control" content="public, max-age=86400">
 
+    <link rel="canonical" href="https://www.cras.company/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./fonts.css">
@@ -1335,6 +1335,70 @@
                         <div class="modal__burger-item__main-case js-modal__burger-item__main-case">
     
                             <ul class="burger__main-list js-burger__main-list">
+
+                                <!-- Губки -->
+                                <li data-target="sponges" class="modal__burger-item js-modal__burger-subcategory">
+    
+                                    <div class="modal__burger-item_case modal__burger-item_case--flex">
+    
+                                        <button class="header__button burger__gear-button js-burger__main-gear-button"
+                                            type="button">
+    
+                                            <svg class="burger__icon-gear burger__icon-gear--sec-cat-size" width="25"
+                                                height="25">
+    
+                                                <use href="./images/icon/sprite.svg#gear-cras"></use>
+                                            </svg>
+                                        </button>
+    
+                                        <a class="modal__burger-link modal__burger-link--main" href="">
+    
+                                            <svg class="burger__icon burger__icon--sec-size js-burger__main-icon-close"
+                                                width="39" height="39">
+    
+                                                <use href="./images/icon/sprite.svg#sponges"></use>
+                                            </svg>
+    
+                                            <svg class="burger__icon burger__icon--sec-size burger__main-icon-open js-burger__main-icon-open"
+                                                width="39" height="39">
+    
+                                                <use href="./images/icon/sprite.svg#sponges-open"></use>
+                                            </svg>
+    
+                                            Губки
+                                        </a>
+                                    </div>
+    
+                                    <div class="modal__burger-item__secondary-case js-modal__burger-item__secondary-case">
+    
+                                        <ul class="burger__secondary-list burger__secondary-list--index-80 js-burger__secondary-list">
+    
+                                            <li class="burger__secondary-item" data-target="dish-sponges">
+    
+                                                <a href="">
+    
+                                                    Для посуду
+                                                </a>
+                                            </li>
+
+                                            <li class="burger__secondary-item" data-target="cleaning-sponges">
+    
+                                                <a href="">
+    
+                                                    Для прибирання
+                                                </a>
+                                            </li>
+
+                                            <li class="burger__secondary-item" data-target="universal-sponges">
+    
+                                                <a href="">
+    
+                                                    Універсальні
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
     
                                 <!-- Серветки для прибирання -->
                                 <li data-target="cleaning-wipes" class="modal__burger-item js-modal__burger-subcategory">
@@ -1371,8 +1435,7 @@
     
                                     <div class="modal__burger-item__secondary-case js-modal__burger-item__secondary-case">
     
-                                        <ul
-                                            class="burger__secondary-list burger__secondary-list--index-85 js-burger__secondary-list">
+                                        <ul class="burger__secondary-list burger__secondary-list--index-75 js-burger__secondary-list">
     
                                             <li class="burger__secondary-item" data-target="cleaning-wet-wipes">
     
@@ -1385,8 +1448,8 @@
                                     </div>
                                 </li>
     
-                                <!-- Паперові рушники -->
-                                <li data-target="paper-towels" class="modal__burger-item js-modal__burger-subcategory">
+                                <!-- Рушники -->
+                                <li data-target="towels" class="modal__burger-item js-modal__burger-subcategory">
     
                                     <div class="modal__burger-item_case modal__burger-item_case--flex">
     
@@ -1414,20 +1477,20 @@
                                                 <use href="./images/icon/sprite.svg#paper_towels-open"></use>
                                             </svg>
     
-                                            Паперові рушники
+                                            Рушники
                                         </a>
                                     </div>
     
                                     <div class="modal__burger-item__secondary-case js-modal__burger-item__secondary-case">
     
                                         <ul
-                                            class="burger__secondary-list js-burger__secondary-list burger__secondary-list--index-80">
+                                            class="burger__secondary-list js-burger__secondary-list burger__secondary-list--index-70">
     
                                             <li class="burger__secondary-item" data-target="paper-towels-two-layer">
     
                                                 <a href="">
     
-                                                    Двошарові
+                                                    Паперові двошарові
                                                 </a>
                                             </li>
     
@@ -1435,7 +1498,15 @@
     
                                                 <a href="">
     
-                                                    Тришарові
+                                                    Паперові тришарові
+                                                </a>
+                                            </li>
+
+                                            <li class="burger__secondary-item" data-target="universal-towels">
+    
+                                                <a href="">
+    
+                                                    Універсальні
                                                 </a>
                                             </li>
                                         </ul>
@@ -2970,6 +3041,34 @@
                 </div>
             </section>
 
+            <!-- Губки -->
+            <section class="container section section-shop js-section-none js-section-all-sponges">
+            
+                <h2 class="application-title">Губки</h2>
+            
+                <div class="js-block-dish-sponges">
+            
+                    <h3 class="secondary-application-title">Губки для посуду</h3>
+            
+                    <ul class="cras-list js-cras__list--dish-sponges"></ul>
+                </div>
+
+                <div class="js-block-cleaning-sponges">
+            
+                    <h3 class="secondary-application-title">Губки для прибирання</h3>
+            
+                    <ul class="cras-list js-cras__list--cleaning-sponges"></ul>
+                </div>
+
+                <div class="js-block-universal-sponges">
+            
+                    <h3 class="secondary-application-title">Універсальні губки</h3>
+            
+                    <ul class="cras-list js-cras__list--universal-sponges"></ul>
+                </div>
+            </section>
+
+            <!-- Салфетки для уборки -->
             <section class="container section section-shop js-section-none js-section-all-cleaning-wipes">
             
                 <h2 class="application-title">Серветки для прибирання</h2>
@@ -2982,25 +3081,34 @@
                 </div>
             </section>
 
-            <section class="container section section-shop js-section-none js-section-all-paper-towels">
+            <!-- Полотенца -->
+            <section class="container section section-shop js-section-none js-section-all-towels">
             
-                <h2 class="application-title">Паперові рушники</h2>
+                <h2 class="application-title">Рушники</h2>
             
                 <div class="js-block-paper-towels-two-layer">
             
-                    <h3 class="secondary-application-title">Двошарові</h3>
+                    <h3 class="secondary-application-title">Паперові двошарові</h3>
             
                     <ul class="cras-list js-cras__list--paper-towels-two-layer"></ul>
                 </div>
 
                 <div class="js-block-paper-towels-three-layer">
             
-                    <h3 class="secondary-application-title">Тришарові</h3>
+                    <h3 class="secondary-application-title">Паперові тришарові</h3>
             
                     <ul class="cras-list js-cras__list--paper-towels-three-layer"></ul>
                 </div>
+
+                <div class="js-block-universal-towels">
+            
+                    <h3 class="secondary-application-title">Універсальні рушники</h3>
+            
+                    <ul class="cras-list js-cras__list--universal-towels"></ul>
+                </div>
             </section>
             
+            <!-- Макаронные изделия -->
             <section class="container section section-shop js-section-none js-section-all-pasta">
             
                 <h2 class="application-title">Макаронні вироби</h2>
@@ -3034,6 +3142,7 @@
                 </div>
             </section>
             
+            <!-- Молочка -->
             <section class="container section section-shop js-section-none js-section-all-dairy">
             
                 <h2 class="application-title">Молочні вироби</h2>
@@ -3046,6 +3155,7 @@
                 </div>
             </section>
             
+            <!-- Консервация -->
             <section class="container section section-shop js-section-none js-section-all-canned-food">
             
                 <h2 class="application-title">Консервація</h2>
@@ -3100,6 +3210,7 @@
                 </div>
             </section>
             
+            <!-- Закуски -->
             <section class="container section section-shop js-section-none js-section-all-snacks">
             
                 <h2 class="application-title">Закуски</h2>
@@ -3133,6 +3244,7 @@
                 </div>
             </section>
             
+            <!-- Помазанки -->
             <section class="container section section-shop js-section-none js-section-all-bread-spreads">
             
                 <h2 class="application-title">Помазанки</h2>
@@ -3159,6 +3271,7 @@
                 </div>
             </section>
             
+            <!-- Сладости -->
             <section class="container section section-shop js-section-none js-section-all-sweets">
             
                 <h2 class="application-title">Солодощі</h2>
@@ -3185,6 +3298,7 @@
                 </div>
             </section>
             
+            <!-- Напитки -->
             <section class="container section section-shop js-section-none js-section-all-drinks">
             
                 <h2 class="application-title">Напої</h2>
@@ -3232,6 +3346,7 @@
                 </div>
             </section>
             
+            <!-- Оливки и масло -->
             <section class="container section section-shop js-section-none js-section-all-olives-oil">
             
                 <h2 class="application-title">Оливки та олія</h2>
@@ -3258,6 +3373,7 @@
                 </div>
             </section>
             
+            <!-- Модификаторы вкуса -->
             <section class="container section section-shop js-section-none js-section-all-taste-modifiers">
             
                 <h2 class="application-title">Модифікатори смаку</h2>

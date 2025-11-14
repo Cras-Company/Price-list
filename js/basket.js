@@ -124,9 +124,15 @@ import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
 import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
 
 // Хозяйственные товары
+import { shopLotsDishSponges } from "./household_products/array-dish-sponges.js";
+import { shopLotsCleaningSponges } from "./household_products/array-cleaning-sponges.js";
+import { shopLotsUniversalSponges } from "./household_products/array-universal-sponges.js";
+
 import { shopLotsCleaningWetWipes } from "./household_products/array-cleaning-wet-wipes.js";
+
 import { shopLotsPaperTowelsTwoLayer } from "./household_products/array-paper-towels-two-layer.js";
 import { shopLotsPaperTowelsThreeLayer } from "./household_products/array-paper-towels-three-layer.js";
+import { shopLotsUniversalTowels } from "./household_products/array-universal-towels.js";
 
 const arrayOfProducts = [
   { items: shopLotsNewItems, },
@@ -236,9 +242,15 @@ const arrayOfProducts = [
   { items: shopLotsAntiSmells, },
   { items: shopLotsBathBombs, },
 
+  { items: shopLotsDishSponges, },
+  { items: shopLotsCleaningSponges, },
+  { items: shopLotsUniversalSponges, },
+
   { items: shopLotsCleaningWetWipes, },
+
   { items: shopLotsPaperTowelsTwoLayer, },
   { items: shopLotsPaperTowelsThreeLayer, },
+  { items: shopLotsUniversalTowels, },
 ];
 
 // ===========================================================================
