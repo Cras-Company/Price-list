@@ -1,6 +1,6 @@
 export const shopLotsLiquidSoap = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_aroma_soap_eucalyptus_lotus_500.jpg",
@@ -18,8 +18,8 @@ export const shopLotsLiquidSoap = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 70,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171Balea - Aroma Soap Eucalyptus & Lotus&#187 з евкаліптом та лотосом — це ніжне рідке мило з природним ароматом свіжості та спокою.",
         description02: "Його pH-нейтральна формула делікатно очищує шкіру, не пересушуючи навіть найчутливіші ділянки.",
         description03: "Комбінація ароматерапії та м’якого догляду у &#171Balea - Aroma Soap Eucalyptus & Lotus&#187 перетворює звичайне миття рук на маленький ритуал релаксу.",
