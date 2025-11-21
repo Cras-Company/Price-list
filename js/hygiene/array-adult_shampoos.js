@@ -1,6 +1,6 @@
 export const shopLotsAdultShampoos = [
   {
-      type: "retail",
+      type: "only-wholesale оптом",
       mainCategory: "hygiene-products",
       subcategory: "hair-care",
       url: "./images/shop/gigiena/hair_care/shampoos/balea_shampoo_anti_schuppen_300.jpg",
@@ -18,8 +18,8 @@ export const shopLotsAdultShampoos = [
       countryName: "Німеччина",
       volumeName: "Об'єм",
       volume: "300 мл.",
-      priceGRN: 72,
-      quantityOnStorage: 6,
+      priceGRN: "--",
+      priceGRNOpt: 72,
       description01: "Позбудьтесь лупи та насолоджуйтесь відчуттям свіжості з шампунем &#171Balea - Shampoo Anti Schuppen Mit Nanaminz-Duft&#187 проти лупи з ароматом м'яти.",
       description02: "Спеціальна формула з вітаміном В3 та провітаміном В5 дбайливо доглядає за волоссям, роблячи його міцнішим та здоровішим.",
       description03: "Аромат м'яти &#171Balea - Shampoo Anti Schuppen Mit Nanaminz-Duft&#187 надає освіжаючий ефект, залишаючи волосся чистим і приємно пахучим.",
