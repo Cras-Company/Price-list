@@ -432,7 +432,7 @@ export const shopLotsSolidSoap = [
         description05: "Не зволікайте та насолоджуйтеся доглядом кожного дня разом з &#171Gallus - Creme Seife Beauty Soap Strawberry&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_mirra_125.jpg",
@@ -450,8 +450,8 @@ export const shopLotsSolidSoap = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "125 гр.",
-        priceGRN: 113,
-        priceGRNOpt: 102,
+        priceGRN: 103,
+        quantityOnStorage: 6,
         description01: "Парфумоване мило &#171Tesori d'Oriente - Sapone Aromatico Mirra&#187 з ароматом мірри надає Вашій шкірі відчуття розкоші та свіжості.",
         description02: "Екзотичний аромат мірри переносить Вас у світ східних традицій і створює атмосферу спокою та релаксації.",
         description03: "Мило &#171Tesori d'Oriente - Sapone Aromatico Mirra&#187 ніжно очищує шкіру, залишаючи її м'якою та зволоженою протягом дня.",
@@ -459,7 +459,7 @@ export const shopLotsSolidSoap = [
         description05: "Відчуйте магію східних ароматів з &#171Tesori d'Oriente - Sapone Aromatico Mirra&#187 і подаруйте своїй шкірі неперевершений догляд!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/tesori_d_oriente_sapone_aromatico_muschio_bianco_125.jpg",
@@ -477,8 +477,8 @@ export const shopLotsSolidSoap = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "125 гр.",
-        priceGRN: 113,
-        priceGRNOpt: 102,
+        priceGRN: 103,
+        quantityOnStorage: 2,
         description01: "Парфумоване мило &#171Tesori d'Oriente - Sapone Aromatico Muschio Bianco&#187 з білим мускусом огортає шкіру ніжним, вишуканим ароматом, що залишається протягом дня.",
         description02: "Його унікальна формула забезпечує делікатне очищення, не пересушуючи шкіру.",
         description03: "Завдяки тонкому аромату білого мускусу, кожне використання &#171Tesori d'Oriente - Sapone Aromatico Muschio Bianco&#187 дарує відчуття чистоти та елегантності.",

@@ -1377,7 +1377,7 @@ export const shopLotsWashingGels = [
         description05: "Обирайте якість та надійність, які надає &#171La Salud - Detergente Ropa Negra&#187, і дозвольте Вашому гардеробу завжди виглядати бездоганно!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_amethyst_60.jpg",
@@ -1395,7 +1395,7 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3 л.",
-        priceGRN: 653,
+        priceGRN: "--",
         priceGRNOpt: 556,
         description01: "&#171Lenor - Color Detergent Amethyst & Floral Bouquet&#187 наповнює Ваш одяг яскравістю барв та вишуканим ароматом аметисту та квіткового букета.",
         description02: "Одяг залишатиметься свіжим протягом дня, даруючи легкий аромат розкішних квітів та нот аметисту при кожному русі.",
@@ -1404,7 +1404,7 @@ export const shopLotsWashingGels = [
         description05: "Дозвольте своїм речам сяяти яскраво і пахнути неперевершено з кожним пранням &#171Lenor - Color Detergent Amethyst & Floral Bouquet&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_color_derergent_orchid_60.jpg",
@@ -1422,7 +1422,7 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3 л.",
-        priceGRN: 653,
+        priceGRN: "--",
         priceGRNOpt: 556,
         description01: "Втілюємо елегантність та розкіш у пранні з &#171Lenor - Color Detergent Gold Orchid&#187. Цей неперевершений засіб для кольорового прання з витонченим ароматом золотої орхідеї перенесе вас у світ чуттєвості та краси.",
         description02: "Запатентована формула засобу не лише зберігає яскравість кольорів вашого одягу, але й дарує йому приголомшливий аромат. Кожна крапля проникає у тканини, даруючи їм неймовірну м'якість і запах свіжості.",
@@ -1431,7 +1431,7 @@ export const shopLotsWashingGels = [
         description05: "Нехай ваш одяг говорить за вас! Замовляйте &#171Lenor - Color Detergent Gold Orchid&#187 вже сьогодні та даруйте своїм речам неперевершену чистоту та вишуканість!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/lenor_uneversal_derergent_peony_hibiscus_60.jpg",
@@ -1449,7 +1449,7 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3 л.",
-        priceGRN: 653,
+        priceGRN: "--",
         priceGRNOpt: 556,
         description01: "Гель &#171Lenor - Uneversal Detergent Peony & Hibiscus&#187 наповнює кожне прання ніжними ароматами півонії та гібіскусу.",
         description02: "Його універсальна формула підходить для всіх типів тканин і забезпечує ефективне видалення забруднень, зберігаючи м’якість речей.",
