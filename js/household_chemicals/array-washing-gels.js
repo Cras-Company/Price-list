@@ -1323,7 +1323,7 @@ export const shopLotsWashingGels = [
         description05: "Почніть свій шлях до бездоганної чистоти просто зараз - виберіть гель для прання &#171La Salud - Detergente Marsella&#187 і дозвольте Вашому одягу залишатися свіжим та чистим завжди!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_original_40.jpg",
@@ -1341,8 +1341,8 @@ export const shopLotsWashingGels = [
         countryName: "Іспанія",
         volumeName: "Об'єм",
         volume: "2650 мл.",
-        priceGRN: 341,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 350,
         description01: "Гель для білих та кольорових речей &#171La Salud - Detergente Original&#187 надає Вашому одягу бездоганну чистоту та яскравість кольорів.",
         description02: "Спеціальна формула гелю проникає глибоко у тканини, ефективно видаляючи забруднення та зберігаючи структуру волокон.",
         description03: "Насолоджуйтесь свіжістю і чистотою одягу без компромісів завдяки м'якій дії гелю, який підходить для всіх типів тканин.",
@@ -1635,7 +1635,7 @@ export const shopLotsWashingGels = [
         volumeName: "Об'єм",
         volume: "4 л.",
         priceGRN: 295,
-        quantityOnStorage: 3,
+        quantityOnStorage: 2,
         description01: "Представляємо гель для кольорових речей &#171Onyx - Color&#187, який збереже яскравість вашого одягу протягом тривалого часу. ",
         description02: "Його унікальна формула створена спеціально для дбайливого прання кольорових тканин, забезпечуючи їм неперевершену чистоту та свіжість.",
         description03: "За допомогою гелю &#171Onyx - Color&#187 ваші мрії здійсняться. Ви будете вражені результатом: кольори вашого одягу залишаться насиченими та яскравими, навіть при сильних забрудненнях.",
