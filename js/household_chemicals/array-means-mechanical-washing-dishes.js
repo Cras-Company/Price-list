@@ -124,7 +124,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Отримайте чистий посуд без зусиль з &#171Denkmit - Geschirr-Reiniger Multi-Power Revolution&#187!"
     },
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_geschirr_reiniger_30.jpg",
@@ -142,8 +142,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "30 шт.",
-        priceGRN: "--",
-        priceGRNOpt: 255,
+        priceGRN: 257,
+        priceGRNOpt: 232,
         description01: "&#171Denkmit - Geschirr-Reiniger Multi-Power Energy Caps&#187 — ефективне рішення для бездоганної чистоти вашого посуду!",
         description02: "Спеціальна формула проти чайних плям і нейтралізатор запаху працюють навіть при низьких температурах, забезпечуючи результат.",
         description03: "Капсули &#171Denkmit - Geschirr-Reiniger Multi-Power Energy Caps&#187 поєднують порошок, рідину та знежирювач, надаючи захист для скла та нержавіючої сталі, зберігаючи блиск і чистоту.",
