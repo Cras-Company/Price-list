@@ -54,7 +54,7 @@ export const shopLotsLiquidSoap = [
     //     description05: "Додайте нотку насолоди &#171Balea - Cremeseife Beeren & Vanille&#187 до свого догляду за руками!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/balea_cremeseife_ginger_lemon_500.jpg",
@@ -72,8 +72,8 @@ export const shopLotsLiquidSoap = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 57,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "Свіжий та бадьорий аромат імбиру та лимону у &#171Balea - Cremeseife Ginger & Lemon&#187 зробить кожне миття рук приємним та освіжаючим ритуалом.",
         description02: "Формула збагачена натуральними екстрактами, які м’яко очищують шкіру, не викликаючи сухості чи подразнень.",
         description03: "Ви відчуєте м’якість і доглянутість своїх рук після кожного використання &#171Balea - Cremeseife Ginger & Lemon&#187, ніби після спа-процедури.",
@@ -534,7 +534,7 @@ export const shopLotsLiquidSoap = [
     //     description05: "Замовте &#171Luksja - Olive & Yogurt&#187 зараз та насолоджуйтеся витонченим доглядом, який подарує вашій шкірі природну м'якість та бадьорість!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/malizia_liquid_soap_antibacterail_1l.jpg",
@@ -552,8 +552,8 @@ export const shopLotsLiquidSoap = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 50,
-        priceGRNOpt: 45,
+        priceGRN: "--",
+        priceGRNOpt: 50,
         description01: "Забезпечте своїй родині найкращий захист з антибактеріальним рідким милом &#171Malizia - Liquid Soap With Natural Antibacterial Green Tea&#187 з екстрактом зеленого чаю.",
         description02: "Його формула, збагачена натуральними антибактеріальними компонентами, ефективно знищує бактерії, забезпечуючи максимальну чистоту.",
         description03: "Екстракт зеленого чаю у &#171Malizia - Liquid Soap With Natural Antibacterial Green Tea&#187 не тільки очищує, але й тонізує та освіжає шкіру, даруючи відчуття свіжості.",

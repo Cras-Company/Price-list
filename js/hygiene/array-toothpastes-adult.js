@@ -1,6 +1,6 @@
 export const shopLotsToothpastesAdult = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_paradontit_100.jpg",
@@ -20,7 +20,7 @@ export const shopLotsToothpastesAdult = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "100 мл.",
-        priceGRN: 41,
+        priceGRN: "--",
         priceGRNOpt: 37,
         description01: "Зубна паста &#171Beauty Smile - Anti-Paradontit&#187 забезпечує ефективний захист Ваших ясен від запалення.",
         description02: "Спеціально розроблена формула активно бореться із симптомами парадонтиту, зміцнюючи ясна та зменшуючи їх чутливість.",
@@ -29,7 +29,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Придбайте &#171Beauty Smile - Anti-Paradontit&#187 сьогодні і забудьте про проблеми з яснами!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_anti_caries_100.jpg",
@@ -49,7 +49,7 @@ export const shopLotsToothpastesAdult = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "100 мл.",
-        priceGRN: 41,
+        priceGRN: "--",
         priceGRNOpt: 37,
         description01: "Зубна паста &#171Beauty Smile - Caries Protection&#187 забезпечує надійний захист Ваших зубів від карієсу.",
         description02: "Завдяки спеціальній формулі, ця паста ефективно зміцнює емаль і запобігає утворенню каріозних уражень.",
@@ -58,7 +58,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Замовляйте &#171Beauty Smile - Anti-Paradontit&#187 вже сьогодні і забезпечте своїм зубам надійний захист від карієсу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_double_mint_100.jpg",
@@ -78,7 +78,7 @@ export const shopLotsToothpastesAdult = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "100 мл.",
-        priceGRN: 41,
+        priceGRN: "--",
         priceGRNOpt: 37,
         description01: "Зубна паста &#171Beauty Smile - Double Mint&#187 дарує Вашим зубам надійний захист та подвійну свіжість подиху.",
         description02: "Спеціальна формула з подвійною м'ятою ефективно очищає зуби, видаляючи наліт та запобігаючи карієсу.",
@@ -145,7 +145,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Замовляйте &#171Beauty Smile - Natural Herbs&#187 вже сьогодні і відчуйте природну турботу про Вашу усмішку!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/beauty_smile_propolis_100.jpg",
@@ -165,7 +165,7 @@ export const shopLotsToothpastesAdult = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "100 мл.",
-        priceGRN: 41,
+        priceGRN: "--",
         priceGRNOpt: 37,
         description01: "Зубна паста &#171Beauty Smile - Propolis&#187 - турбота про здоров'я та красу Вашої посмішки. Для кращого захисту зубів та ясен використовуйте зубну пасту з натуральними компонентами.",
         description02: "Вона створена на основі екстракту прополісу, який володіє потужними антибактеріальними та протизапальними властивостями. Не лише ефективно очищає зуби від нальоту, але й запобігає кровоточивості ясен, карієсу та неприємному запаху з рота.",

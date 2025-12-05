@@ -1,6 +1,6 @@
 export const shopLotsPaperTowelsThreeLayer = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "towels",  
         url: "./images/shop/household_products/towels/paper_towels/paper_towels_three_layer/perfex_professional_kitchen_towel_3_500.jpg",
@@ -18,7 +18,7 @@ export const shopLotsPaperTowelsThreeLayer = [
         countryName: "Сербія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 128,
+        priceGRN: "--",
         priceGRNOpt: 109,
         description01: "&#171Perfex - Deluxe Professional Kitchen Towel&#187 — тришарові паперові рушники з 100% целюлози для найскладніших кухонних завдань.",
         description02: "Вони відрізняються підвищеною міцністю та чудовим поглинанням, ефективно справляючись із пролитою рідиною та жиром.",
@@ -27,7 +27,7 @@ export const shopLotsPaperTowelsThreeLayer = [
         description05: "Замовляйте вже сьогодні &#171Perfex - Deluxe Professional Kitchen Towel&#187 для бездоганної чистоти на кухні!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "towels",  
         url: "./images/shop/household_products/towels/paper_towels/paper_towels_three_layer/perfex_towel_high_absorbent_3_500.jpg",
@@ -45,7 +45,7 @@ export const shopLotsPaperTowelsThreeLayer = [
         countryName: "Сербія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 105,
+        priceGRN: "--",
         priceGRNOpt: 90,
         description01: "&#171Perfex - Towel High Absorbent&#187 — тришарові паперові рушники з 100% целюлози для максимальної ефективності.",
         description02: "Вони відзначаються високим рівнем поглинання, легко справляючись із пролитою рідиною та жиром.",
@@ -54,7 +54,7 @@ export const shopLotsPaperTowelsThreeLayer = [
         description05: "Спробуйте &#171Perfex - Towel High Absorbent&#187 для надійної допомоги у будь-якій ситуації!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "towels",  
         url: "./images/shop/household_products/towels/paper_towels/paper_towels_three_layer/perfex_mega_kitchen_towel_3_500.jpg",
@@ -72,7 +72,7 @@ export const shopLotsPaperTowelsThreeLayer = [
         countryName: "Сербія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 115,
+        priceGRN: "--",
         priceGRNOpt: 98,
         description01: "&#171Perfex - Mega Kitchen Towel High Absorbent&#187 — тришарові паперові рушники з підвищеною абсорбцією для складних завдань.",
         description02: "Вони миттєво вбирають вологу та жир, залишаючись міцними навіть при інтенсивному використанні.",

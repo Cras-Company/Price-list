@@ -1,6 +1,6 @@
 export const shopLotsPaperTowelsTwoLayer = [
   {
-    type: "wholesale оптом",
+    type: "only-wholesale оптом",
     mainCategory: "household-products",
     subcategory: "towels",  
     url: "./images/shop/household_products/towels/paper_towels/paper_towels_two_layer/perfex_deluxe_towel_2_500.jpg",
@@ -18,7 +18,7 @@ export const shopLotsPaperTowelsTwoLayer = [
     countryName: "Сербія",
     quantityName: "Кількість",
     quantity: "1 шт.",
-    priceGRN: 175,
+    priceGRN: "--",
     priceGRNOpt: 149,
     description01: "&#171Perfex - Deluxe Towel Multi-Purpose Cleaning&#187 — двошарові паперові рушники з 100% целюлози для універсального прибирання.",
     description02: "Вони відзначаються високою міцністю та чудово вбирають вологу, допомагаючи швидко впоратися з будь-яким завданням.",
