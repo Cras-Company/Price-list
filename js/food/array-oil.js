@@ -1,6 +1,6 @@
 export const shopLotsOil = [
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/oil/nordolio_olio_di_semi_di_mais_1l.jpg",
@@ -18,8 +18,8 @@ export const shopLotsOil = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 418,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 305,
         description01: "&#171Nordolio - Olio Di Seni Di Mais&#187 - це справжнє втілення природної чистоти та смаку. Вироблена зі свіжих зерен кукурудзи, ця олія вражає найкращими властивостями рослинної олії. Інтенсивний аромат та насичений смак роблять її ідеальним доповненням до салатів, супів і смажених страв.",
         description02: "Виробляється з великою увагою до деталей та з використанням найсучасніших технологій. Вона є багатим джерелом Омега-3 жирних кислот та вітаміну Е, які сприяють збереженню вашого здоров'я і додають приємний блиск вашим стравам.",
         description03: "Почувайте себе гурманом і додайте смаку своїм стравам з &#171Nordolio - Olio Di Seni Di Mais&#187, тому що Ви заслуговуєте на найкраще!",
