@@ -1323,7 +1323,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте &#171La Salud - Detergente Color&#187 вже сьогодні та відчуйте різницю!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/la_salud_marsella_40.jpg",
@@ -1341,8 +1341,8 @@ export const shopLotsWashingGels = [
         countryName: "Іспанія",
         volumeName: "Об'єм",
         volume: "2650 мл.",
-        priceGRN: 341,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 320,
         description01: "Відкрийте для себе секрет чистоти та свіжості з гелем для прання &#171La Salud - Detergente Marsella&#187. Він надає Вашим речам неповторний аромат марсельського мила, що робить кожне прання справжнім естетичним задоволенням.",
         description02: "Ефективно видаляє навіть найскладніші плями, залишаючи тканини м'якими і приємними на дотик. Це ідеальний вибір для тих, хто прагне піклуватися про свій одяг і зберігати його по-справжньому чистим.",
         description03: "Завдяки формулі з марсельським милом, &#171La Salud - Detergente Marsella&#187 забезпечує не лише бездоганну чистоту, а й дбайливе ставлення до Ваших улюблених речей.",
