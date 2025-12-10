@@ -1643,7 +1643,7 @@ export const shopLotsWashingGels = [
         description05: "Не втрачайте можливість відчути на собі всі переваги &#171Onyx - Universal&#187 та насолоджуйтеся довготривалою свіжістю та чистотою вашого одягу!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/onyx_color_4l.jpg",
@@ -1661,8 +1661,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "4 л.",
-        priceGRN: 295,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 218,
         description01: "Представляємо гель для кольорових речей &#171Onyx - Color&#187, який збереже яскравість вашого одягу протягом тривалого часу. ",
         description02: "Його унікальна формула створена спеціально для дбайливого прання кольорових тканин, забезпечуючи їм неперевершену чистоту та свіжість.",
         description03: "За допомогою гелю &#171Onyx - Color&#187 ваші мрії здійсняться. Ви будете вражені результатом: кольори вашого одягу залишаться насиченими та яскравими, навіть при сильних забрудненнях.",
