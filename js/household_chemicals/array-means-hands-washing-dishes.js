@@ -1282,7 +1282,7 @@ export const shopLotsMeansHandsWashingDishes = [
         description05: "Придбайте &#171Vir - Spülmittel Apfel&#187 вже сьогодні і перетворіть миття посуду на справжнє задоволення!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/vir_flieder_415.jpg",
@@ -1300,8 +1300,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Болгарія",
         volumeName: "Об'єм",
         volume: "415 мл.",
-        priceGRN: 50,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Внесіть весняну свіжість у вашу кухню з засобом для миття посуду &#171Vir - Spülmittel Flieder&#187. Цей продукт дарує посуду ніжний аромат бузку.",
         description02: "Ефективно видаляє жир і бруд, забезпечуючи блискучу чистоту вашого посуду. Його унікальний аромат бузку наповнює кухню приємною свіжістю.",
         description03: "&#171Vir - Spülmittel Flieder&#187 забезпечує не тільки бездоганну чистоту, але й приносить задоволення від миття посуду завдяки своєму легкому, квітковому аромату. Ваша кухня стане затишним місцем з ароматом весни.",
