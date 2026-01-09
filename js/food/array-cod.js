@@ -1,6 +1,6 @@
 export const shopLotsCod = [
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/cod/giana_tresci_jatra_115.jpg",

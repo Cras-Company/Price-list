@@ -158,7 +158,7 @@ export const shopLotsTuna = [
         description05: "Придбайте &#171Rio Mare - Tonno Al Naturale&#187 вже сьогодні і насолоджуйтесь найкращим, що може запропонувати природа!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/tuna/rio_mare_tonno_al_naturale_240.jpg",
@@ -174,8 +174,8 @@ export const shopLotsTuna = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "240 гр.",
-        priceGRN: 227,
-        priceGRNOpt: 205,
+        priceGRN: "--",
+        priceGRNOpt: 210,
         description01: "&#171Rio Mare - Tonno Al Naturale&#187 - це найкращий вибір для тих, хто цінує природність і якість. Цей тунець у власному соку - це справжня смакова насолода. Він відзначається своєю ніжністю і неперевершеним смаком, який зберігається завдяки відсутності доданих спецій та соусів.",
         description02: "Кожен шматочок тунця ретельно обробляється і консервується, зберігаючи всю свою користь та аромат. Ви можете впевнено включити цей продукт до вашого раціону, оскільки він багатий білком та Омега-3 жирними кислотами, корисними для здоров'я серця та мозку.",
         description03: "&#171Rio Mare - Tonno Al Naturale&#187 - це смак і якість, які говорять самі за себе. Оберіть натуральність і смак природи.",

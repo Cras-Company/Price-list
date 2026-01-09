@@ -684,8 +684,8 @@ export const crasoriaKeys = [
         number_of_referrals: 0,
         discount: "3 %",
         wallet_balance: 0,
-        total_amount: 1158,
-        order_date: "2026.01.07",
+        total_amount: 2004,
+        order_date: "2026.01.09",
         parent_key: "CRAS",
     },
 ]

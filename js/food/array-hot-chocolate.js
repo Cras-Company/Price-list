@@ -23,7 +23,7 @@ export const shopLotsHotChocolate = [
         weightName: "Вага",
         weight: "1 кг.",
         priceGRN: 243,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "&#171Hearts - Trink Schokolade&#187 - елітний гарячий шоколад, який вражає своєю вишуканістю та неперевершеним смаком.",
         description02: "Цей напій створений для тих, хто шукає не просто гарячий шоколад, а справжній кулінарний витвір мистецтва з найкращих какао-бобів.",
         description03: "Підкресліть свій вишуканий смак разом з &#171Hearts - Trink Schokolade&#187, який робить кожен момент неповторним.",
