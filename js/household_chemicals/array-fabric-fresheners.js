@@ -72,7 +72,7 @@ export const shopLotsFabricFresheners = [
         countryName: "Польща",
         volumeName: "Об'єм",
         volume: "425 мл.",
-        riceGRN: "--",
+        priceGRN: "--",
         priceGRNOpt: 100,
         description01: "Відчуйте свіжість океанського бризу з новим освіжувачем повітря &#171Brait - Aqua Spray Magic Mist Ocean Breeze&#187.",
         description02: "Його аромат наповнить Ваш дім чистотою та прохолодою, наче Ви щойно повернулися з морського узбережжя.",
@@ -81,7 +81,7 @@ export const shopLotsFabricFresheners = [
         description05: "Освіжіть своє повітря разом з &#171Brait - Aqua Spray Magic Mist Ocean Breeze&#187 і насолоджуйтесь кожною миттю!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_oriental_garden_425.jpg",
@@ -99,8 +99,8 @@ export const shopLotsFabricFresheners = [
         countryName: "Польща",
         volumeName: "Об'єм",
         volume: "425 мл.",
-        priceGRN: 83,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 100,
         description01: "Зануртеся в атмосферу східного саду з освіжувачем повітря &#171Brait - Aqua Spray Magic Mist Oriental Garden&#187.",
         description02: "Його вишуканий аромат наповнить Ваш дім нотками екзотичних квітів і спецій, створюючи неповторну гармонію.",
         description03: "Завдяки передовій формулі &#171Brait - Aqua Spray Magic Mist Oriental Garden&#187, аромат тримається довше, даруючи Вам відчуття свіжості протягом усього дня.",
