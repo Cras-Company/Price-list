@@ -253,7 +253,7 @@ export const shopLotsMeansCleaningUniversal = [
     //     description05: "Замовляйте &#171Ace - Pavimenti Eco-Ricarica Spray Multiuso&#187 зараз і насолоджуйтеся ідеальною чистотою та свіжістю Вашого дому!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/astonish_the_good_one_500.jpg",
@@ -275,8 +275,8 @@ export const shopLotsMeansCleaningUniversal = [
         countryName: "Англія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 252,
-        priceGRNOpt: 227,
+        priceGRN: "--",
+        priceGRNOpt: 252,
         description01: "Натуральна універсальна паста &#171Astonish - The Good One All Natural Power Cleaning Paste&#187 створена для бездоганної чистоти у кожному куточку Вашого дому!",
         description02: "Із натуральним складом та надзвичайною потужністю, вона ефективно очищає двері, вікна, плитку, скло, раковини та навіть іржу, повертаючи поверхням свіжий вигляд.",
         description03: "&#171Astonish - The Good One All Natural Power Cleaning Paste&#187 не лише видаляє забруднення, а й дбайливо захищає поверхні, зберігаючи їх природний блиск та відновлюючи первозданну красу.",

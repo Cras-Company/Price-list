@@ -170,7 +170,7 @@ export const shopLotsLaundrySheets = [
         description05: "Додайте серветки &#171Dr. Beckmann - Farb & Schmutz Fänger All in 1&#187 до прання та подбайте про ідеальну чистоту і кольорову свіжість кожної речі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/laundry_sheets/dr.bechmann_intensiv_schwarz_tucher_3in1_6.jpg",
@@ -190,8 +190,8 @@ export const shopLotsLaundrySheets = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "6 шт.",
-        priceGRN: 118,
-        priceGRNOpt: 107,
+        priceGRN: "--",
+        priceGRNOpt: 132,
         description01: "Відкрийте для себе пральні серветки &#171Dr. Beckmann - Intensiv-Schwarz Tücher 3 in 1&#187, які відновлюють інтенсивний чорний колір Вашого одягу!",
         description02: "Ці серветки спеціально розроблені для збереження насиченості чорного кольору, запобігаючи вицвітанню та зберігаючи первинну глибину відтінку.",
         description03: "Завдяки формулі 3 в 1, &#171Dr. Beckmann - Intensiv-Schwarz Tücher 3 in 1&#187 не лише відновлюють колір, а й захищають тканини, роблячи їх м'якими та приємними на дотик.",

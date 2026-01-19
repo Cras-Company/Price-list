@@ -209,7 +209,7 @@ export const shopLotsCappuccino = [
         description05: "Відчуйте смак італійської розкоші, замовивши капучино &#171Swisso - Cappuccino White&#187 вже зараз!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "drinks",
         url: "./images/shop/food/drinks/cappuccino/swisso_wiener_melange_1kg.jpg",
@@ -229,8 +229,8 @@ export const shopLotsCappuccino = [
         countryName: "Швейцарія",
         weightName: "Вага",
         weight: "1 кг.",
-        priceGRN: 270,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Відчуйте неповторний смак Віденського вечора з капучино &#171Swisso - Cappuccino Wiener Melange&#187. Цей чарівний напій об'єднує у собі ніжний аромат свіжої кави та теплу молочну кремовість, надаючи Вам новий рівень задоволення.",
         description02: "Вирізняючись серед інших, це капучино приваблює своєю унікальною сполученістю м'якості та аромату. Теплий відтінок молочної піни ідеально поєднується із збалансованою кавовою основою, виправдовуючи Ваш інтерес до цього неперевершеного напою.",
         description03: "Бажаєте подарувати своєму дню ніжний дотик австрійської елегантності? Капучино &#171Swisso - Cappuccino Wiener Melange&#187 - це бажання, що втілюється у дивовижному поєднанні аромату і смаку, доповненому молочною ніжністю.",

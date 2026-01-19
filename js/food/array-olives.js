@@ -324,7 +324,7 @@ export const shopLotsOlives = [
         description05: "Поглибтеся у світ екзотичних вражень і пройдіть шляхом смакових відкриттів разом з &#171Hutesa - Olive Pitted&#187!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olives/hutesa_olives_pitted_green_350.jpg",
@@ -344,8 +344,8 @@ export const shopLotsOlives = [
         countryName: "Іспанія",
         weightName: "Вага",
         weight: "350 гр.",
-        priceGRN: 95,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 85,
         description01: "Бажаєте відчути вибух смаку? &#171Hutesa - Olive Pitted&#187 - яскрава симфонія ароматів та смаків, яка зачаровує з першого погляду.",
         description02: "Ці зелені оливки не тільки смакова експлозія, але й високий стандарт якості. Вони додають вашим стравам свіжість та екзотичний присмак.",
         description03: "Прагнете відкрити для себе істину іспанської гастрономії? Замовте зелені оливки &#171Hutesa - Olive Pitted&#187 та відчуйте справжню радість від досконалого поєднання смаку та якості.",
