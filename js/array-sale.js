@@ -441,7 +441,7 @@ export const shopLotsSale = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1250 мл.",
-        priceGRN: 357,
+        priceGRN: 288,
         quantityOnStorage: 6,
         description01: "Набір для чищення туалету &#171Chanteclair - WC Candeggina Mousse & WC Disincrostante Mousse&#187 забезпечує комплексний догляд за чистотою та гігієною у ванній кімнаті.",
         description02: "Спрей-мус з відбілювачем &#171Chanteclair - WC Candeggina Mousse&#187 ефективно дезінфікує, усуває мікроби та надає поверхням сяючої білизни.",
