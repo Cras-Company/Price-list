@@ -407,7 +407,7 @@ export const shopLotsWashingPowders = [
         weightName: "Вага",
         weight: "1.3 кг.",
         priceGRN: 252,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "Порошок для кольорових речей &#171Denkmit - Colorwaschmittel Für Leuchtende Farben Sunny Fresh&#187 забезпечує яскравість кольорів навіть після багаторазового прання!",
         description02: "Формула з засобом для виведення плям ефективно видаляє забруднення, залишаючи одяг бездоганно чистим і свіжим.",
         description03: "Насолоджуйтеся сонячною свіжістю кожного прання, яка огортає речі приємним ароматом &#171Denkmit - Colorwaschmittel Für Leuchtende Farben Sunny Fresh&#187 та дарує комфорт.",

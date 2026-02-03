@@ -384,7 +384,7 @@ export const shopLotsToothpastesAdult = [
         volumeName: "Об'єм",
         volume: "125 мл.",
         priceGRN: 57,
-        quantityOnStorage: 6,
+        quantityOnStorage: 3,
         description01: "Втомились від тьмяного й нездорового вигляду зубів? Зубний крем з травами &#171Elkos - Dentamax Kräuter Zahncreme&#187 - це Ваш шанс на сяючу та здорову посмішку!",
         description02: "Завдяки унікальній формулі з натуральних трав, він не лише дбайливо очищає зуби, але й бореться з бактеріями, що викликають карієс та неприємний запах.",
         description03: "&#171Elkos - Dentamax Kräuter Zahncreme&#187 – це не просто зубний крем, а секрет Вашої бездоганної посмішки. Насолоджуйтесь свіжістю та впевненістю протягом дня!",

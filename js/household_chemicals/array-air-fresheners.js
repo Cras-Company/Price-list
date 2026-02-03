@@ -189,7 +189,7 @@ export const shopLotsAirFresheners = [
         description05: "Додайте нотку весняної свіжості у свій дім з &#171Brait - Aqua Spray Magic Mist White Flowers&#187 і насолоджуйтесь кожним вдихом!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_golden_lake_100.jpg",
@@ -207,8 +207,8 @@ export const shopLotsAirFresheners = [
         countryName: "Польща",
         volumeName: "Об'єм",
         volume: "100 мл.",
-        priceGRN: 257,
-        priceGRNOpt: 232,
+        priceGRN: "--",
+        priceGRNOpt: 257,
         description01: "Рідкий дифузор &#171Brait - Decorative Air Freshener Home Parfume Golden Lake&#187 дарує неповторний аромат золотого озера, наповнюючи простір елегантністю та свіжістю.",
         description02: "Аромат Вашого дому створює атмосферу затишку, тому варто обирати лише вишукані парфумерні ноти.",
         description03: "Формула &#171Brait - Decorative Air Freshener Home Parfume Golden Lake&#187 забезпечує рівномірне поширення аромату протягом 28 днів, а змінні палички дозволяють оновлювати інтенсивність запаху кожні 5-8 днів.",

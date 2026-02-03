@@ -1175,7 +1175,7 @@ export const shopLotsForWC = [
         description05: "Придбайте La Salud - Gel WC Flor De Cerezo&#171La Salud - Gel WC Flor De Cerezo&#187 вже сьогодні та подаруйте своєму туалету неперевершену чистоту і свіжість!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_ocean_1l.jpg",
@@ -1194,7 +1194,7 @@ export const shopLotsForWC = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 123,
-        priceGRNOpt: 123,
+        pquantityOnStorage: 4,
         description01: "Хочете, щоб ваш туалет був ідеально чистим та свіжим? Спробуйте &#171La Salud - Gel WC Ocean&#187!",
         description02: "Цей гель забезпечує глибоке очищення, видаляючи навіть найстійкіший бруд і залишаючи приємний аромат океанської свіжості. Його інноваційна формула проникає у важкодоступні місця, гарантуючи повну гігієну.",
         description03: "З &#171La Salud - Gel WC Ocean& Ваш туалет буде сяяти чистотою, а аромат свіжого океану створить атмосферу свіжості та чистоти на довгий час. Забудьте про неприємні запахи та бактерії!",
@@ -1202,7 +1202,7 @@ export const shopLotsForWC = [
         description05: "Придбайте  &#171La Salud - Gel WC Ocean& вже сьогодні та насолоджуйтесь бездоганною чистотою і свіжістю вашого туалету!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_oxi_eucalipto_1l.jpg",
@@ -1220,7 +1220,7 @@ export const shopLotsForWC = [
         countryName: "Іспанія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 123,
+        priceGRN: "--",
         priceGRNOpt: 123,
         description01: "Забудьте про труднощі з усуненням бруду - &#171La Salud - Oxi Active Eucalipto&#187 гарантує ефективну чистоту і свіжість.",
         description02: "Завдяки активному кисню та евкаліптовому аромату він проникає глибоко у забруднення, легко видаляються, та залишає приємний аромат у Вашому туалеті.",
@@ -1229,7 +1229,7 @@ export const shopLotsForWC = [
         description05: "Очистіть свій туалет швидко та ефективно з &#171La Salud - Oxi Active Eucalipto&#187 - Ваш ключ до бездоганної чистоти та свіжості!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/la_salud_wc_pine_1l.jpg",
@@ -1248,7 +1248,7 @@ export const shopLotsForWC = [
         volumeName: "Об'єм",
         volume: "1 л.",
         priceGRN: 123,
-        priceGRNOpt: 123,
+        pquantityOnStorage: 4,
         description01: "Відкрийте для себе ідеальний засіб для чищення туалету з ароматом сосни &#171La Salud - Gel WC Pino&#187, потужна формула якого забезпечить неперевершену чистоту у Вашому туалеті.",
         description02: "Цей гель миттєво розподіляється по поверхні, неймовірно зручний у використанні і має приємний аромат сосни, який зробить Ваш туалет запашним та свіжим.",
         description03: "&#171La Salud - Gel WC Pino&#187 здійснить Ваші найсміливіші бажання, забезпечуючи не лише чистоту, але і приємний аромат.",

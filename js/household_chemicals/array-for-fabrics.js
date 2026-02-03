@@ -1,6 +1,6 @@
 export const shopLotsForFabrics = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances cleaning-care-products",
         url: "./images/shop/household_chemicals/world_of_fragrances/anti_smells/denkmit_textilerfrischer_3_in_1_500.jpg",
@@ -18,8 +18,8 @@ export const shopLotsForFabrics = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 154,
-        priceGRNOpt: 139,
+        priceGRN: "--",
+        priceGRNOpt: 145,
         description01: "&#171Denkmit - Textilerfrischer 3 in 1&#187 – ваш надійний помічник у боротьбі з неприємними запахами!",
         description02: "Цей розгладжувач складок і дезінфектор ідеально підходить для текстилю, взуття та меблів, даруючи їм свіжість на довгий час.",
         description03: "&#171Denkmit - Textilerfrischer 3 in 1&#187 не тільки нейтралізує запахи, але й дезінфікує, позбавляючи від шкідливих бактерій, що накопичуються в тканинах.",

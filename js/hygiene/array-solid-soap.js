@@ -189,7 +189,7 @@ export const shopLotsSolidSoap = [
     //     description05: "Замовте кремове тверде мило &#171Elsa - Creamy Beauty Soap Rose&#187 з екстрактом троянди сьогодні та відчуйте справжню ніжність догляду!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/solid_soap/elsa_bath_soap_coconut_100.jpg",
@@ -207,8 +207,8 @@ export const shopLotsSolidSoap = [
         countryName: "Туреччина",
         weightName: "Вага",
         weight: "100 гр.",
-        priceGRN: 21,
-        quantityOnStorage: 15,
+        priceGRN: "--",
+        priceGRNOpt: 21,
         description01: "Відкрийте для себе екзотичну насолоду з твердим милом &#171Elsa - Bath Soap Coconut&#187 з екстрактом кокоса.",
         description02: "Це мило дбайливо очищує шкіру, насичуючи її природними компонентами кокосового горіха.",
         description03: "Аромат кокосу &#171Elsa - Bath Soap Coconut&#187 дарує відчуття відпочинку та релаксації, створюючи атмосферу тропічного раю.",
