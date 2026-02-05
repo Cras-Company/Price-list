@@ -24,7 +24,7 @@ import {
 import {
   shopLotsNewItems,
   shopLotsSale
-} from "./new_items_sale/index.js?v=2026-02-05-v.1";
+} from "./new_items_sale/index.js?v=2026-02-05-v.2";
 
 // Продукты
 import {
