@@ -10,129 +10,116 @@ import {
 } from './modal.js'
 
 // Ключи Craroria
-import { crasoriaKeys } from './array-crasoria-keys.js';
+import { crasoriaKeys } from './crasoria/index.js?v=2026-02-05-v.1';
 
-// Новинки
-import { shopLotsNewItems } from "./array-new-items.js";
-// Акция
-import { shopLotsSale } from "./array-sale.js";
+// Новинки и акции
+import {
+  shopLotsNewItems,
+  shopLotsSale
+} from "./new_items_sale/index.js?v=2026-02-05-v.1";
 
 // Продукты
-import { shopLotsNoodles } from "./food/array-noodles.js";
-import { shopLotsMacaroni } from "./food/array-macaroni.js";
-import { shopLotsSpaghetti } from "./food/array-spaghetti.js";
-import { shopLotsTarhona } from "./food/array-tarhona.js";
-
-import { shopLotsCheese } from "./food/array-cheese.js";
-
-import { shopLotsPates } from "./food/array-pates.js";
-import { shopLotsSalmon } from "./food/array-salmon.js";
-import { shopLotsMackerel } from "./food/array-mackerel.js";
-import { shopLotsHerring } from "./food/array-herring.js";
-import { shopLotsTuna } from "./food/array-tuna.js";
-import { shopLotsCod } from "./food/array-cod.js";
-import { shopLotsSprats } from "./food/array-sprats.js";
-
-import { shopLotsPeanuts } from "./food/array-peanuts.js";
-import { shopLotsPopcorns } from "./food/array-popcorns.js";
-import { shopLotsPistachios } from "./food/array-pistachios.js";
-import { shopLotsChips } from "./food/array-chips.js";
-
-import { shopLotsCreamSpreads } from "./food/array-cream-spreads.js";
-import { shopLotsCheeseSpreads } from "./food/array-cheese-spreads.js";
-import { shopLotsSweetSpreads } from "./food/array-sweet-spreads.js";
-
-import { shopLotsBars } from "./food/array-bars.js";
-import { shopLotsWaffles } from "./food/array-waffles.js";
-import { shopLotsChocolate } from "./food/array-chocolate.js";
-
-import { shopLotsHotChocolate } from "./food/array-hot-chocolate.js";
-import { shopLotsCoffeeBeans } from "./food/array-coffee_beans.js";
-import { shopLotsGroundCoffee } from "./food/array-ground-coffee.js";
-import { shopLotsInstantCoffee } from "./food/array-instant-coffee.js";
-import { shopLotsCacao } from "./food/array-cacao.js";
-import { shopLotsCappuccino } from "./food/array-cappuccino.js";
-
-import { shopLotsOil } from "./food/array-oil.js";
-import { shopLotsOlives } from "./food/array-olives.js";
-import { shopLotsOliveOil } from "./food/array-olive-oil.js";
-
-import { shopLotsForBaking } from "./food/array-for-baking.js";
-import { shopLotsMustard } from "./food/array-mustard.js";
-import { shopLotsSauces } from "./food/array-sauces.js";
-import { shopLotsSeasonings } from "./food/array-seasonings.js";
+import {
+  shopLotsNoodles,
+  shopLotsMacaroni,
+  shopLotsSpaghetti,
+  shopLotsTarhona,
+  shopLotsCheese,
+  shopLotsPates,
+  shopLotsSalmon,
+  shopLotsMackerel,
+  shopLotsHerring,
+  shopLotsTuna,
+  shopLotsCod,
+  shopLotsSprats,
+  shopLotsPeanuts,
+  shopLotsPopcorns,
+  shopLotsPistachios,
+  shopLotsChips,
+  shopLotsCreamSpreads,
+  shopLotsCheeseSpreads,
+  shopLotsSweetSpreads,
+  shopLotsBars,
+  shopLotsWaffles,
+  shopLotsChocolate,
+  shopLotsHotChocolate,
+  shopLotsCoffeeBeans,
+  shopLotsGroundCoffee,
+  shopLotsInstantCoffee,
+  shopLotsCacao,
+  shopLotsCappuccino,
+  shopLotsOil,
+  shopLotsOlives,
+  shopLotsOliveOil,
+  shopLotsForBaking,
+  shopLotsMustard,
+  shopLotsSauces,
+  shopLotsSeasonings
+} from "./food/index.js?v=2026-02-05-v.1";
 
 // Средства гигиены
-import { shopLotsChildrenShampoos } from "./hygiene/array-children-shampoos.js";
-import { shopLotsChildrenShowerGels } from "./hygiene/array-children-shower-gels.js";
-import { shopLotsChildrenToothpastes } from "./hygiene/array-children-toothpastes.js";
-import { shopLotsToothpastesNoFluorideChildren } from "./hygiene/array-toothpastes-no-fluoride-children.js";
-import { shopLotsChildrenDiapers } from "./hygiene/array-children-diapers.js";
-
-import { shopLotsAdultShampoos } from "./hygiene/array-adult_shampoos.js";
-import { shopLotsHairConditioners } from "./hygiene/array-hair-conditioners.js";
-import { shopLotsHairMasks } from "./hygiene/array-hair-masks.js";
-
-import { shopLotsAdultShowerGels } from "./hygiene/array-adult-shower-gels.js";
-
-import { shopLotsLiquidSoap } from "./hygiene/array-liquid-soap.js";
-import { shopLotsSolidSoap } from "./hygiene/array-solid-soap.js";
-
-import { shopLotsHandCremes } from "./hygiene/array-hand-cremes.js";
-
-import { shopLotsAntiperspirants } from "./hygiene/array-antiperspirants.js";
-import { shopLotsDeodorants } from "./hygiene/array-deodorants.js";
-
-import { shopLotsToothpastesAdult } from "./hygiene/array-toothpastes-adult.js";
-import { shopLotsToothpastesNoFluoride } from "./hygiene/array-toothpastes-no-fluoride-adult.js";
-import { shopLotsMouthwashes } from "./hygiene/array-mouthwashes.js";
-
-import { shopLotsWetWipes } from "./hygiene/array-wet-wipes.js";
-import { shopLotsMicellarWipes } from "./hygiene/array-micellar-wipes.js";
-
-import { shopLotsIntimHygiene } from "./hygiene/array-intim-hygiene.js";
-import { shopLotsPantyliner } from "./hygiene/array-pantyliner.js";
-
-import { shopLotsTPThreeLayer } from "./hygiene/array-tp-three-layer.js";
+import {
+  shopLotsChildrenShampoos,
+  shopLotsChildrenShowerGels,
+  shopLotsChildrenToothpastes,
+  shopLotsToothpastesNoFluorideChildren,
+  shopLotsChildrenDiapers,
+  shopLotsAdultShampoos,
+  shopLotsHairConditioners,
+  shopLotsHairMasks,
+  shopLotsAdultShowerGels,
+  shopLotsLiquidSoap,
+  shopLotsSolidSoap,
+  shopLotsHandCremes,
+  shopLotsAntiperspirants,
+  shopLotsDeodorants,
+  shopLotsToothpastesAdult,
+  shopLotsToothpastesNoFluoride,
+  shopLotsMouthwashes,
+  shopLotsWetWipes,
+  shopLotsMicellarWipes,
+  shopLotsIntimHygiene,
+  shopLotsPantyliner,
+  shopLotsTPThreeLayer
+} from "./hygiene/index.js?v=2026-02-05-v.1";
 
 // Бытовая химия
-import { shopLotsMeansHandsWashingDishes } from "./household_chemicals/array-means-hands-washing-dishes.js";
-import { shopLotsMeansMechanicalWashingDishes } from "./household_chemicals/array-means-mechanical-washing-dishes.js";
-
-import { shopLotsWashingGels } from "./household_chemicals/array-washing-gels.js";
-import { shopLotsPowerCaps } from "./household_chemicals/array-power-caps.js";
-import { shopLotsWashingPowders } from "./household_chemicals/array-washing-powders.js";
-import { shopLotsLaundrySheets } from "./household_chemicals/array-laundry-sheets.js";
-import { shopLotsBleaches } from "./household_chemicals/array-bleaches.js";
-import { shopLotsStainRemovers } from "./household_chemicals/array-stain-removers.js";
-import { shopLotsSofteners } from "./household_chemicals/array-softeners.js";
-import { shopLotsScentBoosterGranuls } from "./household_chemicals/array-scent-booster-granuls.js";
-
-import { shopLotsForFabrics } from "./household_chemicals/array-for-fabrics.js";
-import { shopLotsForWindows } from "./household_chemicals/array-for-windows.js";
-import { shopLotsForFurniture } from "./household_chemicals/array-for-furniture.js";
-import { shopLotsForFloor } from "./household_chemicals/array-for-floor.js";
-import { shopLotsMeansCleaningUniversal } from "./household_chemicals/array-means-cleaning-universal.js";
-import { shopLotsMeansCleaningKitchenBathroom } from "./household_chemicals/array-means-cleaning-kitchen-bathroom.js";
-import { shopLotsForWC } from "./household_chemicals/array-for-wc.js";
-import { shopLotsMeansCleaningDishwashers } from "./household_chemicals/array-means-cleaning-dishwashers.js";
-
-import { shopLotsMoistureAbsorbers } from "./household_chemicals/array-moisture-absorbers.js";
-import { shopLotsAirFresheners } from "./household_chemicals/array-air-fresheners.js";
-import { shopLotsFabricFresheners } from "./household_chemicals/array-fabric-fresheners.js";
-import { shopLotsAntiSmells } from "./household_chemicals/array-anti-smells.js";
-import { shopLotsBathBombs } from "./household_chemicals/array-bath-bombs.js";
+import {
+  shopLotsMeansHandsWashingDishes,
+  shopLotsMeansMechanicalWashingDishes,
+  shopLotsWashingGels,
+  shopLotsPowerCaps,
+  shopLotsWashingPowders,
+  shopLotsLaundrySheets,
+  shopLotsBleaches,
+  shopLotsStainRemovers,
+  shopLotsSofteners,
+  shopLotsScentBoosterGranuls,
+  shopLotsForFabrics,
+  shopLotsForWindows,
+  shopLotsForFurniture,
+  shopLotsForFloor,
+  shopLotsMeansCleaningUniversal,
+  shopLotsMeansCleaningKitchenBathroom,
+  shopLotsForWC,
+  shopLotsMeansCleaningDishwashers,
+  shopLotsMoistureAbsorbers,
+  shopLotsAirFresheners,
+  shopLotsFabricFresheners,
+  shopLotsAntiSmells,
+  shopLotsBathBombs
+} from "./household_chemicals/index.js?v=2026-02-05-v.1";
 
 // Хозяйственные товары
-import { shopLotsDishSponges } from "./household_products/array-dish-sponges.js";
-import { shopLotsCleaningSponges } from "./household_products/array-cleaning-sponges.js";
-import { shopLotsUniversalSponges } from "./household_products/array-universal-sponges.js";
-
-import { shopLotsCleaningWetWipes } from "./household_products/array-cleaning-wet-wipes.js";
-
-import { shopLotsPaperTowelsTwoLayer } from "./household_products/array-paper-towels-two-layer.js";
-import { shopLotsPaperTowelsThreeLayer } from "./household_products/array-paper-towels-three-layer.js";
-import { shopLotsUniversalTowels } from "./household_products/array-universal-towels.js";
+import {
+  shopLotsDishSponges,
+  shopLotsCleaningSponges,
+  shopLotsUniversalSponges,
+  shopLotsCleaningWetWipes,
+  shopLotsPaperTowelsTwoLayer,
+  shopLotsPaperTowelsThreeLayer,
+  shopLotsUniversalTowels
+} from "./household_products/index.js?v=2026-02-05-v.1";
 
 const arrayOfProducts = [
   { items: shopLotsNewItems, },

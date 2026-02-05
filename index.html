@@ -9,7 +9,7 @@
         content="Компанія Крас пропонує купити якісні товари з Європи за приємними цінами. Широкий асортимент і швидка доставка.">
     <title>Компанія &#171;Cras&#187;</title>
 
-    <!-- Предзагрузка hero-изображений -->
+    <!-- Предзагрузка hero-изображений с versioning -->
     <script>
         (function () {
             var m = window.matchMedia('(max-width: 767px)').matches;
@@ -17,35 +17,38 @@
             link.rel = 'preload';
             link.as = 'image';
             link.href = m
-            ? '/images/hero/hero-img-mobile-crasoria_1.webp'
-            : '/images/hero/hero-img-main-crasoria_1.webp';
+                ? '/images/hero/hero-img-mobile-crasoria_1.webp?v=1.0.0'
+                : '/images/hero/hero-img-main-crasoria_1.webp?v=1.0.0';
             link.type = 'image/webp';
             link.fetchPriority = 'high';
             document.head.appendChild(link);
         })();
     </script>
 
-    <meta http-equiv="Cache-Control" content="public, max-age=86400">
-
     <link rel="canonical" href="https://www.cras.company/">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="/fonts.css?v=1.0.0">
 
-    <!-- Normalize CSS — корректное ленивое подключение -->
+    <!-- Normalize CSS (CDN — versioning не нужен) -->
     <link rel="preload"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         as="style"
         onload="this.onload=null;this.rel='stylesheet'">
 
     <noscript>
-    <link rel="stylesheet"
+        <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     </noscript>
 
-    <link rel="stylesheet" href="./css/slider.css">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="icon" href="./fav.ico" type="image/x-icon">
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="/css/slider.css?v=1.0.0">
+    <link rel="stylesheet" href="/css/main.min.css?v=1.0.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/fav.ico?v=1.0.0" type="image/x-icon">
 
     <!-- Код Pixel от TikTok -->
     <script>
@@ -87,7 +90,7 @@
 
         gtag('config', 'G-48VFQ6KDMV');
     </script>
-
+    
     <!-- Meta Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -104,9 +107,11 @@
         fbq('init', '844343674090688');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=844343674090688&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
+
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=844343674090688&ev=PageView&noscript=1" />
+    </noscript>
 </head>
 
 <body>

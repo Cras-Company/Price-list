@@ -1,6 +1,6 @@
-import { createCrasoriaKeyMarkup } from './markups.js';
-import { refs, onOpenModal, onCloseModal } from './modal.js';
-import { crasoriaKeys } from './array-crasoria-keys.js';
+import { createCrasoriaKeyMarkup } from '../markups.js';
+import { refs, onOpenModal, onCloseModal } from '../modal.js';
+import { crasoriaKeys } from './index.js?v=2026-02-05-v.1';
 
 const form     = document.querySelector('.js-key__form');
 const keyInput = document.querySelector('.js-input-key-search');
