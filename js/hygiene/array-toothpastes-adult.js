@@ -203,7 +203,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подаруйте собі посмішку Вашої мрії та спробуйте зубну пасту &#171Beauty Smile - Whitening&#187 вже сьогодні!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_zahncreme_antibakteriell_125.jpg",
@@ -221,8 +221,9 @@ export const shopLotsToothpastesAdult = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "125 мл.",
-        priceGRN: 77,
-        priceGRNOpt: 70,
+        priceGRN: "--",
+        priceGRNOpt: 77,
+
         description01: "Зубний крем &#171Dontodent - Zahncreme Antibakteriell&#187 забезпечує ефективний захист ротової порожнини завдяки фтору та антибактеріальному цинку.",
         description02: "Формула активно бореться з бактеріями, зміцнює емаль та підходить навіть для чутливих ясен.",
         description03: "Свіжий м’ятний смак &#171Dontodent - Zahncreme Antibakteriell&#187 дарує приємне відчуття чистоти та довготривалу свіжість подиху.",
