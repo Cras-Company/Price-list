@@ -688,4 +688,17 @@ export const crasoriaKeys = [
         order_date: "2026.02.04",
         parent_key: "CRAS",
     },
+    {
+        number: "00054",
+        personal_key: "RVD628",
+        status: "БРОНЗА",
+        name: "Віталій",
+        tel:"+380976644494",
+        number_of_referrals: 0,
+        discount: "3 %",
+        wallet_balance: 0,
+        total_amount: 0,
+        order_date: "2026.02.10",
+        parent_key: "CRAS",
+    },
 ]
