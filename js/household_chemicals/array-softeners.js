@@ -718,7 +718,7 @@ export const shopLotsSofteners = [
         description05: "Перетворіть своє прання на справжню насолоду - придбайте &#171Felce Azzurra - Lavender And Iris&#187 вже зараз!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/felce_azzurra_original_40.jpg",
@@ -736,8 +736,8 @@ export const shopLotsSofteners = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 214,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 264,
         description01: "Представляємо Вам ополіскувач класичного аромату &#171Felce Azzurra - Original&#187. Його неповторний запах перенесе Вас на вулиці старовинного італійського міста.",
         description02: "Завдяки унікальній формулі, ополіскувач не лише додає неповторний аромат білизні, але й надає м'якість та приємний відчуття на шкірі.",
         description03: "Після кожного прання з &#171Felce Azzurra - Original&#187 Ви будете відчувати себе в італійському сонячному саду, оточеному свіжістю та ароматом.",

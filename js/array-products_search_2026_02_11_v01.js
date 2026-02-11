@@ -24,7 +24,7 @@ import {
 import {
   shopLotsNewItems,
   shopLotsSale
-} from "./new_items_sale/index.js?v=2026-02-10-v.1";
+} from "./new_items_sale/index.js?v=2026-02-11-v.1";
 
 // Продукты
 import {
@@ -116,7 +116,7 @@ import {
   shopLotsFabricFresheners,
   shopLotsAntiSmells,
   shopLotsBathBombs
-} from "./household_chemicals/index.js?v=2026-02-10-v.1";
+} from "./household_chemicals/index.js?v=2026-02-11-v.1";
 
 // Хозяйственные товары
 import {
