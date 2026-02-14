@@ -63,7 +63,7 @@ import {
   shopLotsMustard,
   shopLotsSauces,
   shopLotsSeasonings
-} from "./food/index.js?v=2026-02-10-v.1";
+} from "./food/index.js?v=2026-02-14-v.1";
 
 // Средства гигиены
 import {

@@ -116,7 +116,7 @@ export const shopLotsTPThreeLayer = [
         description05: "Скористайтесь &#171Ooops! - Everyday Sensitive&#187 для щоденного догляду, якому можна довіряти!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "toilet-papers",
         url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_camomile_16.jpg",
@@ -134,8 +134,8 @@ export const shopLotsTPThreeLayer = [
         countryName: "Угорщина",
         quantityName: "Кількість",
         quantity: "16 шт.",
-        priceGRN: 319,
-        priceGRNOpt: 288,
+        priceGRN: "--",
+        priceGRNOpt: 319,
         description01: "&#171Ooops! - Exellence Camomile&#187 — тришаровий туалетний папір з ніжним ароматом ромашки для щоденного комфорту.",
         description02: "М’яка текстура та щільна структура забезпечують делікатне очищення і приємні відчуття.",
         description03: "Аромат ромашки &#171Ooops! - Exellence Camomile&#187 додає відчуття свіжості та турботи у кожен момент.",
@@ -143,7 +143,7 @@ export const shopLotsTPThreeLayer = [
         description05: "Скористайтесь &#171Ooops! - Exellence Camomile&#187 для м’якості, яку Ви відчуєте з першого дотику!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "toilet-papers",
         url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_lotion_16.jpg",
@@ -161,8 +161,8 @@ export const shopLotsTPThreeLayer = [
         countryName: "Угорщина",
         quantityName: "Кількість",
         quantity: "16 шт.",
-        priceGRN: 319,
-        priceGRNOpt: 288,
+        priceGRN: "--",
+        priceGRNOpt: 319,
         description01: "Відкрийте для себе м'якість і турботу з тришаровим туалетним папером &#171Ooops! - Exellence Lotion&#187, який забезпечує винятковий комфорт.",
         description02: "Насичений лосьйоном, цей папір дарує Вашій шкірі ніжність і зволоження при кожному використанні.",
         description03: "Завдяки своїй міцності та делікатності, &#171Ooops! - Exellence Lotion&#187 ідеально підходить для чутливої шкіри, забезпечуючи відчуття свіжості та чистоти.",
