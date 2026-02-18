@@ -1047,7 +1047,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Замовте &#171Morning Fresh - Super Corcentrated Sweet Pea & Freesia&#187 зараз і відчуйте справжню чистоту з кожним миттям!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/morning_fresh_tropical_crash_900.jpg",
@@ -1065,8 +1065,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "900 мл.",
-        priceGRN: 187,
-        priceGRNOpt: 169,
+        priceGRN: "--",
+        priceGRNOpt: 187,
         description01: "Концентрований засіб для миття посуду &#171Morning Fresh - Super Corcentrated Tropical Crush&#187 вибухає ароматом екзотичних фруктів та кришталевою чистотою.",
         description02: "Його потужна формула легко розщеплює жир і залишки їжі навіть у холодній воді, залишаючи блиск без зусиль.",
         description03: "Одна крапля &#171Morning Fresh - Super Corcentrated Tropical Crush&#187 вистачає надовго, а яскравий фруктовий аромат додає миттю посуду приємного настрою.",

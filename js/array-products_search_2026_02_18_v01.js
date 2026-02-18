@@ -89,7 +89,7 @@ import {
   shopLotsIntimHygiene,
   shopLotsPantyliner,
   shopLotsTPThreeLayer
-} from "./hygiene/index.js?v=2026-02-12-v.1";
+} from "./hygiene/index.js?v=2026-02-18-v.1";
 
 // Бытовая химия
 import {
@@ -116,7 +116,7 @@ import {
   shopLotsFabricFresheners,
   shopLotsAntiSmells,
   shopLotsBathBombs
-} from "./household_chemicals/index.js?v=2026-02-12-v.1";
+} from "./household_chemicals/index.js?v=2026-02-18-v.1";
 
 // Хозяйственные товары
 import {

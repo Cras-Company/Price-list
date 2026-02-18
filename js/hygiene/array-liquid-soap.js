@@ -696,7 +696,7 @@ export const shopLotsLiquidSoap = [
         description05: "Додайте &#171Milmil - Sapone Liquido Con Antibatterico Naturale&#187 до щоденної гігієни для впевненості та чистоти!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_argan_miele_2l.jpg",
@@ -714,7 +714,7 @@ export const shopLotsLiquidSoap = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 195,
+        priceGRN: "--",
         priceGRNOpt: 176,
         description01: "&#171Milmil - Sapone Liquido Argan & Miele&#187 - вищий ступінь розкішного догляду за шкірою, створений на основі арганової олії та меду. Це не просто мило, це ароматний еліксир, що робить кожен момент приємним для вашої шкіри.",
         description02: "Підкресліть інтерес до неймовірних властивостей арганової олії та меду, які дарують вашій шкірі розкішне зволоження та живлення. Це мило не лише очищає, але й збагачує вашу шкіру витонченим дотиком екзотичних компонентів.",
@@ -723,7 +723,7 @@ export const shopLotsLiquidSoap = [
         description05: "Подаруйте своїй шкірі приховану розкіш разом з &#171Milmil - Sapone Liquido Argan & Miele&#187, яка зачаровує з першого дотику!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_cocco_vaniglia_2l.jpg",
@@ -741,7 +741,7 @@ export const shopLotsLiquidSoap = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2 л.",
-        priceGRN: 195,
+        priceGRN: "--",
         priceGRNOpt: 176,
         description01: "Додайте своїй шкірі розкішне відчуття екзотичного догляду за допомогою рідкого мила &#171Milmil - Sapone Liquido Cocco & Vaniglia&#187. Це мило не лише очищає, але і привносить насичений аромат кокосу та ванілі.",
         description02: "Заплутайтеся у світі солодкого аромату ванілі та екзотичного кокоса, які об'єднуються у цьому милі. Його текстура, насичена ароматами, робить кожен душ витонченим ритуалом, а шкіра відчуває неймовірну м'якість та гладкість.",

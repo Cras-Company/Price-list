@@ -1,4 +1,4 @@
-import { arrayOfProducts } from './array-products_search_2026_02_14_v02.js';
+import { arrayOfProducts } from './array-products_search_2026_02_18_v01.js';
 
 import {
   createMobileListItemsMarkup,

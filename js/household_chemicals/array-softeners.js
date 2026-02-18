@@ -1301,7 +1301,7 @@ export const shopLotsSofteners = [
         description05: "Подаруйте своєму одягу новий рівень догляду і комфорту з &#171La Salud - Spa Suavizante Concentrado&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/la_salud_talco_1350.jpg",
@@ -1321,7 +1321,7 @@ export const shopLotsSofteners = [
         countryName: "Іспанія",
         volumeName: "Об'єм",
         volume: "1350 мл.",
-        priceGRN: 181,
+        priceGRN: "--",
         priceGRNOpt: 163,
         description01: "&#171La Salud - Talco Suavizante Concentrado&#187 — концентрований пом’якшувач для білизни з ніжним ароматом тальку.",
         description02: "Його формула робить тканини м’якими, зручними у носінні та приємними на дотик після кожного прання.",
