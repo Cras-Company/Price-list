@@ -10,13 +10,13 @@ import {
 } from './modal.js'
 
 // Ключи Craroria
-import { crasoriaKeys } from './crasoria/index.js?v=2026-02-05-v.1';
+import { crasoriaKeys } from './crasoria/index.js?v=2026-02-27-v.1';
 
 // Новинки и акции
 import {
   shopLotsNewItems,
   shopLotsSale
-} from "./new_items_sale/index.js?v=2026-02-05-v.1";
+} from "./new_items_sale/index.js?v=2026-02-27-v.1";
 
 // Продукты
 import {
@@ -55,7 +55,7 @@ import {
   shopLotsMustard,
   shopLotsSauces,
   shopLotsSeasonings
-} from "./food/index.js?v=2026-02-05-v.1";
+} from "./food/index.js?v=2026-02-27-v.1";
 
 // Средства гигиены
 import {
@@ -81,7 +81,7 @@ import {
   shopLotsIntimHygiene,
   shopLotsPantyliner,
   shopLotsTPThreeLayer
-} from "./hygiene/index.js?v=2026-02-05-v.1";
+} from "./hygiene/index.js?v=2026-02-27-v.1";
 
 // Бытовая химия
 import {
@@ -108,7 +108,7 @@ import {
   shopLotsFabricFresheners,
   shopLotsAntiSmells,
   shopLotsBathBombs
-} from "./household_chemicals/index.js?v=2026-02-05-v.1";
+} from "./household_chemicals/index.js?v=2026-02-27-v.1";
 
 // Хозяйственные товары
 import {
@@ -119,7 +119,7 @@ import {
   shopLotsPaperTowelsTwoLayer,
   shopLotsPaperTowelsThreeLayer,
   shopLotsUniversalTowels
-} from "./household_products/index.js?v=2026-02-05-v.1";
+} from "./household_products/index.js?v=2026-02-27-v.1";
 
 const arrayOfProducts = [
   { items: shopLotsNewItems, },

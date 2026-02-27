@@ -170,7 +170,7 @@ export const shopLotsTPThreeLayer = [
         description05: "Замовляйте вже сьогодні &#171Ooops! - Exellence Lotion&#187 і насолоджуйтеся розкішною м'якістю та турботою щодня!"
     },
     {
-        type: "only-wholesale оптом",
+        type: "wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "toilet-papers",
         url: "./images/shop/gigiena/toilet_paper/three_layer/ooops_exellence_sensitive_16.jpg",
@@ -188,7 +188,7 @@ export const shopLotsTPThreeLayer = [
         countryName: "Угорщина",
         quantityName: "Кількість",
         quantity: "16 шт.",
-        priceGRN: "--",
+        priceGRN: 354,
         priceGRNOpt: 319,
         description01: "Відчуйте розкішну м'якість з тришаровим туалетним папером &#171Ooops! - Exellence Sensitive&#187, створеним для найніжнішої турботи.",
         description02: "Цей папір спеціально розроблений для чутливої шкіри, забезпечуючи делікатний догляд без подразнень.",

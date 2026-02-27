@@ -1796,7 +1796,7 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         description05: "Використайте &#171Denkmit - Hygienereineger Küche & Kühlschrank&#187, щоб підтримувати ідеальну чистоту та гігієну на кухні щодня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/kitchen_bathroom/denkmit_backofen_und_grillreiniger_500.jpg",
@@ -1814,8 +1814,8 @@ export const shopLotsMeansCleaningKitchenBathroom = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 156,
-        priceGRNOpt: 141,
+        priceGRN: "--",
+        priceGRNOpt: 156,
         description01: "Засіб для чищення духовок та гриллів &#171Denkmit - Backofen- Und Grillreiniger Mit Aktiv-Schaum&#187 – це потужне рішення для видалення стійкого жиру та нагару.",
         description02: "Активна піна глибоко проникає у забруднення, розчиняючи навіть пригорілі залишки без зусиль.",
         description03: "Формула &#171Denkmit - Backofen- Und Grillreiniger Mit Aktiv-Schaum&#187 ефективно очищає духовки, грилі, решітки та дека, залишаючи поверхні сяючими без потреби в інтенсивному терті.",

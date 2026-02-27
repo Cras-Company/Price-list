@@ -295,7 +295,7 @@ export const shopLotsWashingPowders = [
         description05: "Спробуйте пральний порошок &#171Denkmit - Colorwaschmittel Classic Für Leuchtende Farben&#187 і переконайтеся самі, як ваша одежа стає більш яскравою і свіжою!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_weiss_1.35.jpg",
@@ -317,7 +317,7 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1.35 кг.",
-        priceGRN: 291,
+        priceGRN: "--",
         priceGRNOpt: 262,
         description01: "&#171Denkmit - Vollwaschmittel Für Strahlendes Weiss&#187 - це секрет білосніжності та яскравості вашого одягу. Цей потужний пральний порошок спеціально розроблений для надання вашим речам бездоганної чистоти та свіжості.",
         description02: "Його унікальна формула забезпечує ефективне видалення навіть найтвердіших плям та забруднень, зберігаючи водостійкість кольорів і довговічність тканини.",
