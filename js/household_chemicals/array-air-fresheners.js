@@ -162,7 +162,7 @@ export const shopLotsAirFresheners = [
         description05: "Відчуйте чарівність райських квітів з &#171Brait - Aqua Spray Magic Mist Paradise Flowers&#187 і наповніть свій дім неповторною свіжістю!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425.jpg",
@@ -180,8 +180,8 @@ export const shopLotsAirFresheners = [
         countryName: "Польща",
         volumeName: "Об'єм",
         volume: "425 мл.",
-        priceGRN: 83,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 100,
         description01: "Відчуйте чистоту та свіжість весни з освіжувачем повітря &#171Brait - Aqua Spray Magic Mist White Flowers&#187.",
         description02: "Його ніжний аромат білих квітів наповнить Ваш дім легкістю та гармонією, створюючи ідеальну атмосферу затишку.",
         description03: "Інноваційна формула &#171Brait - Aqua Spray Magic Mist White Flowers&#187 забезпечує тривале збереження аромату, який рівномірно розподіляється по всьому приміщенню.",

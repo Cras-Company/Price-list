@@ -33,7 +33,7 @@ export const shopLotsCleaningSponges = [
         description05: "Додайте &#171Scrub Daddy - Sponge Daddy&#187 до щоденного прибирання, щоб поєднати комфорт, універсальність і стабільну чистоту без зайвих зусиль!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/cleaning_sponges/scrub_daddy_damp_duster_blue_1.jpg",
@@ -55,8 +55,8 @@ export const shopLotsCleaningSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 254,
-        priceGRNOpt: 229,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Ребриста губка &#171Scrub Daddy - Damp Duster&#187 створена для швидкого прибирання пилу та дрібного бруду з будь-яких поверхонь.",
         description02: "Її унікальна текстура ефективно вловлює частинки пилу, волосся та ворс, не залишаючи слідів та подряпин.",
         description03: "&#171Scrub Daddy - Damp Duster&#187 можна використовувати багаторазово — достатньо змочити водою, щоб відновити її очищувальні властивості.",
@@ -64,7 +64,7 @@ export const shopLotsCleaningSponges = [
         description05: "Використайте &#171Scrub Daddy - Damp Duster&#187, щоб прибирати легко, швидко та без потреби у додаткових засобах!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/cleaning_sponges/scrub_daddy_damp_duster_yellow_1.jpg",
@@ -86,8 +86,8 @@ export const shopLotsCleaningSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 254,
-        priceGRNOpt: 229,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Ребриста губка &#171Scrub Daddy - Damp Duster&#187 створена для швидкого прибирання пилу та дрібного бруду з будь-яких поверхонь.",
         description02: "Її унікальна текстура ефективно вловлює частинки пилу, волосся та ворс, не залишаючи слідів та подряпин.",
         description03: "&#171Scrub Daddy - Damp Duster&#187 можна використовувати багаторазово — достатньо змочити водою, щоб відновити її очищувальні властивості.",
@@ -95,7 +95,7 @@ export const shopLotsCleaningSponges = [
         description05: "Використайте &#171Scrub Daddy - Damp Duster&#187, щоб прибирати легко, швидко та без потреби у додаткових засобах!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/cleaning_sponges/scrub_daddy_damp_duster_pink_1.jpg",
@@ -117,8 +117,8 @@ export const shopLotsCleaningSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 254,
-        priceGRNOpt: 229,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Ребриста губка &#171Scrub Daddy - Damp Duster&#187 створена для швидкого прибирання пилу та дрібного бруду з будь-яких поверхонь.",
         description02: "Її унікальна текстура ефективно вловлює частинки пилу, волосся та ворс, не залишаючи слідів та подряпин.",
         description03: "&#171Scrub Daddy - Damp Duster&#187 можна використовувати багаторазово — достатньо змочити водою, щоб відновити її очищувальні властивості.",
@@ -126,7 +126,7 @@ export const shopLotsCleaningSponges = [
         description05: "Використайте &#171Scrub Daddy - Damp Duster&#187, щоб прибирати легко, швидко та без потреби у додаткових засобах!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/universal_sponges/scrub_daddy_original_1.jpg",
@@ -148,8 +148,8 @@ export const shopLotsCleaningSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 204,
-        priceGRNOpt: 184,
+        priceGRN: "--",
+        priceGRNOpt: 220,
         description01: "Універсальна губка &#171Scrub Daddy - The Original&#187 поєднує ефективність, довговічність та зручність у кожному русі.",
         description02: "Її інноваційний матеріал FlexTexture змінює жорсткість залежно від температури води: м’яка у теплій та тверда у холодній.",
         description03: "Завдяки ергономічній формі у вигляді усмішки &#171Scrub Daddy - The Original&#187 легко очищає різні поверхні, не дряпаючи їх і не вбираючи запахи.",

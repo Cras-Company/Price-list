@@ -27,7 +27,7 @@ export const shopLotsMeansCleaningDishwashers = [
     //     description05: "Дбайте про свою посудомийну машину з &#171at home Clean - Dishwasher Cleaner&#187 вже сьогодні!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_bugelwasser_1l.jpg",
@@ -45,8 +45,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 79,
-        priceGRNOpt: 72,
+        priceGRN: "--",
+        priceGRNOpt: 89,
         description01: "Вода для прасування &#171Denkmit - Bügelwasser Frischer Duft&#187 з ароматом свіжості робить одяг ідеально гладким, наповнюючи його ніжним ароматом.",
         description02: "Кожне натискання праски дарує легкий аромат чистоти, створюючи відчуття свіжості на тривалий час.",
         description03: "Формула &#171Denkmit - Bügelwasser Frischer Duft&#187 запобігає утворенню вапняного нальоту, захищаючи праску та покращуючи якість прасування.",
@@ -232,7 +232,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Обирайте &#171Denkmit - Maschinenpfleger&#187 – надійний захист та ефективне очищення для бездоганної роботи Вашої посудомийної машини!!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_hygiene_waschmaschinen_pflege_reiniger_v01_250.jpg",
@@ -250,8 +250,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "250 мл.",
-        priceGRN: 149,
-        priceGRNOpt: 135,
+        priceGRN: "--",
+        priceGRNOpt: 155,
         description01: "&#171Denkmit - Hygiene Waschmaschinen-Pflege-Reiniger&#187 - надійний дезінфектор для Вашої пральної машини з ефектом антикальк.",
         description02: "Його можна використовувати як для глибокого очищення, так і додавати під час кожного прання для профілактики.",
         description03: "&#171Denkmit - Hygiene Waschmaschinen-Pflege-Reiniger&#187 ефективно видаляє вапняний наліт, залишки мийних засобів та нейтралізує неприємні запахи.",

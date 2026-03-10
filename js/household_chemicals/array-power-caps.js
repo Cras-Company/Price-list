@@ -166,7 +166,7 @@ export const shopLotsPowerCaps = [
         quantityName: "Кількість",
         quantity: "65 шт.",
         priceGRN: 817,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "&#171Ariel - All in 1 PODS Color&#187 - потужність, яка перетворить Ваше прання на справжнє мистецтво. Завдяки інноваційній технології, капсули забезпечують не тільки бездоганне прання, але і захист кольорів вашого одягу.",
         description02: "Речовина проникає глибоко у тканини, видаляючи навіть найскладніші забруднення та зберігаючи насиченість кольорів.",
         description03: "Бажаєте мати завжди яскравий і непорушний одяг? Це можливо з пральними капсулами &#171Ariel - All in 1 PODS Color&#187. Відчуйте різницю і дозвольте своїй одежі блищати яскравіше, ніж будь-коли.",
@@ -340,7 +340,7 @@ export const shopLotsPowerCaps = [
     //     description05: "&#171Bio Presto - Power Caps Color 3 + 1&#187 - і ви будете впевнені в бездоганно чистому та доглянутому одязі, який буде вас радувати своєю красою кожен день."
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/coccolino_washing_capsules_black_40.jpg",
@@ -364,8 +364,8 @@ export const shopLotsPowerCaps = [
         countryName: "Нідерланди",
         quantityName: "Кількість",
         quantity: "40 шт.",
-        priceGRN: 565,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 565,
         description01: "&#171Coccolino - Washing Capsules Black 3 in 1&#187 забезпечують дбайливий догляд за Вашими чорними та темними речами.",
         description02: "Їх унікальна формула поєднує три ключові функції: ретельне очищення, захист кольору та догляд за тканиною, щоб Ваш одяг залишався як новий.",
         description03: "&#171Coccolino - Washing Capsules Black 3 in 1&#187 ефективно видаляють забруднення, не пошкоджуючи структуру тканин і зберігаючи насиченість темних відтінків.",

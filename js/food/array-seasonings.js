@@ -185,7 +185,7 @@ export const shopLotsSeasonings = [
         description05: "Не вагайтеся - спробуйте цю неперевершену гостру приправу &#171Univer - Piros Arany Сsípős&#187 вже сьогодні та почніть насолоджуватися яскравим смаком та ароматом, які вона подарує вашим стравам."
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_anna_200.jpg",
@@ -205,8 +205,8 @@ export const shopLotsSeasonings = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 81,
-        priceGRNOpt: 73,
+        priceGRN: "--",
+        priceGRNOpt: 81,
         description01: "Прихопіть смаковий трофей! &#171Univer - Édes Anna&#187 - солодкий мелений перець, що розкриє ваші кулінарні таємниці і надасть вашим стравам неповторний аромат і смак.",
         description02: "Цей перець додає нотку солодкості та аромату у будь-яку страву. Відкрийте для себе його унікальні кулінарні можливості та використовуйте у супах, соусах та салатах.",
         description03: "Бажаєте вражати гостей неперевершеним смаком? &#171Univer - Édes Anna&#187 витончено поєднується з різноманітністю страв, надаючи їм особливий шарм і неповторний смак.",

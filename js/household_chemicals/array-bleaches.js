@@ -375,7 +375,7 @@ export const shopLotsBleaches = [
     //     description05: "Обирайте &#171Chanteclair - Sgrassatore Con Candeggina Fresco Profumo&#187 – чистоту, свіжість та бездоганний догляд у кожному застосуванні!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/stain_removers/denkmit_power_weiss_oxi_power_750.jpg",
@@ -395,8 +395,8 @@ export const shopLotsBleaches = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "750 гр.",
-        priceGRN: 223,
-        priceGRNOpt: 201,
+        priceGRN: "--",
+        priceGRNOpt: 223,
         description01: "&#171Denkmit - Power-Weiss Oxi Power&#187 — потужний засіб для виведення плям з білих речей, що повертає їм первинну яскравість.",
         description02: "Формула з активним киснем ефективно усуває забруднення, антисивину та запахи вже з першого прання.",
         description03: "Безпечний склад &#171Denkmit - Power-Weiss Oxi Power&#187 без барвників і консервантів працює як підсилювач прального засобу або для попередньої обробки.",

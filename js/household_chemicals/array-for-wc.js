@@ -251,7 +251,7 @@ export const shopLotsForWC = [
         description05: "Ваш туалет буде наповнений приємним ароматом, тому спробуйте &#171Brait - Cistern Block Green Water Effect&#187 для неперевершеної чистоти та свіжості!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_lilac_garden_3x45.jpg",
@@ -270,7 +270,7 @@ export const shopLotsForWC = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 122,
-        priceGRNOpt: 110,
+        quantityOnStorage: 1,
         description01: "&#171Brait - Lilac Garden&#187 здивує Вас своєю потужністю та ароматом. Цей засіб проникає навіть у важкодоступні місця та ефективно видаляє вапняний нальот, залишаючи ваш туалет блискучим і свіжим.",
         description02: "Він не лише робить чистку легшою і швидшою, а й забезпечує приємний аромат, який легко розповсюджується по всьому приміщенню, надаючи приємний запах.",
         description03: "Спробуйте &#171Brait - Lilac Garden&#187 і відчуйте, як Ваш туалет стає місцем, куди хочеться повертатися знову і знову.",
@@ -278,7 +278,7 @@ export const shopLotsForWC = [
         description05: "Очистіть свій туалет від вапняного нальоту з &#171Brait - Lilac Garden&#187 сьогодні, і насолоджуйтесь чистотою та свіжістю в вашій ванній кімнаті!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_oceanic_3x45.jpg",
@@ -296,8 +296,8 @@ export const shopLotsForWC = [
         countryName: "Польща",
         quantityName: "Кількість",
         quantity: "3 шт.",
-        priceGRN: 122,
-        priceGRNOpt: 110,
+        priceGRN: "--",
+        priceGRNOpt: 140,
         description01: "Представляємо вам революційний засіб для чищення туалету - &#171Brait - Oceanic&#187. Забудьте про проблему вапняного нальоту та насолоджуйтеся бездоганною чистотою.",
         description02: "Його спеціальна формула не лише ефективно видаляє вапняний нальот, але також залишає приємний аромат свіжості, що надає туалету атмосферу чистоти.",
         description03: "Мрієте про те, щоб Ваш туалет завжди був ідеально чистим і приємно пахнучим? &#171Brait - Oceanic&#187 робить Ваші мрії реальністю, забезпечуючи найвищу якість чистоти та свіжості.",
@@ -305,7 +305,7 @@ export const shopLotsForWC = [
         description05: "Допоможіть Вашому туалету стати місцем чистоти та свіжості, без сліду від вапняного нальоту разом з &#171Brait - Oceanic&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "retail",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/brait_pine_3x45.jpg",
@@ -324,7 +324,7 @@ export const shopLotsForWC = [
         quantityName: "Кількість",
         quantity: "3 шт.",
         priceGRN: 122,
-        priceGRNOpt: 110,
+        quantityOnStorage: 2,
         description01: "Шукаєте ефективний засіб для чищення туалету та боротьби з вапняним нальотом? Ознайомтеся з &#171Brait - Pine&#187, Вашим надійним помічником у цій справі.",
         description02: "Цей засіб не лише чудово видаляє вапняний нальот, але й має приємний аромат сосни, який створить атмосферу свіжості у Вашому туалеті.",
         description03: "Мрієте про бездоганну чистоту та відсутність вапняного нальоту у туалеті? &#171Brait - Pine&#187 здійснить Ваші найсміливіші бажання, залишаючи поверхні блискучими та чистими.",
@@ -656,7 +656,7 @@ export const shopLotsForWC = [
         description05: "Надай своєму дому аромат весни з &#171Denkmit - Allzweckreiniger Frühlings-Moment&#187, і твоя домівка буде пахнути ніжними квітами і випромінювати чистоту та затишок!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",    
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/denkmit_limetten_zuber_1l.jpg",
@@ -674,8 +674,8 @@ export const shopLotsForWC = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 91,
-        priceGRNOpt: 82,
+        ppriceGRN: "--",
+        priceGRNOpt: 100,
         description01: "&#171Denkmit - Allzweckreiniger Limetten-Zauber&#187 - твоя таємниця чистоти і свіжості у кожному куточку дому. Цей універсальний засіб забезпечує потужну дію при прибиранні, митті та дезінфекції різних поверхонь.",
         description02: "Запах свіжих лаймів заряджає домівку енергією, а його надійна формула легко впорається з навіть найскладнішими забрудненнями, залишаючи поверхні бездоганними та блискучими.",
         description03: "&#171Denkmit - Allzweckreiniger Limetten-Zauber&#187 має високу ефективність в дії проти бактерій та вірусів, забезпечуючи свіжість і чистоту. Зручна упаковка дозволяє економно використовувати засіб і забезпечує довгий термін його використання.",
@@ -683,7 +683,7 @@ export const shopLotsForWC = [
         description05: "Підкори світ чистоти і аромату з &#171Denkmit - Allzweckreiniger Limetten-Zauber&#187, і твоя домівка завжди буде сяяти чистотою та приємним ароматом лайма!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",    
         url: "./images/shop/household_chemicals/means_for_cleaning/for_wc/denkmit_wc_reineiger_1l.jpg",
@@ -701,8 +701,8 @@ export const shopLotsForWC = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 86,
-        priceGRNOpt: 78,
+        priceGRN: "--",
+        priceGRNOpt: 96,
         description01: "Знайомтесь із чудодійним засобом для чищення унітазів &#171Denkmit - WC Reiniger Gel Ozean Frische&#187. Завдяки інноваційній формулі, він ефективно усуває бруд та неприємні запахи, перетворюючи ванну кімнату у куточок свіжості.",
         description02: "Аромат океану подарує Вашому унітазу неймовірну свіжість та бездоганну чистоту. Спробуйте його один раз - і Ви залишитесь вражені результатом!",
         description03: "Ідеальна чистота, об'єднана з приємним ароматом - ось що робить &#171Denkmit - WC Reiniger Gel Ozean Frische&#187 чудовим вибором для догляду за Вашою ванною кімнатою. Почуття свіжості, яке Ви будете відчувати, зробить цей засіб для чищення унітазів Вашим улюбленим.",

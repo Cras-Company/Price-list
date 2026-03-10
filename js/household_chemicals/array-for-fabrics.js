@@ -27,7 +27,7 @@ export const shopLotsForFabrics = [
         description05: "Покращте атмосферу у своєму домі та надайте речам новий вигляд з &#171Denkmit - Textilerfrischer 3 in 1&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_fabrics/dr.beckmann_intensiv_entfarber_200.jpg",
@@ -47,8 +47,8 @@ export const shopLotsForFabrics = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 125,
-        priceGRNOpt: 113,
+        priceGRN: "--",
+        priceGRNOpt: 125,
         description01: "Порошок &#171Dr. Beckmann - Intensiv Entfärber&#187 створений для відновлення яскравості тканин і боротьби з небажаними кольоровими плямами, що псують вигляд улюбленого одягу.",
         description02: "Спеціальна формула активно працює з фарбовими переносами та сторонніми відтінками, допомагаючи повернути тканинам первісний колір без агресивного впливу на волокна.",
         description03: "&#171Dr. Beckmann - Intensiv Entfärber&#187 дозволяє врятувати речі, які здавалися зіпсованими, зберігаючи їхню структуру, м’якість та охайний зовнішній вигляд.",

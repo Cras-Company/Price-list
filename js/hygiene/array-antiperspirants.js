@@ -1,6 +1,6 @@
 export const shopLotsAntiperspirants = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "deo-anti",
         url: "./images/shop/gigiena/deo_anti/antiperspirants/balea_anti_transpirant_5_in_1_protection_50.jpg",
@@ -18,8 +18,8 @@ export const shopLotsAntiperspirants = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "50 мл.",
-        priceGRN: 60,
-        priceGRNOpt: 54,
+        priceGRN: "--",
+        priceGRNOpt: 60,
         description01: "&#171Balea - Anti-Transpirant 5 in 1 Protection&#187 — надійний антиперспірант, що дарує свіжість та впевненість до 48 годин.",
         description02: "Формула без спирту та етанолу дбайливо захищає шкіру, запобігаючи подразненням.",
         description03: "&#171Balea - Anti-Transpirant 5 in 1 Protection&#187 ефективно бореться з потом, не залишає білого нальоту та жовтих плям на одязі.",

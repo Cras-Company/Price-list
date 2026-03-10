@@ -195,7 +195,7 @@ export const shopLotsSprats = [
         description05: "Замовте копчені шпроти у томатному соусі &#171M & K - Szproty Wedzone W Sosie Pomidorowym&#187 зараз і відкрийте для себе світ аутентичних смакових вражень!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",       
         url: "./images/shop/food/canned_food/sprats/marinero_szprot_w_sosie_pomidorowym_170.jpg",
@@ -213,8 +213,8 @@ export const shopLotsSprats = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 54,
-        priceGRNOpt: 49,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171Marinero - Szprot W Sosie Pomidorowym&#187 — це класичний смак моря з додаванням соковитого соусу для яскравого поєднання.",
         description02: "Натуральне філе шпротів поєднується з густим томатним соусом, створюючи ніжну текстуру та насичений смаковий баланс.",
         description03: "&#171Marinero - Szprot W Sosie Pomidorowym&#187 ідеально підходять для швидких перекусів, бутербродів або легких страв без зайвих клопотів",

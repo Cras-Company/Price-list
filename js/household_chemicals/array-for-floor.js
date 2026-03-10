@@ -218,7 +218,7 @@ export const shopLotsForFloor = [
         weightName: "Вага",
         weight: "24 гр.",
         priceGRN: 21,
-        quantityOnStorage: 18,
+        quantityOnStorage: 4,
         description01: "Оживіть Ваш дім природною чистотою з екологічним засобом для миття підлоги &#171Ace - Pavimenti Eco-Ricarica Freschezza Floreale&#187 - екологічно чистий продукт, який піклується про Вас та довкілля.",
         description02: "Ефективно видаляє бруд і залишає підлоги блискучими. Його натуральна формула з квітковим ароматом створює свіжу та приємну атмосферу у Вашому домі.",
         description03: "Уявіть собі підлоги, які не тільки чисті, але й наповнюють дім природним квітковим ароматом. З &#171Ace - Pavimenti Eco-Ricarica Freschezza Floreale&#187 Ваш дім стане справжнім оазисом свіжості та затишку.",
@@ -226,7 +226,7 @@ export const shopLotsForFloor = [
         description05: "Придбайте &#171Ace - Pavimenti Eco-Ricarica Freschezza Floreale&#187 вже сьогодні і зробіть свій дім чистим та екологічно безпечним!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/astonish_floor_cleaner_peony_bloom_1l.jpg",
@@ -244,8 +244,8 @@ export const shopLotsForFloor = [
         countryName: "Англія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 115,
-        priceGRNOpt: 104,
+        priceGRN: "--",
+        priceGRNOpt: 125,
         description01: "Засіб для миття підлоги &#171Astonish - Floor Cleaner Peony Bloom&#187 завдяки своїй унікальній технології відштовхування бруду зберігає чистоту набагато довше.",
         description02: "Формула легко справляється з пилом, жирними слідами та побутовими забрудненнями, залишаючи поверхню сяючою без додаткових зусиль.",
         description03: "Ніжний аромат півонії у &#171Astonish - Floor Cleaner Peony Bloom&#187 створює відчуття свіжості у домі, перетворюючи звичайне прибирання на приємний ритуал.",
@@ -415,7 +415,7 @@ export const shopLotsForFloor = [
     //     description05: "Насолоджуйтеся легким та приємним прибиранням з &#171Clinair - Allesreiniger Purple Flower&#187, який не лише дарує чистоту, але і підносить настрій своїм неповторним ароматом."
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/chanteclair_sgrassatore_pavimenti_marsiglia_e_limone_750.jpg",
@@ -433,8 +433,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 160,
-        priceGRNOpt: 136,
+        priceGRN: "--",
+        priceGRNOpt: 160,
         description01: "Засіб для миття підлоги &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 - ідеальне поєднання ефективного знежирення та свіжості.",
         description02: "Формула з натуральним марсельським милом глибоко очищає поверхні, видаляючи бруд, жир і плями без зусиль.",
         description03: "Аромат лимона у &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 надає приємну свіжість, а безпечний склад підходить для всіх типів підлог, зберігаючи їхній природний блиск.",
@@ -442,7 +442,7 @@ export const shopLotsForFloor = [
         description05: "Придбайте &#171Chanteclair - Sgrassatore Pavimenti Marsiglia E Limone&#187 – чистота, догляд та натуральна свіжість у кожному митті!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/chanteclair_sgrassatore_pavimenti_muschio_bianco_750.jpg",
@@ -460,8 +460,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "750 мл.",
-        priceGRN: 160,
-        priceGRNOpt: 136,
+        priceGRN: "--",
+        priceGRNOpt: 160,
         description01: "Засіб для миття підлоги &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 - поєднання потужного очищення та вишуканої свіжості.",
         description02: "Формула знежирювача ефективно видаляє бруд, плями та жир, забезпечуючи ідеальну чистоту без зайвих зусиль.",
         description03: "Аромат білого мускусу у &#171Chanteclair - Sgrassatore Pavimenti Muschio Bianco&#187 дарує ніжну та довготривалу свіжість, створюючи атмосферу чистоти та комфорту у домі.",
@@ -577,7 +577,7 @@ export const shopLotsForFloor = [
         description05: "Надай своєму дому аромат весни з &#171Denkmit - Allzweckreiniger Frühlings-Moment&#187, і твоя домівка буде пахнути ніжними квітами і випромінювати чистоту та затишок!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",    
         url: "./images/shop/household_chemicals/means_for_cleaning/universal/denkmit_limetten_zuber_1l.jpg",
@@ -595,8 +595,8 @@ export const shopLotsForFloor = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 91,
-        priceGRNOpt: 82,
+        ppriceGRN: "--",
+        priceGRNOpt: 100,
         description01: "&#171Denkmit - Allzweckreiniger Limetten-Zauber&#187 - твоя таємниця чистоти і свіжості у кожному куточку дому. Цей універсальний засіб забезпечує потужну дію при прибиранні, митті та дезінфекції різних поверхонь.",
         description02: "Запах свіжих лаймів заряджає домівку енергією, а його надійна формула легко впорається з навіть найскладнішими забрудненнями, залишаючи поверхні бездоганними та блискучими.",
         description03: "&#171Denkmit - Allzweckreiniger Limetten-Zauber&#187 має високу ефективність в дії проти бактерій та вірусів, забезпечуючи свіжість і чистоту. Зручна упаковка дозволяє економно використовувати засіб і забезпечує довгий термін його використання.",
@@ -604,7 +604,7 @@ export const shopLotsForFloor = [
         description05: "Підкори світ чистоти і аромату з &#171Denkmit - Allzweckreiniger Limetten-Zauber&#187, і твоя домівка завжди буде сяяти чистотою та приємним ароматом лайма!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",    
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/denkmit_parkettpflege_1l.jpg",
@@ -622,8 +622,8 @@ export const shopLotsForFloor = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 135,
-        priceGRNOpt: 122,
+        priceGRN: "--",
+        priceGRNOpt: 145,
         description01: "Засіб для догляду за паркетом &#171Denkmit - Parkettpflege Mit Carnaubawachs&#187 з карнаубським воском створений, щоб Ваші підлоги сяяли та виглядали як нові.",
         description02: "Карнаубський віск глибоко живить деревину, захищаючи її від зношування та надаючи природний блиск.",
         description03: "Ваш паркет отримає надійний захист з &#171Denkmit - Parkettpflege Mit Carnaubawachs&#187, який продовжить його термін служби, зберігаючи при цьому естетичний вигляд.",
@@ -631,7 +631,7 @@ export const shopLotsForFloor = [
         description05: "Оберіть &#171Denkmit - Parkettpflege Mit Carnaubawachs&#187  для бездоганної турботи про Ваш паркет!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",    
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/denkmit_laminat_und_vinylpflege_1l.jpg",
@@ -649,8 +649,8 @@ export const shopLotsForFloor = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 135,
-        priceGRNOpt: 122,
+        priceGRN: "--",
+        priceGRNOpt: 145,
         description01: "&#171Denkmit - Laminat- Und Vinylpflege&#187 — спеціальний засіб для догляду за підлогою, що зберігає її красу та довговічність.",
         description02: "Формула забезпечує надійний захист від вологи та набряків, не залишаючи слідів і швидко висихає.",
         description03: "&#171Denkmit - Laminat- Und Vinylpflege&#187 підходить для ламінату, вінілу, лінолеуму та навіть дерев’яної підлоги з восковим покриттям.",

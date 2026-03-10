@@ -27,7 +27,7 @@ export const shopLotsIntimHygiene = [
         description05: "Оберіть &#171Dermomed - Detergente Intimo Calendula Con Proprietà Lenitive&#187 для делікатного догляду та комфорту в кожен момент!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "feminine-hygiene",
         url: "./images/shop/gigiena/feminine_hygiene/intim_hugiene/dermomed_intime_wash_fiordaliso_rica_250.jpg",
@@ -45,8 +45,8 @@ export const shopLotsIntimHygiene = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "250 мл.",
-        priceGRN: 122,
-        priceGRNOpt: 110,
+        priceGRN: "--",
+        priceGRNOpt: 140,
         description01: "Відчуйте абсолютний комфорт та свіжість з гелем для інтимної гігієни &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187 з волошкою та провітаміном В5.",
         description02: "Завдяки натуральним властивостям волошки, цей гель забезпечує делікатне очищення та освіжає шкіру.",
         description03: "Провітамін В5 сприяє зволоженню та відновленню природного балансу, залишаючи відчуття свіжості протягом дня після &#171Dermomed - Detergente Intimo Fiordaliso Con Proprietà Rinfrescanti&#187.",

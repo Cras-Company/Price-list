@@ -31,7 +31,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Pulver&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_geschirr_reiniger_all_in_one_30.jpg",
@@ -53,8 +53,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "30 шт.",
-        priceGRN: 284,
-        priceGRNOpt: 256,
+        priceGRN: "--",
+        priceGRNOpt: 284,
         description01: "Екологічні таблетки &#171Denkmit - Geschirr Reiniger All In One&#187 абезпечують повноцінний цикл миття посуду, поєднуючи миючий засіб, ополіскувач та сіль в одному продукті.",
         description02: "Їхня безпечна формула не містить консервантів, барвників, фосфонатів та парфумів, завдяки чому підходить для щоденного використання без шкоди для довкілля та здоров’я.",
         description03: "&#171Denkmit - Geschirr Reiniger All In One&#187 дбайливо захищають скло від помутніння, ефективно видаляють жир і залишки їжі навіть у низькотемпературному режимі.",
@@ -95,7 +95,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Не гайте час на даремні зусилля, а замовляйте &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 вже сьогодні та насолоджуйтеся чистотою та блиском Вашого посуду!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_geschirr_reiniger_40.jpg",
@@ -115,8 +115,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "40 шт.",
-        priceGRN: 318,
-        priceGRNOpt: 287,
+        priceGRN: "--",
+        priceGRNOpt: 318,
         description01: "&#171Denkmit - Geschirr-Reiniger Multi-Power Revolution&#187 — це таблетки для миття посуду нового покоління!",
         description02: "Завдяки унікальній формулі, вони захищають ваше скло, нержавіючу сталь, а також ефективно борються з чайними плямами і запахами.",
         description03: "&#171Denkmit - Geschirr-Reiniger Multi-Power Revolution&#187 працюють навіть при низьких температурах, забезпечуючи ідеальну чистоту без цинку і без шкоди для вашого посуду.",

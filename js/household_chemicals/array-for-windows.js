@@ -27,7 +27,7 @@ export const shopLotsForWindows = [
         description05: "Оберіть &#171Astonish - Window & Class Cleaner With Lemon Oil&#187 для легкого прибирання та кришталевої чистоти Ваших вікон!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_windows/denkmit_glasreiniger_1l.jpg",
@@ -45,8 +45,8 @@ export const shopLotsForWindows = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 92,
-        priceGRNOpt: 83,
+        priceGRN: "--",
+        priceGRNOpt: 98,
         description01: "Засіб для очистки скла &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 з формулою захисту блиску надає Вашим вікнам та дзеркалам кристальну чистоту.",
         description02: "Він ефективно видаляє забруднення, не залишаючи розводів, забезпечуючи довготривале сяйво.",
         description03: "Завдяки спеціальному складу, &#171Denkmit - Glasreiniger Mit Glanzsсhutz-Formel&#187 утворює захисний шар, який допомагає запобігти повторному забрудненню поверхонь.",

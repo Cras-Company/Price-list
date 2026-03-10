@@ -135,7 +135,7 @@ export const shopLotsHairMasks = [
         volumeName: "Об'єм",
         volume: "1000 мл.",
         priceGRN: 235,
-        quantityOnStorage: 6,
+        quantityOnStorage: 1,
         description01: "Маска-крем &#171Serical - Crema Olio Di Semi Di Lino & Carota&#187 з екстрактом моркви та льняної олії створена для інтенсивного догляду за жирним волоссям, надаючи йому здорового блиску.",
         description02: "Її багатий склад ефективно регулює роботу сальних залоз, зберігаючи волосся свіжим і легким протягом усього дня.",
         description03: "Завдяки живильним властивостям моркви та льону у &#171Serical - Crema Olio Di Semi Di Lino & Carota&#187, Ваше волосся отримує необхідне зволоження, стає міцнішим і менш схильним до ламкості.",

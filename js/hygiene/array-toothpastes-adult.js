@@ -223,7 +223,6 @@ export const shopLotsToothpastesAdult = [
         volume: "125 мл.",
         priceGRN: "--",
         priceGRNOpt: 77,
-
         description01: "Зубний крем &#171Dontodent - Zahncreme Antibakteriell&#187 забезпечує ефективний захист ротової порожнини завдяки фтору та антибактеріальному цинку.",
         description02: "Формула активно бореться з бактеріями, зміцнює емаль та підходить навіть для чутливих ясен.",
         description03: "Свіжий м’ятний смак &#171Dontodent - Zahncreme Antibakteriell&#187 дарує приємне відчуття чистоти та довготривалу свіжість подиху.",
@@ -231,7 +230,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Замовляйте &#171Dontodent - Zahncreme Antibakteriell&#187 для щоденної впевненості у здоровій усмішці!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_brillant_weiss_125.jpg",
@@ -249,8 +248,8 @@ export const shopLotsToothpastesAdult = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "125 мл.",
-        priceGRN: 77,
-        priceGRNOpt: 70,
+        priceGRN: "--",
+        priceGRNOpt: 77,
         description01: "Зубна паста &#171Dontodent - Brillant Weiss&#187 допоможе повернути природну білизну Ваших зубів.",
         description02: "Спеціальна формула ефективно видаляє наліт та плями від кави, чаю та інших напоїв, при цьому дбайливо очищаючи емаль.",
         description03: "Відчуйте свіжість після кожного чищення, адже паста &#171Dontodent - Brillant Weiss&#187 також захищає від карієсу і зміцнює зуби.",
@@ -285,7 +284,7 @@ export const shopLotsToothpastesAdult = [
         description05: "Подбайте про здоров'я ротової порожнини з надійним захистом від &#171Dontodent - Clear Fresh&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/adult/dontodent_krauter_125.jpg",
@@ -303,8 +302,8 @@ export const shopLotsToothpastesAdult = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "125 мл.",
-        priceGRN: 77,
-        priceGRNOpt: 70,
+        priceGRN: "--",
+        priceGRNOpt: 77,
         description01: "Зубна паста &#171Dontodent - Kräuter&#187 з натуральними екстрактами трав забезпечить Вашій усмішці природну свіжість.",
         description02: "Завдяки поєднанню цілющих трав, вона дбайливо очищає зуби, зміцнюючи емаль і захищаючи від карієсу.",
         description03: "Екстракти м’яти, ромашки та шавлії у &#171Dontodent - Kräuter&#187 забезпечують не тільки ефективне чищення, але й природний догляд за ротовою порожниною.",

@@ -81,7 +81,7 @@ export const shopLotsCacao = [
     description05: "Зробіть радість своєму малюкові і подаруйте йому найсмачніше дитяче какао &#171Krüger - MixFix&#187!"
   },
   {
-    type: "retail",
+    type: "only-wholesale оптом",
     mainCategory: "foodstuffs",
     subcategory: "drinks",
     url: "./images/shop/food/drinks/cacao/nesquik_classic_500.jpg",
@@ -99,8 +99,8 @@ export const shopLotsCacao = [
     countryName: "Швейцарія",
     weightName: "Вага",
     weight: "500 гр.",
-    priceGRN: 182,
-    quantityOnStorage: 3,
+    priceGRN: "--",
+    priceGRNOpt: 200,
     description01: "&#171Nestle - Nesquik Classic&#187 - це незамінний продукт для всієї родини, який додасть радість і користь до вашого ранку. Це справжнє шоколадне задоволення, яке легко розчиняється у молоці та надає йому неперевершений смак какао. Цей напій також багатий вітаміном D, необхідним для здоров'я кісток та імунної системи.",
     description02: "Він має солодкий смак та приємний аромат, які діти та дорослі обожнюють. Миттєво розчиняється у теплому або холодному молоці, створюючи ідеальний напій для сніданку, перекусу або просто для задоволення солодким смаком шоколаду у будь-який час.",
     description03: "Нехай ваші ранки стануть яскравішими і смачнішими з &#171;Nestle - Nesquik Classic&#187; та вітаміном D.",

@@ -60,7 +60,7 @@ export const shopLotsDishSponges = [
         description05: "Спробуйте &#171Scrub Daddy - BBQ Daddy&#187, щоб підтримувати ваш гриль і посуд у бездоганній чистоті після кожного використання!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/universal_sponges/scrub_daddy_original_1.jpg",
@@ -82,8 +82,8 @@ export const shopLotsDishSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 204,
-        priceGRNOpt: 184,
+        priceGRN: "--",
+        priceGRNOpt: 220,
         description01: "Універсальна губка &#171Scrub Daddy - The Original&#187 поєднує ефективність, довговічність та зручність у кожному русі.",
         description02: "Її інноваційний матеріал FlexTexture змінює жорсткість залежно від температури води: м’яка у теплій та тверда у холодній.",
         description03: "Завдяки ергономічній формі у вигляді усмішки &#171Scrub Daddy - The Original&#187 легко очищає різні поверхні, не дряпаючи їх і не вбираючи запахи.",

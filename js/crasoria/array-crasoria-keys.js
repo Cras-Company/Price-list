@@ -678,14 +678,14 @@ export const crasoriaKeys = [
     {
         number: "00053",
         personal_key: "QFV308",
-        status: "БРОНЗА",
+        status: "Срібло",
         name: "Наталья",
         tel:"+380508029746",
         number_of_referrals: 0,
-        discount: "3 %",
+        discount: "5 %",
         wallet_balance: 0,
-        total_amount: 4736,
-        order_date: "2026.02.04",
+        total_amount: 1736,
+        order_date: "2026.03.10",
         parent_key: "CRAS",
     },
     {

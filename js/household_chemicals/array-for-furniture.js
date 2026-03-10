@@ -139,7 +139,7 @@ export const shopLotsForFurniture = [
         description05: "Відчуйте чарівність райських квітів з &#171Brait - Aqua Spray Magic Mist Paradise Flowers&#187 і наповніть свій дім неповторною свіжістю!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "world-of-fragrances",
         url: "./images/shop/household_chemicals/world_of_fragrances/air_fresheners/brait_white_flowers_425.jpg",
@@ -157,8 +157,8 @@ export const shopLotsForFurniture = [
         countryName: "Польща",
         volumeName: "Об'єм",
         volume: "425 мл.",
-        priceGRN: 83,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 100,
         description01: "Відчуйте чистоту та свіжість весни з освіжувачем повітря &#171Brait - Aqua Spray Magic Mist White Flowers&#187.",
         description02: "Його ніжний аромат білих квітів наповнить Ваш дім легкістю та гармонією, створюючи ідеальну атмосферу затишку.",
         description03: "Інноваційна формула &#171Brait - Aqua Spray Magic Mist White Flowers&#187 забезпечує тривале збереження аромату, який рівномірно розподіляється по всьому приміщенню.",
@@ -332,7 +332,7 @@ export const shopLotsForFurniture = [
         description05: "Надайте своїм речам друге життя з універсальною пастою &#171Denkmit - Reinigungs-Paste&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_polster_flecken_burste_400.jpg",
@@ -350,8 +350,8 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "400 мл.",
-        priceGRN: 216,
-        priceGRNOpt: 195,
+        priceGRN: "--",
+        priceGRNOpt: 216,
         description01: "Засіб &#171Dr. Beckmann - Polster Flecken-Bürste&#187 з активним киснем легко видаляє плями з оббивки меблів, матраців та автосидінь, повертаючи їм бездоганний вигляд.",
         description02: "Свіжі та чисті меблі – це те, що додає Вашому інтер’єру елегантності та комфорту.",
         description03: "Вбудована щітка у &#171Dr. Beckmann - Polster Flecken-Bürste&#187 забезпечує ретельне очищення, проникаючи глибоко у тканину, щоб усунути навіть найскладніші забруднення.",

@@ -1,6 +1,6 @@
 export const shopLotsHerring = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/herring/marinero_sledz_w_oleju_roslinnym_170.jpg",
@@ -18,8 +18,8 @@ export const shopLotsHerring = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 81,
-        priceGRNOpt: 73,
+        priceGRN: "--",
+        priceGRNOpt: 85,
         description01: "Соковите філе оселедця &#171Marinero - Filety Śledziowe W Oleju Roślinnym&#187 у рослинній олії — ідеальне поєднання смаку та користі для Вашого столу!",
         description02: "Виготовлене зі свіжої риби, воно зберігає природну ніжність текстури та насичений аромат.",
         description03: "Подаруйте собі кулінарну насолоду, додавши &#171Marinero - Filety Śledziowe W Oleju Roślinnym&#187 до закусок, салатів або основних страв.",
@@ -27,7 +27,7 @@ export const shopLotsHerring = [
         description05: "Створіть витончені страви з філе оселедця &#171Marinero - Filety Śledziowe W Oleju Roślinnym&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "conservation",
         url: "./images/shop/food/canned_food/herring/marinero_filety_sledziowe_w_sosie_pomidorowym_170.jpg",
@@ -45,8 +45,8 @@ export const shopLotsHerring = [
         countryName: "Польща",
         weightName: "Вага",
         weight: "170 гр.",
-        priceGRN: 54,
-        priceGRNOpt: 49,
+        priceGRN: "--",
+        priceGRNOpt: 65,
         description01: "&#171Marinero - Filety Śledziowe W Sosie Pomidorowym&#187 — це ніжний смак риби з соковитим соусом для справжнього гастрономічного задоволення.",
         description02: "Апетитні шматочки філе поєднуються з ароматним томатним соусом, створюючи класичний смак без зайвих добавок.",
         description03: "&#171Marinero - Filety Śledziowe W Sosie Pomidorowym&#187 ідеально підходить для легкої вечері, закуски або швидкого перекусу.",

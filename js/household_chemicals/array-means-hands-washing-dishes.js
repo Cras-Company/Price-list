@@ -715,7 +715,7 @@ export const shopLotsMeansHandsWashingDishes = [
         volumeName: "Об'єм",
         volume: "450 мл.",
         priceGRN: 77,
-        quantityOnStorage: 12,
+        quantityOnStorage: 5,
         description01: "Засіб для миття посуду &#171Morning Fresh - Super Corcentrated Lemon&#187 змінить Ваше уявлення про чистоту на кухні.",
         description02: "Яскравий аромат лимона дарує відчуття свіжості та натхнення під час миття посуду.",
         description03: "Висококонцентрована формула &#171Morning Fresh - Super Corcentrated Lemon&#187 ефективно розчиняє жир та залишки їжі, забезпечуючи бездоганну чистоту з мінімальним зусиллям.",

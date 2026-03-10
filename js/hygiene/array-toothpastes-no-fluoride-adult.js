@@ -116,7 +116,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Оберіть &#171Dabur Herb'l - Natural Toothpaste For Cavity Protection Clove&#187 з гвоздикою сьогодні і подбайте про здоров'я своїх зубів природним шляхом!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_neem_100.jpg",
@@ -136,8 +136,8 @@ export const shopLotsToothpastesNoFluoride = [
         countryName: "ОAE",
         weightName: "Вага",
         weight: "100 гр.",
-        priceGRN: 73,
-        priceGRNOpt: 63,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Зубна паста &#171Dabur Herb'l - Natural Toothpaste For Gum Care Neem&#187 з ніімом — це Ваш ідеальний вибір для натурального догляду за яснами.",
         description02: "Завдяки особливій формулі без фтору, вона забезпечує ефективний захист і зміцнення ясен, даруючи Вам здорову усмішку.",
         description03: "Активні компоненти нііму у &#171Dabur Herb'l - Natural Toothpaste For Gum Care Neem&#187 мають антибактеріальні властивості, які допомагають запобігти запаленням і покращують загальний стан порожнини рота.",
@@ -145,7 +145,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Замовляйте &#171Dabur Herb'l - Natural Toothpaste For Gum Care Neem&#187 з ніімом зараз і насолоджуйтесь здоров'ям Ваших ясен кожен день!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_mint_lemon_100.jpg",
@@ -165,8 +165,8 @@ export const shopLotsToothpastesNoFluoride = [
         countryName: "ОAE",
         weightName: "Вага",
         weight: "80 гр.",
-        priceGRN: 73,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Зубна паста &#171Dabur Herb'l - Green Gel Toothpaste Intense Fresh Breath Mint & Lemon&#187 з м'ятою та лимоном — ідеальне рішення для свіжого подиху.",
         description02: "Унікальна гелева формула без фтору поєднує у собі натуральні екстракти м'яти та лимона, забезпечуючи тривале відчуття свіжості.",
         description03: "&#171Dabur Herb'l - Green Gel Toothpaste Intense Fresh Breath Mint & Lemon&#187 не лише дарує приємний аромат, але й ефективно захищає зуби та ясна, підтримуючи їх здоров'я.",
@@ -232,7 +232,7 @@ export const shopLotsToothpastesNoFluoride = [
         description05: "Купуйте &#171Dabur Herb'l - Natural Toothpaste For Oral Protection Basil&#187 з базиліком вже сьогодні і відчуйте справжню турботу про свої зуби!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "shining-smile",
         url: "./images/shop/gigiena/beaming_smile/no_flouride_adults/dabur_herbl_clove_150.jpg",
@@ -252,8 +252,8 @@ export const shopLotsToothpastesNoFluoride = [
         countryName: "ОAE",
         weightName: "Вага",
         weight: "150 гр.",
-        priceGRN: 108,
-        priceGRNOpt: 98,
+        priceGRN: "--",
+        priceGRNOpt: 115,
         description01: "Зубна паста &#171Dabur Herb'l - Natural Toothpaste For Cavity Protection Clove&#187 — Ваш надійний помічник у боротьбі проти карієсу.",
         description02: "Унікальна формула без фтору з натуральними інгредієнтами забезпечує комплексний захист зубів і ясен, зберігаючи їх здоровими і міцними.",
         description03: "Натуральна гвоздика у &#171Dabur Herb'l - Natural Toothpaste For Cavity Protection Clove&#187 ефективно запобігає розвитку карієсу, надаючи свіжость та чистоту Вашій усмішці.",

@@ -423,7 +423,7 @@ export const shopLotsScentBoosterGranuls = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "210 гр.",
-        ppriceGRN: "--",
+        priceGRN: "--",
         priceGRNOpt: 200,
         description01: "&#171Lenor - Sensitive Cotton Fresh&#187 – це парфум у гранулах, який дарує Вашим речам ніжний аромат свіжої бавовни. ",
         description02: "Ці гранули створені для того, щоб забезпечити тривалу свіжість без подразнень, особливо для чутливої шкіри.",

@@ -324,7 +324,7 @@ export const shopLotsWashingGels = [
         description05: "Замовляйте гель &#171Chanteclair - Lavatrice Bicarbonato Brillantezza Attiva&#187 зараз і відчуйте різницю з першого використання!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_colorati_46.jpg",
@@ -342,8 +342,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2070 мл.",
-        priceGRN: 335,
-        priceGRNOpt: 302,
+        priceGRN: "--",
+        priceGRNOpt: 335,
         description01: "&#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187 створений, щоб зберегти кольори Вашого одягу яскравими та насиченими навіть після численних прань. Його унікальна формула дбайливо очищає тканини, не пошкоджуючи їхніх відтінків.",
         description02: "Чи хотіли би Ви зберігати свої улюблені речі завжди новими? Потужна дія гелю не тільки видаляє бруд, але і підтримує насиченість кольорів, забезпечуючи тривалий захист.",
         description03: "Придбавши &#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187, Ви отримаєте не просто засіб для прання, але і ключ до збереження краси вашого одягу. Ви будете вражені, як легко і ефективно він доглядає за тканинами, роблячи кожне прання приємним процесом.",
@@ -405,7 +405,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте вже зараз гель &#171Chanteclair - Lavatrice Marsiglia&#187 та насолоджуйтесь бездоганно чистим та ароматним одягом, який буде Вас радувати кожен день!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_muschio_blanco_46.jpg",
@@ -423,8 +423,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2070 мл.",
-        priceGRN: 335,
-        priceGRNOpt: 302,
+        priceGRN: "--",
+        priceGRNOpt: 335,
         description01: "Насолоджуйтесь бездоганною чистотою з універсальним гелем &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187, який дарує Вашому одягу аромат білого мускусу.",
         description02: "Завдяки унікальній формулі з потужним знежирювачем, цей гель ефективно видаляє навіть найважчі плями, забезпечуючи свіжість та гігієну Вашого одягу.",
         description03: "Відчуйте, як кожне прання перетворюється на справжнє задоволення, наповнене неперевершеним ароматом білого мускусу  &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187, який залишається на одязі надовго.",
@@ -567,7 +567,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте вже зараз гель &#171Chanteclair - Lavatrice Marsiglia&#187 та насолоджуйтесь бездоганно чистим та ароматним одягом, який буде Вас радувати кожен день!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_muschio_blanco_80.jpg",
@@ -585,8 +585,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3600 мл.",
-        priceGRN: 603,
-        priceGRNOpt: 543,
+        priceGRN: "--",
+        priceGRNOpt: 603,
         description01: "Насолоджуйтесь бездоганною чистотою з універсальним гелем &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187, який дарує Вашому одягу аромат білого мускусу.",
         description02: "Завдяки унікальній формулі з потужним знежирювачем, цей гель ефективно видаляє навіть найважчі плями, забезпечуючи свіжість та гігієну Вашого одягу.",
         description03: "Відчуйте, як кожне прання перетворюється на справжнє задоволення, наповнене неперевершеним ароматом білого мускусу  &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187, який залишається на одязі надовго.",
@@ -594,7 +594,7 @@ export const shopLotsWashingGels = [
         description05: "Купуйте гель &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187 зараз і насолоджуйтеся досконалою чистотою та свіжістю кожного дня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_80.jpg",
@@ -612,8 +612,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3600 мл.",
-        priceGRN: 603,
-        priceGRNOpt: 543,
+        priceGRN: "--",
+        priceGRNOpt: 603,
         description01: "Відкрийте новий рівень чистоти з універсальним гелем &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, що забезпечує глибоке очищення та бездоганну свіжість Вашого одягу.",
         description02: "Завдяки потужному засобу для виведення плям та знежирювачу, цей гель ефективно бореться навіть з найстійкішими забрудненнями, залишаючи тканини чистими та свіжими.",
         description03: "Подаруйте собі задоволення від використання засобу &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, який не тільки видаляє плями, але й зберігає яскравість кольорів та ніжність тканин.",
@@ -810,7 +810,7 @@ export const shopLotsWashingGels = [
         description05: "Використайте &#171Denkmit - Fein Waschmittel Blossom Dream Color & Care&#187, щоб Ваші делікатні речі залишалися м’якими й барвистими надовго!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_woll_waschmittel_30.jpg",
@@ -828,8 +828,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1.5 л.",
-        priceGRN: 219,
-        priceGRNOpt: 198,
+        priceGRN: "--",
+        priceGRNOpt: 219,
         description01: "Гель &#171Denkmit - Woll Waschmittel Cozy & Care&#187 — ніжний гель для прання вовни та делікатних тканин із додаванням ланоліну.",
         description02: "Формула м’яко очищує, зберігає форму виробів і надає волокнам природну еластичність.",
         description03: "&#171Denkmit - Woll Waschmittel Cozy & Care&#187 запобігає утворенню вузликів, даруючи Вашим речам доглянутий вигляд надовго.",
@@ -837,7 +837,7 @@ export const shopLotsWashingGels = [
         description05: "Обери &#171Denkmit - Woll Waschmittel Cozy & Care&#187 для делікатного прання з турботою про улюблені речі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_fein_woll_waschlotion_ultra_sensitive_30.jpg",
@@ -855,8 +855,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1.5 л.",
-        priceGRN: 219,
-        priceGRNOpt: 198,
+        priceGRN: "--",
+        priceGRNOpt: 219,
         description01: "Гель для прання &#171Denkmit - Fein- Und Woll- Waschlotion Ultra Sensitive&#187 створений для делікатного догляду за дитячими речами, вовною та шовком.",
         description02: "Його м’яка формула не містить парфумів, барвників і консервантів, що робить засіб безпечним навіть для найчутливішої шкіри.",
         description03: "&#171Denkmit - Fein- Und Woll- Waschlotion Ultra Sensitive&#187 ефективно видаляє забруднення, зберігаючи м’якість тканин і їхню природну структуру після кожного прання.",
@@ -891,7 +891,7 @@ export const shopLotsWashingGels = [
     //     description05: "Замовляйте &#171Denkmit - Feinwaschmittel Fresh Sensation&#187 для надійного догляду за спортивними речами!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/denkmit_sport_waschmittel_fresh_sensation_35.jpg",
@@ -909,8 +909,8 @@ export const shopLotsWashingGels = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1.5 л.",
-        priceGRN: 198,
-        priceGRNOpt: 179,
+        priceGRN: "--",
+        priceGRNOpt: 219,
         description01: "Гель &#171Denkmit - Sport Waschmittel Fresh Sensation&#187 — гель для дбайливого прання синтетичних та мембранних тканин.",
         description02: "Його формула спеціально розроблена для спортивного одягу, забезпечуючи глибоке очищення без пошкодження волокон.",
         description03: "&#171Denkmit - Sport Waschmittel Fresh Sensation&#187 зберігає функціональні властивості тканини, залишаючи її свіжою та приємною на дотик.",
