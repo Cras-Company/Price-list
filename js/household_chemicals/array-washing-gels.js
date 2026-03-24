@@ -378,7 +378,7 @@ export const shopLotsWashingGels = [
         description05: "Обирайте &#171Chanteclair - Igienizzante Rimuove Germi E Batteri&#187 для щоденного комфорту та впевненості у чистоті навколо Вас!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",    
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_46.jpg",
@@ -396,8 +396,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2070 мл.",
-        priceGRN: 335,
-        priceGRNOpt: 302,
+        priceGRN: "--",
+        priceGRNOpt: 335,
         description01: "Знайомтеся з універсальним гелем &#171Chanteclair - Lavatrice Marsiglia&#187, який перетворить Вашу щоденну рутину на чисту насолоду.",
         description02: "Він не просто засіб для прання, а витончений дотик марсельського мила, яке дбає про Ваш одяг та надає йому бездоганну чистоту.",
         description03: "З гелем &#171Chanteclair - Lavatrice Marsiglia&#187 Ваші бажання здійсняться. Його унікальна формула зберігає якість тканин, роблячи їх м'якими та зберігаючи неперевершений аромат марсельського мила.",
@@ -432,7 +432,7 @@ export const shopLotsWashingGels = [
         description05: "Купуйте гель &#171Chanteclair - Lavatrice Muschio Bianco Extra Profumato Con Sgrassatore&#187 зараз і насолоджуйтеся досконалою чистотою та свіжістю кожного дня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_pulito_profondo_46.jpg",
@@ -450,8 +450,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2070 мл.",
-        priceGRN: 335,
-        priceGRNOpt: 302,
+        priceGRN: "--",
+        priceGRNOpt: 335,
         description01: "Відкрийте новий рівень чистоти з універсальним гелем &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, що забезпечує глибоке очищення та бездоганну свіжість Вашого одягу.",
         description02: "Завдяки потужному засобу для виведення плям та знежирювачу, цей гель ефективно бореться навіть з найстійкішими забрудненнями, залишаючи тканини чистими та свіжими.",
         description03: "Подаруйте собі задоволення від використання засобу &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187, який не тільки видаляє плями, але й зберігає яскравість кольорів та ніжність тканин.",
@@ -513,7 +513,7 @@ export const shopLotsWashingGels = [
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_colorati_80.jpg",
@@ -531,8 +531,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3600 мл.",
-        priceGRN: 603,
-        priceGRNOpt: 543,
+        priceGRN: "--",
+        priceGRNOpt: 603,
         description01: "&#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187 створений, щоб зберегти кольори Вашого одягу яскравими та насиченими навіть після численних прань. Його унікальна формула дбайливо очищає тканини, не пошкоджуючи їхніх відтінків.",
         description02: "Чи хотіли би Ви зберігати свої улюблені речі завжди новими? Потужна дія гелю не тільки видаляє бруд, але і підтримує насиченість кольорів, забезпечуючи тривалий захист.",
         description03: "Придбавши &#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187, Ви отримаєте не просто засіб для прання, але і ключ до збереження краси вашого одягу. Ви будете вражені, як легко і ефективно він доглядає за тканинами, роблячи кожне прання приємним процесом.",
@@ -540,7 +540,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте зараз гель &#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187 та насолоджуйтесь яскравими кольорами вашого одягу протягом тривалого часу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",    
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_marsiglia_80.jpg",
@@ -558,8 +558,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "3600 мл.",
-        priceGRN: 603,
-        priceGRNOpt: 543,
+        priceGRN: "--",
+        priceGRNOpt: 603,
         description01: "Знайомтеся з універсальним гелем &#171Chanteclair - Lavatrice Marsiglia&#187, який перетворить Вашу щоденну рутину на чисту насолоду.",
         description02: "Він не просто засіб для прання, а витончений дотик марсельського мила, яке дбає про Ваш одяг та надає йому бездоганну чистоту.",
         description03: "З гелем &#171Chanteclair - Lavatrice Marsiglia&#187 Ваші бажання здійсняться. Його унікальна формула зберігає якість тканин, роблячи їх м'якими та зберігаючи неперевершений аромат марсельського мила.",

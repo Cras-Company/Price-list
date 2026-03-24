@@ -1,6 +1,6 @@
 export const shopLotsOliveOil = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "olives-oils",
         url: "./images/shop/food/olives_oil/olive_oil/goccia_doro_olive_pomace_oil_1l.jpg",
@@ -18,8 +18,8 @@ export const shopLotsOliveOil = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 473,
-        priceGRNOpt: 426,
+        priceGRN: "--",
+        priceGRNOpt: 500,
         description01: "Оливкова олія &#171Goccia D'Oro - Olive Pomace Oil&#187 – ідеальний вибір для смаження та приготування улюблених страв.",
         description02: "Виготовлена з ретельно відібраних компонентів, вона забезпечує ніжний смак та аромат, не впливаючи на природний смак інгредієнтів.",
         description03: "Завдяки високій температурі димлення, олія &#171Goccia D'Oro - Olive Pomace Oil&#187 підходить для смаження, обсмажування та запікання, зберігаючи якість і користь Ваших страв.",

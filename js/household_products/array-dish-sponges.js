@@ -1,6 +1,6 @@
 export const shopLotsDishSponges = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/universal_sponges/scrub_daddy_sponge_daddy_4.jpg",
@@ -24,8 +24,8 @@ export const shopLotsDishSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "4 шт.",
-        priceGRN: 270,
-        priceGRNOpt: 243,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Універсальна двостороння губка &#171Scrub Daddy - Sponge Daddy&#187 створена для тих, хто цінує ефективне миття, зручність у руці та швидкий результат під час щоденного прибирання на кухні та у домі.",
         description02: "Одна сторона з матеріалу FlexTexture легко адаптується до температури води для різного рівня забруднень, а м’яка губчаста поверхня делікатно видаляє жир і залишки їжі.",
         description03: "&#171Scrub Daddy - Sponge Daddy&#187 не дряпає поверхні, не накопичує запахи, швидко промивається та зберігає форму навіть після тривалого використання.",
@@ -33,7 +33,7 @@ export const shopLotsDishSponges = [
         description05: "Додайте &#171Scrub Daddy - Sponge Daddy&#187 до щоденного прибирання, щоб поєднати комфорт, універсальність і стабільну чистоту без зайвих зусиль!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/dish_sponges/scrub_daddy_bbq_daddy_2.jpg",
@@ -51,8 +51,8 @@ export const shopLotsDishSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "2 шт.",
-        priceGRN: 310,
-        priceGRNOpt: 279,
+        priceGRN: "--",
+        priceGRNOpt: 310,
         description01: "Губка &#171Scrub Daddy - BBQ Daddy&#187 розроблена для ефективного очищення гриля, посуду та металевих поверхонь він сильних забруднень.",
         description02: "Її термочутливий матеріал стає м’яким у теплій воді й твердим у холодній, забезпечуючи оптимальний рівень чищення.",
         description03: "Завдяки зручній формі та міцній текстурі &#171Scrub Daddy - BBQ Daddy&#187 легко видаляє нагар, жир і залишки їжі навіть у важкодоступних місцях.",

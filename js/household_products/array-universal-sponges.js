@@ -1,6 +1,6 @@
 export const shopLotsUniversalSponges = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "sponges",  
         url: "./images/shop/household_products/sponges/universal_sponges/scrub_daddy_sponge_daddy_4.jpg",
@@ -24,8 +24,8 @@ export const shopLotsUniversalSponges = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "4 шт.",
-        priceGRN: 270,
-        priceGRNOpt: 243,
+        priceGRN: "--",
+        priceGRNOpt: 270,
         description01: "Універсальна двостороння губка &#171Scrub Daddy - Sponge Daddy&#187 створена для тих, хто цінує ефективне миття, зручність у руці та швидкий результат під час щоденного прибирання на кухні та у домі.",
         description02: "Одна сторона з матеріалу FlexTexture легко адаптується до температури води для різного рівня забруднень, а м’яка губчаста поверхня делікатно видаляє жир і залишки їжі.",
         description03: "&#171Scrub Daddy - Sponge Daddy&#187 не дряпає поверхні, не накопичує запахи, швидко промивається та зберігає форму навіть після тривалого використання.",

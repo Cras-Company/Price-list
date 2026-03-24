@@ -75,7 +75,7 @@ export const shopLotsTarhona = [
     //     description05: "Додайте &#171Hedan Plus - Tarhoňa&#187 до вашого улюбленого рецепту та пориньте у світ смакових експлозій!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/tarhona/izsaki_eros_pistas_csipetke_200.jpg",
@@ -93,8 +93,8 @@ export const shopLotsTarhona = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "200 гр.",
-        priceGRN: 67,
-        priceGRNOpt: 57,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "&#171Izsáki Házitészta KFT - Erős Pistás Csipetke&#187 - це поєднання вишуканості та пікантності стане справжньою окрасою вашого столу, а аромат угорських спецій додасть смаковій палітрі неперевершеної глибини.",
         description02: "Виготовлена з відібраних сортів пшениці, що забезпечують максимальний смак та структуру. Ви відчуєте витонченість інгредієнтів найвищої якості.",
         description03: "Відчуйте справжню цінність та тепло ручної праці у кожному шматочку &#171Izsáki Házitészta KFT - Erős Pistás Csipetke&#187.",

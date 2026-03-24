@@ -27,7 +27,7 @@ export const shopLotsUniversalTowels = [
         description05: "Спробуйте &#171Scrub Daddy - Damp Duster Towel&#187, щоб зробити прибирання простішим і чистішим без зайвих зусиль!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "towels",  
         url: "./images/shop/household_products/towels/universal_towels/scrub_daddy_damp_duster_towel_yellow_1.jpg",
@@ -45,8 +45,8 @@ export const shopLotsUniversalTowels = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 254,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 275,
         description01: "Універсальний рушник &#171Scrub Daddy - Damp Duster Towel&#187 створений для швидкого та ефективного прибирання пилу на будь-яких поверхнях.",
         description02: "Завдяки спеціальній структурі волокон він легко вбирає пил і дрібні частинки без потреби у додаткових засобах.",
         description03: "Рушник &#171Scrub Daddy - Damp Duster Towel&#187 можна використовувати багаторазово — достатньо просто змочити водою, щоб повернути йому властивості.",
@@ -54,7 +54,7 @@ export const shopLotsUniversalTowels = [
         description05: "Спробуйте &#171Scrub Daddy - Damp Duster Towel&#187, щоб зробити прибирання простішим і чистішим без зайвих зусиль!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-products",
         subcategory: "towels",  
         url: "./images/shop/household_products/towels/universal_towels/scrub_daddy_damp_duster_towel_pink_1.jpg",
@@ -72,8 +72,8 @@ export const shopLotsUniversalTowels = [
         countryName: "Англія",
         quantityName: "Кількість",
         quantity: "1 шт.",
-        priceGRN: 254,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 275,
         description01: "Універсальний рушник &#171Scrub Daddy - Damp Duster Towel&#187 створений для швидкого та ефективного прибирання пилу на будь-яких поверхнях.",
         description02: "Завдяки спеціальній структурі волокон він легко вбирає пил і дрібні частинки без потреби у додаткових засобах.",
         description03: "Рушник &#171Scrub Daddy - Damp Duster Towel&#187 можна використовувати багаторазово — достатньо просто змочити водою, щоб повернути йому властивості.",

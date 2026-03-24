@@ -77,7 +77,7 @@ export const shopLotsSeasonings = [
     //     description05: "Придбайте &#171Rmix - Przyprawa Uniwersalna&#187 зараз і дайте своїм стравам неперевершений смак."
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_gulyaskrem_csemege_160.jpg",
@@ -95,8 +95,8 @@ export const shopLotsSeasonings = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "160 гр.",
-        priceGRN: 81,
-        priceGRNOpt: 73,
+        priceGRN: "--",
+        priceGRNOpt: 82,
         description01: "&#171Univer - Gulyáskrém Сsemege&#187 - це солодка приправа, особливість якої полягає у поєднанні паприки, червоної цибулі, помідорів, кмину та спецій.",
         description02: "Ця солодка приправа призначена для справжніх гурманів, які цінують ароматність та смакові якості страв. Wе справжнє втілення смаку та традицій угорської кухні.",
         description03: "Вона ідеально підходить для гуляшу, бограча, страв з м'яса та риби. &#171Univer - Gulyáskrém Сsemege&#187 - це та аутентична солодка приправа, яка внесе унікальний колорит до ваших страв.",
@@ -131,7 +131,7 @@ export const shopLotsSeasonings = [
         description05: "Спробуйте &#171Univer - Gulyáskrém Сsípős&#187 та пориньте в атмосферу угорської кухні прямо вдома!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "taste-modifiers",
         url: "./images/shop/food/taste_modifier/seasonings/univer_piros_arany_csemege_160.jpg",
@@ -149,8 +149,8 @@ export const shopLotsSeasonings = [
         countryName: "Угорщина",
         weightName: "Вага",
         weight: "160 гр.",
-        priceGRN: 81,
-        priceGRNOpt: 73,
+        priceGRN: "--",
+        priceGRNOpt: 82,
         description01: "&#171Univer - Piros Arany Сsemege&#187 - це солодка приправа, яка принесе вам новий рівень задоволення у смокових враженнях. Її насичений і ароматний смак створений, щоб додати неперевершеність до ваших страв.",
         description02: "Ця приправа ідеально підходить для приготування супів, м'яса, риби та інших страв. Вона додає багатий смак і глибину аромату.",
         description03: "Зручний тюбік дозволяє Вам з легкістю додавати цю приправу до своїх страв. Завдяки високій якості і найкращим інгредієнтам, Ви можете бути впевнені в її смакових якостях.",

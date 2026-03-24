@@ -1,6 +1,6 @@
 export const shopLotsWetWipes = [
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_bodrum_mandarin_120.jpg",
@@ -18,8 +18,8 @@ export const shopLotsWetWipes = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "120 шт.",
-        priceGRN: 42,
-        priceGRNOpt: 38,
+        priceGRN: "--",
+        priceGRNOpt: 42,
         description01: "Дитячі вологі серветки &#171Babybella - Soft & Thick Wet Wipes Bodrum Mandarin&#187 - це ніжна турбота з ароматом сонячного бондурумського мандарину.",
         description02: "Свіжий цитрусовий аромат створює атмосферу радості, даруючи малюкові комфорт і чистоту під час кожного використання.",
         description03: "М’які та міцні, серветки &#171Babybella - Soft & Thick Wet Wipes Bodrum Mandarin&#187 делікатно очищають навіть найчутливішу шкіру, зберігаючи її природний баланс.",
@@ -27,7 +27,7 @@ export const shopLotsWetWipes = [
         description05: "Обирайте &#171Babybella - Soft & Thick Wet Wipes Bodrum Mandarin&#187 – зробіть кожен момент догляду за дитиною приємним і турботливим!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "wipes",
         url: "./images/shop/gigiena/wipes/wet_wipes/babybella_wet_wipes_green_apple_120.jpg",
@@ -45,8 +45,8 @@ export const shopLotsWetWipes = [
         countryName: "Туреччина",
         quantityName: "Кількість",
         quantity: "120 шт.",
-        priceGRN: 42,
-        priceGRNOpt: 38,
+        priceGRN: "--",
+        priceGRNOpt: 42,
         description01: "Дитячі вологі серветки &#171Babybella - Soft & Thick Wet Wipes Green Apple&#187 - це ніжність і турбота для Вашого малюка у кожному дотику.",
         description02: "Збагачені ароматом соковитого зеленого яблука, ці серветки дарують свіжість і комфорт, не залишаючи подразнень на ніжній шкірі.",
         description03: "М’які та щільні, &#171Babybella - Soft & Thick Wet Wipes Green Apple&#187 ідеально очищають, забезпечуючи м’який догляд навіть для найчутливішої шкіри.",

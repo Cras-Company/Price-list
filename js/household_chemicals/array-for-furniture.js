@@ -249,7 +249,7 @@ export const shopLotsForFurniture = [
         description05: "Скористайтесь &#171Denkmit - Möbelpflege + Staub Stopp Mit Antistatik-Formel&#187, щоб кожен куточок дому виглядав доглянутим та чистим щодня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/denkmit_teppich_polsterreiniger_600.jpg",
@@ -267,8 +267,8 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "600 мл.",
-        priceGRN: 156,
-        priceGRNOpt: 141,
+        priceGRN: "--",
+        priceGRNOpt: 170,
         description01: "Засіб &#171Denkmit - Tepppich - Und Polsterreiniger&#187 для чистки килимів та оббивки швидко повертає свіжість навіть найскладнішим поверхням.",
         description02: "Його спеціальна формула проникає глибоко у тканину, видаляючи бруд і неприємні запахи, залишаючи тільки чистоту та свіжий аромат.",
         description03: "Нехай Ваш дім та авто завжди радують ідеально чистими килимами й оббивкою без зайвих зусиль з &#171Denkmit - Tepppich - Und Polsterreiniger&#187, наче після професійної хімчистки.",

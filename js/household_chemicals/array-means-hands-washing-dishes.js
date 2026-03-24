@@ -100,7 +100,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Зробіть миття посуду разом з &#171alio - Vanile 5 in 1&#187 приємною частиною вашого дня та насолоджуйтесь приємним ароматом ванілі під час кожного миття."
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/denkmit_spulbalsam_mit_aloe_vera_500.jpg",
@@ -118,8 +118,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 79,
-        priceGRNOpt: 72,
+        priceGRN: "--",
+        priceGRNOpt: 90,
         description01: "Засіб для миття посуду &#171Denkmit - Spülbalsam Mit Aloe Vera&#187 з екстрактом алое вера забезпечує блискучу чистоту та дбайливий догляд за руками.",
         description02: "Ваш посуд сяятиме чистотою, а миття стане приємним процесом завдяки м'якій текстурі бальзаму.",
         description03: "Ніжна формула &#171Denkmit - Spülbalsam Mit Aloe Vera&#187 ефективно видаляє жир і залишки їжі, водночас зволожуючи шкіру рук завдяки натуральному алое вера.",

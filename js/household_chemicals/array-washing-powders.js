@@ -268,7 +268,7 @@ export const shopLotsWashingPowders = [
         description05: "Спробуйте пральний порошок &#171Denkmit - Colorwaschmittel Für Leuchtende Farben&#187 і переконайтеся самі, як ваша одежа стає більш яскравою і свіжою!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_color_5.2.jpg",
@@ -286,8 +286,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "5.2 кг.",
-        priceGRN: 790,
-        priceGRNOpt: 711,
+        priceGRN: "--",
+        priceGRNOpt: 750,
         description01: "&#171Denkmit - Colorwaschmittel Classic Für Leuchtende Farben&#187 - це ідеальний пральний порошок для збереження яскравих кольорів вашого одягу. Він має спеціальну формулу, яка захищає кольори від вигорання та вицвітання під час прання. Ефективно видаляє плями і забруднення, залишаючи вашу одежу свіжою та яскравою.",
         description02: "Видаляє навіть найскладніші плями і забруднення, залишаючи вашу одежу свіжою та яскравою. Він також має приємний аромат, який залишається на вашому одязі після прання.",
         description03: "&#171Denkmit - Colorwaschmittel Classic Für Leuchtende Farben&#187 - Ваше рішення для бездоганно чистого та яскравого одягу. Забезпечує надійни результат під час кожного прання.",
@@ -446,7 +446,7 @@ export const shopLotsWashingPowders = [
     //     description05: "Довірте білизну якості &#171Denkmit - Vollwaschmittel Für Strahlendes Weiss Dreamy Breeze&#187, яка дарує бездоганну чистоту та аромат!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_colorwaschmittel_ultra_sensitive_1.35.jpg",
@@ -468,8 +468,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "1.35 кг.",
-        priceGRN: 275,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 300,
         description01: "Відкрийте для себе ідеальний вибір для дбайливого прання - порошок для кольорових речей, для чутливих тканин &#171Denkmit - Colorwaschmittel Ultra Sensitive&#187.",
         description02: "Насолоджуйтеся свіжістю та чистотою вашого одягу завдяки ефективному складу, розробленому спеціально для догляду за чутливими тканинами.",
         description03: "Відчуйте спокій, знаючи, що ваші улюблені речі зберігають яскравість кольору та м'якість кожного прання.",
@@ -477,7 +477,7 @@ export const shopLotsWashingPowders = [
         description05: "Покращте якість свого прання з порошком &#171Denkmit - Colorwaschmittel Ultra Sensitive&#187 вже сьогодні!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/denkmit_vollwaschmittel_ultra_sensitive_1.35.jpg",
@@ -925,7 +925,7 @@ export const shopLotsWashingPowders = [
     // ОНИКС
     // ===========================================================================
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_piran_600.jpg",
@@ -945,8 +945,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "600 г.",
-        priceGRN: 53,
-        priceGRNOpt: 48,
+        priceGRN: "--",
+        priceGRNOpt: 55,
         description01: "Пральний порошок &#171Onyx - Proszek Do Prania Firan&#187 – ідеальне рішення для чистоти та сяйва Ваших штор.",
         description02: "Формула спеціально розроблена для делікатного, але ефективного очищення, допомагаючи зберегти білизну та легкість тканин.",
         description03: "&#171Onyx - Proszek Do Prania Firan&#187 глибоко проникає у волокна, видаляючи пил, нікотиновий наліт та неприємні запахи, не залишаючи слідів порошку після прання.",
@@ -1185,7 +1185,7 @@ export const shopLotsWashingPowders = [
         description05: "Замовляйте &#171Onyx - Color&#187 прямо зараз та насолоджуйтеся довгими та неперевершеними кольорами у вашому гардеробі!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_powder/onyx_universal_80.jpg",
@@ -1203,8 +1203,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "4.8 кг.",
-        priceGRN: 311,
-        priceGRNOpt: 280,
+        priceGRN: "--",
+        priceGRNOpt: 320,
         description01: "&#171Onyx - Universal&#187 відмінно справляється з видаленням найтяжчих плям та забезпечує бездоганну чистоту та свіжість вашого одягу. Вам знадобиться всього невелика кількість продукту для одного прання, що дозволить вам значно зекономити та продовжити використання засобу на тривалий час.",
         description02: "Завдяки комбінації активних ферментів та ензимів, порошок глибоко проникає у тканини. Плями від жиру, кави, вина та інших складних речовин зникнуть безслідно.",
         description03: "&#171Onyx - Universal&#187 не тільки допомагає видаляти плями, але й дбає про структуру та кольори тканин. Він забезпечує оптимальний баланс між потужністю видалення забруднень та збереженням якості вашого одягу.",
@@ -1257,8 +1257,8 @@ export const shopLotsWashingPowders = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "8.4 кг.",
-        priceGRN: 493,
-        priceGRNOpt: 444,
+        priceGRN: "--",
+        priceGRNOpt: 500,
         description01: "&#171Onyx - Universal&#187 відмінно справляється з видаленням найтяжчих плям та забезпечує бездоганну чистоту та свіжість вашого одягу. Вам знадобиться всього невелика кількість продукту для одного прання, що дозволить вам значно зекономити та продовжити використання засобу на тривалий час.",
         description02: "Завдяки комбінації активних ферментів та ензимів, порошок глибоко проникає у тканини. Плями від жиру, кави, вина та інших складних речовин зникнуть безслідно.",
         description03: "&#171Onyx - Universal&#187 не тільки допомагає видаляти плями, але й дбає про структуру та кольори тканин. Він забезпечує оптимальний баланс між потужністю видалення забруднень та збереженням якості вашого одягу.",

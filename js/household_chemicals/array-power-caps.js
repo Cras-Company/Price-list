@@ -398,7 +398,7 @@ export const shopLotsPowerCaps = [
         quantityName: "Кількість",
         quantity: "40 шт.",
         priceGRN: 565,
-        quantityOnStorage: 4,
+        quantityOnStorage: 3,
         description01: "&#171Coccolino - Washing Capsules Color 3 in 1&#187 – це капсули, які забезпечують ідеальний догляд за Вашими кольоровими речами.",
         description02: "Інноваційна формула цих капсул поєднує три ефективні дії: ретельне очищення, захист кольору та догляд за тканиною.",
         description03: "Ваш одяг залишатиметься яскравим та м'яким, а процес прання стане легким і приємним з &#171Coccolino - Washing Capsules Color 3 in 1&#187.",

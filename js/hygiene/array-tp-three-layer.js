@@ -297,7 +297,7 @@ export const shopLotsTPThreeLayer = [
         description05: "Скористайтесь &#171Perfex - Cotton Like Comfort Line Natural&#187, щоб поєднати м’якість природи з турботою про себе!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "toilet-papers",
         url: "./images/shop/gigiena/toilet_paper/three_layer/perfex_cotton_like_baby_powder_10.jpg",
@@ -313,8 +313,8 @@ export const shopLotsTPThreeLayer = [
         countryName: "Сербія",
         quantityName: "Кількість",
         quantity: "10 шт.",
-        priceGRN: 133,
-        priceGRNOpt: 120,
+        priceGRN: "--",
+        priceGRNOpt: 133,
         description01: "&#171Perfex - Cotton Like Premium White Baby Powder&#187 — дитячий тришаровий туалетний папір, створений для ніжної та чутливої шкіри.",
         description02: "Виготовлений із 100% чистої целюлози з додаванням бавовни, він поєднує м’якість та міцність у кожному відриві.",
         description03: "Натуральний склад &#171Perfex - Cotton Like Premium White Baby Powder&#187 без подразників і легкий аромат дитячої присипки дарують комфорт та відчуття догляду.",
@@ -322,7 +322,7 @@ export const shopLotsTPThreeLayer = [
         description05: "Скористайтесь &#171Perfex - Cotton Like Premium White Baby Powder&#187 для щоденної турботи, якій можна довіряти!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "toilet-papers",
         url: "./images/shop/gigiena/toilet_paper/three_layer/perfex_cotton_like_neven_10.jpg",
@@ -338,8 +338,8 @@ export const shopLotsTPThreeLayer = [
         countryName: "Сербія",
         quantityName: "Кількість",
         quantity: "10 шт.",
-        priceGRN: 133,
-        priceGRNOpt: 120,
+        priceGRN: "--",
+        priceGRNOpt: 133,
         description01: "&#171Perfex - Cotton Like Premium White Neven&#187 — натуральний тришаровий туалетний папір для чутливої шкіри з додаванням бавовни.",
         description02: "Склад із 100% чистої целюлози забезпечує надзвичайну м’якість і ніжне очищення без подразнень.",
         description03: "Природна текстура й відсутність ароматизаторів роблять &#171Perfex - Cotton Like Premium White Neven&#187 ідеальним вибором для делікатного догляду.",
