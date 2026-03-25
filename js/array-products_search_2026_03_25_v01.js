@@ -116,7 +116,7 @@ import {
   shopLotsFabricFresheners,
   shopLotsAntiSmells,
   shopLotsBathBombs
-} from "./household_chemicals/index.js?v=2026-03-24-v.1";
+} from "./household_chemicals/index.js?v=2026-03-25-v.1";
 
 // Хозяйственные товары
 import {
@@ -127,7 +127,7 @@ import {
   shopLotsPaperTowelsTwoLayer,
   shopLotsPaperTowelsThreeLayer,
   shopLotsUniversalTowels
-} from "./household_products/index.js?v=2026-03-24-v.1";
+} from "./household_products/index.js?v=2026-03-2-v.1";
 
 // ===========================================================================
 // Создание разметки

@@ -62,7 +62,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Спробуйте &#171Denkmit - Geschirr Reiniger All In One&#187, щоб насолоджуватися бездоганною чистотою посуду та турботою про екологію!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_classic_tabs_65.jpg",
@@ -86,8 +86,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "65 шт.",
-        priceGRN: 309,
-        priceGRNOpt: 279,
+        priceGRN: "--",
+        priceGRNOpt: 309,
         description01: "&#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 - таблетки для посуду розроблені для бездоганного видалення бруду, жиру та плям, залишаючи Ваш посуд блискучим.",
         description02: "Кожна таблетка містить потужні активні компоненти, які швидко розчиняються та легко справляються з навіть найскладнішими забрудненнями. Вони підходять для різних видів посуду, від столової тарілки до скляних виробів.",
         description03: "Просто додайте одну таблетку &#171Denkmit - Geschirr-Reiniger Classic Tabs&#187 у вміст посудомийної машини та запустіть програму. Ваш посуд стане ідеально чистим та без слідів жиру або залишків їжі.",

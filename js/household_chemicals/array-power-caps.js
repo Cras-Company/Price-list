@@ -145,7 +145,7 @@ export const shopLotsPowerCaps = [
     //     description05: "Виберіть &#171Ariel - All in 1 PODS Color&#187 прямо зараз і відкрийте для себе бездоганну якість прання, яка збереже кольори вашого одягу на довгі роки!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_color_65.jpg",
@@ -165,8 +165,8 @@ export const shopLotsPowerCaps = [
         countryName: "Італія",
         quantityName: "Кількість",
         quantity: "65 шт.",
-        priceGRN: 817,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 817,
         description01: "&#171Ariel - All in 1 PODS Color&#187 - потужність, яка перетворить Ваше прання на справжнє мистецтво. Завдяки інноваційній технології, капсули забезпечують не тільки бездоганне прання, але і захист кольорів вашого одягу.",
         description02: "Речовина проникає глибоко у тканини, видаляючи навіть найскладніші забруднення та зберігаючи насиченість кольорів.",
         description03: "Бажаєте мати завжди яскравий і непорушний одяг? Це можливо з пральними капсулами &#171Ariel - All in 1 PODS Color&#187. Відчуйте різницю і дозвольте своїй одежі блищати яскравіше, ніж будь-коли.",
@@ -203,7 +203,7 @@ export const shopLotsPowerCaps = [
     //     description05: "Виберіть капсули &#171Ariel - All in 1 PODS Mountain Spring&#187, щоб Ваш одяг залишався свіжим та чистим тривалий час!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/power_caps/ariel_allin1_mountain_spring_65.jpg",
@@ -223,8 +223,8 @@ export const shopLotsPowerCaps = [
         countryName: "Нідерланди",
         quantityName: "Кількість",
         quantity: "65 шт.",
-        priceGRN: 817,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 817,
         description01: "Капсули для прання &#171Ariel - All in 1 PODS Mountain Spring&#187 дарують вашому одягу неймовірну свіжість гірської весни.",
         description02: "Їх потужна формула ефективно видаляє бруд та плями, забезпечуючи бездоганну чистоту після кожного прання.",
         description03: "Крім того, капсули &#171Ariel - All in 1 PODS Mountain Spring&#187 дбайливо зберігають структуру тканин і кольори, роблячи речі м'якими та приємними на дотик.",

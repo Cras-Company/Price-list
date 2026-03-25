@@ -10,7 +10,7 @@ import {
 } from './modal.js'
 
 // Ключи Craroria
-import { crasoriaKeys } from './crasoria/index.js?v=2026-03-24-v.1';
+import { crasoriaKeys } from './crasoria/index.js?v=2026-03-25-v.1';
 
 // Новинки и акции
 import {
@@ -108,7 +108,7 @@ import {
   shopLotsFabricFresheners,
   shopLotsAntiSmells,
   shopLotsBathBombs
-} from "./household_chemicals/index.js?v=2026-03-24-v.1";
+} from "./household_chemicals/index.js?v=2026-03-25-v.1";
 
 // Хозяйственные товары
 import {

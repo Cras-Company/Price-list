@@ -54,7 +54,7 @@ export const shopLotsWashingGels = [
     //     description05: "&#171Astonish - 2 in 1 Non Bio Secret Garden Super Concentrated&#187 стане Вашим незамінним помічником у догляді за одягом та чарівний квітковий аромат у кожному пранні!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_lavatrice_bebe_con_latte_davena_21.jpg",
@@ -72,8 +72,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "1071 мл.",
-        priceGRN: 224,
-        priceGRNOpt: 202,
+        priceGRN: "--",
+        priceGRNOpt: 230,
         description01: "Екологічний дитячий гель для прання &#171Chanteclair - Lavatrice Bebè con Latte d'Avena&#187 створений для делікатного догляду за одягом малюків і людей з чутливою шкірою, поєднуючи ефективність очищення з максимальною м’якістю.",
         description02: "Його формула з вівсяним молоком дбайливо впливає на волокна тканин, допомагаючи зберігати їхню ніжність, природну структуру та комфорт під час щоденного носіння.",
         description03: "&#171Chanteclair - Lavatrice Bebè con Latte d'Avena&#187 ефективно видаляє забруднення, залишаючи речі чистими, свіжими й приємними на дотик без агресивного впливу на шкіру.",
@@ -297,7 +297,7 @@ export const shopLotsWashingGels = [
         description05: "Придбайте &#171Chanteclair - Lavatrice Pulito Profondo Extra Smacchiante Con Sgrassatore&#187 вже сьогодні і насолоджуйтеся ідеально чистим одягом щодня!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_bicarbonato_46.jpg",
@@ -315,8 +315,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2070 мл.",
-        priceGRN: 335,
-        priceGRNOpt: 302,
+        priceGRN: "--",
+        priceGRNOpt: 335,
         description01: "Універсальний гель з бікарбонатом &#171Chanteclair - Lavatrice Bicarbonato Brillantezza Attiva&#187 забезпечує бездоганну чистоту Вашого одягу.",
         description02: "Його унікальна формула ефективно видаляє навіть найстійкіші плями, не пошкоджуючи тканини.",
         description03: "Завдяки додатковим компонентам для блиску, Ваші речі виглядатимуть як нові після кожного прання з &#171Chanteclair - Lavatrice Bicarbonato Brillantezza Attiva&#187.",
