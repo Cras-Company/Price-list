@@ -9,22 +9,6 @@
         content="Компанія Крас пропонує купити якісні товари з Європи за приємними цінами. Широкий асортимент і швидка доставка.">
     <title>Компанія &#171;Cras&#187;</title>
 
-    <!-- Предзагрузка hero-изображений -->
-    <script>
-        (function () {
-            var m = window.matchMedia('(max-width: 767px)').matches;
-            var link = document.createElement('link');
-            link.rel = 'preload';
-            link.as = 'image';
-            link.href = m
-                ? './images/hero/hero-img-mobile-crasoria_1.webp?v=1.0.0'
-                : './images/hero/hero-img-main-crasoria_1.webp?v=1.0.0';
-            link.type = 'image/webp';
-            link.fetchPriority = 'high';
-            document.head.appendChild(link);
-        })();
-    </script>
-
     <link rel="canonical" href="https://www.cras.company/">
 
     <!-- Fonts -->
