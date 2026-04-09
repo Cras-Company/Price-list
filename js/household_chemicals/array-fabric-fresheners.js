@@ -19,7 +19,7 @@ export const shopLotsFabricFresheners = [
         volumeName: "Об'єм",
         volume: "750 мл.",
         priceGRN: 138,
-        quantityOnStorage: 2,
+        quantityOnStorage: 1,
         description01: "&#171Astonish - Fabric Refresher Cotton Fresh&#187 миттєво оновлює тканини, даруючи легкий аромат чистої бавовни.",
         description02: "Засіб підходить не лише для одягу, а й для штор, м’яких меблів та килимів, усуваючи запахи без прання.",
         description03: "Формула &#171Astonish - Fabric Refresher Cotton Fresh&#187 не залишає плям і додає відчуття свіжості у кожен куточок дому.",

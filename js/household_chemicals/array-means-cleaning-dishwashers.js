@@ -54,7 +54,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Додайте до свого догляду за одягом аромат і захист із водою для прасування &#171Denkmit - Bügelwasser Frischer Duft&#187!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_bio_entkalker_nature_250.jpg",
@@ -72,8 +72,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "250 мл.",
-        priceGRN: 107,
-        priceGRNOpt: 97,
+        priceGRN: "--",
+        priceGRNOpt: 140,
         description01: "Екологічний засіб для видалення накипу та вапняного нальоту &#171Denkmit - Bio-Entkalker Nature&#187 забезпечує ефективне очищення без шкоди для природи.",
         description02: "Формула на основі натуральних інгредієнтів швидко розчиняє навіть стійкі відкладення накипу, залишаючи техніку чистиою.",
         description03: "Ваші прилади будуть надійно захищені від накипу, що подовжить їх термін служби та підвищить ефективність роботи.",
@@ -141,7 +141,7 @@ export const shopLotsMeansCleaningDishwashers = [
     //     description05: "Подбайте про довговічність своїх приладів з &#171Denkmit - Anti-Kalk-Tabs Multi-Power 2&#187!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_anti_kalk_tabs_multi_power_4_60.jpg",
@@ -163,8 +163,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         quantityName: "Кількість",
         quantity: "60 шт.",
-        priceGRN: 314,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 330,
         description01: "&#171Denkmit - Anti Kalk Tabs Multi-Power 4&#187 — це ефективні таблетки проти вапняного нальоту, які захищають Вашу пральну машину під час кожного прання.",
         description02: "Формула діє комплексно: пом’якшує воду, запобігає утворенню накипу та продовжує термін служби техніки.",
         description03: "&#171Denkmit - Anti Kalk Tabs Multi-Power 4&#187 зберігає якість тканин, допомагає пральному порошку працювати ефективніше та нейтралізує неприємні запахи.",
@@ -172,7 +172,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Скористайтесь &#171Denkmit - Anti Kalk Tabs Multi-Power 4&#187, щоб Ваша техніка та речі залишались у відмінному стані!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_spezialsalz_2kg.jpg",
@@ -194,8 +194,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         weightName: "Вага",
         weight: "2 кг.",
-        priceGRN: 77,
-        priceGRNOpt: 70,
+        priceGRN: "--",
+        priceGRNOpt: 85,
         description01: "Сіль для пом'якшення води &#171Denkmit - Spezialsalz 5-Fach-Effect&#187 забезпечує бездоганну роботу вашої посудомийної машини.",
         description02: "Цей продукт ефективно пом'якшує воду, запобігаючи утворенню накипу та покращуючи якість миття посуду.",
         description03: "Ваш посуд залишатиметься блискучим і чистим без слідів вапняного нальоту, а посудомийна машина працюватиме довше завдяки &#171Denkmit - Spezialsalz 5-Fach-Effect&#187.",

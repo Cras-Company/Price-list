@@ -197,7 +197,7 @@ export const shopLotsForFloor = [
     //     description05: "Купуйте &#171Ace - Igiene Casa Pavimenti Con Candeggina Eucalipto Blu&#187 для підлоги, щоб вона завжди виглядала охайно та доглянуто!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_floor/ace_pavimenti_eco_ricarica_24.jpg",
@@ -217,8 +217,8 @@ export const shopLotsForFloor = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "24 гр.",
-        priceGRN: 21,
-        quantityOnStorage: 4,
+        priceGRN: "--",
+        priceGRNOpt: 25,
         description01: "Оживіть Ваш дім природною чистотою з екологічним засобом для миття підлоги &#171Ace - Pavimenti Eco-Ricarica Freschezza Floreale&#187 - екологічно чистий продукт, який піклується про Вас та довкілля.",
         description02: "Ефективно видаляє бруд і залишає підлоги блискучими. Його натуральна формула з квітковим ароматом створює свіжу та приємну атмосферу у Вашому домі.",
         description03: "Уявіть собі підлоги, які не тільки чисті, але й наповнюють дім природним квітковим ароматом. З &#171Ace - Pavimenti Eco-Ricarica Freschezza Floreale&#187 Ваш дім стане справжнім оазисом свіжості та затишку.",

@@ -351,7 +351,7 @@ export const shopLotsWashingGels = [
         description05: "Замовте зараз гель &#171Chanteclair - Lavatrice Colorati Ravviva E Protegge&#187 та насолоджуйтесь яскравими кольорами вашого одягу протягом тривалого часу!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/washing_gels/chanteclair_igienizzante_rimuove_germi_e_batteri_46.jpg",
@@ -369,8 +369,8 @@ export const shopLotsWashingGels = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "2070 мл.",
-        priceGRN: 335,
-        priceGRNOpt: 302,
+        priceGRN: "--",
+        priceGRNOpt: 335,
         description01: "&#171Chanteclair - Igienizzante Rimuove Germi E Batteri&#187 — універсальний гель-дезінфектор, який забезпечує гігієнічну чистоту у будь-яких умовах.",
         description02: "Його потужна формула знищує бактерії та мікроби, ефективно нейтралізує запахи навіть у холодній воді.",
         description03: "&#171Chanteclair - Igienizzante Rimuove Germi E Batteri&#187 ідеально підходить для різних тканин, де важлива безпека та свіжість.",

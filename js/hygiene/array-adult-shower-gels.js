@@ -324,7 +324,7 @@ export const shopLotsAdultShowerGels = [
   //     description05: "Оберіть &#171Dermomed - Shower Gel Iris&#187, щоб побалувати свою шкіру якісним та ефективним доглядом!"
   // },
   {
-      type: "retail",
+      type: "only-wholesale оптом",
       mainCategory: "hygiene-products",
       subcategory: "shower-gels",
       url: "./images/shop/gigiena/bath_gels/dermomed_beauty_white_flower_1000.jpg",
@@ -342,8 +342,8 @@ export const shopLotsAdultShowerGels = [
       countryName: "Італія",
       volumeName: "Об'єм",
       volume: "1000 мл.",
-      priceGRN: 156,
-      quantityOnStorage: 1,
+      priceGRN: "--",
+      priceGRNOpt: 156,
       description01: "Гель для душу &#171Dermomed - Shower Gel Beauty White Flower&#187 з білою квіткою дарує ніжний аромат та відчуття легкості кожного дня.",
       description02: "Формула з гіалуроновою кислотою глибоко зволожує шкіру, роблячи її гладенькою та пружною після кожного використання.",
       description03: "Делікатний аромат білих квітів &#171Dermomed - Shower Gel Beauty White Flower&#187 залишається на тілі, створюючи атмосферу гармонії та свіжості протягом дня.",

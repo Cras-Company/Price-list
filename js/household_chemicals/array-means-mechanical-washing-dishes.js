@@ -151,7 +151,7 @@ export const shopLotsMeansMechanicalWashingDishes = [
         description05: "Дбайте про Ваш посуд з капсулами &#171Denkmit - Geschirr-Reiniger Multi-Power Energy Caps&#187, які не містять цинку, і отримуйте бездоганну чистоту з кожним миттям!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/mechanical/denkmit_klarspuler_1l.jpg",
@@ -169,8 +169,8 @@ export const shopLotsMeansMechanicalWashingDishes = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 91,
-        priceGRNOpt: 82,
+        priceGRN: "--",
+        priceGRNOpt: 91,
         description01: "Ополіскувач &#171Denkmit - Klarspüler&#187 ефективно видаляє залишки миючих засобів та водяні плями, забезпечуючи ідеальний блиск і чистоту кожного предмета.",
         description02: "Забудьте про плями на посуді після миття – ваші тарілки завжди будуть блищати.",
         description03: "Антикальк-компоненти у &#171Denkmit - Klarspüler&#187 захищають Вашу посудомийну машину від накипу, продовжуючи її термін служби.",

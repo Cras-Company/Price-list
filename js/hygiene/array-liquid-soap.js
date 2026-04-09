@@ -615,7 +615,7 @@ export const shopLotsLiquidSoap = [
     //     description05: "Замовляйте &#171Milmil - Crema Sapone Orchidea E Seta&#187 зараз і подаруйте собі незабутні відчуття ніжності та свіжості кожного дня!"
     // },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "hygiene-products",
         subcategory: "soap",
         url: "./images/shop/gigiena/soap/liquid_soap/milmil_sapone_liquido_marsiglia_500.jpg",
@@ -633,8 +633,8 @@ export const shopLotsLiquidSoap = [
         countryName: "Італія",
         volumeName: "Об'єм",
         volume: "500 мл.",
-        priceGRN: 38,
-        priceGRNOpt: 35,
+        priceGRN: "--",
+        priceGRNOpt: 55,
         description01: "Відкрийте для себе справжнє марсельське рідке мило &#171Milmil - Sapone Liquido Marsiglia&#187 з оливковою, кокосовою та пальмовою оліями.",
         description02: "Його природний склад забезпечує ніжне очищення шкіри, роблячи її м'якою і зволоженою.",
         description03: "Натуральні олії дарують Вашій шкірі живлення та захист, надаючи їй здорового вигляду.",

@@ -359,7 +359,7 @@ export const shopLotsForFurniture = [
         description05: "Подаруйте своїм меблям нове життя з &#171Dr. Beckmann - Polster Flecken-Bürste&#187 – довіртеся силі активного кисню!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/for_furniture/dr.beckmann_teppich_flecken_burste_650.jpg",
@@ -377,8 +377,8 @@ export const shopLotsForFurniture = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "650 мл.",
-        priceGRN: 230,
-        priceGRNOpt: 196,
+        priceGRN: "--",
+        priceGRNOpt: 250,
         description01: "Чисті килими – це основа затишного дому, і засіб для чищення &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 допоможе Вам цього досягти.",
         description02: "Вбудована щітка дозволяє ретельно обробити кожне волокно, забезпечуючи глибоке очищення без зайвих зусиль.",
         description03: "Активний кисень у складі &#171Dr. Beckmann - Teppich Flecken-Bürste&#187 ефективно видаляє навіть найскладніші плями, залишаючи килим свіжим і яскравим.",
