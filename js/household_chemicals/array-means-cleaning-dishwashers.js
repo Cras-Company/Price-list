@@ -203,7 +203,7 @@ export const shopLotsMeansCleaningDishwashers = [
         description05: "Придбайте сіль  &#171Denkmit - Spezialsalz 5-Fach-Effect&#187 сьогодні і забезпечте ідеальну чистоту та захист вашої посудомийної машини!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "cleaning-care-products",
         url: "./images/shop/household_chemicals/means_for_cleaning/dishwashers/denkmit_maschinenpfleger_250.jpg",
@@ -223,8 +223,8 @@ export const shopLotsMeansCleaningDishwashers = [
         countryName: "Німеччина",
         volumeName: "Об'єм",
         volume: "250 мл.",
-        priceGRN: 95,
-        priceGRNOpt: 86,
+        priceGRN: "--",
+        priceGRNOpt: 95,
         description01: "Засіб для чищення посудомийних машин &#171Denkmit - Maschinenpfleger&#187 – комплексний догляд для Вашої техніки.",
         description02: "Потужна формула ефективно розчиняє жир, вапняний наліт і залишки миючих засобів, забезпечуючи бездоганну чистоту внутрішніх компонентів машини.",
         description03: "Антикальк-компоненти &#171Denkmit - Maschinenpfleger&#187 продовжують термін служби посудомийної машини, а нейтралізатор запаху усуває неприємні аромати, залишаючи приємну свіжість.",

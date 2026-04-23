@@ -1,6 +1,6 @@
 export const shopLotsSpaghetti = [
     // {
-    //     type: "retail",
+    //     type: "only-wholesale оптом",
     // mainCategory: "foodstuffs",
         // subcategory: "pasta",    
     // url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_3_500.jpg",
@@ -31,7 +31,7 @@ export const shopLotsSpaghetti = [
     //     description05: "Обов'язково спробуйте &#171Barilla - Spaghetti №3&#187 і перетворіть ваші кулінарні творіння у шедеври італійської гастрономії!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_5_500.jpg",
@@ -53,8 +53,8 @@ export const shopLotsSpaghetti = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 55,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Ласкаво просимо у світ справжньої італійської кухні з &#171Barilla - Spaghetti №5&#187.",
         description02: "Ці тверді спагетті виробляються із найкращих сортів пшениці, що дарує їм особливий аромат і текстуру.",
         description03: "Підкресліть свою унікальність і відчуйте, як справжній італійський смак відзначається з &#171Barilla - Spaghetti №5&#187.",
@@ -62,7 +62,7 @@ export const shopLotsSpaghetti = [
         description05: "Обов'язково спробуйте &#171Barilla - Spaghetti №5&#187 і перетворіть ваші кулінарні творіння у шедеври італійської гастрономії!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/barilla_spaghetti_7_500.jpg",
@@ -84,8 +84,8 @@ export const shopLotsSpaghetti = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 55,
-        quantityOnStorage: 2,
+        priceGRN: "--",
+        priceGRNOpt: 80,
         description01: "Ласкаво просимо у світ справжньої італійської кухні з &#171Barilla - Spaghetti №7&#187.",
         description02: "Ці тверді спагетті виробляються із найкращих сортів пшениці, що дарує їм особливий аромат і текстуру.",
         description03: "Підкресліть свою унікальність і відчуйте, як справжній італійський смак відзначається з &#171Barilla - Spaghetti №7&#187.",
@@ -93,7 +93,7 @@ export const shopLotsSpaghetti = [
         description05: "Обов'язково спробуйте &#171Barilla - Spaghetti №7&#187 і перетворіть ваші кулінарні творіння у шедеври італійської гастрономії!"
     },
     // {
-    //     type: "retail",
+    //     type: "only-wholesale оптом",
     // mainCategory: "foodstuffs",
         // subcategory: "pasta",    
     // url: "./images/shop/food/pasta/spaghetti/combino_spaghetti_500.jpg",
@@ -118,7 +118,7 @@ export const shopLotsSpaghetti = [
     //     description05: "Підкресліть свою кулінарну творчість з &#171Combino - Spaghetti&#187 та створіть справжні шедеври на вашій кухні!"
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/reggia_linguine_5_500.jpg",
@@ -146,8 +146,8 @@ export const shopLotsSpaghetti = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 47,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 70,
         description01: "Вітаємо вас у світі справжньої італійської гастрономії з плоскими спагетті &#171Pasta Reggia - Linguine №5&#187. Ця паста завойовує вашу увагу своєю текстурою та властивим смаком, нагадуючи про витонченість італійських страв.",
         description02: "Кожен шматочок - це творіння майстрів пасти, яке втілює найвищі стандарти якості. Інтерес до цієї пасти виникає з кожним кулінарним досвідом, коли Ви відчуваєте тонкість та арому італійської кухні.",
         description03: "Викличте бажання насолоджуватися справжнім смаком Італії вдома, готуючи &#171Pasta Reggia - Linguine №5&#187.",
@@ -155,7 +155,7 @@ export const shopLotsSpaghetti = [
         description05: "Покладіть плоскі спагетті &#171Pasta Reggia - Linguine №5&#187 у свій кошик та відчуйте смаку Італії, яка створить неперевершений кулінарний досвід на вашій кухні!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/reggia_spaghetti_19_500.jpg",
@@ -183,8 +183,8 @@ export const shopLotsSpaghetti = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 47,
-        quantityOnStorage: 1,
+        priceGRN: "--",
+        priceGRNOpt: 70,
         description01: "Вітаємо Вас у світі смаку та традицій італійської кухні з &#171Pasta Reggia - Spaghetti №19&#187. Неповторний смак цих спагетті нададуть вашому обіду неповторний шарм.",
         description02: "Виготовлені з найкращого пшеничного борошна, ці спагетті вражають своєю формою та текстурою. Довгі, елегантні, вони відмінно підходять для будь-якого соусу.",
         description03: "Завдяки вишуканій якості та неповторному аромату, Ви захочете повертатися до &#171Pasta Reggia - Spaghetti №19&#187 знову та знову.",
@@ -192,7 +192,7 @@ export const shopLotsSpaghetti = [
         description05: "Спробуйте &#171Pasta Reggia - Spaghetti №19&#187 вже сьогодні та зануртеся у світ смачних італійських страв!"
     },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "foodstuffs",
         subcategory: "pasta",
         url: "./images/shop/food/pasta/spaghetti/riscossa_vermicelli_4_500.jpg",
@@ -218,8 +218,8 @@ export const shopLotsSpaghetti = [
         countryName: "Італія",
         weightName: "Вага",
         weight: "500 гр.",
-        priceGRN: 47,
-        quantityOnStorage: 3,
+        priceGRN: "--",
+        priceGRNOpt: 70,
         description01: "Запрошуємо Вас на справжню італійську гастрономічну подорож з &#171Riscossa - Vermicelli №4&#187.  Ці довгі та тонкі спагеті вразять Вас своєю елегантністю та ідеальною текстурою.",
         description02: "Виготовлені з високоякісного сорту пшениці, вони швидко готуються та стануть ідеальною основою для будь-якого соусу.",
         description03: "Спробувавши &#171Riscossa - Vermicelli №4&#187, Ви відчуєте як вони переносять Вас прямо до серця Італії.",

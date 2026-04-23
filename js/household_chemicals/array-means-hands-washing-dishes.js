@@ -615,7 +615,7 @@ export const shopLotsMeansHandsWashingDishes = [
     //     description05: "Зробіть свою кухню бездоганною і блискучою з &#171K-Classic - Spülmittel Konzentrat Ultra Plus&#187, який подарує вам максимальний комфорт та чистоту."
     // },
     {
-        type: "retail",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "dishwashing-detergents",
         url: "./images/shop/household_chemicals/means_for_washing_dishes/hands/la_salud_washing_up_liquid_lemon_1l.jpg",
@@ -633,8 +633,8 @@ export const shopLotsMeansHandsWashingDishes = [
         countryName: "Іспанія",
         volumeName: "Об'єм",
         volume: "1 л.",
-        priceGRN: 71,
-        quantityOnStorage: 6,
+        priceGRN: "--",
+        priceGRNOpt: 71,
         description01: "Засіб для миття посуду &#171La Salud - LavaVajillas Manual Lemon&#187 – це потужне очищення та свіжа цитрусова нота у кожному митті.",
         description02: "Ефективна формула швидко розчиняє жир і видаляє залишки їжі навіть у холодній воді, забезпечуючи ідеальну чистоту.",
         description03: "Завдяки аромату соковитого лимону у &#171La Salud - LavaVajillas Manual Lemon&#187 посуд не лише сяє, а й набуває приємної свіжості без різких запахів.",
@@ -715,7 +715,7 @@ export const shopLotsMeansHandsWashingDishes = [
         volumeName: "Об'єм",
         volume: "450 мл.",
         priceGRN: 77,
-        quantityOnStorage: 5,
+        quantityOnStorage: 1,
         description01: "Засіб для миття посуду &#171Morning Fresh - Super Corcentrated Lemon&#187 змінить Ваше уявлення про чистоту на кухні.",
         description02: "Яскравий аромат лимона дарує відчуття свіжості та натхнення під час миття посуду.",
         description03: "Висококонцентрована формула &#171Morning Fresh - Super Corcentrated Lemon&#187 ефективно розчиняє жир та залишки їжі, забезпечуючи бездоганну чистоту з мінімальним зусиллям.",
