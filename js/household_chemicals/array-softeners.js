@@ -324,7 +324,7 @@ export const shopLotsSofteners = [
         description05: "Спробуйте &#171Chanteclair - Ammorbidente Sali Marini E Fior Di Loto&#187 до прання, щоб білизна залишалася м’якою, ароматною та приємною на дотик день за днем!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_blue_splash_1700.jpg",
@@ -344,8 +344,8 @@ export const shopLotsSofteners = [
         countryName: "Нідерланди",
         volumeName: "Об'єм",
         volume: "1700 мл.",
-        priceGRN: 216,
-        priceGRNOpt: 195,
+        priceGRN: "--",
+        priceGRNOpt: 200,
         description01: "&#171Coccolino - Blue Splash&#187 - ополіскувач з ароматами яблука, троянди та сандалового дерева, який робить Ваші речі не лише м'якими, але й приголомшливо ароматними.",
         description02: "Це не просто ополіскувач, а справжня подорож у світ ароматів. Якість, яку Ви заслуговуєте, тепер поєднана з трійкою найчарівніших ароматів. Яблуко додає свіжості, троянда - ніжності, а сандалове дерево - тепла та розкіші.",
         description03: "Бажаєте, щоб Ваші речі завжди мали аромат свіжості та легкості? &#171Coccolino - Blue Splash&#187 робить Ваші тканини менш жорсткими, а запах триває довше, надаючи Вашим речам особливий шарм.",
@@ -382,7 +382,7 @@ export const shopLotsSofteners = [
         description05: "Почніть кожен день з посмішки та сонячного настрою - купуйте &#171Coccolino - Happy Yellow&#187 прямо зараз!"
     },
     {
-        type: "wholesale оптом",
+        type: "only-wholesale оптом",
         mainCategory: "household-chemicals",
         subcategory: "detergents",
         url: "./images/shop/household_chemicals/laundry_detergents/softeners/coccolino_orange_rush_1700.jpg",
@@ -402,8 +402,8 @@ export const shopLotsSofteners = [
         countryName: "Нідерланди",
         volumeName: "Об'єм",
         volume: "1700 мл.",
-        priceGRN: 216,
-        priceGRNOpt: 195,
+        priceGRN: "--",
+        priceGRNOpt: 200,
         description01: "&#171Coccolino - Orange Rush&#187 - ополіскувач з ароматами грейпфрута, абрикосу та малини, який вдихне у Ваші речі свіжість і енергію літнього ранку.",
         description02: "Це не просто ополіскувач, а справжня естафета свіжих ароматів, які змінюються від грейпфрута до абрикоса і закінчуються малиновим сплеском. Він робить Ваші речі м'якими, ароматними і наповненими життєвою енергією.",
         description03: "&#171Coccolino - Orange Rush&#187 робить Ваші речі не тільки чистими, але і приносить у них веселий аромат. Відчуйте, як бажання насолоджуватися кожним моментом оживає в ароматах Вашої білизни.",
